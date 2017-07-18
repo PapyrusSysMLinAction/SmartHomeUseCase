@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ActionLanguage="http://www.omg.org/spec/ALF/20120827/ActionLanguage-Profile" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xsi:schemaLocation="http://www.omg.org/spec/ALF/20120827/ActionLanguage-Profile pathmap://PAPYRUS_ACTIONLANGUAGE_PROFILE/ActionLanguage-Profile.profile.uml#_Kv8EIKFXEeS_KNX0nfvIVQ">
+  <uml:Model xmi:id="_PwIqAFUYEeS2OeOtCVTLqA" name="ModelCommentingMetaModel">
+    <ownedComment xmi:type="uml:Comment" xmi:id="_xub0IFUbEeS2OeOtCVTLqA">
+      <body>This model denotes all the needed concepts for commenting a model in the context of model reviewing activity.</body>
+    </ownedComment>
+    <packageImport xmi:type="uml:PackageImport" xmi:id="_PwIqAVUYEeS2OeOtCVTLqA">
+      <importedPackage xmi:type="uml:Model" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#_0"/>
+    </packageImport>
+    <packagedElement xmi:type="uml:Class" xmi:id="_sY0XcGTLEeS0T8QWLYAQCA" name="ModelElement">
+      <generalization xmi:type="uml:Generalization" xmi:id="_D5M4kGTMEeS0T8QWLYAQCA" general="_-Ce80GTLEeS0T8QWLYAQCA"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_zVufMGTLEeS0T8QWLYAQCA" name="ModelMofification">
+      <generalization xmi:type="uml:Generalization" xmi:id="_DZ7ioGTMEeS0T8QWLYAQCA" general="_-Ce80GTLEeS0T8QWLYAQCA"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_-Ce80GTLEeS0T8QWLYAQCA" name="CommentedElement"/>
+    <packagedElement xmi:type="uml:Class" xmi:id="_rS7Q8GTMEeS0T8QWLYAQCA" name="CommentRepository">
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_rS7Q8WTMEeS0T8QWLYAQCA" name="ownedComment" aggregation="composite">
+        <type xmi:type="uml:Class" href="../CommentModel.uml#_wCZdAFnlEeSgadB-4Q9IHg"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_rS7Q8mTMEeS0T8QWLYAQCA"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_rS7Q82TMEeS0T8QWLYAQCA" value="*"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_rS7Q9GTMEeS0T8QWLYAQCA" name="authors" aggregation="composite">
+        <type xmi:type="uml:Class" href="../CommentModel.uml#_BbKfoFnmEeSgadB-4Q9IHg"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_rS7Q9WTMEeS0T8QWLYAQCA"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_rS7Q9mTMEeS0T8QWLYAQCA" value="*"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_wKomwGTMEeS0T8QWLYAQCA" name="ownedComments" type="_q7zxIFUYEeS2OeOtCVTLqA" aggregation="composite" association="_wKpN0GTMEeS0T8QWLYAQCA">
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_wKomwWTMEeS0T8QWLYAQCA"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_wKomwmTMEeS0T8QWLYAQCA" value="*"/>
+      </ownedAttribute>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_wKpN0GTMEeS0T8QWLYAQCA" memberEnd="_wKpN0WTMEeS0T8QWLYAQCA _wKomwGTMEeS0T8QWLYAQCA">
+      <ownedEnd xmi:type="uml:Property" xmi:id="_wKpN0WTMEeS0T8QWLYAQCA" name="commentRepo" type="_rS7Q8GTMEeS0T8QWLYAQCA" association="_wKpN0GTMEeS0T8QWLYAQCA">
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_wKpN0mTMEeS0T8QWLYAQCA"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_wKpN02TMEeS0T8QWLYAQCA" value="1"/>
+      </ownedEnd>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Enumeration" xmi:id="_DErDAG_-EeSEXudraKyXUQ" name="CriticityKind">
+      <ownedLiteral xmi:type="uml:EnumerationLiteral" xmi:id="_DErDAW_-EeSEXudraKyXUQ" name="Blocking"/>
+      <ownedLiteral xmi:type="uml:EnumerationLiteral" xmi:id="_DErDAm_-EeSEXudraKyXUQ" name="Major"/>
+      <ownedLiteral xmi:type="uml:EnumerationLiteral" xmi:id="_DErDA2_-EeSEXudraKyXUQ" name="Minor"/>
+      <ownedLiteral xmi:type="uml:EnumerationLiteral" xmi:id="_DErDBG_-EeSEXudraKyXUQ" name="Comment"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_j3eVQG__EeSEXudraKyXUQ" name="Description">
+      <generalization xmi:type="uml:Generalization" xmi:id="_j3eVQW__EeSEXudraKyXUQ" general="_q7zxIFUYEeS2OeOtCVTLqA"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_lbg64G__EeSEXudraKyXUQ" name="Observation">
+      <generalization xmi:type="uml:Generalization" xmi:id="_lbg64W__EeSEXudraKyXUQ" general="_q7zxIFUYEeS2OeOtCVTLqA"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_mzah8G__EeSEXudraKyXUQ" name="Example">
+      <generalization xmi:type="uml:Generalization" xmi:id="_mzah8W__EeSEXudraKyXUQ" general="_q7zxIFUYEeS2OeOtCVTLqA"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_q7zxIFUYEeS2OeOtCVTLqA" name="Comment">
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_qKZs4FUZEeS2OeOtCVTLqA" name="status" visibility="public" type="_zvGWQFUZEeS2OeOtCVTLqA">
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_t25z0FUZEeS2OeOtCVTLqA"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_t27B8FUZEeS2OeOtCVTLqA" value="1"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_GvCdQGTMEeS0T8QWLYAQCA" name="commentedElements" type="_-Ce80GTLEeS0T8QWLYAQCA" association="_GvEScGTMEeS0T8QWLYAQCA">
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_GvCdQWTMEeS0T8QWLYAQCA"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_GvCdQmTMEeS0T8QWLYAQCA" value="*"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_agywgGTMEeS0T8QWLYAQCA" name="responses" type="_q7zxIFUYEeS2OeOtCVTLqA" aggregation="composite" association="_agywg2TMEeS0T8QWLYAQCA">
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_agywgWTMEeS0T8QWLYAQCA"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_agywgmTMEeS0T8QWLYAQCA" value="*"/>
+      </ownedAttribute>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_u3XnwFUYEeS2OeOtCVTLqA" name="Review">
+      <generalization xmi:type="uml:Generalization" xmi:id="_hlkvoFUaEeS2OeOtCVTLqA" general="_q7zxIFUYEeS2OeOtCVTLqA"/>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_49fXoG_9EeSEXudraKyXUQ" name="criticity">
+        <type xmi:type="uml:Enumeration" href="ModelReviewing.profile.uml#_19z2kG6hEeSEXudraKyXUQ"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_49fXoW_9EeSEXudraKyXUQ" value="1"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_49fXom_9EeSEXudraKyXUQ" value="1"/>
+        <defaultValue xmi:type="uml:LiteralString" xmi:id="_49fXo2_9EeSEXudraKyXUQ" name="criticityAttributeDefaultValue" value="Comment"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_6RbEsG_9EeSEXudraKyXUQ" name="criticity" visibility="public" type="_DErDAG_-EeSEXudraKyXUQ">
+        <ownedComment xmi:type="uml:Comment" xmi:id="_8LvcUG_9EeSEXudraKyXUQ">
+          <body>+ criticity :Undefined {unique} = &quot;Comment&quot;</body>
+        </ownedComment>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_6RbEsW_9EeSEXudraKyXUQ" value="1"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_6RbEsm_9EeSEXudraKyXUQ" value="1"/>
+        <defaultValue xmi:type="uml:LiteralString" xmi:id="_6RbEs2_9EeSEXudraKyXUQ" name="criticityAttributeDefaultValue" value="Comment"/>
+      </ownedAttribute>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_u4GnkFUYEeS2OeOtCVTLqA" name="Question">
+      <generalization xmi:type="uml:Generalization" xmi:id="_iyyJoFUaEeS2OeOtCVTLqA" general="_q7zxIFUYEeS2OeOtCVTLqA"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_6MiwQFUYEeS2OeOtCVTLqA" name="ToDo">
+      <generalization xmi:type="uml:Generalization" xmi:id="_jdbpIFUaEeS2OeOtCVTLqA" general="_q7zxIFUYEeS2OeOtCVTLqA"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_6M4HcFUYEeS2OeOtCVTLqA" name="Answer">
+      <generalization xmi:type="uml:Generalization" xmi:id="_kAJUoFUaEeS2OeOtCVTLqA" general="_q7zxIFUYEeS2OeOtCVTLqA"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Enumeration" xmi:id="_zvGWQFUZEeS2OeOtCVTLqA" name="CommentStatusKind">
+      <ownedLiteral xmi:type="uml:EnumerationLiteral" xmi:id="_6CqmEFUZEeS2OeOtCVTLqA" name="Accepted"/>
+      <ownedLiteral xmi:type="uml:EnumerationLiteral" xmi:id="_9-PDwFUZEeS2OeOtCVTLqA" name="Canceled"/>
+      <ownedLiteral xmi:type="uml:EnumerationLiteral" xmi:id="_-JOy0FUZEeS2OeOtCVTLqA" name="Closed"/>
+      <ownedLiteral xmi:type="uml:EnumerationLiteral" xmi:id="_-Zjt0FUZEeS2OeOtCVTLqA" name="Declined"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_GvEScGTMEeS0T8QWLYAQCA" memberEnd="_GvEScWTMEeS0T8QWLYAQCA _GvCdQGTMEeS0T8QWLYAQCA">
+      <ownedEnd xmi:type="uml:Property" xmi:id="_GvEScWTMEeS0T8QWLYAQCA" name="comment" type="_q7zxIFUYEeS2OeOtCVTLqA" association="_GvEScGTMEeS0T8QWLYAQCA">
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_GvEScmTMEeS0T8QWLYAQCA" value="1"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_GvESc2TMEeS0T8QWLYAQCA" value="1"/>
+      </ownedEnd>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_agywg2TMEeS0T8QWLYAQCA" memberEnd="_agywhGTMEeS0T8QWLYAQCA _agywgGTMEeS0T8QWLYAQCA">
+      <ownedEnd xmi:type="uml:Property" xmi:id="_agywhGTMEeS0T8QWLYAQCA" name="origin" type="_q7zxIFUYEeS2OeOtCVTLqA" association="_agywg2TMEeS0T8QWLYAQCA">
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_agywhWTMEeS0T8QWLYAQCA" value="1"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_agywhmTMEeS0T8QWLYAQCA" value="1"/>
+      </ownedEnd>
+    </packagedElement>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_8MId4G_9EeSEXudraKyXUQ">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_7YbCUObhEeWvNcXfTDqmAA" source="PapyrusVersion">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_7YbCUebhEeWvNcXfTDqmAA" key="Version" value="0.1.1"/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_7YbCUubhEeWvNcXfTDqmAA" key="Comment" value=""/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_7YbCU-bhEeWvNcXfTDqmAA" key="Copyright" value=""/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_7YbCVObhEeWvNcXfTDqmAA" key="Date" value="2015-01-21"/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_7YbCVebhEeWvNcXfTDqmAA" key="Author" value=""/>
+      </eAnnotations>
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_8OGMwG_9EeSEXudraKyXUQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="pathmap://PAPYRUS_ACTIONLANGUAGE_PROFILE/ActionLanguage-Profile.profile.uml#_Kv8EIKFXEeS_KNX0nfvIVQ"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="pathmap://PAPYRUS_ACTIONLANGUAGE_PROFILE/ActionLanguage-Profile.profile.uml#ActionLanguage"/>
+    </profileApplication>
+  </uml:Model>
+  <ActionLanguage:TextualRepresentation xmi:id="_8OIB8G_9EeSEXudraKyXUQ" base_Comment="_8LvcUG_9EeSEXudraKyXUQ" language="org.eclipse.papyrus.uml.textedit.property.xtext.UmlProperty"/>
+</xmi:XMI>

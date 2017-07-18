@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Profile xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_Tr7GcGAWEeS-2dbNdHDnFw" name="ReviewProfile" metaclassReference="_ge6QwGAWEeS-2dbNdHDnFw _wfR9EGAWEeS-2dbNdHDnFw" metamodelReference="_Tr7GcWAWEeS-2dbNdHDnFw">
+  <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_ceePQGAYEeS-2dbNdHDnFw" source="http://www.eclipse.org/uml2/2.0.0/UML">
+    <contents xmi:type="ecore:EPackage" xmi:id="_VpwB0GW4EeSPMtL3PG5w7g" name="ReviewProfile" nsURI="http:///schemas/ReviewProfile/_VpvawGW4EeSPMtL3PG5w7g/0" nsPrefix="ReviewProfile">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_VpwB0WW4EeSPMtL3PG5w7g" source="http://www.eclipse.org/uml2/4.1.0/UML">
+        <references xmi:type="ecore:EPackage" href="VersioningML.profile.uml#_SVfbwWW4EeSPMtL3PG5w7g"/>
+      </eAnnotations>
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_VpxP8GW4EeSPMtL3PG5w7g" source="PapyrusVersion">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_VpxP8WW4EeSPMtL3PG5w7g" key="Version" value="0.0.1"/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_VpxP8mW4EeSPMtL3PG5w7g" key="Comment" value=""/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_VpxP82W4EeSPMtL3PG5w7g" key="Copyright" value="CEA LIST"/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_VpxP9GW4EeSPMtL3PG5w7g" key="Date" value="2014-11-06"/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_VpxP9WW4EeSPMtL3PG5w7g" key="Author" value="CEA LIST"/>
+      </eAnnotations>
+      <eClassifiers xmi:type="ecore:EClass" xmi:id="_VpwB0mW4EeSPMtL3PG5w7g" name="ReviewRepository">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_VpwB02W4EeSPMtL3PG5w7g" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_Z-8jsGAWEeS-2dbNdHDnFw"/>
+        <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_VpwB1GW4EeSPMtL3PG5w7g" name="base_Model" ordered="false" lowerBound="1">
+          <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/5.0.0/UML#//Model"/>
+        </eStructuralFeatures>
+      </eClassifiers>
+      <eClassifiers xmi:type="ecore:EClass" xmi:id="_VpwB1mW4EeSPMtL3PG5w7g" name="Comment">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_VpwB12W4EeSPMtL3PG5w7g" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_qgAiQGAWEeS-2dbNdHDnFw"/>
+        <eSuperTypes xmi:type="ecore:EClass" href="VersioningML.profile.uml#_SVfbwmW4EeSPMtL3PG5w7g"/>
+        <eStructuralFeatures xmi:type="ecore:EReference" xmi:id="_VpwB2GW4EeSPMtL3PG5w7g" name="base_Comment" ordered="false" lowerBound="1">
+          <eType xmi:type="ecore:EClass" href="http://www.eclipse.org/uml2/5.0.0/UML#//Comment"/>
+        </eStructuralFeatures>
+        <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_VpwB2mW4EeSPMtL3PG5w7g" name="status" ordered="false" eType="_VpwB4WW4EeSPMtL3PG5w7g"/>
+        <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_VpwB3GW4EeSPMtL3PG5w7g" name="diffRef" ordered="false">
+          <eType xmi:type="ecore:EDataType" href="http://www.eclipse.org/uml2/5.0.0/Types#//String"/>
+        </eStructuralFeatures>
+        <eStructuralFeatures xmi:type="ecore:EAttribute" xmi:id="_VpwB3mW4EeSPMtL3PG5w7g" name="subject" ordered="false">
+          <eType xmi:type="ecore:EDataType" href="http://www.eclipse.org/uml2/5.0.0/Types#//String"/>
+        </eStructuralFeatures>
+      </eClassifiers>
+      <eClassifiers xmi:type="ecore:EEnum" xmi:id="_VpwB4WW4EeSPMtL3PG5w7g" name="CommentStatusKind">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_VpwB4mW4EeSPMtL3PG5w7g" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_tVCcMGTYEeSPMtL3PG5w7g"/>
+        <eLiterals xmi:type="ecore:EEnumLiteral" xmi:id="_VpwB42W4EeSPMtL3PG5w7g" name="NoStatus"/>
+        <eLiterals xmi:type="ecore:EEnumLiteral" xmi:id="_VpwB5GW4EeSPMtL3PG5w7g" name="Accepted" value="1"/>
+        <eLiterals xmi:type="ecore:EEnumLiteral" xmi:id="_VpwB5WW4EeSPMtL3PG5w7g" name="Canceled" value="2"/>
+        <eLiterals xmi:type="ecore:EEnumLiteral" xmi:id="_VpwB5mW4EeSPMtL3PG5w7g" name="Closed" value="3"/>
+        <eLiterals xmi:type="ecore:EEnumLiteral" xmi:id="_VpwB52W4EeSPMtL3PG5w7g" name="Declined" value="4"/>
+      </eClassifiers>
+      <eClassifiers xmi:type="ecore:EClass" xmi:id="_VpwB6GW4EeSPMtL3PG5w7g" name="Review" eSuperTypes="_VpwB1mW4EeSPMtL3PG5w7g">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_VpwB6WW4EeSPMtL3PG5w7g" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_2fnVYGTYEeSPMtL3PG5w7g"/>
+      </eClassifiers>
+      <eClassifiers xmi:type="ecore:EClass" xmi:id="_VpwB62W4EeSPMtL3PG5w7g" name="Question" eSuperTypes="_VpwB1mW4EeSPMtL3PG5w7g">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_VpwB7GW4EeSPMtL3PG5w7g" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_2n5HoGTYEeSPMtL3PG5w7g"/>
+      </eClassifiers>
+      <eClassifiers xmi:type="ecore:EClass" xmi:id="_VpwB7mW4EeSPMtL3PG5w7g" name="Answer" eSuperTypes="_VpwB1mW4EeSPMtL3PG5w7g">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_VpwB72W4EeSPMtL3PG5w7g" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_2uKHsGTYEeSPMtL3PG5w7g"/>
+      </eClassifiers>
+      <eClassifiers xmi:type="ecore:EClass" xmi:id="_VpwB8WW4EeSPMtL3PG5w7g" name="Todo" eSuperTypes="_VpwB1mW4EeSPMtL3PG5w7g">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_VpwB8mW4EeSPMtL3PG5w7g" source="http://www.eclipse.org/uml2/2.0.0/UML" references="_201XcGTYEeSPMtL3PG5w7g"/>
+      </eClassifiers>
+    </contents>
+  </eAnnotations>
+  <elementImport xmi:type="uml:ElementImport" xmi:id="_ge6QwGAWEeS-2dbNdHDnFw" alias="Model">
+    <importedElement xmi:type="uml:Class" href="pathmap://UML_METAMODELS/UML.metamodel.uml#Model"/>
+  </elementImport>
+  <elementImport xmi:type="uml:ElementImport" xmi:id="_wfR9EGAWEeS-2dbNdHDnFw" alias="Comment">
+    <importedElement xmi:type="uml:Class" href="pathmap://UML_METAMODELS/UML.metamodel.uml#Comment"/>
+  </elementImport>
+  <packageImport xmi:type="uml:PackageImport" xmi:id="_Tr7GcWAWEeS-2dbNdHDnFw">
+    <importedPackage xmi:type="uml:Model" href="pathmap://UML_METAMODELS/UML.metamodel.uml#_0"/>
+  </packageImport>
+  <packageImport xmi:type="uml:PackageImport" xmi:id="_Tr7GcmAWEeS-2dbNdHDnFw">
+    <importedPackage xmi:type="uml:Model" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#_0"/>
+  </packageImport>
+  <packageImport xmi:type="uml:PackageImport" xmi:id="__8XHMGTZEeSPMtL3PG5w7g">
+    <importedPackage xmi:type="uml:Profile" href="VersioningML.profile.uml#_oQIXkM7dEeOUWOjBbvvZ9Q"/>
+  </packageImport>
+  <packagedElement xmi:type="uml:Stereotype" xmi:id="_Z-8jsGAWEeS-2dbNdHDnFw" name="ReviewRepository">
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_h04lMGAWEeS-2dbNdHDnFw" name="base_Model" association="_h05MQGAWEeS-2dbNdHDnFw">
+      <type xmi:type="uml:Class" href="pathmap://UML_METAMODELS/UML.metamodel.uml#Model"/>
+    </ownedAttribute>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Extension" xmi:id="_h05MQGAWEeS-2dbNdHDnFw" name="E_ReviewRepository_Model1" memberEnd="_h05MQWAWEeS-2dbNdHDnFw _h04lMGAWEeS-2dbNdHDnFw">
+    <ownedEnd xmi:type="uml:ExtensionEnd" xmi:id="_h05MQWAWEeS-2dbNdHDnFw" name="extension_ReviewRepository" type="_Z-8jsGAWEeS-2dbNdHDnFw" aggregation="composite" association="_h05MQGAWEeS-2dbNdHDnFw"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Stereotype" xmi:id="_qgAiQGAWEeS-2dbNdHDnFw" name="Comment">
+    <generalization xmi:type="uml:Generalization" xmi:id="_FEVGkGTaEeSPMtL3PG5w7g">
+      <general xmi:type="uml:Stereotype" href="VersioningML.profile.uml#_HoZwEM7gEeOUWOjBbvvZ9Q"/>
+    </generalization>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_xZdtYGAWEeS-2dbNdHDnFw" name="base_Comment" association="_xZeUcGAWEeS-2dbNdHDnFw">
+      <type xmi:type="uml:Class" href="pathmap://UML_METAMODELS/UML.metamodel.uml#Comment"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_k6SA8GTZEeSPMtL3PG5w7g" name="diffRef">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_q1eNAGTZEeSPMtL3PG5w7g"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_q1e0EGTZEeSPMtL3PG5w7g" value="1"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_vkY6wGT7EeSp7fVbEwSZmA" name="subject">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_2GxpsGT7EeSp7fVbEwSZmA"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_2Gy30GT7EeSp7fVbEwSZmA" value="1"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_l5t-4N2TEeaUjJDVatBenw" name="base_Comment" association="_l5qUgN2TEeaUjJDVatBenw">
+      <type xmi:type="uml:Class" href="pathmap://UML_METAMODELS/UML.metamodel.uml#Comment"/>
+    </ownedAttribute>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Extension" xmi:id="_xZeUcGAWEeS-2dbNdHDnFw" name="E_Comment_Comment1" memberEnd="_xZeUcWAWEeS-2dbNdHDnFw _xZdtYGAWEeS-2dbNdHDnFw">
+    <ownedEnd xmi:type="uml:ExtensionEnd" xmi:id="_xZeUcWAWEeS-2dbNdHDnFw" name="extension_Comment" type="_qgAiQGAWEeS-2dbNdHDnFw" aggregation="composite" association="_xZeUcGAWEeS-2dbNdHDnFw"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Enumeration" xmi:id="_tVCcMGTYEeSPMtL3PG5w7g" name="StatusKind">
+    <ownedLiteral xmi:type="uml:EnumerationLiteral" xmi:id="_qeszUGT7EeSp7fVbEwSZmA" name="NoStatus"/>
+    <ownedLiteral xmi:type="uml:EnumerationLiteral" xmi:id="_tVCcMWTYEeSPMtL3PG5w7g" name="Accepted"/>
+    <ownedLiteral xmi:type="uml:EnumerationLiteral" xmi:id="_tVCcMmTYEeSPMtL3PG5w7g" name="Canceled"/>
+    <ownedLiteral xmi:type="uml:EnumerationLiteral" xmi:id="_tVCcM2TYEeSPMtL3PG5w7g" name="Closed"/>
+    <ownedLiteral xmi:type="uml:EnumerationLiteral" xmi:id="_tVCcNGTYEeSPMtL3PG5w7g" name="Declined"/>
+    <ownedLiteral xmi:type="uml:EnumerationLiteral" xmi:id="_BaDvcN2JEeaUjJDVatBenw" name="Open"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Stereotype" xmi:id="_2fnVYGTYEeSPMtL3PG5w7g" name="Review">
+    <generalization xmi:type="uml:Generalization" xmi:id="_-oe58GTYEeSPMtL3PG5w7g" general="_qgAiQGAWEeS-2dbNdHDnFw"/>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_I_fxEGTZEeSPMtL3PG5w7g" name="status" type="_tVCcMGTYEeSPMtL3PG5w7g">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_PmYlgGTZEeSPMtL3PG5w7g"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_PmZzoGTZEeSPMtL3PG5w7g" value="1"/>
+      <defaultValue xmi:type="uml:LiteralString" xmi:id="_JafwwN2JEeaUjJDVatBenw" name="ReviewStatusDefaultValue" value="Open"/>
+    </ownedAttribute>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Stereotype" xmi:id="_2n5HoGTYEeSPMtL3PG5w7g" name="Question">
+    <generalization xmi:type="uml:Generalization" xmi:id="__Ex0YGTYEeSPMtL3PG5w7g" general="_qgAiQGAWEeS-2dbNdHDnFw"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Stereotype" xmi:id="_2uKHsGTYEeSPMtL3PG5w7g" name="Answer">
+    <generalization xmi:type="uml:Generalization" xmi:id="__eTusGTYEeSPMtL3PG5w7g" general="_qgAiQGAWEeS-2dbNdHDnFw"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Stereotype" xmi:id="_201XcGTYEeSPMtL3PG5w7g" name="Todo">
+    <generalization xmi:type="uml:Generalization" xmi:id="__6CBYGTYEeSPMtL3PG5w7g" general="_qgAiQGAWEeS-2dbNdHDnFw"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Extension" xmi:id="_l5qUgN2TEeaUjJDVatBenw" name="E_Comment_Comment2" memberEnd="_l5swwN2TEeaUjJDVatBenw _l5t-4N2TEeaUjJDVatBenw">
+    <ownedEnd xmi:type="uml:ExtensionEnd" xmi:id="_l5swwN2TEeaUjJDVatBenw" name="extension_Comment" type="_qgAiQGAWEeS-2dbNdHDnFw" aggregation="composite" association="_l5qUgN2TEeaUjJDVatBenw"/>
+  </packagedElement>
+</uml:Profile>

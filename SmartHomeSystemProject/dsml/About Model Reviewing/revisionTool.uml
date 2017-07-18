@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:Requirements="http://www.eclipse.org/papyrus/0.7.0/SysML/Requirements" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xsi:schemaLocation="http://www.eclipse.org/papyrus/0.7.0/SysML/Requirements http://www.eclipse.org/papyrus/0.7.0/SysML#//requirements">
+  <uml:Model xmi:id="_PURk0E6_EeSsPatWHMT5jQ" name="RevisionTool">
+    <packageImport xmi:type="uml:PackageImport" xmi:id="_PUSL4E6_EeSsPatWHMT5jQ">
+      <importedPackage xmi:type="uml:Model" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#_0"/>
+    </packageImport>
+    <packagedElement xmi:type="uml:Model" xmi:id="_PUSL4U6_EeSsPatWHMT5jQ" name="Requirements">
+      <packagedElement xmi:type="uml:Class" xmi:id="_2LldkE7IEeSjDupdFZ5PpA" name="Versioning"/>
+      <packagedElement xmi:type="uml:Class" xmi:id="_Um500E-rEeSWG8b7b00v3Q" name="VersionInfoReq"/>
+      <packagedElement xmi:type="uml:Class" xmi:id="_CHiSME7JEeSjDupdFZ5PpA" name="ReviewSystem"/>
+      <packagedElement xmi:type="uml:Class" xmi:id="_lf9YUE7JEeSjDupdFZ5PpA" name="RevisionMode"/>
+      <packagedElement xmi:type="uml:Abstraction" xmi:id="_Um-GQE-rEeSWG8b7b00v3Q" name="DeriveFrom_Versioning" client="_Um500E-rEeSWG8b7b00v3Q" supplier="_2LldkE7IEeSjDupdFZ5PpA"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Model" xmi:id="_PUSL4k6_EeSsPatWHMT5jQ" name="UseCases">
+      <ownedComment xmi:type="uml:Comment" xmi:id="_mxVHYFB7EeSCAb2Ctmcyhw" annotatedElement="_PUSL4k6_EeSsPatWHMT5jQ">
+        <body>The functionality revision can be divided into two parts:&#xD;
+- management of review comment&#xD;
+&#xD;
+</body>
+      </ownedComment>
+      <ownedComment xmi:type="uml:Comment" xmi:id="_rbwKwFLOEeSVep_Dkfv5hQ">
+        <body>- management of revision</body>
+      </ownedComment>
+      <packagedElement xmi:type="uml:Abstraction" xmi:id="_PUSL406_EeSsPatWHMT5jQ" name="useCasesAbstraction" client="_PUSL4k6_EeSsPatWHMT5jQ" supplier="_PUSL4U6_EeSsPatWHMT5jQ"/>
+      <packagedElement xmi:type="uml:Actor" xmi:id="_E5WOcE-5EeSWG8b7b00v3Q" name="User"/>
+      <packagedElement xmi:type="uml:Association" xmi:id="_KjcDcE-5EeSWG8b7b00v3Q" name="A_add comment elements on the current model_user" memberEnd="_KjcDcU-5EeSWG8b7b00v3Q _KjcDdE-5EeSWG8b7b00v3Q">
+        <ownedEnd xmi:type="uml:Property" xmi:id="_KjcDcU-5EeSWG8b7b00v3Q" name="add comment elements on the current model" type="_1ygkUE7KEeSjDupdFZ5PpA" association="_KjcDcE-5EeSWG8b7b00v3Q">
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_KjcDck-5EeSWG8b7b00v3Q" value="1"/>
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_KjcDc0-5EeSWG8b7b00v3Q" value="1"/>
+        </ownedEnd>
+        <ownedEnd xmi:type="uml:Property" xmi:id="_KjcDdE-5EeSWG8b7b00v3Q" name="user" type="_E5WOcE-5EeSWG8b7b00v3Q" association="_KjcDcE-5EeSWG8b7b00v3Q">
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_KjcDdU-5EeSWG8b7b00v3Q" value="1"/>
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_KjcDdk-5EeSWG8b7b00v3Q" value="1"/>
+        </ownedEnd>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_NHYm4E-5EeSWG8b7b00v3Q" name="A_user_add a comment  about modification on the current model" memberEnd="_NHYm4U-5EeSWG8b7b00v3Q _NHYm5E-5EeSWG8b7b00v3Q">
+        <ownedEnd xmi:type="uml:Property" xmi:id="_NHYm4U-5EeSWG8b7b00v3Q" name="user" type="_E5WOcE-5EeSWG8b7b00v3Q" association="_NHYm4E-5EeSWG8b7b00v3Q">
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_NHYm4k-5EeSWG8b7b00v3Q" value="1"/>
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_NHYm40-5EeSWG8b7b00v3Q" value="1"/>
+        </ownedEnd>
+        <ownedEnd xmi:type="uml:Property" xmi:id="_NHYm5E-5EeSWG8b7b00v3Q" name="add a comment  about modification on the current model" type="_7eGOIE7KEeSjDupdFZ5PpA" association="_NHYm4E-5EeSWG8b7b00v3Q">
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_NHYm5U-5EeSWG8b7b00v3Q" value="1"/>
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_NHYm5k-5EeSWG8b7b00v3Q" value="1"/>
+        </ownedEnd>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_Nm3_QE-5EeSWG8b7b00v3Q" name="A_user_respond to a comment" memberEnd="_Nm3_QU-5EeSWG8b7b00v3Q _Nm3_RE-5EeSWG8b7b00v3Q">
+        <ownedEnd xmi:type="uml:Property" xmi:id="_Nm3_QU-5EeSWG8b7b00v3Q" name="user" type="_E5WOcE-5EeSWG8b7b00v3Q" association="_Nm3_QE-5EeSWG8b7b00v3Q">
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_Nm3_Qk-5EeSWG8b7b00v3Q" value="1"/>
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_Nm3_Q0-5EeSWG8b7b00v3Q" value="1"/>
+        </ownedEnd>
+        <ownedEnd xmi:type="uml:Property" xmi:id="_Nm3_RE-5EeSWG8b7b00v3Q" name="respond to a comment" type="__i7VgE7KEeSjDupdFZ5PpA" association="_Nm3_QE-5EeSWG8b7b00v3Q">
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_Nm3_RU-5EeSWG8b7b00v3Q" value="1"/>
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_Nm3_Rk-5EeSWG8b7b00v3Q" value="1"/>
+        </ownedEnd>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_OSgWME-5EeSWG8b7b00v3Q" name="A_user_add or change information about him for the versionning" memberEnd="_OSgWMU-5EeSWG8b7b00v3Q _OSgWNE-5EeSWG8b7b00v3Q">
+        <ownedEnd xmi:type="uml:Property" xmi:id="_OSgWMU-5EeSWG8b7b00v3Q" name="user" type="_E5WOcE-5EeSWG8b7b00v3Q" association="_OSgWME-5EeSWG8b7b00v3Q">
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_OSgWMk-5EeSWG8b7b00v3Q" value="1"/>
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_OSgWM0-5EeSWG8b7b00v3Q" value="1"/>
+        </ownedEnd>
+        <ownedEnd xmi:type="uml:Property" xmi:id="_OSgWNE-5EeSWG8b7b00v3Q" name="add or change information about him for the versionning" type="_EADO8E-5EeSWG8b7b00v3Q" association="_OSgWME-5EeSWG8b7b00v3Q">
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_OSgWNU-5EeSWG8b7b00v3Q" value="1"/>
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_OSgWNk-5EeSWG8b7b00v3Q" value="1"/>
+        </ownedEnd>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Component" xmi:id="_mBiIkE-_EeSWG8b7b00v3Q" name="ReviewTool">
+        <ownedUseCase xmi:type="uml:UseCase" xmi:id="_EADO8E-5EeSWG8b7b00v3Q" name="Add or change information about him for the versionning" subject="_PUSL5E6_EeSsPatWHMT5jQ">
+          <ownedComment xmi:type="uml:Comment" xmi:id="_f77D8E-5EeSWG8b7b00v3Q" annotatedElement="_1ygkUE7KEeSjDupdFZ5PpA">
+            <body>When the user wants to have for the first time a comment in the context of a review, the review system mus ask the identity and the language of the user in order to add it in the associated comment.&#xD;
+This information could be changed in the preference of papyrus</body>
+          </ownedComment>
+        </ownedUseCase>
+        <ownedUseCase xmi:type="uml:UseCase" xmi:id="__i7VgE7KEeSjDupdFZ5PpA" name="Respond to a comment" subject="_PUSL5E6_EeSsPatWHMT5jQ">
+          <ownedComment xmi:type="uml:Comment" xmi:id="_VpTAwE-9EeSWG8b7b00v3Q" annotatedElement="__i7VgE7KEeSjDupdFZ5PpA">
+            <body>A user could have the possibility to respond to a existing comment. Thanks to this, it is possible to see the discussion flow about a subject </body>
+          </ownedComment>
+        </ownedUseCase>
+        <ownedUseCase xmi:type="uml:UseCase" xmi:id="_7eGOIE7KEeSjDupdFZ5PpA" name="Add a comment  about modification on the current model" subject="_PUSL5E6_EeSsPatWHMT5jQ">
+          <ownedComment xmi:type="uml:Comment" xmi:id="_ILKdIE-8EeSWG8b7b00v3Q" annotatedElement="_7eGOIE7KEeSjDupdFZ5PpA">
+            <body>When the revision mode is activated, the user can add review comment on modification done in the model.&#xD;
+For example comment a deletion...&#xD;
+</body>
+          </ownedComment>
+        </ownedUseCase>
+        <ownedUseCase xmi:type="uml:UseCase" xmi:id="_1ygkUE7KEeSjDupdFZ5PpA" name="Add a review comment elements on the current model" subject="_PUSL5E6_EeSsPatWHMT5jQ">
+          <ownedComment xmi:type="uml:Comment" xmi:id="_09zs4E-6EeSWG8b7b00v3Q" annotatedElement="_1ygkUE7KEeSjDupdFZ5PpA">
+            <body>The user adds a review comment on an element of the model. This comment will be store not directly in the model but into a new model that will contain all review comments.&#xD;
+This comment contains all information see in the version information.&#xD;
+This comment could be displayed on diagrams. A dedicated view must  be displayed dedicated to review comment. (it can be sorted by date author, subject..)</body>
+          </ownedComment>
+        </ownedUseCase>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Component" xmi:id="_PUSL5E6_EeSsPatWHMT5jQ" name="RevisionTool" useCase="_1ygkUE7KEeSjDupdFZ5PpA _7eGOIE7KEeSjDupdFZ5PpA __i7VgE7KEeSjDupdFZ5PpA _rCRfcE7LEeSjDupdFZ5PpA _vWS5YE7LEeSjDupdFZ5PpA _2WHLME7LEeSjDupdFZ5PpA _5QGQEE7LEeSjDupdFZ5PpA _EADO8E-5EeSWG8b7b00v3Q">
+        <ownedUseCase xmi:type="uml:UseCase" xmi:id="_rCRfcE7LEeSjDupdFZ5PpA" name="Launch Revision mode" subject="_PUSL5E6_EeSsPatWHMT5jQ">
+          <ownedComment xmi:type="uml:Comment" xmi:id="_XOyRMFOJEeS-IbAKKrOd9A" annotatedElement="_rCRfcE7LEeSjDupdFZ5PpA">
+            <body>The user can launch revision mode. &#xD;
+From this time all modifications will be register and associated to the user. &#xD;
+A modification could be:&#xD;
+	- a deletion&#xD;
+	- an adding&#xD;
+	- a set of a property of the graphical model or the semantic model&#xD;
+&#xD;
+</body>
+          </ownedComment>
+          <include xmi:type="uml:Include" xmi:id="_-IHH4E7LEeSjDupdFZ5PpA" addition="_vWS5YE7LEeSjDupdFZ5PpA"/>
+        </ownedUseCase>
+        <ownedUseCase xmi:type="uml:UseCase" xmi:id="_vWS5YE7LEeSjDupdFZ5PpA" name="Register all modifications with Versioning information" subject="_PUSL5E6_EeSsPatWHMT5jQ">
+          <ownedComment xmi:type="uml:Comment" xmi:id="_YsOfkFOJEeS-IbAKKrOd9A" annotatedElement="_vWS5YE7LEeSjDupdFZ5PpA">
+            <body>All modifications are store and associated to the current user.&#xD;
+A modification must have a timestamp, an author.&#xD;
+</body>
+          </ownedComment>
+        </ownedUseCase>
+        <ownedUseCase xmi:type="uml:UseCase" xmi:id="_2WHLME7LEeSjDupdFZ5PpA" name="Stop RevisionMode" subject="_PUSL5E6_EeSsPatWHMT5jQ">
+          <ownedComment xmi:type="uml:Comment" xmi:id="_ZbKpMFOJEeS-IbAKKrOd9A" annotatedElement="_2WHLME7LEeSjDupdFZ5PpA">
+            <body>When the user stop the revision mode, modifications are not registered and done directly on the model.&#xD;
+</body>
+          </ownedComment>
+        </ownedUseCase>
+        <ownedUseCase xmi:type="uml:UseCase" xmi:id="_5QGQEE7LEeSjDupdFZ5PpA" name="Accept or refuse modifications" subject="_PUSL5E6_EeSsPatWHMT5jQ">
+          <ownedComment xmi:type="uml:Comment" xmi:id="_aQZoEFOJEeS-IbAKKrOd9A" annotatedElement="_5QGQEE7LEeSjDupdFZ5PpA">
+            <body>Thanks to registered modification the user can accept or refuse the modification.&#xD;
+If the modification is accepted, the adding or the deletion or the set is really done on the model, and the modification is removed from the stack.&#xD;
+If the modification is not accepted, the adding or deletion or the set is not applied, and the modification is removed from the stack.&#xD;
+</body>
+          </ownedComment>
+        </ownedUseCase>
+      </packagedElement>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Model" xmi:id="_PUSL5U6_EeSsPatWHMT5jQ" name="Design">
+      <packagedElement xmi:type="uml:Abstraction" xmi:id="_PUSL5k6_EeSsPatWHMT5jQ" name="DesignAbstraction" client="_PUSL5U6_EeSsPatWHMT5jQ" supplier="_PUSL4k6_EeSsPatWHMT5jQ"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Model" xmi:id="_PUSL506_EeSsPatWHMT5jQ" name="Test">
+      <packagedElement xmi:type="uml:Dependency" xmi:id="_PUSL6E6_EeSsPatWHMT5jQ" name="Dependency1" client="_PUSL506_EeSsPatWHMT5jQ" supplier="_PUSL4k6_EeSsPatWHMT5jQ"/>
+      <packagedElement xmi:type="uml:Dependency" xmi:id="_PUSy8E6_EeSsPatWHMT5jQ" name="Dependency2" client="_PUSL506_EeSsPatWHMT5jQ" supplier="_PUSL5U6_EeSsPatWHMT5jQ"/>
+    </packagedElement>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_PUSy8U6_EeSsPatWHMT5jQ">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_PUSy8k6_EeSsPatWHMT5jQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="pathmap://DEVELOPER_PROFILES/developerprocess.profile.uml#_VA6mkMcPEeO9CYUoXDRplw"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="pathmap://DEVELOPER_PROFILES/developerprocess.profile.uml#_kWqjAMbXEeO09JBvNFZRNw"/>
+    </profileApplication>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_PUSy806_EeSsPatWHMT5jQ">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_PUSy9E6_EeSsPatWHMT5jQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="pathmap://DEVELOPER_PROFILES/developerprocess.profile.uml#_VA-4AMcPEeO9CYUoXDRplw"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="pathmap://DEVELOPER_PROFILES/developerprocess.profile.uml#_qCT3MMbXEeO09JBvNFZRNw"/>
+    </profileApplication>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_PUSy9U6_EeSsPatWHMT5jQ">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_PUSy9k6_EeSsPatWHMT5jQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="pathmap://DEVELOPER_PROFILES/developerprocess.profile.uml#_VBAtMccPEeO9CYUoXDRplw"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="pathmap://DEVELOPER_PROFILES/developerprocess.profile.uml#_2LNtQMbYEeO09JBvNFZRNw"/>
+    </profileApplication>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_PUSy906_EeSsPatWHMT5jQ">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_PUSy-E6_EeSsPatWHMT5jQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/0.7.0/SysML#//requirements"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="pathmap://SysML_PROFILES/SysML.profile.uml#_OOJC4LX8EduFmqQsrNB9lw"/>
+    </profileApplication>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_PUSy-U6_EeSsPatWHMT5jQ">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_PUSy-k6_EeSsPatWHMT5jQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="pathmap://DEVELOPER_PROFILES/Document.profile.uml#_qR44IMn0EeO9CYUoXDRplw"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="pathmap://DEVELOPER_PROFILES/Document.profile.uml#_D0JcUMnzEeO9CYUoXDRplw"/>
+    </profileApplication>
+  </uml:Model>
+  <Requirements:Requirement xmi:id="_2LuAcE7IEeSjDupdFZ5PpA" text="Papyrus must integrate versioning in order to display in comment author and date." id="Req_010" base_Class="_2LldkE7IEeSjDupdFZ5PpA"/>
+  <Requirements:Requirement xmi:id="_CHkucE7JEeSjDupdFZ5PpA" text="Papyrus must integrate a review system to add comments with the possibility to respond to this comment. Each comment must have information about the user the date." id="Req_020" base_Class="_CHiSME7JEeSjDupdFZ5PpA"/>
+  <Requirements:Requirement xmi:id="_lf_0kE7JEeSjDupdFZ5PpA" text="Papyrus must integrate a means to make revision mechanism to register, accept or refuse modification done by an user" id="Req_030" base_Class="_lf9YUE7JEeSjDupdFZ5PpA"/>
+  <Requirements:Requirement xmi:id="_Um7qAE-rEeSWG8b7b00v3Q" text="&#xD;&#xA;Papyrus must integrate versionning. This information comes from O&quot;4.3.2 Pre-Defined Metadata Elements&quot; of the OASIS standard, &quot;Open Document Format for Office Applications (OpenDocument) Version 1.2&#xD;&#xA;- Part 1: OpenDocument Schema&quot;. " id="Req_011" base_Class="_Um500E-rEeSWG8b7b00v3Q"/>
+  <Requirements:DeriveReqt xmi:id="_Um_UYE-rEeSWG8b7b00v3Q" base_Abstraction="_Um-GQE-rEeSWG8b7b00v3Q"/>
+</xmi:XMI>

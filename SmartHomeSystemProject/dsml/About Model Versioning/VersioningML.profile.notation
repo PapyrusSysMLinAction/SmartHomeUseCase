@@ -1,0 +1,437 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:configuration="http://www.eclipse.org/papyrus/infra/viewpoints/configuration" xmlns:css="http://www.eclipse.org/papyrus/infra/gmfdiag/css" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:nattable="http://www.eclipse.org/papyrus/nattable/model" xmlns:nattableaxis="http://www.eclipse.org/papyrus/nattable/model/table/nattableaxis" xmlns:nattableaxisconfiguration="http://www.eclipse.org/papyrus/nattable/model/table/nattableaxisconfiguration" xmlns:nattableaxisprovider="http://www.eclipse.org/papyrus/nattable/model/table/nattableaxisprovider" xmlns:nattableconfiguration="http://www.eclipse.org/papyrus/nattable/model/nattableconfiguration" xmlns:nattablelabelprovider="http://www.eclipse.org/papyrus/nattable/model/table/nattablecontentprovider" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.2/notation" xmlns:style="http://www.eclipse.org/papyrus/infra/viewpoints/policy/style" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xsi:schemaLocation="http://www.eclipse.org/papyrus/nattable/model/table/nattableaxis http://www.eclipse.org/papyrus/nattable/model#//nattableaxis http://www.eclipse.org/papyrus/nattable/model/table/nattableaxisconfiguration http://www.eclipse.org/papyrus/nattable/model#//nattableaxisconfiguration http://www.eclipse.org/papyrus/nattable/model/table/nattableaxisprovider http://www.eclipse.org/papyrus/nattable/model#//nattableaxisprovider http://www.eclipse.org/papyrus/nattable/model/nattableconfiguration http://www.eclipse.org/papyrus/nattable/model#//nattableconfiguration http://www.eclipse.org/papyrus/nattable/model/table/nattablecontentprovider http://www.eclipse.org/papyrus/nattable/model#//nattablelabelprovider">
+  <notation:Diagram xmi:id="_oQXoIM7dEeOUWOjBbvvZ9Q" type="PapyrusUMLProfileDiagram" name="Papyrus Model Versionning profile description." measurementUnit="Pixel">
+    <children xmi:type="notation:Shape" xmi:id="_fmucUM7eEeOUWOjBbvvZ9Q" type="1030">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_6ZwkgM7fEeOUWOjBbvvZ9Q" source="PapyrusHyperLink_Document">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_6Zwkgc7fEeOUWOjBbvvZ9Q" key="tooltip_text" value="C:\Users\sg166342\Desktop\Temp\OpenDocument-v1.2-cs01-part1.pdf"/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_6Zwkgs7fEeOUWOjBbvvZ9Q" key="localization" value="C:\Users\sg166342\Desktop\Temp\OpenDocument-v1.2-cs01-part1.pdf"/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_6Zwkg87fEeOUWOjBbvvZ9Q" key="is_default_navigation" value="false"/>
+      </eAnnotations>
+      <children xmi:type="notation:DecorationNode" xmi:id="_fmvDYM7eEeOUWOjBbvvZ9Q" type="1047"/>
+      <children xmi:type="notation:DecorationNode" xmi:id="_fmvDYc7eEeOUWOjBbvvZ9Q" type="1042">
+        <children xmi:type="notation:Shape" xmi:id="_EtUfAM7gEeOUWOjBbvvZ9Q" type="3028">
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_EtaloM7gEeOUWOjBbvvZ9Q" source="Stereotype_Annotation">
+            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_EtbMsM7gEeOUWOjBbvvZ9Q" key="StereotypeWithQualifiedNameList" value=""/>
+            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_EtbzwM7gEeOUWOjBbvvZ9Q" key="StereotypeList" value="StandardProfile::Metaclass"/>
+            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_Etca0M7gEeOUWOjBbvvZ9Q" key="Stereotype_Presentation_Kind" value="HorizontalStereo"/>
+            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_Etca0c7gEeOUWOjBbvvZ9Q" key="PropStereoDisplay" value=""/>
+            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_EtdB4M7gEeOUWOjBbvvZ9Q" key="StereotypePropertyLocation" value="Compartment"/>
+          </eAnnotations>
+          <children xmi:type="notation:DecorationNode" xmi:id="_EtWUMM7gEeOUWOjBbvvZ9Q" type="5062"/>
+          <element xmi:type="uml:Class" href="pathmap://UML_METAMODELS/UML.metamodel.uml#Element"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_EtW7QM7gEeOUWOjBbvvZ9Q" x="93" y="19" width="477"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_HodacM7gEeOUWOjBbvvZ9Q" type="1023">
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_OtxPQM7rEeOUWOjBbvvZ9Q" source="PapyrusHyperLink_Page" references="_V1CpYM7qEeOUWOjBbvvZ9Q">
+            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_OtxPQc7rEeOUWOjBbvvZ9Q" key="tooltip_text" value="Detailled description of the &lt;&lt;VersionInfo>> stereotype."/>
+            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_OtxPQs7rEeOUWOjBbvvZ9Q" key="pageName" value="Detailled description of the &lt;&lt;VersionInfo>> stereotype."/>
+            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_OtxPQ87rEeOUWOjBbvvZ9Q" key="is_default_navigation" value="true"/>
+          </eAnnotations>
+          <children xmi:type="notation:DecorationNode" xmi:id="_HoeBgM7gEeOUWOjBbvvZ9Q" type="1046"/>
+          <children xmi:type="notation:BasicCompartment" xmi:id="_HoeBgc7gEeOUWOjBbvvZ9Q" type="1052">
+            <children xmi:type="notation:Node" xmi:id="_cYtWQM7gEeOUWOjBbvvZ9Q" type="3002">
+              <styles xmi:type="notation:StringListValueStyle" xmi:id="_t95EQM7gEeOUWOjBbvvZ9Q" name="maskLabel">
+                <stringListValue>name</stringListValue>
+                <stringListValue>derived</stringListValue>
+                <stringListValue>multiplicity</stringListValue>
+                <stringListValue>defaultValue</stringListValue>
+                <stringListValue>type</stringListValue>
+                <stringListValue>modifiers</stringListValue>
+              </styles>
+              <element xmi:type="uml:Property" href="PapyrusModelVersioning.profile.uml#_cV7IAM7gEeOUWOjBbvvZ9Q"/>
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_cYtWQc7gEeOUWOjBbvvZ9Q"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_JJWhQM7nEeOUWOjBbvvZ9Q" type="3002">
+              <element xmi:type="uml:Property" href="PapyrusModelVersioning.profile.uml#_S3LgMM7hEeOUWOjBbvvZ9Q"/>
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_JJWhQc7nEeOUWOjBbvvZ9Q"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_3Ewd8M7nEeOUWOjBbvvZ9Q" type="3002">
+              <element xmi:type="uml:Property" href="PapyrusModelVersioning.profile.uml#_UtMmoM7hEeOUWOjBbvvZ9Q"/>
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_3Ewd8c7nEeOUWOjBbvvZ9Q" x="52" y="43"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_4oNNsM7nEeOUWOjBbvvZ9Q" type="3002">
+              <element xmi:type="uml:Property" href="PapyrusModelVersioning.profile.uml#_XkpU4M7hEeOUWOjBbvvZ9Q"/>
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_4oNNsc7nEeOUWOjBbvvZ9Q" x="56" y="57"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_5gx0cM7nEeOUWOjBbvvZ9Q" type="3002">
+              <element xmi:type="uml:Property" href="PapyrusModelVersioning.profile.uml#_qvAQ8M7hEeOUWOjBbvvZ9Q"/>
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_5gx0cc7nEeOUWOjBbvvZ9Q" x="75" y="74"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_60dC0M7nEeOUWOjBbvvZ9Q" type="3002">
+              <element xmi:type="uml:Property" href="PapyrusModelVersioning.profile.uml#_XDjSoM7kEeOUWOjBbvvZ9Q"/>
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_60dC0c7nEeOUWOjBbvvZ9Q" x="67" y="83"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_C0bxIM7oEeOUWOjBbvvZ9Q" type="3002">
+              <element xmi:type="uml:Property" href="PapyrusModelVersioning.profile.uml#_A7t8AM7oEeOUWOjBbvvZ9Q"/>
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_C0bxIc7oEeOUWOjBbvvZ9Q" x="103" y="107"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_RYX7sM7oEeOUWOjBbvvZ9Q" type="3002">
+              <element xmi:type="uml:Property" href="PapyrusModelVersioning.profile.uml#_BD3LYM7oEeOUWOjBbvvZ9Q"/>
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_RYX7sc7oEeOUWOjBbvvZ9Q" x="107" y="109"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_CayFkM7pEeOUWOjBbvvZ9Q" type="3002">
+              <element xmi:type="uml:Property" href="PapyrusModelVersioning.profile.uml#_B9Y-8M7pEeOUWOjBbvvZ9Q"/>
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_CayFkc7pEeOUWOjBbvvZ9Q" x="65" y="135"/>
+            </children>
+            <children xmi:type="notation:Node" xmi:id="_TVCAMM7pEeOUWOjBbvvZ9Q" type="3002">
+              <element xmi:type="uml:Property" href="PapyrusModelVersioning.profile.uml#_TVAyEM7pEeOUWOjBbvvZ9Q"/>
+              <layoutConstraint xmi:type="notation:Location" xmi:id="_TVCAMc7pEeOUWOjBbvvZ9Q"/>
+            </children>
+            <styles xmi:type="notation:TitleStyle" xmi:id="_HoeBgs7gEeOUWOjBbvvZ9Q"/>
+            <styles xmi:type="notation:SortingStyle" xmi:id="_HoeBg87gEeOUWOjBbvvZ9Q"/>
+            <styles xmi:type="notation:FilteringStyle" xmi:id="_HoeBhM7gEeOUWOjBbvvZ9Q"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_HoeBhc7gEeOUWOjBbvvZ9Q"/>
+          </children>
+          <children xmi:type="notation:BasicCompartment" xmi:id="_HoeBhs7gEeOUWOjBbvvZ9Q" visible="false" type="1053">
+            <styles xmi:type="notation:TitleStyle" xmi:id="_HoeBh87gEeOUWOjBbvvZ9Q"/>
+            <styles xmi:type="notation:SortingStyle" xmi:id="_HoeBiM7gEeOUWOjBbvvZ9Q"/>
+            <styles xmi:type="notation:FilteringStyle" xmi:id="_HoeBic7gEeOUWOjBbvvZ9Q"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_HoeBis7gEeOUWOjBbvvZ9Q"/>
+          </children>
+          <element xmi:type="uml:Stereotype" href="PapyrusModelVersioning.profile.uml#_HoZwEM7gEeOUWOjBbvvZ9Q"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Hodacc7gEeOUWOjBbvvZ9Q" x="93" y="108" width="477" height="199"/>
+        </children>
+        <styles xmi:type="notation:TitleStyle" xmi:id="_fmvDYs7eEeOUWOjBbvvZ9Q"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_fmvDY87eEeOUWOjBbvvZ9Q"/>
+      </children>
+      <element xmi:type="uml:Profile" href="PapyrusModelVersioning.profile.uml#_oQIXkM7dEeOUWOjBbvvZ9Q"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_fmucUc7eEeOUWOjBbvvZ9Q" x="61" y="156" width="705" height="387"/>
+    </children>
+    <children xmi:type="notation:Shape" xmi:id="_p4CUEM7eEeOUWOjBbvvZ9Q" type="1002">
+      <children xmi:type="notation:DecorationNode" xmi:id="_p4CUEs7eEeOUWOjBbvvZ9Q" type="3"/>
+      <element xmi:type="uml:Comment" href="PapyrusModelVersioning.profile.uml#_p4BF8M7eEeOUWOjBbvvZ9Q"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_p4CUEc7eEeOUWOjBbvvZ9Q" x="265" y="75" width="501" height="82"/>
+    </children>
+    <styles xmi:type="notation:DiagramStyle" xmi:id="_oQXoIc7dEeOUWOjBbvvZ9Q"/>
+    <styles xmi:type="style:PapyrusViewStyle" xmi:id="_oQXoIs7dEeOUWOjBbvvZ9Q">
+      <owner xmi:type="uml:Profile" href="PapyrusModelVersioning.profile.uml#_oQIXkM7dEeOUWOjBbvvZ9Q"/>
+    </styles>
+    <styles xmi:type="notation:EObjectListValueStyle" xmi:id="_bVYz4M7nEeOUWOjBbvvZ9Q" name="css_stylesheets" eObjectListValue="_bVYz4c7nEeOUWOjBbvvZ9Q"/>
+    <element xmi:type="uml:Profile" href="PapyrusModelVersioning.profile.uml#_oQIXkM7dEeOUWOjBbvvZ9Q"/>
+    <edges xmi:type="notation:Connector" xmi:id="_AydocM7fEeOUWOjBbvvZ9Q" type="1022" source="_p4CUEM7eEeOUWOjBbvvZ9Q" target="_fmucUM7eEeOUWOjBbvvZ9Q">
+      <styles xmi:type="notation:FontStyle" xmi:id="_Aydocc7fEeOUWOjBbvvZ9Q"/>
+      <element xsi:nil="true"/>
+      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_Aydocs7fEeOUWOjBbvvZ9Q" points="[0, 0, -246, -121]$[143, -41, -103, -162]$[52, 103, -194, -18]$[288, 121, 42, 0]$[246, 121, 0, 0]"/>
+      <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_AyhS0M7fEeOUWOjBbvvZ9Q" id="(0.49500998003992014,1.0)"/>
+      <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_AyhS0c7fEeOUWOjBbvvZ9Q" id="(0.6127659574468085,0.10698689956331878)"/>
+    </edges>
+    <edges xmi:type="notation:Connector" xmi:id="_MFNSkM7gEeOUWOjBbvvZ9Q" type="1013" source="_HodacM7gEeOUWOjBbvvZ9Q" target="_EtUfAM7gEeOUWOjBbvvZ9Q">
+      <styles xmi:type="notation:FontStyle" xmi:id="_MFNSkc7gEeOUWOjBbvvZ9Q"/>
+      <element xmi:type="uml:Extension" href="PapyrusModelVersioning.profile.uml#_MFIaEM7gEeOUWOjBbvvZ9Q"/>
+      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_MFNSks7gEeOUWOjBbvvZ9Q"/>
+      <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_MFUnUM7gEeOUWOjBbvvZ9Q" id="(0.49725274725274726,0.0)"/>
+      <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_Mitt8M7gEeOUWOjBbvvZ9Q" id="(0.49725274725274726,1.0)"/>
+    </edges>
+  </notation:Diagram>
+  <css:StyleSheetReference xmi:id="_bVYz4c7nEeOUWOjBbvvZ9Q" path="/Diapason/ProfileModelingCSS.css"/>
+  <nattable:Table xmi:id="_V1CpYM7qEeOUWOjBbvvZ9Q" name="Detailled description of the &lt;&lt;VersionInfo>> stereotype." currentRowAxisProvider="_V1CpYs7qEeOUWOjBbvvZ9Q" currentColumnAxisProvider="_V1CpYc7qEeOUWOjBbvvZ9Q">
+    <context xmi:type="uml:Stereotype" href="PapyrusModelVersioning.profile.uml#_HoZwEM7gEeOUWOjBbvvZ9Q"/>
+    <owner xmi:type="uml:Stereotype" href="PapyrusModelVersioning.profile.uml#_HoZwEM7gEeOUWOjBbvvZ9Q"/>
+    <prototype xmi:type="configuration:PapyrusSyncTable" href="platform:/plugin/org.eclipse.papyrus.infra.viewpoints.policy/builtin/default.configuration#_7wNb2NxhEeOqHvRyiN87hA"/>
+    <tableConfiguration xmi:type="nattableconfiguration:TableConfiguration" href="platform:/plugin/org.eclipse.papyrus.uml.nattable.generic.config/configs/generic.nattableconfiguration#/"/>
+    <columnAxisProvidersHistory xmi:type="nattableaxisprovider:SlaveObjectAxisProvider" xmi:id="_V1CpYc7qEeOUWOjBbvvZ9Q" description="This axis provider provides available columns according to the rows of the table (features of the object displayed on the other axis)" name="UML Feature axis provider">
+      <axis xmi:type="nattableaxis:EStructuralFeatureAxis" xmi:id="_ZkAOhc7qEeOUWOjBbvvZ9Q" alias="description">
+        <manager xmi:type="nattableaxisconfiguration:AxisManagerRepresentation" href="platform:/plugin/org.eclipse.papyrus.uml.nattable.generic.config/configs/generic.nattableconfiguration#//@columnHeaderAxisConfiguration/@axisManagers.0"/>
+        <element xmi:type="ecore:EReference" href="http://www.eclipse.org/uml2/5.0.0/UML#//Element/ownedComment"/>
+      </axis>
+      <axis xmi:type="nattableaxis:EStructuralFeatureAxis" xmi:id="_ZkAOkM7qEeOUWOjBbvvZ9Q">
+        <manager xmi:type="nattableaxisconfiguration:AxisManagerRepresentation" href="platform:/plugin/org.eclipse.papyrus.uml.nattable.generic.config/configs/generic.nattableconfiguration#//@columnHeaderAxisConfiguration/@axisManagers.0"/>
+        <element xmi:type="ecore:EReference" href="http://www.eclipse.org/uml2/5.0.0/UML#//TypedElement/type"/>
+      </axis>
+      <axis xmi:type="nattableaxis:EStructuralFeatureAxis" xmi:id="_ZkAOhM7qEeOUWOjBbvvZ9Q">
+        <manager xmi:type="nattableaxisconfiguration:AxisManagerRepresentation" href="platform:/plugin/org.eclipse.papyrus.uml.nattable.generic.config/configs/generic.nattableconfiguration#//@columnHeaderAxisConfiguration/@axisManagers.0"/>
+        <element xmi:type="ecore:EAttribute" href="http://www.eclipse.org/uml2/5.0.0/UML#//Property/default"/>
+      </axis>
+      <axis xmi:type="nattableaxis:EStructuralFeatureAxis" xmi:id="_ZkAOnM7qEeOUWOjBbvvZ9Q">
+        <manager xmi:type="nattableaxisconfiguration:AxisManagerRepresentation" href="platform:/plugin/org.eclipse.papyrus.uml.nattable.generic.config/configs/generic.nattableconfiguration#//@columnHeaderAxisConfiguration/@axisManagers.0"/>
+        <element xmi:type="ecore:EReference" href="http://www.eclipse.org/uml2/5.0.0/UML#//MultiplicityElement/lowerValue"/>
+      </axis>
+      <axis xmi:type="nattableaxis:EStructuralFeatureAxis" xmi:id="_ZkAOfM7qEeOUWOjBbvvZ9Q">
+        <manager xmi:type="nattableaxisconfiguration:AxisManagerRepresentation" href="platform:/plugin/org.eclipse.papyrus.uml.nattable.generic.config/configs/generic.nattableconfiguration#//@columnHeaderAxisConfiguration/@axisManagers.0"/>
+        <element xmi:type="ecore:EReference" href="http://www.eclipse.org/uml2/5.0.0/UML#//MultiplicityElement/upperValue"/>
+      </axis>
+      <axis xmi:type="nattableaxis:EStructuralFeatureAxis" xmi:id="_ZkAOoM7qEeOUWOjBbvvZ9Q">
+        <manager xmi:type="nattableaxisconfiguration:AxisManagerRepresentation" href="platform:/plugin/org.eclipse.papyrus.uml.nattable.generic.config/configs/generic.nattableconfiguration#//@columnHeaderAxisConfiguration/@axisManagers.0"/>
+        <element xmi:type="ecore:EAttribute" href="http://www.eclipse.org/uml2/5.0.0/UML#//StructuralFeature/isReadOnly"/>
+      </axis>
+    </columnAxisProvidersHistory>
+    <rowAxisProvidersHistory xmi:type="nattableaxisprovider:MasterObjectAxisProvider" xmi:id="_V1CpYs7qEeOUWOjBbvvZ9Q" description="This axis provider contains the object dropped by the user into the table" name="DroppedElementAxisProvider" disconnectSlave="true">
+      <axis xmi:type="nattableaxis:EObjectAxis" xmi:id="_Yz3K8M7qEeOUWOjBbvvZ9Q">
+        <manager xmi:type="nattableaxisconfiguration:AxisManagerRepresentation" href="platform:/plugin/org.eclipse.papyrus.uml.nattable.generic.config/configs/generic.nattableconfiguration#//@rowHeaderAxisConfiguration/@axisManagers.0"/>
+        <element xmi:type="uml:Property" href="PapyrusModelVersioning.profile.uml#_cV7IAM7gEeOUWOjBbvvZ9Q"/>
+      </axis>
+      <axis xmi:type="nattableaxis:EObjectAxis" xmi:id="_ZkAOcM7qEeOUWOjBbvvZ9Q">
+        <manager xmi:type="nattableaxisconfiguration:AxisManagerRepresentation" href="platform:/plugin/org.eclipse.papyrus.uml.nattable.generic.config/configs/generic.nattableconfiguration#//@rowHeaderAxisConfiguration/@axisManagers.0"/>
+        <element xmi:type="uml:Property" href="PapyrusModelVersioning.profile.uml#_qvAQ8M7hEeOUWOjBbvvZ9Q"/>
+      </axis>
+      <axis xmi:type="nattableaxis:EObjectAxis" xmi:id="_ZkAOcc7qEeOUWOjBbvvZ9Q">
+        <manager xmi:type="nattableaxisconfiguration:AxisManagerRepresentation" href="platform:/plugin/org.eclipse.papyrus.uml.nattable.generic.config/configs/generic.nattableconfiguration#//@rowHeaderAxisConfiguration/@axisManagers.0"/>
+        <element xmi:type="uml:Property" href="PapyrusModelVersioning.profile.uml#_XDjSoM7kEeOUWOjBbvvZ9Q"/>
+      </axis>
+      <axis xmi:type="nattableaxis:EObjectAxis" xmi:id="_ZkAOcs7qEeOUWOjBbvvZ9Q">
+        <manager xmi:type="nattableaxisconfiguration:AxisManagerRepresentation" href="platform:/plugin/org.eclipse.papyrus.uml.nattable.generic.config/configs/generic.nattableconfiguration#//@rowHeaderAxisConfiguration/@axisManagers.0"/>
+        <element xmi:type="uml:Property" href="PapyrusModelVersioning.profile.uml#_S3LgMM7hEeOUWOjBbvvZ9Q"/>
+      </axis>
+      <axis xmi:type="nattableaxis:EObjectAxis" xmi:id="_ZkAOc87qEeOUWOjBbvvZ9Q">
+        <manager xmi:type="nattableaxisconfiguration:AxisManagerRepresentation" href="platform:/plugin/org.eclipse.papyrus.uml.nattable.generic.config/configs/generic.nattableconfiguration#//@rowHeaderAxisConfiguration/@axisManagers.0"/>
+        <element xmi:type="uml:Property" href="PapyrusModelVersioning.profile.uml#_XkpU4M7hEeOUWOjBbvvZ9Q"/>
+      </axis>
+      <axis xmi:type="nattableaxis:EObjectAxis" xmi:id="_ZkAOdM7qEeOUWOjBbvvZ9Q">
+        <manager xmi:type="nattableaxisconfiguration:AxisManagerRepresentation" href="platform:/plugin/org.eclipse.papyrus.uml.nattable.generic.config/configs/generic.nattableconfiguration#//@rowHeaderAxisConfiguration/@axisManagers.0"/>
+        <element xmi:type="uml:Property" href="PapyrusModelVersioning.profile.uml#_UtMmoM7hEeOUWOjBbvvZ9Q"/>
+      </axis>
+      <axis xmi:type="nattableaxis:EObjectAxis" xmi:id="_ZkAOdc7qEeOUWOjBbvvZ9Q">
+        <manager xmi:type="nattableaxisconfiguration:AxisManagerRepresentation" href="platform:/plugin/org.eclipse.papyrus.uml.nattable.generic.config/configs/generic.nattableconfiguration#//@rowHeaderAxisConfiguration/@axisManagers.0"/>
+        <element xmi:type="uml:Property" href="PapyrusModelVersioning.profile.uml#_A7t8AM7oEeOUWOjBbvvZ9Q"/>
+      </axis>
+      <axis xmi:type="nattableaxis:EObjectAxis" xmi:id="_ZkAOds7qEeOUWOjBbvvZ9Q">
+        <manager xmi:type="nattableaxisconfiguration:AxisManagerRepresentation" href="platform:/plugin/org.eclipse.papyrus.uml.nattable.generic.config/configs/generic.nattableconfiguration#//@rowHeaderAxisConfiguration/@axisManagers.0"/>
+        <element xmi:type="uml:Property" href="PapyrusModelVersioning.profile.uml#_BD3LYM7oEeOUWOjBbvvZ9Q"/>
+      </axis>
+      <axis xmi:type="nattableaxis:EObjectAxis" xmi:id="_ZkAOd87qEeOUWOjBbvvZ9Q">
+        <manager xmi:type="nattableaxisconfiguration:AxisManagerRepresentation" href="platform:/plugin/org.eclipse.papyrus.uml.nattable.generic.config/configs/generic.nattableconfiguration#//@rowHeaderAxisConfiguration/@axisManagers.0"/>
+        <element xmi:type="uml:Property" href="PapyrusModelVersioning.profile.uml#_B9Y-8M7pEeOUWOjBbvvZ9Q"/>
+      </axis>
+      <axis xmi:type="nattableaxis:EObjectAxis" xmi:id="_ZkAOeM7qEeOUWOjBbvvZ9Q">
+        <manager xmi:type="nattableaxisconfiguration:AxisManagerRepresentation" href="platform:/plugin/org.eclipse.papyrus.uml.nattable.generic.config/configs/generic.nattableconfiguration#//@rowHeaderAxisConfiguration/@axisManagers.0"/>
+        <element xmi:type="uml:Property" href="PapyrusModelVersioning.profile.uml#_TVAyEM7pEeOUWOjBbvvZ9Q"/>
+      </axis>
+    </rowAxisProvidersHistory>
+    <localRowHeaderAxisConfiguration xmi:type="nattableaxisconfiguration:LocalTableHeaderAxisConfiguration" xmi:id="_Hh-W8M7rEeOUWOjBbvvZ9Q" indexStyle="NUMERIC" displayIndex="false"/>
+    <localColumnHeaderAxisConfiguration xmi:type="nattableaxisconfiguration:LocalTableHeaderAxisConfiguration" xmi:id="_va7ecM7qEeOUWOjBbvvZ9Q">
+      <ownedLabelConfigurations xmi:type="nattablelabelprovider:FeatureLabelProviderConfiguration" xmi:id="_va8FgM7qEeOUWOjBbvvZ9Q" displayIcon="false" displayType="false" displayMultiplicity="false"/>
+      <axisManagerConfigurations xmi:type="nattableaxisconfiguration:AxisManagerConfiguration" xmi:id="_va8Fgc7qEeOUWOjBbvvZ9Q" localHeaderLabelConfiguration="_va8FgM7qEeOUWOjBbvvZ9Q">
+        <axisManager xmi:type="nattableaxisconfiguration:AxisManagerRepresentation" href="platform:/plugin/org.eclipse.papyrus.uml.nattable.generic.config/configs/generic.nattableconfiguration#//@columnHeaderAxisConfiguration/@axisManagers.0"/>
+      </axisManagerConfigurations>
+      <axisManagerConfigurations xmi:type="nattableaxisconfiguration:AxisManagerConfiguration" xmi:id="_va8Fgs7qEeOUWOjBbvvZ9Q" localHeaderLabelConfiguration="_va8FgM7qEeOUWOjBbvvZ9Q">
+        <axisManager xmi:type="nattableaxisconfiguration:AxisManagerRepresentation" href="platform:/plugin/org.eclipse.papyrus.uml.nattable.generic.config/configs/generic.nattableconfiguration#//@columnHeaderAxisConfiguration/@axisManagers.1"/>
+      </axisManagerConfigurations>
+    </localColumnHeaderAxisConfiguration>
+  </nattable:Table>
+  <notation:Diagram xmi:id="_7YV6oE-qEeSWG8b7b00v3Q" type="PapyrusUMLProfileDiagram" name="ProfileDiagram" measurementUnit="Pixel">
+    <children xmi:type="notation:Shape" xmi:id="_8BtAsE-qEeSWG8b7b00v3Q" type="Stereotype_Shape">
+      <children xmi:type="notation:DecorationNode" xmi:id="_8BtnwE-qEeSWG8b7b00v3Q" type="Stereotype_NameLabel"/>
+      <children xmi:type="notation:BasicCompartment" xmi:id="_8BtnwU-qEeSWG8b7b00v3Q" type="Stereotype_AttributeCompartment">
+        <children xmi:type="notation:Node" xmi:id="_9D_kIE-qEeSWG8b7b00v3Q" type="Property_ClassAttributeLabel">
+          <styles xmi:type="notation:StringListValueStyle" xmi:id="_ygsD8GaUEeSa5rjqsjze2A" name="maskLabel">
+            <stringListValue>name</stringListValue>
+            <stringListValue>derived</stringListValue>
+            <stringListValue>multiplicity</stringListValue>
+            <stringListValue>type</stringListValue>
+          </styles>
+          <element xmi:type="uml:Property" href="VersioningML.profile.uml#_cV7IAM7gEeOUWOjBbvvZ9Q"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_9D_kIU-qEeSWG8b7b00v3Q" x="58" y="14"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_9Fq_IE-qEeSWG8b7b00v3Q" type="Property_ClassAttributeLabel">
+          <styles xmi:type="notation:StringListValueStyle" xmi:id="_0npJYGaUEeSa5rjqsjze2A" name="maskLabel">
+            <stringListValue>name</stringListValue>
+            <stringListValue>derived</stringListValue>
+            <stringListValue>multiplicity</stringListValue>
+            <stringListValue>type</stringListValue>
+          </styles>
+          <element xmi:type="uml:Property" href="VersioningML.profile.uml#_S3LgMM7hEeOUWOjBbvvZ9Q"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_9Fq_IU-qEeSWG8b7b00v3Q" x="58" y="14"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_9Fs0UE-qEeSWG8b7b00v3Q" type="Property_ClassAttributeLabel">
+          <styles xmi:type="notation:StringListValueStyle" xmi:id="_z0cx4GaUEeSa5rjqsjze2A" name="maskLabel">
+            <stringListValue>name</stringListValue>
+            <stringListValue>derived</stringListValue>
+            <stringListValue>multiplicity</stringListValue>
+            <stringListValue>type</stringListValue>
+          </styles>
+          <element xmi:type="uml:Property" href="VersioningML.profile.uml#_XkpU4M7hEeOUWOjBbvvZ9Q"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_9Fs0UU-qEeSWG8b7b00v3Q" x="58" y="14"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_9FxFwE-qEeSWG8b7b00v3Q" type="Property_ClassAttributeLabel">
+          <styles xmi:type="notation:StringListValueStyle" xmi:id="_1RTKYGaUEeSa5rjqsjze2A" name="maskLabel">
+            <stringListValue>name</stringListValue>
+            <stringListValue>derived</stringListValue>
+            <stringListValue>multiplicity</stringListValue>
+            <stringListValue>type</stringListValue>
+          </styles>
+          <element xmi:type="uml:Property" href="VersioningML.profile.uml#_A7t8AM7oEeOUWOjBbvvZ9Q"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_9FxFwU-qEeSWG8b7b00v3Q" x="58" y="14"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_9FziAE-qEeSWG8b7b00v3Q" type="Property_ClassAttributeLabel">
+          <styles xmi:type="notation:StringListValueStyle" xmi:id="_1xgUcGaUEeSa5rjqsjze2A" name="maskLabel">
+            <stringListValue>name</stringListValue>
+            <stringListValue>derived</stringListValue>
+            <stringListValue>multiplicity</stringListValue>
+            <stringListValue>type</stringListValue>
+          </styles>
+          <element xmi:type="uml:Property" href="VersioningML.profile.uml#_BD3LYM7oEeOUWOjBbvvZ9Q"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_9FziAU-qEeSWG8b7b00v3Q" x="58" y="14"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_9F1XME-qEeSWG8b7b00v3Q" type="Property_ClassAttributeLabel">
+          <styles xmi:type="notation:StringListValueStyle" xmi:id="_3r92AGaUEeSa5rjqsjze2A" name="maskLabel">
+            <stringListValue>name</stringListValue>
+            <stringListValue>derived</stringListValue>
+            <stringListValue>multiplicity</stringListValue>
+            <stringListValue>type</stringListValue>
+          </styles>
+          <element xmi:type="uml:Property" href="VersioningML.profile.uml#_B9Y-8M7pEeOUWOjBbvvZ9Q"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_9F1XMU-qEeSWG8b7b00v3Q" x="58" y="14"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_9F3zcE-qEeSWG8b7b00v3Q" type="Property_ClassAttributeLabel">
+          <styles xmi:type="notation:StringListValueStyle" xmi:id="_4NTogGaUEeSa5rjqsjze2A" name="maskLabel">
+            <stringListValue>name</stringListValue>
+            <stringListValue>derived</stringListValue>
+            <stringListValue>multiplicity</stringListValue>
+            <stringListValue>type</stringListValue>
+          </styles>
+          <element xmi:type="uml:Property" href="VersioningML.profile.uml#_TVAyEM7pEeOUWOjBbvvZ9Q"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_9F3zcU-qEeSWG8b7b00v3Q" x="58" y="14"/>
+        </children>
+        <styles xmi:type="notation:TitleStyle" xmi:id="_8Btnwk-qEeSWG8b7b00v3Q"/>
+        <styles xmi:type="notation:SortingStyle" xmi:id="_8Btnw0-qEeSWG8b7b00v3Q"/>
+        <styles xmi:type="notation:FilteringStyle" xmi:id="_8BtnxE-qEeSWG8b7b00v3Q"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_8BtnxU-qEeSWG8b7b00v3Q"/>
+      </children>
+      <children xmi:type="notation:BasicCompartment" xmi:id="_8BuO0E-qEeSWG8b7b00v3Q" visible="false" type="Stereotype_OperationCompartment">
+        <styles xmi:type="notation:TitleStyle" xmi:id="_8BuO0U-qEeSWG8b7b00v3Q"/>
+        <styles xmi:type="notation:SortingStyle" xmi:id="_8BuO0k-qEeSWG8b7b00v3Q"/>
+        <styles xmi:type="notation:FilteringStyle" xmi:id="_8BuO00-qEeSWG8b7b00v3Q"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_8BuO1E-qEeSWG8b7b00v3Q"/>
+      </children>
+      <element xmi:type="uml:Stereotype" href="VersioningML.profile.uml#_HoZwEM7gEeOUWOjBbvvZ9Q"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_8BtAsU-qEeSWG8b7b00v3Q" x="27" y="155" width="199" height="159"/>
+    </children>
+    <children xmi:type="notation:Shape" xmi:id="_8C-zEE-qEeSWG8b7b00v3Q" type="Class_MetaclassShape">
+      <children xmi:type="notation:DecorationNode" xmi:id="_8C_aIE-qEeSWG8b7b00v3Q" type="Class_MetaclassNameLabel"/>
+      <element xmi:type="uml:Class" href="pathmap://UML_METAMODELS/UML.metamodel.uml#Element"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_8C-zEU-qEeSWG8b7b00v3Q" x="27" y="41" width="201"/>
+    </children>
+    <children xmi:type="notation:Shape" xmi:id="_9x3_4GTJEeS0T8QWLYAQCA" type="Stereotype_Shape">
+      <children xmi:type="notation:DecorationNode" xmi:id="_9x3_4WTJEeS0T8QWLYAQCA" type="Stereotype_NameLabel"/>
+      <children xmi:type="notation:BasicCompartment" xmi:id="_9x3_4mTJEeS0T8QWLYAQCA" type="Stereotype_AttributeCompartment">
+        <children xmi:type="notation:Node" xmi:id="_9x3_42TJEeS0T8QWLYAQCA" type="Property_ClassAttributeLabel">
+          <styles xmi:type="notation:StringListValueStyle" xmi:id="_22UncGaUEeSa5rjqsjze2A" name="maskLabel">
+            <stringListValue>name</stringListValue>
+            <stringListValue>derived</stringListValue>
+            <stringListValue>multiplicity</stringListValue>
+            <stringListValue>type</stringListValue>
+          </styles>
+          <element xmi:type="uml:Property" href="VersioningML.profile.uml#_9x2KsmTJEeS0T8QWLYAQCA"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_9x3_5GTJEeS0T8QWLYAQCA"/>
+        </children>
+        <children xmi:type="notation:Node" xmi:id="_9x3_5WTJEeS0T8QWLYAQCA" type="Property_ClassAttributeLabel">
+          <styles xmi:type="notation:StringListValueStyle" xmi:id="_2WCk4GaUEeSa5rjqsjze2A" name="maskLabel">
+            <stringListValue>name</stringListValue>
+            <stringListValue>derived</stringListValue>
+            <stringListValue>multiplicity</stringListValue>
+            <stringListValue>type</stringListValue>
+          </styles>
+          <element xmi:type="uml:Property" href="VersioningML.profile.uml#_9x2KtWTJEeS0T8QWLYAQCA"/>
+          <layoutConstraint xmi:type="notation:Location" xmi:id="_9x3_5mTJEeS0T8QWLYAQCA"/>
+        </children>
+        <styles xmi:type="notation:TitleStyle" xmi:id="_9x3_52TJEeS0T8QWLYAQCA"/>
+        <styles xmi:type="notation:SortingStyle" xmi:id="_9x3_6GTJEeS0T8QWLYAQCA"/>
+        <styles xmi:type="notation:FilteringStyle" xmi:id="_9x3_6WTJEeS0T8QWLYAQCA"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_9x3_6mTJEeS0T8QWLYAQCA"/>
+      </children>
+      <children xmi:type="notation:BasicCompartment" xmi:id="_9x3_62TJEeS0T8QWLYAQCA" visible="false" type="Stereotype_OperationCompartment">
+        <styles xmi:type="notation:TitleStyle" xmi:id="_9x3_7GTJEeS0T8QWLYAQCA"/>
+        <styles xmi:type="notation:SortingStyle" xmi:id="_9x3_7WTJEeS0T8QWLYAQCA"/>
+        <styles xmi:type="notation:FilteringStyle" xmi:id="_9x3_7mTJEeS0T8QWLYAQCA"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_9x3_72TJEeS0T8QWLYAQCA"/>
+      </children>
+      <element xmi:type="uml:Stereotype" href="VersioningML.profile.uml#_9x2KsGTJEeS0T8QWLYAQCA"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_9x3_82TJEeS0T8QWLYAQCA" x="475" y="142" width="181"/>
+    </children>
+    <children xmi:type="notation:Shape" xmi:id="_EzGm8GTKEeS0T8QWLYAQCA" type="Class_MetaclassShape">
+      <children xmi:type="notation:DecorationNode" xmi:id="_EzIcIGTKEeS0T8QWLYAQCA" type="Class_MetaclassNameLabel"/>
+      <element xmi:type="uml:Class" href="pathmap://UML_METAMODELS/UML.metamodel.uml#Actor"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_EzJDMGTKEeS0T8QWLYAQCA" x="477" y="42" width="176"/>
+    </children>
+    <children xmi:type="notation:Shape" xmi:id="_8-GLRw0jEeagBJzo_WAGVQ" type="StereotypeComment">
+      <styles xmi:type="notation:TitleStyle" xmi:id="_8-GLSA0jEeagBJzo_WAGVQ" showTitle="true"/>
+      <styles xmi:type="notation:EObjectValueStyle" xmi:id="_8-GLSg0jEeagBJzo_WAGVQ" name="BASE_ELEMENT">
+        <eObjectValue xmi:type="uml:Class" href="pathmap://UML_METAMODELS/UML.metamodel.uml#Element"/>
+      </styles>
+      <element xsi:nil="true"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_8-GLSQ0jEeagBJzo_WAGVQ" x="227" y="41"/>
+    </children>
+    <children xmi:type="notation:Shape" xmi:id="_8-PVNw0jEeagBJzo_WAGVQ" type="StereotypeComment">
+      <styles xmi:type="notation:TitleStyle" xmi:id="_8-PVOA0jEeagBJzo_WAGVQ" showTitle="true"/>
+      <styles xmi:type="notation:EObjectValueStyle" xmi:id="_8-PVOg0jEeagBJzo_WAGVQ" name="BASE_ELEMENT">
+        <eObjectValue xmi:type="uml:Class" href="pathmap://UML_METAMODELS/UML.metamodel.uml#Actor"/>
+      </styles>
+      <element xsi:nil="true"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_8-PVOQ0jEeagBJzo_WAGVQ" x="677" y="42"/>
+    </children>
+    <styles xmi:type="notation:StringValueStyle" xmi:id="_7YV6oU-qEeSWG8b7b00v3Q" name="diagram_compatibility_version" stringValue="1.2.0"/>
+    <styles xmi:type="notation:DiagramStyle" xmi:id="_7YV6ok-qEeSWG8b7b00v3Q"/>
+    <styles xmi:type="style:PapyrusViewStyle" xmi:id="_7YV6o0-qEeSWG8b7b00v3Q">
+      <owner xmi:type="uml:Profile" href="VersioningML.profile.uml#_oQIXkM7dEeOUWOjBbvvZ9Q"/>
+    </styles>
+    <element xmi:type="uml:Profile" href="VersioningML.profile.uml#_oQIXkM7dEeOUWOjBbvvZ9Q"/>
+    <edges xmi:type="notation:Connector" xmi:id="_8DUKQE-qEeSWG8b7b00v3Q" type="Extension_Edge" source="_8BtAsE-qEeSWG8b7b00v3Q" target="_8C-zEE-qEeSWG8b7b00v3Q">
+      <styles xmi:type="notation:FontStyle" xmi:id="_8DUKQU-qEeSWG8b7b00v3Q"/>
+      <element xmi:type="uml:Extension" href="VersioningML.profile.uml#_MFIaEM7gEeOUWOjBbvvZ9Q"/>
+      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_8DUKQk-qEeSWG8b7b00v3Q" points="[0, 0, 0, 0]$[0, 0, 0, 0]"/>
+      <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_9aSkQE-qEeSWG8b7b00v3Q" id="(0.5025125628140703,0.0)"/>
+      <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_9aTLUE-qEeSWG8b7b00v3Q" id="(0.4975124378109453,1.0)"/>
+    </edges>
+    <edges xmi:type="notation:Connector" xmi:id="_IqOCcGTKEeS0T8QWLYAQCA" type="Association_Edge" source="_9x3_4GTJEeS0T8QWLYAQCA" target="_8BtAsE-qEeSWG8b7b00v3Q" routing="Rectilinear">
+      <children xmi:type="notation:DecorationNode" xmi:id="_IqOpgGTKEeS0T8QWLYAQCA" type="Association_StereotypeLabel">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_IqOpgWTKEeS0T8QWLYAQCA" y="60"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_IqPQkGTKEeS0T8QWLYAQCA" visible="false" type="Association_NameLabel">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_IqPQkWTKEeS0T8QWLYAQCA" x="-5" y="-46"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_IqP3oGTKEeS0T8QWLYAQCA" type="Association_TargetRoleLabel">
+        <styles xmi:type="notation:StringListValueStyle" xmi:id="_k0bvUGaUEeSa5rjqsjze2A" name="maskLabel">
+          <stringListValue>name</stringListValue>
+          <stringListValue>derived</stringListValue>
+        </styles>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_IqP3oWTKEeS0T8QWLYAQCA" x="17" y="10"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_IqQesGTKEeS0T8QWLYAQCA" type="Association_SourceRoleLabel">
+        <styles xmi:type="notation:StringListValueStyle" xmi:id="_kOaRIGaUEeSa5rjqsjze2A" name="maskLabel">
+          <stringListValue>name</stringListValue>
+          <stringListValue>derived</stringListValue>
+        </styles>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_IqQesWTKEeS0T8QWLYAQCA" x="27" y="11"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_IqRFwGTKEeS0T8QWLYAQCA" type="Association_SourceMultiplicityLabel">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_IqRFwWTKEeS0T8QWLYAQCA" x="-8" y="-13"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_IqRs0GTKEeS0T8QWLYAQCA" type="Association_TargetMultiplicityLabel">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_IqRs0WTKEeS0T8QWLYAQCA" x="11" y="-13"/>
+      </children>
+      <styles xmi:type="notation:FontStyle" xmi:id="_IqOCcWTKEeS0T8QWLYAQCA"/>
+      <element xmi:type="uml:Association" href="VersioningML.profile.uml#_IpV4sGTKEeS0T8QWLYAQCA"/>
+      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_IqOCcmTKEeS0T8QWLYAQCA" points="[475, 199, -643984, -643984]$[226, 199, -643984, -643984]"/>
+      <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_Iqa2wGTKEeS0T8QWLYAQCA" id="(0.0,0.5)"/>
+      <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_Iqa2wWTKEeS0T8QWLYAQCA" id="(1.0,0.27672955974842767)"/>
+    </edges>
+    <edges xmi:type="notation:Connector" xmi:id="_hkORwGWiEeSPMtL3PG5w7g" type="Extension_Edge" source="_9x3_4GTJEeS0T8QWLYAQCA" target="_EzGm8GTKEeS0T8QWLYAQCA">
+      <styles xmi:type="notation:FontStyle" xmi:id="_hkORwWWiEeSPMtL3PG5w7g"/>
+      <element xmi:type="uml:Extension" href="VersioningML.profile.uml#_hkG9AGWiEeSPMtL3PG5w7g"/>
+      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_hkORwmWiEeSPMtL3PG5w7g" points="[3, -18, 2, 94]$[3, -87, 2, 25]"/>
+      <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_hkVmgGWiEeSPMtL3PG5w7g" id="(0.4972375690607735,0.0)"/>
+      <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_O8AXcGW4EeSPMtL3PG5w7g" id="(0.5,1.0)"/>
+    </edges>
+    <edges xmi:type="notation:Connector" xmi:id="_8-GLSw0jEeagBJzo_WAGVQ" type="StereotypeCommentLink" source="_8C-zEE-qEeSWG8b7b00v3Q" target="_8-GLRw0jEeagBJzo_WAGVQ">
+      <styles xmi:type="notation:FontStyle" xmi:id="_8-GLTA0jEeagBJzo_WAGVQ"/>
+      <styles xmi:type="notation:EObjectValueStyle" xmi:id="_8-GLUA0jEeagBJzo_WAGVQ" name="BASE_ELEMENT">
+        <eObjectValue xmi:type="uml:Class" href="pathmap://UML_METAMODELS/UML.metamodel.uml#Element"/>
+      </styles>
+      <element xsi:nil="true"/>
+      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_8-GLTQ0jEeagBJzo_WAGVQ" points="[0, 0, 0, 0]$[0, 0, 0, 0]"/>
+      <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_8-GLTg0jEeagBJzo_WAGVQ"/>
+      <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_8-GLTw0jEeagBJzo_WAGVQ"/>
+    </edges>
+    <edges xmi:type="notation:Connector" xmi:id="_8-PVOw0jEeagBJzo_WAGVQ" type="StereotypeCommentLink" source="_EzGm8GTKEeS0T8QWLYAQCA" target="_8-PVNw0jEeagBJzo_WAGVQ">
+      <styles xmi:type="notation:FontStyle" xmi:id="_8-PVPA0jEeagBJzo_WAGVQ"/>
+      <styles xmi:type="notation:EObjectValueStyle" xmi:id="_8-PVQA0jEeagBJzo_WAGVQ" name="BASE_ELEMENT">
+        <eObjectValue xmi:type="uml:Class" href="pathmap://UML_METAMODELS/UML.metamodel.uml#Actor"/>
+      </styles>
+      <element xsi:nil="true"/>
+      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_8-PVPQ0jEeagBJzo_WAGVQ" points="[0, 0, 0, 0]$[0, 0, 0, 0]"/>
+      <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_8-PVPg0jEeagBJzo_WAGVQ"/>
+      <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_8-PVPw0jEeagBJzo_WAGVQ"/>
+    </edges>
+  </notation:Diagram>
+  <css:ModelStyleSheets xmi:id="_j3z1IGTKEeS0T8QWLYAQCA"/>
+</xmi:XMI>
