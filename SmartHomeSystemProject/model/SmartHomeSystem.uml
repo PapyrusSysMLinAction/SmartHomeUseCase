@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<xmi:XMI xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:Requirements="http://www.eclipse.org/papyrus/sysml/1.4/SysML/Requirements" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:standard="http://www.eclipse.org/uml2/5.0.0/UML/Profile/Standard" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xsi:schemaLocation="http://www.eclipse.org/papyrus/sysml/1.4/SysML/Requirements http://www.eclipse.org/papyrus/sysml/1.4/SysML#//requirements">
+<xmi:XMI xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:GlossaryML="http:///schemas/GlossaryML/_SHQ6wG0fEeePr__vXKAk2g/9" xmlns:Symbols="http://PapyrusInternal/schemas/Symbols/_eij2kEBcEeKj6r7ThQagKA/2" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:standard="http://www.eclipse.org/uml2/5.0.0/UML/Profile/Standard" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xsi:schemaLocation="http:///schemas/GlossaryML/_SHQ6wG0fEeePr__vXKAk2g/9 ../dsml/AboutGlossary/GlossaryML.profile.uml#_SHQ6wW0fEeePr__vXKAk2g http://PapyrusInternal/schemas/Symbols/_eij2kEBcEeKj6r7ThQagKA/2 pathmap://PAPYRUS_INTERNAL_PROFILES/PapyrusInternal.profile.uml#_eikdoEBcEeKj6r7ThQagKA">
   <uml:Model xmi:id="_Q7ZNACRxEeCaCLd1YXNfIQ" name="Smart Home System">
     <ownedComment xmi:type="uml:Comment" xmi:id="_XpkjEHb7EeOHCpFb_yGTPQ">
       <body>Reading scenario:&#xD;
@@ -8,9 +8,10 @@ Step #2 - Investigate model {@link #_j5KicE3oEeO5W83O6raoHw} (double click on it
 Step #3 - Investigate model {@link #_OXE1ICR8EeCaCLd1YXNfIQ} (double click on it to start)&#xD;
 PS: Glossary of the project is defined within the model {@link #_yt5KoFHQEeORnr76KmtUgw} (double click on it to see the details)</body>
     </ownedComment>
-    <packagedElement xmi:type="uml:Model" xmi:id="_yt5KoFHQEeORnr76KmtUgw" name="SHS Glossary">
+    <packagedElement xmi:type="uml:Artifact" xmi:id="_hO1LQG0pEeePr__vXKAk2g" name="SHS Specification"/>
+    <packagedElement xmi:type="uml:Model" xmi:id="_yt5KoFHQEeORnr76KmtUgw" name="Smart Home Domain Glossary">
       <ownedComment xmi:type="uml:Comment" xmi:id="_5nRjMHbxEeOJLbWaesGeMg" annotatedElement="_yt5KoFHQEeORnr76KmtUgw">
-        <body>This package consists of classes denoting the items of the glossary of the {@link #_GVomQFHREeORnr76KmtUgw} project.</body>
+        <body>This model is glossary for the smart home knowledge domain. It consists of terms and their definition related to that knowledge domain.</body>
       </ownedComment>
       <packagedElement xmi:type="uml:Class" xmi:id="_GVomQFHREeORnr76KmtUgw" name="SHS">
         <ownedComment xmi:type="uml:Comment" xmi:id="_Nf4xAFHSEeORnr76KmtUgw">
@@ -20,32 +21,35 @@ PS: Glossary of the project is defined within the model {@link #_yt5KoFHQEeORnr7
     </packagedElement>
     <packagedElement xmi:type="uml:Model" xmi:id="_o5WlgCRyEeCaCLd1YXNfIQ" name="SHS Requirements">
       <ownedComment xmi:type="uml:Comment" xmi:id="_KwtU0DeAEeGpFZREwIhCZA" annotatedElement="_o5WlgCRyEeCaCLd1YXNfIQ">
-        <body>This model formalizes the requirement description of the Smart Home System (in short SHS). This model is derived from a textual description of the SHS requirements as defined in the document referenced &lt;to be completed>.</body>
-      </ownedComment>
-      <ownedComment xmi:type="uml:Comment" xmi:id="_-9Y20HbyEeOJLbWaesGeMg" annotatedElement="_bExNsHbyEeOJLbWaesGeMg _43vuQHbyEeOJLbWaesGeMg">
-        <body>The requirement model, {@link #_o5WlgCRyEeCaCLd1YXNfIQ}, can be further decompopsed into sub-models in order to organize the requirement description. This decomposition matches requirements categories that may reflect various criteria as for example, functional or non-functional criteria.&#xD;
-Requirements models can be viewed either using SysML requirements diagrams or using SysML requirements tables as respectively illustrated for both models {@link #_bExNsHbyEeOJLbWaesGeMg} and {@link #_43vuQHbyEeOJLbWaesGeMg}. </body>
+        <body>This model formalizes the requirement description of the Smart Home System (in short SHS).&#xD;
+This model is derived from a textual description of the SHS requirements as defined in the document referenced &lt;to be completed>.</body>
       </ownedComment>
       <ownedComment xmi:type="uml:Comment" xmi:id="_wVyvUH7JEeOc0bxsTW21JA">
         <body>Model reading scenario:&#xD;
 Step #1 - Investigate model {@link #_yt5KoFHQEeORnr76KmtUgw} (double click on it to start)&#xD;
 Step #2 - Investigate model {@link #_bExNsHbyEeOJLbWaesGeMg} (double click on it to start)</body>
       </ownedComment>
-      <packagedElement xmi:type="uml:Model" xmi:id="_bExNsHbyEeOJLbWaesGeMg" name="SHS SubReqModel1">
-        <ownedComment xmi:type="uml:Comment" xmi:id="_tsJecH7HEeOc0bxsTW21JA" annotatedElement="_ask2EH7HEeOc0bxsTW21JA">
-          <body>This is a requirement model element (concept defined in SysML). It has two properties that are respectively an id and a text. Both properties are free text-based description.</body>
+      <packagedElement xmi:type="uml:Package" xmi:id="_4OrEwG0hEeePr__vXKAk2g" name="SHS Security Requirements">
+        <ownedComment xmi:type="uml:Comment" xmi:id="__R6okG0iEeePr__vXKAk2g" annotatedElement="_4OrEwG0hEeePr__vXKAk2g">
+          <body>This package consists of all the SHS requirements related to the system security concern.</body>
         </ownedComment>
-        <ownedComment xmi:type="uml:Comment" xmi:id="_uedk0H7KEeOc0bxsTW21JA">
-          <body>Model reading scenario:&#xD;
-Here, the detailled of the Req_1 decomposition is also shown in a SysML requirement table: (double click on {@link #_ask2EH7HEeOc0bxsTW21JA} to open it)</body>
-        </ownedComment>
-        <packagedElement xmi:type="uml:Class" xmi:id="_ask2EH7HEeOc0bxsTW21JA" name="Req_1">
-          <nestedClassifier xmi:type="uml:Class" xmi:id="_D5r3oH7IEeOc0bxsTW21JA" name="Req_1.1"/>
-          <nestedClassifier xmi:type="uml:Class" xmi:id="_Niou4H7IEeOc0bxsTW21JA" name="Req_1.2"/>
-          <nestedClassifier xmi:type="uml:Class" xmi:id="_Pf2CcH7IEeOc0bxsTW21JA" name="Req_1.3"/>
-        </packagedElement>
       </packagedElement>
-      <packagedElement xmi:type="uml:Model" xmi:id="_43vuQHbyEeOJLbWaesGeMg" name="SHS SubReqModel2"/>
+      <packagedElement xmi:type="uml:Package" xmi:id="_VM_OMG0iEeePr__vXKAk2g" name="SHS Accomodation Requirements">
+        <ownedComment xmi:type="uml:Comment" xmi:id="_81S1IG0iEeePr__vXKAk2g" annotatedElement="_VM_OMG0iEeePr__vXKAk2g">
+          <body>This package consists of all the SHS requirements related to the system accomodation concern.</body>
+        </ownedComment>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Package" xmi:id="_lbDYQG0iEeePr__vXKAk2g" name="SHS Adaptation Requirements">
+        <ownedComment xmi:type="uml:Comment" xmi:id="_5ThXgG0iEeePr__vXKAk2g" annotatedElement="_lbDYQG0iEeePr__vXKAk2g">
+          <body>This package consists of all the SHS requirements related to the system adaptation concern.</body>
+        </ownedComment>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Package" xmi:id="_sw3vQG0iEeePr__vXKAk2g" name="SHS Economic Requirements">
+        <ownedComment xmi:type="uml:Comment" xmi:id="_3DU2gG0iEeePr__vXKAk2g" annotatedElement="_sw3vQG0iEeePr__vXKAk2g">
+          <body>This package consists of all the SHS requirements related to the system economic concern.</body>
+        </ownedComment>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Abstraction" xmi:id="_zQW3AG0pEeePr__vXKAk2g" name="FromTextSpec2SysMLReq" client="_o5WlgCRyEeCaCLd1YXNfIQ" supplier="_hO1LQG0pEeePr__vXKAk2g"/>
       <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_txtuoDtFEee1tf4JDltoag">
         <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_tx3foDtFEee1tf4JDltoag" source="http://www.eclipse.org/uml2/2.0.0/UML">
           <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/sysml/1.4/SysML#//requirements"/>
@@ -97,7 +101,6 @@ N.B.: the comment may be hidden and shown as for example in a table gathering al
         </packagedElement>
         <packagedElement xmi:type="uml:Abstraction" xmi:id="_IeJMMH7GEeOc0bxsTW21JA" name="UC001_refinedIn_Interaction001" client="_CsLOQFkOEeO46MKyR1zbAg" supplier="_PwMs8FkIEeO46MKyR1zbAg"/>
         <packagedElement xmi:type="uml:Abstraction" xmi:id="_JauJMH7GEeOc0bxsTW21JA" name="UC001_refinedIn_Interaction002" client="_Q5JDQFkOEeO46MKyR1zbAg" supplier="_PwMs8FkIEeO46MKyR1zbAg"/>
-        <packagedElement xmi:type="uml:Abstraction" xmi:id="_BVatoH7UEeOjPqz2xMsJPg" name="FromReq_1_to_UC001" client="_PwMs8FkIEeO46MKyR1zbAg" supplier="_ask2EH7HEeOc0bxsTW21JA"/>
       </packagedElement>
       <packagedElement xmi:type="uml:Package" xmi:id="_YF3z4FkHEeO46MKyR1zbAg" name="SHS Actors">
         <packagedElement xmi:type="uml:Actor" xmi:id="_o9C5QDiAEeGe4_sFLbM3Hw" name="Actor_1">
@@ -670,24 +673,118 @@ Interactions refining the use cases of the system are graphically denoted using 
       <packagedElement xmi:type="uml:Model" xmi:id="_150CcH7SEeOjPqz2xMsJPg" name="FromReq2ExtSpec"/>
       <packagedElement xmi:type="uml:Model" xmi:id="_5fXz4H7SEeOjPqz2xMsJPg" name="FromExt2IntSpec"/>
     </packagedElement>
-    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_tK8aYE3pEeO5W83O6raoHw">
-      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_tLcJoE3pEeO5W83O6raoHw" source="http://www.eclipse.org/uml2/2.0.0/UML">
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_EuktQG0dEeePr__vXKAk2g">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_E1tQAG0dEeePr__vXKAk2g" source="http://www.eclipse.org/uml2/2.0.0/UML">
         <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/uml2/5.0.0/UML/Profile/Standard#/"/>
       </eAnnotations>
       <appliedProfile xmi:type="uml:Profile" href="pathmap://UML_PROFILES/Standard.profile.uml#_0"/>
     </profileApplication>
-    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_QwCvMDtFEee1tf4JDltoag">
-      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_QwjskDtFEee1tf4JDltoag" source="http://www.eclipse.org/uml2/2.0.0/UML">
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_HQLHUG0dEeePr__vXKAk2g">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_HXBWMG0dEeePr__vXKAk2g" source="http://www.eclipse.org/uml2/2.0.0/UML">
         <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/sysml/1.4/SysML#/"/>
       </eAnnotations>
       <appliedProfile xmi:type="uml:Profile" href="pathmap://SysML14_PROFILES/SysML.profile.uml#SysML"/>
     </profileApplication>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_HXBWMW0dEeePr__vXKAk2g">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_Hd2-AG0dEeePr__vXKAk2g" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/sysml/1.4/SysML#//activities"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="pathmap://SysML14_PROFILES/SysML.profile.uml#SysML.package_packagedElement_Activities"/>
+    </profileApplication>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_Hd2-AW0dEeePr__vXKAk2g">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_Hksl0G0dEeePr__vXKAk2g" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/sysml/1.4/SysML#//allocations"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="pathmap://SysML14_PROFILES/SysML.profile.uml#SysML.package_packagedElement_Allocations"/>
+    </profileApplication>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_Hksl0W0dEeePr__vXKAk2g">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_HrYcoG0dEeePr__vXKAk2g" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/sysml/1.4/SysML#//blocks"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="pathmap://SysML14_PROFILES/SysML.profile.uml#SysML.package_packagedElement_Blocks"/>
+    </profileApplication>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_HriNoG0dEeePr__vXKAk2g">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_HyXOYG0dEeePr__vXKAk2g" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/sysml/1.4/SysML#//constraintblocks"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="pathmap://SysML14_PROFILES/SysML.profile.uml#SysML.package_packagedElement_ConstraintBlocks"/>
+    </profileApplication>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_HykCsG0dEeePr__vXKAk2g">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_H5P5gG0dEeePr__vXKAk2g" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/sysml/1.4/SysML#//deprecatedelements"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="pathmap://SysML14_PROFILES/SysML.profile.uml#SysML.package_packagedElement_DeprecatedElements"/>
+    </profileApplication>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_H5ZqgG0dEeePr__vXKAk2g">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_IAPSUG0dEeePr__vXKAk2g" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/sysml/1.4/SysML#//modelelements"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="pathmap://SysML14_PROFILES/SysML.profile.uml#SysML.package_packagedElement_ModelElements"/>
+    </profileApplication>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_IAPSUW0dEeePr__vXKAk2g">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_IHOEEG0dEeePr__vXKAk2g" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/sysml/1.4/SysML#//portsandflows"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="pathmap://SysML14_PROFILES/SysML.profile.uml#SysML.package_packagedElement_Ports_u0026Flows"/>
+    </profileApplication>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_IHX1EG0dEeePr__vXKAk2g">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_IORHQG0dEeePr__vXKAk2g" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/sysml/1.4/SysML#//requirements"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="pathmap://SysML14_PROFILES/SysML.profile.uml#SysML.package_packagedElement_Requirements"/>
+    </profileApplication>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_MAPkEG0dEeePr__vXKAk2g">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_MHmJQG0dEeePr__vXKAk2g" source="PapyrusVersion">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_MHmJQW0dEeePr__vXKAk2g" key="Version" value="1.0.1"/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_MHmJQm0dEeePr__vXKAk2g" key="Comment" value=""/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_MHmJQ20dEeePr__vXKAk2g" key="Copyright" value="CEA list"/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_MHmJRG0dEeePr__vXKAk2g" key="Date" value="2017-07-20"/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_MHmJRW0dEeePr__vXKAk2g" key="Author" value="Sebastien GERARD"/>
+      </eAnnotations>
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_MHc_UG0dEeePr__vXKAk2g" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="../dsml/About%20Glossary/GlossaryML.profile.uml#__G0akW0cEeePr__vXKAk2g"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="../dsml/About%20Glossary/GlossaryML.profile.uml#_saqecET2EeS25e5tbYLtxg"/>
+    </profileApplication>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_WGctIG0fEeePr__vXKAk2g">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_WGctIW0fEeePr__vXKAk2g" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="../dsml/AboutGlossary/GlossaryML.profile.uml#_SHQ6wW0fEeePr__vXKAk2g"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="../dsml/AboutGlossary/GlossaryML.profile.uml#_saqecET2EeS25e5tbYLtxg"/>
+    </profileApplication>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_-_gJQG0qEeePr__vXKAk2g">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="__HSzUW0qEeePr__vXKAk2g" source="PapyrusVersion">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="__HSzUm0qEeePr__vXKAk2g" key="Version" value="0.0.1"/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="__HSzU20qEeePr__vXKAk2g" key="Comment" value=""/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="__HSzVG0qEeePr__vXKAk2g" key="Copyright" value="CEA LIST - Initial API and Implementation&#xD;&#xA;"/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="__HSzVW0qEeePr__vXKAk2g" key="Date" value="2012-12-07"/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="__HSzVm0qEeePr__vXKAk2g" key="Author" value=""/>
+      </eAnnotations>
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="__HSzUG0qEeePr__vXKAk2g" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="pathmap://PAPYRUS_INTERNAL_PROFILES/PapyrusInternal.profile.uml#_eikdoEBcEeKj6r7ThQagKA"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="pathmap://PAPYRUS_INTERNAL_PROFILES/PapyrusInternal.profile.uml#_16oYAD-SEeKj6r7ThQagKA"/>
+    </profileApplication>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="__HSzV20qEeePr__vXKAk2g">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="__OyicW0qEeePr__vXKAk2g" source="PapyrusVersion">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="__Oyicm0qEeePr__vXKAk2g" key="Version" value="0.0.1"/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="__Oyic20qEeePr__vXKAk2g" key="Comment" value=""/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="__OyidG0qEeePr__vXKAk2g" key="Copyright" value="CEA LIST - Initial API and Implementation&#xD;&#xA;"/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="__OyidW0qEeePr__vXKAk2g" key="Date" value="2012-12-07"/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="__Oyidm0qEeePr__vXKAk2g" key="Author" value=""/>
+      </eAnnotations>
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="__OyicG0qEeePr__vXKAk2g" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="pathmap://PAPYRUS_INTERNAL_PROFILES/PapyrusInternal.profile.uml#_eijPgUBcEeKj6r7ThQagKA"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="pathmap://PAPYRUS_INTERNAL_PROFILES/PapyrusInternal.profile.uml#_dL4lkPXAEeGSQON-DQ-5eg"/>
+    </profileApplication>
   </uml:Model>
-  <standard:Refine xmi:id="_umcvEE3pEeO5W83O6raoHw" base_Abstraction="_fUtqYE3pEeO5W83O6raoHw"/>
-  <standard:Refine xmi:id="_2p1WsE3pEeO5W83O6raoHw" base_Abstraction="_wM9Z4E3pEeO5W83O6raoHw"/>
-  <standard:Refine xmi:id="_V5jMYHb6EeOHCpFb_yGTPQ" base_Abstraction="_N-NGcHb6EeOHCpFb_yGTPQ"/>
-  <standard:Refine xmi:id="_npyI0H7GEeOc0bxsTW21JA" base_Abstraction="_IeJMMH7GEeOc0bxsTW21JA"/>
-  <standard:Refine xmi:id="_pS2_cH7GEeOc0bxsTW21JA" base_Abstraction="_JauJMH7GEeOc0bxsTW21JA"/>
-  <standard:Refine xmi:id="_SDZt4H7UEeOjPqz2xMsJPg" base_Abstraction="_BVatoH7UEeOjPqz2xMsJPg"/>
-  <Requirements:Requirement xmi:id="_Sx41sDtGEee1tf4JDltoag" base_Class="_ask2EH7HEeOc0bxsTW21JA"/>
+  <GlossaryML:Glossary xmi:id="_Ogf6UG0dEeePr__vXKAk2g" base_Model="_yt5KoFHQEeORnr76KmtUgw" knowledgeDomain="The knowledge domain of this glossary is related to smart home system kind."/>
+  <GlossaryML:Term xmi:id="_QGPJEG0dEeePr__vXKAk2g" base_Class="_GVomQFHREeORnr76KmtUgw"/>
+  <GlossaryML:TermDefinition xmi:id="_RbE1EG0dEeePr__vXKAk2g" base_Comment="_Nf4xAFHSEeORnr76KmtUgw"/>
+  <standard:Refine xmi:id="_XvKdwG0nEeePr__vXKAk2g" base_Abstraction="_fUtqYE3pEeO5W83O6raoHw"/>
+  <standard:Refine xmi:id="_ZZyMgG0nEeePr__vXKAk2g" base_Abstraction="_N-NGcHb6EeOHCpFb_yGTPQ"/>
+  <standard:Refine xmi:id="_WzYVgG0oEeePr__vXKAk2g" base_Abstraction="_wM9Z4E3pEeO5W83O6raoHw"/>
+  <standard:Refine xmi:id="_7iUtMG0pEeePr__vXKAk2g" base_Abstraction="_zQW3AG0pEeePr__vXKAk2g"/>
+  <Symbols:TypeSymbolDefinition xmi:id="_AWJzIG0rEeePr__vXKAk2g" base_Type="_hO1LQG0pEeePr__vXKAk2g" symbolPath="platform:/resource/SmartHomeSystemProject/model/symbols/ReadMore.png"/>
 </xmi:XMI>
