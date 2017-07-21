@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<xmi:XMI xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:GlossaryML="http:///schemas/GlossaryML/_SHQ6wG0fEeePr__vXKAk2g/9" xmlns:Symbols="http://PapyrusInternal/schemas/Symbols/_eij2kEBcEeKj6r7ThQagKA/2" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:standard="http://www.eclipse.org/uml2/5.0.0/UML/Profile/Standard" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xsi:schemaLocation="http:///schemas/GlossaryML/_SHQ6wG0fEeePr__vXKAk2g/9 ../dsml/AboutGlossary/GlossaryML.profile.uml#_SHQ6wW0fEeePr__vXKAk2g http://PapyrusInternal/schemas/Symbols/_eij2kEBcEeKj6r7ThQagKA/2 pathmap://PAPYRUS_INTERNAL_PROFILES/PapyrusInternal.profile.uml#_eikdoEBcEeKj6r7ThQagKA">
+<xmi:XMI xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:GlossaryML="http:///schemas/GlossaryML/_SHQ6wG0fEeePr__vXKAk2g/9" xmlns:Requirements="http://www.eclipse.org/papyrus/sysml/1.4/SysML/Requirements" xmlns:Symbols="http://PapyrusInternal/schemas/Symbols/_eij2kEBcEeKj6r7ThQagKA/2" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:standard="http://www.eclipse.org/uml2/5.0.0/UML/Profile/Standard" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xsi:schemaLocation="http:///schemas/GlossaryML/_SHQ6wG0fEeePr__vXKAk2g/9 ../dsml/AboutGlossary/GlossaryML.profile.uml#_SHQ6wW0fEeePr__vXKAk2g http://www.eclipse.org/papyrus/sysml/1.4/SysML/Requirements http://www.eclipse.org/papyrus/sysml/1.4/SysML#//requirements http://PapyrusInternal/schemas/Symbols/_eij2kEBcEeKj6r7ThQagKA/2 pathmap://PAPYRUS_INTERNAL_PROFILES/PapyrusInternal.profile.uml#_eikdoEBcEeKj6r7ThQagKA">
   <uml:Model xmi:id="_Q7ZNACRxEeCaCLd1YXNfIQ" name="Smart Home System">
     <ownedComment xmi:type="uml:Comment" xmi:id="_XpkjEHb7EeOHCpFb_yGTPQ">
       <body>Reading scenario:&#xD;
@@ -8,7 +8,7 @@ Step #2 - Investigate model {@link #_j5KicE3oEeO5W83O6raoHw} (double click on it
 Step #3 - Investigate model {@link #_OXE1ICR8EeCaCLd1YXNfIQ} (double click on it to start)&#xD;
 PS: Glossary of the project is defined within the model {@link #_yt5KoFHQEeORnr76KmtUgw} (double click on it to see the details)</body>
     </ownedComment>
-    <packagedElement xmi:type="uml:Artifact" xmi:id="_hO1LQG0pEeePr__vXKAk2g" name="SHS Specification"/>
+    <packagedElement xmi:type="uml:Artifact" xmi:id="_hO1LQG0pEeePr__vXKAk2g" name="SHS Specification" fileName=""/>
     <packagedElement xmi:type="uml:Model" xmi:id="_yt5KoFHQEeORnr76KmtUgw" name="Smart Home Domain Glossary">
       <ownedComment xmi:type="uml:Comment" xmi:id="_5nRjMHbxEeOJLbWaesGeMg" annotatedElement="_yt5KoFHQEeORnr76KmtUgw">
         <body>This model is glossary for the smart home knowledge domain. It consists of terms and their definition related to that knowledge domain.</body>
@@ -22,32 +22,39 @@ PS: Glossary of the project is defined within the model {@link #_yt5KoFHQEeORnr7
     <packagedElement xmi:type="uml:Model" xmi:id="_o5WlgCRyEeCaCLd1YXNfIQ" name="SHS Requirements">
       <ownedComment xmi:type="uml:Comment" xmi:id="_KwtU0DeAEeGpFZREwIhCZA" annotatedElement="_o5WlgCRyEeCaCLd1YXNfIQ">
         <body>This model formalizes the requirement description of the Smart Home System (in short SHS).&#xD;
-This model is derived from a textual description of the SHS requirements as defined in the document referenced &lt;to be completed>.</body>
-      </ownedComment>
-      <ownedComment xmi:type="uml:Comment" xmi:id="_wVyvUH7JEeOc0bxsTW21JA">
-        <body>Model reading scenario:&#xD;
-Step #1 - Investigate model {@link #_yt5KoFHQEeORnr76KmtUgw} (double click on it to start)&#xD;
-Step #2 - Investigate model {@link #_bExNsHbyEeOJLbWaesGeMg} (double click on it to start)</body>
+This model is derived from a textual description of the SHS requirements as defined in the document referenced available here: .</body>
       </ownedComment>
       <packagedElement xmi:type="uml:Package" xmi:id="_4OrEwG0hEeePr__vXKAk2g" name="SHS Security Requirements">
         <ownedComment xmi:type="uml:Comment" xmi:id="__R6okG0iEeePr__vXKAk2g" annotatedElement="_4OrEwG0hEeePr__vXKAk2g">
           <body>This package consists of all the SHS requirements related to the system security concern.</body>
         </ownedComment>
+        <packagedElement xmi:type="uml:Class" xmi:id="_IQxfQG36EeeZtLaug2P7dA" name="PhyIntrusionMgt"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_M-d9cG36EeeZtLaug2P7dA" name="CompuIntrusionMgt"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_PdBqkG36EeeZtLaug2P7dA" name="ID_AccessControl"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_PlVSAG36EeeZtLaug2P7dA" name="PoliceStationCall"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_Ps-LEG36EeeZtLaug2P7dA" name="FireMgt"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_QftPkG36EeeZtLaug2P7dA" name="HelthEmergencyMgt"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_QnWvsG36EeeZtLaug2P7dA" name="EmergencyAccessControlGt"/>
       </packagedElement>
       <packagedElement xmi:type="uml:Package" xmi:id="_VM_OMG0iEeePr__vXKAk2g" name="SHS Accomodation Requirements">
         <ownedComment xmi:type="uml:Comment" xmi:id="_81S1IG0iEeePr__vXKAk2g" annotatedElement="_VM_OMG0iEeePr__vXKAk2g">
           <body>This package consists of all the SHS requirements related to the system accomodation concern.</body>
         </ownedComment>
-      </packagedElement>
-      <packagedElement xmi:type="uml:Package" xmi:id="_lbDYQG0iEeePr__vXKAk2g" name="SHS Adaptation Requirements">
-        <ownedComment xmi:type="uml:Comment" xmi:id="_5ThXgG0iEeePr__vXKAk2g" annotatedElement="_lbDYQG0iEeePr__vXKAk2g">
-          <body>This package consists of all the SHS requirements related to the system adaptation concern.</body>
-        </ownedComment>
+        <packagedElement xmi:type="uml:Class" xmi:id="_NvvFgG3-EeeZtLaug2P7dA" name="Phy&amp;MentMgt"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_OuPVIG3-EeeZtLaug2P7dA" name="UserPrefMgt"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_QGbQEG3-EeeZtLaug2P7dA" name="UserBehavLearning"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_QMA6sG3-EeeZtLaug2P7dA" name="DisabililityMgt"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_QSadoG3-EeeZtLaug2P7dA" name="HomeMonitoringInterface"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_QXyF0G3-EeeZtLaug2P7dA" name="DeviceConnectionMgt"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_aIwQoG3-EeeZtLaug2P7dA" name="SmartBedMgt"/>
       </packagedElement>
       <packagedElement xmi:type="uml:Package" xmi:id="_sw3vQG0iEeePr__vXKAk2g" name="SHS Economic Requirements">
         <ownedComment xmi:type="uml:Comment" xmi:id="_3DU2gG0iEeePr__vXKAk2g" annotatedElement="_sw3vQG0iEeePr__vXKAk2g">
           <body>This package consists of all the SHS requirements related to the system economic concern.</body>
         </ownedComment>
+        <packagedElement xmi:type="uml:Class" xmi:id="_khHWIG3_EeeZtLaug2P7dA" name="NRJ_Saving"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_lRY8gG3_EeeZtLaug2P7dA" name="AnnualConsumptionMgt"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_mIEF0G3_EeeZtLaug2P7dA" name="SelfEnergyPriorityMgt"/>
       </packagedElement>
       <packagedElement xmi:type="uml:Abstraction" xmi:id="_zQW3AG0pEeePr__vXKAk2g" name="FromTextSpec2SysMLReq" client="_o5WlgCRyEeCaCLd1YXNfIQ" supplier="_hO1LQG0pEeePr__vXKAk2g"/>
       <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_txtuoDtFEee1tf4JDltoag">
@@ -787,4 +794,21 @@ Interactions refining the use cases of the system are graphically denoted using 
   <standard:Refine xmi:id="_WzYVgG0oEeePr__vXKAk2g" base_Abstraction="_wM9Z4E3pEeO5W83O6raoHw"/>
   <standard:Refine xmi:id="_7iUtMG0pEeePr__vXKAk2g" base_Abstraction="_zQW3AG0pEeePr__vXKAk2g"/>
   <Symbols:TypeSymbolDefinition xmi:id="_AWJzIG0rEeePr__vXKAk2g" base_Type="_hO1LQG0pEeePr__vXKAk2g" symbolPath="platform:/resource/SmartHomeSystemProject/model/symbols/ReadMore.png"/>
+  <Requirements:Requirement xmi:id="_IUTUYG36EeeZtLaug2P7dA" base_Class="_IQxfQG36EeeZtLaug2P7dA" id="SH_SEC_010" text="The Smart Home must support prevention and detection of unauthorized physical intrusion."/>
+  <Requirements:Requirement xmi:id="_M-nHYG36EeeZtLaug2P7dA" base_Class="_M-d9cG36EeeZtLaug2P7dA" id="SH_SEC_020" text="The Smart Home must support prevention and detection of unauthorized computer intrusion."/>
+  <Requirements:Requirement xmi:id="_PdLbkG36EeeZtLaug2P7dA" base_Class="_PdBqkG36EeeZtLaug2P7dA" id="SH_SEC_030" text="The Smart Home must provide an identification-based access control system."/>
+  <Requirements:Requirement xmi:id="_PlfDAG36EeeZtLaug2P7dA" base_Class="_PlVSAG36EeeZtLaug2P7dA" id="SH_SEC_040" text="The Smart Home must call the police station in case of burglary or any other unauthorized intrusion."/>
+  <Requirements:Requirement xmi:id="_Ps-LEW36EeeZtLaug2P7dA" base_Class="_Ps-LEG36EeeZtLaug2P7dA" id="SH_SEC_050" text="The Smart Home must be able to detect signs of fire and call the fire station in case of suspicion of fire."/>
+  <Requirements:Requirement xmi:id="_Qf3AkG36EeeZtLaug2P7dA" base_Class="_QftPkG36EeeZtLaug2P7dA" id="SH_SEC_060" text="The Smart Home must be able to detect certain medical emergencies (e.g., accidents, falls) and call an ambulance."/>
+  <Requirements:Requirement xmi:id="_QnggsG36EeeZtLaug2P7dA" base_Class="_QnWvsG36EeeZtLaug2P7dA" id="SH_SEC_070" text="The Smart Home must allow physical access to emergency services (firemen, hospital service, etc.)."/>
+  <Requirements:Requirement xmi:id="_N0-K0G3-EeeZtLaug2P7dA" base_Class="_NvvFgG3-EeeZtLaug2P7dA" id="SH_ACO_010" text="The Smart Home must accommodate physical and mental conditions of the inhabitants."/>
+  <Requirements:Requirement xmi:id="_OuZGIG3-EeeZtLaug2P7dA" base_Class="_OuPVIG3-EeeZtLaug2P7dA" id="SH_ACO_020" text="The Smart Home must accommodate specific preferences entered by the inhabitants."/>
+  <Requirements:Requirement xmi:id="_QGlBEG3-EeeZtLaug2P7dA" base_Class="_QGbQEG3-EeeZtLaug2P7dA" id="SH_ACO_030" text="The Smart Home must learn from the behaviour of inhabitants."/>
+  <Requirements:Requirement xmi:id="_QMA6sW3-EeeZtLaug2P7dA" base_Class="_QMA6sG3-EeeZtLaug2P7dA" id="SH_ACO_040" text="The Smart Home must assist the inhabitants with the everyday tasks regardless of their disabilities."/>
+  <Requirements:Requirement xmi:id="_QSadoW3-EeeZtLaug2P7dA" base_Class="_QSadoG3-EeeZtLaug2P7dA" id="SH_ACO_050" text="The Smart Home must be monitorable via a central interface located in the main room."/>
+  <Requirements:Requirement xmi:id="_QXyF0W3-EeeZtLaug2P7dA" base_Class="_QXyF0G3-EeeZtLaug2P7dA" id="SH_ACO_060" text="The Smart Home must support the connection of smart devices of the inhabitants."/>
+  <Requirements:Requirement xmi:id="_aI6BoG3-EeeZtLaug2P7dA" base_Class="_aIwQoG3-EeeZtLaug2P7dA" id="SH_ACO_070" text="The Smart Home must have a bed that accommodates to the disability of the inhabitants."/>
+  <Requirements:Requirement xmi:id="_khRHIG3_EeeZtLaug2P7dA" base_Class="_khHWIG3_EeeZtLaug2P7dA" id="SH_ECO_010" text="The Smart Home must save energy."/>
+  <Requirements:Requirement xmi:id="_lRlJwG3_EeeZtLaug2P7dA" base_Class="_lRY8gG3_EeeZtLaug2P7dA" id="SH_ECO_020" text="The Smart Home annual consumption should be less than local regulations."/>
+  <Requirements:Requirement xmi:id="_mIEF0W3_EeeZtLaug2P7dA" base_Class="_mIEF0G3_EeeZtLaug2P7dA" id="SH_ECO_030" text="The Smart Home must prioritize self-produced energy."/>
 </xmi:XMI>
