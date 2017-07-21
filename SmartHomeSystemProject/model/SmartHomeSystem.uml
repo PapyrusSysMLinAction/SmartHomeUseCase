@@ -36,7 +36,7 @@ This model is derived from a textual description of the SHS requirements as defi
         <packagedElement xmi:type="uml:Class" xmi:id="_PdBqkG36EeeZtLaug2P7dA" name="ID_AccessControl"/>
         <packagedElement xmi:type="uml:Class" xmi:id="_PlVSAG36EeeZtLaug2P7dA" name="PoliceStationCall"/>
         <packagedElement xmi:type="uml:Class" xmi:id="_Ps-LEG36EeeZtLaug2P7dA" name="FireMgt"/>
-        <packagedElement xmi:type="uml:Class" xmi:id="_QftPkG36EeeZtLaug2P7dA" name="HelthEmergencyMgt"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_QftPkG36EeeZtLaug2P7dA" name="HealthEmergencyMgt"/>
         <packagedElement xmi:type="uml:Class" xmi:id="_QnWvsG36EeeZtLaug2P7dA" name="EmergencyAccessControlGt"/>
       </packagedElement>
       <packagedElement xmi:type="uml:Package" xmi:id="_VM_OMG0iEeePr__vXKAk2g" name="SHS Accomodation Requirements">
@@ -49,7 +49,7 @@ This model is derived from a textual description of the SHS requirements as defi
         <packagedElement xmi:type="uml:Class" xmi:id="_NvvFgG3-EeeZtLaug2P7dA" name="Phy&amp;MentMgt"/>
         <packagedElement xmi:type="uml:Class" xmi:id="_OuPVIG3-EeeZtLaug2P7dA" name="UserPrefMgt"/>
         <packagedElement xmi:type="uml:Class" xmi:id="_QGbQEG3-EeeZtLaug2P7dA" name="UserBehavLearning"/>
-        <packagedElement xmi:type="uml:Class" xmi:id="_QMA6sG3-EeeZtLaug2P7dA" name="DisabililityMgt"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_QMA6sG3-EeeZtLaug2P7dA" name="DisabilityMgt"/>
         <packagedElement xmi:type="uml:Class" xmi:id="_QSadoG3-EeeZtLaug2P7dA" name="HomeMonitoringInterface"/>
         <packagedElement xmi:type="uml:Class" xmi:id="_QXyF0G3-EeeZtLaug2P7dA" name="DeviceConnectionMgt"/>
         <packagedElement xmi:type="uml:Class" xmi:id="_aIwQoG3-EeeZtLaug2P7dA" name="SmartBedMgt"/>
