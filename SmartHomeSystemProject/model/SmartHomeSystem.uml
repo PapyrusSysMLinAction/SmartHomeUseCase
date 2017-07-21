@@ -119,29 +119,29 @@ N.B.: the comment may be hidden and shown as for example in a table gathering al
         </packagedElement>
         <packagedElement xmi:type="uml:Package" xmi:id="_l6s34G4CEeeZtLaug2P7dA" name="SHS Accomodation Use Cases">
           <packagedElement xmi:type="uml:UseCase" xmi:id="_l6s34W4CEeeZtLaug2P7dA" name="&lt;Use Case 001 Name>">
-            <ownedComment xmi:type="uml:Comment" xmi:id="_l6s34m4CEeeZtLaug2P7dA" annotatedElement="_l6s36W4CEeeZtLaug2P7dA _l6s36m4CEeeZtLaug2P7dA _l6s36W4CEeeZtLaug2P7dA _l6s36m4CEeeZtLaug2P7dA _l6s36W4CEeeZtLaug2P7dA _l6s36m4CEeeZtLaug2P7dA _l6s36W4CEeeZtLaug2P7dA _l6s36m4CEeeZtLaug2P7dA _l6s36W4CEeeZtLaug2P7dA _l6s36m4CEeeZtLaug2P7dA _l6s36W4CEeeZtLaug2P7dA _l6s36m4CEeeZtLaug2P7dA _l6s36W4CEeeZtLaug2P7dA _l6s36m4CEeeZtLaug2P7dA _l6s36W4CEeeZtLaug2P7dA _l6s36m4CEeeZtLaug2P7dA _l6s36W4CEeeZtLaug2P7dA _l6s36m4CEeeZtLaug2P7dA _l6s36W4CEeeZtLaug2P7dA _l6s36m4CEeeZtLaug2P7dA _l6s36W4CEeeZtLaug2P7dA _l6s36m4CEeeZtLaug2P7dA _l6s36W4CEeeZtLaug2P7dA _l6s36m4CEeeZtLaug2P7dA _l6s36W4CEeeZtLaug2P7dA _l6s36m4CEeeZtLaug2P7dA _l6s36W4CEeeZtLaug2P7dA _l6s36m4CEeeZtLaug2P7dA _l6s36W4CEeeZtLaug2P7dA _l6s36m4CEeeZtLaug2P7dA _l6s36W4CEeeZtLaug2P7dA _l6s36m4CEeeZtLaug2P7dA">
+            <ownedComment xmi:type="uml:Comment" xmi:id="_l6s34m4CEeeZtLaug2P7dA" annotatedElement="_l6s36W4CEeeZtLaug2P7dA _l6s36m4CEeeZtLaug2P7dA">
               <body>This is a use case model element. It denotes some behavior of the system under consideration. It is further refined via interaction description using as for example sequence diagrams.&#xD;
 N.B.: each use case shall have a comment denoting it textually.</body>
             </ownedComment>
             <ownedBehavior xmi:type="uml:Interaction" xmi:id="_l6s3424CEeeZtLaug2P7dA" name="Interaction001_UseCase001">
-              <ownedComment xmi:type="uml:Comment" xmi:id="_l6s35G4CEeeZtLaug2P7dA" annotatedElement="_l6s35m4CEeeZtLaug2P7dA _l6s35m4CEeeZtLaug2P7dA _l6s35m4CEeeZtLaug2P7dA _l6s35m4CEeeZtLaug2P7dA _l6s35m4CEeeZtLaug2P7dA _l6s35m4CEeeZtLaug2P7dA _l6s35m4CEeeZtLaug2P7dA _l6s35m4CEeeZtLaug2P7dA _l6s35m4CEeeZtLaug2P7dA _l6s35m4CEeeZtLaug2P7dA _l6s35m4CEeeZtLaug2P7dA _l6s35m4CEeeZtLaug2P7dA _l6s35m4CEeeZtLaug2P7dA _l6s35m4CEeeZtLaug2P7dA _l6s35m4CEeeZtLaug2P7dA _l6s35m4CEeeZtLaug2P7dA">
+              <ownedComment xmi:type="uml:Comment" xmi:id="_l6s35G4CEeeZtLaug2P7dA" annotatedElement="_l6s35m4CEeeZtLaug2P7dA">
                 <body>This is a lifeline model element. It represents the system under specification which is abstracted here as black box. The interaction modelled here via this sequence diagram focuses on the messages exchanged between the system and the actors involved in the use case owning the interaction.</body>
               </ownedComment>
-              <ownedComment xmi:type="uml:Comment" xmi:id="_l6s35W4CEeeZtLaug2P7dA" annotatedElement="_l6s34W4CEeeZtLaug2P7dA _l6s34W4CEeeZtLaug2P7dA _l6s34W4CEeeZtLaug2P7dA _l6s34W4CEeeZtLaug2P7dA _l6s34W4CEeeZtLaug2P7dA _l6s34W4CEeeZtLaug2P7dA _l6s34W4CEeeZtLaug2P7dA _l6s34W4CEeeZtLaug2P7dA _l6s34W4CEeeZtLaug2P7dA _l6s34W4CEeeZtLaug2P7dA _l6s34W4CEeeZtLaug2P7dA _l6s34W4CEeeZtLaug2P7dA _l6s34W4CEeeZtLaug2P7dA _l6s34W4CEeeZtLaug2P7dA _l6s34W4CEeeZtLaug2P7dA _l6s34W4CEeeZtLaug2P7dA">
+              <ownedComment xmi:type="uml:Comment" xmi:id="_l6s35W4CEeeZtLaug2P7dA" annotatedElement="_l6s34W4CEeeZtLaug2P7dA">
                 <body>&lt;Insert here a textual description of the use case>.&#xD;
 N.B.: the comment may be hidden and shown as for example in a table gathering all use cases contained in one use cases pakage, e.g. in the table named &quot;List of use cases contained in the SHS Use Cases package.&quot;. </body>
               </ownedComment>
               <lifeline xmi:type="uml:Lifeline" xmi:id="_l6s35m4CEeeZtLaug2P7dA" name="Lifeline" represents="_xxK3QH7AEeO3zebKuAwZtw"/>
             </ownedBehavior>
             <ownedBehavior xmi:type="uml:Interaction" xmi:id="_l6s3524CEeeZtLaug2P7dA" name="Interaction002_UseCase001">
-              <ownedComment xmi:type="uml:Comment" xmi:id="_l6s36G4CEeeZtLaug2P7dA" annotatedElement="_l6s34W4CEeeZtLaug2P7dA _l6s34W4CEeeZtLaug2P7dA _l6s34W4CEeeZtLaug2P7dA _l6s34W4CEeeZtLaug2P7dA _l6s34W4CEeeZtLaug2P7dA _l6s34W4CEeeZtLaug2P7dA _l6s34W4CEeeZtLaug2P7dA _l6s34W4CEeeZtLaug2P7dA _l6s34W4CEeeZtLaug2P7dA _l6s34W4CEeeZtLaug2P7dA _l6s34W4CEeeZtLaug2P7dA _l6s34W4CEeeZtLaug2P7dA _l6s34W4CEeeZtLaug2P7dA _l6s34W4CEeeZtLaug2P7dA _l6s34W4CEeeZtLaug2P7dA _l6s34W4CEeeZtLaug2P7dA">
+              <ownedComment xmi:type="uml:Comment" xmi:id="_l6s36G4CEeeZtLaug2P7dA" annotatedElement="_l6s34W4CEeeZtLaug2P7dA">
                 <body>&lt;Insert here a textual description of the use case>.&#xD;
 N.B.: the comment may be hidden and shown as for example in a table gathering all use cases contained in one use cases pakage, e.g. in the table named &quot;List of use cases contained in the SHS Use Cases package.&quot;. </body>
               </ownedComment>
             </ownedBehavior>
           </packagedElement>
           <packagedElement xmi:type="uml:UseCase" xmi:id="_l6s36W4CEeeZtLaug2P7dA" name="&lt;Use Case 002 Name>">
-            <ownedComment xmi:type="uml:Comment" xmi:id="_l6s36m4CEeeZtLaug2P7dA" annotatedElement="_l6s36W4CEeeZtLaug2P7dA _l6s36W4CEeeZtLaug2P7dA _l6s36W4CEeeZtLaug2P7dA _l6s36W4CEeeZtLaug2P7dA _l6s36W4CEeeZtLaug2P7dA _l6s36W4CEeeZtLaug2P7dA _l6s36W4CEeeZtLaug2P7dA _l6s36W4CEeeZtLaug2P7dA _l6s36W4CEeeZtLaug2P7dA _l6s36W4CEeeZtLaug2P7dA _l6s36W4CEeeZtLaug2P7dA _l6s36W4CEeeZtLaug2P7dA _l6s36W4CEeeZtLaug2P7dA _l6s36W4CEeeZtLaug2P7dA _l6s36W4CEeeZtLaug2P7dA _l6s36W4CEeeZtLaug2P7dA">
+            <ownedComment xmi:type="uml:Comment" xmi:id="_l6s36m4CEeeZtLaug2P7dA" annotatedElement="_l6s36W4CEeeZtLaug2P7dA">
               <body>&lt;Insert here a textual description of the use case>.</body>
             </ownedComment>
             <ownedBehavior xmi:type="uml:Interaction" xmi:id="_l6s3624CEeeZtLaug2P7dA" name="Interaction001_UseCase002"/>
@@ -149,29 +149,29 @@ N.B.: the comment may be hidden and shown as for example in a table gathering al
         </packagedElement>
         <packagedElement xmi:type="uml:Package" xmi:id="_mIk70G4CEeeZtLaug2P7dA" name="SHS Economic Use Cases">
           <packagedElement xmi:type="uml:UseCase" xmi:id="_mIk70W4CEeeZtLaug2P7dA" name="&lt;Use Case 001 Name>">
-            <ownedComment xmi:type="uml:Comment" xmi:id="_mIk70m4CEeeZtLaug2P7dA" annotatedElement="_mIk72W4CEeeZtLaug2P7dA _mIk72m4CEeeZtLaug2P7dA _mIk72W4CEeeZtLaug2P7dA _mIk72m4CEeeZtLaug2P7dA _mIk72W4CEeeZtLaug2P7dA _mIk72m4CEeeZtLaug2P7dA _mIk72W4CEeeZtLaug2P7dA _mIk72m4CEeeZtLaug2P7dA _mIk72W4CEeeZtLaug2P7dA _mIk72m4CEeeZtLaug2P7dA _mIk72W4CEeeZtLaug2P7dA _mIk72m4CEeeZtLaug2P7dA _mIk72W4CEeeZtLaug2P7dA _mIk72m4CEeeZtLaug2P7dA _mIk72W4CEeeZtLaug2P7dA _mIk72m4CEeeZtLaug2P7dA _mIk72W4CEeeZtLaug2P7dA _mIk72m4CEeeZtLaug2P7dA _mIk72W4CEeeZtLaug2P7dA _mIk72m4CEeeZtLaug2P7dA _mIk72W4CEeeZtLaug2P7dA _mIk72m4CEeeZtLaug2P7dA _mIk72W4CEeeZtLaug2P7dA _mIk72m4CEeeZtLaug2P7dA _mIk72W4CEeeZtLaug2P7dA _mIk72m4CEeeZtLaug2P7dA _mIk72W4CEeeZtLaug2P7dA _mIk72m4CEeeZtLaug2P7dA _mIk72W4CEeeZtLaug2P7dA _mIk72m4CEeeZtLaug2P7dA _mIk72W4CEeeZtLaug2P7dA _mIk72m4CEeeZtLaug2P7dA">
+            <ownedComment xmi:type="uml:Comment" xmi:id="_mIk70m4CEeeZtLaug2P7dA" annotatedElement="_mIk72W4CEeeZtLaug2P7dA _mIk72m4CEeeZtLaug2P7dA">
               <body>This is a use case model element. It denotes some behavior of the system under consideration. It is further refined via interaction description using as for example sequence diagrams.&#xD;
 N.B.: each use case shall have a comment denoting it textually.</body>
             </ownedComment>
             <ownedBehavior xmi:type="uml:Interaction" xmi:id="_mIk7024CEeeZtLaug2P7dA" name="Interaction001_UseCase001">
-              <ownedComment xmi:type="uml:Comment" xmi:id="_mIk71G4CEeeZtLaug2P7dA" annotatedElement="_mIk71m4CEeeZtLaug2P7dA _mIk71m4CEeeZtLaug2P7dA _mIk71m4CEeeZtLaug2P7dA _mIk71m4CEeeZtLaug2P7dA _mIk71m4CEeeZtLaug2P7dA _mIk71m4CEeeZtLaug2P7dA _mIk71m4CEeeZtLaug2P7dA _mIk71m4CEeeZtLaug2P7dA _mIk71m4CEeeZtLaug2P7dA _mIk71m4CEeeZtLaug2P7dA _mIk71m4CEeeZtLaug2P7dA _mIk71m4CEeeZtLaug2P7dA _mIk71m4CEeeZtLaug2P7dA _mIk71m4CEeeZtLaug2P7dA _mIk71m4CEeeZtLaug2P7dA _mIk71m4CEeeZtLaug2P7dA">
+              <ownedComment xmi:type="uml:Comment" xmi:id="_mIk71G4CEeeZtLaug2P7dA" annotatedElement="_mIk71m4CEeeZtLaug2P7dA">
                 <body>This is a lifeline model element. It represents the system under specification which is abstracted here as black box. The interaction modelled here via this sequence diagram focuses on the messages exchanged between the system and the actors involved in the use case owning the interaction.</body>
               </ownedComment>
-              <ownedComment xmi:type="uml:Comment" xmi:id="_mIk71W4CEeeZtLaug2P7dA" annotatedElement="_mIk70W4CEeeZtLaug2P7dA _mIk70W4CEeeZtLaug2P7dA _mIk70W4CEeeZtLaug2P7dA _mIk70W4CEeeZtLaug2P7dA _mIk70W4CEeeZtLaug2P7dA _mIk70W4CEeeZtLaug2P7dA _mIk70W4CEeeZtLaug2P7dA _mIk70W4CEeeZtLaug2P7dA _mIk70W4CEeeZtLaug2P7dA _mIk70W4CEeeZtLaug2P7dA _mIk70W4CEeeZtLaug2P7dA _mIk70W4CEeeZtLaug2P7dA _mIk70W4CEeeZtLaug2P7dA _mIk70W4CEeeZtLaug2P7dA _mIk70W4CEeeZtLaug2P7dA _mIk70W4CEeeZtLaug2P7dA">
+              <ownedComment xmi:type="uml:Comment" xmi:id="_mIk71W4CEeeZtLaug2P7dA" annotatedElement="_mIk70W4CEeeZtLaug2P7dA">
                 <body>&lt;Insert here a textual description of the use case>.&#xD;
 N.B.: the comment may be hidden and shown as for example in a table gathering all use cases contained in one use cases pakage, e.g. in the table named &quot;List of use cases contained in the SHS Use Cases package.&quot;. </body>
               </ownedComment>
               <lifeline xmi:type="uml:Lifeline" xmi:id="_mIk71m4CEeeZtLaug2P7dA" name="Lifeline" represents="_xxK3QH7AEeO3zebKuAwZtw"/>
             </ownedBehavior>
             <ownedBehavior xmi:type="uml:Interaction" xmi:id="_mIk7124CEeeZtLaug2P7dA" name="Interaction002_UseCase001">
-              <ownedComment xmi:type="uml:Comment" xmi:id="_mIk72G4CEeeZtLaug2P7dA" annotatedElement="_mIk70W4CEeeZtLaug2P7dA _mIk70W4CEeeZtLaug2P7dA _mIk70W4CEeeZtLaug2P7dA _mIk70W4CEeeZtLaug2P7dA _mIk70W4CEeeZtLaug2P7dA _mIk70W4CEeeZtLaug2P7dA _mIk70W4CEeeZtLaug2P7dA _mIk70W4CEeeZtLaug2P7dA _mIk70W4CEeeZtLaug2P7dA _mIk70W4CEeeZtLaug2P7dA _mIk70W4CEeeZtLaug2P7dA _mIk70W4CEeeZtLaug2P7dA _mIk70W4CEeeZtLaug2P7dA _mIk70W4CEeeZtLaug2P7dA _mIk70W4CEeeZtLaug2P7dA _mIk70W4CEeeZtLaug2P7dA">
+              <ownedComment xmi:type="uml:Comment" xmi:id="_mIk72G4CEeeZtLaug2P7dA" annotatedElement="_mIk70W4CEeeZtLaug2P7dA">
                 <body>&lt;Insert here a textual description of the use case>.&#xD;
 N.B.: the comment may be hidden and shown as for example in a table gathering all use cases contained in one use cases pakage, e.g. in the table named &quot;List of use cases contained in the SHS Use Cases package.&quot;. </body>
               </ownedComment>
             </ownedBehavior>
           </packagedElement>
           <packagedElement xmi:type="uml:UseCase" xmi:id="_mIk72W4CEeeZtLaug2P7dA" name="&lt;Use Case 002 Name>">
-            <ownedComment xmi:type="uml:Comment" xmi:id="_mIk72m4CEeeZtLaug2P7dA" annotatedElement="_mIk72W4CEeeZtLaug2P7dA _mIk72W4CEeeZtLaug2P7dA _mIk72W4CEeeZtLaug2P7dA _mIk72W4CEeeZtLaug2P7dA _mIk72W4CEeeZtLaug2P7dA _mIk72W4CEeeZtLaug2P7dA _mIk72W4CEeeZtLaug2P7dA _mIk72W4CEeeZtLaug2P7dA _mIk72W4CEeeZtLaug2P7dA _mIk72W4CEeeZtLaug2P7dA _mIk72W4CEeeZtLaug2P7dA _mIk72W4CEeeZtLaug2P7dA _mIk72W4CEeeZtLaug2P7dA _mIk72W4CEeeZtLaug2P7dA _mIk72W4CEeeZtLaug2P7dA _mIk72W4CEeeZtLaug2P7dA">
+            <ownedComment xmi:type="uml:Comment" xmi:id="_mIk72m4CEeeZtLaug2P7dA" annotatedElement="_mIk72W4CEeeZtLaug2P7dA">
               <body>&lt;Insert here a textual description of the use case>.</body>
             </ownedComment>
             <ownedBehavior xmi:type="uml:Interaction" xmi:id="_mIk7224CEeeZtLaug2P7dA" name="Interaction001_UseCase002"/>

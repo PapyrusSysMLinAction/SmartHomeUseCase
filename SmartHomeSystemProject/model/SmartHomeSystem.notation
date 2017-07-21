@@ -3652,10 +3652,10 @@
       <layoutConstraint xmi:type="notation:Bounds" xmi:id="_W8Ry1W0oEeePr__vXKAk2g" x="587" y="210"/>
     </children>
     <children xmi:type="notation:Shape" xmi:id="_uZw7gG0pEeePr__vXKAk2g" type="NamedElement_DefaultShape">
-      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_jXWAwG32EeeZtLaug2P7dA" source="PapyrusHyperLink__web">
-        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_jXWAwW32EeeZtLaug2P7dA" key="tooltip_text" value="https://docs.google.com/document/d/1D9ii7bGAdCCspapVxCN3lLIvGO4o-EyWZxOIzTml5fI/edit"/>
-        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_jXWAwm32EeeZtLaug2P7dA" key="link" value="https://docs.google.com/document/d/1D9ii7bGAdCCspapVxCN3lLIvGO4o-EyWZxOIzTml5fI/edit"/>
-        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_jXWAw232EeeZtLaug2P7dA" key="is_default_navigation" value="true"/>
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_vHZFYG4MEeeOg9mYZc3I_A" source="PapyrusHyperLink__web">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_vHZFYW4MEeeOg9mYZc3I_A" key="tooltip_text" value="http://bit.ly/SmartHomeUseCase"/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_vHZFYm4MEeeOg9mYZc3I_A" key="link" value="http://bit.ly/SmartHomeUseCase"/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_vHZFY24MEeeOg9mYZc3I_A" key="is_default_navigation" value="true"/>
       </eAnnotations>
       <children xmi:type="notation:DecorationNode" xmi:id="_uZw7gm0pEeePr__vXKAk2g" type="NamedElement_NameLabel"/>
       <children xmi:type="notation:BasicCompartment" xmi:id="_uZw7g20pEeePr__vXKAk2g" type="compartment_shape_display">
@@ -4064,5 +4064,13 @@
       <owner xmi:type="uml:Interaction" href="SmartHomeSystem.uml#_mIk7224CEeeZtLaug2P7dA"/>
     </styles>
     <element xmi:type="uml:Interaction" href="SmartHomeSystem.uml#_mIk7224CEeeZtLaug2P7dA"/>
+  </notation:Diagram>
+  <notation:Diagram xmi:id="_IvmOoG4NEeeOg9mYZc3I_A" type="PapyrusUMLClassDiagram" name="NewSysML1.4BlockDefinition" measurementUnit="Pixel">
+    <styles xmi:type="notation:StringValueStyle" xmi:id="_IvmOoW4NEeeOg9mYZc3I_A" name="diagram_compatibility_version" stringValue="1.3.0"/>
+    <styles xmi:type="notation:DiagramStyle" xmi:id="_IvmOom4NEeeOg9mYZc3I_A"/>
+    <styles xmi:type="style:PapyrusDiagramStyle" xmi:id="_IvmOo24NEeeOg9mYZc3I_A" diagramKindId="org.eclipse.papyrus.sysml14.diagram.blockdefinition">
+      <owner xmi:type="uml:Model" href="SmartHomeSystem.uml#_Q7ZNACRxEeCaCLd1YXNfIQ"/>
+    </styles>
+    <element xmi:type="uml:Model" href="SmartHomeSystem.uml#_Q7ZNACRxEeCaCLd1YXNfIQ"/>
   </notation:Diagram>
 </xmi:XMI>
