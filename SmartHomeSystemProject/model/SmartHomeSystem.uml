@@ -25,6 +25,9 @@ PS: Glossary of the project is defined within the model {@link #_yt5KoFHQEeORnr7
 This model is derived from a textual description of the SHS requirements as defined in the document referenced available here: .</body>
       </ownedComment>
       <packagedElement xmi:type="uml:Package" xmi:id="_4OrEwG0hEeePr__vXKAk2g" name="SHS Security Requirements">
+        <ownedComment xmi:type="uml:Comment" xmi:id="_lXLJgG4BEeeZtLaug2P7dA" annotatedElement="_4OrEwG0hEeePr__vXKAk2g">
+          <body>As any other home, smart homes must provide a certain level of protection against intruders, burglars. This level has to be enforced as smart homes may be not only vulnerable to physical accesses, but are also open to cyber attacks. Security breaches or a low level of identification may allow hackers to intrude or to steal personal digital information about inhabitants. However, compared to classical homes, smart homes can leverage of smart devices in order to prevent or put a stop to undesirable intrusions (alarm, automatic call to the police station) while facilitating access to relevant and trustworthy authorities, such as firemen, policemen, and ambulances. Such authorities can be automatically alerted in the case of unexpected situation involving specific conditions of the inhabitants (e.g, when an elderly falls) with the help of smart sensors (e.g., fall detector). Another important concern of smart homes is the use and access to personal information by the different smart devices embedded into the house. Smart devices can come from different companies that require specific information, possibly collected in real-time and sent to remote third-party servers via Internet. Prevention measures must be therefore taken in order to ensure the authentication and access to personal information by trustworthy applications only, the protection of the information when stored on private hard drives or collected on external networks. Such mechanisms include data encryption, open API, etc</body>
+        </ownedComment>
         <ownedComment xmi:type="uml:Comment" xmi:id="__R6okG0iEeePr__vXKAk2g" annotatedElement="_4OrEwG0hEeePr__vXKAk2g">
           <body>This package consists of all the SHS requirements related to the system security concern.</body>
         </ownedComment>
@@ -37,6 +40,9 @@ This model is derived from a textual description of the SHS requirements as defi
         <packagedElement xmi:type="uml:Class" xmi:id="_QnWvsG36EeeZtLaug2P7dA" name="EmergencyAccessControlGt"/>
       </packagedElement>
       <packagedElement xmi:type="uml:Package" xmi:id="_VM_OMG0iEeePr__vXKAk2g" name="SHS Accomodation Requirements">
+        <ownedComment xmi:type="uml:Comment" xmi:id="_rbp0cG4BEeeZtLaug2P7dA" annotatedElement="_VM_OMG0iEeePr__vXKAk2g">
+          <body>Smart homes can accommodate specific conditions of the inhabitants and adapt itself in response to them. Examples include accommodating the height of a kitchen cabinet in order to facilitate its use, access (e.g., to the upper drawers), and maintenance (e.g., dust the top of the shelves). In addition, inhabitants suffering from mental conditions may need assistance in order to accomplish day-to-day tasks. For example, LEDs inlayed in the floor can help individuals suffering from the Alzheimer’s disease to remember the path of the bathroom the morning when getting out of the bed. In addition to accommodating physical and mental conditions, smart homes can also accommodate inhabitants’ preferences. Control interfaces provided to them or learning algorithms to learn from their habits can help accommodate inhabitants’ preferences. For example, inhabitants can use a control interface to set the range of temperature comfortable for the inhabitants. Furthermore, learning algorithms can automatically adapt this temperature according to the day of the week (providing different ranges for weekdays and week-end), the schedule of the inhabitants, …​</body>
+        </ownedComment>
         <ownedComment xmi:type="uml:Comment" xmi:id="_81S1IG0iEeePr__vXKAk2g" annotatedElement="_VM_OMG0iEeePr__vXKAk2g">
           <body>This package consists of all the SHS requirements related to the system accomodation concern.</body>
         </ownedComment>
@@ -49,6 +55,9 @@ This model is derived from a textual description of the SHS requirements as defi
         <packagedElement xmi:type="uml:Class" xmi:id="_aIwQoG3-EeeZtLaug2P7dA" name="SmartBedMgt"/>
       </packagedElement>
       <packagedElement xmi:type="uml:Package" xmi:id="_sw3vQG0iEeePr__vXKAk2g" name="SHS Economic Requirements">
+        <ownedComment xmi:type="uml:Comment" xmi:id="_wQeOUG4BEeeZtLaug2P7dA" annotatedElement="_sw3vQG0iEeePr__vXKAk2g">
+          <body>An important aspect of smart homes is to provide mechanisms for reducing energy consumption. It can be done for different purposes. Economically first, but also to meet local regulations in terms of energy consumption. Using the above example, smart homes can reduce the temperature range according to time slots, or whenever the inhabitants leave the house. Temperature can be slightly decreased overnight and increased again in the morning. Overnight, most of the smart devices can also be put in sleeping mode and reactivated the morning. Information flux over Internet can also be reduced to specific time slots in order to reduce the consumption. In addition to reducing the energy consumption, smart homes must play a central home in producing green energy. This can be done by smart solar panels (e.g., solar sun flowers that can follow the position of the sun), geothermal energy converter, …​</body>
+        </ownedComment>
         <ownedComment xmi:type="uml:Comment" xmi:id="_3DU2gG0iEeePr__vXKAk2g" annotatedElement="_sw3vQG0iEeePr__vXKAk2g">
           <body>This package consists of all the SHS requirements related to the system economic concern.</body>
         </ownedComment>
@@ -78,36 +87,96 @@ This model is derived from a textual description of the SHS requirements as defi
         <mapping xmi:type="uml:OpaqueExpression" xmi:id="_dBkGkE3qEeO5W83O6raoHw" name="FromReq2ExtSpec_MappingDescription" language="" body=""/>
       </packagedElement>
       <packagedElement xmi:type="uml:Package" xmi:id="_RDQ_oF3uEeGTC7jtR9befw" name="SHS Use Cases">
-        <packagedElement xmi:type="uml:UseCase" xmi:id="_PwMs8FkIEeO46MKyR1zbAg" name="&lt;Use Case 001 Name>" subject="_gCDnUFkHEeO46MKyR1zbAg">
-          <ownedComment xmi:type="uml:Comment" xmi:id="_7-5v4FkLEeO46MKyR1zbAg" annotatedElement="_Pbm9AFkIEeO46MKyR1zbAg _z9MpYHb-EeOHCpFb_yGTPQ">
-            <body>This is a use case model element. It denotes some behavior of the system under consideration. It is further refined via interaction description using as for example sequence diagrams.&#xD;
+        <packagedElement xmi:type="uml:Package" xmi:id="_Zx56EG4CEeeZtLaug2P7dA" name="SHS Security Use Cases">
+          <packagedElement xmi:type="uml:UseCase" xmi:id="_PwMs8FkIEeO46MKyR1zbAg" name="&lt;Use Case 001 Name>" subject="_gCDnUFkHEeO46MKyR1zbAg">
+            <ownedComment xmi:type="uml:Comment" xmi:id="_7-5v4FkLEeO46MKyR1zbAg" annotatedElement="_Pbm9AFkIEeO46MKyR1zbAg _z9MpYHb-EeOHCpFb_yGTPQ">
+              <body>This is a use case model element. It denotes some behavior of the system under consideration. It is further refined via interaction description using as for example sequence diagrams.&#xD;
 N.B.: each use case shall have a comment denoting it textually.</body>
-          </ownedComment>
-          <ownedBehavior xmi:type="uml:Interaction" xmi:id="_CsLOQFkOEeO46MKyR1zbAg" name="Interaction001_UseCase001">
-            <ownedComment xmi:type="uml:Comment" xmi:id="_5lbWYH7DEeOc0bxsTW21JA" annotatedElement="_zOBvcH7DEeOc0bxsTW21JA">
-              <body>This is a lifeline model element. It represents the system under specification which is abstracted here as black box. The interaction modelled here via this sequence diagram focuses on the messages exchanged between the system and the actors involved in the use case owning the interaction.</body>
             </ownedComment>
-            <ownedComment xmi:type="uml:Comment" xmi:id="_KEWjMHb-EeOHCpFb_yGTPQ" annotatedElement="_PwMs8FkIEeO46MKyR1zbAg">
-              <body>&lt;Insert here a textual description of the use case>.&#xD;
+            <ownedBehavior xmi:type="uml:Interaction" xmi:id="_CsLOQFkOEeO46MKyR1zbAg" name="Interaction001_UseCase001">
+              <ownedComment xmi:type="uml:Comment" xmi:id="_5lbWYH7DEeOc0bxsTW21JA" annotatedElement="_zOBvcH7DEeOc0bxsTW21JA">
+                <body>This is a lifeline model element. It represents the system under specification which is abstracted here as black box. The interaction modelled here via this sequence diagram focuses on the messages exchanged between the system and the actors involved in the use case owning the interaction.</body>
+              </ownedComment>
+              <ownedComment xmi:type="uml:Comment" xmi:id="_KEWjMHb-EeOHCpFb_yGTPQ" annotatedElement="_PwMs8FkIEeO46MKyR1zbAg">
+                <body>&lt;Insert here a textual description of the use case>.&#xD;
 N.B.: the comment may be hidden and shown as for example in a table gathering all use cases contained in one use cases pakage, e.g. in the table named &quot;List of use cases contained in the SHS Use Cases package.&quot;. </body>
-            </ownedComment>
-            <lifeline xmi:type="uml:Lifeline" xmi:id="_zOBvcH7DEeOc0bxsTW21JA" name="Lifeline" represents="_xxK3QH7AEeO3zebKuAwZtw"/>
-          </ownedBehavior>
-          <ownedBehavior xmi:type="uml:Interaction" xmi:id="_Q5JDQFkOEeO46MKyR1zbAg" name="Interaction002_UseCase001">
-            <ownedComment xmi:type="uml:Comment" xmi:id="_LU5MUH7FEeOc0bxsTW21JA" annotatedElement="_PwMs8FkIEeO46MKyR1zbAg">
-              <body>&lt;Insert here a textual description of the use case>.&#xD;
+              </ownedComment>
+              <lifeline xmi:type="uml:Lifeline" xmi:id="_zOBvcH7DEeOc0bxsTW21JA" name="Lifeline" represents="_xxK3QH7AEeO3zebKuAwZtw"/>
+            </ownedBehavior>
+            <ownedBehavior xmi:type="uml:Interaction" xmi:id="_Q5JDQFkOEeO46MKyR1zbAg" name="Interaction002_UseCase001">
+              <ownedComment xmi:type="uml:Comment" xmi:id="_LU5MUH7FEeOc0bxsTW21JA" annotatedElement="_PwMs8FkIEeO46MKyR1zbAg">
+                <body>&lt;Insert here a textual description of the use case>.&#xD;
 N.B.: the comment may be hidden and shown as for example in a table gathering all use cases contained in one use cases pakage, e.g. in the table named &quot;List of use cases contained in the SHS Use Cases package.&quot;. </body>
+              </ownedComment>
+            </ownedBehavior>
+          </packagedElement>
+          <packagedElement xmi:type="uml:UseCase" xmi:id="_Pbm9AFkIEeO46MKyR1zbAg" name="&lt;Use Case 002 Name>" subject="_gCDnUFkHEeO46MKyR1zbAg">
+            <ownedComment xmi:type="uml:Comment" xmi:id="_z9MpYHb-EeOHCpFb_yGTPQ" annotatedElement="_Pbm9AFkIEeO46MKyR1zbAg">
+              <body>&lt;Insert here a textual description of the use case>.</body>
             </ownedComment>
-          </ownedBehavior>
+            <ownedBehavior xmi:type="uml:Interaction" xmi:id="_KUcnMFkOEeO46MKyR1zbAg" name="Interaction001_UseCase002"/>
+          </packagedElement>
         </packagedElement>
-        <packagedElement xmi:type="uml:UseCase" xmi:id="_Pbm9AFkIEeO46MKyR1zbAg" name="&lt;Use Case 002 Name>" subject="_gCDnUFkHEeO46MKyR1zbAg">
-          <ownedComment xmi:type="uml:Comment" xmi:id="_z9MpYHb-EeOHCpFb_yGTPQ" annotatedElement="_Pbm9AFkIEeO46MKyR1zbAg">
-            <body>&lt;Insert here a textual description of the use case>.</body>
-          </ownedComment>
-          <ownedBehavior xmi:type="uml:Interaction" xmi:id="_KUcnMFkOEeO46MKyR1zbAg" name="Interaction001_UseCase002"/>
+        <packagedElement xmi:type="uml:Package" xmi:id="_l6s34G4CEeeZtLaug2P7dA" name="SHS Accomodation Use Cases">
+          <packagedElement xmi:type="uml:UseCase" xmi:id="_l6s34W4CEeeZtLaug2P7dA" name="&lt;Use Case 001 Name>">
+            <ownedComment xmi:type="uml:Comment" xmi:id="_l6s34m4CEeeZtLaug2P7dA" annotatedElement="_l6s36W4CEeeZtLaug2P7dA _l6s36m4CEeeZtLaug2P7dA _l6s36W4CEeeZtLaug2P7dA _l6s36m4CEeeZtLaug2P7dA _l6s36W4CEeeZtLaug2P7dA _l6s36m4CEeeZtLaug2P7dA _l6s36W4CEeeZtLaug2P7dA _l6s36m4CEeeZtLaug2P7dA _l6s36W4CEeeZtLaug2P7dA _l6s36m4CEeeZtLaug2P7dA _l6s36W4CEeeZtLaug2P7dA _l6s36m4CEeeZtLaug2P7dA _l6s36W4CEeeZtLaug2P7dA _l6s36m4CEeeZtLaug2P7dA _l6s36W4CEeeZtLaug2P7dA _l6s36m4CEeeZtLaug2P7dA _l6s36W4CEeeZtLaug2P7dA _l6s36m4CEeeZtLaug2P7dA _l6s36W4CEeeZtLaug2P7dA _l6s36m4CEeeZtLaug2P7dA _l6s36W4CEeeZtLaug2P7dA _l6s36m4CEeeZtLaug2P7dA _l6s36W4CEeeZtLaug2P7dA _l6s36m4CEeeZtLaug2P7dA _l6s36W4CEeeZtLaug2P7dA _l6s36m4CEeeZtLaug2P7dA _l6s36W4CEeeZtLaug2P7dA _l6s36m4CEeeZtLaug2P7dA _l6s36W4CEeeZtLaug2P7dA _l6s36m4CEeeZtLaug2P7dA _l6s36W4CEeeZtLaug2P7dA _l6s36m4CEeeZtLaug2P7dA">
+              <body>This is a use case model element. It denotes some behavior of the system under consideration. It is further refined via interaction description using as for example sequence diagrams.&#xD;
+N.B.: each use case shall have a comment denoting it textually.</body>
+            </ownedComment>
+            <ownedBehavior xmi:type="uml:Interaction" xmi:id="_l6s3424CEeeZtLaug2P7dA" name="Interaction001_UseCase001">
+              <ownedComment xmi:type="uml:Comment" xmi:id="_l6s35G4CEeeZtLaug2P7dA" annotatedElement="_l6s35m4CEeeZtLaug2P7dA _l6s35m4CEeeZtLaug2P7dA _l6s35m4CEeeZtLaug2P7dA _l6s35m4CEeeZtLaug2P7dA _l6s35m4CEeeZtLaug2P7dA _l6s35m4CEeeZtLaug2P7dA _l6s35m4CEeeZtLaug2P7dA _l6s35m4CEeeZtLaug2P7dA _l6s35m4CEeeZtLaug2P7dA _l6s35m4CEeeZtLaug2P7dA _l6s35m4CEeeZtLaug2P7dA _l6s35m4CEeeZtLaug2P7dA _l6s35m4CEeeZtLaug2P7dA _l6s35m4CEeeZtLaug2P7dA _l6s35m4CEeeZtLaug2P7dA _l6s35m4CEeeZtLaug2P7dA">
+                <body>This is a lifeline model element. It represents the system under specification which is abstracted here as black box. The interaction modelled here via this sequence diagram focuses on the messages exchanged between the system and the actors involved in the use case owning the interaction.</body>
+              </ownedComment>
+              <ownedComment xmi:type="uml:Comment" xmi:id="_l6s35W4CEeeZtLaug2P7dA" annotatedElement="_l6s34W4CEeeZtLaug2P7dA _l6s34W4CEeeZtLaug2P7dA _l6s34W4CEeeZtLaug2P7dA _l6s34W4CEeeZtLaug2P7dA _l6s34W4CEeeZtLaug2P7dA _l6s34W4CEeeZtLaug2P7dA _l6s34W4CEeeZtLaug2P7dA _l6s34W4CEeeZtLaug2P7dA _l6s34W4CEeeZtLaug2P7dA _l6s34W4CEeeZtLaug2P7dA _l6s34W4CEeeZtLaug2P7dA _l6s34W4CEeeZtLaug2P7dA _l6s34W4CEeeZtLaug2P7dA _l6s34W4CEeeZtLaug2P7dA _l6s34W4CEeeZtLaug2P7dA _l6s34W4CEeeZtLaug2P7dA">
+                <body>&lt;Insert here a textual description of the use case>.&#xD;
+N.B.: the comment may be hidden and shown as for example in a table gathering all use cases contained in one use cases pakage, e.g. in the table named &quot;List of use cases contained in the SHS Use Cases package.&quot;. </body>
+              </ownedComment>
+              <lifeline xmi:type="uml:Lifeline" xmi:id="_l6s35m4CEeeZtLaug2P7dA" name="Lifeline" represents="_xxK3QH7AEeO3zebKuAwZtw"/>
+            </ownedBehavior>
+            <ownedBehavior xmi:type="uml:Interaction" xmi:id="_l6s3524CEeeZtLaug2P7dA" name="Interaction002_UseCase001">
+              <ownedComment xmi:type="uml:Comment" xmi:id="_l6s36G4CEeeZtLaug2P7dA" annotatedElement="_l6s34W4CEeeZtLaug2P7dA _l6s34W4CEeeZtLaug2P7dA _l6s34W4CEeeZtLaug2P7dA _l6s34W4CEeeZtLaug2P7dA _l6s34W4CEeeZtLaug2P7dA _l6s34W4CEeeZtLaug2P7dA _l6s34W4CEeeZtLaug2P7dA _l6s34W4CEeeZtLaug2P7dA _l6s34W4CEeeZtLaug2P7dA _l6s34W4CEeeZtLaug2P7dA _l6s34W4CEeeZtLaug2P7dA _l6s34W4CEeeZtLaug2P7dA _l6s34W4CEeeZtLaug2P7dA _l6s34W4CEeeZtLaug2P7dA _l6s34W4CEeeZtLaug2P7dA _l6s34W4CEeeZtLaug2P7dA">
+                <body>&lt;Insert here a textual description of the use case>.&#xD;
+N.B.: the comment may be hidden and shown as for example in a table gathering all use cases contained in one use cases pakage, e.g. in the table named &quot;List of use cases contained in the SHS Use Cases package.&quot;. </body>
+              </ownedComment>
+            </ownedBehavior>
+          </packagedElement>
+          <packagedElement xmi:type="uml:UseCase" xmi:id="_l6s36W4CEeeZtLaug2P7dA" name="&lt;Use Case 002 Name>">
+            <ownedComment xmi:type="uml:Comment" xmi:id="_l6s36m4CEeeZtLaug2P7dA" annotatedElement="_l6s36W4CEeeZtLaug2P7dA _l6s36W4CEeeZtLaug2P7dA _l6s36W4CEeeZtLaug2P7dA _l6s36W4CEeeZtLaug2P7dA _l6s36W4CEeeZtLaug2P7dA _l6s36W4CEeeZtLaug2P7dA _l6s36W4CEeeZtLaug2P7dA _l6s36W4CEeeZtLaug2P7dA _l6s36W4CEeeZtLaug2P7dA _l6s36W4CEeeZtLaug2P7dA _l6s36W4CEeeZtLaug2P7dA _l6s36W4CEeeZtLaug2P7dA _l6s36W4CEeeZtLaug2P7dA _l6s36W4CEeeZtLaug2P7dA _l6s36W4CEeeZtLaug2P7dA _l6s36W4CEeeZtLaug2P7dA">
+              <body>&lt;Insert here a textual description of the use case>.</body>
+            </ownedComment>
+            <ownedBehavior xmi:type="uml:Interaction" xmi:id="_l6s3624CEeeZtLaug2P7dA" name="Interaction001_UseCase002"/>
+          </packagedElement>
         </packagedElement>
-        <packagedElement xmi:type="uml:Abstraction" xmi:id="_IeJMMH7GEeOc0bxsTW21JA" name="UC001_refinedIn_Interaction001" client="_CsLOQFkOEeO46MKyR1zbAg" supplier="_PwMs8FkIEeO46MKyR1zbAg"/>
-        <packagedElement xmi:type="uml:Abstraction" xmi:id="_JauJMH7GEeOc0bxsTW21JA" name="UC001_refinedIn_Interaction002" client="_Q5JDQFkOEeO46MKyR1zbAg" supplier="_PwMs8FkIEeO46MKyR1zbAg"/>
+        <packagedElement xmi:type="uml:Package" xmi:id="_mIk70G4CEeeZtLaug2P7dA" name="SHS Economic Use Cases">
+          <packagedElement xmi:type="uml:UseCase" xmi:id="_mIk70W4CEeeZtLaug2P7dA" name="&lt;Use Case 001 Name>">
+            <ownedComment xmi:type="uml:Comment" xmi:id="_mIk70m4CEeeZtLaug2P7dA" annotatedElement="_mIk72W4CEeeZtLaug2P7dA _mIk72m4CEeeZtLaug2P7dA _mIk72W4CEeeZtLaug2P7dA _mIk72m4CEeeZtLaug2P7dA _mIk72W4CEeeZtLaug2P7dA _mIk72m4CEeeZtLaug2P7dA _mIk72W4CEeeZtLaug2P7dA _mIk72m4CEeeZtLaug2P7dA _mIk72W4CEeeZtLaug2P7dA _mIk72m4CEeeZtLaug2P7dA _mIk72W4CEeeZtLaug2P7dA _mIk72m4CEeeZtLaug2P7dA _mIk72W4CEeeZtLaug2P7dA _mIk72m4CEeeZtLaug2P7dA _mIk72W4CEeeZtLaug2P7dA _mIk72m4CEeeZtLaug2P7dA _mIk72W4CEeeZtLaug2P7dA _mIk72m4CEeeZtLaug2P7dA _mIk72W4CEeeZtLaug2P7dA _mIk72m4CEeeZtLaug2P7dA _mIk72W4CEeeZtLaug2P7dA _mIk72m4CEeeZtLaug2P7dA _mIk72W4CEeeZtLaug2P7dA _mIk72m4CEeeZtLaug2P7dA _mIk72W4CEeeZtLaug2P7dA _mIk72m4CEeeZtLaug2P7dA _mIk72W4CEeeZtLaug2P7dA _mIk72m4CEeeZtLaug2P7dA _mIk72W4CEeeZtLaug2P7dA _mIk72m4CEeeZtLaug2P7dA _mIk72W4CEeeZtLaug2P7dA _mIk72m4CEeeZtLaug2P7dA">
+              <body>This is a use case model element. It denotes some behavior of the system under consideration. It is further refined via interaction description using as for example sequence diagrams.&#xD;
+N.B.: each use case shall have a comment denoting it textually.</body>
+            </ownedComment>
+            <ownedBehavior xmi:type="uml:Interaction" xmi:id="_mIk7024CEeeZtLaug2P7dA" name="Interaction001_UseCase001">
+              <ownedComment xmi:type="uml:Comment" xmi:id="_mIk71G4CEeeZtLaug2P7dA" annotatedElement="_mIk71m4CEeeZtLaug2P7dA _mIk71m4CEeeZtLaug2P7dA _mIk71m4CEeeZtLaug2P7dA _mIk71m4CEeeZtLaug2P7dA _mIk71m4CEeeZtLaug2P7dA _mIk71m4CEeeZtLaug2P7dA _mIk71m4CEeeZtLaug2P7dA _mIk71m4CEeeZtLaug2P7dA _mIk71m4CEeeZtLaug2P7dA _mIk71m4CEeeZtLaug2P7dA _mIk71m4CEeeZtLaug2P7dA _mIk71m4CEeeZtLaug2P7dA _mIk71m4CEeeZtLaug2P7dA _mIk71m4CEeeZtLaug2P7dA _mIk71m4CEeeZtLaug2P7dA _mIk71m4CEeeZtLaug2P7dA">
+                <body>This is a lifeline model element. It represents the system under specification which is abstracted here as black box. The interaction modelled here via this sequence diagram focuses on the messages exchanged between the system and the actors involved in the use case owning the interaction.</body>
+              </ownedComment>
+              <ownedComment xmi:type="uml:Comment" xmi:id="_mIk71W4CEeeZtLaug2P7dA" annotatedElement="_mIk70W4CEeeZtLaug2P7dA _mIk70W4CEeeZtLaug2P7dA _mIk70W4CEeeZtLaug2P7dA _mIk70W4CEeeZtLaug2P7dA _mIk70W4CEeeZtLaug2P7dA _mIk70W4CEeeZtLaug2P7dA _mIk70W4CEeeZtLaug2P7dA _mIk70W4CEeeZtLaug2P7dA _mIk70W4CEeeZtLaug2P7dA _mIk70W4CEeeZtLaug2P7dA _mIk70W4CEeeZtLaug2P7dA _mIk70W4CEeeZtLaug2P7dA _mIk70W4CEeeZtLaug2P7dA _mIk70W4CEeeZtLaug2P7dA _mIk70W4CEeeZtLaug2P7dA _mIk70W4CEeeZtLaug2P7dA">
+                <body>&lt;Insert here a textual description of the use case>.&#xD;
+N.B.: the comment may be hidden and shown as for example in a table gathering all use cases contained in one use cases pakage, e.g. in the table named &quot;List of use cases contained in the SHS Use Cases package.&quot;. </body>
+              </ownedComment>
+              <lifeline xmi:type="uml:Lifeline" xmi:id="_mIk71m4CEeeZtLaug2P7dA" name="Lifeline" represents="_xxK3QH7AEeO3zebKuAwZtw"/>
+            </ownedBehavior>
+            <ownedBehavior xmi:type="uml:Interaction" xmi:id="_mIk7124CEeeZtLaug2P7dA" name="Interaction002_UseCase001">
+              <ownedComment xmi:type="uml:Comment" xmi:id="_mIk72G4CEeeZtLaug2P7dA" annotatedElement="_mIk70W4CEeeZtLaug2P7dA _mIk70W4CEeeZtLaug2P7dA _mIk70W4CEeeZtLaug2P7dA _mIk70W4CEeeZtLaug2P7dA _mIk70W4CEeeZtLaug2P7dA _mIk70W4CEeeZtLaug2P7dA _mIk70W4CEeeZtLaug2P7dA _mIk70W4CEeeZtLaug2P7dA _mIk70W4CEeeZtLaug2P7dA _mIk70W4CEeeZtLaug2P7dA _mIk70W4CEeeZtLaug2P7dA _mIk70W4CEeeZtLaug2P7dA _mIk70W4CEeeZtLaug2P7dA _mIk70W4CEeeZtLaug2P7dA _mIk70W4CEeeZtLaug2P7dA _mIk70W4CEeeZtLaug2P7dA">
+                <body>&lt;Insert here a textual description of the use case>.&#xD;
+N.B.: the comment may be hidden and shown as for example in a table gathering all use cases contained in one use cases pakage, e.g. in the table named &quot;List of use cases contained in the SHS Use Cases package.&quot;. </body>
+              </ownedComment>
+            </ownedBehavior>
+          </packagedElement>
+          <packagedElement xmi:type="uml:UseCase" xmi:id="_mIk72W4CEeeZtLaug2P7dA" name="&lt;Use Case 002 Name>">
+            <ownedComment xmi:type="uml:Comment" xmi:id="_mIk72m4CEeeZtLaug2P7dA" annotatedElement="_mIk72W4CEeeZtLaug2P7dA _mIk72W4CEeeZtLaug2P7dA _mIk72W4CEeeZtLaug2P7dA _mIk72W4CEeeZtLaug2P7dA _mIk72W4CEeeZtLaug2P7dA _mIk72W4CEeeZtLaug2P7dA _mIk72W4CEeeZtLaug2P7dA _mIk72W4CEeeZtLaug2P7dA _mIk72W4CEeeZtLaug2P7dA _mIk72W4CEeeZtLaug2P7dA _mIk72W4CEeeZtLaug2P7dA _mIk72W4CEeeZtLaug2P7dA _mIk72W4CEeeZtLaug2P7dA _mIk72W4CEeeZtLaug2P7dA _mIk72W4CEeeZtLaug2P7dA _mIk72W4CEeeZtLaug2P7dA">
+              <body>&lt;Insert here a textual description of the use case>.</body>
+            </ownedComment>
+            <ownedBehavior xmi:type="uml:Interaction" xmi:id="_mIk7224CEeeZtLaug2P7dA" name="Interaction001_UseCase002"/>
+          </packagedElement>
+        </packagedElement>
       </packagedElement>
       <packagedElement xmi:type="uml:Package" xmi:id="_YF3z4FkHEeO46MKyR1zbAg" name="SHS Actors">
         <packagedElement xmi:type="uml:Actor" xmi:id="_o9C5QDiAEeGe4_sFLbM3Hw" name="Actor_1">
