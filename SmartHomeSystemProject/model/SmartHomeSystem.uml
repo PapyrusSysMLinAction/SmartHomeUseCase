@@ -31,13 +31,16 @@ This model is derived from a textual description of the SHS requirements as defi
         <ownedComment xmi:type="uml:Comment" xmi:id="__R6okG0iEeePr__vXKAk2g" annotatedElement="_4OrEwG0hEeePr__vXKAk2g">
           <body>This package consists of all the SHS requirements related to the system security concern.</body>
         </ownedComment>
-        <packagedElement xmi:type="uml:Class" xmi:id="_IQxfQG36EeeZtLaug2P7dA" name="PhyIntrusionMgt"/>
-        <packagedElement xmi:type="uml:Class" xmi:id="_M-d9cG36EeeZtLaug2P7dA" name="CompuIntrusionMgt"/>
-        <packagedElement xmi:type="uml:Class" xmi:id="_PdBqkG36EeeZtLaug2P7dA" name="ID_AccessControl"/>
-        <packagedElement xmi:type="uml:Class" xmi:id="_PlVSAG36EeeZtLaug2P7dA" name="PoliceStationCall"/>
-        <packagedElement xmi:type="uml:Class" xmi:id="_Ps-LEG36EeeZtLaug2P7dA" name="FireMgt"/>
-        <packagedElement xmi:type="uml:Class" xmi:id="_QftPkG36EeeZtLaug2P7dA" name="HelthEmergencyMgt"/>
-        <packagedElement xmi:type="uml:Class" xmi:id="_QnWvsG36EeeZtLaug2P7dA" name="EmergencyAccessControlGt"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_xMxFAHLDEeeGodGwr0LI7g" name="Security">
+          <nestedClassifier xmi:type="uml:Class" xmi:id="_IQxfQG36EeeZtLaug2P7dA" name="PhyIntrusionMgt"/>
+          <nestedClassifier xmi:type="uml:Class" xmi:id="_M-d9cG36EeeZtLaug2P7dA" name="CompuIntrusionMgt"/>
+          <nestedClassifier xmi:type="uml:Class" xmi:id="_PdBqkG36EeeZtLaug2P7dA" name="ID_AccessControl"/>
+          <nestedClassifier xmi:type="uml:Class" xmi:id="_PlVSAG36EeeZtLaug2P7dA" name="PoliceStationCall"/>
+          <nestedClassifier xmi:type="uml:Class" xmi:id="_Ps-LEG36EeeZtLaug2P7dA" name="FireMgt"/>
+          <nestedClassifier xmi:type="uml:Class" xmi:id="_QftPkG36EeeZtLaug2P7dA" name="HelthEmergencyMgt"/>
+          <nestedClassifier xmi:type="uml:Class" xmi:id="_QnWvsG36EeeZtLaug2P7dA" name="EmergencyAccessControlGt"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Abstraction" xmi:id="_ClkucHLFEeeGodGwr0LI7g" client="_PdBqkG36EeeZtLaug2P7dA" supplier="_6jpfYHLEEeeGodGwr0LI7g"/>
       </packagedElement>
       <packagedElement xmi:type="uml:Package" xmi:id="_VM_OMG0iEeePr__vXKAk2g" name="SHS Accomodation Requirements">
         <ownedComment xmi:type="uml:Comment" xmi:id="_rbp0cG4BEeeZtLaug2P7dA" annotatedElement="_VM_OMG0iEeePr__vXKAk2g">
@@ -53,6 +56,8 @@ This model is derived from a textual description of the SHS requirements as defi
         <packagedElement xmi:type="uml:Class" xmi:id="_QSadoG3-EeeZtLaug2P7dA" name="HomeMonitoringInterface"/>
         <packagedElement xmi:type="uml:Class" xmi:id="_QXyF0G3-EeeZtLaug2P7dA" name="DeviceConnectionMgt"/>
         <packagedElement xmi:type="uml:Class" xmi:id="_aIwQoG3-EeeZtLaug2P7dA" name="SmartBedMgt"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_rxFC8HLEEeeGodGwr0LI7g" name="Accomodation"/>
+        <packagedElement xmi:type="uml:Abstraction" xmi:id="_DNx98HLFEeeGodGwr0LI7g" client="_rxFC8HLEEeeGodGwr0LI7g" supplier="_6jpfYHLEEeeGodGwr0LI7g"/>
       </packagedElement>
       <packagedElement xmi:type="uml:Package" xmi:id="_sw3vQG0iEeePr__vXKAk2g" name="SHS Economic Requirements">
         <ownedComment xmi:type="uml:Comment" xmi:id="_wQeOUG4BEeeZtLaug2P7dA" annotatedElement="_sw3vQG0iEeePr__vXKAk2g">
@@ -66,6 +71,9 @@ This model is derived from a textual description of the SHS requirements as defi
         <packagedElement xmi:type="uml:Class" xmi:id="_mIEF0G3_EeeZtLaug2P7dA" name="SelfEnergyPriorityMgt"/>
       </packagedElement>
       <packagedElement xmi:type="uml:Abstraction" xmi:id="_zQW3AG0pEeePr__vXKAk2g" name="FromTextSpec2SysMLReq" client="_o5WlgCRyEeCaCLd1YXNfIQ" supplier="_hO1LQG0pEeePr__vXKAk2g"/>
+      <packagedElement xmi:type="uml:Package" xmi:id="_YvPwwHLEEeeGodGwr0LI7g" name="SHS Detailed Requirements">
+        <packagedElement xmi:type="uml:Class" xmi:id="_6jpfYHLEEeeGodGwr0LI7g" name="ListOfPeople"/>
+      </packagedElement>
       <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_txtuoDtFEee1tf4JDltoag">
         <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_tx3foDtFEee1tf4JDltoag" source="http://www.eclipse.org/uml2/2.0.0/UML">
           <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/sysml/1.4/SysML#//requirements"/>
@@ -880,4 +888,9 @@ Interactions refining the use cases of the system are graphically denoted using 
   <Requirements:Requirement xmi:id="_khRHIG3_EeeZtLaug2P7dA" base_Class="_khHWIG3_EeeZtLaug2P7dA" id="SH_ECO_010" text="The Smart Home must save energy."/>
   <Requirements:Requirement xmi:id="_lRlJwG3_EeeZtLaug2P7dA" base_Class="_lRY8gG3_EeeZtLaug2P7dA" id="SH_ECO_020" text="The Smart Home annual consumption should be less than local regulations."/>
   <Requirements:Requirement xmi:id="_mIEF0W3_EeeZtLaug2P7dA" base_Class="_mIEF0G3_EeeZtLaug2P7dA" id="SH_ECO_030" text="The Smart Home must prioritize self-produced energy."/>
+  <Requirements:Requirement xmi:id="_xNI4cHLDEeeGodGwr0LI7g" base_Class="_xMxFAHLDEeeGodGwr0LI7g" id="SH_SEC" text="The Smart Home should be secure"/>
+  <Requirements:Requirement xmi:id="_rxNl0HLEEeeGodGwr0LI7g" base_Class="_rxFC8HLEEeeGodGwr0LI7g" id="SH_ACO" text="The Smart Home should accomodate to its inhabitants."/>
+  <Requirements:Requirement xmi:id="_6jyCQHLEEeeGodGwr0LI7g" base_Class="_6jpfYHLEEeeGodGwr0LI7g" id="SH_DET_001" text="The Spart Home should have access to a list of authorized people with their level of access."/>
+  <Requirements:DeriveReqt xmi:id="_Clyw4HLFEeeGodGwr0LI7g" base_DirectedRelationship="_ClkucHLFEeeGodGwr0LI7g" base_Abstraction="_ClkucHLFEeeGodGwr0LI7g"/>
+  <Requirements:DeriveReqt xmi:id="_DN55wHLFEeeGodGwr0LI7g" base_DirectedRelationship="_DNx98HLFEeeGodGwr0LI7g" base_Abstraction="_DNx98HLFEeeGodGwr0LI7g"/>
 </xmi:XMI>
