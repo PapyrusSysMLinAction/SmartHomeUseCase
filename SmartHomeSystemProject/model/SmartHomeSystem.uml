@@ -10,7 +10,7 @@ PS: Glossary of the project is defined within the model {@link #_yt5KoFHQEeORnr7
     </ownedComment>
     <packagedElement xmi:type="uml:Artifact" xmi:id="_hO1LQG0pEeePr__vXKAk2g" name="SHS Specification" fileName=""/>
     <packagedElement xmi:type="uml:Model" xmi:id="_yt5KoFHQEeORnr76KmtUgw" name="Smart Home Domain Glossary">
-      <ownedComment xmi:type="uml:Comment" xmi:id="_5nRjMHbxEeOJLbWaesGeMg" annotatedElement="_yt5KoFHQEeORnr76KmtUgw">
+      <ownedComment xmi:type="uml:Comment" xmi:id="_5nRjMHbxEeOJLbWaesGeMg" annotatedElement="_Q7ZNACRxEeCaCLd1YXNfIQ">
         <body>This model is glossary for the smart home knowledge domain. It consists of terms and their definition related to that knowledge domain.</body>
       </ownedComment>
       <packagedElement xmi:type="uml:Class" xmi:id="_GVomQFHREeORnr76KmtUgw" name="SHS">
@@ -31,9 +31,15 @@ This model is derived from a textual description of the SHS requirements as defi
         <ownedComment xmi:type="uml:Comment" xmi:id="__R6okG0iEeePr__vXKAk2g" annotatedElement="_4OrEwG0hEeePr__vXKAk2g">
           <body>This package consists of all the SHS requirements related to the system security concern.</body>
         </ownedComment>
-        <packagedElement xmi:type="uml:Class" xmi:id="_xMxFAHLDEeeGodGwr0LI7g" name="Security">
-          <nestedClassifier xmi:type="uml:Class" xmi:id="_IQxfQG36EeeZtLaug2P7dA" name="PhyIntrusionMgt"/>
-          <nestedClassifier xmi:type="uml:Class" xmi:id="_M-d9cG36EeeZtLaug2P7dA" name="CompuIntrusionMgt"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_xMxFAHLDEeeGodGwr0LI7g" name="Safety&amp;Security">
+          <nestedClassifier xmi:type="uml:Class" xmi:id="_IQxfQG36EeeZtLaug2P7dA" name="PhyIntrusionMgt">
+            <nestedClassifier xmi:type="uml:Class" xmi:id="_MIBvsIdLEeeff6fdwmUAJA" name="PhyIntrusionPreventionMgt"/>
+            <nestedClassifier xmi:type="uml:Class" xmi:id="_MIC90IdLEeeff6fdwmUAJA" name="PhyIntrusionDetectionMgt"/>
+          </nestedClassifier>
+          <nestedClassifier xmi:type="uml:Class" xmi:id="_M-d9cG36EeeZtLaug2P7dA" name="CompuIntrusionMgt">
+            <nestedClassifier xmi:type="uml:Class" xmi:id="_h0yMgIdKEeeff6fdwmUAJA" name="CompIntrusionPreventionMgt"/>
+            <nestedClassifier xmi:type="uml:Class" xmi:id="_CcoBYIdLEeeff6fdwmUAJA" name="CompIntrusionDetectionMgt"/>
+          </nestedClassifier>
           <nestedClassifier xmi:type="uml:Class" xmi:id="_PdBqkG36EeeZtLaug2P7dA" name="ID_AccessControl"/>
           <nestedClassifier xmi:type="uml:Class" xmi:id="_PlVSAG36EeeZtLaug2P7dA" name="PoliceStationCall"/>
           <nestedClassifier xmi:type="uml:Class" xmi:id="_Ps-LEG36EeeZtLaug2P7dA" name="FireMgt"/>
@@ -49,6 +55,7 @@ This model is derived from a textual description of the SHS requirements as defi
         <ownedComment xmi:type="uml:Comment" xmi:id="_81S1IG0iEeePr__vXKAk2g" annotatedElement="_VM_OMG0iEeePr__vXKAk2g">
           <body>This package consists of all the SHS requirements related to the system accomodation concern.</body>
         </ownedComment>
+        <packagedElement xmi:type="uml:Class" xmi:id="_rxFC8HLEEeeGodGwr0LI7g" name="Accomodation"/>
         <packagedElement xmi:type="uml:Class" xmi:id="_NvvFgG3-EeeZtLaug2P7dA" name="Phy&amp;MentMgt"/>
         <packagedElement xmi:type="uml:Class" xmi:id="_OuPVIG3-EeeZtLaug2P7dA" name="UserPrefMgt"/>
         <packagedElement xmi:type="uml:Class" xmi:id="_QGbQEG3-EeeZtLaug2P7dA" name="UserBehavLearning"/>
@@ -56,7 +63,6 @@ This model is derived from a textual description of the SHS requirements as defi
         <packagedElement xmi:type="uml:Class" xmi:id="_QSadoG3-EeeZtLaug2P7dA" name="HomeMonitoringInterface"/>
         <packagedElement xmi:type="uml:Class" xmi:id="_QXyF0G3-EeeZtLaug2P7dA" name="DeviceConnectionMgt"/>
         <packagedElement xmi:type="uml:Class" xmi:id="_aIwQoG3-EeeZtLaug2P7dA" name="SmartBedMgt"/>
-        <packagedElement xmi:type="uml:Class" xmi:id="_rxFC8HLEEeeGodGwr0LI7g" name="Accomodation"/>
         <packagedElement xmi:type="uml:Abstraction" xmi:id="_DNx98HLFEeeGodGwr0LI7g" client="_rxFC8HLEEeeGodGwr0LI7g" supplier="_6jpfYHLEEeeGodGwr0LI7g"/>
       </packagedElement>
       <packagedElement xmi:type="uml:Package" xmi:id="_sw3vQG0iEeePr__vXKAk2g" name="SHS Economic Requirements">
@@ -770,7 +776,6 @@ N.B.: the comment may be hidden and shown as for example in a table gathering al
           <body>The mapping formalizing the refinement relationship from the model denoting the ECS external specification to the model denoting its internal specification.</body>
         </mapping>
       </packagedElement>
-      <packagedElement xmi:type="uml:Abstraction" xmi:id="_N-NGcHb6EeOHCpFb_yGTPQ" name="FromReq2ExtSpec" client="_OXE1ICR8EeCaCLd1YXNfIQ" supplier="_o5WlgCRyEeCaCLd1YXNfIQ"/>
     </packagedElement>
     <packagedElement xmi:type="uml:Model" xmi:id="_-nEIcE3oEeO5W83O6raoHw" name="SHS Traceability Model">
       <ownedComment xmi:type="uml:Comment" xmi:id="_XA8JcH7VEeOjPqz2xMsJPg">
@@ -900,32 +905,35 @@ Interactions refining the use cases of the system are graphically denoted using 
   <GlossaryML:Term xmi:id="_QGPJEG0dEeePr__vXKAk2g" base_Class="_GVomQFHREeORnr76KmtUgw"/>
   <GlossaryML:TermDefinition xmi:id="_RbE1EG0dEeePr__vXKAk2g" base_Comment="_Nf4xAFHSEeORnr76KmtUgw"/>
   <standard:Refine xmi:id="_XvKdwG0nEeePr__vXKAk2g" base_Abstraction="_fUtqYE3pEeO5W83O6raoHw"/>
-  <standard:Refine xmi:id="_ZZyMgG0nEeePr__vXKAk2g" base_Abstraction="_N-NGcHb6EeOHCpFb_yGTPQ"/>
   <standard:Refine xmi:id="_WzYVgG0oEeePr__vXKAk2g" base_Abstraction="_wM9Z4E3pEeO5W83O6raoHw"/>
   <standard:Refine xmi:id="_7iUtMG0pEeePr__vXKAk2g" base_Abstraction="_zQW3AG0pEeePr__vXKAk2g"/>
   <Symbols:TypeSymbolDefinition xmi:id="_AWJzIG0rEeePr__vXKAk2g" base_Type="_hO1LQG0pEeePr__vXKAk2g" symbolPath="platform:/resource/SmartHomeSystemProject/model/symbols/ReadMore.png"/>
-  <Requirements:Requirement xmi:id="_IUTUYG36EeeZtLaug2P7dA" base_Class="_IQxfQG36EeeZtLaug2P7dA" id="SH_SEC_010" text="The Smart Home must support prevention and detection of unauthorized physical intrusion."/>
-  <Requirements:Requirement xmi:id="_M-nHYG36EeeZtLaug2P7dA" base_Class="_M-d9cG36EeeZtLaug2P7dA" id="SH_SEC_020" text="The Smart Home must support prevention and detection of unauthorized computer intrusion."/>
-  <Requirements:Requirement xmi:id="_PdLbkG36EeeZtLaug2P7dA" base_Class="_PdBqkG36EeeZtLaug2P7dA" id="SH_SEC_030" text="The Smart Home must provide an identification-based access control system."/>
-  <Requirements:Requirement xmi:id="_PlfDAG36EeeZtLaug2P7dA" base_Class="_PlVSAG36EeeZtLaug2P7dA" id="SH_SEC_040" text="The Smart Home must call the police station in case of burglary or any other unauthorized intrusion."/>
-  <Requirements:Requirement xmi:id="_Ps-LEW36EeeZtLaug2P7dA" base_Class="_Ps-LEG36EeeZtLaug2P7dA" id="SH_SEC_050" text="The Smart Home must be able to detect signs of fire and call the fire station in case of suspicion of fire."/>
-  <Requirements:Requirement xmi:id="_Qf3AkG36EeeZtLaug2P7dA" base_Class="_QftPkG36EeeZtLaug2P7dA" id="SH_SEC_060" text="The Smart Home must be able to detect certain medical emergencies (e.g., accidents, falls) and call an ambulance."/>
-  <Requirements:Requirement xmi:id="_QnggsG36EeeZtLaug2P7dA" base_Class="_QnWvsG36EeeZtLaug2P7dA" id="SH_SEC_070" text="The Smart Home must allow physical access to emergency services (firemen, hospital service, etc.)."/>
-  <Requirements:Requirement xmi:id="_N0-K0G3-EeeZtLaug2P7dA" base_Class="_NvvFgG3-EeeZtLaug2P7dA" id="SH_ACO_010" text="The Smart Home must accommodate physical and mental conditions of the inhabitants."/>
-  <Requirements:Requirement xmi:id="_OuZGIG3-EeeZtLaug2P7dA" base_Class="_OuPVIG3-EeeZtLaug2P7dA" id="SH_ACO_020" text="The Smart Home must accommodate specific preferences entered by the inhabitants."/>
-  <Requirements:Requirement xmi:id="_QGlBEG3-EeeZtLaug2P7dA" base_Class="_QGbQEG3-EeeZtLaug2P7dA" id="SH_ACO_030" text="The Smart Home must learn from the behaviour of inhabitants."/>
-  <Requirements:Requirement xmi:id="_QMA6sW3-EeeZtLaug2P7dA" base_Class="_QMA6sG3-EeeZtLaug2P7dA" id="SH_ACO_040" text="The Smart Home must assist the inhabitants with the everyday tasks regardless of their disabilities."/>
-  <Requirements:Requirement xmi:id="_QSadoW3-EeeZtLaug2P7dA" base_Class="_QSadoG3-EeeZtLaug2P7dA" id="SH_ACO_050" text="The Smart Home must be monitorable via a central interface located in the main room."/>
-  <Requirements:Requirement xmi:id="_QXyF0W3-EeeZtLaug2P7dA" base_Class="_QXyF0G3-EeeZtLaug2P7dA" id="SH_ACO_060" text="The Smart Home must support the connection of smart devices of the inhabitants."/>
-  <Requirements:Requirement xmi:id="_aI6BoG3-EeeZtLaug2P7dA" base_Class="_aIwQoG3-EeeZtLaug2P7dA" id="SH_ACO_070" text="The Smart Home must have a bed that accommodates to the disability of the inhabitants."/>
-  <Requirements:Requirement xmi:id="_khRHIG3_EeeZtLaug2P7dA" base_Class="_khHWIG3_EeeZtLaug2P7dA" id="SH_ECO_010" text="The Smart Home must save energy."/>
-  <Requirements:Requirement xmi:id="_lRlJwG3_EeeZtLaug2P7dA" base_Class="_lRY8gG3_EeeZtLaug2P7dA" id="SH_ECO_020" text="The Smart Home annual consumption should be less than local regulations."/>
-  <Requirements:Requirement xmi:id="_mIEF0W3_EeeZtLaug2P7dA" base_Class="_mIEF0G3_EeeZtLaug2P7dA" id="SH_ECO_030" text="The Smart Home must prioritize self-produced energy."/>
-  <Requirements:Requirement xmi:id="_xNI4cHLDEeeGodGwr0LI7g" base_Class="_xMxFAHLDEeeGodGwr0LI7g" id="SH_SEC" text="The Smart Home should be secure"/>
-  <Requirements:Requirement xmi:id="_rxNl0HLEEeeGodGwr0LI7g" base_Class="_rxFC8HLEEeeGodGwr0LI7g" id="SH_ACO" text="The Smart Home should accomodate to its inhabitants."/>
-  <Requirements:Requirement xmi:id="_6jyCQHLEEeeGodGwr0LI7g" base_Class="_6jpfYHLEEeeGodGwr0LI7g" id="SH_DET_001" text="The Spart Home should have access to a list of authorized people with their level of access."/>
+  <Requirements:Requirement xmi:id="_IUTUYG36EeeZtLaug2P7dA" base_Class="_IQxfQG36EeeZtLaug2P7dA" id="SHS_SEC_010" text="The system must support prevention and detection of unauthorized physical intrusion."/>
+  <Requirements:Requirement xmi:id="_M-nHYG36EeeZtLaug2P7dA" base_Class="_M-d9cG36EeeZtLaug2P7dA" id="SHS_SEC_020" text="The system must support prevention and detection of unauthorized computer intrusion."/>
+  <Requirements:Requirement xmi:id="_PdLbkG36EeeZtLaug2P7dA" base_Class="_PdBqkG36EeeZtLaug2P7dA" id="SHS_SEC_030" text="The system must provide an identification-based access control system."/>
+  <Requirements:Requirement xmi:id="_PlfDAG36EeeZtLaug2P7dA" base_Class="_PlVSAG36EeeZtLaug2P7dA" id="SHS_SEC_040" text="The system must call the police station in case of burglary or any other unauthorized intrusion."/>
+  <Requirements:Requirement xmi:id="_Ps-LEW36EeeZtLaug2P7dA" base_Class="_Ps-LEG36EeeZtLaug2P7dA" id="SHS_SEC_050" text="The system must be able to detect signs of fire and call the fire station in case of suspicion of fire."/>
+  <Requirements:Requirement xmi:id="_Qf3AkG36EeeZtLaug2P7dA" base_Class="_QftPkG36EeeZtLaug2P7dA" id="SHS_SEC_060" text="The system must be able to detect certain medical emergencies (e.g., accidents, falls) and call an ambulance."/>
+  <Requirements:Requirement xmi:id="_QnggsG36EeeZtLaug2P7dA" base_Class="_QnWvsG36EeeZtLaug2P7dA" id="SHS_SEC_070" text="The system must allow physical access to emergency services (firemen, hospital service, etc.)."/>
+  <Requirements:Requirement xmi:id="_N0-K0G3-EeeZtLaug2P7dA" base_Class="_NvvFgG3-EeeZtLaug2P7dA" id="SHS_ACO_010" text="The system must accommodate physical and mental conditions of the inhabitants."/>
+  <Requirements:Requirement xmi:id="_OuZGIG3-EeeZtLaug2P7dA" base_Class="_OuPVIG3-EeeZtLaug2P7dA" id="SHS_ACO_020" text="The system must accommodate specific preferences entered by the inhabitants."/>
+  <Requirements:Requirement xmi:id="_QGlBEG3-EeeZtLaug2P7dA" base_Class="_QGbQEG3-EeeZtLaug2P7dA" id="SHS_ACO_030" text="The system must learn from the behaviour of inhabitants."/>
+  <Requirements:Requirement xmi:id="_QMA6sW3-EeeZtLaug2P7dA" base_Class="_QMA6sG3-EeeZtLaug2P7dA" id="SHS_ACO_040" text="The system must assist the inhabitants with the everyday tasks regardless of their disabilities."/>
+  <Requirements:Requirement xmi:id="_QSadoW3-EeeZtLaug2P7dA" base_Class="_QSadoG3-EeeZtLaug2P7dA" id="SHS_ACO_050" text="The system must be monitorable via a central interface located in the main room."/>
+  <Requirements:Requirement xmi:id="_QXyF0W3-EeeZtLaug2P7dA" base_Class="_QXyF0G3-EeeZtLaug2P7dA" id="SHS_ACO_060" text="The system must support the connection of smart devices of the inhabitants."/>
+  <Requirements:Requirement xmi:id="_aI6BoG3-EeeZtLaug2P7dA" base_Class="_aIwQoG3-EeeZtLaug2P7dA" id="SHS_ACO_070" text="The system must have a bed that accommodates to the disability of the inhabitants."/>
+  <Requirements:Requirement xmi:id="_khRHIG3_EeeZtLaug2P7dA" base_Class="_khHWIG3_EeeZtLaug2P7dA" id="SHS_ECO_010" text="The system must save energy."/>
+  <Requirements:Requirement xmi:id="_lRlJwG3_EeeZtLaug2P7dA" base_Class="_lRY8gG3_EeeZtLaug2P7dA" id="SHS_ECO_020" text="The system  musre ensure that annual consumption must be less than local regulations."/>
+  <Requirements:Requirement xmi:id="_mIEF0W3_EeeZtLaug2P7dA" base_Class="_mIEF0G3_EeeZtLaug2P7dA" id="SH_ECO_030" text="The system must prioritize self-produced energy."/>
+  <Requirements:Requirement xmi:id="_xNI4cHLDEeeGodGwr0LI7g" base_Class="_xMxFAHLDEeeGodGwr0LI7g" id="SHS_SEC" text="The system must be safe and secure."/>
+  <Requirements:Requirement xmi:id="_rxNl0HLEEeeGodGwr0LI7g" base_Class="_rxFC8HLEEeeGodGwr0LI7g" id="SHS_ACO" text="The system must provide accomodation services  to its inhabitants."/>
+  <Requirements:Requirement xmi:id="_6jyCQHLEEeeGodGwr0LI7g" base_Class="_6jpfYHLEEeeGodGwr0LI7g" id="SH_DET_001" text="The system must have access to a list of authorized people with their level of access."/>
   <Requirements:DeriveReqt xmi:id="_Clyw4HLFEeeGodGwr0LI7g" base_DirectedRelationship="_ClkucHLFEeeGodGwr0LI7g" base_Abstraction="_ClkucHLFEeeGodGwr0LI7g"/>
   <Requirements:DeriveReqt xmi:id="_DN55wHLFEeeGodGwr0LI7g" base_DirectedRelationship="_DNx98HLFEeeGodGwr0LI7g" base_Abstraction="_DNx98HLFEeeGodGwr0LI7g"/>
   <Blocks:Block xmi:id="_4cAfkHOXEeeGodGwr0LI7g" base_Class="_4bdF8HOXEeeGodGwr0LI7g"/>
   <Blocks:Block xmi:id="_FhE4YHOYEeeGodGwr0LI7g" base_Class="_Fg88kHOYEeeGodGwr0LI7g"/>
+  <Requirements:Requirement xmi:id="_h1LOEIdKEeeff6fdwmUAJA" base_Class="_h0yMgIdKEeeff6fdwmUAJA" id="SHS_SEC_020_010" text="The system must support prevention unauthorized computer intrusion."/>
+  <Requirements:Requirement xmi:id="_Ccv9MIdLEeeff6fdwmUAJA" base_Class="_CcoBYIdLEeeff6fdwmUAJA" id="SHS_SEC_020_020" text="The system must support prevention unauthorized computer intrusion."/>
+  <Requirements:Requirement xmi:id="_MIgQ0IdLEeeff6fdwmUAJA" base_Class="_MIBvsIdLEeeff6fdwmUAJA" id="SHS_SEC_010_010" text="The system must support prevention unauthorized physical intrusion."/>
+  <Requirements:Requirement xmi:id="_MI2PEIdLEeeff6fdwmUAJA" base_Class="_MIC90IdLEeeff6fdwmUAJA" id="SHS_SEC_010_020" text="The system must support prevention unauthorized physical intrusion."/>
 </xmi:XMI>
