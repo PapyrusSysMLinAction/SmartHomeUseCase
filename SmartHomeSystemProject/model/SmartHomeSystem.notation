@@ -3484,6 +3484,16 @@
             <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_QWbQYm39EeeZtLaug2P7dA" key="pageName" value="Detailled description fo the SHS requirements related security concern."/>
             <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_QWbQY239EeeZtLaug2P7dA" key="is_default_navigation" value="true"/>
           </eAnnotations>
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_xxJJQIdPEeeff6fdwmUAJA" source="PapyrusHyperLink_Page" references="_-7IlsIdMEeeff6fdwmUAJA">
+            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_xxJJQYdPEeeff6fdwmUAJA" key="tooltip_text" value="SHS detailled requirements tree table."/>
+            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_xxJJQodPEeeff6fdwmUAJA" key="pageName" value="SHS detailled requirements tree table."/>
+            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_xxJJQ4dPEeeff6fdwmUAJA" key="is_default_navigation" value="true"/>
+          </eAnnotations>
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_yFTbYIdPEeeff6fdwmUAJA" source="PapyrusHyperLink_Page" references="_vFvHEHLDEeeGodGwr0LI7g">
+            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_yFTbYYdPEeeff6fdwmUAJA" key="tooltip_text" value="SecurityRequirementDiagram"/>
+            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_yFTbYodPEeeff6fdwmUAJA" key="pageName" value="SecurityRequirementDiagram"/>
+            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_yFTbY4dPEeeff6fdwmUAJA" key="is_default_navigation" value="true"/>
+          </eAnnotations>
           <children xmi:type="notation:DecorationNode" xmi:id="_4js5km0hEeePr__vXKAk2g" type="Package_NameLabel"/>
           <children xmi:type="notation:BasicCompartment" xmi:id="_4js5k20hEeePr__vXKAk2g" type="Package_PackagedElementCompartment">
             <children xmi:type="notation:Shape" xmi:id="_v_Ey4IdIEeeff6fdwmUAJA" type="Comment_Shape_CN" fillColor="15987699">
@@ -4022,14 +4032,6 @@
       <owner xmi:type="uml:Interaction" href="SmartHomeSystem.uml#_mIk7224CEeeZtLaug2P7dA"/>
     </styles>
     <element xmi:type="uml:Interaction" href="SmartHomeSystem.uml#_mIk7224CEeeZtLaug2P7dA"/>
-  </notation:Diagram>
-  <notation:Diagram xmi:id="_IvmOoG4NEeeOg9mYZc3I_A" type="PapyrusUMLClassDiagram" name="NewSysML1.4BlockDefinition" measurementUnit="Pixel">
-    <styles xmi:type="notation:StringValueStyle" xmi:id="_IvmOoW4NEeeOg9mYZc3I_A" name="diagram_compatibility_version" stringValue="1.3.0"/>
-    <styles xmi:type="notation:DiagramStyle" xmi:id="_IvmOom4NEeeOg9mYZc3I_A"/>
-    <styles xmi:type="style:PapyrusDiagramStyle" xmi:id="_IvmOo24NEeeOg9mYZc3I_A" diagramKindId="org.eclipse.papyrus.sysml14.diagram.blockdefinition">
-      <owner xmi:type="uml:Model" href="SmartHomeSystem.uml#_Q7ZNACRxEeCaCLd1YXNfIQ"/>
-    </styles>
-    <element xmi:type="uml:Model" href="SmartHomeSystem.uml#_Q7ZNACRxEeCaCLd1YXNfIQ"/>
   </notation:Diagram>
   <notation:Diagram xmi:id="_vFvHEHLDEeeGodGwr0LI7g" type="PapyrusUMLClassDiagram" name="SecurityRequirementDiagram" measurementUnit="Pixel">
     <children xmi:type="notation:Shape" xmi:id="_xN-l8HLDEeeGodGwr0LI7g" type="Class_Shape">
@@ -4578,14 +4580,14 @@
     <edges xmi:type="notation:Connector" xmi:id="_Cq4hsHLEEeeGodGwr0LI7g" type="Element_ContainmentEdge" source="_xN-l8HLDEeeGodGwr0LI7g" target="_07D7sHLDEeeGodGwr0LI7g" routing="Tree">
       <styles xmi:type="notation:FontStyle" xmi:id="_Cq4hsXLEEeeGodGwr0LI7g"/>
       <element xsi:nil="true"/>
-      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_Cq4hsnLEEeeGodGwr0LI7g" points="[515, 111, -643984, -643984]$[515, 150, -643984, -643984]$[417, 150, -643984, -643984]$[417, 200, -643984, -643984]"/>
+      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_Cq4hsnLEEeeGodGwr0LI7g" points="[515, 111, -643984, -643984]$[515, 150, -643984, -643984]$[595, 150, -643984, -643984]$[595, 200, -643984, -643984]"/>
       <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_CripAHLEEeeGodGwr0LI7g" id="(0.5,1.0)"/>
       <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_CripAXLEEeeGodGwr0LI7g" id="(0.49707602339181284,0.0)"/>
     </edges>
     <edges xmi:type="notation:Connector" xmi:id="_DTahUHLEEeeGodGwr0LI7g" type="Element_ContainmentEdge" source="_xN-l8HLDEeeGodGwr0LI7g" target="_08VuEHLDEeeGodGwr0LI7g" routing="Tree">
       <styles xmi:type="notation:FontStyle" xmi:id="_DTahUXLEEeeGodGwr0LI7g"/>
       <element xsi:nil="true"/>
-      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_DTahUnLEEeeGodGwr0LI7g" points="[515, 111, -643984, -643984]$[515, 150, -643984, -643984]$[595, 150, -643984, -643984]$[595, 200, -643984, -643984]"/>
+      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_DTahUnLEEeeGodGwr0LI7g" points="[515, 111, -643984, -643984]$[515, 150, -643984, -643984]$[415, 150, -643984, -643984]$[415, 200, -643984, -643984]"/>
       <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_DUDagHLEEeeGodGwr0LI7g" id="(0.5,1.0)"/>
       <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_DUDagXLEEeeGodGwr0LI7g" id="(0.49707602339181284,0.0)"/>
     </edges>
@@ -4716,7 +4718,7 @@
     <edges xmi:type="notation:Connector" xmi:id="_QB_Y8IdNEeeff6fdwmUAJA" type="Element_ContainmentEdge" source="_xN-l8HLDEeeGodGwr0LI7g" target="_051zsHLDEeeGodGwr0LI7g" routing="Tree">
       <styles xmi:type="notation:FontStyle" xmi:id="_QB_Y8YdNEeeff6fdwmUAJA"/>
       <element xsi:nil="true"/>
-      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_QB_Y8odNEeeff6fdwmUAJA"/>
+      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_QB_Y8odNEeeff6fdwmUAJA" points="[515, 111, -643984, -643984]$[515, 150, -643984, -643984]$[235, 150, -643984, -643984]$[235, 200, -643984, -643984]"/>
       <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_QC4JwIdNEeeff6fdwmUAJA" id="(0.5,1.0)"/>
       <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_QC4JwYdNEeeff6fdwmUAJA" id="(0.49707602339181284,0.0)"/>
     </edges>
