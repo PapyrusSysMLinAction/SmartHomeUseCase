@@ -34,6 +34,8 @@ public class ModelValidationTest {
 			{"/dsml/AboutModelVersioning/ReviewingToolSpecification.uml"},
 			{"/dsml/AboutModelVersioning/VersioningML.profile.uml"},
 			{"/dsml/AboutProjectDocumenting/PapyrusMM4ModelCommentingFeature.uml"},
+			{"/model/SmartHomeSystem.uml"},
+			
 		});
 	}
 	
