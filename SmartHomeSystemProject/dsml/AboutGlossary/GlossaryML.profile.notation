@@ -438,21 +438,24 @@
     </edges>
   </notation:Diagram>
   <nattable:Table xmi:id="_K7m4QBoQEee85eN49tGVcA" description="This table gathers all well-formedness rules defined for the &lt;&lt;Glossary>> stereotype." name="Table of &lt;&lt;Glossary>> stereotype well-formedness rules." currentRowAxisProvider="_K7m4QhoQEee85eN49tGVcA" currentColumnAxisProvider="_K7m4QRoQEee85eN49tGVcA">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_syt64JPyEei4XPPRmH1drw" source="http://www.eclipse.org/papyrus/infra/nattable/version">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_syt64ZPyEei4XPPRmH1drw" key="version" value="1.3.0"/>
+    </eAnnotations>
     <context xmi:type="uml:Stereotype" href="GlossaryML.profile.uml#_H-K2wET3EeS25e5tbYLtxg"/>
     <owner xmi:type="uml:Stereotype" href="GlossaryML.profile.uml#_H-K2wET3EeS25e5tbYLtxg"/>
     <prototype xmi:type="configuration:PapyrusSyncTable" href="platform:/plugin/org.eclipse.papyrus.uml.nattable.generic.config/configs/genericTable.configuration#_Uz8agHDuEeWh-MssWmCB_A"/>
-    <tableConfiguration xmi:type="nattableconfiguration:TableConfiguration" href="platform:/plugin/org.eclipse.papyrus.uml.nattable.generic.config/configs/generic.nattableconfiguration#/"/>
+    <tableConfiguration xmi:type="nattableconfiguration:TableConfiguration" href="platform:/plugin/org.eclipse.papyrus.uml.nattable.generic.config/configs/generic.nattableconfiguration#PapyrusGenericTable_XMI_ID"/>
     <columnAxisProvidersHistory xmi:type="nattableaxisprovider:SlaveObjectAxisProvider" xmi:id="_K7m4QRoQEee85eN49tGVcA" description="This axis provider provides available columns according to the rows of the table (features of the object displayed on the other axis)" name="UML Feature axis provider">
       <axis xmi:type="nattableaxis:EStructuralFeatureAxis" xmi:id="_jJagFhoQEee85eN49tGVcA">
         <styles xmi:type="nattablestyle:IntValueStyle" xmi:id="_xoPEoBoREee85eN49tGVcA" name="axisWidth" intValue="475"/>
-        <manager xmi:type="nattableaxisconfiguration:AxisManagerRepresentation" href="platform:/plugin/org.eclipse.papyrus.uml.nattable.generic.config/configs/generic.nattableconfiguration#//@columnHeaderAxisConfiguration/@axisManagers.0"/>
+        <manager xmi:type="nattableaxisconfiguration:AxisManagerRepresentation" href="platform:/plugin/org.eclipse.papyrus.uml.nattable.generic.config/configs/generic.nattableconfiguration#_P0EFFDzQEei_1txcmoHe_A"/>
         <element xmi:type="ecore:EReference" href="http://www.eclipse.org/uml2/5.0.0/UML#//Constraint/specification"/>
       </axis>
     </columnAxisProvidersHistory>
     <rowAxisProvidersHistory xmi:type="nattableaxisprovider:MasterObjectAxisProvider" xmi:id="_K7m4QhoQEee85eN49tGVcA" description="This axis provider contains the object dropped by the user into the table" name="DroppedElementAxisProvider" disconnectSlave="true">
       <axis xmi:type="nattableaxis:EObjectAxis" xmi:id="_jJagEBoQEee85eN49tGVcA">
         <styles xmi:type="nattablestyle:IntValueStyle" xmi:id="_ySN1wBoREee85eN49tGVcA" name="axisHeight" intValue="34"/>
-        <manager xmi:type="nattableaxisconfiguration:AxisManagerRepresentation" href="platform:/plugin/org.eclipse.papyrus.uml.nattable.generic.config/configs/generic.nattableconfiguration#//@rowHeaderAxisConfiguration/@axisManagers.0"/>
+        <manager xmi:type="nattableaxisconfiguration:AxisManagerRepresentation" href="platform:/plugin/org.eclipse.papyrus.uml.nattable.generic.config/configs/generic.nattableconfiguration#_P0EFEDzQEei_1txcmoHe_A"/>
         <element xmi:type="uml:Constraint" href="GlossaryML.profile.uml#_b5t8ABoMEee85eN49tGVcA"/>
       </axis>
     </rowAxisProvidersHistory>
@@ -465,7 +468,7 @@
     <context xmi:type="uml:Stereotype" href="GlossaryML.profile.uml#_GXjBwET4EeS25e5tbYLtxg"/>
     <owner xmi:type="uml:Stereotype" href="GlossaryML.profile.uml#_GXjBwET4EeS25e5tbYLtxg"/>
     <prototype xmi:type="configuration:PapyrusSyncTable" href="platform:/plugin/org.eclipse.papyrus.uml.nattable.generic.config/configs/genericTable.configuration#_Uz8agHDuEeWh-MssWmCB_A"/>
-    <tableConfiguration xmi:type="nattableconfiguration:TableConfiguration" href="platform:/plugin/org.eclipse.papyrus.uml.nattable.generic.config/configs/generic.nattableconfiguration#/"/>
+    <tableConfiguration xmi:type="nattableconfiguration:TableConfiguration" href="platform:/plugin/org.eclipse.papyrus.uml.nattable.generic.config/configs/generic.nattableconfiguration#PapyrusGenericTable_XMI_ID"/>
     <columnAxisProvidersHistory xmi:type="nattableaxisprovider:SlaveObjectAxisProvider" xmi:id="_kT_fARofEee85eN49tGVcA" description="This axis provider provides available columns according to the rows of the table (features of the object displayed on the other axis)" name="UML Feature axis provider">
       <axis xmi:type="nattableaxis:EStructuralFeatureAxis" xmi:id="_kyIzlRofEee85eN49tGVcA">
         <styles xmi:type="nattablestyle:IntValueStyle" xmi:id="_pCkG8BofEee85eN49tGVcA" name="axisWidth" intValue="350"/>
@@ -485,10 +488,13 @@
     </localRowHeaderAxisConfiguration>
   </nattable:Table>
   <nattable:Table xmi:id="_G5eh8BpEEee85eN49tGVcA" name="Table of &lt;&lt;TermDefinition>> stereotype well-formedness rules." currentRowAxisProvider="_G5eh8hpEEee85eN49tGVcA" currentColumnAxisProvider="_G5eh8RpEEee85eN49tGVcA">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_syw-MJPyEei4XPPRmH1drw" source="http://www.eclipse.org/papyrus/infra/nattable/version">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_syw-MZPyEei4XPPRmH1drw" key="version" value="1.3.0"/>
+    </eAnnotations>
     <context xmi:type="uml:Stereotype" href="GlossaryML.profile.uml#_kxro8ET4EeS25e5tbYLtxg"/>
     <owner xmi:type="uml:Stereotype" href="GlossaryML.profile.uml#_kxro8ET4EeS25e5tbYLtxg"/>
     <prototype xmi:type="configuration:PapyrusSyncTable" href="platform:/plugin/org.eclipse.papyrus.uml.nattable.generic.config/configs/genericTable.configuration#_Uz8agHDuEeWh-MssWmCB_A"/>
-    <tableConfiguration xmi:type="nattableconfiguration:TableConfiguration" href="platform:/plugin/org.eclipse.papyrus.uml.nattable.generic.config/configs/generic.nattableconfiguration#/"/>
+    <tableConfiguration xmi:type="nattableconfiguration:TableConfiguration" href="platform:/plugin/org.eclipse.papyrus.uml.nattable.generic.config/configs/generic.nattableconfiguration#PapyrusGenericTable_XMI_ID"/>
     <columnAxisProvidersHistory xmi:type="nattableaxisprovider:SlaveObjectAxisProvider" xmi:id="_G5eh8RpEEee85eN49tGVcA" description="This axis provider provides available columns according to the rows of the table (features of the object displayed on the other axis)" name="UML Feature axis provider">
       <axis xmi:type="nattableaxis:EStructuralFeatureAxis" xmi:id="_HSfe5RpEEee85eN49tGVcA">
         <styles xmi:type="nattablestyle:IntValueStyle" xmi:id="_NgpqQBpEEee85eN49tGVcA" name="axisWidth" intValue="498"/>
