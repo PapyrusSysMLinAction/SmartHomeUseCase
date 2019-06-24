@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:Requirements="http://www.eclipse.org/papyrus/sysml/1.4/SysML/Requirements" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xsi:schemaLocation="http://www.eclipse.org/papyrus/sysml/1.4/SysML/Requirements http://www.eclipse.org/papyrus/sysml/1.4/SysML#//requirements">
+  <uml:Model xmi:id="__4964LloEee0EqF61rGppw" name="GlossaryML Requirements Model">
+    <ownedComment xmi:type="uml:Comment" xmi:id="_F3JzwLltEee0EqF61rGppw">
+      <body>This model gathers the requirements for a glossary modeling language. This version is mainly inspired from the glossay definition of the wikipedia entry for glossary (http://en.m.wikipedia.org/wiki/Glossary).</body>
+    </ownedComment>
+    <packageImport xmi:type="uml:PackageImport" xmi:id="_ABj2MLlpEee0EqF61rGppw">
+      <importedPackage xmi:type="uml:Model" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#_0"/>
+    </packageImport>
+    <packagedElement xmi:type="uml:Class" xmi:id="_eMotsLlpEee0EqF61rGppw" name="GlossaryDomainKnowledge"/>
+    <packagedElement xmi:type="uml:Class" xmi:id="_52BEgLlpEee0EqF61rGppw" name="TermDefinition"/>
+    <packagedElement xmi:type="uml:Class" xmi:id="_l0ezYLlqEee0EqF61rGppw" name="Term"/>
+    <packagedElement xmi:type="uml:Class" xmi:id="_3ne68LlqEee0EqF61rGppw" name="Synonym"/>
+    <packagedElement xmi:type="uml:Class" xmi:id="_R9tAwLlrEee0EqF61rGppw" name="Hypernym"/>
+    <packagedElement xmi:type="uml:Class" xmi:id="_SCNGQLlrEee0EqF61rGppw" name="Hyponym"/>
+    <packagedElement xmi:type="uml:Class" xmi:id="_FMSuULlsEee0EqF61rGppw" name="CommonDefinition"/>
+    <packagedElement xmi:type="uml:Association" xmi:id="_FpSkoLlyEee0EqF61rGppw" name="Term->Definition" memberEnd="_FpSkpLlyEee0EqF61rGppw _FpSko7lyEee0EqF61rGppw" navigableOwnedEnd="_FpSkpLlyEee0EqF61rGppw">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_FpSkoblyEee0EqF61rGppw" source="org.eclipse.papyrus">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_FpSkorlyEee0EqF61rGppw" key="nature" value="UML_Nature"/>
+      </eAnnotations>
+      <ownedEnd xmi:type="uml:Property" xmi:id="_FpSko7lyEee0EqF61rGppw" name="term" association="_FpSkoLlyEee0EqF61rGppw"/>
+      <ownedEnd xmi:type="uml:Property" xmi:id="_FpSkpLlyEee0EqF61rGppw" name="definedBy" aggregation="composite" isDerived="true" association="_FpSkoLlyEee0EqF61rGppw">
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_FpSkpblyEee0EqF61rGppw"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_FpSkprlyEee0EqF61rGppw" value="*"/>
+      </ownedEnd>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_2zR14NX9Eeeoi-_Ft62eaQ" name="AtLeastA_CommonDefinition"/>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_VHcDwLlpEee0EqF61rGppw">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_VHcq0LlpEee0EqF61rGppw" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/sysml/1.4/SysML#/"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="pathmap://SysML14_PROFILES/SysML.profile.uml#SysML"/>
+    </profileApplication>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_VHdR4LlpEee0EqF61rGppw">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_VHdR4blpEee0EqF61rGppw" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/sysml/1.4/SysML#//requirements"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="pathmap://SysML14_PROFILES/SysML.profile.uml#SysML.package_packagedElement_Requirements"/>
+    </profileApplication>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_VHd48LlpEee0EqF61rGppw">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_VHegALlpEee0EqF61rGppw" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/sysml/1.4/SysML#//modelelements"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="pathmap://SysML14_PROFILES/SysML.profile.uml#SysML.package_packagedElement_ModelElements"/>
+    </profileApplication>
+  </uml:Model>
+  <Requirements:Requirement xmi:id="_eNCWULlpEee0EqF61rGppw" base_Class="_eMotsLlpEee0EqF61rGppw" id="GLM_001" text="System shall enable to specify the domain knowledge of the glossary. A domain knowledge shall have a name and a description."/>
+  <Requirements:Requirement xmi:id="_52KOcLlpEee0EqF61rGppw" base_Class="_52BEgLlpEee0EqF61rGppw" id="GLM_002" text="&lt;p>GlossaryML modeling language shall enable to specify one or more definition for each term of the glossary.&lt;/p>&#xA;"/>
+  <Requirements:Requirement xmi:id="_l0n9ULlqEee0EqF61rGppw" base_Class="_l0ezYLlqEee0EqF61rGppw" id="GLM_003" text="&lt;p>GlossaryML&amp;nbsp;modeling language shall enable to&amp;nbsp;model terms into a Glossary. A term has a name.&lt;/p>&#xA;"/>
+  <Requirements:Requirement xmi:id="_3nm2wLlqEee0EqF61rGppw" base_Class="_3ne68LlqEee0EqF61rGppw" id="GLM_004" text="&lt;p>GlossaryML modeling language shall enable to define synoym terms&amp;nbsp;for a given term..&lt;/p>&#xA;"/>
+  <Requirements:Requirement xmi:id="_R95OALlrEee0EqF61rGppw" base_Class="_R9tAwLlrEee0EqF61rGppw" id="GLM_005" text="&lt;p>GlossaryML&amp;nbsp;modeling language shall enable to define hypernym terms&amp;nbsp;for a given term..&lt;/p>&#xA;"/>
+  <Requirements:Requirement xmi:id="_SCVCELlrEee0EqF61rGppw" base_Class="_SCNGQLlrEee0EqF61rGppw" id="GLM_006" text="&lt;p>GlossaryML&amp;nbsp;modeling language shall enable to define hyponym terms&amp;nbsp;for a given term.&lt;/p>&#xA;"/>
+  <Requirements:Requirement xmi:id="_FMcfULlsEee0EqF61rGppw" base_Class="_FMSuULlsEee0EqF61rGppw" id="GLM_006" text="&lt;p>GlossaryML&amp;nbsp;modeling language shall enable to specify the common definition of a term.&lt;/p>&#xA;"/>
+  <Requirements:Requirement xmi:id="_2zt6wNX9Eeeoi-_Ft62eaQ" base_Class="_2zR14NX9Eeeoi-_Ft62eaQ" id="GLM_007" text="&lt;p>Glossary modeling language shall verify that each term has at least a CommonDefintion.&lt;/p>&#xA;"/>
+</xmi:XMI>

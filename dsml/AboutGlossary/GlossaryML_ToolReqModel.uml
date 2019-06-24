@@ -1,0 +1,309 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:GlossaryML="http:///schemas/GlossaryML/_3BXu0MrREee8B9kRSNhRUg/42" xmlns:Requirements="http://www.eclipse.org/papyrus/sysml/1.4/SysML/Requirements" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xsi:schemaLocation="http:///schemas/GlossaryML/_3BXu0MrREee8B9kRSNhRUg/42 GlossaryML.profile.uml#_3Bd1cMrREee8B9kRSNhRUg http://www.eclipse.org/papyrus/sysml/1.4/SysML/Requirements http://www.eclipse.org/papyrus/sysml/1.4/SysML#//requirements">
+  <uml:Model xmi:id="_QcSj8MlnEee8B9kRSNhRUg" name="GlossaryML_ToolsmithReq">
+    <packageImport xmi:type="uml:PackageImport" xmi:id="_Qi134slnEee8B9kRSNhRUg">
+      <importedPackage xmi:type="uml:Model" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#_0"/>
+    </packageImport>
+    <packageImport xmi:type="uml:PackageImport" xmi:id="_QjIy0MlnEee8B9kRSNhRUg">
+      <importedPackage xmi:type="uml:Package" href="pathmap://SysML14_LIBRARIES/SysML-Standard-Library.uml#SysML.package_packagedElement_Libraries"/>
+    </packageImport>
+    <packageImport xmi:type="uml:PackageImport" xmi:id="_u2Wt0MrUEeewiLdROuv7ZQ">
+      <importedPackage xmi:type="uml:Model" href="PapyrusGlossary.uml#_4nAlAMrTEeewiLdROuv7ZQ"/>
+    </packageImport>
+    <packagedElement xmi:type="uml:Package" xmi:id="_TpVHsMlnEee8B9kRSNhRUg" name="GlossaryML Authoring Tool Requirements">
+      <packagedElement xmi:type="uml:Package" xmi:id="_bFbGAMmMEee8B9kRSNhRUg" name="GlossaryCommonDefinitionTableEditor Requirements">
+        <packagedElement xmi:type="uml:Package" xmi:id="_MuNFUMrrEeeuBaORAfsSYA" name="GlossaryCommonDefinitionTableEditor CRUD Requirements">
+          <packagedElement xmi:type="uml:Class" xmi:id="_Qo_fAMluEee8B9kRSNhRUg" name="GlossaryTableCreation"/>
+          <packagedElement xmi:type="uml:Class" xmi:id="_McB_QMmCEee8B9kRSNhRUg" name="GlossaryTableDeletion"/>
+          <packagedElement xmi:type="uml:Class" xmi:id="_4RbxYMmFEee8B9kRSNhRUg" name="GlossaryTableUpdate"/>
+          <packagedElement xmi:type="uml:Class" xmi:id="_ZdROsMmHEee8B9kRSNhRUg" name="GlossaryTableConfiguration">
+            <nestedClassifier xmi:type="uml:Class" xmi:id="_keeK8MmKEee8B9kRSNhRUg" name="GlossaryTableConfigurationLine"/>
+            <nestedClassifier xmi:type="uml:Class" xmi:id="_WpSuYMmLEee8B9kRSNhRUg" name="GlossaryTableConfigurationColumn#01"/>
+          </packagedElement>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Package" xmi:id="_gZvp4MmNEee8B9kRSNhRUg" name="Glossary CRUD">
+          <packagedElement xmi:type="uml:Class" xmi:id="_gZvp48mNEee8B9kRSNhRUg" name="GlossaryCreation"/>
+          <packagedElement xmi:type="uml:Class" xmi:id="_gZvp5MmNEee8B9kRSNhRUg" name="GlossaryDeletion"/>
+          <packagedElement xmi:type="uml:Class" xmi:id="_gZvp5cmNEee8B9kRSNhRUg" name="GlossaryUpdate"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Package" xmi:id="_gZ5a4MmNEee8B9kRSNhRUg" name="Term CRUD">
+          <packagedElement xmi:type="uml:Class" xmi:id="_gZ5a4smNEee8B9kRSNhRUg" name="TermCreation"/>
+          <packagedElement xmi:type="uml:Class" xmi:id="_gZ5a48mNEee8B9kRSNhRUg" name="TermDeletion"/>
+          <packagedElement xmi:type="uml:Class" xmi:id="_gZ5a5MmNEee8B9kRSNhRUg" name="TermUpdate"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Package" xmi:id="_gZ5a5cmNEee8B9kRSNhRUg" name="Definition CRUD">
+          <packagedElement xmi:type="uml:Class" xmi:id="_gZ5a58mNEee8B9kRSNhRUg" name="DefinitionCreation"/>
+          <packagedElement xmi:type="uml:Class" xmi:id="_gZ5a6MmNEee8B9kRSNhRUg" name="DefinitionDeletion"/>
+          <packagedElement xmi:type="uml:Class" xmi:id="_gZ5a6cmNEee8B9kRSNhRUg" name="DefinitionUpdate"/>
+        </packagedElement>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Package" xmi:id="_a384YAdeEei416VAQCBulg" name="GlossaryDetailedDefinitionsTableEditor Requirements">
+        <packagedElement xmi:type="uml:Package" xmi:id="_a384YQdeEei416VAQCBulg" name="GlossaryDetailedDefinitionsTableEditor CRUD Requirements">
+          <packagedElement xmi:type="uml:Class" xmi:id="_a384YgdeEei416VAQCBulg" name="GlossaryTableCreation"/>
+          <packagedElement xmi:type="uml:Class" xmi:id="_a384YwdeEei416VAQCBulg" name="GlossaryTableDeletion"/>
+          <packagedElement xmi:type="uml:Class" xmi:id="_a384ZAdeEei416VAQCBulg" name="GlossaryTableUpdate"/>
+          <packagedElement xmi:type="uml:Class" xmi:id="_a384ZQdeEei416VAQCBulg" name="GlossaryTableConfiguration">
+            <nestedClassifier xmi:type="uml:Class" xmi:id="_a384ZgdeEei416VAQCBulg" name="GlossaryTableConfigurationLine"/>
+            <nestedClassifier xmi:type="uml:Class" xmi:id="_a384ZwdeEei416VAQCBulg" name="GlossaryTableConfigurationColumn#01"/>
+          </packagedElement>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Package" xmi:id="_a384aAdeEei416VAQCBulg" name="Glossary CRUD">
+          <packagedElement xmi:type="uml:Class" xmi:id="_a384aQdeEei416VAQCBulg" name="GlossaryCreation"/>
+          <packagedElement xmi:type="uml:Class" xmi:id="_a384agdeEei416VAQCBulg" name="GlossaryDeletion"/>
+          <packagedElement xmi:type="uml:Class" xmi:id="_a384awdeEei416VAQCBulg" name="GlossaryUpdate"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Package" xmi:id="_a384bAdeEei416VAQCBulg" name="Term CRUD">
+          <packagedElement xmi:type="uml:Class" xmi:id="_a384bQdeEei416VAQCBulg" name="TermCreation"/>
+          <packagedElement xmi:type="uml:Class" xmi:id="_a384bgdeEei416VAQCBulg" name="TermDeletion"/>
+          <packagedElement xmi:type="uml:Class" xmi:id="_a384bwdeEei416VAQCBulg" name="TermUpdate"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Package" xmi:id="_a384cAdeEei416VAQCBulg" name="DefinitionCRUD">
+          <packagedElement xmi:type="uml:Class" xmi:id="_a384cQdeEei416VAQCBulg" name="DefinitionCreation"/>
+          <packagedElement xmi:type="uml:Class" xmi:id="_a384cgdeEei416VAQCBulg" name="DefinitionDeletion"/>
+          <packagedElement xmi:type="uml:Class" xmi:id="_a384cwdeEei416VAQCBulg" name="DefinitionUpdate"/>
+        </packagedElement>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Package" xmi:id="_7c15QMmMEee8B9kRSNhRUg" name="GlossaryML Model Explorer Requirements">
+        <packagedElement xmi:type="uml:Package" xmi:id="_HBbMMMmMEee8B9kRSNhRUg" name="Glossary CRUD">
+          <packagedElement xmi:type="uml:Class" xmi:id="_1KB3MMlnEee8B9kRSNhRUg" name="GlossaryCreation"/>
+          <packagedElement xmi:type="uml:Class" xmi:id="_uG5LoMlnEee8B9kRSNhRUg" name="GlossaryDeletion"/>
+          <packagedElement xmi:type="uml:Class" xmi:id="_Wkg_EMlqEee8B9kRSNhRUg" name="GlossaryUpdate"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Package" xmi:id="_QjCsYMmMEee8B9kRSNhRUg" name="Term CRUD">
+          <packagedElement xmi:type="uml:Class" xmi:id="_l5AVcMltEee8B9kRSNhRUg" name="TermCreation"/>
+          <packagedElement xmi:type="uml:Class" xmi:id="_l5AVcsltEee8B9kRSNhRUg" name="TermDeletion"/>
+          <packagedElement xmi:type="uml:Class" xmi:id="_l5AVc8ltEee8B9kRSNhRUg" name="TermUpdate"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Package" xmi:id="_VNlI4MmMEee8B9kRSNhRUg" name="DefinitionCRUD">
+          <packagedElement xmi:type="uml:Class" xmi:id="_mQ_XocltEee8B9kRSNhRUg" name="DefinitionCreation"/>
+          <packagedElement xmi:type="uml:Class" xmi:id="_mQ_Xo8ltEee8B9kRSNhRUg" name="DefinitionDeletion"/>
+          <packagedElement xmi:type="uml:Class" xmi:id="_mQ_XpMltEee8B9kRSNhRUg" name="DefinitionUpdate"/>
+        </packagedElement>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Package" xmi:id="_xA1_AMmNEee8B9kRSNhRUg" name="GlossayML Project &amp; Model Creation Wizzard Requirements">
+        <packagedElement xmi:type="uml:Class" xmi:id="_7pYq0MloEee8B9kRSNhRUg" name="GlossaryModelCreationFromModelCreationWizzard"/>
+      </packagedElement>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Package" xmi:id="_9eqs8MrSEeewiLdROuv7ZQ" name="GlossaryML Validation Tool Requirements"/>
+    <packagedElement xmi:type="uml:Model" xmi:id="_AtF7oMlxEee8B9kRSNhRUg" name="GlossaryML Glossary">
+      <packagedElement xmi:type="uml:Class" xmi:id="_mEaPAMl_Eee8B9kRSNhRUg" name="GlossaryTable">
+        <ownedComment xmi:type="uml:Comment" xmi:id="_t_bk0Ml_Eee8B9kRSNhRUg" annotatedElement="_mEaPAMl_Eee8B9kRSNhRUg">
+          <body>&lt;p>A specific&amp;nbsp;table-based view of a glossary. Its content is defined by GlossaryTableEditorConfiguration.&lt;/p>
+</body>
+        </ownedComment>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_o1sD0Ml_Eee8B9kRSNhRUg" name="GlossaryCommonDefinitionTableEditor">
+        <ownedComment xmi:type="uml:Comment" xmi:id="_w1hBIMl_Eee8B9kRSNhRUg" annotatedElement="_o1sD0Ml_Eee8B9kRSNhRUg">
+          <body>&lt;p>PapyrusTableEditor enabling to&amp;nbsp;manipulate glossary model elements via a table-based editor.&amp;nbsp;The content of the related table view&amp;nbsp;is defined in its specific PapyrusTableConfiguration, GlossaryCommonDefinitionTableEditorConfiguration.&lt;/p>
+</body>
+        </ownedComment>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_5gLOsMmAEee8B9kRSNhRUg" name="CRUD">
+        <ownedComment xmi:type="uml:Comment" xmi:id="_5gLOscmAEee8B9kRSNhRUg" annotatedElement="_5gLOsMmAEee8B9kRSNhRUg">
+          <body>&lt;p>Acronym for Create Read Update Delete.&lt;/p>
+</body>
+        </ownedComment>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_YxACQMq-Eee8B9kRSNhRUg" name="GlossaryStereotype">
+        <ownedComment xmi:type="uml:Comment" xmi:id="_shNdYMq-Eee8B9kRSNhRUg">
+          <body>&lt;p>A&amp;nbsp;UML Class applying the &amp;lt;&amp;lt;Glossary&amp;gt;&amp;gt; stereotype defined in GlossaryML enabling to model the concept of Glossary as defind in GlossaryMM.&lt;/p>
+</body>
+        </ownedComment>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_RDmKUMrBEee8B9kRSNhRUg" name="TermStereotype">
+        <ownedComment xmi:type="uml:Comment" xmi:id="_RDmKUcrBEee8B9kRSNhRUg">
+          <body>&lt;p>A UML Class&amp;nbsp;applying the &amp;lt;&amp;lt;Term&amp;gt;&amp;gt; stereotype defined in GlossaryML.&lt;/p>
+</body>
+        </ownedComment>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_RR5sEMrBEee8B9kRSNhRUg" name="DefinitionStereotype">
+        <ownedComment xmi:type="uml:Comment" xmi:id="_RR5sEcrBEee8B9kRSNhRUg">
+          <body>&lt;p>A UML Class applying the &amp;lt;&amp;lt;Definition&amp;gt;&amp;gt; stereotype defined in GlossaryML.&lt;/p>
+</body>
+        </ownedComment>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_DZr54MrTEeewiLdROuv7ZQ" name="GlossaryML">
+        <ownedComment xmi:type="uml:Comment" xmi:id="_DZr54crTEeewiLdROuv7ZQ">
+          <body>&lt;p>UML profile model for modeling glossaries in accordance with GlossaryMLDomainModel.&lt;/p>
+</body>
+        </ownedComment>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_rkJHEM9yEeexA5Asmqj4TQ" name="GlossaryCommonDefinitionTableEditorConfiguration">
+        <ownedComment xmi:type="uml:Comment" xmi:id="_rkJHEc9yEeexA5Asmqj4TQ" annotatedElement="_rkJHEM9yEeexA5Asmqj4TQ">
+          <body>&lt;p>A specific PapyrusTableEditorConfiguration defining the content of a GossaryCommonDefinitionTable.&lt;/p>
+</body>
+        </ownedComment>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_DSncoM91EeexA5Asmqj4TQ" name="GlossaryML_ModelAuthoringTool">
+        <ownedComment xmi:type="uml:Comment" xmi:id="_DSncoc91EeexA5Asmqj4TQ" annotatedElement="_DSncoM91EeexA5Asmqj4TQ">
+          <body>&lt;p>Point to concerns related to the authoring tool for modeling with GlossaryML.&lt;/p>
+</body>
+        </ownedComment>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_hI_aAM92EeexA5Asmqj4TQ" name="GlossaryML_DomainModel">
+        <ownedComment xmi:type="uml:Comment" xmi:id="_hI_aAc92EeexA5Asmqj4TQ">
+          <body>&lt;p>PapyrusUML_Model formalizing the glossary concept and its related vocabulary&amp;nbsp;in accordance with GlossaryML_RequirementModel. This model is defined in the PapyrusUML_Model labeled GlossaryML.reqmodel.&lt;/p>
+</body>
+        </ownedComment>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_D0yDoM93EeexA5Asmqj4TQ" name="GlossaryML_RequirementModel">
+        <ownedComment xmi:type="uml:Comment" xmi:id="_D0yDoc93EeexA5Asmqj4TQ">
+          <body>&lt;p>PapyrusSysML_Model formalizing the requirements for a specific language for modeling glossaries in accordance with the definition of glossary provided by wikipedia, &lt;a href=&quot;https://en.m.wikipedia.org/wiki/Glossary&quot;>https://en.m.wikipedia.org/wiki/Glossary&lt;/a>. This model is defined in the PapyrusSysML_Model, GlossaryML.reqmodel.&lt;/p>
+</body>
+        </ownedComment>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_zpyvcAdgEei416VAQCBulg" name="GlossaryDetailedDefinitionsTableEditor">
+        <ownedComment xmi:type="uml:Comment" xmi:id="_zpyvcQdgEei416VAQCBulg" annotatedElement="_zpyvcAdgEei416VAQCBulg">
+          <body>&lt;p>PapyrusTableEditor enabling to&amp;nbsp;manipulate detailed information of glossary model element and its content&amp;nbsp;via a specific table-based editor.&amp;nbsp;The content of the related table view&amp;nbsp;is defined in its specific PapyrusTableConfiguration, GlossaryDeatiledDefinitionsTableEditorConfiguration.&lt;/p>
+</body>
+        </ownedComment>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_E-XOkAdhEei416VAQCBulg" name="GlossaryDeatiledDefinitionsTableEditorConfiguration">
+        <ownedComment xmi:type="uml:Comment" xmi:id="_E-XOkQdhEei416VAQCBulg" annotatedElement="_E-XOkAdhEei416VAQCBulg">
+          <body>&lt;p>A specific PapyrusTableEditorConfiguration defining the content of a GossaryDetailedDefinitionsTable.&lt;/p>
+</body>
+        </ownedComment>
+      </packagedElement>
+      <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_jD1Z8Ml_Eee8B9kRSNhRUg">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_ooGI78rhEeewiLdROuv7ZQ" source="PapyrusVersion">
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_ooGI8MrhEeewiLdROuv7ZQ" key="Version" value="0.1.9"/>
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_ooGI8crhEeewiLdROuv7ZQ" key="Comment" value=""/>
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_ooGI8srhEeewiLdROuv7ZQ" key="Copyright" value="CEA list"/>
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_ooGI88rhEeewiLdROuv7ZQ" key="Date" value="2017-11-16"/>
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_ooGI9MrhEeewiLdROuv7ZQ" key="Author" value="Sebastien GERARD"/>
+        </eAnnotations>
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_jD1Z8cl_Eee8B9kRSNhRUg" source="http://www.eclipse.org/uml2/2.0.0/UML">
+          <references xmi:type="ecore:EPackage" href="GlossaryML.profile.uml#_3Bd1cMrREee8B9kRSNhRUg"/>
+        </eAnnotations>
+        <appliedProfile xmi:type="uml:Profile" href="GlossaryML.profile.uml#_saqecET2EeS25e5tbYLtxg"/>
+      </profileApplication>
+    </packagedElement>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_QisG4MlnEee8B9kRSNhRUg">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_QisG4clnEee8B9kRSNhRUg" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/sysml/1.4/SysML#/"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="pathmap://SysML14_PROFILES/SysML.profile.uml#SysML"/>
+    </profileApplication>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_QisG4slnEee8B9kRSNhRUg">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_QisG48lnEee8B9kRSNhRUg" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/sysml/1.4/SysML#//activities"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="pathmap://SysML14_PROFILES/SysML.profile.uml#SysML.package_packagedElement_Activities"/>
+    </profileApplication>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_QisG5MlnEee8B9kRSNhRUg">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_QisG5clnEee8B9kRSNhRUg" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/sysml/1.4/SysML#//allocations"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="pathmap://SysML14_PROFILES/SysML.profile.uml#SysML.package_packagedElement_Allocations"/>
+    </profileApplication>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_QisG5slnEee8B9kRSNhRUg">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_QisG58lnEee8B9kRSNhRUg" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/sysml/1.4/SysML#//blocks"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="pathmap://SysML14_PROFILES/SysML.profile.uml#SysML.package_packagedElement_Blocks"/>
+    </profileApplication>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_QisG6MlnEee8B9kRSNhRUg">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_QisG6clnEee8B9kRSNhRUg" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/sysml/1.4/SysML#//constraintblocks"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="pathmap://SysML14_PROFILES/SysML.profile.uml#SysML.package_packagedElement_ConstraintBlocks"/>
+    </profileApplication>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_QisG6slnEee8B9kRSNhRUg">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_QisG68lnEee8B9kRSNhRUg" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/sysml/1.4/SysML#//deprecatedelements"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="pathmap://SysML14_PROFILES/SysML.profile.uml#SysML.package_packagedElement_DeprecatedElements"/>
+    </profileApplication>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_QisG7MlnEee8B9kRSNhRUg">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_QisG7clnEee8B9kRSNhRUg" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/sysml/1.4/SysML#//modelelements"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="pathmap://SysML14_PROFILES/SysML.profile.uml#SysML.package_packagedElement_ModelElements"/>
+    </profileApplication>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_QisG7slnEee8B9kRSNhRUg">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_QisG78lnEee8B9kRSNhRUg" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/sysml/1.4/SysML#//portsandflows"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="pathmap://SysML14_PROFILES/SysML.profile.uml#SysML.package_packagedElement_Ports_u0026Flows"/>
+    </profileApplication>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_QisG8MlnEee8B9kRSNhRUg">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_QisG8clnEee8B9kRSNhRUg" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/sysml/1.4/SysML#//requirements"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="pathmap://SysML14_PROFILES/SysML.profile.uml#SysML.package_packagedElement_Requirements"/>
+    </profileApplication>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_Qi134MlnEee8B9kRSNhRUg">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_Qi134clnEee8B9kRSNhRUg" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/uml2/5.0.0/UML/Profile/Standard#/"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="pathmap://UML_PROFILES/Standard.profile.uml#_0"/>
+    </profileApplication>
+  </uml:Model>
+  <Requirements:Requirement xmi:id="_uHCVkMlnEee8B9kRSNhRUg" base_Class="_uG5LoMlnEee8B9kRSNhRUg" id="GML_TR_MAR_0001_0004" text="When left-clicking on &lt;&lt;Glossary>> model element from either the Model Explorer or a Glossary Table Editor and selecting the &quot;Delete&quot; menu action, system shall enable its deletion. In that case, all its content will also be deleted."/>
+  <Requirements:Requirement xmi:id="_1KUyIMlnEee8B9kRSNhRUg" base_Class="_1KB3MMlnEee8B9kRSNhRUg" id="GML_TR_MAR_0001_0002" text="When left-clicking on a Glossary model element from the ModelExplorer, system shall provide a glossary creation action within a sub-menu of the displayed contextual menu. The sub menu shall be labeled &quot;Glossary ML&quot;, and the proposed menu action for Glossary creation shall be labeled &quot;Glossary&quot;."/>
+  <Requirements:Requirement xmi:id="_7pib0MloEee8B9kRSNhRUg" base_Class="_7pYq0MloEee8B9kRSNhRUg" id="GML_TR_MAR_0001_0001" text="When creating a new model within Papyrus, system shall enable creating a glossary model. In that case, the UML profile for Glossary ML is applied and the top level model root element is stereotyped with &lt;&lt;Glossary>>."/>
+  <Requirements:Requirement xmi:id="_WkqwEMlqEee8B9kRSNhRUg" base_Class="_Wkg_EMlqEee8B9kRSNhRUg" id="GML_TR_MAR_0001_0005" text="When editing a glossay, via F2 hitting or double click, system shall enable to update following properties via a specific wizzard: name, knowledgeDomainName, and knowledgeDomainDescription. When opening the aforementioned wizzard, the value of the name shall be selected. "/>
+  <Requirements:Requirement xmi:id="_l55tUMltEee8B9kRSNhRUg" base_Class="_l5AVcMltEee8B9kRSNhRUg" id="GML_TR_MAR_0002_0001" text="&lt;p>When left-clicking on a Glossary from the ModelExplorer and selecting the &amp;quot;Glossary ML&amp;quot; sub-menu, system shall provide a Term creation action within the sub-menu of the displayed contextual menu. The sub menu shall be labeled &amp;quot;Glossary ML&amp;quot;, and the proposed menu action for Term creation shall be labeled &amp;quot;Term&amp;quot;. Clicking on this menu will create a new Term owned by the selected Glossary.&lt;/p>&#xA;"/>
+  <Requirements:Requirement xmi:id="_l6MoQMltEee8B9kRSNhRUg" base_Class="_l5AVcsltEee8B9kRSNhRUg" id="GML_TR_MAR_0002_0003" text="&lt;p>When left-clicking on&amp;nbsp;Glossary&lt;term> from the Model Explorer and selecting the &amp;quot;Delete&amp;quot; menu action, system shall delete the selected model element. In that case, all its content will also be deleted.&lt;/term>&lt;/p>&#xA;"/>
+  <Requirements:Requirement xmi:id="_l6VyMMltEee8B9kRSNhRUg" base_Class="_l5AVc8ltEee8B9kRSNhRUg" id="GML_TR_MAR_0002_0004" text="&lt;p>When editing a Glossary via PapyrusEditionFacility, system shall enable to update following properties of the selected model element via a specific wizzard: name, knowledgeDomainName, and knowledgeDomainDescription. When opening the aforementioned wizzard UI, the value of the name shall be selected.&lt;/p>&#xA;"/>
+  <Requirements:Requirement xmi:id="_mRS5oMltEee8B9kRSNhRUg" base_Class="_mQ_XocltEee8B9kRSNhRUg" id="GML_TR_MAR_0001_0002" text="When left-clicking on a glossary model element from the ModelExplorer, system shall provide a glossary creation action within a sub-menu of the displayed contextual menu. The sub menu shall be labeled &quot;Glossary ML&quot;, and the proposed menu action for Glossary creation shall be labeled &quot;Glossary&quot;."/>
+  <Requirements:Requirement xmi:id="_mRl0kMltEee8B9kRSNhRUg" base_Class="_mQ_Xo8ltEee8B9kRSNhRUg" id="GML_TR_MAR_0001_0004" text="When left-clicking on &lt;&lt;Definition>> model element from either the Model Explorer or a Glossary Table Editor and selecting the &quot;Delete&quot; menu action, system shall enable its deletion. In that case, all its content will also be deleted."/>
+  <Requirements:Requirement xmi:id="_mRu-gMltEee8B9kRSNhRUg" base_Class="_mQ_XpMltEee8B9kRSNhRUg" id="GML_TR_MAR_0001_0005" text="When editing a glossay, via F2 hitting or double click, system shall enable to update following properties via a specific wizzard: name, knowledgeDomainName, and knowledgeDomainDescription. When opening the aforementioned wizzard, the value of the name shall be selected. "/>
+  <Requirements:Requirement xmi:id="_QpJQAMluEee8B9kRSNhRUg" base_Class="_Qo_fAMluEee8B9kRSNhRUg" id="GML_TR_MAR_0004_0001_0001" text="&lt;p>When left-clicking on a Glossary model element in the PapyrusModelExplorer and selecting the &amp;quot;New Table&amp;quot; sub-menu from the displayed contextual menu, system shall provide in this latter sub-menu a menu action labelled &amp;quot;Glossary Table&amp;quot;. Clicking on this menu will create a new GlossaryTable in the context of the selected&lt;glossary> model element.&lt;/glossary>&lt;/p>&#xA;"/>
+  <GlossaryML:Glossary xmi:id="_j60sUMl_Eee8B9kRSNhRUg" base_Model="_AtF7oMlxEee8B9kRSNhRUg" knowledgeDomainName="Glossary ML Toolsmith" knowledgeDomainDescription="The scope of the knowledge domain related this glossary is the GlossaryML Toolsmith."/>
+  <GlossaryML:Term xmi:id="_rzNk4Ml_Eee8B9kRSNhRUg" base_Class="_mEaPAMl_Eee8B9kRSNhRUg"/>
+  <GlossaryML:Term xmi:id="_tAZJsMl_Eee8B9kRSNhRUg" base_Class="_o1sD0Ml_Eee8B9kRSNhRUg"/>
+  <GlossaryML:Definition xmi:id="_vEtx4Ml_Eee8B9kRSNhRUg" base_Comment="_t_bk0Ml_Eee8B9kRSNhRUg" isCommon="true"/>
+  <GlossaryML:Definition xmi:id="_w1hBIcl_Eee8B9kRSNhRUg" base_Comment="_w1hBIMl_Eee8B9kRSNhRUg" isCommon="true"/>
+  <GlossaryML:Term xmi:id="_5gLOssmAEee8B9kRSNhRUg" base_Class="_5gLOsMmAEee8B9kRSNhRUg"/>
+  <GlossaryML:Definition xmi:id="_5gLOs8mAEee8B9kRSNhRUg" base_Comment="_5gLOscmAEee8B9kRSNhRUg" isCommon="true"/>
+  <Requirements:Requirement xmi:id="_McLJMMmCEee8B9kRSNhRUg" base_Class="_McB_QMmCEee8B9kRSNhRUg" id="GML_TR_MAR_0004_0001_0002" text="&lt;p>When left-clicking on a GlossaryTable view in the PapyrusModelExplorer and selecting the &amp;quot;Delete&amp;quot; menu action, system shall delete the selected GlossaryTable.&lt;/p>&#xA;"/>
+  <Requirements:Requirement xmi:id="_4RusUMmFEee8B9kRSNhRUg" base_Class="_4RbxYMmFEee8B9kRSNhRUg" id="GML_TR_MAR_0004_0001_0003" text="When F2 hitting while a GlossaryTable is selected either from the PapyrusModelExplorer or in a GlossaryTable view, system shall enable to rename the selected GlossaryTable."/>
+  <Requirements:Requirement xmi:id="_Zda_sMmHEee8B9kRSNhRUg" base_Class="_ZdROsMmHEee8B9kRSNhRUg" id="GML_TR_MAR_0004_0002" text="&lt;p>System shall provide a specific configuration for GlossaryTableEditor.&lt;/p>&#xA;"/>
+  <Requirements:Requirement xmi:id="_kexF4MmKEee8B9kRSNhRUg" base_Class="_keeK8MmKEee8B9kRSNhRUg" id="GML_TR_MAR_0004_0002_0001" text="&lt;p>System shall provide a GlossaryTable configuration where lines show the content of a Glossary, Term and sub gloassies if any. In that latter case, the GlossaryTable shall show at most 10 level of hierarchy.&lt;/p>&#xA;"/>
+  <Requirements:Requirement xmi:id="_Wpb4UMmLEee8B9kRSNhRUg" base_Class="_WpSuYMmLEee8B9kRSNhRUg" id="GML_TR_MAR_0004_0002_0002" text="&lt;p>System shall provide a GlossaryTable configuration where first column shall show the common definition of the terms. The header of the first column shall be labelled &amp;quot;Common Definition&amp;quot; and other features are hidden.&lt;/p>&#xA;"/>
+  <Requirements:Requirement xmi:id="_gaMV0MmNEee8B9kRSNhRUg" base_Class="_gZvp48mNEee8B9kRSNhRUg" id="GML_TR_MAR_0001_0003" text="When lecft-clicking on a Glossary model element from a GlossaryTableEditor, system shall provide a Glossary creation action labelled &quot;Glossary&quot; within a sub-menu labelled &quot;New Node&quot;. Clicking on the &quot;Glossary&quot; sub-menu shall create a new Glossary owned by the Glossary part of the current selection."/>
+  <Requirements:Requirement xmi:id="_gaWG0MmNEee8B9kRSNhRUg" base_Class="_gZvp5MmNEee8B9kRSNhRUg" id="GML_TR_MAR_0001_0004" text="When left-clicking on a Glossary model element from a GlossaryTableEditor and selecting the &quot;Delete&quot; menu action from the displayed contextual menu, system shall delete the Glossary model element of the current selection. In that case, all its content will also be deleted."/>
+  <Requirements:Requirement xmi:id="_gafQwMmNEee8B9kRSNhRUg" base_Class="_gZvp5cmNEee8B9kRSNhRUg" id="GML_TR_MAR_0001_0005" text="When editing a Term via PapyrusEditionFacility, system shall enable to update its name. "/>
+  <Requirements:Requirement xmi:id="_gayywMmNEee8B9kRSNhRUg" base_Class="_gZ5a4smNEee8B9kRSNhRUg" id="GML_TR_MAR_0002_0002" text="When lecft-clicking on a glossary model element from a GlossaryTableEditor, system shall provide a glossary creation action within a sub menu of the displayed contextual menu. The sub menu shall be labeled &quot;Glossary ML&quot;, and the proposed menu for Glossary creation shall be labeled &quot;Glossary&quot;."/>
+  <Requirements:Requirement xmi:id="_ga78sMmNEee8B9kRSNhRUg" base_Class="_gZ5a48mNEee8B9kRSNhRUg" id="GML_TR_MAR_0002_0003" text="When left-clicking on &lt;&lt;Term>> model element from either the Model Explorer or a Glossary Table Editor and selecting the &quot;Delete&quot; menu action, system shall enable its deletion. In that case, all its content will also be deleted."/>
+  <Requirements:Requirement xmi:id="_gbO3oMmNEee8B9kRSNhRUg" base_Class="_gZ5a5MmNEee8B9kRSNhRUg" id="GML_TR_MAR_0002_0004" text="When editing a glossay, via F2 hitting or double click, system shall enable to update following properties via a specific wizzard: name, knowledgeDomainName, and knowledgeDomainDescription. When opening the aforementioned wizzard, the value of the name shall be selected. "/>
+  <Requirements:Requirement xmi:id="_gbiZoMmNEee8B9kRSNhRUg" base_Class="_gZ5a58mNEee8B9kRSNhRUg" id="GML_TR_MAR_0001_0003" text="When lecft-clicking on a glossary model element from a GlossaryTableEditor, system shall provide a glossary creation action within a sub menu of the displayed contextual menu. The sub menu shall be labeled &quot;Glossary ML&quot;, and the proposed menu for Glossary creation shall be labeled &quot;Glossary&quot;."/>
+  <Requirements:Requirement xmi:id="_gbrjkMmNEee8B9kRSNhRUg" base_Class="_gZ5a6MmNEee8B9kRSNhRUg" id="GML_TR_MAR_0001_0004" text="When left-clicking on &lt;&lt;Definition>> model element from either the Model Explorer or a Glossary Table Editor and selecting the &quot;Delete&quot; menu action, system shall enable its deletion. In that case, all its content will also be deleted."/>
+  <Requirements:Requirement xmi:id="_gbrjkcmNEee8B9kRSNhRUg" base_Class="_gZ5a6cmNEee8B9kRSNhRUg" id="GML_TR_MAR_0001_0005" text="When editing a Definition via PapyrusEditionFacility, system shall enable to update its name. "/>
+  <GlossaryML:Term xmi:id="_a_LxEMq-Eee8B9kRSNhRUg" base_Class="_YxACQMq-Eee8B9kRSNhRUg"/>
+  <GlossaryML:Definition xmi:id="_tsQ7QMq-Eee8B9kRSNhRUg" base_Comment="_shNdYMq-Eee8B9kRSNhRUg"/>
+  <GlossaryML:Term xmi:id="_RDmKUsrBEee8B9kRSNhRUg" base_Class="_RDmKUMrBEee8B9kRSNhRUg"/>
+  <GlossaryML:Definition xmi:id="_RDmKU8rBEee8B9kRSNhRUg" base_Comment="_RDmKUcrBEee8B9kRSNhRUg"/>
+  <GlossaryML:Term xmi:id="_RR5sEsrBEee8B9kRSNhRUg" base_Class="_RR5sEMrBEee8B9kRSNhRUg"/>
+  <GlossaryML:Definition xmi:id="_RR5sE8rBEee8B9kRSNhRUg" base_Comment="_RR5sEcrBEee8B9kRSNhRUg"/>
+  <GlossaryML:Term xmi:id="_DZtIAMrTEeewiLdROuv7ZQ" base_Class="_DZr54MrTEeewiLdROuv7ZQ"/>
+  <GlossaryML:Definition xmi:id="_DZwyYMrTEeewiLdROuv7ZQ" base_Comment="_DZr54crTEeewiLdROuv7ZQ"/>
+  <GlossaryML:Term xmi:id="_rkcpEM9yEeexA5Asmqj4TQ" base_Class="_rkJHEM9yEeexA5Asmqj4TQ"/>
+  <GlossaryML:Definition xmi:id="_rkfsYM9yEeexA5Asmqj4TQ" base_Comment="_rkJHEc9yEeexA5Asmqj4TQ" isCommon="true"/>
+  <GlossaryML:Term xmi:id="_DUYXMM91EeexA5Asmqj4TQ" base_Class="_DSncoM91EeexA5Asmqj4TQ"/>
+  <GlossaryML:Definition xmi:id="_DUrSIM91EeexA5Asmqj4TQ" base_Comment="_DSncoc91EeexA5Asmqj4TQ" isCommon="true"/>
+  <GlossaryML:Term xmi:id="_hI_aAs92EeexA5Asmqj4TQ" base_Class="_hI_aAM92EeexA5Asmqj4TQ"/>
+  <GlossaryML:Definition xmi:id="_hI_aA892EeexA5Asmqj4TQ" base_Comment="_hI_aAc92EeexA5Asmqj4TQ"/>
+  <GlossaryML:Term xmi:id="_D0yDos93EeexA5Asmqj4TQ" base_Class="_D0yDoM93EeexA5Asmqj4TQ"/>
+  <GlossaryML:Definition xmi:id="_D0yDo893EeexA5Asmqj4TQ" base_Comment="_D0yDoc93EeexA5Asmqj4TQ"/>
+  <Requirements:Requirement xmi:id="_a4KTwAdeEei416VAQCBulg" base_Class="_a384YgdeEei416VAQCBulg" id="GML_TR_MAR_0004_0001_0001" text="&lt;p>When left-clicking on a Glossary model element in the PapyrusModelExplorer and selecting the &amp;quot;New Table&amp;quot; sub-menu from the displayed contextual menu, system shall provide in this latter sub-menu a menu action labelled &amp;quot;Glossary Table&amp;quot;. Clicking on this menu will create a new GlossaryTable in the context of the selected&lt;glossary> model element.&lt;/glossary>&lt;/p>&#xA;"/>
+  <Requirements:Requirement xmi:id="_a4aLYAdeEei416VAQCBulg" base_Class="_a384YwdeEei416VAQCBulg" id="GML_TR_MAR_0004_0001_0002" text="&lt;p>When left-clicking on a GlossaryTable view in the PapyrusModelExplorer and selecting the &amp;quot;Delete&amp;quot; menu action, system shall delete the selected GlossaryTable.&lt;/p>&#xA;"/>
+  <Requirements:Requirement xmi:id="_a4pb8AdeEei416VAQCBulg" base_Class="_a384ZAdeEei416VAQCBulg" id="GML_TR_MAR_0004_0001_0003" text="When F2 hitting while a GlossaryTable is selected either from the PapyrusModelExplorer or in a GlossaryTable view, system shall enable to rename the selected GlossaryTable."/>
+  <Requirements:Requirement xmi:id="_a44FcAdeEei416VAQCBulg" base_Class="_a384ZQdeEei416VAQCBulg" id="GML_TR_MAR_0004_0002" text="&lt;p>System shall provide a specific configuration for GlossaryTableEditor.&lt;/p>&#xA;"/>
+  <Requirements:Requirement xmi:id="_a5GH4AdeEei416VAQCBulg" base_Class="_a384ZgdeEei416VAQCBulg" id="GML_TR_MAR_0004_0002_0001" text="&lt;p>System shall provide a GlossaryTable configuration where lines show the content of a Glossary, Term and sub gloassies if any. In that latter case, the GlossaryTable shall show at most 10 level of hierarchy.&lt;/p>&#xA;"/>
+  <Requirements:Requirement xmi:id="_a5VYcAdeEei416VAQCBulg" base_Class="_a384ZwdeEei416VAQCBulg" id="GML_TR_MAR_0004_0002_0002" text="&lt;p>System shall provide a GlossaryTable configuration where first column shall show the common definition of the terms. The header of the first column shall be labelled &amp;quot;Common Definition&amp;quot; and other features are hidden.&lt;/p>&#xA;"/>
+  <Requirements:Requirement xmi:id="_a5fwgAdeEei416VAQCBulg" base_Class="_a384aQdeEei416VAQCBulg" id="GML_TR_MAR_0001_0003" text="When lecft-clicking on a Glossary model element from a GlossaryTableEditor, system shall provide a Glossary creation action labelled &quot;Glossary&quot; within a sub-menu labelled &quot;New Node&quot;. Clicking on the &quot;Glossary&quot; sub-menu shall create a new Glossary owned by the Glossary part of the current selection."/>
+  <Requirements:Requirement xmi:id="_a5tL4AdeEei416VAQCBulg" base_Class="_a384agdeEei416VAQCBulg" id="GML_TR_MAR_0001_0004" text="When left-clicking on a Glossary model element from a GlossaryTableEditor and selecting the &quot;Delete&quot; menu action from the displayed contextual menu, system shall delete the Glossary model element of the current selection. In that case, all its content will also be deleted."/>
+  <Requirements:Requirement xmi:id="_a54yEAdeEei416VAQCBulg" base_Class="_a384awdeEei416VAQCBulg" id="GML_TR_MAR_0001_0005" text="When editing a Term via PapyrusEditionFacility, system shall enable to update its name. "/>
+  <Requirements:Requirement xmi:id="_a6GNcAdeEei416VAQCBulg" base_Class="_a384bQdeEei416VAQCBulg" id="GML_TR_MAR_0002_0002" text="When lecft-clicking on a glossary model element from a GlossaryTableEditor, system shall provide a glossary creation action within a sub menu of the displayed contextual menu. The sub menu shall be labeled &quot;Glossary ML&quot;, and the proposed menu for Glossary creation shall be labeled &quot;Glossary&quot;."/>
+  <Requirements:Requirement xmi:id="_a6P-cAdeEei416VAQCBulg" base_Class="_a384bgdeEei416VAQCBulg" id="GML_TR_MAR_0002_0003" text="When left-clicking on &lt;&lt;Term>> model element from either the Model Explorer or a Glossary Table Editor and selecting the &quot;Delete&quot; menu action, system shall enable its deletion. In that case, all its content will also be deleted."/>
+  <Requirements:Requirement xmi:id="_a6aWgAdeEei416VAQCBulg" base_Class="_a384bwdeEei416VAQCBulg" id="GML_TR_MAR_0002_0004" text="When editing a glossay, via F2 hitting or double click, system shall enable to update following properties via a specific wizzard: name, knowledgeDomainName, and knowledgeDomainDescription. When opening the aforementioned wizzard, the value of the name shall be selected. "/>
+  <Requirements:Requirement xmi:id="_a6lVoAdeEei416VAQCBulg" base_Class="_a384cQdeEei416VAQCBulg" id="GML_TR_MAR_0001_0003" text="When lecft-clicking on a glossary model element from a GlossaryTableEditor, system shall provide a glossary creation action within a sub menu of the displayed contextual menu. The sub menu shall be labeled &quot;Glossary ML&quot;, and the proposed menu for Glossary creation shall be labeled &quot;Glossary&quot;."/>
+  <Requirements:Requirement xmi:id="_a65esAdeEei416VAQCBulg" base_Class="_a384cgdeEei416VAQCBulg" id="GML_TR_MAR_0001_0004" text="When left-clicking on &lt;&lt;Definition>> model element from either the Model Explorer or a Glossary Table Editor and selecting the &quot;Delete&quot; menu action, system shall enable its deletion. In that case, all its content will also be deleted."/>
+  <Requirements:Requirement xmi:id="_a7IvQAdeEei416VAQCBulg" base_Class="_a384cwdeEei416VAQCBulg" id="GML_TR_MAR_0001_0005" text="When editing a Definition via PapyrusEditionFacility, system shall enable to update its name. "/>
+  <GlossaryML:Term xmi:id="_zp0koAdgEei416VAQCBulg" base_Class="_zpyvcAdgEei416VAQCBulg"/>
+  <GlossaryML:Definition xmi:id="_zp1ywAdgEei416VAQCBulg" base_Comment="_zpyvcQdgEei416VAQCBulg" isCommon="true"/>
+  <GlossaryML:Term xmi:id="_E-X1oAdhEei416VAQCBulg" base_Class="_E-XOkAdhEei416VAQCBulg"/>
+  <GlossaryML:Definition xmi:id="_E-ZDwAdhEei416VAQCBulg" base_Comment="_E-XOkQdhEei416VAQCBulg" isCommon="true"/>
+</xmi:XMI>

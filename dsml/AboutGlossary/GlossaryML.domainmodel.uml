@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_7gzrALlsEee0EqF61rGppw" name="GlossaryML Domain Model">
+  <ownedComment xmi:type="uml:Comment" xmi:id="_m0Y_ULm5EeeS4sXvbiIsmA"/>
+  <packageImport xmi:type="uml:PackageImport" xmi:id="_7nEEALlsEee0EqF61rGppw">
+    <importedPackage xmi:type="uml:Model" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#_0"/>
+  </packageImport>
+  <packagedElement xmi:type="uml:Class" xmi:id="_-ZiO0LlwEee0EqF61rGppw" name="Glossary">
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_hqxc8LlzEeeS4sXvbiIsmA" name="name" visibility="public" isUnique="false">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_hqxc8blzEeeS4sXvbiIsmA"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_hqxc8rlzEeeS4sXvbiIsmA" value="1"/>
+      <defaultValue xmi:type="uml:LiteralString" xmi:id="_hqxc87lzEeeS4sXvbiIsmA" name="description_DefaultValue" value="&lt;Insert here a text to denote the description of the terms category>"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_DW7V5LlxEee0EqF61rGppw" name="knowledgeDomainName" visibility="public" isUnique="false">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_DW7V5blxEee0EqF61rGppw"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_DW7V5rlxEee0EqF61rGppw" value="1"/>
+      <defaultValue xmi:type="uml:LiteralString" xmi:id="_DW7V57lxEee0EqF61rGppw" name="knowledgeDomain_DefaultValue" value="&lt;Specify here the knowledge domain of the glossary>"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_MKCxVrlxEee0EqF61rGppw" name="knowledgeDomaindescription" visibility="public" isUnique="false">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_MKCxV7lxEee0EqF61rGppw"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_MKCxWLlxEee0EqF61rGppw" value="1"/>
+      <defaultValue xmi:type="uml:LiteralString" xmi:id="_MKCxWblxEee0EqF61rGppw" name="description_DefaultValue" value="&lt;Insert here a text to denote the description of the terms category>"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_SqKvELl0EeeS4sXvbiIsmA" name="refGlossary" type="_-ZiO0LlwEee0EqF61rGppw" association="_SqF2kLl0EeeS4sXvbiIsmA">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_SqLWILl0EeeS4sXvbiIsmA"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_SqLWIbl0EeeS4sXvbiIsmA" value="*"/>
+    </ownedAttribute>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_NChRcLlxEee0EqF61rGppw" name="Term">
+    <ownedRule xmi:type="uml:Constraint" xmi:id="_LDdKgNX-Eeeoi-_Ft62eaQ" name="AtLeastA_CommonDefinition_TermWFR" constrainedElement="_NChRcLlxEee0EqF61rGppw">
+      <specification xmi:type="uml:OpaqueExpression" xmi:id="_LDm7gNX-Eeeoi-_Ft62eaQ" name="AtLeastA_CommonDefinition_TermWFRSpec">
+        <language>OCL</language>
+        <body>self.commonMeaning->size()>0</body>
+      </specification>
+    </ownedRule>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_u5gvILlzEeeS4sXvbiIsmA" name="name" visibility="public" isUnique="false">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_u5gvIblzEeeS4sXvbiIsmA"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_u5gvIrlzEeeS4sXvbiIsmA" value="1"/>
+      <defaultValue xmi:type="uml:LiteralString" xmi:id="_u5gvI7lzEeeS4sXvbiIsmA" name="description_DefaultValue" value="&lt;Insert here a text to denote the description of the terms category>"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_MKL7TblxEee0EqF61rGppw" name="synonyms" type="_NChRcLlxEee0EqF61rGppw" association="_MKL7R7lxEee0EqF61rGppw">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_MKL7TrlxEee0EqF61rGppw"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_MKL7T7lxEee0EqF61rGppw" value="*"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_MKL7VrlxEee0EqF61rGppw" name="hyponyms" type="_NChRcLlxEee0EqF61rGppw" association="_MKL7ULlxEee0EqF61rGppw">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_MKL7V7lxEee0EqF61rGppw"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_MKL7WLlxEee0EqF61rGppw" value="*"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_MKL7U7lxEee0EqF61rGppw" name="hypernyms" type="_NChRcLlxEee0EqF61rGppw" association="_MKL7ULlxEee0EqF61rGppw">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_MKL7VLlxEee0EqF61rGppw"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_MKL7VblxEee0EqF61rGppw" value="*"/>
+    </ownedAttribute>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_PRax8LlxEee0EqF61rGppw" name="Definition">
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_kK4CMLlzEeeS4sXvbiIsmA" name="name" visibility="public" isUnique="false">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_kK4CMblzEeeS4sXvbiIsmA"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_kK4CMrlzEeeS4sXvbiIsmA" value="1"/>
+      <defaultValue xmi:type="uml:LiteralString" xmi:id="_kK4CM7lzEeeS4sXvbiIsmA" name="description_DefaultValue" value="&lt;Insert here a text to denote the description of the terms category>"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_XcpcELlzEeeS4sXvbiIsmA" name="body" visibility="public" isUnique="false">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_XcpcEblzEeeS4sXvbiIsmA"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_XcpcErlzEeeS4sXvbiIsmA" value="1"/>
+      <defaultValue xmi:type="uml:LiteralString" xmi:id="_XcpcE7lzEeeS4sXvbiIsmA" name="description_DefaultValue" value="&lt;Insert here a text to denote the description of the terms category>"/>
+    </ownedAttribute>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_MKL7R7lxEee0EqF61rGppw" name="Term-Synonym-Term" memberEnd="_MKL7TblxEee0EqF61rGppw _MKL7SrlxEee0EqF61rGppw">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_MKL7SLlxEee0EqF61rGppw" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_MKL7SblxEee0EqF61rGppw" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_MKL7SrlxEee0EqF61rGppw" name="originTerm" type="_NChRcLlxEee0EqF61rGppw" association="_MKL7R7lxEee0EqF61rGppw">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_MKL7S7lxEee0EqF61rGppw"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_MKL7TLlxEee0EqF61rGppw" value="1"/>
+    </ownedEnd>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_MKL7ULlxEee0EqF61rGppw" name="Hyponyms-Hypernyms" memberEnd="_MKL7VrlxEee0EqF61rGppw _MKL7U7lxEee0EqF61rGppw">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_MKL7UblxEee0EqF61rGppw" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_MKL7UrlxEee0EqF61rGppw" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_oFIjMLlxEee0EqF61rGppw" name="TermDef" memberEnd="_oFIjNLlxEee0EqF61rGppw _oFIjM7lxEee0EqF61rGppw" navigableOwnedEnd="_oFIjNLlxEee0EqF61rGppw">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_oFIjMblxEee0EqF61rGppw" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_oFIjMrlxEee0EqF61rGppw" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_oFIjM7lxEee0EqF61rGppw" name="term" type="_NChRcLlxEee0EqF61rGppw" association="_oFIjMLlxEee0EqF61rGppw"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_oFIjNLlxEee0EqF61rGppw" name="meanings" type="_PRax8LlxEee0EqF61rGppw" aggregation="composite" association="_oFIjMLlxEee0EqF61rGppw">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_oFIjNblxEee0EqF61rGppw"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_oFIjNrlxEee0EqF61rGppw" value="*"/>
+    </ownedEnd>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_SqF2kLl0EeeS4sXvbiIsmA" name="ReferencedGlossary" memberEnd="_SqKvELl0EeeS4sXvbiIsmA _SqLWIrl0EeeS4sXvbiIsmA">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_SqJg8Ll0EeeS4sXvbiIsmA" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_SqKIALl0EeeS4sXvbiIsmA" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_SqLWIrl0EeeS4sXvbiIsmA" name="referencedBy" type="_-ZiO0LlwEee0EqF61rGppw" association="_SqF2kLl0EeeS4sXvbiIsmA">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_dzlwkMYXEeeTLeuKvvVHAw"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_dzu6gMYXEeeTLeuKvvVHAw" value="*"/>
+    </ownedEnd>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_hGJfkLm4EeeS4sXvbiIsmA" name="Glossary-Term" memberEnd="_hGJfk7m4EeeS4sXvbiIsmA _hGJflrm4EeeS4sXvbiIsmA" navigableOwnedEnd="_hGJfk7m4EeeS4sXvbiIsmA">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_hGJfkbm4EeeS4sXvbiIsmA" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_hGJfkrm4EeeS4sXvbiIsmA" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_hGJflrm4EeeS4sXvbiIsmA" name="glossary" type="_-ZiO0LlwEee0EqF61rGppw" association="_hGJfkLm4EeeS4sXvbiIsmA">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_y7lQELm4EeeS4sXvbiIsmA"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_y7uaALm4EeeS4sXvbiIsmA" value="*"/>
+    </ownedEnd>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_hGJfk7m4EeeS4sXvbiIsmA" name="ownedTerms" type="_NChRcLlxEee0EqF61rGppw" association="_hGJfkLm4EeeS4sXvbiIsmA">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_hGJflLm4EeeS4sXvbiIsmA"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_hGJflbm4EeeS4sXvbiIsmA" value="*"/>
+    </ownedEnd>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_jaenwLm6EeeS4sXvbiIsmA" name="CommonDefinition" memberEnd="_jaenxLm6EeeS4sXvbiIsmA _jaenw7m6EeeS4sXvbiIsmA" navigableOwnedEnd="_jaenxLm6EeeS4sXvbiIsmA">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_jaenwbm6EeeS4sXvbiIsmA" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_jaenwrm6EeeS4sXvbiIsmA" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_jaenw7m6EeeS4sXvbiIsmA" name="term" type="_NChRcLlxEee0EqF61rGppw" association="_jaenwLm6EeeS4sXvbiIsmA"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_jaenxLm6EeeS4sXvbiIsmA" name="commonMeaning" type="_PRax8LlxEee0EqF61rGppw" aggregation="composite" subsettedProperty="_oFIjNLlxEee0EqF61rGppw" association="_jaenwLm6EeeS4sXvbiIsmA">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_jaenxbm6EeeS4sXvbiIsmA"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_jaenxrm6EeeS4sXvbiIsmA" value="1"/>
+    </ownedEnd>
+  </packagedElement>
+</uml:Model>
