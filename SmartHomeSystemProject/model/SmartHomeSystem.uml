@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<xmi:XMI xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:Blocks="http://www.eclipse.org/papyrus/sysml/1.4/SysML/Blocks" xmlns:GlossaryML="http:///schemas/GlossaryML/_3BXu0MrREee8B9kRSNhRUg/42" xmlns:Requirements="http://www.eclipse.org/papyrus/sysml/1.4/SysML/Requirements" xmlns:Symbols="http://PapyrusInternal/schemas/Symbols/_eij2kEBcEeKj6r7ThQagKA/2" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:standard="http://www.eclipse.org/uml2/5.0.0/UML/Profile/Standard" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xsi:schemaLocation="http://www.eclipse.org/papyrus/sysml/1.4/SysML/Blocks http://www.eclipse.org/papyrus/sysml/1.4/SysML#//blocks http:///schemas/GlossaryML/_3BXu0MrREee8B9kRSNhRUg/42 ../dsml/AboutGlossary/GlossaryML.profile.uml#_3Bd1cMrREee8B9kRSNhRUg http://www.eclipse.org/papyrus/sysml/1.4/SysML/Requirements http://www.eclipse.org/papyrus/sysml/1.4/SysML#//requirements http://PapyrusInternal/schemas/Symbols/_eij2kEBcEeKj6r7ThQagKA/2 pathmap://PAPYRUS_INTERNAL_PROFILES/PapyrusInternal.profile.uml#_eikdoEBcEeKj6r7ThQagKA">
+<xmi:XMI xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:Blocks="http://www.eclipse.org/papyrus/sysml/1.4/SysML/Blocks" xmlns:GlossaryML="http:///schemas/GlossaryML/_3BXu0MrREee8B9kRSNhRUg/42" xmlns:Requirements="http://www.eclipse.org/papyrus/sysml/1.4/SysML/Requirements" xmlns:Symbols="http://PapyrusInternal/schemas/Symbols/_eij2kEBcEeKj6r7ThQagKA/2" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:standard="http://www.eclipse.org/uml2/5.0.0/UML/Profile/Standard" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xsi:schemaLocation="http://www.eclipse.org/papyrus/sysml/1.4/SysML/Blocks http://www.eclipse.org/papyrus/sysml/1.4/SysML#//blocks http:///schemas/GlossaryML/_3BXu0MrREee8B9kRSNhRUg/42 ../../dsml/AboutGlossary/GlossaryML.profile.uml#_3Bd1cMrREee8B9kRSNhRUg http://www.eclipse.org/papyrus/sysml/1.4/SysML/Requirements http://www.eclipse.org/papyrus/sysml/1.4/SysML#//requirements http://PapyrusInternal/schemas/Symbols/_eij2kEBcEeKj6r7ThQagKA/2 pathmap://PAPYRUS_INTERNAL_PROFILES/PapyrusInternal.profile.uml#_eikdoEBcEeKj6r7ThQagKA">
   <uml:Model xmi:id="_Q7ZNACRxEeCaCLd1YXNfIQ" name="Smart Home System">
     <ownedComment xmi:type="uml:Comment" xmi:id="_XpkjEHb7EeOHCpFb_yGTPQ">
       <body>Reading scenario:&#xD;
@@ -8,6 +8,7 @@ Step #2 - Investigate model {@link #_j5KicE3oEeO5W83O6raoHw} (double click on it
 Step #3 - Investigate model {@link #_OXE1ICR8EeCaCLd1YXNfIQ} (double click on it to start)&#xD;
 PS: Glossary of the project is defined within the model {@link #_yt5KoFHQEeORnr76KmtUgw} (double click on it to see the details)</body>
     </ownedComment>
+    <ownedComment xmi:type="uml:Comment" xmi:id="_GOF0sJdPEemtoeMPVDH0LA"/>
     <packagedElement xmi:type="uml:Artifact" xmi:id="_hO1LQG0pEeePr__vXKAk2g" name="SHS Specification" fileName=""/>
     <packagedElement xmi:type="uml:Model" xmi:id="_yt5KoFHQEeORnr76KmtUgw" name="Smart Home Domain Glossary">
       <ownedComment xmi:type="uml:Comment" xmi:id="_5nRjMHbxEeOJLbWaesGeMg" annotatedElement="_Q7ZNACRxEeCaCLd1YXNfIQ">
@@ -416,6 +417,13 @@ Interactions refining the use cases of the system are graphically denoted using 
       <packagedElement xmi:type="uml:Model" xmi:id="_150CcH7SEeOjPqz2xMsJPg" name="FromReq2ExtSpec"/>
       <packagedElement xmi:type="uml:Model" xmi:id="_5fXz4H7SEeOjPqz2xMsJPg" name="FromExt2IntSpec"/>
     </packagedElement>
+    <packagedElement xmi:type="uml:Model" xmi:id="_QcoJcJdIEemtoeMPVDH0LA" name="SHS_OperationalVision"/>
+    <packagedElement xmi:type="uml:Model" xmi:id="_w63kIJdNEemtoeMPVDH0LA" name="SHS_FunctionalVision">
+      <packagedElement xmi:type="uml:Abstraction" xmi:id="_3iuo8JdNEemtoeMPVDH0LA" name="FromSHS_OperationalVision2FunctionalVision" client="_w63kIJdNEemtoeMPVDH0LA" supplier="_QcoJcJdIEemtoeMPVDH0LA"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Model" xmi:id="_y0nUAJdNEemtoeMPVDH0LA" name="SHS_ConstructionalVision">
+      <packagedElement xmi:type="uml:Abstraction" xmi:id="_DeHc4JdOEemtoeMPVDH0LA" name="FromSHS_FunctionalVision2ConstructionalVision" client="_y0nUAJdNEemtoeMPVDH0LA" supplier="_w63kIJdNEemtoeMPVDH0LA"/>
+    </packagedElement>
     <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_EuktQG0dEeePr__vXKAk2g">
       <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_E1tQAG0dEeePr__vXKAk2g" source="http://www.eclipse.org/uml2/2.0.0/UML">
         <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/uml2/5.0.0/UML/Profile/Standard#/"/>
@@ -528,6 +536,12 @@ Interactions refining the use cases of the system are graphically denoted using 
       </eAnnotations>
       <appliedProfile xmi:type="uml:Profile" href="pathmap://PAPYRUS_INTERNAL_PROFILES/PapyrusInternal.profile.uml#_dL4lkPXAEeGSQON-DQ-5eg"/>
     </profileApplication>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_K0xJEJdIEemtoeMPVDH0LA">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_K0-kcJdIEemtoeMPVDH0LA" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="../../dsml/AboutGlossary/GlossaryML.profile.uml#_3Bd1cMrREee8B9kRSNhRUg"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="../../dsml/AboutGlossary/GlossaryML.profile.uml#_saqecET2EeS25e5tbYLtxg"/>
+    </profileApplication>
   </uml:Model>
   <GlossaryML:Glossary xmi:id="_Ogf6UG0dEeePr__vXKAk2g" base_Model="_yt5KoFHQEeORnr76KmtUgw"/>
   <GlossaryML:Term xmi:id="_QGPJEG0dEeePr__vXKAk2g" base_Class="_GVomQFHREeORnr76KmtUgw"/>
@@ -567,4 +581,6 @@ Interactions refining the use cases of the system are graphically denoted using 
   <standard:Refine xmi:id="_24GA0Zb5EeeFsqoIYj-fTQ" base_Abstraction="_24GA0Jb5EeeFsqoIYj-fTQ"/>
   <Requirements:Refine xmi:id="_RMoPIJb7EeeFsqoIYj-fTQ" base_DirectedRelationship="_24GA0Jb5EeeFsqoIYj-fTQ" base_Abstraction="_24GA0Jb5EeeFsqoIYj-fTQ"/>
   <Requirements:Copy xmi:id="_F4MGYJowEeeM4oOexT6Hpw" base_DirectedRelationship="_F35LcJowEeeM4oOexT6Hpw" base_Abstraction="_F35LcJowEeeM4oOexT6Hpw"/>
+  <Requirements:Refine xmi:id="_3i3L0JdNEemtoeMPVDH0LA" base_DirectedRelationship="_3iuo8JdNEemtoeMPVDH0LA" base_Abstraction="_3iuo8JdNEemtoeMPVDH0LA"/>
+  <Requirements:Refine xmi:id="_DeLuUJdOEemtoeMPVDH0LA" base_DirectedRelationship="_DeHc4JdOEemtoeMPVDH0LA" base_Abstraction="_DeHc4JdOEemtoeMPVDH0LA"/>
 </xmi:XMI>

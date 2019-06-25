@@ -937,45 +937,45 @@
       <element xmi:type="uml:Artifact" href="SmartHomeSystem.uml#_hO1LQG0pEeePr__vXKAk2g"/>
       <layoutConstraint xmi:type="notation:Bounds" xmi:id="_uZw7gW0pEeePr__vXKAk2g" x="10" y="52" width="381" height="74"/>
     </children>
-    <children xmi:type="notation:Shape" xmi:id="_Ki2-oHDFEemhmaBm1P8QOA" type="StereotypeComment">
-      <styles xmi:type="notation:TitleStyle" xmi:id="_Ki2-oXDFEemhmaBm1P8QOA"/>
-      <styles xmi:type="notation:EObjectValueStyle" xmi:id="_Ki2-o3DFEemhmaBm1P8QOA" name="BASE_ELEMENT">
+    <children xmi:type="notation:Shape" xmi:id="_M2Rt0JdIEemtoeMPVDH0LA" type="StereotypeComment">
+      <styles xmi:type="notation:TitleStyle" xmi:id="_M2SU4JdIEemtoeMPVDH0LA"/>
+      <styles xmi:type="notation:EObjectValueStyle" xmi:id="_M2SU4pdIEemtoeMPVDH0LA" name="BASE_ELEMENT">
         <eObjectValue xmi:type="uml:Abstraction" href="SmartHomeSystem.uml#_zQW3AG0pEeePr__vXKAk2g"/>
       </styles>
       <element xsi:nil="true"/>
-      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Ki2-onDFEemhmaBm1P8QOA" x="210" y="65"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_M2SU4ZdIEemtoeMPVDH0LA" x="210" y="65"/>
     </children>
-    <children xmi:type="notation:Shape" xmi:id="_Ki9sUHDFEemhmaBm1P8QOA" type="StereotypeComment">
-      <styles xmi:type="notation:TitleStyle" xmi:id="_Ki9sUXDFEemhmaBm1P8QOA"/>
-      <styles xmi:type="notation:EObjectValueStyle" xmi:id="_Ki9sU3DFEemhmaBm1P8QOA" name="BASE_ELEMENT">
+    <children xmi:type="notation:Shape" xmi:id="_M2lP0JdIEemtoeMPVDH0LA" type="StereotypeComment">
+      <styles xmi:type="notation:TitleStyle" xmi:id="_M2lP0ZdIEemtoeMPVDH0LA"/>
+      <styles xmi:type="notation:EObjectValueStyle" xmi:id="_M2lP05dIEemtoeMPVDH0LA" name="BASE_ELEMENT">
         <eObjectValue xmi:type="uml:Abstraction" href="SmartHomeSystem.uml#_fUtqYE3pEeO5W83O6raoHw"/>
       </styles>
       <element xsi:nil="true"/>
-      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Ki9sUnDFEemhmaBm1P8QOA" x="210" y="265"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_M2lP0pdIEemtoeMPVDH0LA" x="210" y="265"/>
     </children>
-    <children xmi:type="notation:Shape" xmi:id="_KjGPMHDFEemhmaBm1P8QOA" type="StereotypeComment">
-      <styles xmi:type="notation:TitleStyle" xmi:id="_KjG2QHDFEemhmaBm1P8QOA"/>
-      <styles xmi:type="notation:EObjectValueStyle" xmi:id="_KjG2QnDFEemhmaBm1P8QOA" name="BASE_ELEMENT">
+    <children xmi:type="notation:Shape" xmi:id="_M2xdEJdIEemtoeMPVDH0LA" type="StereotypeComment">
+      <styles xmi:type="notation:TitleStyle" xmi:id="_M2xdEZdIEemtoeMPVDH0LA"/>
+      <styles xmi:type="notation:EObjectValueStyle" xmi:id="_M2xdE5dIEemtoeMPVDH0LA" name="BASE_ELEMENT">
         <eObjectValue xmi:type="uml:Abstraction" href="SmartHomeSystem.uml#_wM9Z4E3pEeO5W83O6raoHw"/>
       </styles>
       <element xsi:nil="true"/>
-      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_KjG2QXDFEemhmaBm1P8QOA" x="210" y="460"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_M2xdEpdIEemtoeMPVDH0LA" x="210" y="460"/>
     </children>
-    <children xmi:type="notation:Shape" xmi:id="_KjPZIHDFEemhmaBm1P8QOA" type="StereotypeComment">
-      <styles xmi:type="notation:TitleStyle" xmi:id="_KjPZIXDFEemhmaBm1P8QOA"/>
-      <styles xmi:type="notation:EObjectValueStyle" xmi:id="_KjPZI3DFEemhmaBm1P8QOA" name="BASE_ELEMENT">
+    <children xmi:type="notation:Shape" xmi:id="_M29DQJdIEemtoeMPVDH0LA" type="StereotypeComment">
+      <styles xmi:type="notation:TitleStyle" xmi:id="_M29DQZdIEemtoeMPVDH0LA"/>
+      <styles xmi:type="notation:EObjectValueStyle" xmi:id="_M29DQ5dIEemtoeMPVDH0LA" name="BASE_ELEMENT">
         <eObjectValue xmi:type="uml:Model" href="SmartHomeSystem.uml#_yt5KoFHQEeORnr76KmtUgw"/>
       </styles>
       <element xsi:nil="true"/>
-      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_KjPZInDFEemhmaBm1P8QOA" x="630" y="55"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_M29DQpdIEemtoeMPVDH0LA" x="630" y="55"/>
     </children>
-    <children xmi:type="notation:Shape" xmi:id="_KjTqkHDFEemhmaBm1P8QOA" type="StereotypeComment">
-      <styles xmi:type="notation:TitleStyle" xmi:id="_KjTqkXDFEemhmaBm1P8QOA"/>
-      <styles xmi:type="notation:EObjectValueStyle" xmi:id="_KjTqk3DFEemhmaBm1P8QOA" name="BASE_ELEMENT">
+    <children xmi:type="notation:Shape" xmi:id="_M3DJ4JdIEemtoeMPVDH0LA" type="StereotypeComment">
+      <styles xmi:type="notation:TitleStyle" xmi:id="_M3DJ4ZdIEemtoeMPVDH0LA"/>
+      <styles xmi:type="notation:EObjectValueStyle" xmi:id="_M3DJ45dIEemtoeMPVDH0LA" name="BASE_ELEMENT">
         <eObjectValue xmi:type="uml:Artifact" href="SmartHomeSystem.uml#_hO1LQG0pEeePr__vXKAk2g"/>
       </styles>
       <element xsi:nil="true"/>
-      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_KjTqknDFEemhmaBm1P8QOA" x="210" y="52"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_M3DJ4pdIEemtoeMPVDH0LA" x="210" y="52"/>
     </children>
     <styles xmi:type="notation:StringValueStyle" xmi:id="_iwoSAW0lEeePr__vXKAk2g" name="diagram_compatibility_version" stringValue="1.4.0"/>
     <styles xmi:type="notation:DiagramStyle" xmi:id="_iwoSAm0lEeePr__vXKAk2g"/>
@@ -1063,55 +1063,55 @@
       <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_Mm0r4IdIEeeff6fdwmUAJA" id="(0.0,0.48333333333333334)"/>
       <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_M7bC4IdIEeeff6fdwmUAJA" id="(0.0,0.547945205479452)"/>
     </edges>
-    <edges xmi:type="notation:Connector" xmi:id="_Ki2-pHDFEemhmaBm1P8QOA" type="StereotypeCommentLink" source="_zdsvcG0pEeePr__vXKAk2g" target="_Ki2-oHDFEemhmaBm1P8QOA">
-      <styles xmi:type="notation:FontStyle" xmi:id="_Ki2-pXDFEemhmaBm1P8QOA"/>
-      <styles xmi:type="notation:EObjectValueStyle" xmi:id="_Ki2-qXDFEemhmaBm1P8QOA" name="BASE_ELEMENT">
+    <edges xmi:type="notation:Connector" xmi:id="_M2S78JdIEemtoeMPVDH0LA" type="StereotypeCommentLink" source="_zdsvcG0pEeePr__vXKAk2g" target="_M2Rt0JdIEemtoeMPVDH0LA">
+      <styles xmi:type="notation:FontStyle" xmi:id="_M2S78ZdIEemtoeMPVDH0LA"/>
+      <styles xmi:type="notation:EObjectValueStyle" xmi:id="_M2TjAZdIEemtoeMPVDH0LA" name="BASE_ELEMENT">
         <eObjectValue xmi:type="uml:Abstraction" href="SmartHomeSystem.uml#_zQW3AG0pEeePr__vXKAk2g"/>
       </styles>
       <element xsi:nil="true"/>
-      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_Ki2-pnDFEemhmaBm1P8QOA" points="[0, 0, 0, 0]$[0, 0, 0, 0]"/>
-      <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_Ki2-p3DFEemhmaBm1P8QOA"/>
-      <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_Ki2-qHDFEemhmaBm1P8QOA"/>
+      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_M2S78pdIEemtoeMPVDH0LA" points="[0, 0, 0, 0]$[0, 0, 0, 0]"/>
+      <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_M2S785dIEemtoeMPVDH0LA"/>
+      <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_M2TjAJdIEemtoeMPVDH0LA"/>
     </edges>
-    <edges xmi:type="notation:Connector" xmi:id="_Ki9sVHDFEemhmaBm1P8QOA" type="StereotypeCommentLink" source="_fV254E3pEeO5W83O6raoHw" target="_Ki9sUHDFEemhmaBm1P8QOA">
-      <styles xmi:type="notation:FontStyle" xmi:id="_Ki9sVXDFEemhmaBm1P8QOA"/>
-      <styles xmi:type="notation:EObjectValueStyle" xmi:id="_Ki-TYHDFEemhmaBm1P8QOA" name="BASE_ELEMENT">
+    <edges xmi:type="notation:Connector" xmi:id="_M2lP1JdIEemtoeMPVDH0LA" type="StereotypeCommentLink" source="_fV254E3pEeO5W83O6raoHw" target="_M2lP0JdIEemtoeMPVDH0LA">
+      <styles xmi:type="notation:FontStyle" xmi:id="_M2lP1ZdIEemtoeMPVDH0LA"/>
+      <styles xmi:type="notation:EObjectValueStyle" xmi:id="_M2lP2ZdIEemtoeMPVDH0LA" name="BASE_ELEMENT">
         <eObjectValue xmi:type="uml:Abstraction" href="SmartHomeSystem.uml#_fUtqYE3pEeO5W83O6raoHw"/>
       </styles>
       <element xsi:nil="true"/>
-      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_Ki9sVnDFEemhmaBm1P8QOA" points="[0, 0, 0, 0]$[0, 0, 0, 0]"/>
-      <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_Ki9sV3DFEemhmaBm1P8QOA"/>
-      <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_Ki9sWHDFEemhmaBm1P8QOA"/>
+      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_M2lP1pdIEemtoeMPVDH0LA" points="[0, 0, 0, 0]$[0, 0, 0, 0]"/>
+      <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_M2lP15dIEemtoeMPVDH0LA"/>
+      <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_M2lP2JdIEemtoeMPVDH0LA"/>
     </edges>
-    <edges xmi:type="notation:Connector" xmi:id="_KjG2Q3DFEemhmaBm1P8QOA" type="StereotypeCommentLink" source="_wN7DME3pEeO5W83O6raoHw" target="_KjGPMHDFEemhmaBm1P8QOA">
-      <styles xmi:type="notation:FontStyle" xmi:id="_KjG2RHDFEemhmaBm1P8QOA"/>
-      <styles xmi:type="notation:EObjectValueStyle" xmi:id="_KjG2SHDFEemhmaBm1P8QOA" name="BASE_ELEMENT">
+    <edges xmi:type="notation:Connector" xmi:id="_M2yEIJdIEemtoeMPVDH0LA" type="StereotypeCommentLink" source="_wN7DME3pEeO5W83O6raoHw" target="_M2xdEJdIEemtoeMPVDH0LA">
+      <styles xmi:type="notation:FontStyle" xmi:id="_M2yEIZdIEemtoeMPVDH0LA"/>
+      <styles xmi:type="notation:EObjectValueStyle" xmi:id="_M2yEJZdIEemtoeMPVDH0LA" name="BASE_ELEMENT">
         <eObjectValue xmi:type="uml:Abstraction" href="SmartHomeSystem.uml#_wM9Z4E3pEeO5W83O6raoHw"/>
       </styles>
       <element xsi:nil="true"/>
-      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_KjG2RXDFEemhmaBm1P8QOA" points="[0, 0, 0, 0]$[0, 0, 0, 0]"/>
-      <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_KjG2RnDFEemhmaBm1P8QOA"/>
-      <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_KjG2R3DFEemhmaBm1P8QOA"/>
+      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_M2yEIpdIEemtoeMPVDH0LA" points="[0, 0, 0, 0]$[0, 0, 0, 0]"/>
+      <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_M2yEI5dIEemtoeMPVDH0LA"/>
+      <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_M2yEJJdIEemtoeMPVDH0LA"/>
     </edges>
-    <edges xmi:type="notation:Connector" xmi:id="_KjPZJHDFEemhmaBm1P8QOA" type="StereotypeCommentLink" source="_wVOkoLTtEeOQGrFRUvdYTg" target="_KjPZIHDFEemhmaBm1P8QOA">
-      <styles xmi:type="notation:FontStyle" xmi:id="_KjPZJXDFEemhmaBm1P8QOA"/>
-      <styles xmi:type="notation:EObjectValueStyle" xmi:id="_KjPZKXDFEemhmaBm1P8QOA" name="BASE_ELEMENT">
+    <edges xmi:type="notation:Connector" xmi:id="_M29DRJdIEemtoeMPVDH0LA" type="StereotypeCommentLink" source="_wVOkoLTtEeOQGrFRUvdYTg" target="_M29DQJdIEemtoeMPVDH0LA">
+      <styles xmi:type="notation:FontStyle" xmi:id="_M29DRZdIEemtoeMPVDH0LA"/>
+      <styles xmi:type="notation:EObjectValueStyle" xmi:id="_M29DSZdIEemtoeMPVDH0LA" name="BASE_ELEMENT">
         <eObjectValue xmi:type="uml:Model" href="SmartHomeSystem.uml#_yt5KoFHQEeORnr76KmtUgw"/>
       </styles>
       <element xsi:nil="true"/>
-      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_KjPZJnDFEemhmaBm1P8QOA" points="[0, 0, 0, 0]$[0, 0, 0, 0]"/>
-      <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_KjPZJ3DFEemhmaBm1P8QOA"/>
-      <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_KjPZKHDFEemhmaBm1P8QOA"/>
+      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_M29DRpdIEemtoeMPVDH0LA" points="[0, 0, 0, 0]$[0, 0, 0, 0]"/>
+      <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_M29DR5dIEemtoeMPVDH0LA"/>
+      <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_M29DSJdIEemtoeMPVDH0LA"/>
     </edges>
-    <edges xmi:type="notation:Connector" xmi:id="_KjTqlHDFEemhmaBm1P8QOA" type="StereotypeCommentLink" source="_uZw7gG0pEeePr__vXKAk2g" target="_KjTqkHDFEemhmaBm1P8QOA">
-      <styles xmi:type="notation:FontStyle" xmi:id="_KjTqlXDFEemhmaBm1P8QOA"/>
-      <styles xmi:type="notation:EObjectValueStyle" xmi:id="_KjTqmXDFEemhmaBm1P8QOA" name="BASE_ELEMENT">
+    <edges xmi:type="notation:Connector" xmi:id="_M3DJ5JdIEemtoeMPVDH0LA" type="StereotypeCommentLink" source="_uZw7gG0pEeePr__vXKAk2g" target="_M3DJ4JdIEemtoeMPVDH0LA">
+      <styles xmi:type="notation:FontStyle" xmi:id="_M3DJ5ZdIEemtoeMPVDH0LA"/>
+      <styles xmi:type="notation:EObjectValueStyle" xmi:id="_M3DJ6ZdIEemtoeMPVDH0LA" name="BASE_ELEMENT">
         <eObjectValue xmi:type="uml:Artifact" href="SmartHomeSystem.uml#_hO1LQG0pEeePr__vXKAk2g"/>
       </styles>
       <element xsi:nil="true"/>
-      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_KjTqlnDFEemhmaBm1P8QOA" points="[0, 0, 0, 0]$[0, 0, 0, 0]"/>
-      <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_KjTql3DFEemhmaBm1P8QOA"/>
-      <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_KjTqmHDFEemhmaBm1P8QOA"/>
+      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_M3DJ5pdIEemtoeMPVDH0LA" points="[0, 0, 0, 0]$[0, 0, 0, 0]"/>
+      <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_M3DJ55dIEemtoeMPVDH0LA"/>
+      <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_M3DJ6JdIEemtoeMPVDH0LA"/>
     </edges>
   </notation:Diagram>
   <nattable:Table xmi:id="_auepUG39EeeZtLaug2P7dA" name="Detailled description fo the SHS requirements related accomodation concern." currentRowAxisProvider="_auepVW39EeeZtLaug2P7dA" currentColumnAxisProvider="_auepUW39EeeZtLaug2P7dA" tableKindId="org.eclipse.papyrus.sysml14.table.requirement">
@@ -3707,5 +3707,116 @@
       <owner xmi:type="uml:Interaction" href="SmartHomeSystem.uml#_cRMiUKnfEeecX_JFH5FEMg"/>
     </styles>
     <element xmi:type="uml:Interaction" href="SmartHomeSystem.uml#_cRMiUKnfEeecX_JFH5FEMg"/>
+  </notation:Diagram>
+  <notation:Diagram xmi:id="_Oh_BsJdIEemtoeMPVDH0LA" type="PapyrusUMLClassDiagram" name="NewSysML1.4PackageDiagram" measurementUnit="Pixel">
+    <children xmi:type="notation:Shape" xmi:id="_QcwFQJdIEemtoeMPVDH0LA" type="Model_Shape">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_Alb_kJdOEemtoeMPVDH0LA" source="displayNameLabelIcon">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_AlcmoJdOEemtoeMPVDH0LA" key="displayNameLabelIcon_value" value="true"/>
+      </eAnnotations>
+      <children xmi:type="notation:DecorationNode" xmi:id="_QcwsUJdIEemtoeMPVDH0LA" type="Model_NameLabel"/>
+      <children xmi:type="notation:BasicCompartment" xmi:id="_QcwsUZdIEemtoeMPVDH0LA" type="Model_PackagedElementCompartment">
+        <styles xmi:type="notation:TitleStyle" xmi:id="_QcwsUpdIEemtoeMPVDH0LA"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_QcwsU5dIEemtoeMPVDH0LA"/>
+      </children>
+      <element xmi:type="uml:Model" href="SmartHomeSystem.uml#_QcoJcJdIEemtoeMPVDH0LA"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_QcwFQZdIEemtoeMPVDH0LA" x="55" y="60" width="261" height="106"/>
+    </children>
+    <children xmi:type="notation:Shape" xmi:id="_w67OgJdNEemtoeMPVDH0LA" type="Model_Shape">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_BGsSgJdOEemtoeMPVDH0LA" source="displayNameLabelIcon">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_BGs5kJdOEemtoeMPVDH0LA" key="displayNameLabelIcon_value" value="true"/>
+      </eAnnotations>
+      <children xmi:type="notation:DecorationNode" xmi:id="_w67OgpdNEemtoeMPVDH0LA" type="Model_NameLabel"/>
+      <children xmi:type="notation:BasicCompartment" xmi:id="_w67Og5dNEemtoeMPVDH0LA" type="Model_PackagedElementCompartment">
+        <styles xmi:type="notation:TitleStyle" xmi:id="_w67OhJdNEemtoeMPVDH0LA"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_w67OhZdNEemtoeMPVDH0LA"/>
+      </children>
+      <element xmi:type="uml:Model" href="SmartHomeSystem.uml#_w63kIJdNEemtoeMPVDH0LA"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_w67OgZdNEemtoeMPVDH0LA" x="55" y="210" width="261" height="106"/>
+    </children>
+    <children xmi:type="notation:Shape" xmi:id="_y0sMgJdNEemtoeMPVDH0LA" type="Model_Shape">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_Bf1yUJdOEemtoeMPVDH0LA" source="displayNameLabelIcon">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_Bf1yUZdOEemtoeMPVDH0LA" key="displayNameLabelIcon_value" value="true"/>
+      </eAnnotations>
+      <children xmi:type="notation:DecorationNode" xmi:id="_y0sMgpdNEemtoeMPVDH0LA" type="Model_NameLabel"/>
+      <children xmi:type="notation:BasicCompartment" xmi:id="_y0szkJdNEemtoeMPVDH0LA" type="Model_PackagedElementCompartment">
+        <styles xmi:type="notation:TitleStyle" xmi:id="_y0szkZdNEemtoeMPVDH0LA"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_y0szkpdNEemtoeMPVDH0LA"/>
+      </children>
+      <element xmi:type="uml:Model" href="SmartHomeSystem.uml#_y0nUAJdNEemtoeMPVDH0LA"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_y0sMgZdNEemtoeMPVDH0LA" x="55" y="360" width="261" height="106"/>
+    </children>
+    <children xmi:type="notation:Shape" xmi:id="_3jHqg5dNEemtoeMPVDH0LA" type="StereotypeComment">
+      <styles xmi:type="notation:TitleStyle" xmi:id="_3jHqhJdNEemtoeMPVDH0LA"/>
+      <styles xmi:type="notation:EObjectValueStyle" xmi:id="_3jHqhpdNEemtoeMPVDH0LA" name="BASE_ELEMENT">
+        <eObjectValue xmi:type="uml:Abstraction" href="SmartHomeSystem.uml#_3iuo8JdNEemtoeMPVDH0LA"/>
+      </styles>
+      <element xsi:nil="true"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_3jHqhZdNEemtoeMPVDH0LA" x="255" y="110"/>
+    </children>
+    <children xmi:type="notation:Shape" xmi:id="_Dejhw5dOEemtoeMPVDH0LA" type="StereotypeComment">
+      <styles xmi:type="notation:TitleStyle" xmi:id="_DejhxJdOEemtoeMPVDH0LA"/>
+      <styles xmi:type="notation:EObjectValueStyle" xmi:id="_DekI0JdOEemtoeMPVDH0LA" name="BASE_ELEMENT">
+        <eObjectValue xmi:type="uml:Abstraction" href="SmartHomeSystem.uml#_DeHc4JdOEemtoeMPVDH0LA"/>
+      </styles>
+      <element xsi:nil="true"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_DejhxZdOEemtoeMPVDH0LA" x="255" y="260"/>
+    </children>
+    <children xmi:type="notation:Shape" xmi:id="_GOKGIJdPEemtoeMPVDH0LA" type="Comment_Shape">
+      <children xmi:type="notation:DecorationNode" xmi:id="_GOKtMJdPEemtoeMPVDH0LA" type="Comment_BodyLabel"/>
+      <element xmi:type="uml:Comment" href="SmartHomeSystem.uml#_GOF0sJdPEemtoeMPVDH0LA"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_GOKGIZdPEemtoeMPVDH0LA" x="415" y="80"/>
+    </children>
+    <styles xmi:type="notation:StringValueStyle" xmi:id="_Oh_BsZdIEemtoeMPVDH0LA" name="diagram_compatibility_version" stringValue="1.4.0"/>
+    <styles xmi:type="notation:DiagramStyle" xmi:id="_Oh_BspdIEemtoeMPVDH0LA"/>
+    <styles xmi:type="style_1:PapyrusDiagramStyle" xmi:id="_Oh_Bs5dIEemtoeMPVDH0LA" diagramKindId="org.eclipse.papyrus.sysml14.diagram.package">
+      <owner xmi:type="uml:Model" href="SmartHomeSystem.uml#_Q7ZNACRxEeCaCLd1YXNfIQ"/>
+    </styles>
+    <element xmi:type="uml:Model" href="SmartHomeSystem.uml#_Q7ZNACRxEeCaCLd1YXNfIQ"/>
+    <edges xmi:type="notation:Connector" xmi:id="_3i-gkJdNEemtoeMPVDH0LA" type="Abstraction_Edge" source="_w67OgJdNEemtoeMPVDH0LA" target="_QcwFQJdIEemtoeMPVDH0LA">
+      <children xmi:type="notation:DecorationNode" xmi:id="_3i_HoJdNEemtoeMPVDH0LA" visible="false" type="Abstraction_NameLabel">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_3i_HoZdNEemtoeMPVDH0LA" x="11" y="50"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_3i_HopdNEemtoeMPVDH0LA" type="Abstraction_StereotypeLabel">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_3i_Ho5dNEemtoeMPVDH0LA" x="-4" y="65"/>
+      </children>
+      <styles xmi:type="notation:FontStyle" xmi:id="_3i-gkZdNEemtoeMPVDH0LA"/>
+      <element xmi:type="uml:Abstraction" href="SmartHomeSystem.uml#_3iuo8JdNEemtoeMPVDH0LA"/>
+      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_3i-gkpdNEemtoeMPVDH0LA"/>
+      <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_3jbMgJdNEemtoeMPVDH0LA" id="(0.7279693486590039,0.20754716981132076)"/>
+      <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_3jbzkJdNEemtoeMPVDH0LA" id="(0.7279693486590039,1.0)"/>
+    </edges>
+    <edges xmi:type="notation:Connector" xmi:id="_3jIRkJdNEemtoeMPVDH0LA" type="StereotypeCommentLink" source="_3i-gkJdNEemtoeMPVDH0LA" target="_3jHqg5dNEemtoeMPVDH0LA">
+      <styles xmi:type="notation:FontStyle" xmi:id="_3jIRkZdNEemtoeMPVDH0LA"/>
+      <styles xmi:type="notation:EObjectValueStyle" xmi:id="_3jIRlZdNEemtoeMPVDH0LA" name="BASE_ELEMENT">
+        <eObjectValue xmi:type="uml:Abstraction" href="SmartHomeSystem.uml#_3iuo8JdNEemtoeMPVDH0LA"/>
+      </styles>
+      <element xsi:nil="true"/>
+      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_3jIRkpdNEemtoeMPVDH0LA" points="[0, 0, 0, 0]$[0, 0, 0, 0]"/>
+      <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_3jIRk5dNEemtoeMPVDH0LA"/>
+      <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_3jIRlJdNEemtoeMPVDH0LA"/>
+    </edges>
+    <edges xmi:type="notation:Connector" xmi:id="_DeU4QJdOEemtoeMPVDH0LA" type="Abstraction_Edge" source="_y0sMgJdNEemtoeMPVDH0LA" target="_w67OgJdNEemtoeMPVDH0LA">
+      <children xmi:type="notation:DecorationNode" xmi:id="_DeVfUJdOEemtoeMPVDH0LA" visible="false" type="Abstraction_NameLabel">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_DeVfUZdOEemtoeMPVDH0LA" x="6" y="144"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_DeVfUpdOEemtoeMPVDH0LA" type="Abstraction_StereotypeLabel">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_DeVfU5dOEemtoeMPVDH0LA" x="-4" y="65"/>
+      </children>
+      <styles xmi:type="notation:FontStyle" xmi:id="_DeU4QZdOEemtoeMPVDH0LA"/>
+      <element xmi:type="uml:Abstraction" href="SmartHomeSystem.uml#_DeHc4JdOEemtoeMPVDH0LA"/>
+      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_DeU4QpdOEemtoeMPVDH0LA" points="[250, 382, -643984, -643984]$[250, 316, -643984, -643984]"/>
+      <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_De448JdOEemtoeMPVDH0LA" id="(0.7471264367816092,0.20754716981132076)"/>
+      <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_De448ZdOEemtoeMPVDH0LA" id="(0.7471264367816092,1.0)"/>
+    </edges>
+    <edges xmi:type="notation:Connector" xmi:id="_DekI0ZdOEemtoeMPVDH0LA" type="StereotypeCommentLink" source="_DeU4QJdOEemtoeMPVDH0LA" target="_Dejhw5dOEemtoeMPVDH0LA">
+      <styles xmi:type="notation:FontStyle" xmi:id="_DekI0pdOEemtoeMPVDH0LA"/>
+      <styles xmi:type="notation:EObjectValueStyle" xmi:id="_DekI1pdOEemtoeMPVDH0LA" name="BASE_ELEMENT">
+        <eObjectValue xmi:type="uml:Abstraction" href="SmartHomeSystem.uml#_DeHc4JdOEemtoeMPVDH0LA"/>
+      </styles>
+      <element xsi:nil="true"/>
+      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_DekI05dOEemtoeMPVDH0LA" points="[0, 0, 0, 0]$[0, 0, 0, 0]"/>
+      <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_DekI1JdOEemtoeMPVDH0LA"/>
+      <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_DekI1ZdOEemtoeMPVDH0LA"/>
+    </edges>
   </notation:Diagram>
 </xmi:XMI>
