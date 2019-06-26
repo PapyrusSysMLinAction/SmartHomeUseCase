@@ -56,96 +56,6 @@
       <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_qRMnQX7XEeOjPqz2xMsJPg" id="(0.19873817034700317,0.0)"/>
     </edges>
   </notation:Diagram>
-  <notation:Diagram xmi:id="_Y6Pr0FEfEeOOVOJGuVEKBw" type="PapyrusUMLStateMachineDiagram" name="SmDiagram" measurementUnit="Pixel">
-    <children xmi:type="notation:Shape" xmi:id="_Y6Pr0VEfEeOOVOJGuVEKBw" type="2000">
-      <children xmi:type="notation:DecorationNode" xmi:id="_Y6Pr0lEfEeOOVOJGuVEKBw" type="2001">
-        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Y6Pr01EfEeOOVOJGuVEKBw" width="700" height="20"/>
-      </children>
-      <children xmi:type="notation:DecorationNode" xmi:id="_Y6Pr1FEfEeOOVOJGuVEKBw" type="2002">
-        <children xmi:type="notation:Shape" xmi:id="_Y6Pr1VEfEeOOVOJGuVEKBw" type="3000">
-          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_Y6Pr1lEfEeOOVOJGuVEKBw" source="RegionAnnotationKey">
-            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_Y6Pr11EfEeOOVOJGuVEKBw" key="RegionZoneKey" value=""/>
-          </eAnnotations>
-          <children xmi:type="notation:DecorationNode" xmi:id="_Y6Pr2FEfEeOOVOJGuVEKBw" type="3002">
-            <children xmi:type="notation:Shape" xmi:id="_aCyoQFEfEeOOVOJGuVEKBw" type="6000">
-              <children xmi:type="notation:DecorationNode" xmi:id="_aCyoQlEfEeOOVOJGuVEKBw" type="6001"/>
-              <children xmi:type="notation:DecorationNode" xmi:id="_aCzPUFEfEeOOVOJGuVEKBw" visible="false" type="6002">
-                <layoutConstraint xmi:type="notation:Bounds" xmi:id="_aCzPUVEfEeOOVOJGuVEKBw"/>
-              </children>
-              <children xmi:type="notation:BasicCompartment" xmi:id="_aEeqUFEfEeOOVOJGuVEKBw" visible="false" type="compartment_shape_display">
-                <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_aEeqU1EfEeOOVOJGuVEKBw" source="PapyrusCSSForceValue">
-                  <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_aEeqVFEfEeOOVOJGuVEKBw" key="mutable" value="true"/>
-                </eAnnotations>
-                <styles xmi:type="notation:TitleStyle" xmi:id="_aEeqUVEfEeOOVOJGuVEKBw"/>
-                <layoutConstraint xmi:type="notation:Bounds" xmi:id="_aEeqUlEfEeOOVOJGuVEKBw"/>
-              </children>
-              <element xmi:type="uml:State" href="ElevatorControllerSystemModel.uml#_aCgUYFEfEeOOVOJGuVEKBw"/>
-              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_aCyoQVEfEeOOVOJGuVEKBw" x="126" y="47"/>
-            </children>
-            <children xmi:type="notation:Shape" xmi:id="_adUBEFEfEeOOVOJGuVEKBw" type="6000">
-              <children xmi:type="notation:DecorationNode" xmi:id="_adUBElEfEeOOVOJGuVEKBw" type="6001"/>
-              <children xmi:type="notation:DecorationNode" xmi:id="_adUBE1EfEeOOVOJGuVEKBw" visible="false" type="6002">
-                <layoutConstraint xmi:type="notation:Bounds" xmi:id="_adUBFFEfEeOOVOJGuVEKBw"/>
-              </children>
-              <children xmi:type="notation:BasicCompartment" xmi:id="_ae1rEFEfEeOOVOJGuVEKBw" visible="false" type="compartment_shape_display">
-                <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_ae1rE1EfEeOOVOJGuVEKBw" source="PapyrusCSSForceValue">
-                  <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_ae1rFFEfEeOOVOJGuVEKBw" key="mutable" value="true"/>
-                </eAnnotations>
-                <styles xmi:type="notation:TitleStyle" xmi:id="_ae1rEVEfEeOOVOJGuVEKBw"/>
-                <layoutConstraint xmi:type="notation:Bounds" xmi:id="_ae1rElEfEeOOVOJGuVEKBw"/>
-              </children>
-              <element xmi:type="uml:State" href="ElevatorControllerSystemModel.uml#_adF-oFEfEeOOVOJGuVEKBw"/>
-              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_adUBEVEfEeOOVOJGuVEKBw" x="481" y="124"/>
-            </children>
-            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Y6Pr2VEfEeOOVOJGuVEKBw"/>
-          </children>
-          <children xmi:type="notation:BasicCompartment" xmi:id="_Y_uowFEfEeOOVOJGuVEKBw" visible="false" type="compartment_shape_display">
-            <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_Y_uow1EfEeOOVOJGuVEKBw" source="PapyrusCSSForceValue">
-              <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_Y_uoxFEfEeOOVOJGuVEKBw" key="mutable" value="true"/>
-            </eAnnotations>
-            <styles xmi:type="notation:TitleStyle" xmi:id="_Y_uowVEfEeOOVOJGuVEKBw"/>
-            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Y_uowlEfEeOOVOJGuVEKBw"/>
-          </children>
-          <element xmi:type="uml:Region" href="ElevatorControllerSystemModel.uml#_Y6AbQFEfEeOOVOJGuVEKBw"/>
-          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Y6Pr2lEfEeOOVOJGuVEKBw" width="700" height="287"/>
-        </children>
-        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Y6Pr21EfEeOOVOJGuVEKBw" y="20" width="700" height="287"/>
-      </children>
-      <children xmi:type="notation:BasicCompartment" xmi:id="_Y8qGoFEfEeOOVOJGuVEKBw" visible="false" type="compartment_shape_display">
-        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_Y8qGo1EfEeOOVOJGuVEKBw" source="PapyrusCSSForceValue">
-          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_Y8qGpFEfEeOOVOJGuVEKBw" key="mutable" value="true"/>
-        </eAnnotations>
-        <styles xmi:type="notation:TitleStyle" xmi:id="_Y8qGoVEfEeOOVOJGuVEKBw"/>
-        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Y8qGolEfEeOOVOJGuVEKBw"/>
-      </children>
-      <element xmi:type="uml:StateMachine" href="ElevatorControllerSystemModel.uml#_Ypdd0FEfEeOOVOJGuVEKBw"/>
-      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Y6Pr3FEfEeOOVOJGuVEKBw" x="30" y="30" width="700" height="307"/>
-    </children>
-    <styles xmi:type="notation:DiagramStyle" xmi:id="_Y6Pr3VEfEeOOVOJGuVEKBw"/>
-    <element xmi:type="uml:StateMachine" href="ElevatorControllerSystemModel.uml#_Ypdd0FEfEeOOVOJGuVEKBw"/>
-    <edges xmi:type="notation:Connector" xmi:id="_bI2RYFEfEeOOVOJGuVEKBw" type="7000" source="_aCyoQFEfEeOOVOJGuVEKBw" target="_adUBEFEfEeOOVOJGuVEKBw">
-      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_dR2lQFEfEeOOVOJGuVEKBw" source="Stereotype_Annotation">
-        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_dR2lQVEfEeOOVOJGuVEKBw" key="StereotypeWithQualifiedNameList" value=""/>
-        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_dR2lQlEfEeOOVOJGuVEKBw" key="StereotypeList" value="SysML::Allocations::Allocated"/>
-        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_dR2lQ1EfEeOOVOJGuVEKBw" key="Stereotype_Presentation_Kind" value="HorizontalStereo"/>
-        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_dR2lRFEfEeOOVOJGuVEKBw" key="PropStereoDisplay" value=""/>
-        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_dR2lRVEfEeOOVOJGuVEKBw" key="StereotypePropertyLocation" value="Compartment"/>
-      </eAnnotations>
-      <children xmi:type="notation:DecorationNode" xmi:id="_bI2RY1EfEeOOVOJGuVEKBw" type="7001">
-        <layoutConstraint xmi:type="notation:Location" xmi:id="_bI2RZFEfEeOOVOJGuVEKBw"/>
-      </children>
-      <children xmi:type="notation:DecorationNode" xmi:id="_bI2RZVEfEeOOVOJGuVEKBw" type="7002">
-        <layoutConstraint xmi:type="notation:Location" xmi:id="_bI2RZlEfEeOOVOJGuVEKBw"/>
-      </children>
-      <children xmi:type="notation:DecorationNode" xmi:id="_bI2RZ1EfEeOOVOJGuVEKBw" type="7003">
-        <layoutConstraint xmi:type="notation:Location" xmi:id="_bI2RaFEfEeOOVOJGuVEKBw" x="-2" y="24"/>
-      </children>
-      <styles xmi:type="notation:FontStyle" xmi:id="_bI2RYVEfEeOOVOJGuVEKBw"/>
-      <element xmi:type="uml:Transition" href="ElevatorControllerSystemModel.uml#_bIXJMFEfEeOOVOJGuVEKBw"/>
-      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_bI2RYlEfEeOOVOJGuVEKBw" points="[20, 4, -346, -75]$[375, 80, 9, 1]"/>
-      <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_bOBFQFEfEeOOVOJGuVEKBw" id="(0.775,0.55)"/>
-    </edges>
-  </notation:Diagram>
   <notation:Diagram xmi:id="_1YOdcFEhEeOOVOJGuVEKBw" type="PapyrusUMLClassDiagram" name="Outline of the Elevator Controller System traceability model." measurementUnit="Pixel">
     <children xmi:type="notation:Shape" xmi:id="_1YOdcVEhEeOOVOJGuVEKBw" type="2005">
       <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_l346IH7WEeOjPqz2xMsJPg" source="PapyrusHyperLink_Page">
@@ -810,26 +720,31 @@
       <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_BQYioIdJEeeff6fdwmUAJA" id="(0.0,0.7787610619469026)"/>
     </edges>
   </notation:Diagram>
-  <nattable:Table xmi:id="_auepUG39EeeZtLaug2P7dA" name="Detailled description fo the SHS requirements related accomodation concern." currentRowAxisProvider="_auepVW39EeeZtLaug2P7dA" currentColumnAxisProvider="_auepUW39EeeZtLaug2P7dA" tableKindId="org.eclipse.papyrus.sysml14.table.requirement">
+  <nattable:Table xmi:id="_auepUG39EeeZtLaug2P7dA" name="Detailled description fo the SHS requirements related accomodation concern." currentRowAxisProvider="_auepVW39EeeZtLaug2P7dA" currentColumnAxisProvider="_auepUW39EeeZtLaug2P7dA" tableKindId="org.eclipse.papyrus.sysml16.table.requirement">
     <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_auf3cG39EeeZtLaug2P7dA" source="http://www.eclipse.org/papyrus/infra/nattable/version">
       <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_auf3cW39EeeZtLaug2P7dA" key="version" value="1.3.0"/>
+    </eAnnotations>
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="Imported_From_SysML_1.4_Of__auepUG39EeeZtLaug2P7dA" source="Imported_From_SysML_1.4">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="Papyrus_Source_Model_Name_Of_Imported_From_SysML_1.4_Of__auepUG39EeeZtLaug2P7dA" key="Papyrus_Source_Model_Name" value="SmartHomeSystem_converted"/>
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="Papyrus_SysML_Migration_Date_Of_Imported_From_SysML_1.4_Of__auepUG39EeeZtLaug2P7dA" key="Papyrus_SysML_Migration_Date" value="20190626094410"/>
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="Papyrus_SysML_Migration_Bundle_Version_Of_Imported_From_SysML_1.4_Of__auepUG39EeeZtLaug2P7dA" key="Papyrus_SysML_Migration_Bundle_Version" value="0.7.0.qualifier"/>
     </eAnnotations>
     <styles xmi:type="nattablestyle:BooleanValueStyle" xmi:id="_AOYpgJb0Eeew-NwceYS8pQ" name="wrapText"/>
     <context xmi:type="uml:Package" href="SmartHomeSystem.uml#_VM_OMG0iEeePr__vXKAk2g"/>
     <owner xmi:type="uml:Package" href="SmartHomeSystem.uml#_VM_OMG0iEeePr__vXKAk2g"/>
-    <tableConfiguration xmi:type="nattableconfiguration:TableConfiguration" href="platform:/plugin/org.eclipse.papyrus.sysml14.nattable.requirement/resources/requirement.nattableconfiguration#__qulcG1gEeijMr8XjU8gCg"/>
+    <tableConfiguration xmi:type="nattableconfiguration:TableConfiguration" href="platform:/plugin/org.eclipse.papyrus.sysml16.nattable.requirement/resources/requirement.nattableconfiguration#__qulcG1gEeijMr8XjU8gCg"/>
     <columnAxisProvidersHistory xmi:type="nattableaxisprovider:SlaveObjectAxisProvider" xmi:id="_auepUW39EeeZtLaug2P7dA" description="Provides the columns of the tables with a default configuration" name="Requirements Feature Columns Provider">
       <axis xmi:type="nattableaxis:FeatureIdAxis" xmi:id="_auepUm39EeeZtLaug2P7dA" element="property_of_stereotype:/SysML::Requirements::Requirement::id">
         <styles xmi:type="nattablestyle:IntValueStyle" xmi:id="_6SsokG3-EeeZtLaug2P7dA" name="axisWidth" intValue="141"/>
-        <manager xmi:type="nattableaxisconfiguration:AxisManagerRepresentation" href="platform:/plugin/org.eclipse.papyrus.sysml14.nattable.requirement/resources/requirement.nattableconfiguration#org.eclipse.papyrus.sysml14.nattable.requirement.stereotype.property.axis.manager"/>
+        <manager xmi:type="nattableaxisconfiguration:AxisManagerRepresentation" href="platform:/plugin/org.eclipse.papyrus.sysml16.nattable.requirement/resources/requirement.nattableconfiguration#org.eclipse.papyrus.sysml16.nattable.requirement.stereotype.property.axis.manager"/>
       </axis>
       <axis xmi:type="nattableaxis:FeatureIdAxis" xmi:id="_auepVG39EeeZtLaug2P7dA" element="property_of_stereotype:/SysML::Requirements::Requirement::text">
         <styles xmi:type="nattablestyle:IntValueStyle" xmi:id="_frVIYG3-EeeZtLaug2P7dA" name="axisWidth" intValue="533"/>
-        <manager xmi:type="nattableaxisconfiguration:AxisManagerRepresentation" href="platform:/plugin/org.eclipse.papyrus.sysml14.nattable.requirement/resources/requirement.nattableconfiguration#org.eclipse.papyrus.sysml14.nattable.requirement.stereotype.property.axis.manager"/>
+        <manager xmi:type="nattableaxisconfiguration:AxisManagerRepresentation" href="platform:/plugin/org.eclipse.papyrus.sysml16.nattable.requirement/resources/requirement.nattableconfiguration#org.eclipse.papyrus.sysml16.nattable.requirement.stereotype.property.axis.manager"/>
       </axis>
       <axis xmi:type="nattableaxis:FeatureIdAxis" xmi:id="_CQxJQJb6EeeFsqoIYj-fTQ" element="property_of_stereotype:/SysML::Requirements::Requirement::refinedBy">
         <styles xmi:type="nattablestyle:IntValueStyle" xmi:id="_xOZ_AJb6EeeFsqoIYj-fTQ" name="axisWidth" intValue="151"/>
-        <manager xmi:type="nattableaxisconfiguration:AxisManagerRepresentation" href="platform:/plugin/org.eclipse.papyrus.sysml14.nattable.requirement/resources/requirement.nattableconfiguration#org.eclipse.papyrus.sysml14.nattable.requirement.stereotype.property.axis.manager"/>
+        <manager xmi:type="nattableaxisconfiguration:AxisManagerRepresentation" href="platform:/plugin/org.eclipse.papyrus.sysml16.nattable.requirement/resources/requirement.nattableconfiguration#org.eclipse.papyrus.sysml16.nattable.requirement.stereotype.property.axis.manager"/>
       </axis>
     </columnAxisProvidersHistory>
     <rowAxisProvidersHistory xmi:type="nattableaxisprovider:MasterObjectAxisProvider" xmi:id="_auepVW39EeeZtLaug2P7dA" description="Provides the requirements directly owned by the context of the table" name="Requirement Axis Provider" disconnectSlave="true"/>
@@ -838,21 +753,26 @@
       <styles xmi:type="nattablestyle:IntValueStyle" xmi:id="_B288UKnYEeecX_JFH5FEMg" name="rowLabelWidth" intValue="154"/>
     </localRowHeaderAxisConfiguration>
   </nattable:Table>
-  <nattable:Table xmi:id="_hO0J0G39EeeZtLaug2P7dA" name="Detailled description fo the SHS requirements related to economic concern." currentRowAxisProvider="_hO0J1W39EeeZtLaug2P7dA" currentColumnAxisProvider="_hO0J0W39EeeZtLaug2P7dA" tableKindId="org.eclipse.papyrus.sysml14.table.requirement">
+  <nattable:Table xmi:id="_hO0J0G39EeeZtLaug2P7dA" name="Detailled description fo the SHS requirements related to economic concern." currentRowAxisProvider="_hO0J1W39EeeZtLaug2P7dA" currentColumnAxisProvider="_hO0J0W39EeeZtLaug2P7dA" tableKindId="org.eclipse.papyrus.sysml16.table.requirement">
     <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_hO0J1m39EeeZtLaug2P7dA" source="http://www.eclipse.org/papyrus/infra/nattable/version">
       <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_hO0J1239EeeZtLaug2P7dA" key="version" value="1.3.0"/>
     </eAnnotations>
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="Imported_From_SysML_1.4_Of__hO0J0G39EeeZtLaug2P7dA" source="Imported_From_SysML_1.4">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="Papyrus_Source_Model_Name_Of_Imported_From_SysML_1.4_Of__hO0J0G39EeeZtLaug2P7dA" key="Papyrus_Source_Model_Name" value="SmartHomeSystem_converted"/>
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="Papyrus_SysML_Migration_Date_Of_Imported_From_SysML_1.4_Of__hO0J0G39EeeZtLaug2P7dA" key="Papyrus_SysML_Migration_Date" value="20190626094410"/>
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="Papyrus_SysML_Migration_Bundle_Version_Of_Imported_From_SysML_1.4_Of__hO0J0G39EeeZtLaug2P7dA" key="Papyrus_SysML_Migration_Bundle_Version" value="0.7.0.qualifier"/>
+    </eAnnotations>
     <context xmi:type="uml:Package" href="SmartHomeSystem.uml#_sw3vQG0iEeePr__vXKAk2g"/>
     <owner xmi:type="uml:Package" href="SmartHomeSystem.uml#_sw3vQG0iEeePr__vXKAk2g"/>
-    <tableConfiguration xmi:type="nattableconfiguration:TableConfiguration" href="platform:/plugin/org.eclipse.papyrus.sysml14.nattable.requirement/resources/requirement.nattableconfiguration#__qulcG1gEeijMr8XjU8gCg"/>
+    <tableConfiguration xmi:type="nattableconfiguration:TableConfiguration" href="platform:/plugin/org.eclipse.papyrus.sysml16.nattable.requirement/resources/requirement.nattableconfiguration#__qulcG1gEeijMr8XjU8gCg"/>
     <columnAxisProvidersHistory xmi:type="nattableaxisprovider:SlaveObjectAxisProvider" xmi:id="_hO0J0W39EeeZtLaug2P7dA" description="Provides the columns of the tables with a default configuration" name="Requirements Feature Columns Provider">
       <axis xmi:type="nattableaxis:FeatureIdAxis" xmi:id="_hO0J0m39EeeZtLaug2P7dA" element="property_of_stereotype:/SysML::Requirements::Requirement::id">
         <styles xmi:type="nattablestyle:IntValueStyle" xmi:id="_pzLFoG3_EeeZtLaug2P7dA" name="axisWidth" intValue="115"/>
-        <manager xmi:type="nattableaxisconfiguration:AxisManagerRepresentation" href="platform:/plugin/org.eclipse.papyrus.sysml14.nattable.requirement/resources/requirement.nattableconfiguration#org.eclipse.papyrus.sysml14.nattable.requirement.stereotype.property.axis.manager"/>
+        <manager xmi:type="nattableaxisconfiguration:AxisManagerRepresentation" href="platform:/plugin/org.eclipse.papyrus.sysml16.nattable.requirement/resources/requirement.nattableconfiguration#org.eclipse.papyrus.sysml16.nattable.requirement.stereotype.property.axis.manager"/>
       </axis>
       <axis xmi:type="nattableaxis:FeatureIdAxis" xmi:id="_hO0J1G39EeeZtLaug2P7dA" element="property_of_stereotype:/SysML::Requirements::Requirement::text">
         <styles xmi:type="nattablestyle:IntValueStyle" xmi:id="_podqcG3_EeeZtLaug2P7dA" name="axisWidth" intValue="494"/>
-        <manager xmi:type="nattableaxisconfiguration:AxisManagerRepresentation" href="platform:/plugin/org.eclipse.papyrus.sysml14.nattable.requirement/resources/requirement.nattableconfiguration#org.eclipse.papyrus.sysml14.nattable.requirement.stereotype.property.axis.manager"/>
+        <manager xmi:type="nattableaxisconfiguration:AxisManagerRepresentation" href="platform:/plugin/org.eclipse.papyrus.sysml16.nattable.requirement/resources/requirement.nattableconfiguration#org.eclipse.papyrus.sysml16.nattable.requirement.stereotype.property.axis.manager"/>
       </axis>
     </columnAxisProvidersHistory>
     <rowAxisProvidersHistory xmi:type="nattableaxisprovider:MasterObjectAxisProvider" xmi:id="_hO0J1W39EeeZtLaug2P7dA" description="Provides the requirements directly owned by the context of the table" name="Requirement Axis Provider" disconnectSlave="true"/>
@@ -1007,6 +927,11 @@
     <element xmi:type="uml:Interaction" href="SmartHomeSystem.uml#_mIk7224CEeeZtLaug2P7dA"/>
   </notation:Diagram>
   <notation:Diagram xmi:id="_vFvHEHLDEeeGodGwr0LI7g" type="PapyrusUMLClassDiagram" name="SecurityRequirementDiagram" measurementUnit="Pixel">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="Imported_From_SysML_1.4_Of__vFvHEHLDEeeGodGwr0LI7g" source="Imported_From_SysML_1.4">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="Papyrus_Source_Model_Name_Of_Imported_From_SysML_1.4_Of__vFvHEHLDEeeGodGwr0LI7g" key="Papyrus_Source_Model_Name" value="SmartHomeSystem_converted"/>
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="Papyrus_SysML_Migration_Date_Of_Imported_From_SysML_1.4_Of__vFvHEHLDEeeGodGwr0LI7g" key="Papyrus_SysML_Migration_Date" value="20190626094410"/>
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="Papyrus_SysML_Migration_Bundle_Version_Of_Imported_From_SysML_1.4_Of__vFvHEHLDEeeGodGwr0LI7g" key="Papyrus_SysML_Migration_Bundle_Version" value="0.7.0.qualifier"/>
+    </eAnnotations>
     <children xmi:type="notation:Shape" xmi:id="_xN-l8HLDEeeGodGwr0LI7g" type="Class_Shape">
       <children xmi:type="notation:DecorationNode" xmi:id="_xODecHLDEeeGodGwr0LI7g" type="Class_NameLabel"/>
       <children xmi:type="notation:DecorationNode" xmi:id="_xODecXLDEeeGodGwr0LI7g" type="Class_FloatingNameLabel">
@@ -1459,7 +1384,7 @@
     </children>
     <styles xmi:type="notation:StringValueStyle" xmi:id="_vFvHEXLDEeeGodGwr0LI7g" name="diagram_compatibility_version" stringValue="1.4.0"/>
     <styles xmi:type="notation:DiagramStyle" xmi:id="_vFvHEnLDEeeGodGwr0LI7g"/>
-    <styles xmi:type="style_1:PapyrusDiagramStyle" xmi:id="_vFvHE3LDEeeGodGwr0LI7g" diagramKindId="org.eclipse.papyrus.sysml14.diagram.requirement">
+    <styles xmi:type="style_1:PapyrusDiagramStyle" xmi:id="_vFvHE3LDEeeGodGwr0LI7g" diagramKindId="org.eclipse.papyrus.sysml16.diagram.requirement">
       <owner xmi:type="uml:Package" href="SmartHomeSystem.uml#_4OrEwG0hEeePr__vXKAk2g"/>
     </styles>
     <element xmi:type="uml:Package" href="SmartHomeSystem.uml#_4OrEwG0hEeePr__vXKAk2g"/>
@@ -1697,6 +1622,11 @@
     </edges>
   </notation:Diagram>
   <notation:Diagram xmi:id="_gvZeMHLEEeeGodGwr0LI7g" type="PapyrusUMLClassDiagram" name="DetailedRequirementDiagram" measurementUnit="Pixel">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="Imported_From_SysML_1.4_Of__gvZeMHLEEeeGodGwr0LI7g" source="Imported_From_SysML_1.4">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="Papyrus_Source_Model_Name_Of_Imported_From_SysML_1.4_Of__gvZeMHLEEeeGodGwr0LI7g" key="Papyrus_Source_Model_Name" value="SmartHomeSystem_converted"/>
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="Papyrus_SysML_Migration_Date_Of_Imported_From_SysML_1.4_Of__gvZeMHLEEeeGodGwr0LI7g" key="Papyrus_SysML_Migration_Date" value="20190626094410"/>
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="Papyrus_SysML_Migration_Bundle_Version_Of_Imported_From_SysML_1.4_Of__gvZeMHLEEeeGodGwr0LI7g" key="Papyrus_SysML_Migration_Bundle_Version" value="0.7.0.qualifier"/>
+    </eAnnotations>
     <children xmi:type="notation:Shape" xmi:id="_j6_3gHLEEeeGodGwr0LI7g" type="Class_Shape">
       <children xmi:type="notation:DecorationNode" xmi:id="_j6_3gnLEEeeGodGwr0LI7g" type="Class_NameLabel"/>
       <children xmi:type="notation:DecorationNode" xmi:id="_j6_3g3LEEeeGodGwr0LI7g" type="Class_FloatingNameLabel">
@@ -1815,9 +1745,9 @@
       <element xsi:nil="true"/>
       <layoutConstraint xmi:type="notation:Bounds" xmi:id="_DOkoJXLFEeeGodGwr0LI7g" x="820" y="120"/>
     </children>
-    <styles xmi:type="notation:StringValueStyle" xmi:id="_gvZeMXLEEeeGodGwr0LI7g" name="diagram_compatibility_version" stringValue="1.3.0"/>
+    <styles xmi:type="notation:StringValueStyle" xmi:id="_gvZeMXLEEeeGodGwr0LI7g" name="diagram_compatibility_version" stringValue="1.4.0"/>
     <styles xmi:type="notation:DiagramStyle" xmi:id="_gvZeMnLEEeeGodGwr0LI7g"/>
-    <styles xmi:type="style_1:PapyrusDiagramStyle" xmi:id="_gvZeM3LEEeeGodGwr0LI7g" diagramKindId="org.eclipse.papyrus.sysml14.diagram.requirement">
+    <styles xmi:type="style_1:PapyrusDiagramStyle" xmi:id="_gvZeM3LEEeeGodGwr0LI7g" diagramKindId="org.eclipse.papyrus.sysml16.diagram.requirement">
       <owner xmi:type="uml:Package" href="SmartHomeSystem.uml#_YvPwwHLEEeeGodGwr0LI7g"/>
     </styles>
     <element xmi:type="uml:Package" href="SmartHomeSystem.uml#_YvPwwHLEEeeGodGwr0LI7g"/>
@@ -1903,6 +1833,11 @@
     </edges>
   </notation:Diagram>
   <notation:Diagram xmi:id="_3mPVMHOXEeeGodGwr0LI7g" type="PapyrusUMLClassDiagram" name="Description of the SystemContext (BDD view)." measurementUnit="Pixel">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="Imported_From_SysML_1.4_Of__3mPVMHOXEeeGodGwr0LI7g" source="Imported_From_SysML_1.4">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="Papyrus_Source_Model_Name_Of_Imported_From_SysML_1.4_Of__3mPVMHOXEeeGodGwr0LI7g" key="Papyrus_Source_Model_Name" value="SmartHomeSystem_converted"/>
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="Papyrus_SysML_Migration_Date_Of_Imported_From_SysML_1.4_Of__3mPVMHOXEeeGodGwr0LI7g" key="Papyrus_SysML_Migration_Date" value="20190626094410"/>
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="Papyrus_SysML_Migration_Bundle_Version_Of_Imported_From_SysML_1.4_Of__3mPVMHOXEeeGodGwr0LI7g" key="Papyrus_SysML_Migration_Bundle_Version" value="0.7.0.qualifier"/>
+    </eAnnotations>
     <children xmi:type="notation:Shape" xmi:id="_7MaKoHOXEeeGodGwr0LI7g" type="NamedElement_DefaultShape">
       <children xmi:type="notation:DecorationNode" xmi:id="_7MaKonOXEeeGodGwr0LI7g" type="NamedElement_NameLabel"/>
       <element xmi:type="uml:Actor" href="SmartHomeSystem.uml#_o9C5QDiAEeGe4_sFLbM3Hw"/>
@@ -1992,25 +1927,25 @@
       <element xmi:type="uml:Class" href="SmartHomeSystem.uml#_gCDnUFkHEeO46MKyR1zbAg"/>
       <layoutConstraint xmi:type="notation:Bounds" xmi:id="_WapdkYmREeeY8oHcVhoGvw" x="515" y="20" width="126"/>
     </children>
-    <children xmi:type="notation:Shape" xmi:id="_wyLnoJacEem3sZYqAkDxZA" type="StereotypeComment">
-      <styles xmi:type="notation:TitleStyle" xmi:id="_wyLnoZacEem3sZYqAkDxZA"/>
-      <styles xmi:type="notation:EObjectValueStyle" xmi:id="_wyLno5acEem3sZYqAkDxZA" name="BASE_ELEMENT">
+    <children xmi:type="notation:Shape" xmi:id="_P7kn0JdpEemqIo5GlFw_bQ" type="StereotypeComment">
+      <styles xmi:type="notation:TitleStyle" xmi:id="_P7kn0ZdpEemqIo5GlFw_bQ"/>
+      <styles xmi:type="notation:EObjectValueStyle" xmi:id="_P7kn05dpEemqIo5GlFw_bQ" name="BASE_ELEMENT">
         <eObjectValue xmi:type="uml:Class" href="SmartHomeSystem.uml#_aewdMFkPEeO46MKyR1zbAg"/>
       </styles>
       <element xsi:nil="true"/>
-      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_wyLnopacEem3sZYqAkDxZA" x="190" y="20"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_P7kn0pdpEemqIo5GlFw_bQ" x="190" y="20"/>
     </children>
-    <children xmi:type="notation:Shape" xmi:id="_wzUQEJacEem3sZYqAkDxZA" type="StereotypeComment">
-      <styles xmi:type="notation:TitleStyle" xmi:id="_wzUQEZacEem3sZYqAkDxZA"/>
-      <styles xmi:type="notation:EObjectValueStyle" xmi:id="_wzU3IJacEem3sZYqAkDxZA" name="BASE_ELEMENT">
+    <children xmi:type="notation:Shape" xmi:id="_P72UoJdpEemqIo5GlFw_bQ" type="StereotypeComment">
+      <styles xmi:type="notation:TitleStyle" xmi:id="_P72UoZdpEemqIo5GlFw_bQ"/>
+      <styles xmi:type="notation:EObjectValueStyle" xmi:id="_P72Uo5dpEemqIo5GlFw_bQ" name="BASE_ELEMENT">
         <eObjectValue xmi:type="uml:Class" href="SmartHomeSystem.uml#_gCDnUFkHEeO46MKyR1zbAg"/>
       </styles>
       <element xsi:nil="true"/>
-      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_wzUQEpacEem3sZYqAkDxZA" x="715" y="20"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_P72UopdpEemqIo5GlFw_bQ" x="715" y="20"/>
     </children>
     <styles xmi:type="notation:StringValueStyle" xmi:id="_3mPVMXOXEeeGodGwr0LI7g" name="diagram_compatibility_version" stringValue="1.4.0"/>
     <styles xmi:type="notation:DiagramStyle" xmi:id="_3mPVMnOXEeeGodGwr0LI7g"/>
-    <styles xmi:type="style_1:PapyrusDiagramStyle" xmi:id="_3mPVM3OXEeeGodGwr0LI7g" diagramKindId="org.eclipse.papyrus.sysml14.diagram.blockdefinition">
+    <styles xmi:type="style_1:PapyrusDiagramStyle" xmi:id="_3mPVM3OXEeeGodGwr0LI7g" diagramKindId="org.eclipse.papyrus.sysml16.diagram.blockdefinition">
       <owner xmi:type="uml:Class" href="SmartHomeSystem.uml#_aewdMFkPEeO46MKyR1zbAg"/>
     </styles>
     <element xmi:type="uml:Model" href="SmartHomeSystem.uml#_j5KicE3oEeO5W83O6raoHw"/>
@@ -2127,30 +2062,35 @@
       <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_uEEl8ImREeeY8oHcVhoGvw" id="(1.0,0.17793594306049823)"/>
       <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_uEEl8YmREeeY8oHcVhoGvw" id="(0.0,0.5)"/>
     </edges>
-    <edges xmi:type="notation:Connector" xmi:id="_wyMOsJacEem3sZYqAkDxZA" type="StereotypeCommentLink" source="_pVFmIIdTEeeff6fdwmUAJA" target="_wyLnoJacEem3sZYqAkDxZA">
-      <styles xmi:type="notation:FontStyle" xmi:id="_wyMOsZacEem3sZYqAkDxZA"/>
-      <styles xmi:type="notation:EObjectValueStyle" xmi:id="_wyM1wpacEem3sZYqAkDxZA" name="BASE_ELEMENT">
+    <edges xmi:type="notation:Connector" xmi:id="_P7lO4JdpEemqIo5GlFw_bQ" type="StereotypeCommentLink" source="_pVFmIIdTEeeff6fdwmUAJA" target="_P7kn0JdpEemqIo5GlFw_bQ">
+      <styles xmi:type="notation:FontStyle" xmi:id="_P7lO4ZdpEemqIo5GlFw_bQ"/>
+      <styles xmi:type="notation:EObjectValueStyle" xmi:id="_P7lO5ZdpEemqIo5GlFw_bQ" name="BASE_ELEMENT">
         <eObjectValue xmi:type="uml:Class" href="SmartHomeSystem.uml#_aewdMFkPEeO46MKyR1zbAg"/>
       </styles>
       <element xsi:nil="true"/>
-      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_wyMOspacEem3sZYqAkDxZA" points="[0, 0, 0, 0]$[0, 0, 0, 0]"/>
-      <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_wyM1wJacEem3sZYqAkDxZA"/>
-      <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_wyM1wZacEem3sZYqAkDxZA"/>
+      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_P7lO4pdpEemqIo5GlFw_bQ" points="[0, 0, 0, 0]$[0, 0, 0, 0]"/>
+      <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_P7lO45dpEemqIo5GlFw_bQ"/>
+      <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_P7lO5JdpEemqIo5GlFw_bQ"/>
     </edges>
-    <edges xmi:type="notation:Connector" xmi:id="_wzU3IZacEem3sZYqAkDxZA" type="StereotypeCommentLink" source="_WapdkImREeeY8oHcVhoGvw" target="_wzUQEJacEem3sZYqAkDxZA">
-      <styles xmi:type="notation:FontStyle" xmi:id="_wzU3IpacEem3sZYqAkDxZA"/>
-      <styles xmi:type="notation:EObjectValueStyle" xmi:id="_wzU3JpacEem3sZYqAkDxZA" name="BASE_ELEMENT">
+    <edges xmi:type="notation:Connector" xmi:id="_P72UpJdpEemqIo5GlFw_bQ" type="StereotypeCommentLink" source="_WapdkImREeeY8oHcVhoGvw" target="_P72UoJdpEemqIo5GlFw_bQ">
+      <styles xmi:type="notation:FontStyle" xmi:id="_P72UpZdpEemqIo5GlFw_bQ"/>
+      <styles xmi:type="notation:EObjectValueStyle" xmi:id="_P72UqZdpEemqIo5GlFw_bQ" name="BASE_ELEMENT">
         <eObjectValue xmi:type="uml:Class" href="SmartHomeSystem.uml#_gCDnUFkHEeO46MKyR1zbAg"/>
       </styles>
       <element xsi:nil="true"/>
-      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_wzU3I5acEem3sZYqAkDxZA" points="[0, 0, 0, 0]$[0, 0, 0, 0]"/>
-      <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_wzU3JJacEem3sZYqAkDxZA"/>
-      <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_wzU3JZacEem3sZYqAkDxZA"/>
+      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_P72UppdpEemqIo5GlFw_bQ" points="[0, 0, 0, 0]$[0, 0, 0, 0]"/>
+      <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_P72Up5dpEemqIo5GlFw_bQ"/>
+      <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_P72UqJdpEemqIo5GlFw_bQ"/>
     </edges>
   </notation:Diagram>
-  <nattable:Table xmi:id="_-7IlsIdMEeeff6fdwmUAJA" name="SHS detailled requirements tree table." currentRowAxisProvider="_-7IltodMEeeff6fdwmUAJA" currentColumnAxisProvider="_-7IlsodMEeeff6fdwmUAJA" tableKindId="org.eclipse.papyrus.sysml14.table.requirementTree">
+  <nattable:Table xmi:id="_-7IlsIdMEeeff6fdwmUAJA" name="SHS detailled requirements tree table." currentRowAxisProvider="_-7IltodMEeeff6fdwmUAJA" currentColumnAxisProvider="_-7IlsodMEeeff6fdwmUAJA" tableKindId="org.eclipse.papyrus.sysml16.table.requirementTree">
     <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_-7Jz0IdMEeeff6fdwmUAJA" source="http://www.eclipse.org/papyrus/infra/nattable/version">
       <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_-7Jz0YdMEeeff6fdwmUAJA" key="version" value="1.3.0"/>
+    </eAnnotations>
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="Imported_From_SysML_1.4_Of__-7IlsIdMEeeff6fdwmUAJA" source="Imported_From_SysML_1.4">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="Papyrus_Source_Model_Name_Of_Imported_From_SysML_1.4_Of__-7IlsIdMEeeff6fdwmUAJA" key="Papyrus_Source_Model_Name" value="SmartHomeSystem_converted"/>
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="Papyrus_SysML_Migration_Date_Of_Imported_From_SysML_1.4_Of__-7IlsIdMEeeff6fdwmUAJA" key="Papyrus_SysML_Migration_Date" value="20190626094410"/>
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="Papyrus_SysML_Migration_Bundle_Version_Of_Imported_From_SysML_1.4_Of__-7IlsIdMEeeff6fdwmUAJA" key="Papyrus_SysML_Migration_Bundle_Version" value="0.7.0.qualifier"/>
     </eAnnotations>
     <styles xmi:type="nattablestyle:IntListValueStyle" xmi:id="_-7IlsYdMEeeff6fdwmUAJA" name="hiddenCategoriesByDepth">
       <intListValue>0</intListValue>
@@ -2164,15 +2104,15 @@
     <styles xmi:type="nattablestyle:BooleanValueStyle" xmi:id="_MkGbgKnYEeecX_JFH5FEMg" name="autoResizeCellHeight" booleanValue="true"/>
     <context xmi:type="uml:Package" href="SmartHomeSystem.uml#_4OrEwG0hEeePr__vXKAk2g"/>
     <owner xmi:type="uml:Package" href="SmartHomeSystem.uml#_4OrEwG0hEeePr__vXKAk2g"/>
-    <tableConfiguration xmi:type="nattableconfiguration:TableConfiguration" href="platform:/plugin/org.eclipse.papyrus.sysml14.nattable.requirement/resources/requirementTree.nattableconfiguration#_QpaQsF9WEeibbMBxjCBt2w"/>
+    <tableConfiguration xmi:type="nattableconfiguration:TableConfiguration" href="platform:/plugin/org.eclipse.papyrus.sysml16.nattable.requirement/resources/requirementTree.nattableconfiguration#_QpaQsF9WEeibbMBxjCBt2w"/>
     <columnAxisProvidersHistory xmi:type="nattableaxisprovider:SlaveObjectAxisProvider" xmi:id="_-7IlsodMEeeff6fdwmUAJA" description="Provides the columns of the tables with a default configuration" name="Requirements Feature Columns Provider">
       <axis xmi:type="nattableaxis:FeatureIdAxis" xmi:id="_-7Ils4dMEeeff6fdwmUAJA" element="property_of_stereotype:/SysML::Requirements::Requirement::id">
         <styles xmi:type="nattablestyle:IntValueStyle" xmi:id="_AsOv4IdNEeeff6fdwmUAJA" name="axisWidth" intValue="161"/>
-        <manager xmi:type="nattableaxisconfiguration:AxisManagerRepresentation" href="platform:/plugin/org.eclipse.papyrus.sysml14.nattable.requirement/resources/requirementTree.nattableconfiguration#org.eclipse.papyrus.sysml14.nattable.requirementtree.stereotype.property.axis.manager"/>
+        <manager xmi:type="nattableaxisconfiguration:AxisManagerRepresentation" href="platform:/plugin/org.eclipse.papyrus.sysml16.nattable.requirement/resources/requirementTree.nattableconfiguration#org.eclipse.papyrus.sysml16.nattable.requirementtree.stereotype.property.axis.manager"/>
       </axis>
       <axis xmi:type="nattableaxis:FeatureIdAxis" xmi:id="_-7IltYdMEeeff6fdwmUAJA" element="property_of_stereotype:/SysML::Requirements::Requirement::text">
         <styles xmi:type="nattablestyle:IntValueStyle" xmi:id="_GylDEIdNEeeff6fdwmUAJA" name="axisWidth" intValue="432"/>
-        <manager xmi:type="nattableaxisconfiguration:AxisManagerRepresentation" href="platform:/plugin/org.eclipse.papyrus.sysml14.nattable.requirement/resources/requirementTree.nattableconfiguration#org.eclipse.papyrus.sysml14.nattable.requirementtree.stereotype.property.axis.manager"/>
+        <manager xmi:type="nattableaxisconfiguration:AxisManagerRepresentation" href="platform:/plugin/org.eclipse.papyrus.sysml16.nattable.requirement/resources/requirementTree.nattableconfiguration#org.eclipse.papyrus.sysml16.nattable.requirementtree.stereotype.property.axis.manager"/>
       </axis>
     </columnAxisProvidersHistory>
     <rowAxisProvidersHistory xmi:type="nattableaxisprovider:MasterObjectAxisProvider" xmi:id="_-7IltodMEeeff6fdwmUAJA" description="This axis provider manages the rows, according to the wanted hierarchy" name="HierarchicalRowAxisManager" disconnectSlave="true"/>
@@ -2278,13 +2218,13 @@
           <element xmi:type="uml:Class" href="SmartHomeSystem.uml#_aewdMFkPEeO46MKyR1zbAg"/>
           <layoutConstraint xmi:type="notation:Bounds" xmi:id="_MrytoYdXEeeff6fdwmUAJA" x="139" y="88" width="166" height="106"/>
         </children>
-        <children xmi:type="notation:Shape" xmi:id="_T4fLIG2tEemhmaBm1P8QOA" type="StereotypeComment">
-          <styles xmi:type="notation:TitleStyle" xmi:id="_T4fLIW2tEemhmaBm1P8QOA"/>
-          <styles xmi:type="notation:EObjectValueStyle" xmi:id="_T4fLI22tEemhmaBm1P8QOA" name="BASE_ELEMENT">
+        <children xmi:type="notation:Shape" xmi:id="_L4hCEJdpEemqIo5GlFw_bQ" type="StereotypeComment">
+          <styles xmi:type="notation:TitleStyle" xmi:id="_L4hCEZdpEemqIo5GlFw_bQ"/>
+          <styles xmi:type="notation:EObjectValueStyle" xmi:id="_L4hCE5dpEemqIo5GlFw_bQ" name="BASE_ELEMENT">
             <eObjectValue xmi:type="uml:Class" href="SmartHomeSystem.uml#_aewdMFkPEeO46MKyR1zbAg"/>
           </styles>
           <element xsi:nil="true"/>
-          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_T4fLIm2tEemhmaBm1P8QOA" x="339" y="88"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_L4hCEpdpEemqIo5GlFw_bQ" x="339" y="88"/>
         </children>
         <styles xmi:type="notation:TitleStyle" xmi:id="_uJtg0odVEeeff6fdwmUAJA"/>
         <layoutConstraint xmi:type="notation:Bounds" xmi:id="_uJtg04dVEeeff6fdwmUAJA"/>
@@ -2319,15 +2259,15 @@
       <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_WY13MIdWEeeff6fdwmUAJA" id="(0.0,0.5952380952380952)"/>
       <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_WY13MYdWEeeff6fdwmUAJA" id="(0.0,0.7)"/>
     </edges>
-    <edges xmi:type="notation:Connector" xmi:id="_T4fLJG2tEemhmaBm1P8QOA" type="StereotypeCommentLink" source="_MrytoIdXEeeff6fdwmUAJA" target="_T4fLIG2tEemhmaBm1P8QOA">
-      <styles xmi:type="notation:FontStyle" xmi:id="_T4fLJW2tEemhmaBm1P8QOA"/>
-      <styles xmi:type="notation:EObjectValueStyle" xmi:id="_T4fLKW2tEemhmaBm1P8QOA" name="BASE_ELEMENT">
+    <edges xmi:type="notation:Connector" xmi:id="_L4hCFJdpEemqIo5GlFw_bQ" type="StereotypeCommentLink" source="_MrytoIdXEeeff6fdwmUAJA" target="_L4hCEJdpEemqIo5GlFw_bQ">
+      <styles xmi:type="notation:FontStyle" xmi:id="_L4hCFZdpEemqIo5GlFw_bQ"/>
+      <styles xmi:type="notation:EObjectValueStyle" xmi:id="_L4hCGZdpEemqIo5GlFw_bQ" name="BASE_ELEMENT">
         <eObjectValue xmi:type="uml:Class" href="SmartHomeSystem.uml#_aewdMFkPEeO46MKyR1zbAg"/>
       </styles>
       <element xsi:nil="true"/>
-      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_T4fLJm2tEemhmaBm1P8QOA" points="[0, 0, 0, 0]$[0, 0, 0, 0]"/>
-      <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_T4fLJ22tEemhmaBm1P8QOA"/>
-      <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_T4fLKG2tEemhmaBm1P8QOA"/>
+      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_L4hCFpdpEemqIo5GlFw_bQ" points="[0, 0, 0, 0]$[0, 0, 0, 0]"/>
+      <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_L4hCF5dpEemqIo5GlFw_bQ"/>
+      <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_L4hCGJdpEemqIo5GlFw_bQ"/>
     </edges>
   </notation:Diagram>
   <notation:Diagram xmi:id="_pxqQkIdXEeeff6fdwmUAJA" type="PapyrusUMLClassDiagram" name="Outlines of the system use cases package organisation." measurementUnit="Pixel">
@@ -2795,6 +2735,11 @@
     </edges>
   </notation:Diagram>
   <notation:Diagram xmi:id="_YI3WEImVEeeY8oHcVhoGvw" type="CompositeStructure" name="Description of the SystemContext (IBD view)." measurementUnit="Pixel">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="Imported_From_SysML_1.4_Of__YI3WEImVEeeY8oHcVhoGvw" source="Imported_From_SysML_1.4">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="Papyrus_Source_Model_Name_Of_Imported_From_SysML_1.4_Of__YI3WEImVEeeY8oHcVhoGvw" key="Papyrus_Source_Model_Name" value="SmartHomeSystem_converted"/>
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="Papyrus_SysML_Migration_Date_Of_Imported_From_SysML_1.4_Of__YI3WEImVEeeY8oHcVhoGvw" key="Papyrus_SysML_Migration_Date" value="20190626094410"/>
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="Papyrus_SysML_Migration_Bundle_Version_Of_Imported_From_SysML_1.4_Of__YI3WEImVEeeY8oHcVhoGvw" key="Papyrus_SysML_Migration_Bundle_Version" value="0.7.0.qualifier"/>
+    </eAnnotations>
     <children xmi:type="notation:Shape" xmi:id="_YI6ZYImVEeeY8oHcVhoGvw" type="Class_Shape">
       <children xmi:type="notation:DecorationNode" xmi:id="_YI7AcImVEeeY8oHcVhoGvw" type="Class_NameLabel"/>
       <children xmi:type="notation:DecorationNode" xmi:id="_YI7AcYmVEeeY8oHcVhoGvw" type="Class_FloatingNameLabel">
@@ -2837,36 +2782,70 @@
           <element xmi:type="uml:Property" href="SmartHomeSystem.uml#_uslaoImVEeeY8oHcVhoGvw"/>
           <layoutConstraint xmi:type="notation:Bounds" xmi:id="_xAR7kYmVEeeY8oHcVhoGvw" x="149" y="217"/>
         </children>
+        <children xmi:type="notation:Shape" xmi:id="_7-mw05dtEemqIo5GlFw_bQ" type="StereotypeComment">
+          <styles xmi:type="notation:TitleStyle" xmi:id="_7-mw1JdtEemqIo5GlFw_bQ"/>
+          <styles xmi:type="notation:EObjectValueStyle" xmi:id="_7-nX4JdtEemqIo5GlFw_bQ" name="BASE_ELEMENT">
+            <eObjectValue xmi:type="uml:InformationFlow" href="SmartHomeSystem.uml#_7-SAsJdtEemqIo5GlFw_bQ"/>
+          </styles>
+          <element xsi:nil="true"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_7-mw1ZdtEemqIo5GlFw_bQ" x="100" y="100"/>
+        </children>
         <styles xmi:type="notation:TitleStyle" xmi:id="_YI7AdImVEeeY8oHcVhoGvw"/>
         <layoutConstraint xmi:type="notation:Bounds" xmi:id="_YI7AdYmVEeeY8oHcVhoGvw"/>
       </children>
       <element xmi:type="uml:Class" href="SmartHomeSystem.uml#_aewdMFkPEeO46MKyR1zbAg"/>
-      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_YI6ZYYmVEeeY8oHcVhoGvw" x="40" y="40" width="666" height="376"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_YI6ZYYmVEeeY8oHcVhoGvw" x="75" y="35" width="666" height="376"/>
     </children>
-    <children xmi:type="notation:Shape" xmi:id="_uW3UYJafEem3sZYqAkDxZA" type="StereotypeComment">
-      <styles xmi:type="notation:TitleStyle" xmi:id="_uW3UYZafEem3sZYqAkDxZA"/>
-      <styles xmi:type="notation:EObjectValueStyle" xmi:id="_uW3UY5afEem3sZYqAkDxZA" name="BASE_ELEMENT">
+    <children xmi:type="notation:Shape" xmi:id="_NXRfEJdpEemqIo5GlFw_bQ" type="StereotypeComment">
+      <styles xmi:type="notation:TitleStyle" xmi:id="_NXRfEZdpEemqIo5GlFw_bQ"/>
+      <styles xmi:type="notation:EObjectValueStyle" xmi:id="_NXRfE5dpEemqIo5GlFw_bQ" name="BASE_ELEMENT">
         <eObjectValue xmi:type="uml:Class" href="SmartHomeSystem.uml#_aewdMFkPEeO46MKyR1zbAg"/>
       </styles>
       <element xsi:nil="true"/>
-      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_uW3UYpafEem3sZYqAkDxZA" x="240" y="40"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_NXRfEpdpEemqIo5GlFw_bQ" x="240" y="40"/>
     </children>
     <styles xmi:type="notation:StringValueStyle" xmi:id="_YI3WEYmVEeeY8oHcVhoGvw" name="diagram_compatibility_version" stringValue="1.4.0"/>
     <styles xmi:type="notation:DiagramStyle" xmi:id="_YI3WEomVEeeY8oHcVhoGvw"/>
-    <styles xmi:type="style_1:PapyrusDiagramStyle" xmi:id="_YI3WE4mVEeeY8oHcVhoGvw" diagramKindId="org.eclipse.papyrus.sysml14.diagram.internalblock">
+    <styles xmi:type="style_1:PapyrusDiagramStyle" xmi:id="_YI3WE4mVEeeY8oHcVhoGvw" diagramKindId="org.eclipse.papyrus.sysml16.diagram.internalblock">
       <owner xmi:type="uml:Class" href="SmartHomeSystem.uml#_aewdMFkPEeO46MKyR1zbAg"/>
     </styles>
     <styles xmi:type="notation:StringListValueStyle" xmi:id="_FFdyEImfEeeNedYKTxeB0A" name="cssClass"/>
     <element xmi:type="uml:Class" href="SmartHomeSystem.uml#_aewdMFkPEeO46MKyR1zbAg"/>
-    <edges xmi:type="notation:Connector" xmi:id="_uW37cJafEem3sZYqAkDxZA" type="StereotypeCommentLink" source="_YI6ZYImVEeeY8oHcVhoGvw" target="_uW3UYJafEem3sZYqAkDxZA">
-      <styles xmi:type="notation:FontStyle" xmi:id="_uW37cZafEem3sZYqAkDxZA"/>
-      <styles xmi:type="notation:EObjectValueStyle" xmi:id="_uW37dZafEem3sZYqAkDxZA" name="BASE_ELEMENT">
+    <edges xmi:type="notation:Connector" xmi:id="_NXRfFJdpEemqIo5GlFw_bQ" type="StereotypeCommentLink" source="_YI6ZYImVEeeY8oHcVhoGvw" target="_NXRfEJdpEemqIo5GlFw_bQ">
+      <styles xmi:type="notation:FontStyle" xmi:id="_NXRfFZdpEemqIo5GlFw_bQ"/>
+      <styles xmi:type="notation:EObjectValueStyle" xmi:id="_NXSGIJdpEemqIo5GlFw_bQ" name="BASE_ELEMENT">
         <eObjectValue xmi:type="uml:Class" href="SmartHomeSystem.uml#_aewdMFkPEeO46MKyR1zbAg"/>
       </styles>
       <element xsi:nil="true"/>
-      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_uW37cpafEem3sZYqAkDxZA" points="[0, 0, 0, 0]$[0, 0, 0, 0]"/>
-      <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_uW37c5afEem3sZYqAkDxZA"/>
-      <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_uW37dJafEem3sZYqAkDxZA"/>
+      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_NXRfFpdpEemqIo5GlFw_bQ" points="[0, 0, 0, 0]$[0, 0, 0, 0]"/>
+      <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_NXRfF5dpEemqIo5GlFw_bQ"/>
+      <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_NXRfGJdpEemqIo5GlFw_bQ"/>
+    </edges>
+    <edges xmi:type="notation:Connector" xmi:id="_7-dm4JdtEemqIo5GlFw_bQ" type="InformationFlow_Edge" source="_qfjZgImVEeeY8oHcVhoGvw" target="_xAR7kImVEeeY8oHcVhoGvw">
+      <children xmi:type="notation:DecorationNode" xmi:id="_7-eN8JdtEemqIo5GlFw_bQ" type="InformationFlow_ConveyedLabel">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_7-eN8ZdtEemqIo5GlFw_bQ" x="-38" y="122"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_7-eN8pdtEemqIo5GlFw_bQ" type="InformationFlow_StereotypeLabel">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_7-eN85dtEemqIo5GlFw_bQ" x="-35" y="54"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_7-eN9JdtEemqIo5GlFw_bQ" type="InformationFlow_NameLabel">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_7-eN9ZdtEemqIo5GlFw_bQ" x="-7" y="38"/>
+      </children>
+      <styles xmi:type="notation:FontStyle" xmi:id="_7-dm4ZdtEemqIo5GlFw_bQ"/>
+      <element xmi:type="uml:InformationFlow" href="SmartHomeSystem.uml#_7-SAsJdtEemqIo5GlFw_bQ"/>
+      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_7-dm4pdtEemqIo5GlFw_bQ" points="[275, 250, -643984, -643984]$[290, 295, -643984, -643984]"/>
+      <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_7-5rwJdtEemqIo5GlFw_bQ" id="(0.24793388429752067,1.0)"/>
+      <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_7-5rwZdtEemqIo5GlFw_bQ" id="(0.30612244897959184,0.0)"/>
+    </edges>
+    <edges xmi:type="notation:Connector" xmi:id="_7-nX4ZdtEemqIo5GlFw_bQ" type="StereotypeCommentLink" source="_7-dm4JdtEemqIo5GlFw_bQ" target="_7-mw05dtEemqIo5GlFw_bQ">
+      <styles xmi:type="notation:FontStyle" xmi:id="_7-nX4pdtEemqIo5GlFw_bQ"/>
+      <styles xmi:type="notation:EObjectValueStyle" xmi:id="_7-nX5pdtEemqIo5GlFw_bQ" name="BASE_ELEMENT">
+        <eObjectValue xmi:type="uml:InformationFlow" href="SmartHomeSystem.uml#_7-SAsJdtEemqIo5GlFw_bQ"/>
+      </styles>
+      <element xsi:nil="true"/>
+      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_7-nX45dtEemqIo5GlFw_bQ" points="[0, 0, 0, 0]$[0, 0, 0, 0]"/>
+      <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_7-nX5JdtEemqIo5GlFw_bQ"/>
+      <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_7-nX5ZdtEemqIo5GlFw_bQ"/>
     </edges>
   </notation:Diagram>
   <notation:Diagram xmi:id="_c__hkJbREeew-NwceYS8pQ" type="UseCase" name="System security use cases diagram." measurementUnit="Pixel">
@@ -3111,6 +3090,11 @@
     <element xmi:type="uml:Interaction" href="SmartHomeSystem.uml#_F5MiIpbyEeew-NwceYS8pQ"/>
   </notation:Diagram>
   <notation:Diagram xmi:id="_SQRS4Jb6EeeFsqoIYj-fTQ" type="PapyrusUMLClassDiagram" name="Accomodation requirement relationships diagram." measurementUnit="Pixel">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="Imported_From_SysML_1.4_Of__SQRS4Jb6EeeFsqoIYj-fTQ" source="Imported_From_SysML_1.4">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="Papyrus_Source_Model_Name_Of_Imported_From_SysML_1.4_Of__SQRS4Jb6EeeFsqoIYj-fTQ" key="Papyrus_Source_Model_Name" value="SmartHomeSystem_converted"/>
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="Papyrus_SysML_Migration_Date_Of_Imported_From_SysML_1.4_Of__SQRS4Jb6EeeFsqoIYj-fTQ" key="Papyrus_SysML_Migration_Date" value="20190626094410"/>
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="Papyrus_SysML_Migration_Bundle_Version_Of_Imported_From_SysML_1.4_Of__SQRS4Jb6EeeFsqoIYj-fTQ" key="Papyrus_SysML_Migration_Bundle_Version" value="0.7.0.qualifier"/>
+    </eAnnotations>
     <children xmi:type="notation:Shape" xmi:id="_T9Xt4Jb6EeeFsqoIYj-fTQ" type="Class_Shape">
       <children xmi:type="notation:DecorationNode" xmi:id="_T9Xt4pb6EeeFsqoIYj-fTQ" type="Class_NameLabel"/>
       <children xmi:type="notation:DecorationNode" xmi:id="_T9Xt45b6EeeFsqoIYj-fTQ" type="Class_FloatingNameLabel">
@@ -3189,7 +3173,7 @@
     </children>
     <styles xmi:type="notation:StringValueStyle" xmi:id="_SQRS4Zb6EeeFsqoIYj-fTQ" name="diagram_compatibility_version" stringValue="1.4.0"/>
     <styles xmi:type="notation:DiagramStyle" xmi:id="_SQRS4pb6EeeFsqoIYj-fTQ"/>
-    <styles xmi:type="style_1:PapyrusDiagramStyle" xmi:id="_SQRS45b6EeeFsqoIYj-fTQ" diagramKindId="org.eclipse.papyrus.sysml14.diagram.requirement">
+    <styles xmi:type="style_1:PapyrusDiagramStyle" xmi:id="_SQRS45b6EeeFsqoIYj-fTQ" diagramKindId="org.eclipse.papyrus.sysml16.diagram.requirement">
       <owner xmi:type="uml:Package" href="SmartHomeSystem.uml#_VM_OMG0iEeePr__vXKAk2g"/>
     </styles>
     <element xmi:type="uml:Package" href="SmartHomeSystem.uml#_VM_OMG0iEeePr__vXKAk2g"/>
@@ -3321,9 +3305,14 @@
       <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_lcbS0ZcHEeeFsqoIYj-fTQ" id="(1.0,0.6)"/>
     </edges>
   </notation:Diagram>
-  <nattable:Table xmi:id="_ECbVYKnYEeecX_JFH5FEMg" name="RequirementTreeTable0" currentRowAxisProvider="_ECbVZanYEeecX_JFH5FEMg" currentColumnAxisProvider="_ECbVYqnYEeecX_JFH5FEMg" tableKindId="org.eclipse.papyrus.sysml14.table.requirementTree">
+  <nattable:Table xmi:id="_ECbVYKnYEeecX_JFH5FEMg" name="RequirementTreeTable0" currentRowAxisProvider="_ECbVZanYEeecX_JFH5FEMg" currentColumnAxisProvider="_ECbVYqnYEeecX_JFH5FEMg" tableKindId="org.eclipse.papyrus.sysml16.table.requirementTree">
     <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_ECe_wKnYEeecX_JFH5FEMg" source="http://www.eclipse.org/papyrus/infra/nattable/version">
       <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_ECe_wanYEeecX_JFH5FEMg" key="version" value="1.3.0"/>
+    </eAnnotations>
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="Imported_From_SysML_1.4_Of__ECbVYKnYEeecX_JFH5FEMg" source="Imported_From_SysML_1.4">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="Papyrus_Source_Model_Name_Of_Imported_From_SysML_1.4_Of__ECbVYKnYEeecX_JFH5FEMg" key="Papyrus_Source_Model_Name" value="SmartHomeSystem_converted"/>
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="Papyrus_SysML_Migration_Date_Of_Imported_From_SysML_1.4_Of__ECbVYKnYEeecX_JFH5FEMg" key="Papyrus_SysML_Migration_Date" value="20190626094410"/>
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="Papyrus_SysML_Migration_Bundle_Version_Of_Imported_From_SysML_1.4_Of__ECbVYKnYEeecX_JFH5FEMg" key="Papyrus_SysML_Migration_Bundle_Version" value="0.7.0.qualifier"/>
     </eAnnotations>
     <styles xmi:type="nattablestyle:IntListValueStyle" xmi:id="_ECbVYanYEeecX_JFH5FEMg" name="hiddenCategoriesByDepth">
       <intListValue>0</intListValue>
@@ -3334,14 +3323,14 @@
     </styles>
     <context xmi:type="uml:Model" href="SmartHomeSystem.uml#_o5WlgCRyEeCaCLd1YXNfIQ"/>
     <owner xmi:type="uml:Model" href="SmartHomeSystem.uml#_o5WlgCRyEeCaCLd1YXNfIQ"/>
-    <tableConfiguration xmi:type="nattableconfiguration:TableConfiguration" href="platform:/plugin/org.eclipse.papyrus.sysml14.nattable.requirement/resources/requirementTree.nattableconfiguration#_QpaQsF9WEeibbMBxjCBt2w"/>
+    <tableConfiguration xmi:type="nattableconfiguration:TableConfiguration" href="platform:/plugin/org.eclipse.papyrus.sysml16.nattable.requirement/resources/requirementTree.nattableconfiguration#_QpaQsF9WEeibbMBxjCBt2w"/>
     <columnAxisProvidersHistory xmi:type="nattableaxisprovider:SlaveObjectAxisProvider" xmi:id="_ECbVYqnYEeecX_JFH5FEMg" description="Provides the columns of the tables with a default configuration" name="Requirements Feature Columns Provider">
       <axis xmi:type="nattableaxis:FeatureIdAxis" xmi:id="_ECbVY6nYEeecX_JFH5FEMg" element="property_of_stereotype:/SysML::Requirements::Requirement::id">
         <styles xmi:type="nattablestyle:IntValueStyle" xmi:id="_FjpQgKnYEeecX_JFH5FEMg" name="axisWidth" intValue="268"/>
-        <manager xmi:type="nattableaxisconfiguration:AxisManagerRepresentation" href="platform:/plugin/org.eclipse.papyrus.sysml14.nattable.requirement/resources/requirementTree.nattableconfiguration#org.eclipse.papyrus.sysml14.nattable.requirementtree.stereotype.property.axis.manager"/>
+        <manager xmi:type="nattableaxisconfiguration:AxisManagerRepresentation" href="platform:/plugin/org.eclipse.papyrus.sysml16.nattable.requirement/resources/requirementTree.nattableconfiguration#org.eclipse.papyrus.sysml16.nattable.requirementtree.stereotype.property.axis.manager"/>
       </axis>
       <axis xmi:type="nattableaxis:FeatureIdAxis" xmi:id="_ECbVZKnYEeecX_JFH5FEMg" element="property_of_stereotype:/SysML::Requirements::Requirement::text">
-        <manager xmi:type="nattableaxisconfiguration:AxisManagerRepresentation" href="platform:/plugin/org.eclipse.papyrus.sysml14.nattable.requirement/resources/requirementTree.nattableconfiguration#org.eclipse.papyrus.sysml14.nattable.requirementtree.stereotype.property.axis.manager"/>
+        <manager xmi:type="nattableaxisconfiguration:AxisManagerRepresentation" href="platform:/plugin/org.eclipse.papyrus.sysml16.nattable.requirement/resources/requirementTree.nattableconfiguration#org.eclipse.papyrus.sysml16.nattable.requirementtree.stereotype.property.axis.manager"/>
       </axis>
     </columnAxisProvidersHistory>
     <rowAxisProvidersHistory xmi:type="nattableaxisprovider:MasterObjectAxisProvider" xmi:id="_ECbVZanYEeecX_JFH5FEMg" description="This axis provider manages the rows, according to the wanted hierarchy" name="HierarchicalRowAxisManager" disconnectSlave="true"/>
@@ -3377,27 +3366,18 @@
     </styles>
     <element xmi:type="uml:Interaction" href="SmartHomeSystem.uml#_cRMiUKnfEeecX_JFH5FEMg"/>
   </notation:Diagram>
-  <notation:Diagram xmi:id="_Oh_BsJdIEemtoeMPVDH0LA" type="PapyrusUMLClassDiagram" name="NewSysML1.4PackageDiagram" measurementUnit="Pixel">
+  <notation:Diagram xmi:id="_Oh_BsJdIEemtoeMPVDH0LA" type="PapyrusUMLClassDiagram" name="High-level organisation description of the SHS Product Definition model." measurementUnit="Pixel">
     <children xmi:type="notation:Shape" xmi:id="_QcwFQJdIEemtoeMPVDH0LA" type="Model_Shape">
       <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_Alb_kJdOEemtoeMPVDH0LA" source="displayNameLabelIcon">
         <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_AlcmoJdOEemtoeMPVDH0LA" key="displayNameLabelIcon_value" value="true"/>
       </eAnnotations>
       <children xmi:type="notation:DecorationNode" xmi:id="_QcwsUJdIEemtoeMPVDH0LA" type="Model_NameLabel"/>
       <children xmi:type="notation:BasicCompartment" xmi:id="_QcwsUZdIEemtoeMPVDH0LA" type="Model_PackagedElementCompartment">
-        <children xmi:type="notation:Shape" xmi:id="__kWtUJdeEemqIo5GlFw_bQ" type="Model_Shape_CN">
-          <children xmi:type="notation:DecorationNode" xmi:id="__kXUYJdeEemqIo5GlFw_bQ" type="Model_NameLabel_CN"/>
-          <children xmi:type="notation:BasicCompartment" xmi:id="__kXUYZdeEemqIo5GlFw_bQ" type="Model_PackagedElementCompartment_CN">
-            <styles xmi:type="notation:TitleStyle" xmi:id="__kXUYpdeEemqIo5GlFw_bQ"/>
-            <layoutConstraint xmi:type="notation:Bounds" xmi:id="__kXUY5deEemqIo5GlFw_bQ"/>
-          </children>
-          <element xmi:type="uml:Model" href="SmartHomeSystem.uml#_8-PmsJdeEemqIo5GlFw_bQ"/>
-          <layoutConstraint xmi:type="notation:Bounds" xmi:id="__kWtUZdeEemqIo5GlFw_bQ" x="19" y="2"/>
-        </children>
         <styles xmi:type="notation:TitleStyle" xmi:id="_QcwsUpdIEemtoeMPVDH0LA"/>
         <layoutConstraint xmi:type="notation:Bounds" xmi:id="_QcwsU5dIEemtoeMPVDH0LA"/>
       </children>
       <element xmi:type="uml:Model" href="SmartHomeSystem.uml#_QcoJcJdIEemtoeMPVDH0LA"/>
-      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_QcwFQZdIEemtoeMPVDH0LA" x="55" y="15" width="261" height="151"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_QcwFQZdIEemtoeMPVDH0LA" x="55" y="15" width="306" height="106"/>
     </children>
     <children xmi:type="notation:Shape" xmi:id="_w67OgJdNEemtoeMPVDH0LA" type="Model_Shape">
       <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_BGsSgJdOEemtoeMPVDH0LA" source="displayNameLabelIcon">
@@ -3405,43 +3385,11 @@
       </eAnnotations>
       <children xmi:type="notation:DecorationNode" xmi:id="_w67OgpdNEemtoeMPVDH0LA" type="Model_NameLabel"/>
       <children xmi:type="notation:BasicCompartment" xmi:id="_w67Og5dNEemtoeMPVDH0LA" type="Model_PackagedElementCompartment">
-        <children xmi:type="notation:Shape" xmi:id="_X8JNAJdeEemqIo5GlFw_bQ" type="Model_Shape_CN">
-          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_4YBpgJdeEemqIo5GlFw_bQ" source="QualifiedName">
-            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_4YCQkJdeEemqIo5GlFw_bQ" key="QualifiedNameDepth" value="2"/>
-          </eAnnotations>
-          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_67tuQJdeEemqIo5GlFw_bQ" source="displayNameLabelIcon">
-            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_67tuQZdeEemqIo5GlFw_bQ" key="displayNameLabelIcon_value" value="true"/>
-          </eAnnotations>
-          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_x9ZS8JdfEemqIo5GlFw_bQ" source="PapyrusHyperLink_Page" references="_MyzsoG0hEeePr__vXKAk2g">
-            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_x9ZS8ZdfEemqIo5GlFw_bQ" key="tooltip_text" value="Outlines of the system requirements model organisation."/>
-            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_x9ZS8pdfEemqIo5GlFw_bQ" key="pageName" value="PapyrusHyperLink_Page"/>
-            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_x9ZS85dfEemqIo5GlFw_bQ" key="is_default_navigation" value="true"/>
-          </eAnnotations>
-          <children xmi:type="notation:DecorationNode" xmi:id="_X8JNApdeEemqIo5GlFw_bQ" type="Model_NameLabel_CN"/>
-          <children xmi:type="notation:BasicCompartment" xmi:id="_X8J0EJdeEemqIo5GlFw_bQ" type="Model_PackagedElementCompartment_CN">
-            <styles xmi:type="notation:TitleStyle" xmi:id="_X8J0EZdeEemqIo5GlFw_bQ"/>
-            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_X8J0EpdeEemqIo5GlFw_bQ"/>
-          </children>
-          <element xmi:type="uml:Model" href="SmartHomeSystem.uml#_o5WlgCRyEeCaCLd1YXNfIQ"/>
-          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_X8JNAZdeEemqIo5GlFw_bQ" x="14" y="12"/>
-        </children>
-        <children xmi:type="notation:Shape" xmi:id="_YTOQQJdeEemqIo5GlFw_bQ" type="Model_Shape_CN">
-          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_7UmIUJdeEemqIo5GlFw_bQ" source="displayNameLabelIcon">
-            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_7UmvYJdeEemqIo5GlFw_bQ" key="displayNameLabelIcon_value" value="true"/>
-          </eAnnotations>
-          <children xmi:type="notation:DecorationNode" xmi:id="_YTO3UJdeEemqIo5GlFw_bQ" type="Model_NameLabel_CN"/>
-          <children xmi:type="notation:BasicCompartment" xmi:id="_YTO3UZdeEemqIo5GlFw_bQ" type="Model_PackagedElementCompartment_CN">
-            <styles xmi:type="notation:TitleStyle" xmi:id="_YTO3UpdeEemqIo5GlFw_bQ"/>
-            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_YTO3U5deEemqIo5GlFw_bQ"/>
-          </children>
-          <element xmi:type="uml:Model" href="SmartHomeSystem.uml#_USdwkJdeEemqIo5GlFw_bQ"/>
-          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_YTOQQZdeEemqIo5GlFw_bQ" x="248" y="13" width="447"/>
-        </children>
         <styles xmi:type="notation:TitleStyle" xmi:id="_w67OhJdNEemtoeMPVDH0LA"/>
         <layoutConstraint xmi:type="notation:Bounds" xmi:id="_w67OhZdNEemtoeMPVDH0LA"/>
       </children>
       <element xmi:type="uml:Model" href="SmartHomeSystem.uml#_w63kIJdNEemtoeMPVDH0LA"/>
-      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_w67OgZdNEemtoeMPVDH0LA" x="55" y="210" width="746" height="176"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_w67OgZdNEemtoeMPVDH0LA" x="55" y="197" width="306" height="106"/>
     </children>
     <children xmi:type="notation:Shape" xmi:id="_y0sMgJdNEemtoeMPVDH0LA" type="Model_Shape">
       <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_Bf1yUJdOEemtoeMPVDH0LA" source="displayNameLabelIcon">
@@ -3453,12 +3401,12 @@
         <layoutConstraint xmi:type="notation:Bounds" xmi:id="_y0szkpdNEemtoeMPVDH0LA"/>
       </children>
       <element xmi:type="uml:Model" href="SmartHomeSystem.uml#_y0nUAJdNEemtoeMPVDH0LA"/>
-      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_y0sMgZdNEemtoeMPVDH0LA" x="55" y="475" width="261" height="106"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_y0sMgZdNEemtoeMPVDH0LA" x="55" y="380" width="306" height="106"/>
     </children>
     <children xmi:type="notation:Shape" xmi:id="_GOKGIJdPEemtoeMPVDH0LA" type="Comment_Shape">
       <children xmi:type="notation:DecorationNode" xmi:id="_GOKtMJdPEemtoeMPVDH0LA" type="Comment_BodyLabel"/>
       <element xmi:type="uml:Comment" href="SmartHomeSystem.uml#_GOF0sJdPEemtoeMPVDH0LA"/>
-      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_GOKGIZdPEemtoeMPVDH0LA" x="405" y="65" width="456" height="101"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_GOKGIZdPEemtoeMPVDH0LA" x="435" y="25" width="276" height="96"/>
     </children>
     <children xmi:type="notation:Shape" xmi:id="_ISYmsJdaEemqIo5GlFw_bQ" type="StereotypeComment">
       <styles xmi:type="notation:TitleStyle" xmi:id="_ISYmsZdaEemqIo5GlFw_bQ"/>
@@ -3479,9 +3427,9 @@
     <styles xmi:type="notation:StringValueStyle" xmi:id="_Oh_BsZdIEemtoeMPVDH0LA" name="diagram_compatibility_version" stringValue="1.4.0"/>
     <styles xmi:type="notation:DiagramStyle" xmi:id="_Oh_BspdIEemtoeMPVDH0LA"/>
     <styles xmi:type="style_1:PapyrusDiagramStyle" xmi:id="_Oh_Bs5dIEemtoeMPVDH0LA" diagramKindId="org.eclipse.papyrus.sysml14.diagram.package">
-      <owner xmi:type="uml:Model" href="SmartHomeSystem.uml#_Q7ZNACRxEeCaCLd1YXNfIQ"/>
+      <owner xmi:type="uml:Model" href="SmartHomeSystem.uml#_FQ5xsJdlEemqIo5GlFw_bQ"/>
     </styles>
-    <element xmi:type="uml:Model" href="SmartHomeSystem.uml#_Q7ZNACRxEeCaCLd1YXNfIQ"/>
+    <element xmi:type="uml:Model" href="SmartHomeSystem.uml#_FQ5xsJdlEemqIo5GlFw_bQ"/>
     <edges xmi:type="notation:Connector" xmi:id="_3i-gkJdNEemtoeMPVDH0LA" type="Abstraction_Edge" source="_w67OgJdNEemtoeMPVDH0LA" target="_QcwFQJdIEemtoeMPVDH0LA">
       <children xmi:type="notation:DecorationNode" xmi:id="_3i_HoJdNEemtoeMPVDH0LA" visible="false" type="Abstraction_NameLabel">
         <styles xmi:type="notation:BooleanValueStyle" xmi:id="_AnJAAJdfEemqIo5GlFw_bQ" name="IS_UPDATED_POSITION" booleanValue="true"/>
@@ -3494,8 +3442,8 @@
       <styles xmi:type="notation:FontStyle" xmi:id="_3i-gkZdNEemtoeMPVDH0LA"/>
       <element xmi:type="uml:Abstraction" href="SmartHomeSystem.uml#_3iuo8JdNEemtoeMPVDH0LA"/>
       <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_3i-gkpdNEemtoeMPVDH0LA"/>
-      <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_3jbMgJdNEemtoeMPVDH0LA" id="(0.2546916890080429,0.0)"/>
-      <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_3jbzkJdNEemtoeMPVDH0LA" id="(0.7279693486590039,1.0)"/>
+      <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_3jbMgJdNEemtoeMPVDH0LA" id="(0.6209150326797386,0.0)"/>
+      <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_3jbzkJdNEemtoeMPVDH0LA" id="(0.6209150326797386,1.0)"/>
     </edges>
     <edges xmi:type="notation:Connector" xmi:id="_DeU4QJdOEemtoeMPVDH0LA" type="Abstraction_Edge" source="_y0sMgJdNEemtoeMPVDH0LA" target="_w67OgJdNEemtoeMPVDH0LA">
       <children xmi:type="notation:DecorationNode" xmi:id="_DeVfUJdOEemtoeMPVDH0LA" visible="false" type="Abstraction_NameLabel">
@@ -3508,9 +3456,9 @@
       </children>
       <styles xmi:type="notation:FontStyle" xmi:id="_DeU4QZdOEemtoeMPVDH0LA"/>
       <element xmi:type="uml:Abstraction" href="SmartHomeSystem.uml#_DeHc4JdOEemtoeMPVDH0LA"/>
-      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_DeU4QpdOEemtoeMPVDH0LA" points="[250, 382, -643984, -643984]$[250, 316, -643984, -643984]"/>
-      <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_De448JdOEemtoeMPVDH0LA" id="(0.7471264367816092,0.0)"/>
-      <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_De448ZdOEemtoeMPVDH0LA" id="(0.2613941018766756,1.0)"/>
+      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_DeU4QpdOEemtoeMPVDH0LA" points="[250, 322, -643984, -643984]$[250, 256, -643984, -643984]"/>
+      <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_De448JdOEemtoeMPVDH0LA" id="(0.6372549019607843,0.0)"/>
+      <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_De448ZdOEemtoeMPVDH0LA" id="(0.6372549019607843,1.0)"/>
     </edges>
     <edges xmi:type="notation:Connector" xmi:id="_ISZNwJdaEemqIo5GlFw_bQ" type="StereotypeCommentLink" source="_3i-gkJdNEemtoeMPVDH0LA" target="_ISYmsJdaEemqIo5GlFw_bQ">
       <styles xmi:type="notation:FontStyle" xmi:id="_ISZNwZdaEemqIo5GlFw_bQ"/>
@@ -3536,11 +3484,16 @@
       <styles xmi:type="notation:FontStyle" xmi:id="_a-y7IZddEemqIo5GlFw_bQ"/>
       <element xsi:nil="true"/>
       <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_a-y7IpddEemqIo5GlFw_bQ" points="[405, 135, -643984, -643984]$[316, 125, -643984, -643984]"/>
-      <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_a_AWgJddEemqIo5GlFw_bQ" id="(0.0,0.594059405940594)"/>
-      <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_a_AWgZddEemqIo5GlFw_bQ" id="(1.0,0.4304635761589404)"/>
+      <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_a_AWgJddEemqIo5GlFw_bQ" id="(0.0,0.625)"/>
+      <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_a_AWgZddEemqIo5GlFw_bQ" id="(1.0,0.660377358490566)"/>
     </edges>
   </notation:Diagram>
   <notation:Diagram xmi:id="_8-T4IJdeEemqIo5GlFw_bQ" type="PapyrusUMLClassDiagram" name="Accomodation requirement relationships diagram." measurementUnit="Pixel">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="Imported_From_SysML_1.4_Of__8-T4IJdeEemqIo5GlFw_bQ" source="Imported_From_SysML_1.4">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="Papyrus_Source_Model_Name_Of_Imported_From_SysML_1.4_Of__8-T4IJdeEemqIo5GlFw_bQ" key="Papyrus_Source_Model_Name" value="SmartHomeSystem_converted"/>
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="Papyrus_SysML_Migration_Date_Of_Imported_From_SysML_1.4_Of__8-T4IJdeEemqIo5GlFw_bQ" key="Papyrus_SysML_Migration_Date" value="20190626094410"/>
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="Papyrus_SysML_Migration_Bundle_Version_Of_Imported_From_SysML_1.4_Of__8-T4IJdeEemqIo5GlFw_bQ" key="Papyrus_SysML_Migration_Bundle_Version" value="0.7.0.qualifier"/>
+    </eAnnotations>
     <children xmi:type="notation:Shape" xmi:id="_8-T4IZdeEemqIo5GlFw_bQ" type="Class_Shape">
       <children xmi:type="notation:DecorationNode" xmi:id="_8-T4IpdeEemqIo5GlFw_bQ" type="Class_NameLabel"/>
       <children xmi:type="notation:DecorationNode" xmi:id="_8-T4I5deEemqIo5GlFw_bQ" type="Class_FloatingNameLabel">
@@ -3606,9 +3559,12 @@
       <styles xmi:type="notation:EObjectValueStyle" xmi:id="_8-T4U5deEemqIo5GlFw_bQ" name="BASE_ELEMENT"/>
       <layoutConstraint xmi:type="notation:Bounds" xmi:id="_8-T4VJdeEemqIo5GlFw_bQ" x="484" y="89"/>
     </children>
-    <styles xmi:type="notation:StringValueStyle" xmi:id="_8-T4VZdeEemqIo5GlFw_bQ" name="diagram_compatibility_version" stringValue="1.3.0"/>
+    <styles xmi:type="notation:StringValueStyle" xmi:id="_8-T4VZdeEemqIo5GlFw_bQ" name="diagram_compatibility_version" stringValue="1.4.0"/>
     <styles xmi:type="notation:DiagramStyle" xmi:id="_8-T4VpdeEemqIo5GlFw_bQ"/>
-    <styles xmi:type="style_1:PapyrusDiagramStyle" xmi:id="_8-T4V5deEemqIo5GlFw_bQ" diagramKindId="org.eclipse.papyrus.sysml14.diagram.requirement"/>
+    <styles xmi:type="style_1:PapyrusDiagramStyle" xmi:id="_8-T4V5deEemqIo5GlFw_bQ" diagramKindId="org.eclipse.papyrus.sysml16.diagram.requirement">
+      <owner xmi:type="uml:Package" href="SmartHomeSystem.uml#_VM_OMG0iEeePr__vXKAk2g"/>
+    </styles>
+    <element xmi:type="uml:Package" href="SmartHomeSystem.uml#_VM_OMG0iEeePr__vXKAk2g"/>
     <edges xmi:type="notation:Connector" xmi:id="_8-T4WJdeEemqIo5GlFw_bQ" type="StereotypeCommentLink">
       <styles xmi:type="notation:FontStyle" xmi:id="_8-T4WZdeEemqIo5GlFw_bQ"/>
       <styles xmi:type="notation:EObjectValueStyle" xmi:id="_8-T4WpdeEemqIo5GlFw_bQ" name="BASE_ELEMENT"/>
@@ -3646,6 +3602,11 @@
     </edges>
   </notation:Diagram>
   <notation:Diagram xmi:id="_8-W7cJdeEemqIo5GlFw_bQ" type="PapyrusUMLClassDiagram" name="SecurityRequirementDiagram" measurementUnit="Pixel">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="Imported_From_SysML_1.4_Of__8-W7cJdeEemqIo5GlFw_bQ" source="Imported_From_SysML_1.4">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="Papyrus_Source_Model_Name_Of_Imported_From_SysML_1.4_Of__8-W7cJdeEemqIo5GlFw_bQ" key="Papyrus_Source_Model_Name" value="SmartHomeSystem_converted"/>
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="Papyrus_SysML_Migration_Date_Of_Imported_From_SysML_1.4_Of__8-W7cJdeEemqIo5GlFw_bQ" key="Papyrus_SysML_Migration_Date" value="20190626094410"/>
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="Papyrus_SysML_Migration_Bundle_Version_Of_Imported_From_SysML_1.4_Of__8-W7cJdeEemqIo5GlFw_bQ" key="Papyrus_SysML_Migration_Bundle_Version" value="0.7.0.qualifier"/>
+    </eAnnotations>
     <children xmi:type="notation:Shape" xmi:id="_8-W7cZdeEemqIo5GlFw_bQ" type="Class_Shape">
       <children xmi:type="notation:DecorationNode" xmi:id="_8-W7cpdeEemqIo5GlFw_bQ" type="Class_NameLabel"/>
       <children xmi:type="notation:DecorationNode" xmi:id="_8-W7c5deEemqIo5GlFw_bQ" type="Class_FloatingNameLabel">
@@ -4043,7 +4004,10 @@
     </children>
     <styles xmi:type="notation:StringValueStyle" xmi:id="_8-XjPJdeEemqIo5GlFw_bQ" name="diagram_compatibility_version" stringValue="1.4.0"/>
     <styles xmi:type="notation:DiagramStyle" xmi:id="_8-XjPZdeEemqIo5GlFw_bQ"/>
-    <styles xmi:type="style_1:PapyrusDiagramStyle" xmi:id="_8-XjPpdeEemqIo5GlFw_bQ" diagramKindId="org.eclipse.papyrus.sysml14.diagram.requirement"/>
+    <styles xmi:type="style_1:PapyrusDiagramStyle" xmi:id="_8-XjPpdeEemqIo5GlFw_bQ" diagramKindId="org.eclipse.papyrus.sysml16.diagram.requirement">
+      <owner xmi:type="uml:Package" href="SmartHomeSystem.uml#_4OrEwG0hEeePr__vXKAk2g"/>
+    </styles>
+    <element xmi:type="uml:Package" href="SmartHomeSystem.uml#_4OrEwG0hEeePr__vXKAk2g"/>
     <edges xmi:type="notation:Connector" xmi:id="_8-XjP5deEemqIo5GlFw_bQ" type="Element_ContainmentEdge" routing="Tree">
       <styles xmi:type="notation:FontStyle" xmi:id="_8-XjQJdeEemqIo5GlFw_bQ"/>
       <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_8-XjQZdeEemqIo5GlFw_bQ" points="[515, 111, -643984, -643984]$[515, 150, -643984, -643984]$[55, 150, -643984, -643984]$[55, 200, -643984, -643984]"/>
@@ -4224,6 +4188,11 @@
     </edges>
   </notation:Diagram>
   <notation:Diagram xmi:id="_8-bz8JdeEemqIo5GlFw_bQ" type="PapyrusUMLClassDiagram" name="DetailedRequirementDiagram" measurementUnit="Pixel">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="Imported_From_SysML_1.4_Of__8-bz8JdeEemqIo5GlFw_bQ" source="Imported_From_SysML_1.4">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="Papyrus_Source_Model_Name_Of_Imported_From_SysML_1.4_Of__8-bz8JdeEemqIo5GlFw_bQ" key="Papyrus_Source_Model_Name" value="SmartHomeSystem_converted"/>
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="Papyrus_SysML_Migration_Date_Of_Imported_From_SysML_1.4_Of__8-bz8JdeEemqIo5GlFw_bQ" key="Papyrus_SysML_Migration_Date" value="20190626094410"/>
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="Papyrus_SysML_Migration_Bundle_Version_Of_Imported_From_SysML_1.4_Of__8-bz8JdeEemqIo5GlFw_bQ" key="Papyrus_SysML_Migration_Bundle_Version" value="0.7.0.qualifier"/>
+    </eAnnotations>
     <children xmi:type="notation:Shape" xmi:id="_8-bz8ZdeEemqIo5GlFw_bQ" type="Class_Shape">
       <children xmi:type="notation:DecorationNode" xmi:id="_8-bz8pdeEemqIo5GlFw_bQ" type="Class_NameLabel"/>
       <children xmi:type="notation:DecorationNode" xmi:id="_8-bz85deEemqIo5GlFw_bQ" type="Class_FloatingNameLabel">
@@ -4324,9 +4293,12 @@
       <styles xmi:type="notation:EObjectValueStyle" xmi:id="_8-b0P5deEemqIo5GlFw_bQ" name="BASE_ELEMENT"/>
       <layoutConstraint xmi:type="notation:Bounds" xmi:id="_8-b0QJdeEemqIo5GlFw_bQ" x="820" y="120"/>
     </children>
-    <styles xmi:type="notation:StringValueStyle" xmi:id="_8-b0QZdeEemqIo5GlFw_bQ" name="diagram_compatibility_version" stringValue="1.3.0"/>
+    <styles xmi:type="notation:StringValueStyle" xmi:id="_8-b0QZdeEemqIo5GlFw_bQ" name="diagram_compatibility_version" stringValue="1.4.0"/>
     <styles xmi:type="notation:DiagramStyle" xmi:id="_8-b0QpdeEemqIo5GlFw_bQ"/>
-    <styles xmi:type="style_1:PapyrusDiagramStyle" xmi:id="_8-b0Q5deEemqIo5GlFw_bQ" diagramKindId="org.eclipse.papyrus.sysml14.diagram.requirement"/>
+    <styles xmi:type="style_1:PapyrusDiagramStyle" xmi:id="_8-b0Q5deEemqIo5GlFw_bQ" diagramKindId="org.eclipse.papyrus.sysml16.diagram.requirement">
+      <owner xmi:type="uml:Package" href="SmartHomeSystem.uml#_YvPwwHLEEeeGodGwr0LI7g"/>
+    </styles>
+    <element xmi:type="uml:Package" href="SmartHomeSystem.uml#_YvPwwHLEEeeGodGwr0LI7g"/>
     <edges xmi:type="notation:Connector" xmi:id="_8-b0RJdeEemqIo5GlFw_bQ" type="StereotypeCommentLink">
       <styles xmi:type="notation:FontStyle" xmi:id="_8-b0RZdeEemqIo5GlFw_bQ"/>
       <styles xmi:type="notation:EObjectValueStyle" xmi:id="_8-b0RpdeEemqIo5GlFw_bQ" name="BASE_ELEMENT"/>
@@ -4389,6 +4361,321 @@
       <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_8-b0dZdeEemqIo5GlFw_bQ" points="[0, 0, 0, 0]$[0, 0, 0, 0]"/>
       <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_8-b0dpdeEemqIo5GlFw_bQ"/>
       <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_8-b0d5deEemqIo5GlFw_bQ"/>
+    </edges>
+  </notation:Diagram>
+  <notation:Diagram xmi:id="_CtkSQJdlEemqIo5GlFw_bQ" type="PapyrusUMLClassDiagram" name="High-level organisation description of the SmartHomeSystemProject model." measurementUnit="Pixel">
+    <children xmi:type="notation:Shape" xmi:id="_DEj18JdlEemqIo5GlFw_bQ" type="Model_Shape">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_5Xt5AJdrEemqIo5GlFw_bQ" source="PapyrusHyperLink_Page" references="_0MysQJdrEemqIo5GlFw_bQ">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_5Xt5AZdrEemqIo5GlFw_bQ" key="tooltip_text" value="High-level organisation description of the SHS Project Management Definition model."/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_5Xt5ApdrEemqIo5GlFw_bQ" key="pageName" value="High-level organisation description of the SHS Project Management Definition model."/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_5Xt5A5drEemqIo5GlFw_bQ" key="is_default_navigation" value="true"/>
+      </eAnnotations>
+      <children xmi:type="notation:DecorationNode" xmi:id="_DEj18pdlEemqIo5GlFw_bQ" type="Model_NameLabel"/>
+      <children xmi:type="notation:BasicCompartment" xmi:id="_DEj185dlEemqIo5GlFw_bQ" type="Model_PackagedElementCompartment">
+        <styles xmi:type="notation:TitleStyle" xmi:id="_DEj19JdlEemqIo5GlFw_bQ"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_DEj19ZdlEemqIo5GlFw_bQ"/>
+      </children>
+      <element xmi:type="uml:Model" href="SmartHomeSystem.uml#_DEgyoJdlEemqIo5GlFw_bQ"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_DEj18ZdlEemqIo5GlFw_bQ" x="30" y="35" width="431"/>
+    </children>
+    <children xmi:type="notation:Shape" xmi:id="_FQ7m4JdlEemqIo5GlFw_bQ" type="Model_Shape">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_5s10cJdrEemqIo5GlFw_bQ" source="PapyrusHyperLink_Page" references="_Oh_BsJdIEemtoeMPVDH0LA">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_5s10cZdrEemqIo5GlFw_bQ" key="tooltip_text" value="High-level organisation description of the SHS Product Definition model."/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_5s10cpdrEemqIo5GlFw_bQ" key="pageName" value="High-level organisation description of the SHS Product Definition model."/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_5s10c5drEemqIo5GlFw_bQ" key="is_default_navigation" value="true"/>
+      </eAnnotations>
+      <children xmi:type="notation:DecorationNode" xmi:id="_FQ7m4pdlEemqIo5GlFw_bQ" type="Model_NameLabel"/>
+      <children xmi:type="notation:BasicCompartment" xmi:id="_FQ7m45dlEemqIo5GlFw_bQ" type="Model_PackagedElementCompartment">
+        <styles xmi:type="notation:TitleStyle" xmi:id="_FQ7m5JdlEemqIo5GlFw_bQ"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_FQ7m5ZdlEemqIo5GlFw_bQ"/>
+      </children>
+      <element xmi:type="uml:Model" href="SmartHomeSystem.uml#_FQ5xsJdlEemqIo5GlFw_bQ"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_FQ7m4ZdlEemqIo5GlFw_bQ" x="30" y="230" width="434"/>
+    </children>
+    <children xmi:type="notation:Shape" xmi:id="_ZWGTcJdnEemqIo5GlFw_bQ" type="Comment_Shape">
+      <children xmi:type="notation:DecorationNode" xmi:id="_ZWGTcpdnEemqIo5GlFw_bQ" type="Comment_BodyLabel"/>
+      <element xmi:type="uml:Comment" href="SmartHomeSystem.uml#_9FrKwJdmEemqIo5GlFw_bQ"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_ZWGTcZdnEemqIo5GlFw_bQ" x="530" y="75" width="306"/>
+    </children>
+    <children xmi:type="notation:Shape" xmi:id="_CXmh8JdoEemqIo5GlFw_bQ" type="Comment_Shape">
+      <children xmi:type="notation:DecorationNode" xmi:id="_CXmh8pdoEemqIo5GlFw_bQ" type="Comment_BodyLabel"/>
+      <element xmi:type="uml:Comment" href="SmartHomeSystem.uml#_6xtuoJdnEemqIo5GlFw_bQ"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_CXmh8ZdoEemqIo5GlFw_bQ" x="530" y="270" width="306"/>
+    </children>
+    <styles xmi:type="notation:StringValueStyle" xmi:id="_CtkSQZdlEemqIo5GlFw_bQ" name="diagram_compatibility_version" stringValue="1.4.0"/>
+    <styles xmi:type="notation:DiagramStyle" xmi:id="_CtkSQpdlEemqIo5GlFw_bQ"/>
+    <styles xmi:type="style_1:PapyrusDiagramStyle" xmi:id="_CtkSQ5dlEemqIo5GlFw_bQ" diagramKindId="org.eclipse.papyrus.sysml14.diagram.package">
+      <owner xmi:type="uml:Model" href="SmartHomeSystem.uml#_Q7ZNACRxEeCaCLd1YXNfIQ"/>
+    </styles>
+    <element xmi:type="uml:Model" href="SmartHomeSystem.uml#_Q7ZNACRxEeCaCLd1YXNfIQ"/>
+    <edges xmi:type="notation:Connector" xmi:id="_dKCUkJdmEemqIo5GlFw_bQ" type="Dependency_Edge" source="_DEj18JdlEemqIo5GlFw_bQ" target="_FQ7m4JdlEemqIo5GlFw_bQ">
+      <children xmi:type="notation:DecorationNode" xmi:id="_dKCUk5dmEemqIo5GlFw_bQ" type="Dependency_NameLabel">
+        <styles xmi:type="notation:BooleanValueStyle" xmi:id="_trc4cJdmEemqIo5GlFw_bQ" name="IS_UPDATED_POSITION" booleanValue="true"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_dKCUlJdmEemqIo5GlFw_bQ" x="-3" y="-101"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_dKCUlZdmEemqIo5GlFw_bQ" type="Dependency_StereotypeLabel">
+        <styles xmi:type="notation:BooleanValueStyle" xmi:id="_tretoJdmEemqIo5GlFw_bQ" name="IS_UPDATED_POSITION" booleanValue="true"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_dKCUlpdmEemqIo5GlFw_bQ" y="60"/>
+      </children>
+      <styles xmi:type="notation:FontStyle" xmi:id="_dKCUkZdmEemqIo5GlFw_bQ"/>
+      <element xmi:type="uml:Dependency" href="SmartHomeSystem.uml#_dJ-DIJdmEemqIo5GlFw_bQ"/>
+      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_dKCUkpdmEemqIo5GlFw_bQ" points="[295, 135, -643984, -643984]$[295, 267, -643984, -643984]"/>
+      <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_dKJpUJdmEemqIo5GlFw_bQ" id="(0.23201856148491878,1.0)"/>
+      <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_dKJpUZdmEemqIo5GlFw_bQ" id="(0.23271889400921658,0.0)"/>
+    </edges>
+    <edges xmi:type="notation:Connector" xmi:id="_wmYGkJdoEemqIo5GlFw_bQ" type="Comment_AnnotatedElementEdge" source="_ZWGTcJdnEemqIo5GlFw_bQ" target="_DEj18JdlEemqIo5GlFw_bQ">
+      <styles xmi:type="notation:FontStyle" xmi:id="_wmYGkZdoEemqIo5GlFw_bQ"/>
+      <element xsi:nil="true"/>
+      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_wmYGkpdoEemqIo5GlFw_bQ"/>
+      <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_wm3OwJdoEemqIo5GlFw_bQ" id="(0.0,0.5)"/>
+      <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_wm3OwZdoEemqIo5GlFw_bQ" id="(1.0,0.7)"/>
+    </edges>
+    <edges xmi:type="notation:Connector" xmi:id="_OnEoIJdrEemqIo5GlFw_bQ" type="Comment_AnnotatedElementEdge" source="_CXmh8JdoEemqIo5GlFw_bQ" target="_FQ7m4JdlEemqIo5GlFw_bQ">
+      <styles xmi:type="notation:FontStyle" xmi:id="_OnEoIZdrEemqIo5GlFw_bQ"/>
+      <element xsi:nil="true"/>
+      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_OnEoIpdrEemqIo5GlFw_bQ"/>
+      <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_OnbNcJdrEemqIo5GlFw_bQ" id="(0.0,0.5)"/>
+      <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_Onb0gJdrEemqIo5GlFw_bQ" id="(1.0,0.7)"/>
+    </edges>
+  </notation:Diagram>
+  <notation:Diagram xmi:id="_0MysQJdrEemqIo5GlFw_bQ" type="PapyrusUMLClassDiagram" name="High-level organisation description of the SHS Project Management Definition model." measurementUnit="Pixel">
+    <styles xmi:type="notation:StringValueStyle" xmi:id="_0MysQZdrEemqIo5GlFw_bQ" name="diagram_compatibility_version" stringValue="1.4.0"/>
+    <styles xmi:type="notation:DiagramStyle" xmi:id="_0MysQpdrEemqIo5GlFw_bQ"/>
+    <styles xmi:type="style_1:PapyrusDiagramStyle" xmi:id="_0MysQ5drEemqIo5GlFw_bQ" diagramKindId="org.eclipse.papyrus.sysml14.diagram.package">
+      <owner xmi:type="uml:Model" href="SmartHomeSystem.uml#_DEgyoJdlEemqIo5GlFw_bQ"/>
+    </styles>
+    <element xmi:type="uml:Model" href="SmartHomeSystem.uml#_DEgyoJdlEemqIo5GlFw_bQ"/>
+  </notation:Diagram>
+  <notation:Diagram xmi:id="_8VApMJduEemqIo5GlFw_bQ" type="PapyrusUMLClassDiagram" name="NewSysML1.4BlockDefinitionDiagram" measurementUnit="Pixel">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="Imported_From_SysML_1.4_Of__8VApMJduEemqIo5GlFw_bQ" source="Imported_From_SysML_1.4">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="Papyrus_Source_Model_Name_Of_Imported_From_SysML_1.4_Of__8VApMJduEemqIo5GlFw_bQ" key="Papyrus_Source_Model_Name" value="SmartHomeSystem_converted"/>
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="Papyrus_SysML_Migration_Date_Of_Imported_From_SysML_1.4_Of__8VApMJduEemqIo5GlFw_bQ" key="Papyrus_SysML_Migration_Date" value="20190626094410"/>
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="Papyrus_SysML_Migration_Bundle_Version_Of_Imported_From_SysML_1.4_Of__8VApMJduEemqIo5GlFw_bQ" key="Papyrus_SysML_Migration_Bundle_Version" value="0.7.0.qualifier"/>
+    </eAnnotations>
+    <children xmi:type="notation:Shape" xmi:id="_KC25QJdvEemqIo5GlFw_bQ" type="InformationItem_Shape">
+      <children xmi:type="notation:DecorationNode" xmi:id="_KC3gUJdvEemqIo5GlFw_bQ" type="InformationItem_NameLabel"/>
+      <children xmi:type="notation:DecorationNode" xmi:id="_KC3gUZdvEemqIo5GlFw_bQ" type="InformationItem_FloatingNameLabel">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_KC3gUpdvEemqIo5GlFw_bQ" y="15"/>
+      </children>
+      <element xmi:type="uml:InformationItem" href="SmartHomeSystem.uml#_JkKyIJdvEemqIo5GlFw_bQ"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_KC25QZdvEemqIo5GlFw_bQ" x="160" y="255" width="131" height="106"/>
+    </children>
+    <children xmi:type="notation:Shape" xmi:id="_OCIyQJdvEemqIo5GlFw_bQ" type="InformationItem_Shape">
+      <children xmi:type="notation:DecorationNode" xmi:id="_OCIyQpdvEemqIo5GlFw_bQ" type="InformationItem_NameLabel"/>
+      <children xmi:type="notation:DecorationNode" xmi:id="_OCIyQ5dvEemqIo5GlFw_bQ" type="InformationItem_FloatingNameLabel">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_OCIyRJdvEemqIo5GlFw_bQ" y="15"/>
+      </children>
+      <element xmi:type="uml:InformationItem" href="SmartHomeSystem.uml#_NOzQ0JdvEemqIo5GlFw_bQ"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_OCIyQZdvEemqIo5GlFw_bQ" x="595" y="250" width="156" height="101"/>
+    </children>
+    <children xmi:type="notation:Shape" xmi:id="_oODTQJd0EemqIo5GlFw_bQ" type="Class_Shape">
+      <children xmi:type="notation:DecorationNode" xmi:id="_oOFvgJd0EemqIo5GlFw_bQ" type="Class_NameLabel"/>
+      <children xmi:type="notation:DecorationNode" xmi:id="_oOFvgZd0EemqIo5GlFw_bQ" type="Class_FloatingNameLabel">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_oOGWkJd0EemqIo5GlFw_bQ" y="5"/>
+      </children>
+      <children xmi:type="notation:BasicCompartment" xmi:id="_oOGWkZd0EemqIo5GlFw_bQ" type="Class_AttributeCompartment">
+        <styles xmi:type="notation:TitleStyle" xmi:id="_oOGWkpd0EemqIo5GlFw_bQ"/>
+        <styles xmi:type="notation:SortingStyle" xmi:id="_oOGWk5d0EemqIo5GlFw_bQ"/>
+        <styles xmi:type="notation:FilteringStyle" xmi:id="_oOGWlJd0EemqIo5GlFw_bQ"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_oOGWlZd0EemqIo5GlFw_bQ"/>
+      </children>
+      <children xmi:type="notation:BasicCompartment" xmi:id="_oOG9oJd0EemqIo5GlFw_bQ" type="Class_OperationCompartment">
+        <styles xmi:type="notation:TitleStyle" xmi:id="_oOG9oZd0EemqIo5GlFw_bQ"/>
+        <styles xmi:type="notation:SortingStyle" xmi:id="_oOG9opd0EemqIo5GlFw_bQ"/>
+        <styles xmi:type="notation:FilteringStyle" xmi:id="_oOG9o5d0EemqIo5GlFw_bQ"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_oOG9pJd0EemqIo5GlFw_bQ"/>
+      </children>
+      <children xmi:type="notation:BasicCompartment" xmi:id="_oOG9pZd0EemqIo5GlFw_bQ" type="Class_NestedClassifierCompartment">
+        <styles xmi:type="notation:TitleStyle" xmi:id="_oOG9ppd0EemqIo5GlFw_bQ"/>
+        <styles xmi:type="notation:SortingStyle" xmi:id="_oOG9p5d0EemqIo5GlFw_bQ"/>
+        <styles xmi:type="notation:FilteringStyle" xmi:id="_oOG9qJd0EemqIo5GlFw_bQ"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_oOG9qZd0EemqIo5GlFw_bQ"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_oOMdMJd0EemqIo5GlFw_bQ" type="StereotypeLabel">
+        <styles xmi:type="notation:StringValueStyle" xmi:id="_oOMdMZd0EemqIo5GlFw_bQ" name="stereotype" stringValue="SysML::Blocks::Block"/>
+        <element xmi:type="uml:Stereotype" href="pathmap://SysML14_PROFILES/SysML.profile.uml#SysML.package_packagedElement_Blocks.stereotype_packagedElement_Block"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_oOMdMpd0EemqIo5GlFw_bQ"/>
+      </children>
+      <children xmi:type="notation:BasicCompartment" xmi:id="_oOMdM5d0EemqIo5GlFw_bQ" type="StereotypeBrace">
+        <styles xmi:type="notation:TitleStyle" xmi:id="_oOMdNJd0EemqIo5GlFw_bQ"/>
+        <styles xmi:type="notation:StringValueStyle" xmi:id="_oOMdNZd0EemqIo5GlFw_bQ" name="stereotype" stringValue="SysML::Blocks::Block"/>
+        <element xmi:type="uml:Stereotype" href="pathmap://SysML14_PROFILES/SysML.profile.uml#SysML.package_packagedElement_Blocks.stereotype_packagedElement_Block"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_oOMdNpd0EemqIo5GlFw_bQ"/>
+      </children>
+      <children xmi:type="notation:Compartment" xmi:id="_oOQuoJd0EemqIo5GlFw_bQ" type="Flow Ports"/>
+      <children xmi:type="notation:Compartment" xmi:id="_oOR8wJd0EemqIo5GlFw_bQ" type="constraints"/>
+      <children xmi:type="notation:Compartment" xmi:id="_oOR8wZd0EemqIo5GlFw_bQ" type="Parts"/>
+      <children xmi:type="notation:Compartment" xmi:id="_oOR8wpd0EemqIo5GlFw_bQ" type="Proxy Ports"/>
+      <children xmi:type="notation:Compartment" xmi:id="_oOSj0Jd0EemqIo5GlFw_bQ" type="Full Ports"/>
+      <children xmi:type="notation:Compartment" xmi:id="_oOSj0Zd0EemqIo5GlFw_bQ" type="References"/>
+      <children xmi:type="notation:Compartment" xmi:id="_oOTK4Jd0EemqIo5GlFw_bQ" type="Flow Properties"/>
+      <children xmi:type="notation:Compartment" xmi:id="_oOTK4Zd0EemqIo5GlFw_bQ" type="Parameters"/>
+      <element xmi:type="uml:Class" href="SmartHomeSystem.uml#_oN0pwJd0EemqIo5GlFw_bQ"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_oODTQZd0EemqIo5GlFw_bQ" x="190" y="430" width="136" height="141"/>
+    </children>
+    <children xmi:type="notation:Shape" xmi:id="_oOTx8Jd0EemqIo5GlFw_bQ" type="StereotypeComment">
+      <styles xmi:type="notation:TitleStyle" xmi:id="_oOTx8Zd0EemqIo5GlFw_bQ"/>
+      <styles xmi:type="notation:EObjectValueStyle" xmi:id="_oOTx85d0EemqIo5GlFw_bQ" name="BASE_ELEMENT">
+        <eObjectValue xmi:type="uml:Class" href="SmartHomeSystem.uml#_oN0pwJd0EemqIo5GlFw_bQ"/>
+      </styles>
+      <element xsi:nil="true"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_oOTx8pd0EemqIo5GlFw_bQ" x="200"/>
+    </children>
+    <children xmi:type="notation:Shape" xmi:id="_oqy5oJd0EemqIo5GlFw_bQ" type="Class_Shape">
+      <children xmi:type="notation:DecorationNode" xmi:id="_oqy5opd0EemqIo5GlFw_bQ" type="Class_NameLabel"/>
+      <children xmi:type="notation:DecorationNode" xmi:id="_oqy5o5d0EemqIo5GlFw_bQ" type="Class_FloatingNameLabel">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_oqy5pJd0EemqIo5GlFw_bQ" y="5"/>
+      </children>
+      <children xmi:type="notation:BasicCompartment" xmi:id="_oqy5pZd0EemqIo5GlFw_bQ" type="Class_AttributeCompartment">
+        <styles xmi:type="notation:TitleStyle" xmi:id="_oqy5ppd0EemqIo5GlFw_bQ"/>
+        <styles xmi:type="notation:SortingStyle" xmi:id="_oqy5p5d0EemqIo5GlFw_bQ"/>
+        <styles xmi:type="notation:FilteringStyle" xmi:id="_oqy5qJd0EemqIo5GlFw_bQ"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_oqy5qZd0EemqIo5GlFw_bQ"/>
+      </children>
+      <children xmi:type="notation:BasicCompartment" xmi:id="_oqy5qpd0EemqIo5GlFw_bQ" type="Class_OperationCompartment">
+        <styles xmi:type="notation:TitleStyle" xmi:id="_oqy5q5d0EemqIo5GlFw_bQ"/>
+        <styles xmi:type="notation:SortingStyle" xmi:id="_oqy5rJd0EemqIo5GlFw_bQ"/>
+        <styles xmi:type="notation:FilteringStyle" xmi:id="_oqy5rZd0EemqIo5GlFw_bQ"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_oqy5rpd0EemqIo5GlFw_bQ"/>
+      </children>
+      <children xmi:type="notation:BasicCompartment" xmi:id="_oqy5r5d0EemqIo5GlFw_bQ" type="Class_NestedClassifierCompartment">
+        <styles xmi:type="notation:TitleStyle" xmi:id="_oqy5sJd0EemqIo5GlFw_bQ"/>
+        <styles xmi:type="notation:SortingStyle" xmi:id="_oqy5sZd0EemqIo5GlFw_bQ"/>
+        <styles xmi:type="notation:FilteringStyle" xmi:id="_oqy5spd0EemqIo5GlFw_bQ"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_oqy5s5d0EemqIo5GlFw_bQ"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_oq3yIJd0EemqIo5GlFw_bQ" type="StereotypeLabel">
+        <styles xmi:type="notation:StringValueStyle" xmi:id="_oq3yIZd0EemqIo5GlFw_bQ" name="stereotype" stringValue="SysML::Blocks::Block"/>
+        <element xmi:type="uml:Stereotype" href="pathmap://SysML14_PROFILES/SysML.profile.uml#SysML.package_packagedElement_Blocks.stereotype_packagedElement_Block"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_oq3yIpd0EemqIo5GlFw_bQ"/>
+      </children>
+      <children xmi:type="notation:BasicCompartment" xmi:id="_oq3yI5d0EemqIo5GlFw_bQ" type="StereotypeBrace">
+        <styles xmi:type="notation:TitleStyle" xmi:id="_oq3yJJd0EemqIo5GlFw_bQ"/>
+        <styles xmi:type="notation:StringValueStyle" xmi:id="_oq3yJZd0EemqIo5GlFw_bQ" name="stereotype" stringValue="SysML::Blocks::Block"/>
+        <element xmi:type="uml:Stereotype" href="pathmap://SysML14_PROFILES/SysML.profile.uml#SysML.package_packagedElement_Blocks.stereotype_packagedElement_Block"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_oq3yJpd0EemqIo5GlFw_bQ"/>
+      </children>
+      <children xmi:type="notation:Compartment" xmi:id="_oq4ZMpd0EemqIo5GlFw_bQ" type="Flow Ports"/>
+      <children xmi:type="notation:Compartment" xmi:id="_oq4ZM5d0EemqIo5GlFw_bQ" type="constraints"/>
+      <children xmi:type="notation:Compartment" xmi:id="_oq5AQJd0EemqIo5GlFw_bQ" type="Parts"/>
+      <children xmi:type="notation:Compartment" xmi:id="_oq5AQZd0EemqIo5GlFw_bQ" type="Proxy Ports"/>
+      <children xmi:type="notation:Compartment" xmi:id="_oq5AQpd0EemqIo5GlFw_bQ" type="Full Ports"/>
+      <children xmi:type="notation:Compartment" xmi:id="_oq5AQ5d0EemqIo5GlFw_bQ" type="References"/>
+      <children xmi:type="notation:Compartment" xmi:id="_oq5ARJd0EemqIo5GlFw_bQ" type="Flow Properties"/>
+      <children xmi:type="notation:Compartment" xmi:id="_oq5nUJd0EemqIo5GlFw_bQ" type="Parameters"/>
+      <element xmi:type="uml:Class" href="SmartHomeSystem.uml#_oqtaEJd0EemqIo5GlFw_bQ"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_oqy5oZd0EemqIo5GlFw_bQ" x="665" y="410" width="151" height="176"/>
+    </children>
+    <children xmi:type="notation:Shape" xmi:id="_oq6OY5d0EemqIo5GlFw_bQ" type="StereotypeComment">
+      <styles xmi:type="notation:TitleStyle" xmi:id="_oq6OZJd0EemqIo5GlFw_bQ"/>
+      <styles xmi:type="notation:EObjectValueStyle" xmi:id="_oq6OZpd0EemqIo5GlFw_bQ" name="BASE_ELEMENT">
+        <eObjectValue xmi:type="uml:Class" href="SmartHomeSystem.uml#_oqtaEJd0EemqIo5GlFw_bQ"/>
+      </styles>
+      <element xsi:nil="true"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_oq6OZZd0EemqIo5GlFw_bQ" x="200"/>
+    </children>
+    <children xmi:type="notation:Shape" xmi:id="_s3xQYJd0EemqIo5GlFw_bQ" type="StereotypeComment">
+      <styles xmi:type="notation:TitleStyle" xmi:id="_s3xQYZd0EemqIo5GlFw_bQ"/>
+      <styles xmi:type="notation:EObjectValueStyle" xmi:id="_s3xQY5d0EemqIo5GlFw_bQ" name="BASE_ELEMENT">
+        <eObjectValue xmi:type="uml:InformationFlow" href="SmartHomeSystem.uml#_s3duYJd0EemqIo5GlFw_bQ"/>
+      </styles>
+      <element xsi:nil="true"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_s3xQYpd0EemqIo5GlFw_bQ" x="390" y="330"/>
+    </children>
+    <styles xmi:type="notation:StringValueStyle" xmi:id="_8VApMZduEemqIo5GlFw_bQ" name="diagram_compatibility_version" stringValue="1.4.0"/>
+    <styles xmi:type="notation:DiagramStyle" xmi:id="_8VApMpduEemqIo5GlFw_bQ"/>
+    <styles xmi:type="style_1:PapyrusDiagramStyle" xmi:id="_8VApM5duEemqIo5GlFw_bQ" diagramKindId="org.eclipse.papyrus.sysml16.diagram.blockdefinition">
+      <owner xmi:type="uml:Model" href="SmartHomeSystem.uml#_j5KicE3oEeO5W83O6raoHw"/>
+    </styles>
+    <element xmi:type="uml:Model" href="SmartHomeSystem.uml#_j5KicE3oEeO5W83O6raoHw"/>
+    <edges xmi:type="notation:Connector" xmi:id="_oOTx9Jd0EemqIo5GlFw_bQ" type="StereotypeCommentLink" source="_oODTQJd0EemqIo5GlFw_bQ" target="_oOTx8Jd0EemqIo5GlFw_bQ">
+      <styles xmi:type="notation:FontStyle" xmi:id="_oOTx9Zd0EemqIo5GlFw_bQ"/>
+      <styles xmi:type="notation:EObjectValueStyle" xmi:id="_oOUZAJd0EemqIo5GlFw_bQ" name="BASE_ELEMENT">
+        <eObjectValue xmi:type="uml:Class" href="SmartHomeSystem.uml#_oN0pwJd0EemqIo5GlFw_bQ"/>
+      </styles>
+      <element xsi:nil="true"/>
+      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_oOTx9pd0EemqIo5GlFw_bQ" points="[0, 0, 0, 0]$[0, 0, 0, 0]"/>
+      <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_oOTx95d0EemqIo5GlFw_bQ"/>
+      <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_oOTx-Jd0EemqIo5GlFw_bQ"/>
+    </edges>
+    <edges xmi:type="notation:Connector" xmi:id="_oq6OZ5d0EemqIo5GlFw_bQ" type="StereotypeCommentLink" source="_oqy5oJd0EemqIo5GlFw_bQ" target="_oq6OY5d0EemqIo5GlFw_bQ">
+      <styles xmi:type="notation:FontStyle" xmi:id="_oq6OaJd0EemqIo5GlFw_bQ"/>
+      <styles xmi:type="notation:EObjectValueStyle" xmi:id="_oq6ObJd0EemqIo5GlFw_bQ" name="BASE_ELEMENT">
+        <eObjectValue xmi:type="uml:Class" href="SmartHomeSystem.uml#_oqtaEJd0EemqIo5GlFw_bQ"/>
+      </styles>
+      <element xsi:nil="true"/>
+      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_oq6OaZd0EemqIo5GlFw_bQ" points="[0, 0, 0, 0]$[0, 0, 0, 0]"/>
+      <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_oq6Oapd0EemqIo5GlFw_bQ"/>
+      <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_oq6Oa5d0EemqIo5GlFw_bQ"/>
+    </edges>
+    <edges xmi:type="notation:Connector" xmi:id="_s3jN8Jd0EemqIo5GlFw_bQ" type="InformationFlow_Edge" source="_oODTQJd0EemqIo5GlFw_bQ" target="_oqy5oJd0EemqIo5GlFw_bQ">
+      <children xmi:type="notation:DecorationNode" xmi:id="_s3jN85d0EemqIo5GlFw_bQ" type="InformationFlow_ConveyedLabel">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_s3jN9Jd0EemqIo5GlFw_bQ" y="30"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_s3jN9Zd0EemqIo5GlFw_bQ" type="InformationFlow_StereotypeLabel">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_s3jN9pd0EemqIo5GlFw_bQ" y="15"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_s3j1AJd0EemqIo5GlFw_bQ" type="InformationFlow_NameLabel">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_s3j1AZd0EemqIo5GlFw_bQ" y="40"/>
+      </children>
+      <styles xmi:type="notation:FontStyle" xmi:id="_s3jN8Zd0EemqIo5GlFw_bQ"/>
+      <element xmi:type="uml:InformationFlow" href="SmartHomeSystem.uml#_s3duYJd0EemqIo5GlFw_bQ"/>
+      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_s3jN8pd0EemqIo5GlFw_bQ" points="[326, 495, -643984, -643984]$[665, 490, -643984, -643984]"/>
+      <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_s4N8UJd0EemqIo5GlFw_bQ" id="(1.0,0.46099290780141844)"/>
+      <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_s4N8UZd0EemqIo5GlFw_bQ" id="(0.0,0.45454545454545453)"/>
+    </edges>
+    <edges xmi:type="notation:Connector" xmi:id="_s3xQZJd0EemqIo5GlFw_bQ" type="StereotypeCommentLink" source="_s3jN8Jd0EemqIo5GlFw_bQ" target="_s3xQYJd0EemqIo5GlFw_bQ">
+      <styles xmi:type="notation:FontStyle" xmi:id="_s3xQZZd0EemqIo5GlFw_bQ"/>
+      <styles xmi:type="notation:EObjectValueStyle" xmi:id="_s3xQaZd0EemqIo5GlFw_bQ" name="BASE_ELEMENT">
+        <eObjectValue xmi:type="uml:InformationFlow" href="SmartHomeSystem.uml#_s3duYJd0EemqIo5GlFw_bQ"/>
+      </styles>
+      <element xsi:nil="true"/>
+      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_s3xQZpd0EemqIo5GlFw_bQ" points="[0, 0, 0, 0]$[0, 0, 0, 0]"/>
+      <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_s3xQZ5d0EemqIo5GlFw_bQ"/>
+      <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_s3xQaJd0EemqIo5GlFw_bQ"/>
+    </edges>
+  </notation:Diagram>
+  <notation:Diagram xmi:id="_nM8mIJd1EemqIo5GlFw_bQ" type="CompositeStructure" name="NewSysML1.4InternalBlockDiagram" measurementUnit="Pixel">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="Imported_From_SysML_1.4_Of__nM8mIJd1EemqIo5GlFw_bQ" source="Imported_From_SysML_1.4">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="Papyrus_Source_Model_Name_Of_Imported_From_SysML_1.4_Of__nM8mIJd1EemqIo5GlFw_bQ" key="Papyrus_Source_Model_Name" value="SmartHomeSystem_converted"/>
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="Papyrus_SysML_Migration_Date_Of_Imported_From_SysML_1.4_Of__nM8mIJd1EemqIo5GlFw_bQ" key="Papyrus_SysML_Migration_Date" value="20190626094410"/>
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="Papyrus_SysML_Migration_Bundle_Version_Of_Imported_From_SysML_1.4_Of__nM8mIJd1EemqIo5GlFw_bQ" key="Papyrus_SysML_Migration_Bundle_Version" value="0.7.0.qualifier"/>
+    </eAnnotations>
+    <children xmi:type="notation:Shape" xmi:id="_nM90QJd1EemqIo5GlFw_bQ" type="Class_Shape">
+      <children xmi:type="notation:DecorationNode" xmi:id="_nM90Qpd1EemqIo5GlFw_bQ" type="Class_NameLabel"/>
+      <children xmi:type="notation:DecorationNode" xmi:id="_nM90Q5d1EemqIo5GlFw_bQ" type="Class_FloatingNameLabel">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_nM90RJd1EemqIo5GlFw_bQ" y="15"/>
+      </children>
+      <children xmi:type="notation:BasicCompartment" xmi:id="_nM90RZd1EemqIo5GlFw_bQ" type="Class_StructureCompartment">
+        <styles xmi:type="notation:TitleStyle" xmi:id="_nM90Rpd1EemqIo5GlFw_bQ"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_nM90R5d1EemqIo5GlFw_bQ"/>
+      </children>
+      <element xmi:type="uml:Class" href="SmartHomeSystem.uml#_m-J8MJd1EemqIo5GlFw_bQ"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_nM90QZd1EemqIo5GlFw_bQ" x="40" y="40" width="500" height="250"/>
+    </children>
+    <children xmi:type="notation:Shape" xmi:id="_nPCQ05d1EemqIo5GlFw_bQ" type="StereotypeComment">
+      <styles xmi:type="notation:TitleStyle" xmi:id="_nPCQ1Jd1EemqIo5GlFw_bQ"/>
+      <styles xmi:type="notation:EObjectValueStyle" xmi:id="_nPC34Jd1EemqIo5GlFw_bQ" name="BASE_ELEMENT">
+        <eObjectValue xmi:type="uml:Class" href="SmartHomeSystem.uml#_m-J8MJd1EemqIo5GlFw_bQ"/>
+      </styles>
+      <element xsi:nil="true"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_nPCQ1Zd1EemqIo5GlFw_bQ" x="240" y="40"/>
+    </children>
+    <styles xmi:type="notation:StringValueStyle" xmi:id="_nM8mIZd1EemqIo5GlFw_bQ" name="diagram_compatibility_version" stringValue="1.4.0"/>
+    <styles xmi:type="notation:DiagramStyle" xmi:id="_nM8mIpd1EemqIo5GlFw_bQ"/>
+    <styles xmi:type="style_1:PapyrusDiagramStyle" xmi:id="_nM8mI5d1EemqIo5GlFw_bQ" diagramKindId="org.eclipse.papyrus.sysml16.diagram.internalblock">
+      <owner xmi:type="uml:Model" href="SmartHomeSystem.uml#_j5KicE3oEeO5W83O6raoHw"/>
+    </styles>
+    <element xmi:type="uml:Class" href="SmartHomeSystem.uml#_m-J8MJd1EemqIo5GlFw_bQ"/>
+    <edges xmi:type="notation:Connector" xmi:id="_nPC34Zd1EemqIo5GlFw_bQ" type="StereotypeCommentLink" source="_nM90QJd1EemqIo5GlFw_bQ" target="_nPCQ05d1EemqIo5GlFw_bQ">
+      <styles xmi:type="notation:FontStyle" xmi:id="_nPC34pd1EemqIo5GlFw_bQ"/>
+      <styles xmi:type="notation:EObjectValueStyle" xmi:id="_nPC35pd1EemqIo5GlFw_bQ" name="BASE_ELEMENT">
+        <eObjectValue xmi:type="uml:Class" href="SmartHomeSystem.uml#_m-J8MJd1EemqIo5GlFw_bQ"/>
+      </styles>
+      <element xsi:nil="true"/>
+      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_nPC345d1EemqIo5GlFw_bQ" points="[0, 0, 0, 0]$[0, 0, 0, 0]"/>
+      <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_nPC35Jd1EemqIo5GlFw_bQ"/>
+      <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_nPC35Zd1EemqIo5GlFw_bQ"/>
     </edges>
   </notation:Diagram>
 </xmi:XMI>
