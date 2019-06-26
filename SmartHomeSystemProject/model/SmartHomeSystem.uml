@@ -41,8 +41,27 @@ PS: Glossary of the project is defined within the model {@link #_yt5KoFHQEeORnr7
 </body>
       </ownedComment>
       <packagedElement xmi:type="uml:Dependency" xmi:id="_dJ-DIJdmEemqIo5GlFw_bQ" name="ProjectStakeHolderResponssability" client="_DEgyoJdlEemqIo5GlFw_bQ" supplier="_FQ5xsJdlEemqIo5GlFw_bQ"/>
-      <packagedElement xmi:type="uml:Package" xmi:id="_0sBHMJghEemfOpj3-Spopg" name="SHS Project Stateholder">
+      <packagedElement xmi:type="uml:Package" xmi:id="_0sBHMJghEemfOpj3-Spopg" name="SHS Project Stateholders">
         <packageImport xmi:type="uml:PackageImport" xmi:id="_p7XZUJgnEemfOpj3-Spopg" importedPackage="_YF3z4FkHEeO46MKyR1zbAg"/>
+        <packagedElement xmi:type="uml:Actor" xmi:id="_rBDkIJgpEemfOpj3-Spopg" name="SHS_Enviornment" isAbstract="true"/>
+        <packagedElement xmi:type="uml:Actor" xmi:id="_pxh18JgpEemfOpj3-Spopg" name="ProjectManager">
+          <generalization xmi:type="uml:Generalization" xmi:id="_fxF2UJgqEemfOpj3-Spopg" general="_rBDkIJgpEemfOpj3-Spopg"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Actor" xmi:id="_shJd4JgpEemfOpj3-Spopg" name="SHS End-Users">
+          <generalization xmi:type="uml:Generalization" xmi:id="__RglkJgpEemfOpj3-Spopg" general="_rBDkIJgpEemfOpj3-Spopg"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Actor" xmi:id="_zSl8gJgpEemfOpj3-Spopg" name="Internet">
+          <generalization xmi:type="uml:Generalization" xmi:id="_m5Ga0JgqEemfOpj3-Spopg" general="_rBDkIJgpEemfOpj3-Spopg"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Actor" xmi:id="_0Qu_wJgpEemfOpj3-Spopg" name="PoliceStation">
+          <generalization xmi:type="uml:Generalization" xmi:id="_hy25wJgqEemfOpj3-Spopg" general="_rBDkIJgpEemfOpj3-Spopg"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Actor" xmi:id="_2x-0gJgpEemfOpj3-Spopg" name="EnergyProvider">
+          <generalization xmi:type="uml:Generalization" xmi:id="_oD3k0JgqEemfOpj3-Spopg" general="_rBDkIJgpEemfOpj3-Spopg"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Actor" xmi:id="_67luMJgpEemfOpj3-Spopg" name="ElectronicDevice" isAbstract="true">
+          <generalization xmi:type="uml:Generalization" xmi:id="_o3y8IJgqEemfOpj3-Spopg" general="_rBDkIJgpEemfOpj3-Spopg"/>
+        </packagedElement>
       </packagedElement>
     </packagedElement>
     <packagedElement xmi:type="uml:Model" xmi:id="_FQ5xsJdlEemqIo5GlFw_bQ" name="SHS Product Definition">
