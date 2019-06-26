@@ -13,12 +13,6 @@ Step #2 - Investigate model {@link #_j5KicE3oEeO5W83O6raoHw} (double click on it
 Step #3 - Investigate model {@link #_OXE1ICR8EeCaCLd1YXNfIQ} (double click on it to start)&#xD;
 PS: Glossary of the project is defined within the model {@link #_yt5KoFHQEeORnr76KmtUgw} (double click on it to see the details)</body>
     </ownedComment>
-    <ownedComment xmi:type="uml:Comment" xmi:id="_prRyIJdnEemqIo5GlFw_bQ">
-      <body>&lt;p>dfgdfgddddddddddddddddddddddddddddddddddd&amp;nbsp; fghfghfg&lt;/p>
-
-&lt;p>&amp;nbsp;&lt;/p>
-</body>
-    </ownedComment>
     <packageImport xmi:type="uml:PackageImport" xmi:id="packageImport_Of__0">
       <importedPackage xmi:type="uml:Model" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#_0"/>
     </packageImport>
@@ -26,7 +20,7 @@ PS: Glossary of the project is defined within the model {@link #_yt5KoFHQEeORnr7
       <importedPackage xmi:type="uml:Package" href="pathmap://SysML16_LIBRARIES/SysML-Standard-Library.uml#SysML.package_packagedElement_Libraries"/>
     </packageImport>
     <packagedElement xmi:type="uml:Artifact" xmi:id="_hO1LQG0pEeePr__vXKAk2g" name="SHS Specification" fileName=""/>
-    <packagedElement xmi:type="uml:Model" xmi:id="_yt5KoFHQEeORnr76KmtUgw" name="SHS Domain Glossary">
+    <packagedElement xmi:type="uml:Model" xmi:id="_yt5KoFHQEeORnr76KmtUgw" name="SHS Glossary">
       <ownedComment xmi:type="uml:Comment" xmi:id="_5nRjMHbxEeOJLbWaesGeMg" annotatedElement="_Q7ZNACRxEeCaCLd1YXNfIQ">
         <body>This model is glossary for the smart home knowledge domain. It consists of terms and their definition related to that knowledge domain.</body>
       </ownedComment>
@@ -47,6 +41,9 @@ PS: Glossary of the project is defined within the model {@link #_yt5KoFHQEeORnr7
 </body>
       </ownedComment>
       <packagedElement xmi:type="uml:Dependency" xmi:id="_dJ-DIJdmEemqIo5GlFw_bQ" name="ProjectStakeHolderResponssability" client="_DEgyoJdlEemqIo5GlFw_bQ" supplier="_FQ5xsJdlEemqIo5GlFw_bQ"/>
+      <packagedElement xmi:type="uml:Package" xmi:id="_0sBHMJghEemfOpj3-Spopg" name="SHS Project Stateholder">
+        <packageImport xmi:type="uml:PackageImport" xmi:id="_p7XZUJgnEemfOpj3-Spopg" importedPackage="_YF3z4FkHEeO46MKyR1zbAg"/>
+      </packagedElement>
     </packagedElement>
     <packagedElement xmi:type="uml:Model" xmi:id="_FQ5xsJdlEemqIo5GlFw_bQ" name="SHS Product Definition">
       <ownedComment xmi:type="uml:Comment" xmi:id="_6xtuoJdnEemqIo5GlFw_bQ" annotatedElement="_FQ5xsJdlEemqIo5GlFw_bQ">
@@ -55,20 +52,26 @@ PS: Glossary of the project is defined within the model {@link #_yt5KoFHQEeORnr7
       </ownedComment>
       <packagedElement xmi:type="uml:Model" xmi:id="_QcoJcJdIEemtoeMPVDH0LA" name="SHS_OperationalVision">
         <ownedComment xmi:type="uml:Comment" xmi:id="_GOF0sJdPEemtoeMPVDH0LA" annotatedElement="_QcoJcJdIEemtoeMPVDH0LA">
-          <body>&lt;p>The {@link #_QcoJcJdIEemtoeMPVDH0LA}&amp;nbsp;model is an absraction of the {@link #_Q7ZNACRxEeCaCLd1YXNfIQ}&amp;nbsp;designing to analysis the system as a&lt;font face=&quot;Calibri,Italic&quot; size=&quot;3&quot;>&lt;font face=&quot;Calibri,Italic&quot; size=&quot;3&quot;>&amp;nbsp;&lt;/font>&lt;/font>&lt;font face=&quot;Calibri&quot; size=&quot;3&quot;>&lt;font face=&quot;Calibri&quot; size=&quot;3&quot;>&amp;ldquo;&lt;/font>&lt;/font>&lt;font face=&quot;Calibri&quot; size=&quot;3&quot;>&lt;font face=&quot;Calibri&quot; size=&quot;3&quot;>black box&lt;/font>&lt;/font>&lt;font face=&quot;Calibri&quot; size=&quot;3&quot;>&lt;font face=&quot;Calibri&quot; size=&quot;3&quot;>&amp;rdquo;. &lt;/font>&lt;/font>&lt;/p>
+          <body>&lt;p>The {@link #_QcoJcJdIEemtoeMPVDH0LA}&amp;nbsp;model is an absraction of the {@link #_Q7ZNACRxEeCaCLd1YXNfIQ}&amp;nbsp;designed to analyze the system as a&amp;nbsp;&amp;ldquo;black box&amp;rdquo;.&lt;/p>
 
-&lt;p>&lt;font face=&quot;Calibri&quot; size=&quot;3&quot;>&lt;font face=&quot;Calibri&quot; size=&quot;3&quot;>The focus is on the &lt;font face=&quot;Calibri&quot; size=&quot;3&quot;>&lt;font face=&quot;Calibri&quot; size=&quot;3&quot;>interactions and the interfaces of system with its environment. Its core &lt;font face=&quot;Calibri&quot; size=&quot;3&quot;>&lt;font face=&quot;Calibri&quot; size=&quot;3&quot;>motivation is to understand the motivation &lt;/font>&lt;/font>&lt;font face=&quot;Calibri&quot; size=&quot;3&quot;>&lt;font face=&quot;Calibri&quot; size=&quot;3&quot;>&amp;ndash; that is to say the &amp;ldquo;Why&amp;rdquo; &amp;ndash; &lt;/font>&lt;/font>&lt;font face=&quot;Calibri&quot; size=&quot;3&quot;>&lt;font face=&quot;Calibri&quot; size=&quot;3&quot;>of the system.&lt;/font>&lt;/font>&lt;/font>&lt;/font>&lt;/font>&lt;/font>&lt;/p>
+&lt;p>The focus is hence on the interactions and the interfaces of the system with its environment. Its core intent is to understand the motivation &amp;ndash; that is to say the &amp;ldquo;Why&amp;rdquo; &amp;ndash; of the system.&lt;/p>
 </body>
         </ownedComment>
-        <packagedElement xmi:type="uml:Model" xmi:id="_8-PmsJdeEemqIo5GlFw_bQ" name="SHS Needs"/>
-        <packagedElement xmi:type="uml:Model" xmi:id="_j5KicE3oEeO5W83O6raoHw" name="SHS External Specification">
+        <packagedElement xmi:type="uml:Model" xmi:id="_8-PmsJdeEemqIo5GlFw_bQ" name="SHS Needs">
+          <ownedComment xmi:type="uml:Comment" xmi:id="_mac0IJgjEemfOpj3-Spopg" annotatedElement="_8-PmsJdeEemqIo5GlFw_bQ">
+            <body>&lt;p>The {@link #_8-PmsJdeEemqIo5GlFw_bQ} model gathers all information related the needs of the {@link #_Q7ZNACRxEeCaCLd1YXNfIQ}.&lt;/p>
+</body>
+          </ownedComment>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Model" xmi:id="_j5KicE3oEeO5W83O6raoHw" name="SHS Operational Description">
           <ownedComment xmi:type="uml:Comment" xmi:id="_9mrY4FFeEeOLhP-_UGopcg" annotatedElement="_j5KicE3oEeO5W83O6raoHw">
-            <body>This model refines partially the system requirements model abstracting its internal and providing a black-box view of the susyem.</body>
+            <body>&lt;p>The {@link #_j5KicE3oEeO5W83O6raoHw}&amp;nbsp;model gathers all information related operational description of the {@link #_Q7ZNACRxEeCaCLd1YXNfIQ}.&lt;/p>
+</body>
           </ownedComment>
           <packagedElement xmi:type="uml:Abstraction" xmi:id="_fUtqYE3pEeO5W83O6raoHw" name="FromReq2ExtSpec" client="_j5KicE3oEeO5W83O6raoHw" supplier="_o5WlgCRyEeCaCLd1YXNfIQ">
             <mapping xmi:type="uml:OpaqueExpression" xmi:id="_dBkGkE3qEeO5W83O6raoHw" name="FromReq2ExtSpec_MappingDescription" language="" body=""/>
           </packagedElement>
-          <packagedElement xmi:type="uml:Class" xmi:id="_aewdMFkPEeO46MKyR1zbAg" name="SystemContextDefinition">
+          <packagedElement xmi:type="uml:Class" xmi:id="_aewdMFkPEeO46MKyR1zbAg" name="SmartHomeSystemEnvironment">
             <ownedComment xmi:type="uml:Comment" xmi:id="_eDOjIFt4EeO46MKyR1zbAg" annotatedElement="_aewdMFkPEeO46MKyR1zbAg">
               <body>This composite structure gathers the Smart Home System system and all external actors inetracting with the system.&#xD;
 &#xD;
@@ -96,7 +99,57 @@ PS: Glossary of the project is defined within the model {@link #_yt5KoFHQEeORnr7
               <body>This model element (a structured class) abstracts the system under specification conforming a &quot;black-box&quot; point of view. It is said to be the subject of the use case diagram.</body>
             </ownedComment>
           </packagedElement>
-          <packagedElement xmi:type="uml:Package" xmi:id="_RDQ_oF3uEeGTC7jtR9befw" name="SHS Use Cases">
+          <packagedElement xmi:type="uml:Package" xmi:id="_YF3z4FkHEeO46MKyR1zbAg" name="SHS Product Stateholders">
+            <ownedComment xmi:type="uml:Comment" xmi:id="_Fka3wIdWEeeff6fdwmUAJA" annotatedElement="_YF3z4FkHEeO46MKyR1zbAg">
+              <body>This package gathers the defintion of stakeholders interacting with the system.</body>
+            </ownedComment>
+            <packagedElement xmi:type="uml:Actor" xmi:id="_o9C5QDiAEeGe4_sFLbM3Hw" name="Inhabitant">
+              <ownedComment xmi:type="uml:Comment" xmi:id="_TwNwUFkJEeO46MKyR1zbAg" annotatedElement="_o9C5QDiAEeGe4_sFLbM3Hw">
+                <body>This is an actor model element. It represents a type of role played by an entity that interacts with the system under consideraton, the so-called subject of the use case diagram.</body>
+              </ownedComment>
+            </packagedElement>
+            <packagedElement xmi:type="uml:Actor" xmi:id="_oBYiQDiAEeGe4_sFLbM3Hw" name="MedicalPeople">
+              <ownedComment xmi:type="uml:Comment" xmi:id="__XT88JcGEeeFsqoIYj-fTQ" annotatedElement="_oBYiQDiAEeGe4_sFLbM3Hw">
+                <body>The {@link #_oBYiQDiAEeGe4_sFLbM3Hw} actor designates the role consisting in providing medical assistance to the house Inhabitant (designated by the {@link #_o9C5QDiAEeGe4_sFLbM3Hw} acotr)</body>
+              </ownedComment>
+            </packagedElement>
+            <packagedElement xmi:type="uml:Association" xmi:id="_aZpX4FkIEeO46MKyR1zbAg" name="A_actor_1_usecase001_ofyoursystem" memberEnd="_aZpX4VkIEeO46MKyR1zbAg _aZpX5FkIEeO46MKyR1zbAg">
+              <ownedEnd xmi:type="uml:Property" xmi:id="_aZpX4VkIEeO46MKyR1zbAg" name="actor_1" type="_o9C5QDiAEeGe4_sFLbM3Hw" association="_aZpX4FkIEeO46MKyR1zbAg">
+                <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_aZpX4lkIEeO46MKyR1zbAg" value="1"/>
+                <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_aZpX41kIEeO46MKyR1zbAg" value="1"/>
+              </ownedEnd>
+              <ownedEnd xmi:type="uml:Property" xmi:id="_aZpX5FkIEeO46MKyR1zbAg" name="usecase001_ofyoursystem" type="_PwMs8FkIEeO46MKyR1zbAg" association="_aZpX4FkIEeO46MKyR1zbAg">
+                <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_aZpX5VkIEeO46MKyR1zbAg" value="1"/>
+                <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_aZpX5lkIEeO46MKyR1zbAg" value="1"/>
+              </ownedEnd>
+            </packagedElement>
+            <packagedElement xmi:type="uml:Association" xmi:id="_bIYtMFkIEeO46MKyR1zbAg" name="A_actor_1_usecase002_ofyoursystem" memberEnd="_bIYtMVkIEeO46MKyR1zbAg _bIYtNFkIEeO46MKyR1zbAg">
+              <ownedEnd xmi:type="uml:Property" xmi:id="_bIYtMVkIEeO46MKyR1zbAg" name="JMB" type="_o9C5QDiAEeGe4_sFLbM3Hw" association="_bIYtMFkIEeO46MKyR1zbAg">
+                <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_bIYtMlkIEeO46MKyR1zbAg" value="1"/>
+                <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_bIYtM1kIEeO46MKyR1zbAg" value="1"/>
+              </ownedEnd>
+              <ownedEnd xmi:type="uml:Property" xmi:id="_bIYtNFkIEeO46MKyR1zbAg" name="usecase002_ofyoursystem" type="_Pbm9AFkIEeO46MKyR1zbAg" association="_bIYtMFkIEeO46MKyR1zbAg">
+                <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_bIYtNVkIEeO46MKyR1zbAg" value="1"/>
+                <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_bIYtNlkIEeO46MKyR1zbAg" value="1"/>
+              </ownedEnd>
+            </packagedElement>
+            <packagedElement xmi:type="uml:Association" xmi:id="_b4tW4FkIEeO46MKyR1zbAg" name="A_usecase002_ofyoursystem_actor_2" memberEnd="_b4tW4VkIEeO46MKyR1zbAg _b4tW5FkIEeO46MKyR1zbAg">
+              <ownedEnd xmi:type="uml:Property" xmi:id="_b4tW4VkIEeO46MKyR1zbAg" name="usecase002_ofyoursystem" type="_Pbm9AFkIEeO46MKyR1zbAg" association="_b4tW4FkIEeO46MKyR1zbAg">
+                <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_b4tW4lkIEeO46MKyR1zbAg" value="1"/>
+                <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_b4tW41kIEeO46MKyR1zbAg" value="1"/>
+              </ownedEnd>
+              <ownedEnd xmi:type="uml:Property" xmi:id="_b4tW5FkIEeO46MKyR1zbAg" name="actor_2" type="_oBYiQDiAEeGe4_sFLbM3Hw" association="_b4tW4FkIEeO46MKyR1zbAg">
+                <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_b4tW5VkIEeO46MKyR1zbAg" value="1"/>
+                <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_b4tW5lkIEeO46MKyR1zbAg" value="1"/>
+              </ownedEnd>
+            </packagedElement>
+            <packagedElement xmi:type="uml:Actor" xmi:id="_Y98q0JcFEeeFsqoIYj-fTQ" name="SystemAdministrator">
+              <ownedComment xmi:type="uml:Comment" xmi:id="_hD_k4JcFEeeFsqoIYj-fTQ" annotatedElement="_Y98q0JcFEeeFsqoIYj-fTQ">
+                <body>The {@link #_Y98q0JcFEeeFsqoIYj-fTQ} actor designates the role consisting in administrating the information system of the {@link #_gCDnUFkHEeO46MKyR1zbAg}.</body>
+              </ownedComment>
+            </packagedElement>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Package" xmi:id="_RDQ_oF3uEeGTC7jtR9befw" name="SHS Missions">
             <ownedComment xmi:type="uml:Comment" xmi:id="_8HEzkIdVEeeff6fdwmUAJA" annotatedElement="_RDQ_oF3uEeGTC7jtR9befw">
               <body>This package gathers the description of all the system use cases.</body>
             </ownedComment>
@@ -254,56 +307,6 @@ N.B.: the comment may be hidden and shown as for example in a table gathering al
                 </ownedComment>
                 <ownedBehavior xmi:type="uml:Interaction" xmi:id="_mIk7224CEeeZtLaug2P7dA" name="Interaction001_UseCase002"/>
               </packagedElement>
-            </packagedElement>
-          </packagedElement>
-          <packagedElement xmi:type="uml:Package" xmi:id="_YF3z4FkHEeO46MKyR1zbAg" name="SHS Actors">
-            <ownedComment xmi:type="uml:Comment" xmi:id="_Fka3wIdWEeeff6fdwmUAJA" annotatedElement="_YF3z4FkHEeO46MKyR1zbAg">
-              <body>This package gathers the defintion of stakeholders interacting with the system.</body>
-            </ownedComment>
-            <packagedElement xmi:type="uml:Actor" xmi:id="_o9C5QDiAEeGe4_sFLbM3Hw" name="Inhabitant">
-              <ownedComment xmi:type="uml:Comment" xmi:id="_TwNwUFkJEeO46MKyR1zbAg" annotatedElement="_o9C5QDiAEeGe4_sFLbM3Hw">
-                <body>This is an actor model element. It represents a type of role played by an entity that interacts with the system under consideraton, the so-called subject of the use case diagram.</body>
-              </ownedComment>
-            </packagedElement>
-            <packagedElement xmi:type="uml:Actor" xmi:id="_oBYiQDiAEeGe4_sFLbM3Hw" name="MedicalPeople">
-              <ownedComment xmi:type="uml:Comment" xmi:id="__XT88JcGEeeFsqoIYj-fTQ" annotatedElement="_oBYiQDiAEeGe4_sFLbM3Hw">
-                <body>The {@link #_oBYiQDiAEeGe4_sFLbM3Hw} actor designates the role consisting in providing medical assistance to the house Inhabitant (designated by the {@link #_o9C5QDiAEeGe4_sFLbM3Hw} acotr)</body>
-              </ownedComment>
-            </packagedElement>
-            <packagedElement xmi:type="uml:Association" xmi:id="_aZpX4FkIEeO46MKyR1zbAg" name="A_actor_1_usecase001_ofyoursystem" memberEnd="_aZpX4VkIEeO46MKyR1zbAg _aZpX5FkIEeO46MKyR1zbAg">
-              <ownedEnd xmi:type="uml:Property" xmi:id="_aZpX4VkIEeO46MKyR1zbAg" name="actor_1" type="_o9C5QDiAEeGe4_sFLbM3Hw" association="_aZpX4FkIEeO46MKyR1zbAg">
-                <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_aZpX4lkIEeO46MKyR1zbAg" value="1"/>
-                <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_aZpX41kIEeO46MKyR1zbAg" value="1"/>
-              </ownedEnd>
-              <ownedEnd xmi:type="uml:Property" xmi:id="_aZpX5FkIEeO46MKyR1zbAg" name="usecase001_ofyoursystem" type="_PwMs8FkIEeO46MKyR1zbAg" association="_aZpX4FkIEeO46MKyR1zbAg">
-                <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_aZpX5VkIEeO46MKyR1zbAg" value="1"/>
-                <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_aZpX5lkIEeO46MKyR1zbAg" value="1"/>
-              </ownedEnd>
-            </packagedElement>
-            <packagedElement xmi:type="uml:Association" xmi:id="_bIYtMFkIEeO46MKyR1zbAg" name="A_actor_1_usecase002_ofyoursystem" memberEnd="_bIYtMVkIEeO46MKyR1zbAg _bIYtNFkIEeO46MKyR1zbAg">
-              <ownedEnd xmi:type="uml:Property" xmi:id="_bIYtMVkIEeO46MKyR1zbAg" name="JMB" type="_o9C5QDiAEeGe4_sFLbM3Hw" association="_bIYtMFkIEeO46MKyR1zbAg">
-                <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_bIYtMlkIEeO46MKyR1zbAg" value="1"/>
-                <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_bIYtM1kIEeO46MKyR1zbAg" value="1"/>
-              </ownedEnd>
-              <ownedEnd xmi:type="uml:Property" xmi:id="_bIYtNFkIEeO46MKyR1zbAg" name="usecase002_ofyoursystem" type="_Pbm9AFkIEeO46MKyR1zbAg" association="_bIYtMFkIEeO46MKyR1zbAg">
-                <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_bIYtNVkIEeO46MKyR1zbAg" value="1"/>
-                <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_bIYtNlkIEeO46MKyR1zbAg" value="1"/>
-              </ownedEnd>
-            </packagedElement>
-            <packagedElement xmi:type="uml:Association" xmi:id="_b4tW4FkIEeO46MKyR1zbAg" name="A_usecase002_ofyoursystem_actor_2" memberEnd="_b4tW4VkIEeO46MKyR1zbAg _b4tW5FkIEeO46MKyR1zbAg">
-              <ownedEnd xmi:type="uml:Property" xmi:id="_b4tW4VkIEeO46MKyR1zbAg" name="usecase002_ofyoursystem" type="_Pbm9AFkIEeO46MKyR1zbAg" association="_b4tW4FkIEeO46MKyR1zbAg">
-                <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_b4tW4lkIEeO46MKyR1zbAg" value="1"/>
-                <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_b4tW41kIEeO46MKyR1zbAg" value="1"/>
-              </ownedEnd>
-              <ownedEnd xmi:type="uml:Property" xmi:id="_b4tW5FkIEeO46MKyR1zbAg" name="actor_2" type="_oBYiQDiAEeGe4_sFLbM3Hw" association="_b4tW4FkIEeO46MKyR1zbAg">
-                <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_b4tW5VkIEeO46MKyR1zbAg" value="1"/>
-                <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_b4tW5lkIEeO46MKyR1zbAg" value="1"/>
-              </ownedEnd>
-            </packagedElement>
-            <packagedElement xmi:type="uml:Actor" xmi:id="_Y98q0JcFEeeFsqoIYj-fTQ" name="SystemAdministrator">
-              <ownedComment xmi:type="uml:Comment" xmi:id="_hD_k4JcFEeeFsqoIYj-fTQ" annotatedElement="_Y98q0JcFEeeFsqoIYj-fTQ">
-                <body>The {@link #_Y98q0JcFEeeFsqoIYj-fTQ} actor designates the role consisting in administrating the information system of the {@link #_gCDnUFkHEeO46MKyR1zbAg}.</body>
-              </ownedComment>
             </packagedElement>
           </packagedElement>
           <packagedElement xmi:type="uml:Abstraction" xmi:id="_iw0rAH9kEeOjPqz2xMsJPg" name="FromActor_1_to_actor_1" client="_3e9kcH9YEeOjPqz2xMsJPg" supplier="_o9C5QDiAEeGe4_sFLbM3Hw"/>
