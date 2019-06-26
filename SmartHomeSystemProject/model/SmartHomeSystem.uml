@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<xmi:XMI xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:Blocks="http://www.eclipse.org/papyrus/sysml/1.6/SysML/Blocks" xmlns:GlossaryML="http:///schemas/GlossaryML/_3BXu0MrREee8B9kRSNhRUg/42" xmlns:PortsAndFlows="http://www.eclipse.org/papyrus/sysml/1.6/SysML/PortsAndFlows" xmlns:Requirements="http://www.eclipse.org/papyrus/sysml/1.6/SysML/Requirements" xmlns:Symbols="http://PapyrusInternal/schemas/Symbols/_eij2kEBcEeKj6r7ThQagKA/2" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:standard="http://www.eclipse.org/uml2/5.0.0/UML/Profile/Standard" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xsi:schemaLocation="http://www.eclipse.org/papyrus/sysml/1.6/SysML/Blocks http://www.eclipse.org/papyrus/sysml/1.6/SysML#//blocks http:///schemas/GlossaryML/_3BXu0MrREee8B9kRSNhRUg/42 ../../dsml/AboutGlossary/GlossaryML.profile.uml#_3Bd1cMrREee8B9kRSNhRUg http://www.eclipse.org/papyrus/sysml/1.6/SysML/PortsAndFlows http://www.eclipse.org/papyrus/sysml/1.6/SysML#//portsandflows http://www.eclipse.org/papyrus/sysml/1.6/SysML/Requirements http://www.eclipse.org/papyrus/sysml/1.6/SysML#//requirements http://PapyrusInternal/schemas/Symbols/_eij2kEBcEeKj6r7ThQagKA/2 pathmap://PAPYRUS_INTERNAL_PROFILES/PapyrusInternal.profile.uml#_eikdoEBcEeKj6r7ThQagKA">
+<xmi:XMI xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:Blocks="http://www.eclipse.org/papyrus/sysml/1.6/SysML/Blocks" xmlns:GlossaryML="http:///schemas/GlossaryML/_3BXu0MrREee8B9kRSNhRUg/42" xmlns:ModelElements="http://www.eclipse.org/papyrus/sysml/1.6/SysML/ModelElements" xmlns:PortsAndFlows="http://www.eclipse.org/papyrus/sysml/1.6/SysML/PortsAndFlows" xmlns:Requirements="http://www.eclipse.org/papyrus/sysml/1.6/SysML/Requirements" xmlns:Symbols="http://PapyrusInternal/schemas/Symbols/_eij2kEBcEeKj6r7ThQagKA/2" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:standard="http://www.eclipse.org/uml2/5.0.0/UML/Profile/Standard" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xsi:schemaLocation="http://www.eclipse.org/papyrus/sysml/1.6/SysML/Blocks http://www.eclipse.org/papyrus/sysml/1.6/SysML#//blocks http:///schemas/GlossaryML/_3BXu0MrREee8B9kRSNhRUg/42 ../../dsml/AboutGlossary/GlossaryML.profile.uml#_3Bd1cMrREee8B9kRSNhRUg http://www.eclipse.org/papyrus/sysml/1.6/SysML/ModelElements http://www.eclipse.org/papyrus/sysml/1.6/SysML#//modelelements http://www.eclipse.org/papyrus/sysml/1.6/SysML/PortsAndFlows http://www.eclipse.org/papyrus/sysml/1.6/SysML#//portsandflows http://www.eclipse.org/papyrus/sysml/1.6/SysML/Requirements http://www.eclipse.org/papyrus/sysml/1.6/SysML#//requirements http://PapyrusInternal/schemas/Symbols/_eij2kEBcEeKj6r7ThQagKA/2 pathmap://PAPYRUS_INTERNAL_PROFILES/PapyrusInternal.profile.uml#_eikdoEBcEeKj6r7ThQagKA">
   <uml:Model xmi:id="_Q7ZNACRxEeCaCLd1YXNfIQ" name="SmartHomeSystemProject">
     <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="Imported_From_SysML_14_Of__Q7ZNACRxEeCaCLd1YXNfIQ" source="Imported_From_SysML_1.4">
       <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="Papyrus_Source_Model_Name_Of__Q7ZNACRxEeCaCLd1YXNfIQ" key="Papyrus_Source_Model_Name" value="SmartHomeSystem"/>
@@ -81,7 +81,6 @@ PS: Glossary of the project is defined within the model {@link #_yt5KoFHQEeORnr7
 </body>
             </ownedComment>
           </packagedElement>
-          <packagedElement xmi:type="uml:InformationFlow" xmi:id="_YzNU0JhDEemfOpj3-Spopg" name="House&amp;InhabitantStateInformation" informationSource="_Fv6DAJhDEemfOpj3-Spopg" informationTarget="_gCDnUFkHEeO46MKyR1zbAg"/>
         </packagedElement>
         <packagedElement xmi:type="uml:Package" xmi:id="_H0VAkJg9EemfOpj3-Spopg" name="KeyOutputSystems">
           <packagedElement xmi:type="uml:Actor" xmi:id="_67luMJgpEemfOpj3-Spopg" name="ElectronicDevice" isAbstract="true">
@@ -117,7 +116,6 @@ PS: Glossary of the project is defined within the model {@link #_yt5KoFHQEeORnr7
             </ownedComment>
             <generalization xmi:type="uml:Generalization" xmi:id="__RglkJgpEemfOpj3-Spopg" general="_rBDkIJgpEemfOpj3-Spopg"/>
           </packagedElement>
-          <packagedElement xmi:type="uml:InformationFlow" xmi:id="_HZnTIJhAEemfOpj3-Spopg" name="HealthAssistance" informationSource="_oBYiQDiAEeGe4_sFLbM3Hw" informationTarget="_gCDnUFkHEeO46MKyR1zbAg"/>
         </packagedElement>
         <packagedElement xmi:type="uml:Package" xmi:id="_H7cVMJg9EemfOpj3-Spopg" name="KeyResourceSystems">
           <packagedElement xmi:type="uml:Actor" xmi:id="_pxh18JgpEemfOpj3-Spopg" name="ProjectManager">
@@ -158,7 +156,12 @@ PS: Glossary of the project is defined within the model {@link #_yt5KoFHQEeORnr7
         </packagedElement>
       </packagedElement>
       <packagedElement xmi:type="uml:Package" xmi:id="_QD8YQJg7EemfOpj3-Spopg" name="Systeem&lt;->Env Flows Definitions">
-        <packagedElement xmi:type="uml:InformationFlow" xmi:id="_lfb7YJg5EemfOpj3-Spopg" name="ServiceRequests" informationSource="_o9C5QDiAEeGe4_sFLbM3Hw" informationTarget="_gCDnUFkHEeO46MKyR1zbAg"/>
+        <packagedElement xmi:type="uml:InformationFlow" xmi:id="_lfb7YJg5EemfOpj3-Spopg" name="ServiceRequests" informationSource="_o9C5QDiAEeGe4_sFLbM3Hw" informationTarget="_gCDnUFkHEeO46MKyR1zbAg">
+          <ownedComment xmi:type="uml:Comment" xmi:id="_svP6kJhFEemfOpj3-Spopg">
+            <body>&lt;p>Model the assistance request sent by the inhabitant to the .&lt;/p>
+</body>
+          </ownedComment>
+        </packagedElement>
         <packagedElement xmi:type="uml:InformationFlow" xmi:id="_EKroEJg3EemfOpj3-Spopg" name="Design Decision" informationSource="_pxh18JgpEemfOpj3-Spopg" informationTarget="_gCDnUFkHEeO46MKyR1zbAg"/>
         <packagedElement xmi:type="uml:InformationFlow" xmi:id="_1qyvsJg5EemfOpj3-Spopg" name="InhabitantSecurityAssistance" informationSource="_0Qu_wJgpEemfOpj3-Spopg" informationTarget="_gCDnUFkHEeO46MKyR1zbAg"/>
         <packagedElement xmi:type="uml:InformationFlow" xmi:id="_cCuwYJg5EemfOpj3-Spopg" name="ProvidedServices" informationSource="_gCDnUFkHEeO46MKyR1zbAg" informationTarget="_o9C5QDiAEeGe4_sFLbM3Hw"/>
@@ -169,6 +172,8 @@ PS: Glossary of the project is defined within the model {@link #_yt5KoFHQEeORnr7
         <packagedElement xmi:type="uml:InformationFlow" xmi:id="_yz_oEJhBEemfOpj3-Spopg" name="InsuranceContract" informationSource="_MoXagJhBEemfOpj3-Spopg" informationTarget="_gCDnUFkHEeO46MKyR1zbAg"/>
         <packagedElement xmi:type="uml:InformationFlow" xmi:id="_CKG2cJhCEemfOpj3-Spopg" name="EnvRegulationSpec" informationSource="_OxDlUJhBEemfOpj3-Spopg" informationTarget="_gCDnUFkHEeO46MKyR1zbAg"/>
         <packagedElement xmi:type="uml:InformationFlow" xmi:id="_FnrJgJhCEemfOpj3-Spopg" name="HealthRegulationSpec" informationSource="_Sl4h0JhBEemfOpj3-Spopg" informationTarget="_gCDnUFkHEeO46MKyR1zbAg"/>
+        <packagedElement xmi:type="uml:InformationFlow" xmi:id="_HZnTIJhAEemfOpj3-Spopg" name="HealthAssistance" informationSource="_oBYiQDiAEeGe4_sFLbM3Hw" informationTarget="_gCDnUFkHEeO46MKyR1zbAg"/>
+        <packagedElement xmi:type="uml:InformationFlow" xmi:id="_YzNU0JhDEemfOpj3-Spopg" name="House&amp;InhabitantStateInformation" informationSource="_Fv6DAJhDEemfOpj3-Spopg" informationTarget="_gCDnUFkHEeO46MKyR1zbAg"/>
       </packagedElement>
     </packagedElement>
     <packagedElement xmi:type="uml:Model" xmi:id="_FQ5xsJdlEemqIo5GlFw_bQ" name="SHS Product Definition">
@@ -677,4 +682,17 @@ Interactions refining the use cases of the system are graphically denoted using 
   <PortsAndFlows:ItemFlow xmi:id="_CKKg0JhCEemfOpj3-Spopg" base_InformationFlow="_CKG2cJhCEemfOpj3-Spopg"/>
   <PortsAndFlows:ItemFlow xmi:id="_Fnuz4JhCEemfOpj3-Spopg" base_InformationFlow="_FnrJgJhCEemfOpj3-Spopg"/>
   <PortsAndFlows:ItemFlow xmi:id="_YzRmQJhDEemfOpj3-Spopg" base_InformationFlow="_YzNU0JhDEemfOpj3-Spopg"/>
+  <ModelElements:Stakeholder xmi:id="_MXhv4JhGEemfOpj3-Spopg" base_Classifier="_rBDkIJgpEemfOpj3-Spopg"/>
+  <ModelElements:Stakeholder xmi:id="_d9N0MJhGEemfOpj3-Spopg" base_Classifier="_pxh18JgpEemfOpj3-Spopg"/>
+  <ModelElements:Stakeholder xmi:id="_iUmEIJhGEemfOpj3-Spopg" base_Classifier="_o9C5QDiAEeGe4_sFLbM3Hw"/>
+  <ModelElements:Stakeholder xmi:id="_lHQZAJhGEemfOpj3-Spopg" base_Classifier="_zSl8gJgpEemfOpj3-Spopg"/>
+  <ModelElements:Stakeholder xmi:id="_l3uzsJhGEemfOpj3-Spopg" base_Classifier="_0Qu_wJgpEemfOpj3-Spopg"/>
+  <ModelElements:Stakeholder xmi:id="_nY_LEJhGEemfOpj3-Spopg" base_Classifier="_oBYiQDiAEeGe4_sFLbM3Hw"/>
+  <ModelElements:Stakeholder xmi:id="_onWboJhGEemfOpj3-Spopg" base_Classifier="_2x-0gJgpEemfOpj3-Spopg"/>
+  <ModelElements:Stakeholder xmi:id="_poBOcJhGEemfOpj3-Spopg" base_Classifier="_67luMJgpEemfOpj3-Spopg"/>
+  <ModelElements:Stakeholder xmi:id="_6oP_0JhHEemfOpj3-Spopg" base_Classifier="_MoXagJhBEemfOpj3-Spopg"/>
+  <ModelElements:Stakeholder xmi:id="_8BuUMJhHEemfOpj3-Spopg" base_Classifier="_OxDlUJhBEemfOpj3-Spopg"/>
+  <ModelElements:Stakeholder xmi:id="_9BnD4JhHEemfOpj3-Spopg" base_Classifier="_Sl4h0JhBEemfOpj3-Spopg"/>
+  <ModelElements:Stakeholder xmi:id="_A-kBoJhIEemfOpj3-Spopg" base_Classifier="_2SUlkJhAEemfOpj3-Spopg"/>
+  <ModelElements:Stakeholder xmi:id="_BsTRYJhIEemfOpj3-Spopg" base_Classifier="_Fv6DAJhDEemfOpj3-Spopg"/>
 </xmi:XMI>
