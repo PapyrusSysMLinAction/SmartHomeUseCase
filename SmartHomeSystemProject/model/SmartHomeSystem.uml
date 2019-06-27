@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<xmi:XMI xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:GlossaryML="http:///schemas/GlossaryML/_3BXu0MrREee8B9kRSNhRUg/42" xmlns:Symbols="http://PapyrusInternal/schemas/Symbols/_eij2kEBcEeKj6r7ThQagKA/2" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xsi:schemaLocation="http:///schemas/GlossaryML/_3BXu0MrREee8B9kRSNhRUg/42 ../../dsml/AboutGlossary/GlossaryML.profile.uml#_3Bd1cMrREee8B9kRSNhRUg http://PapyrusInternal/schemas/Symbols/_eij2kEBcEeKj6r7ThQagKA/2 pathmap://PAPYRUS_INTERNAL_PROFILES/PapyrusInternal.profile.uml#_eikdoEBcEeKj6r7ThQagKA">
+<xmi:XMI xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:GlossaryML="http:///schemas/GlossaryML/_3BXu0MrREee8B9kRSNhRUg/42" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xsi:schemaLocation="http:///schemas/GlossaryML/_3BXu0MrREee8B9kRSNhRUg/42 ../../dsml/AboutGlossary/GlossaryML.profile.uml#_3Bd1cMrREee8B9kRSNhRUg">
   <uml:Model xmi:id="_Q7ZNACRxEeCaCLd1YXNfIQ" name="SmartHomeSystemProject">
     <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="Imported_From_SysML_14_Of__Q7ZNACRxEeCaCLd1YXNfIQ" source="Imported_From_SysML_1.4">
       <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="Papyrus_Source_Model_Name_Of__Q7ZNACRxEeCaCLd1YXNfIQ" key="Papyrus_Source_Model_Name" value="SmartHomeSystem"/>
@@ -19,8 +19,7 @@ PS: Glossary of the project is defined within the model {@link #_yt5KoFHQEeORnr7
     <packageImport xmi:type="uml:PackageImport" xmi:id="packageImport_Of_SysML.package_packagedElement_Libraries">
       <importedPackage xmi:type="uml:Package" href="pathmap://SysML16_LIBRARIES/SysML-Standard-Library.uml#SysML.package_packagedElement_Libraries"/>
     </packageImport>
-    <packagedElement xmi:type="uml:Artifact" xmi:id="_hO1LQG0pEeePr__vXKAk2g" name="SHS Specification" fileName=""/>
-    <packagedElement xmi:type="uml:Model" xmi:id="_yt5KoFHQEeORnr76KmtUgw" name="SHS Glossary">
+    <packagedElement xmi:type="uml:Model" xmi:id="_yt5KoFHQEeORnr76KmtUgw" name="SHS_Glossary">
       <ownedComment xmi:type="uml:Comment" xmi:id="_5nRjMHbxEeOJLbWaesGeMg" annotatedElement="_Q7ZNACRxEeCaCLd1YXNfIQ">
         <body>This model is glossary for the smart home knowledge domain. It consists of terms and their definition related to that knowledge domain.</body>
       </ownedComment>
@@ -130,9 +129,14 @@ PS: Glossary of the project is defined within the model {@link #_yt5KoFHQEeORnr7
       </eAnnotations>
       <appliedProfile xmi:type="uml:Profile" href="pathmap://SysML16_PROFILES/SysML.profile.uml#SysML.package_packagedElement_Requirements"/>
     </profileApplication>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_hPJakJjsEemiJJjEotXc9w">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_hPMd4JjsEemiJJjEotXc9w" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="pathmap://PAPYRUS_ACTIONLANGUAGE_PROFILE/ActionLanguage-Profile.profile.uml#_Kv8EIKFXEeS_KNX0nfvIVQ"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="pathmap://PAPYRUS_ACTIONLANGUAGE_PROFILE/ActionLanguage-Profile.profile.uml#ActionLanguage"/>
+    </profileApplication>
   </uml:Model>
   <GlossaryML:Glossary xmi:id="_Ogf6UG0dEeePr__vXKAk2g" base_Model="_yt5KoFHQEeORnr76KmtUgw"/>
   <GlossaryML:Term xmi:id="_QGPJEG0dEeePr__vXKAk2g" base_Class="_GVomQFHREeORnr76KmtUgw"/>
-  <Symbols:TypeSymbolDefinition xmi:id="_AWJzIG0rEeePr__vXKAk2g" base_Type="_hO1LQG0pEeePr__vXKAk2g" symbolPath="platform:/resource/SmartHomeUseCase/SmartHomeSystemProject/model/symbols/ReadMore.png"/>
   <GlossaryML:Term xmi:id="_9_04AImREeeY8oHcVhoGvw" base_Class="_9giWUIdUEeeff6fdwmUAJA"/>
 </xmi:XMI>

@@ -93,6 +93,53 @@
         <supplier xmi:type="uml:Model" href="SHS_FunctionalVision.uml#_o5WlgCRyEeCaCLd1YXNfIQ"/>
         <mapping xmi:type="uml:OpaqueExpression" xmi:id="_dBkGkE3qEeO5W83O6raoHw" name="FromReq2ExtSpec_MappingDescription" language="" body=""/>
       </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_sU7uIJjqEemiJJjEotXc9w" name="SmartHomeSystemEnvironment">
+        <ownedComment xmi:type="uml:Comment" xmi:id="_sU7uIZjqEemiJJjEotXc9w" annotatedElement="_sU7uIJjqEemiJJjEotXc9w">
+          <body>This composite structure gathers the Smart Home System system and all external actors inetracting with the system.&#xD;
+&#xD;
+</body>
+        </ownedComment>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_o3J_sJjqEemiJJjEotXc9w" name="SmartHomeSystem" classifierBehavior="_Ma2-MJjqEemiJJjEotXc9w">
+        <ownedComment xmi:type="uml:Comment" xmi:id="_o3J_sZjqEemiJJjEotXc9w" annotatedElement="_o3J_sJjqEemiJJjEotXc9w">
+          <body>This model element (a structured class) abstracts the system under specification conforming a &quot;black-box&quot; point of view. It is said to be the subject of the use case diagram.</body>
+        </ownedComment>
+        <ownedBehavior xmi:type="uml:StateMachine" xmi:id="_Ma2-MJjqEemiJJjEotXc9w" name="SHS_OperationalContexts">
+          <region xmi:type="uml:Region" xmi:id="_TRdpoJjqEemiJJjEotXc9w" name="Region1">
+            <transition xmi:type="uml:Transition" xmi:id="_aMrdYJjsEemiJJjEotXc9w" source="_34td4JjrEemiJJjEotXc9w" target="_71_LwJjrEemiJJjEotXc9w"/>
+            <transition xmi:type="uml:Transition" xmi:id="_ckfCQJjsEemiJJjEotXc9w" name="acquisition" source="_71_LwJjrEemiJJjEotXc9w" target="_AWvaIJjsEemiJJjEotXc9w"/>
+            <transition xmi:type="uml:Transition" xmi:id="_mvdogJjsEemiJJjEotXc9w" name="criticalDamaged" source="_AWvaIJjsEemiJJjEotXc9w" target="_UPnCAJjsEemiJJjEotXc9w"/>
+            <transition xmi:type="uml:Transition" xmi:id="_neG3MJjsEemiJJjEotXc9w" name="fixed" source="_UPnCAJjsEemiJJjEotXc9w" target="_AWvaIJjsEemiJJjEotXc9w"/>
+            <transition xmi:type="uml:Transition" xmi:id="_p_G0UJjsEemiJJjEotXc9w" name="recyclingDecision" source="_AWvaIJjsEemiJJjEotXc9w" target="_O5cOkJjsEemiJJjEotXc9w"/>
+            <transition xmi:type="uml:Transition" xmi:id="_ulTjYJjsEemiJJjEotXc9w" name="destruction" source="_O5cOkJjsEemiJJjEotXc9w" target="_KJBzkJjsEemiJJjEotXc9w"/>
+            <transition xmi:type="uml:Transition" xmi:id="_wzB_MJjsEemiJJjEotXc9w" name="destruction" source="_AWvaIJjsEemiJJjEotXc9w" target="_KJBzkJjsEemiJJjEotXc9w"/>
+            <transition xmi:type="uml:Transition" xmi:id="_zvBPMJjsEemiJJjEotXc9w" name="notFixable" source="_UPnCAJjsEemiJJjEotXc9w" target="_O5cOkJjsEemiJJjEotXc9w"/>
+            <subvertex xmi:type="uml:Pseudostate" xmi:id="_34td4JjrEemiJJjEotXc9w" name="ProjectKickOff"/>
+            <subvertex xmi:type="uml:State" xmi:id="_71_LwJjrEemiJJjEotXc9w" name="Construction"/>
+            <subvertex xmi:type="uml:State" xmi:id="_AWvaIJjsEemiJJjEotXc9w" name="Owned">
+              <region xmi:type="uml:Region" xmi:id="_0k9_wJjsEemiJJjEotXc9w" name="Region1">
+                <transition xmi:type="uml:Transition" xmi:id="_4aJhkJjsEemiJJjEotXc9w" source="_3xQVkJjsEemiJJjEotXc9w" target="_0lAcAJjsEemiJJjEotXc9w"/>
+                <transition xmi:type="uml:Transition" xmi:id="_TUsccJjtEemiJJjEotXc9w" name="damaged" source="_0lAcAJjsEemiJJjEotXc9w" target="_9XdJEJjsEemiJJjEotXc9w"/>
+                <transition xmi:type="uml:Transition" xmi:id="_UEGgIJjtEemiJJjEotXc9w" name="fixed" source="_9XdJEJjsEemiJJjEotXc9w" target="_0lAcAJjsEemiJJjEotXc9w"/>
+                <transition xmi:type="uml:Transition" xmi:id="_kwjPUJjtEemiJJjEotXc9w" name="gettingOut" source="_0lAcAJjsEemiJJjEotXc9w" target="_bwx38JjtEemiJJjEotXc9w"/>
+                <transition xmi:type="uml:Transition" xmi:id="_lficQJjtEemiJJjEotXc9w" name="gettingIn" source="_bwx38JjtEemiJJjEotXc9w" target="_0lAcAJjsEemiJJjEotXc9w"/>
+                <subvertex xmi:type="uml:State" xmi:id="_0lAcAJjsEemiJJjEotXc9w" name="Occupied"/>
+                <subvertex xmi:type="uml:Pseudostate" xmi:id="_3xQVkJjsEemiJJjEotXc9w" name="InitialOccupation"/>
+                <subvertex xmi:type="uml:State" xmi:id="_9XdJEJjsEemiJJjEotXc9w" name="SoftReparation"/>
+                <subvertex xmi:type="uml:State" xmi:id="_bwx38JjtEemiJJjEotXc9w" name="UnOccupied"/>
+              </region>
+              <region xmi:type="uml:Region" xmi:id="_DHP9cJjtEemiJJjEotXc9w" name="Region2">
+                <transition xmi:type="uml:Transition" xmi:id="_RRrb0JjtEemiJJjEotXc9w" source="_OiFpEJjtEemiJJjEotXc9w" target="_MjSaEJjtEemiJJjEotXc9w"/>
+                <subvertex xmi:type="uml:State" xmi:id="_MjSaEJjtEemiJJjEotXc9w" name="Communicating"/>
+                <subvertex xmi:type="uml:Pseudostate" xmi:id="_OiFpEJjtEemiJJjEotXc9w" name="InitialCommunication"/>
+              </region>
+            </subvertex>
+            <subvertex xmi:type="uml:FinalState" xmi:id="_KJBzkJjsEemiJJjEotXc9w" name="Destroyed"/>
+            <subvertex xmi:type="uml:State" xmi:id="_O5cOkJjsEemiJJjEotXc9w" name="Recycling"/>
+            <subvertex xmi:type="uml:State" xmi:id="_UPnCAJjsEemiJJjEotXc9w" name="MajorReparation"/>
+          </region>
+        </ownedBehavior>
+      </packagedElement>
       <packagedElement xmi:type="uml:Package" xmi:id="_RDQ_oF3uEeGTC7jtR9befw" name="SHS_Missions">
         <ownedComment xmi:type="uml:Comment" xmi:id="_8HEzkIdVEeeff6fdwmUAJA" annotatedElement="_RDQ_oF3uEeGTC7jtR9befw">
           <body>This package gathers the description of all the system use cases.</body>
@@ -672,4 +719,6 @@ N.B.: the comment may be hidden and shown as for example in a table gathering al
   <Requirements:Requirement xmi:id="_YFXegJjfEemiJJjEotXc9w" base_NamedElement="_YFSmAJjfEemiJJjEotXc9w" base_Class="_YFSmAJjfEemiJJjEotXc9w"/>
   <Requirements:Requirement xmi:id="_aZ67EJjfEemiJJjEotXc9w" base_NamedElement="_aZ2poJjfEemiJJjEotXc9w" base_Class="_aZ2poJjfEemiJJjEotXc9w"/>
   <Requirements:Requirement xmi:id="_H0uFEJjgEemiJJjEotXc9w" base_NamedElement="_H0pMkJjgEemiJJjEotXc9w" base_Class="_H0pMkJjgEemiJJjEotXc9w"/>
+  <Blocks:Block xmi:id="_x45tAJjqEemiJJjEotXc9w" base_Class="_sU7uIJjqEemiJJjEotXc9w"/>
+  <Blocks:Block xmi:id="_yuDMUJjqEemiJJjEotXc9w" base_Class="_o3J_sJjqEemiJJjEotXc9w"/>
 </xmi:XMI>

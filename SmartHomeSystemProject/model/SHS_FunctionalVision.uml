@@ -64,9 +64,6 @@ This model is derived from a textual description of the SHS requirements as defi
         <packagedElement xmi:type="uml:Class" xmi:id="_lRY8gG3_EeeZtLaug2P7dA" name="AnnualConsumptionMgt"/>
         <packagedElement xmi:type="uml:Class" xmi:id="_mIEF0G3_EeeZtLaug2P7dA" name="SelfEnergyPriorityMgt"/>
       </packagedElement>
-      <packagedElement xmi:type="uml:Abstraction" xmi:id="_zQW3AG0pEeePr__vXKAk2g" name="FromTextSpec2SysMLReq" client="_o5WlgCRyEeCaCLd1YXNfIQ">
-        <supplier xmi:type="uml:Artifact" href="SmartHomeSystem.uml#_hO1LQG0pEeePr__vXKAk2g"/>
-      </packagedElement>
       <packagedElement xmi:type="uml:Package" xmi:id="_YvPwwHLEEeeGodGwr0LI7g" name="SHS Detailed Requirements">
         <packagedElement xmi:type="uml:Class" xmi:id="_6jpfYHLEEeeGodGwr0LI7g" name="ListOfPeople"/>
       </packagedElement>
@@ -236,7 +233,6 @@ This model is derived from a textual description of the SHS requirements as defi
   <Requirements:Requirement xmi:id="_khRHIG3_EeeZtLaug2P7dA" id="SHS_ECO_010" text="The system must save energy." base_Class="_khHWIG3_EeeZtLaug2P7dA"/>
   <Requirements:Requirement xmi:id="_lRlJwG3_EeeZtLaug2P7dA" id="SHS_ECO_020" text="The system  musre ensure that annual consumption must be less than local regulations." base_Class="_lRY8gG3_EeeZtLaug2P7dA"/>
   <Requirements:Requirement xmi:id="_mIEF0W3_EeeZtLaug2P7dA" id="SH_ECO_030" text="The system must prioritize self-produced energy." base_Class="_mIEF0G3_EeeZtLaug2P7dA"/>
-  <standard:Refine xmi:id="_7iUtMG0pEeePr__vXKAk2g" base_Abstraction="_zQW3AG0pEeePr__vXKAk2g"/>
   <Requirements:Requirement xmi:id="_6jyCQHLEEeeGodGwr0LI7g" id="SH_DET_001" text="The system must have access to a list of authorized people with their level of access." base_Class="_6jpfYHLEEeeGodGwr0LI7g"/>
   <standard:Refine xmi:id="_WzYVgG0oEeePr__vXKAk2g" base_Abstraction="_wM9Z4E3pEeO5W83O6raoHw"/>
 </xmi:XMI>
