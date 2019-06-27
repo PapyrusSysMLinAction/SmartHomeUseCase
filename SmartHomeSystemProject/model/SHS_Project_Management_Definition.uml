@@ -71,40 +71,19 @@
     <packagedElement xmi:type="uml:Package" xmi:id="_0sBHMJghEemfOpj3-Spopg" name="SHS_ProjectStateholders">
       <packagedElement xmi:type="uml:Actor" xmi:id="_rBDkIJgpEemfOpj3-Spopg" name="SHS_Environment" isAbstract="true"/>
       <packagedElement xmi:type="uml:Package" xmi:id="_HpwvUJg9EemfOpj3-Spopg" name="KeyInputSystems">
-        <packagedElement xmi:type="uml:Actor" xmi:id="_2SUlkJhAEemfOpj3-Spopg" name="Pharmacy">
-          <ownedComment xmi:type="uml:Comment" xmi:id="_5xAS8JhAEemfOpj3-Spopg">
-            <body>&lt;p>Pharmacy&lt;/p>
-</body>
-          </ownedComment>
-        </packagedElement>
-        <packagedElement xmi:type="uml:Actor" xmi:id="_Fv6DAJhDEemfOpj3-Spopg" name="SensorDeivce">
-          <ownedComment xmi:type="uml:Comment" xmi:id="_Fv6DAZhDEemfOpj3-Spopg">
-            <body>&lt;p>SensorDevice&lt;/p>
-</body>
-          </ownedComment>
-        </packagedElement>
+        <packagedElement xmi:type="uml:Actor" xmi:id="_2SUlkJhAEemfOpj3-Spopg" name="Pharmacy"/>
+        <packagedElement xmi:type="uml:Actor" xmi:id="_Fv6DAJhDEemfOpj3-Spopg" name="SensorDeivce"/>
       </packagedElement>
       <packagedElement xmi:type="uml:Package" xmi:id="_H0VAkJg9EemfOpj3-Spopg" name="KeyOutputSystems">
         <packagedElement xmi:type="uml:Actor" xmi:id="_67luMJgpEemfOpj3-Spopg" name="ElectronicDevice" isAbstract="true">
-          <ownedComment xmi:type="uml:Comment" xmi:id="_xrAV0Jg4EemfOpj3-Spopg">
-            <body>ActuactorDevice</body>
-          </ownedComment>
           <generalization xmi:type="uml:Generalization" xmi:id="_o3y8IJgqEemfOpj3-Spopg" general="_rBDkIJgpEemfOpj3-Spopg"/>
         </packagedElement>
         <packagedElement xmi:type="uml:Actor" xmi:id="_0Qu_wJgpEemfOpj3-Spopg" name="PoliceStation">
-          <ownedComment xmi:type="uml:Comment" xmi:id="_5LlAwJg3EemfOpj3-Spopg" annotatedElement="_DEgyoJdlEemqIo5GlFw_bQ">
-            <body>&lt;p>PoliceStation&lt;/p>
-</body>
-          </ownedComment>
           <generalization xmi:type="uml:Generalization" xmi:id="_hy25wJgqEemfOpj3-Spopg" general="_rBDkIJgpEemfOpj3-Spopg"/>
         </packagedElement>
         <packagedElement xmi:type="uml:Actor" xmi:id="_oBYiQDiAEeGe4_sFLbM3Hw" name="MedicalPeople">
           <ownedComment xmi:type="uml:Comment" xmi:id="__XT88JcGEeeFsqoIYj-fTQ" annotatedElement="_oBYiQDiAEeGe4_sFLbM3Hw">
             <body>The {@link #_oBYiQDiAEeGe4_sFLbM3Hw} actor designates the role consisting in providing medical assistance to the house Inhabitant (designated by the {@link #_o9C5QDiAEeGe4_sFLbM3Hw} acotr)</body>
-          </ownedComment>
-          <ownedComment xmi:type="uml:Comment" xmi:id="_ux_90Jg3EemfOpj3-Spopg">
-            <body>&lt;p>MedicalPeople&lt;/p>
-</body>
           </ownedComment>
           <generalization xmi:type="uml:Generalization" xmi:id="_YiFKkJgtEemfOpj3-Spopg" general="_rBDkIJgpEemfOpj3-Spopg"/>
         </packagedElement>
@@ -112,54 +91,24 @@
           <ownedComment xmi:type="uml:Comment" xmi:id="_TwNwUFkJEeO46MKyR1zbAg" annotatedElement="_o9C5QDiAEeGe4_sFLbM3Hw">
             <body>This is an actor model element. It represents a type of role played by an entity that interacts with the system under consideraton, the so-called subject of the use case diagram.</body>
           </ownedComment>
-          <ownedComment xmi:type="uml:Comment" xmi:id="_nx4KAJg3EemfOpj3-Spopg" annotatedElement="_DEgyoJdlEemqIo5GlFw_bQ">
-            <body>&lt;p>Inhabitant&lt;/p>
-</body>
-          </ownedComment>
           <generalization xmi:type="uml:Generalization" xmi:id="__RglkJgpEemfOpj3-Spopg" general="_rBDkIJgpEemfOpj3-Spopg"/>
         </packagedElement>
       </packagedElement>
       <packagedElement xmi:type="uml:Package" xmi:id="_H7cVMJg9EemfOpj3-Spopg" name="KeyResourceSystems">
         <packagedElement xmi:type="uml:Actor" xmi:id="_pxh18JgpEemfOpj3-Spopg" name="ProjectManager">
-          <ownedComment xmi:type="uml:Comment" xmi:id="_QEDCwJg3EemfOpj3-Spopg">
-            <body>&lt;p>ProjectManager&lt;/p>
-</body>
-          </ownedComment>
           <generalization xmi:type="uml:Generalization" xmi:id="_fxF2UJgqEemfOpj3-Spopg" general="_rBDkIJgpEemfOpj3-Spopg"/>
         </packagedElement>
         <packagedElement xmi:type="uml:Actor" xmi:id="_zSl8gJgpEemfOpj3-Spopg" name="Internet">
-          <ownedComment xmi:type="uml:Comment" xmi:id="_8PF_oJg4EemfOpj3-Spopg">
-            <body>Internet</body>
-          </ownedComment>
           <generalization xmi:type="uml:Generalization" xmi:id="_m5Ga0JgqEemfOpj3-Spopg" general="_rBDkIJgpEemfOpj3-Spopg"/>
         </packagedElement>
         <packagedElement xmi:type="uml:Actor" xmi:id="_2x-0gJgpEemfOpj3-Spopg" name="EnergyProvider">
-          <ownedComment xmi:type="uml:Comment" xmi:id="__zqIAJg3EemfOpj3-Spopg">
-            <body>&lt;p>EnergyProvider&lt;/p>
-</body>
-          </ownedComment>
           <generalization xmi:type="uml:Generalization" xmi:id="_oD3k0JgqEemfOpj3-Spopg" general="_rBDkIJgpEemfOpj3-Spopg"/>
         </packagedElement>
       </packagedElement>
       <packagedElement xmi:type="uml:Package" xmi:id="_ICnUMJg9EemfOpj3-Spopg" name="KeyConstrainingSystems">
-        <packagedElement xmi:type="uml:Actor" xmi:id="_MoXagJhBEemfOpj3-Spopg" name="InsuranceCompany">
-          <ownedComment xmi:type="uml:Comment" xmi:id="_c-WKcJhBEemfOpj3-Spopg">
-            <body>&lt;p>InsuranceCompany&lt;/p>
-</body>
-          </ownedComment>
-        </packagedElement>
-        <packagedElement xmi:type="uml:Actor" xmi:id="_OxDlUJhBEemfOpj3-Spopg" name="EnvironmentalAuthority">
-          <ownedComment xmi:type="uml:Comment" xmi:id="_lpEe4JhBEemfOpj3-Spopg">
-            <body>&lt;p>EnvironmentalAuthority&lt;/p>
-</body>
-          </ownedComment>
-        </packagedElement>
-        <packagedElement xmi:type="uml:Actor" xmi:id="_Sl4h0JhBEemfOpj3-Spopg" name="HealthAuthority">
-          <ownedComment xmi:type="uml:Comment" xmi:id="_t681gJhBEemfOpj3-Spopg">
-            <body>&lt;p>HealthAuthority&lt;/p>
-</body>
-          </ownedComment>
-        </packagedElement>
+        <packagedElement xmi:type="uml:Actor" xmi:id="_MoXagJhBEemfOpj3-Spopg" name="InsuranceCompany"/>
+        <packagedElement xmi:type="uml:Actor" xmi:id="_OxDlUJhBEemfOpj3-Spopg" name="EnvironmentalAuthority"/>
+        <packagedElement xmi:type="uml:Actor" xmi:id="_Sl4h0JhBEemfOpj3-Spopg" name="HealthAuthority"/>
       </packagedElement>
     </packagedElement>
     <packagedElement xmi:type="uml:Package" xmi:id="_QD8YQJg7EemfOpj3-Spopg" name="SHS&lt;->SHS_EnvFlowsDefinitions">

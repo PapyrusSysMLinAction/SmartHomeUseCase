@@ -9,3 +9,6 @@ Comment.Comment {
 	lineColor:#000000
 }
 
+Actor {
+       displayName: true;
+}
