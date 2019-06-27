@@ -1213,229 +1213,20 @@
       <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_y0uvAZjdEemiJJjEotXc9w" id="(0.6648936170212766,0.22)"/>
     </edges>
   </notation:Diagram>
-  <nattable:Table xmi:id="__YMW8JjaEemiJJjEotXc9w" name="Needs table elicatated from the Pharmacy stakeholder." currentRowAxisProvider="__YMW9JjaEemiJJjEotXc9w" currentColumnAxisProvider="__YMW8ZjaEemiJJjEotXc9w" tableKindId="org.eclipse.papyrus.sysml16.table.requirement">
-    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="__YM-AJjaEemiJJjEotXc9w" source="http://www.eclipse.org/papyrus/infra/nattable/version">
-      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="__YM-AZjaEemiJJjEotXc9w" key="version" value="1.3.0"/>
-    </eAnnotations>
-    <styles xmi:type="nattablestyle:BooleanValueStyle" xmi:id="_GsV6AJjbEemiJJjEotXc9w" name="wrapText" booleanValue="true"/>
-    <styles xmi:type="nattablestyle:BooleanValueStyle" xmi:id="_HLYmcJjbEemiJJjEotXc9w" name="autoResizeCellHeight" booleanValue="true"/>
-    <context xmi:type="uml:Package" href="SHS_OperationalVision.uml#_MRczQJjZEemiJJjEotXc9w"/>
-    <owner xmi:type="uml:Package" href="SHS_OperationalVision.uml#_MRczQJjZEemiJJjEotXc9w"/>
-    <tableConfiguration xmi:type="nattableconfiguration:TableConfiguration" href="platform:/plugin/org.eclipse.papyrus.sysml16.nattable.requirement/resources/requirement.nattableconfiguration#__qulcG1gEeijMr8XjU8gCg"/>
-    <columnAxisProvidersHistory xmi:type="nattableaxisprovider:SlaveObjectAxisProvider" xmi:id="__YMW8ZjaEemiJJjEotXc9w" description="Provides the columns of the tables with a default configuration" name="Requirements Feature Columns Provider">
-      <axis xmi:type="nattableaxis:FeatureIdAxis" xmi:id="__YMW8pjaEemiJJjEotXc9w" element="property_of_stereotype:/SysML::Requirements::AbstractRequirement::id">
-        <styles xmi:type="nattablestyle:IntValueStyle" xmi:id="_IFrrgJjbEemiJJjEotXc9w" name="axisWidth" intValue="105"/>
-        <manager xmi:type="nattableaxisconfiguration:AxisManagerRepresentation" href="platform:/plugin/org.eclipse.papyrus.sysml16.nattable.requirement/resources/requirement.nattableconfiguration#org.eclipse.papyrus.sysml16.nattable.requirement.stereotype.property.axis.manager"/>
-      </axis>
-      <axis xmi:type="nattableaxis:FeatureIdAxis" xmi:id="__YMW85jaEemiJJjEotXc9w" element="property_of_stereotype:/SysML::Requirements::AbstractRequirement::text">
-        <styles xmi:type="nattablestyle:IntValueStyle" xmi:id="_HeGHEJjbEemiJJjEotXc9w" name="axisWidth" intValue="401"/>
-        <manager xmi:type="nattableaxisconfiguration:AxisManagerRepresentation" href="platform:/plugin/org.eclipse.papyrus.sysml16.nattable.requirement/resources/requirement.nattableconfiguration#org.eclipse.papyrus.sysml16.nattable.requirement.stereotype.property.axis.manager"/>
-      </axis>
-    </columnAxisProvidersHistory>
-    <rowAxisProvidersHistory xmi:type="nattableaxisprovider:MasterObjectAxisProvider" xmi:id="__YMW9JjaEemiJJjEotXc9w" description="Provides the requirements directly owned by the context of the table" name="Requirement Axis Provider" disconnectSlave="true"/>
-    <localRowHeaderAxisConfiguration xmi:type="nattableaxisconfiguration:LocalTableHeaderAxisConfiguration" xmi:id="_HziLkJjbEemiJJjEotXc9w" indexStyle="NUMERIC" displayIndex="false">
-      <styles xmi:type="nattablestyle:IntValueStyle" xmi:id="_HziLkZjbEemiJJjEotXc9w" name="rowLabelWidth" intValue="144"/>
-    </localRowHeaderAxisConfiguration>
-  </nattable:Table>
-  <nattable:Table xmi:id="_DP6PYJjbEemiJJjEotXc9w" name="Needs table elicatated from the SensorDevice stakeholder." currentRowAxisProvider="_DP6PZJjbEemiJJjEotXc9w" currentColumnAxisProvider="_DP6PYZjbEemiJJjEotXc9w" tableKindId="org.eclipse.papyrus.sysml16.table.requirement">
-    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_DP62cJjbEemiJJjEotXc9w" source="http://www.eclipse.org/papyrus/infra/nattable/version">
-      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_DP62cZjbEemiJJjEotXc9w" key="version" value="1.3.0"/>
-    </eAnnotations>
-    <styles xmi:type="nattablestyle:BooleanValueStyle" xmi:id="_KmJdIJjbEemiJJjEotXc9w" name="wrapText" booleanValue="true"/>
-    <styles xmi:type="nattablestyle:BooleanValueStyle" xmi:id="_K6brEJjbEemiJJjEotXc9w" name="autoResizeCellHeight" booleanValue="true"/>
-    <context xmi:type="uml:Package" href="SHS_OperationalVision.uml#_OB-VsJjZEemiJJjEotXc9w"/>
-    <owner xmi:type="uml:Package" href="SHS_OperationalVision.uml#_OB-VsJjZEemiJJjEotXc9w"/>
-    <tableConfiguration xmi:type="nattableconfiguration:TableConfiguration" href="platform:/plugin/org.eclipse.papyrus.sysml16.nattable.requirement/resources/requirement.nattableconfiguration#__qulcG1gEeijMr8XjU8gCg"/>
-    <columnAxisProvidersHistory xmi:type="nattableaxisprovider:SlaveObjectAxisProvider" xmi:id="_DP6PYZjbEemiJJjEotXc9w" description="Provides the columns of the tables with a default configuration" name="Requirements Feature Columns Provider">
-      <axis xmi:type="nattableaxis:FeatureIdAxis" xmi:id="_DP6PYpjbEemiJJjEotXc9w" element="property_of_stereotype:/SysML::Requirements::AbstractRequirement::id">
-        <styles xmi:type="nattablestyle:IntValueStyle" xmi:id="_KOmf0JjbEemiJJjEotXc9w" name="axisWidth" intValue="114"/>
-        <manager xmi:type="nattableaxisconfiguration:AxisManagerRepresentation" href="platform:/plugin/org.eclipse.papyrus.sysml16.nattable.requirement/resources/requirement.nattableconfiguration#org.eclipse.papyrus.sysml16.nattable.requirement.stereotype.property.axis.manager"/>
-      </axis>
-      <axis xmi:type="nattableaxis:FeatureIdAxis" xmi:id="_DP6PY5jbEemiJJjEotXc9w" element="property_of_stereotype:/SysML::Requirements::AbstractRequirement::text">
-        <styles xmi:type="nattablestyle:IntValueStyle" xmi:id="_JkHYYJjbEemiJJjEotXc9w" name="axisWidth" intValue="524"/>
-        <manager xmi:type="nattableaxisconfiguration:AxisManagerRepresentation" href="platform:/plugin/org.eclipse.papyrus.sysml16.nattable.requirement/resources/requirement.nattableconfiguration#org.eclipse.papyrus.sysml16.nattable.requirement.stereotype.property.axis.manager"/>
-      </axis>
-    </columnAxisProvidersHistory>
-    <rowAxisProvidersHistory xmi:type="nattableaxisprovider:MasterObjectAxisProvider" xmi:id="_DP6PZJjbEemiJJjEotXc9w" description="Provides the requirements directly owned by the context of the table" name="Requirement Axis Provider" disconnectSlave="true"/>
-    <localRowHeaderAxisConfiguration xmi:type="nattableaxisconfiguration:LocalTableHeaderAxisConfiguration" xmi:id="_J26_oJjbEemiJJjEotXc9w" indexStyle="NUMERIC" displayIndex="false">
-      <styles xmi:type="nattablestyle:IntValueStyle" xmi:id="_J27msJjbEemiJJjEotXc9w" name="rowLabelWidth" intValue="292"/>
-    </localRowHeaderAxisConfiguration>
-  </nattable:Table>
-  <nattable:Table xmi:id="_NHzhkJjbEemiJJjEotXc9w" name="Needs table elicatated from the Internet stakeholder." currentRowAxisProvider="_NHzhlJjbEemiJJjEotXc9w" currentColumnAxisProvider="_NHzhkZjbEemiJJjEotXc9w" tableKindId="org.eclipse.papyrus.sysml16.table.requirement">
-    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_NH0IoJjbEemiJJjEotXc9w" source="http://www.eclipse.org/papyrus/infra/nattable/version">
-      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_NH0IoZjbEemiJJjEotXc9w" key="version" value="1.3.0"/>
-    </eAnnotations>
-    <styles xmi:type="nattablestyle:BooleanValueStyle" xmi:id="_PRDtEJjbEemiJJjEotXc9w" name="wrapText" booleanValue="true"/>
-    <styles xmi:type="nattablestyle:BooleanValueStyle" xmi:id="_PjDcAJjbEemiJJjEotXc9w" name="autoResizeCellHeight" booleanValue="true"/>
-    <context xmi:type="uml:Package" href="SHS_OperationalVision.uml#_OJAx0JjZEemiJJjEotXc9w"/>
-    <owner xmi:type="uml:Package" href="SHS_OperationalVision.uml#_OJAx0JjZEemiJJjEotXc9w"/>
-    <tableConfiguration xmi:type="nattableconfiguration:TableConfiguration" href="platform:/plugin/org.eclipse.papyrus.sysml16.nattable.requirement/resources/requirement.nattableconfiguration#__qulcG1gEeijMr8XjU8gCg"/>
-    <columnAxisProvidersHistory xmi:type="nattableaxisprovider:SlaveObjectAxisProvider" xmi:id="_NHzhkZjbEemiJJjEotXc9w" description="Provides the columns of the tables with a default configuration" name="Requirements Feature Columns Provider">
-      <axis xmi:type="nattableaxis:FeatureIdAxis" xmi:id="_NHzhkpjbEemiJJjEotXc9w" element="property_of_stereotype:/SysML::Requirements::AbstractRequirement::id">
-        <styles xmi:type="nattablestyle:IntValueStyle" xmi:id="_OOcZgJjbEemiJJjEotXc9w" name="axisWidth" intValue="128"/>
-        <manager xmi:type="nattableaxisconfiguration:AxisManagerRepresentation" href="platform:/plugin/org.eclipse.papyrus.sysml16.nattable.requirement/resources/requirement.nattableconfiguration#org.eclipse.papyrus.sysml16.nattable.requirement.stereotype.property.axis.manager"/>
-      </axis>
-      <axis xmi:type="nattableaxis:FeatureIdAxis" xmi:id="_NHzhk5jbEemiJJjEotXc9w" element="property_of_stereotype:/SysML::Requirements::AbstractRequirement::text">
-        <styles xmi:type="nattablestyle:IntValueStyle" xmi:id="_Oh458JjbEemiJJjEotXc9w" name="axisWidth" intValue="466"/>
-        <manager xmi:type="nattableaxisconfiguration:AxisManagerRepresentation" href="platform:/plugin/org.eclipse.papyrus.sysml16.nattable.requirement/resources/requirement.nattableconfiguration#org.eclipse.papyrus.sysml16.nattable.requirement.stereotype.property.axis.manager"/>
-      </axis>
-    </columnAxisProvidersHistory>
-    <rowAxisProvidersHistory xmi:type="nattableaxisprovider:MasterObjectAxisProvider" xmi:id="_NHzhlJjbEemiJJjEotXc9w" description="Provides the requirements directly owned by the context of the table" name="Requirement Axis Provider" disconnectSlave="true"/>
-    <localRowHeaderAxisConfiguration xmi:type="nattableaxisconfiguration:LocalTableHeaderAxisConfiguration" xmi:id="_N0dMMJjbEemiJJjEotXc9w" indexStyle="NUMERIC" displayIndex="false">
-      <styles xmi:type="nattablestyle:IntValueStyle" xmi:id="_N0dzQJjbEemiJJjEotXc9w" name="rowLabelWidth" intValue="241"/>
-    </localRowHeaderAxisConfiguration>
-  </nattable:Table>
-  <nattable:Table xmi:id="_ShdG0JjbEemiJJjEotXc9w" name="Needs table elicatated from the EnergyProvider stakeholder." currentRowAxisProvider="_ShdG1JjbEemiJJjEotXc9w" currentColumnAxisProvider="_ShdG0ZjbEemiJJjEotXc9w" tableKindId="org.eclipse.papyrus.sysml16.table.requirement">
-    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_Shdt4JjbEemiJJjEotXc9w" source="http://www.eclipse.org/papyrus/infra/nattable/version">
-      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_Shdt4ZjbEemiJJjEotXc9w" key="version" value="1.3.0"/>
-    </eAnnotations>
-    <styles xmi:type="nattablestyle:BooleanValueStyle" xmi:id="_UCeNoJjbEemiJJjEotXc9w" name="wrapText" booleanValue="true"/>
-    <styles xmi:type="nattablestyle:BooleanValueStyle" xmi:id="_UVG1wJjbEemiJJjEotXc9w" name="autoResizeCellHeight" booleanValue="true"/>
-    <context xmi:type="uml:Package" href="SHS_OperationalVision.uml#_OLoA8JjZEemiJJjEotXc9w"/>
-    <owner xmi:type="uml:Package" href="SHS_OperationalVision.uml#_OLoA8JjZEemiJJjEotXc9w"/>
-    <tableConfiguration xmi:type="nattableconfiguration:TableConfiguration" href="platform:/plugin/org.eclipse.papyrus.sysml16.nattable.requirement/resources/requirement.nattableconfiguration#__qulcG1gEeijMr8XjU8gCg"/>
-    <columnAxisProvidersHistory xmi:type="nattableaxisprovider:SlaveObjectAxisProvider" xmi:id="_ShdG0ZjbEemiJJjEotXc9w" description="Provides the columns of the tables with a default configuration" name="Requirements Feature Columns Provider">
-      <axis xmi:type="nattableaxis:FeatureIdAxis" xmi:id="_ShdG0pjbEemiJJjEotXc9w" element="property_of_stereotype:/SysML::Requirements::AbstractRequirement::id">
-        <styles xmi:type="nattablestyle:IntValueStyle" xmi:id="_TXq9IJjbEemiJJjEotXc9w" name="axisWidth" intValue="128"/>
-        <manager xmi:type="nattableaxisconfiguration:AxisManagerRepresentation" href="platform:/plugin/org.eclipse.papyrus.sysml16.nattable.requirement/resources/requirement.nattableconfiguration#org.eclipse.papyrus.sysml16.nattable.requirement.stereotype.property.axis.manager"/>
-      </axis>
-      <axis xmi:type="nattableaxis:FeatureIdAxis" xmi:id="_ShdG05jbEemiJJjEotXc9w" element="property_of_stereotype:/SysML::Requirements::AbstractRequirement::text">
-        <styles xmi:type="nattablestyle:IntValueStyle" xmi:id="_TsD4wJjbEemiJJjEotXc9w" name="axisWidth" intValue="492"/>
-        <manager xmi:type="nattableaxisconfiguration:AxisManagerRepresentation" href="platform:/plugin/org.eclipse.papyrus.sysml16.nattable.requirement/resources/requirement.nattableconfiguration#org.eclipse.papyrus.sysml16.nattable.requirement.stereotype.property.axis.manager"/>
-      </axis>
-    </columnAxisProvidersHistory>
-    <rowAxisProvidersHistory xmi:type="nattableaxisprovider:MasterObjectAxisProvider" xmi:id="_ShdG1JjbEemiJJjEotXc9w" description="Provides the requirements directly owned by the context of the table" name="Requirement Axis Provider" disconnectSlave="true"/>
-    <localRowHeaderAxisConfiguration xmi:type="nattableaxisconfiguration:LocalTableHeaderAxisConfiguration" xmi:id="_TCcUAJjbEemiJJjEotXc9w" indexStyle="NUMERIC" displayIndex="false">
-      <styles xmi:type="nattablestyle:IntValueStyle" xmi:id="_TCcUAZjbEemiJJjEotXc9w" name="rowLabelWidth" intValue="247"/>
-    </localRowHeaderAxisConfiguration>
-  </nattable:Table>
-  <nattable:Table xmi:id="_dWpuwJjbEemiJJjEotXc9w" name="Needs table elicatated from the HealthAuthority stakeholder." currentRowAxisProvider="_dWpuxJjbEemiJJjEotXc9w" currentColumnAxisProvider="_dWpuwZjbEemiJJjEotXc9w" tableKindId="org.eclipse.papyrus.sysml16.table.requirement">
-    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_dWqV0JjbEemiJJjEotXc9w" source="http://www.eclipse.org/papyrus/infra/nattable/version">
-      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_dWqV0ZjbEemiJJjEotXc9w" key="version" value="1.3.0"/>
-    </eAnnotations>
-    <styles xmi:type="nattablestyle:BooleanValueStyle" xmi:id="_e62scJjbEemiJJjEotXc9w" name="wrapText" booleanValue="true"/>
-    <styles xmi:type="nattablestyle:BooleanValueStyle" xmi:id="_fNAMYJjbEemiJJjEotXc9w" name="autoResizeCellHeight" booleanValue="true"/>
-    <context xmi:type="uml:Package" href="SHS_OperationalVision.uml#_OXHfQJjZEemiJJjEotXc9w"/>
-    <owner xmi:type="uml:Package" href="SHS_OperationalVision.uml#_OXHfQJjZEemiJJjEotXc9w"/>
-    <tableConfiguration xmi:type="nattableconfiguration:TableConfiguration" href="platform:/plugin/org.eclipse.papyrus.sysml16.nattable.requirement/resources/requirement.nattableconfiguration#__qulcG1gEeijMr8XjU8gCg"/>
-    <columnAxisProvidersHistory xmi:type="nattableaxisprovider:SlaveObjectAxisProvider" xmi:id="_dWpuwZjbEemiJJjEotXc9w" description="Provides the columns of the tables with a default configuration" name="Requirements Feature Columns Provider">
-      <axis xmi:type="nattableaxis:FeatureIdAxis" xmi:id="_dWpuwpjbEemiJJjEotXc9w" element="property_of_stereotype:/SysML::Requirements::AbstractRequirement::id">
-        <styles xmi:type="nattablestyle:IntValueStyle" xmi:id="_eFVZsJjbEemiJJjEotXc9w" name="axisWidth" intValue="105"/>
-        <manager xmi:type="nattableaxisconfiguration:AxisManagerRepresentation" href="platform:/plugin/org.eclipse.papyrus.sysml16.nattable.requirement/resources/requirement.nattableconfiguration#org.eclipse.papyrus.sysml16.nattable.requirement.stereotype.property.axis.manager"/>
-      </axis>
-      <axis xmi:type="nattableaxis:FeatureIdAxis" xmi:id="_dWpuw5jbEemiJJjEotXc9w" element="property_of_stereotype:/SysML::Requirements::AbstractRequirement::text">
-        <styles xmi:type="nattablestyle:IntValueStyle" xmi:id="_emGkcJjbEemiJJjEotXc9w" name="axisWidth" intValue="475"/>
-        <manager xmi:type="nattableaxisconfiguration:AxisManagerRepresentation" href="platform:/plugin/org.eclipse.papyrus.sysml16.nattable.requirement/resources/requirement.nattableconfiguration#org.eclipse.papyrus.sysml16.nattable.requirement.stereotype.property.axis.manager"/>
-      </axis>
-    </columnAxisProvidersHistory>
-    <rowAxisProvidersHistory xmi:type="nattableaxisprovider:MasterObjectAxisProvider" xmi:id="_dWpuxJjbEemiJJjEotXc9w" description="Provides the requirements directly owned by the context of the table" name="Requirement Axis Provider" disconnectSlave="true"/>
-    <localRowHeaderAxisConfiguration xmi:type="nattableaxisconfiguration:LocalTableHeaderAxisConfiguration" xmi:id="_d0370JjbEemiJJjEotXc9w" indexStyle="NUMERIC" displayIndex="false">
-      <styles xmi:type="nattablestyle:IntValueStyle" xmi:id="_d04i4JjbEemiJJjEotXc9w" name="rowLabelWidth" intValue="287"/>
-    </localRowHeaderAxisConfiguration>
-  </nattable:Table>
-  <nattable:Table xmi:id="_iCAqoJjbEemiJJjEotXc9w" name="Needs table elicatated from the ElectronicDevice stakeholder." currentRowAxisProvider="_iCAqpJjbEemiJJjEotXc9w" currentColumnAxisProvider="_iCAqoZjbEemiJJjEotXc9w" tableKindId="org.eclipse.papyrus.sysml16.table.requirement">
-    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_iCBRsJjbEemiJJjEotXc9w" source="http://www.eclipse.org/papyrus/infra/nattable/version">
-      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_iCBRsZjbEemiJJjEotXc9w" key="version" value="1.3.0"/>
-    </eAnnotations>
-    <styles xmi:type="nattablestyle:BooleanValueStyle" xmi:id="_jZ5qoJjbEemiJJjEotXc9w" name="wrapText" booleanValue="true"/>
-    <styles xmi:type="nattablestyle:BooleanValueStyle" xmi:id="_joYLgJjbEemiJJjEotXc9w" name="autoResizeCellHeight" booleanValue="true"/>
-    <context xmi:type="uml:Package" href="SHS_OperationalVision.uml#_Omk3kJjZEemiJJjEotXc9w"/>
-    <owner xmi:type="uml:Package" href="SHS_OperationalVision.uml#_Omk3kJjZEemiJJjEotXc9w"/>
-    <tableConfiguration xmi:type="nattableconfiguration:TableConfiguration" href="platform:/plugin/org.eclipse.papyrus.sysml16.nattable.requirement/resources/requirement.nattableconfiguration#__qulcG1gEeijMr8XjU8gCg"/>
-    <columnAxisProvidersHistory xmi:type="nattableaxisprovider:SlaveObjectAxisProvider" xmi:id="_iCAqoZjbEemiJJjEotXc9w" description="Provides the columns of the tables with a default configuration" name="Requirements Feature Columns Provider">
-      <axis xmi:type="nattableaxis:FeatureIdAxis" xmi:id="_iCAqopjbEemiJJjEotXc9w" element="property_of_stereotype:/SysML::Requirements::AbstractRequirement::id">
-        <manager xmi:type="nattableaxisconfiguration:AxisManagerRepresentation" href="platform:/plugin/org.eclipse.papyrus.sysml16.nattable.requirement/resources/requirement.nattableconfiguration#org.eclipse.papyrus.sysml16.nattable.requirement.stereotype.property.axis.manager"/>
-      </axis>
-      <axis xmi:type="nattableaxis:FeatureIdAxis" xmi:id="_iCAqo5jbEemiJJjEotXc9w" element="property_of_stereotype:/SysML::Requirements::AbstractRequirement::text">
-        <styles xmi:type="nattablestyle:IntValueStyle" xmi:id="_jGC6gJjbEemiJJjEotXc9w" name="axisWidth" intValue="455"/>
-        <manager xmi:type="nattableaxisconfiguration:AxisManagerRepresentation" href="platform:/plugin/org.eclipse.papyrus.sysml16.nattable.requirement/resources/requirement.nattableconfiguration#org.eclipse.papyrus.sysml16.nattable.requirement.stereotype.property.axis.manager"/>
-      </axis>
-    </columnAxisProvidersHistory>
-    <rowAxisProvidersHistory xmi:type="nattableaxisprovider:MasterObjectAxisProvider" xmi:id="_iCAqpJjbEemiJJjEotXc9w" description="Provides the requirements directly owned by the context of the table" name="Requirement Axis Provider" disconnectSlave="true"/>
-    <localRowHeaderAxisConfiguration xmi:type="nattableaxisconfiguration:LocalTableHeaderAxisConfiguration" xmi:id="_iiuyEJjbEemiJJjEotXc9w" indexStyle="NUMERIC" displayIndex="false">
-      <styles xmi:type="nattablestyle:IntValueStyle" xmi:id="_iiuyEZjbEemiJJjEotXc9w" name="rowLabelWidth" intValue="263"/>
-    </localRowHeaderAxisConfiguration>
-  </nattable:Table>
-  <nattable:Table xmi:id="_pfyDwJjbEemiJJjEotXc9w" name="Needs table elicatated from the PoliceStation stakeholder." currentRowAxisProvider="_pfyDxJjbEemiJJjEotXc9w" currentColumnAxisProvider="_pfyDwZjbEemiJJjEotXc9w" tableKindId="org.eclipse.papyrus.sysml16.table.requirement">
-    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_pfyq0JjbEemiJJjEotXc9w" source="http://www.eclipse.org/papyrus/infra/nattable/version">
-      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_pfyq0ZjbEemiJJjEotXc9w" key="version" value="1.3.0"/>
-    </eAnnotations>
-    <styles xmi:type="nattablestyle:BooleanValueStyle" xmi:id="_riSuEJjbEemiJJjEotXc9w" name="wrapText" booleanValue="true"/>
-    <styles xmi:type="nattablestyle:BooleanValueStyle" xmi:id="_ry0dYJjbEemiJJjEotXc9w" name="autoResizeCellHeight" booleanValue="true"/>
-    <context xmi:type="uml:Package" href="SHS_OperationalVision.uml#_OplIQJjZEemiJJjEotXc9w"/>
-    <owner xmi:type="uml:Package" href="SHS_OperationalVision.uml#_OplIQJjZEemiJJjEotXc9w"/>
-    <tableConfiguration xmi:type="nattableconfiguration:TableConfiguration" href="platform:/plugin/org.eclipse.papyrus.sysml16.nattable.requirement/resources/requirement.nattableconfiguration#__qulcG1gEeijMr8XjU8gCg"/>
-    <columnAxisProvidersHistory xmi:type="nattableaxisprovider:SlaveObjectAxisProvider" xmi:id="_pfyDwZjbEemiJJjEotXc9w" description="Provides the columns of the tables with a default configuration" name="Requirements Feature Columns Provider">
-      <axis xmi:type="nattableaxis:FeatureIdAxis" xmi:id="_pfyDwpjbEemiJJjEotXc9w" element="property_of_stereotype:/SysML::Requirements::AbstractRequirement::id">
-        <styles xmi:type="nattablestyle:IntValueStyle" xmi:id="_rDw_AJjbEemiJJjEotXc9w" name="axisWidth" intValue="137"/>
-        <manager xmi:type="nattableaxisconfiguration:AxisManagerRepresentation" href="platform:/plugin/org.eclipse.papyrus.sysml16.nattable.requirement/resources/requirement.nattableconfiguration#org.eclipse.papyrus.sysml16.nattable.requirement.stereotype.property.axis.manager"/>
-      </axis>
-      <axis xmi:type="nattableaxis:FeatureIdAxis" xmi:id="_pfyDw5jbEemiJJjEotXc9w" element="property_of_stereotype:/SysML::Requirements::AbstractRequirement::text">
-        <styles xmi:type="nattablestyle:IntValueStyle" xmi:id="_qxgxYJjbEemiJJjEotXc9w" name="axisWidth" intValue="433"/>
-        <manager xmi:type="nattableaxisconfiguration:AxisManagerRepresentation" href="platform:/plugin/org.eclipse.papyrus.sysml16.nattable.requirement/resources/requirement.nattableconfiguration#org.eclipse.papyrus.sysml16.nattable.requirement.stereotype.property.axis.manager"/>
-      </axis>
-    </columnAxisProvidersHistory>
-    <rowAxisProvidersHistory xmi:type="nattableaxisprovider:MasterObjectAxisProvider" xmi:id="_pfyDxJjbEemiJJjEotXc9w" description="Provides the requirements directly owned by the context of the table" name="Requirement Axis Provider" disconnectSlave="true"/>
-    <localRowHeaderAxisConfiguration xmi:type="nattableaxisconfiguration:LocalTableHeaderAxisConfiguration" xmi:id="_qTQIEJjbEemiJJjEotXc9w" indexStyle="NUMERIC" displayIndex="false">
-      <styles xmi:type="nattablestyle:IntValueStyle" xmi:id="_qTQIEZjbEemiJJjEotXc9w" name="rowLabelWidth" intValue="282"/>
-    </localRowHeaderAxisConfiguration>
-  </nattable:Table>
-  <nattable:Table xmi:id="_u6_IMJjbEemiJJjEotXc9w" name="Needs table elicatated from the MedicalPeople stakeholder." currentRowAxisProvider="_u6_INJjbEemiJJjEotXc9w" currentColumnAxisProvider="_u6_IMZjbEemiJJjEotXc9w" tableKindId="org.eclipse.papyrus.sysml16.table.requirement">
-    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_u6_vQJjbEemiJJjEotXc9w" source="http://www.eclipse.org/papyrus/infra/nattable/version">
-      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_u6_vQZjbEemiJJjEotXc9w" key="version" value="1.3.0"/>
-    </eAnnotations>
-    <styles xmi:type="nattablestyle:BooleanValueStyle" xmi:id="_w2GxEJjbEemiJJjEotXc9w" name="wrapText" booleanValue="true"/>
-    <styles xmi:type="nattablestyle:BooleanValueStyle" xmi:id="_xHAT0JjbEemiJJjEotXc9w" name="autoResizeCellHeight" booleanValue="true"/>
-    <context xmi:type="uml:Package" href="SHS_OperationalVision.uml#_OsfSUJjZEemiJJjEotXc9w"/>
-    <owner xmi:type="uml:Package" href="SHS_OperationalVision.uml#_OsfSUJjZEemiJJjEotXc9w"/>
-    <tableConfiguration xmi:type="nattableconfiguration:TableConfiguration" href="platform:/plugin/org.eclipse.papyrus.sysml16.nattable.requirement/resources/requirement.nattableconfiguration#__qulcG1gEeijMr8XjU8gCg"/>
-    <columnAxisProvidersHistory xmi:type="nattableaxisprovider:SlaveObjectAxisProvider" xmi:id="_u6_IMZjbEemiJJjEotXc9w" description="Provides the columns of the tables with a default configuration" name="Requirements Feature Columns Provider">
-      <axis xmi:type="nattableaxis:FeatureIdAxis" xmi:id="_u6_IMpjbEemiJJjEotXc9w" element="property_of_stereotype:/SysML::Requirements::AbstractRequirement::id">
-        <styles xmi:type="nattablestyle:IntValueStyle" xmi:id="_weBBMJjbEemiJJjEotXc9w" name="axisWidth" intValue="131"/>
-        <manager xmi:type="nattableaxisconfiguration:AxisManagerRepresentation" href="platform:/plugin/org.eclipse.papyrus.sysml16.nattable.requirement/resources/requirement.nattableconfiguration#org.eclipse.papyrus.sysml16.nattable.requirement.stereotype.property.axis.manager"/>
-      </axis>
-      <axis xmi:type="nattableaxis:FeatureIdAxis" xmi:id="_u6_IM5jbEemiJJjEotXc9w" element="property_of_stereotype:/SysML::Requirements::AbstractRequirement::text">
-        <styles xmi:type="nattablestyle:IntValueStyle" xmi:id="_wKj5sJjbEemiJJjEotXc9w" name="axisWidth" intValue="420"/>
-        <manager xmi:type="nattableaxisconfiguration:AxisManagerRepresentation" href="platform:/plugin/org.eclipse.papyrus.sysml16.nattable.requirement/resources/requirement.nattableconfiguration#org.eclipse.papyrus.sysml16.nattable.requirement.stereotype.property.axis.manager"/>
-      </axis>
-    </columnAxisProvidersHistory>
-    <rowAxisProvidersHistory xmi:type="nattableaxisprovider:MasterObjectAxisProvider" xmi:id="_u6_INJjbEemiJJjEotXc9w" description="Provides the requirements directly owned by the context of the table" name="Requirement Axis Provider" disconnectSlave="true"/>
-    <localRowHeaderAxisConfiguration xmi:type="nattableaxisconfiguration:LocalTableHeaderAxisConfiguration" xmi:id="_vvzQUJjbEemiJJjEotXc9w" indexStyle="NUMERIC" displayIndex="false">
-      <styles xmi:type="nattablestyle:IntValueStyle" xmi:id="_vvzQUZjbEemiJJjEotXc9w" name="rowLabelWidth" intValue="299"/>
-    </localRowHeaderAxisConfiguration>
-  </nattable:Table>
-  <nattable:Table xmi:id="_zRa88JjbEemiJJjEotXc9w" name="Needs table elicatated from the Inhabitant stakeholder." currentRowAxisProvider="_zRa89JjbEemiJJjEotXc9w" currentColumnAxisProvider="_zRa88ZjbEemiJJjEotXc9w" tableKindId="org.eclipse.papyrus.sysml16.table.requirement">
-    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_zRbkAJjbEemiJJjEotXc9w" source="http://www.eclipse.org/papyrus/infra/nattable/version">
-      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_zRbkAZjbEemiJJjEotXc9w" key="version" value="1.3.0"/>
-    </eAnnotations>
-    <styles xmi:type="nattablestyle:BooleanValueStyle" xmi:id="_0kAmMJjbEemiJJjEotXc9w" name="wrapText" booleanValue="true"/>
-    <styles xmi:type="nattablestyle:BooleanValueStyle" xmi:id="_0y7zAJjbEemiJJjEotXc9w" name="autoResizeCellHeight" booleanValue="true"/>
-    <context xmi:type="uml:Package" href="SHS_OperationalVision.uml#_OvAa0JjZEemiJJjEotXc9w"/>
-    <owner xmi:type="uml:Package" href="SHS_OperationalVision.uml#_OvAa0JjZEemiJJjEotXc9w"/>
-    <tableConfiguration xmi:type="nattableconfiguration:TableConfiguration" href="platform:/plugin/org.eclipse.papyrus.sysml16.nattable.requirement/resources/requirement.nattableconfiguration#__qulcG1gEeijMr8XjU8gCg"/>
-    <columnAxisProvidersHistory xmi:type="nattableaxisprovider:SlaveObjectAxisProvider" xmi:id="_zRa88ZjbEemiJJjEotXc9w" description="Provides the columns of the tables with a default configuration" name="Requirements Feature Columns Provider">
-      <axis xmi:type="nattableaxis:FeatureIdAxis" xmi:id="_zRa88pjbEemiJJjEotXc9w" element="property_of_stereotype:/SysML::Requirements::AbstractRequirement::id">
-        <manager xmi:type="nattableaxisconfiguration:AxisManagerRepresentation" href="platform:/plugin/org.eclipse.papyrus.sysml16.nattable.requirement/resources/requirement.nattableconfiguration#org.eclipse.papyrus.sysml16.nattable.requirement.stereotype.property.axis.manager"/>
-      </axis>
-      <axis xmi:type="nattableaxis:FeatureIdAxis" xmi:id="_zRa885jbEemiJJjEotXc9w" element="property_of_stereotype:/SysML::Requirements::AbstractRequirement::text">
-        <styles xmi:type="nattablestyle:IntValueStyle" xmi:id="_0OVRIJjbEemiJJjEotXc9w" name="axisWidth" intValue="482"/>
-        <manager xmi:type="nattableaxisconfiguration:AxisManagerRepresentation" href="platform:/plugin/org.eclipse.papyrus.sysml16.nattable.requirement/resources/requirement.nattableconfiguration#org.eclipse.papyrus.sysml16.nattable.requirement.stereotype.property.axis.manager"/>
-      </axis>
-    </columnAxisProvidersHistory>
-    <rowAxisProvidersHistory xmi:type="nattableaxisprovider:MasterObjectAxisProvider" xmi:id="_zRa89JjbEemiJJjEotXc9w" description="Provides the requirements directly owned by the context of the table" name="Requirement Axis Provider" disconnectSlave="true"/>
-    <localRowHeaderAxisConfiguration xmi:type="nattableaxisconfiguration:LocalTableHeaderAxisConfiguration" xmi:id="_zxgLMJjbEemiJJjEotXc9w" indexStyle="NUMERIC" displayIndex="false">
-      <styles xmi:type="nattablestyle:IntValueStyle" xmi:id="_zxgLMZjbEemiJJjEotXc9w" name="rowLabelWidth" intValue="235"/>
-    </localRowHeaderAxisConfiguration>
-  </nattable:Table>
   <notation:Diagram xmi:id="_5RoL4JjbEemiJJjEotXc9w" type="PapyrusUMLClassDiagram" name="Structure description of the SHS Needs." measurementUnit="Pixel">
     <children xmi:type="notation:Shape" xmi:id="_5tZh4JjbEemiJJjEotXc9w" type="Model_Shape">
       <children xmi:type="notation:DecorationNode" xmi:id="_5taI8JjbEemiJJjEotXc9w" type="Model_NameLabel"/>
       <children xmi:type="notation:BasicCompartment" xmi:id="_5taI8ZjbEemiJJjEotXc9w" type="Model_PackagedElementCompartment">
         <children xmi:type="notation:Shape" xmi:id="_7bW4gJjbEemiJJjEotXc9w" type="Package_Shape_CN">
-          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_Fgv0IJjcEemiJJjEotXc9w" source="PapyrusHyperLink_Page" references="__YMW8JjaEemiJJjEotXc9w">
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_Fgv0IJjcEemiJJjEotXc9w" source="PapyrusHyperLink_Page">
             <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_Fgv0IZjcEemiJJjEotXc9w" key="tooltip_text" value="Needs table elicatated from the Pharmacy stakeholder."/>
             <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_Fgv0IpjcEemiJJjEotXc9w" key="pageName" value="Needs table elicatated from the Pharmacy stakeholder."/>
             <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_Fgv0I5jcEemiJJjEotXc9w" key="is_default_navigation" value="true"/>
+          </eAnnotations>
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_MSkT8JjhEemiJJjEotXc9w" source="PapyrusHyperLink_Page" references="_0r9PAJjgEemiJJjEotXc9w">
+            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_MSkT8ZjhEemiJJjEotXc9w" key="tooltip_text" value="Needs table elicatated from the Pharmacy stakeholder."/>
+            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_MSkT8pjhEemiJJjEotXc9w" key="pageName" value="Needs table elicatated from the Pharmacy stakeholder."/>
+            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_MSkT85jhEemiJJjEotXc9w" key="is_default_navigation" value="true"/>
           </eAnnotations>
           <children xmi:type="notation:DecorationNode" xmi:id="_7bXfkJjbEemiJJjEotXc9w" type="Package_NameLabel_CN"/>
           <children xmi:type="notation:BasicCompartment" xmi:id="_7bXfkZjbEemiJJjEotXc9w" type="Package_PackagedElementCompartment_CN">
@@ -1446,10 +1237,15 @@
           <layoutConstraint xmi:type="notation:Bounds" xmi:id="_7bW4gZjbEemiJJjEotXc9w" x="7" y="5" width="200" height="100"/>
         </children>
         <children xmi:type="notation:Shape" xmi:id="_7bgCcJjbEemiJJjEotXc9w" type="Package_Shape_CN">
-          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_GEezUJjcEemiJJjEotXc9w" source="PapyrusHyperLink_Page" references="_DP6PYJjbEemiJJjEotXc9w">
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_GEezUJjcEemiJJjEotXc9w" source="PapyrusHyperLink_Page">
             <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_GEezUZjcEemiJJjEotXc9w" key="tooltip_text" value="Needs table elicatated from the SensorDevice stakeholder."/>
             <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_GEezUpjcEemiJJjEotXc9w" key="pageName" value="Needs table elicatated from the SensorDevice stakeholder."/>
             <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_GEezU5jcEemiJJjEotXc9w" key="is_default_navigation" value="true"/>
+          </eAnnotations>
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_MppXMJjhEemiJJjEotXc9w" source="PapyrusHyperLink_Page" references="_3NuoMJjgEemiJJjEotXc9w">
+            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_MppXMZjhEemiJJjEotXc9w" key="tooltip_text" value="Needs table elicatated from the SensorDevice stakeholder."/>
+            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_MppXMpjhEemiJJjEotXc9w" key="pageName" value="Needs table elicatated from the SensorDevice stakeholder."/>
+            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_MppXM5jhEemiJJjEotXc9w" key="is_default_navigation" value="true"/>
           </eAnnotations>
           <children xmi:type="notation:DecorationNode" xmi:id="_7bgCcpjbEemiJJjEotXc9w" type="Package_NameLabel_CN"/>
           <children xmi:type="notation:BasicCompartment" xmi:id="_7bgCc5jbEemiJJjEotXc9w" type="Package_PackagedElementCompartment_CN">
@@ -1460,10 +1256,15 @@
           <layoutConstraint xmi:type="notation:Bounds" xmi:id="_7bgCcZjbEemiJJjEotXc9w" x="227" y="5" width="200" height="100"/>
         </children>
         <children xmi:type="notation:Shape" xmi:id="_7bolUJjbEemiJJjEotXc9w" type="Package_Shape_CN">
-          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_GoNLcJjcEemiJJjEotXc9w" source="PapyrusHyperLink_Page" references="_NHzhkJjbEemiJJjEotXc9w">
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_GoNLcJjcEemiJJjEotXc9w" source="PapyrusHyperLink_Page">
             <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_GoNLcZjcEemiJJjEotXc9w" key="tooltip_text" value="Needs table elicatated from the Internet stakeholder."/>
             <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_GoNLcpjcEemiJJjEotXc9w" key="pageName" value="Needs table elicatated from the Internet stakeholder."/>
             <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_GoNLc5jcEemiJJjEotXc9w" key="is_default_navigation" value="true"/>
+          </eAnnotations>
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_NBLtcJjhEemiJJjEotXc9w" source="PapyrusHyperLink_Page" references="_5sDEwJjgEemiJJjEotXc9w">
+            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_NBLtcZjhEemiJJjEotXc9w" key="tooltip_text" value="Needs table elicatated from the Internet stakeholder."/>
+            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_NBLtcpjhEemiJJjEotXc9w" key="pageName" value="Needs table elicatated from the Internet stakeholder."/>
+            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_NBLtc5jhEemiJJjEotXc9w" key="is_default_navigation" value="true"/>
           </eAnnotations>
           <children xmi:type="notation:DecorationNode" xmi:id="_7bolUpjbEemiJJjEotXc9w" type="Package_NameLabel_CN"/>
           <children xmi:type="notation:BasicCompartment" xmi:id="_7bolU5jbEemiJJjEotXc9w" type="Package_PackagedElementCompartment_CN">
@@ -1474,10 +1275,15 @@
           <layoutConstraint xmi:type="notation:Bounds" xmi:id="_7bolUZjbEemiJJjEotXc9w" x="447" y="5" width="200" height="100"/>
         </children>
         <children xmi:type="notation:Shape" xmi:id="_7bzkcJjbEemiJJjEotXc9w" type="Package_Shape_CN">
-          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_HKziMJjcEemiJJjEotXc9w" source="PapyrusHyperLink_Page" references="_ShdG0JjbEemiJJjEotXc9w">
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_HKziMJjcEemiJJjEotXc9w" source="PapyrusHyperLink_Page">
             <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_HKziMZjcEemiJJjEotXc9w" key="tooltip_text" value="Needs table elicatated from the EnergyProvider stakeholder."/>
             <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_HKziMpjcEemiJJjEotXc9w" key="pageName" value="Needs table elicatated from the EnergyProvider stakeholder."/>
             <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_HKziM5jcEemiJJjEotXc9w" key="is_default_navigation" value="true"/>
+          </eAnnotations>
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_NViz4JjhEemiJJjEotXc9w" source="PapyrusHyperLink_Page" references="_8PEbIJjgEemiJJjEotXc9w">
+            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_NViz4ZjhEemiJJjEotXc9w" key="tooltip_text" value="Needs table elicatated from the EnergyProvider stakeholder."/>
+            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_NViz4pjhEemiJJjEotXc9w" key="pageName" value="Needs table elicatated from the EnergyProvider stakeholder."/>
+            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_NViz45jhEemiJJjEotXc9w" key="is_default_navigation" value="true"/>
           </eAnnotations>
           <children xmi:type="notation:DecorationNode" xmi:id="_7bzkcpjbEemiJJjEotXc9w" type="Package_NameLabel_CN"/>
           <children xmi:type="notation:BasicCompartment" xmi:id="_7bzkc5jbEemiJJjEotXc9w" type="Package_PackagedElementCompartment_CN">
@@ -1488,10 +1294,15 @@
           <layoutConstraint xmi:type="notation:Bounds" xmi:id="_7bzkcZjbEemiJJjEotXc9w" x="7" y="125" width="200" height="100"/>
         </children>
         <children xmi:type="notation:Shape" xmi:id="_7cA_0JjbEemiJJjEotXc9w" type="Package_Shape_CN">
-          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_Ho_6EJjcEemiJJjEotXc9w" source="PapyrusHyperLink_Page" references="_dWpuwJjbEemiJJjEotXc9w">
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_Ho_6EJjcEemiJJjEotXc9w" source="PapyrusHyperLink_Page">
             <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_Ho_6EZjcEemiJJjEotXc9w" key="tooltip_text" value="Needs table elicatated from the HealthAuthority stakeholder."/>
             <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_Ho_6EpjcEemiJJjEotXc9w" key="pageName" value="Needs table elicatated from the HealthAuthority stakeholder."/>
             <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_Ho_6E5jcEemiJJjEotXc9w" key="is_default_navigation" value="true"/>
+          </eAnnotations>
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_NwGo8JjhEemiJJjEotXc9w" source="PapyrusHyperLink_Page" references="_9f80MJjgEemiJJjEotXc9w">
+            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_NwGo8ZjhEemiJJjEotXc9w" key="tooltip_text" value="Needs table elicatated from the HealthAuthority stakeholder."/>
+            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_NwGo8pjhEemiJJjEotXc9w" key="pageName" value="Needs table elicatated from the HealthAuthority stakeholder."/>
+            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_NwGo85jhEemiJJjEotXc9w" key="is_default_navigation" value="true"/>
           </eAnnotations>
           <children xmi:type="notation:DecorationNode" xmi:id="_7cCN8JjbEemiJJjEotXc9w" type="Package_NameLabel_CN"/>
           <children xmi:type="notation:BasicCompartment" xmi:id="_7cCN8ZjbEemiJJjEotXc9w" type="Package_PackagedElementCompartment_CN">
@@ -1502,10 +1313,15 @@
           <layoutConstraint xmi:type="notation:Bounds" xmi:id="_7cA_0ZjbEemiJJjEotXc9w" x="227" y="125" width="200" height="100"/>
         </children>
         <children xmi:type="notation:Shape" xmi:id="_7cQQYJjbEemiJJjEotXc9w" type="Package_Shape_CN">
-          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_IKsR4JjcEemiJJjEotXc9w" source="PapyrusHyperLink_Page" references="_iCAqoJjbEemiJJjEotXc9w">
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_IKsR4JjcEemiJJjEotXc9w" source="PapyrusHyperLink_Page">
             <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_IKsR4ZjcEemiJJjEotXc9w" key="tooltip_text" value="Needs table elicatated from the ElectronicDevice stakeholder."/>
             <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_IKsR4pjcEemiJJjEotXc9w" key="pageName" value="Needs table elicatated from the ElectronicDevice stakeholder."/>
             <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_IKsR45jcEemiJJjEotXc9w" key="is_default_navigation" value="true"/>
+          </eAnnotations>
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_OIabQJjhEemiJJjEotXc9w" source="PapyrusHyperLink_Page" references="_CE-ekJjhEemiJJjEotXc9w">
+            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_OIabQZjhEemiJJjEotXc9w" key="tooltip_text" value="Needs table elicatated from the ElectronicDevice stakeholder."/>
+            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_OIabQpjhEemiJJjEotXc9w" key="pageName" value="Needs table elicatated from the ElectronicDevice stakeholder."/>
+            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_OIabQ5jhEemiJJjEotXc9w" key="is_default_navigation" value="true"/>
           </eAnnotations>
           <children xmi:type="notation:DecorationNode" xmi:id="_7cQQYpjbEemiJJjEotXc9w" type="Package_NameLabel_CN"/>
           <children xmi:type="notation:BasicCompartment" xmi:id="_7cQQY5jbEemiJJjEotXc9w" type="Package_PackagedElementCompartment_CN">
@@ -1516,10 +1332,15 @@
           <layoutConstraint xmi:type="notation:Bounds" xmi:id="_7cQQYZjbEemiJJjEotXc9w" x="447" y="125" width="200" height="100"/>
         </children>
         <children xmi:type="notation:Shape" xmi:id="_7cbPgJjbEemiJJjEotXc9w" type="Package_Shape_CN">
-          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_IqTmEJjcEemiJJjEotXc9w" source="PapyrusHyperLink_Page" references="_pfyDwJjbEemiJJjEotXc9w">
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_IqTmEJjcEemiJJjEotXc9w" source="PapyrusHyperLink_Page">
             <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_IqTmEZjcEemiJJjEotXc9w" key="tooltip_text" value="Needs table elicatated from the PoliceStation stakeholder."/>
             <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_IqTmEpjcEemiJJjEotXc9w" key="pageName" value="Needs table elicatated from the PoliceStation stakeholder."/>
             <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_IqTmE5jcEemiJJjEotXc9w" key="is_default_navigation" value="true"/>
+          </eAnnotations>
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_Oh9jsJjhEemiJJjEotXc9w" source="PapyrusHyperLink_Page" references="_EZxLsJjhEemiJJjEotXc9w">
+            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_Oh9jsZjhEemiJJjEotXc9w" key="tooltip_text" value="Needs table elicatated from the PoliceStation stakeholder."/>
+            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_Oh9jspjhEemiJJjEotXc9w" key="pageName" value="Needs table elicatated from the PoliceStation stakeholder."/>
+            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_Oh9js5jhEemiJJjEotXc9w" key="is_default_navigation" value="true"/>
           </eAnnotations>
           <children xmi:type="notation:DecorationNode" xmi:id="_7cbPgpjbEemiJJjEotXc9w" type="Package_NameLabel_CN"/>
           <children xmi:type="notation:BasicCompartment" xmi:id="_7cbPg5jbEemiJJjEotXc9w" type="Package_PackagedElementCompartment_CN">
@@ -1530,10 +1351,15 @@
           <layoutConstraint xmi:type="notation:Bounds" xmi:id="_7cbPgZjbEemiJJjEotXc9w" x="7" y="245" width="200" height="100"/>
         </children>
         <children xmi:type="notation:Shape" xmi:id="_7cpR8JjbEemiJJjEotXc9w" type="Package_Shape_CN">
-          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_JilR4JjcEemiJJjEotXc9w" source="PapyrusHyperLink_Page" references="_u6_IMJjbEemiJJjEotXc9w">
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_JilR4JjcEemiJJjEotXc9w" source="PapyrusHyperLink_Page">
             <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_JilR4ZjcEemiJJjEotXc9w" key="tooltip_text" value="Needs table elicatated from the MedicalPeople stakeholder."/>
             <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_JilR4pjcEemiJJjEotXc9w" key="pageName" value="Needs table elicatated from the MedicalPeople stakeholder."/>
             <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_JilR45jcEemiJJjEotXc9w" key="is_default_navigation" value="true"/>
+          </eAnnotations>
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_O51RIJjhEemiJJjEotXc9w" source="PapyrusHyperLink_Page" references="_GZWd0JjhEemiJJjEotXc9w">
+            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_O51RIZjhEemiJJjEotXc9w" key="tooltip_text" value="Needs table elicatated from the MedicalPeople stakeholder."/>
+            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_O51RIpjhEemiJJjEotXc9w" key="pageName" value="Needs table elicatated from the MedicalPeople stakeholder."/>
+            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_O51RI5jhEemiJJjEotXc9w" key="is_default_navigation" value="true"/>
           </eAnnotations>
           <children xmi:type="notation:DecorationNode" xmi:id="_7cp5AJjbEemiJJjEotXc9w" type="Package_NameLabel_CN"/>
           <children xmi:type="notation:BasicCompartment" xmi:id="_7cp5AZjbEemiJJjEotXc9w" type="Package_PackagedElementCompartment_CN">
@@ -1544,10 +1370,15 @@
           <layoutConstraint xmi:type="notation:Bounds" xmi:id="_7cpR8ZjbEemiJJjEotXc9w" x="227" y="245" width="200" height="100"/>
         </children>
         <children xmi:type="notation:Shape" xmi:id="_7c04IJjbEemiJJjEotXc9w" type="Package_Shape_CN">
-          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_KNJ44JjcEemiJJjEotXc9w" source="PapyrusHyperLink_Page" references="_zRa88JjbEemiJJjEotXc9w">
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_KNJ44JjcEemiJJjEotXc9w" source="PapyrusHyperLink_Page">
             <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_KNJ44ZjcEemiJJjEotXc9w" key="tooltip_text" value="Needs table elicatated from the Inhabitant stakeholder."/>
             <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_KNJ44pjcEemiJJjEotXc9w" key="pageName" value="Needs table elicatated from the Inhabitant stakeholder."/>
             <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_KNJ445jcEemiJJjEotXc9w" key="is_default_navigation" value="true"/>
+          </eAnnotations>
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_PRva0JjhEemiJJjEotXc9w" source="PapyrusHyperLink_Page" references="_BnWj4JjgEemiJJjEotXc9w">
+            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_PRva0ZjhEemiJJjEotXc9w" key="tooltip_text" value="Needs table elicatated from the Inhabitant stakeholder."/>
+            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_PRva0pjhEemiJJjEotXc9w" key="pageName" value="Needs table elicatated from the Inhabitant stakeholder."/>
+            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_PRva05jhEemiJJjEotXc9w" key="is_default_navigation" value="true"/>
           </eAnnotations>
           <children xmi:type="notation:DecorationNode" xmi:id="_7c04IpjbEemiJJjEotXc9w" type="Package_NameLabel_CN"/>
           <children xmi:type="notation:BasicCompartment" xmi:id="_7c1fMJjbEemiJJjEotXc9w" type="Package_PackagedElementCompartment_CN">
@@ -1861,4 +1692,223 @@
       <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_sReLcZjfEemiJJjEotXc9w" id="(0.5,0.0)"/>
     </edges>
   </notation:Diagram>
+  <nattable:Table xmi:id="_BnWj4JjgEemiJJjEotXc9w" name="Needs table elicatated from the Inhabitant stakeholder." currentRowAxisProvider="_BnWj5ZjgEemiJJjEotXc9w" currentColumnAxisProvider="_BnWj4pjgEemiJJjEotXc9w" tableKindId="org.eclipse.papyrus.sysml16.table.requirementTree">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_BnXK8JjgEemiJJjEotXc9w" source="http://www.eclipse.org/papyrus/infra/nattable/version">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_BnXK8ZjgEemiJJjEotXc9w" key="version" value="1.3.0"/>
+    </eAnnotations>
+    <styles xmi:type="nattablestyle:IntListValueStyle" xmi:id="_BnWj4ZjgEemiJJjEotXc9w" name="hiddenCategoriesByDepth">
+      <intListValue>0</intListValue>
+      <intListValue>1</intListValue>
+      <intListValue>2</intListValue>
+      <intListValue>3</intListValue>
+      <intListValue>4</intListValue>
+    </styles>
+    <styles xmi:type="nattablestyle:BooleanValueStyle" xmi:id="_DnUQgJjgEemiJJjEotXc9w" name="wrapText" booleanValue="true"/>
+    <styles xmi:type="nattablestyle:BooleanValueStyle" xmi:id="_EENn4JjgEemiJJjEotXc9w" name="autoResizeCellHeight" booleanValue="true"/>
+    <context xmi:type="uml:Package" href="SHS_OperationalVision.uml#_OvAa0JjZEemiJJjEotXc9w"/>
+    <owner xmi:type="uml:Package" href="SHS_OperationalVision.uml#_OvAa0JjZEemiJJjEotXc9w"/>
+    <tableConfiguration xmi:type="nattableconfiguration:TableConfiguration" href="platform:/plugin/org.eclipse.papyrus.sysml16.nattable.requirement/resources/requirementTree.nattableconfiguration#_QpaQsF9WEeibbMBxjCBt2w"/>
+    <columnAxisProvidersHistory xmi:type="nattableaxisprovider:SlaveObjectAxisProvider" xmi:id="_BnWj4pjgEemiJJjEotXc9w" description="Provides the columns of the tables with a default configuration" name="Requirements Feature Columns Provider">
+      <axis xmi:type="nattableaxis:FeatureIdAxis" xmi:id="_BnWj5JjgEemiJJjEotXc9w" element="property_of_stereotype:/SysML::Requirements::AbstractRequirement::text">
+        <styles xmi:type="nattablestyle:IntValueStyle" xmi:id="_DOIUcJjgEemiJJjEotXc9w" name="axisWidth" intValue="525"/>
+        <manager xmi:type="nattableaxisconfiguration:AxisManagerRepresentation" href="platform:/plugin/org.eclipse.papyrus.sysml16.nattable.requirement/resources/requirementTree.nattableconfiguration#org.eclipse.papyrus.sysml16.nattable.requirementtree.stereotype.property.axis.manager"/>
+      </axis>
+    </columnAxisProvidersHistory>
+    <rowAxisProvidersHistory xmi:type="nattableaxisprovider:MasterObjectAxisProvider" xmi:id="_BnWj5ZjgEemiJJjEotXc9w" description="This axis provider manages the rows, according to the wanted hierarchy" name="HierarchicalRowAxisManager" disconnectSlave="true"/>
+    <localRowHeaderAxisConfiguration xmi:type="nattableaxisconfiguration:LocalTableHeaderAxisConfiguration" xmi:id="_FAYVMJjgEemiJJjEotXc9w" indexStyle="NUMERIC" displayIndex="false">
+      <styles xmi:type="nattablestyle:IntValueStyle" xmi:id="_FAYVMZjgEemiJJjEotXc9w" name="rowLabelWidth" intValue="222"/>
+    </localRowHeaderAxisConfiguration>
+  </nattable:Table>
+  <nattable:Table xmi:id="_0r9PAJjgEemiJJjEotXc9w" name="Needs table elicatated from the Pharmacy stakeholder." currentRowAxisProvider="_0r9PBZjgEemiJJjEotXc9w" currentColumnAxisProvider="_0r9PApjgEemiJJjEotXc9w" tableKindId="org.eclipse.papyrus.sysml16.table.requirementTree">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_0r92EJjgEemiJJjEotXc9w" source="http://www.eclipse.org/papyrus/infra/nattable/version">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_0r92EZjgEemiJJjEotXc9w" key="version" value="1.3.0"/>
+    </eAnnotations>
+    <styles xmi:type="nattablestyle:IntListValueStyle" xmi:id="_0r9PAZjgEemiJJjEotXc9w" name="hiddenCategoriesByDepth">
+      <intListValue>0</intListValue>
+      <intListValue>1</intListValue>
+      <intListValue>2</intListValue>
+      <intListValue>3</intListValue>
+      <intListValue>4</intListValue>
+    </styles>
+    <context xmi:type="uml:Package" href="SHS_OperationalVision.uml#_MRczQJjZEemiJJjEotXc9w"/>
+    <owner xmi:type="uml:Package" href="SHS_OperationalVision.uml#_MRczQJjZEemiJJjEotXc9w"/>
+    <tableConfiguration xmi:type="nattableconfiguration:TableConfiguration" href="platform:/plugin/org.eclipse.papyrus.sysml16.nattable.requirement/resources/requirementTree.nattableconfiguration#_QpaQsF9WEeibbMBxjCBt2w"/>
+    <columnAxisProvidersHistory xmi:type="nattableaxisprovider:SlaveObjectAxisProvider" xmi:id="_0r9PApjgEemiJJjEotXc9w" description="Provides the columns of the tables with a default configuration" name="Requirements Feature Columns Provider">
+      <axis xmi:type="nattableaxis:FeatureIdAxis" xmi:id="_0r9PA5jgEemiJJjEotXc9w" element="property_of_stereotype:/SysML::Requirements::AbstractRequirement::id">
+        <manager xmi:type="nattableaxisconfiguration:AxisManagerRepresentation" href="platform:/plugin/org.eclipse.papyrus.sysml16.nattable.requirement/resources/requirementTree.nattableconfiguration#org.eclipse.papyrus.sysml16.nattable.requirementtree.stereotype.property.axis.manager"/>
+      </axis>
+      <axis xmi:type="nattableaxis:FeatureIdAxis" xmi:id="_0r9PBJjgEemiJJjEotXc9w" element="property_of_stereotype:/SysML::Requirements::AbstractRequirement::text">
+        <manager xmi:type="nattableaxisconfiguration:AxisManagerRepresentation" href="platform:/plugin/org.eclipse.papyrus.sysml16.nattable.requirement/resources/requirementTree.nattableconfiguration#org.eclipse.papyrus.sysml16.nattable.requirementtree.stereotype.property.axis.manager"/>
+      </axis>
+    </columnAxisProvidersHistory>
+    <rowAxisProvidersHistory xmi:type="nattableaxisprovider:MasterObjectAxisProvider" xmi:id="_0r9PBZjgEemiJJjEotXc9w" description="This axis provider manages the rows, according to the wanted hierarchy" name="HierarchicalRowAxisManager" disconnectSlave="true"/>
+  </nattable:Table>
+  <nattable:Table xmi:id="_3NuoMJjgEemiJJjEotXc9w" name="Needs table elicatated from the SensorDevice stakeholder." currentRowAxisProvider="_3NuoNZjgEemiJJjEotXc9w" currentColumnAxisProvider="_3NuoMpjgEemiJJjEotXc9w" tableKindId="org.eclipse.papyrus.sysml16.table.requirementTree">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_3NvPQJjgEemiJJjEotXc9w" source="http://www.eclipse.org/papyrus/infra/nattable/version">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_3NvPQZjgEemiJJjEotXc9w" key="version" value="1.3.0"/>
+    </eAnnotations>
+    <styles xmi:type="nattablestyle:IntListValueStyle" xmi:id="_3NuoMZjgEemiJJjEotXc9w" name="hiddenCategoriesByDepth">
+      <intListValue>0</intListValue>
+      <intListValue>1</intListValue>
+      <intListValue>2</intListValue>
+      <intListValue>3</intListValue>
+      <intListValue>4</intListValue>
+    </styles>
+    <context xmi:type="uml:Package" href="SHS_OperationalVision.uml#_OB-VsJjZEemiJJjEotXc9w"/>
+    <owner xmi:type="uml:Package" href="SHS_OperationalVision.uml#_OB-VsJjZEemiJJjEotXc9w"/>
+    <tableConfiguration xmi:type="nattableconfiguration:TableConfiguration" href="platform:/plugin/org.eclipse.papyrus.sysml16.nattable.requirement/resources/requirementTree.nattableconfiguration#_QpaQsF9WEeibbMBxjCBt2w"/>
+    <columnAxisProvidersHistory xmi:type="nattableaxisprovider:SlaveObjectAxisProvider" xmi:id="_3NuoMpjgEemiJJjEotXc9w" description="Provides the columns of the tables with a default configuration" name="Requirements Feature Columns Provider">
+      <axis xmi:type="nattableaxis:FeatureIdAxis" xmi:id="_3NuoM5jgEemiJJjEotXc9w" element="property_of_stereotype:/SysML::Requirements::AbstractRequirement::id">
+        <manager xmi:type="nattableaxisconfiguration:AxisManagerRepresentation" href="platform:/plugin/org.eclipse.papyrus.sysml16.nattable.requirement/resources/requirementTree.nattableconfiguration#org.eclipse.papyrus.sysml16.nattable.requirementtree.stereotype.property.axis.manager"/>
+      </axis>
+      <axis xmi:type="nattableaxis:FeatureIdAxis" xmi:id="_3NuoNJjgEemiJJjEotXc9w" element="property_of_stereotype:/SysML::Requirements::AbstractRequirement::text">
+        <manager xmi:type="nattableaxisconfiguration:AxisManagerRepresentation" href="platform:/plugin/org.eclipse.papyrus.sysml16.nattable.requirement/resources/requirementTree.nattableconfiguration#org.eclipse.papyrus.sysml16.nattable.requirementtree.stereotype.property.axis.manager"/>
+      </axis>
+    </columnAxisProvidersHistory>
+    <rowAxisProvidersHistory xmi:type="nattableaxisprovider:MasterObjectAxisProvider" xmi:id="_3NuoNZjgEemiJJjEotXc9w" description="This axis provider manages the rows, according to the wanted hierarchy" name="HierarchicalRowAxisManager" disconnectSlave="true"/>
+  </nattable:Table>
+  <nattable:Table xmi:id="_5sDEwJjgEemiJJjEotXc9w" name="Needs table elicatated from the Internet stakeholder." currentRowAxisProvider="_5sDExZjgEemiJJjEotXc9w" currentColumnAxisProvider="_5sDEwpjgEemiJJjEotXc9w" tableKindId="org.eclipse.papyrus.sysml16.table.requirementTree">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_5sDr0JjgEemiJJjEotXc9w" source="http://www.eclipse.org/papyrus/infra/nattable/version">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_5sDr0ZjgEemiJJjEotXc9w" key="version" value="1.3.0"/>
+    </eAnnotations>
+    <styles xmi:type="nattablestyle:IntListValueStyle" xmi:id="_5sDEwZjgEemiJJjEotXc9w" name="hiddenCategoriesByDepth">
+      <intListValue>0</intListValue>
+      <intListValue>1</intListValue>
+      <intListValue>2</intListValue>
+      <intListValue>3</intListValue>
+      <intListValue>4</intListValue>
+    </styles>
+    <context xmi:type="uml:Package" href="SHS_OperationalVision.uml#_OJAx0JjZEemiJJjEotXc9w"/>
+    <owner xmi:type="uml:Package" href="SHS_OperationalVision.uml#_OJAx0JjZEemiJJjEotXc9w"/>
+    <tableConfiguration xmi:type="nattableconfiguration:TableConfiguration" href="platform:/plugin/org.eclipse.papyrus.sysml16.nattable.requirement/resources/requirementTree.nattableconfiguration#_QpaQsF9WEeibbMBxjCBt2w"/>
+    <columnAxisProvidersHistory xmi:type="nattableaxisprovider:SlaveObjectAxisProvider" xmi:id="_5sDEwpjgEemiJJjEotXc9w" description="Provides the columns of the tables with a default configuration" name="Requirements Feature Columns Provider">
+      <axis xmi:type="nattableaxis:FeatureIdAxis" xmi:id="_5sDEw5jgEemiJJjEotXc9w" element="property_of_stereotype:/SysML::Requirements::AbstractRequirement::id">
+        <manager xmi:type="nattableaxisconfiguration:AxisManagerRepresentation" href="platform:/plugin/org.eclipse.papyrus.sysml16.nattable.requirement/resources/requirementTree.nattableconfiguration#org.eclipse.papyrus.sysml16.nattable.requirementtree.stereotype.property.axis.manager"/>
+      </axis>
+      <axis xmi:type="nattableaxis:FeatureIdAxis" xmi:id="_5sDExJjgEemiJJjEotXc9w" element="property_of_stereotype:/SysML::Requirements::AbstractRequirement::text">
+        <manager xmi:type="nattableaxisconfiguration:AxisManagerRepresentation" href="platform:/plugin/org.eclipse.papyrus.sysml16.nattable.requirement/resources/requirementTree.nattableconfiguration#org.eclipse.papyrus.sysml16.nattable.requirementtree.stereotype.property.axis.manager"/>
+      </axis>
+    </columnAxisProvidersHistory>
+    <rowAxisProvidersHistory xmi:type="nattableaxisprovider:MasterObjectAxisProvider" xmi:id="_5sDExZjgEemiJJjEotXc9w" description="This axis provider manages the rows, according to the wanted hierarchy" name="HierarchicalRowAxisManager" disconnectSlave="true"/>
+  </nattable:Table>
+  <nattable:Table xmi:id="_8PEbIJjgEemiJJjEotXc9w" name="Needs table elicatated from the EnergyProvider stakeholder." currentRowAxisProvider="_8PEbJZjgEemiJJjEotXc9w" currentColumnAxisProvider="_8PEbIpjgEemiJJjEotXc9w" tableKindId="org.eclipse.papyrus.sysml16.table.requirementTree">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_8PFCMJjgEemiJJjEotXc9w" source="http://www.eclipse.org/papyrus/infra/nattable/version">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_8PFCMZjgEemiJJjEotXc9w" key="version" value="1.3.0"/>
+    </eAnnotations>
+    <styles xmi:type="nattablestyle:IntListValueStyle" xmi:id="_8PEbIZjgEemiJJjEotXc9w" name="hiddenCategoriesByDepth">
+      <intListValue>0</intListValue>
+      <intListValue>1</intListValue>
+      <intListValue>2</intListValue>
+      <intListValue>3</intListValue>
+      <intListValue>4</intListValue>
+    </styles>
+    <context xmi:type="uml:Package" href="SHS_OperationalVision.uml#_OLoA8JjZEemiJJjEotXc9w"/>
+    <owner xmi:type="uml:Package" href="SHS_OperationalVision.uml#_OLoA8JjZEemiJJjEotXc9w"/>
+    <tableConfiguration xmi:type="nattableconfiguration:TableConfiguration" href="platform:/plugin/org.eclipse.papyrus.sysml16.nattable.requirement/resources/requirementTree.nattableconfiguration#_QpaQsF9WEeibbMBxjCBt2w"/>
+    <columnAxisProvidersHistory xmi:type="nattableaxisprovider:SlaveObjectAxisProvider" xmi:id="_8PEbIpjgEemiJJjEotXc9w" description="Provides the columns of the tables with a default configuration" name="Requirements Feature Columns Provider">
+      <axis xmi:type="nattableaxis:FeatureIdAxis" xmi:id="_8PEbI5jgEemiJJjEotXc9w" element="property_of_stereotype:/SysML::Requirements::AbstractRequirement::id">
+        <manager xmi:type="nattableaxisconfiguration:AxisManagerRepresentation" href="platform:/plugin/org.eclipse.papyrus.sysml16.nattable.requirement/resources/requirementTree.nattableconfiguration#org.eclipse.papyrus.sysml16.nattable.requirementtree.stereotype.property.axis.manager"/>
+      </axis>
+      <axis xmi:type="nattableaxis:FeatureIdAxis" xmi:id="_8PEbJJjgEemiJJjEotXc9w" element="property_of_stereotype:/SysML::Requirements::AbstractRequirement::text">
+        <manager xmi:type="nattableaxisconfiguration:AxisManagerRepresentation" href="platform:/plugin/org.eclipse.papyrus.sysml16.nattable.requirement/resources/requirementTree.nattableconfiguration#org.eclipse.papyrus.sysml16.nattable.requirementtree.stereotype.property.axis.manager"/>
+      </axis>
+    </columnAxisProvidersHistory>
+    <rowAxisProvidersHistory xmi:type="nattableaxisprovider:MasterObjectAxisProvider" xmi:id="_8PEbJZjgEemiJJjEotXc9w" description="This axis provider manages the rows, according to the wanted hierarchy" name="HierarchicalRowAxisManager" disconnectSlave="true"/>
+  </nattable:Table>
+  <nattable:Table xmi:id="_9f80MJjgEemiJJjEotXc9w" name="Needs table elicatated from the HealthAuthority stakeholder." currentRowAxisProvider="_9f80NZjgEemiJJjEotXc9w" currentColumnAxisProvider="_9f80MpjgEemiJJjEotXc9w" tableKindId="org.eclipse.papyrus.sysml16.table.requirementTree">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_9f9bQJjgEemiJJjEotXc9w" source="http://www.eclipse.org/papyrus/infra/nattable/version">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_9f9bQZjgEemiJJjEotXc9w" key="version" value="1.3.0"/>
+    </eAnnotations>
+    <styles xmi:type="nattablestyle:IntListValueStyle" xmi:id="_9f80MZjgEemiJJjEotXc9w" name="hiddenCategoriesByDepth">
+      <intListValue>0</intListValue>
+      <intListValue>1</intListValue>
+      <intListValue>2</intListValue>
+      <intListValue>3</intListValue>
+      <intListValue>4</intListValue>
+    </styles>
+    <context xmi:type="uml:Package" href="SHS_OperationalVision.uml#_OXHfQJjZEemiJJjEotXc9w"/>
+    <owner xmi:type="uml:Package" href="SHS_OperationalVision.uml#_OXHfQJjZEemiJJjEotXc9w"/>
+    <tableConfiguration xmi:type="nattableconfiguration:TableConfiguration" href="platform:/plugin/org.eclipse.papyrus.sysml16.nattable.requirement/resources/requirementTree.nattableconfiguration#_QpaQsF9WEeibbMBxjCBt2w"/>
+    <columnAxisProvidersHistory xmi:type="nattableaxisprovider:SlaveObjectAxisProvider" xmi:id="_9f80MpjgEemiJJjEotXc9w" description="Provides the columns of the tables with a default configuration" name="Requirements Feature Columns Provider">
+      <axis xmi:type="nattableaxis:FeatureIdAxis" xmi:id="_9f80M5jgEemiJJjEotXc9w" element="property_of_stereotype:/SysML::Requirements::AbstractRequirement::id">
+        <manager xmi:type="nattableaxisconfiguration:AxisManagerRepresentation" href="platform:/plugin/org.eclipse.papyrus.sysml16.nattable.requirement/resources/requirementTree.nattableconfiguration#org.eclipse.papyrus.sysml16.nattable.requirementtree.stereotype.property.axis.manager"/>
+      </axis>
+      <axis xmi:type="nattableaxis:FeatureIdAxis" xmi:id="_9f80NJjgEemiJJjEotXc9w" element="property_of_stereotype:/SysML::Requirements::AbstractRequirement::text">
+        <manager xmi:type="nattableaxisconfiguration:AxisManagerRepresentation" href="platform:/plugin/org.eclipse.papyrus.sysml16.nattable.requirement/resources/requirementTree.nattableconfiguration#org.eclipse.papyrus.sysml16.nattable.requirementtree.stereotype.property.axis.manager"/>
+      </axis>
+    </columnAxisProvidersHistory>
+    <rowAxisProvidersHistory xmi:type="nattableaxisprovider:MasterObjectAxisProvider" xmi:id="_9f80NZjgEemiJJjEotXc9w" description="This axis provider manages the rows, according to the wanted hierarchy" name="HierarchicalRowAxisManager" disconnectSlave="true"/>
+  </nattable:Table>
+  <nattable:Table xmi:id="_CE-ekJjhEemiJJjEotXc9w" name="Needs table elicatated from the ElectronicDevice stakeholder." currentRowAxisProvider="_CE-elZjhEemiJJjEotXc9w" currentColumnAxisProvider="_CE-ekpjhEemiJJjEotXc9w" tableKindId="org.eclipse.papyrus.sysml16.table.requirementTree">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_CE_ssJjhEemiJJjEotXc9w" source="http://www.eclipse.org/papyrus/infra/nattable/version">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_CE_ssZjhEemiJJjEotXc9w" key="version" value="1.3.0"/>
+    </eAnnotations>
+    <styles xmi:type="nattablestyle:IntListValueStyle" xmi:id="_CE-ekZjhEemiJJjEotXc9w" name="hiddenCategoriesByDepth">
+      <intListValue>0</intListValue>
+      <intListValue>1</intListValue>
+      <intListValue>2</intListValue>
+      <intListValue>3</intListValue>
+      <intListValue>4</intListValue>
+    </styles>
+    <context xmi:type="uml:Package" href="SHS_OperationalVision.uml#_Omk3kJjZEemiJJjEotXc9w"/>
+    <owner xmi:type="uml:Package" href="SHS_OperationalVision.uml#_Omk3kJjZEemiJJjEotXc9w"/>
+    <tableConfiguration xmi:type="nattableconfiguration:TableConfiguration" href="platform:/plugin/org.eclipse.papyrus.sysml16.nattable.requirement/resources/requirementTree.nattableconfiguration#_QpaQsF9WEeibbMBxjCBt2w"/>
+    <columnAxisProvidersHistory xmi:type="nattableaxisprovider:SlaveObjectAxisProvider" xmi:id="_CE-ekpjhEemiJJjEotXc9w" description="Provides the columns of the tables with a default configuration" name="Requirements Feature Columns Provider">
+      <axis xmi:type="nattableaxis:FeatureIdAxis" xmi:id="_CE-ek5jhEemiJJjEotXc9w" element="property_of_stereotype:/SysML::Requirements::AbstractRequirement::id">
+        <manager xmi:type="nattableaxisconfiguration:AxisManagerRepresentation" href="platform:/plugin/org.eclipse.papyrus.sysml16.nattable.requirement/resources/requirementTree.nattableconfiguration#org.eclipse.papyrus.sysml16.nattable.requirementtree.stereotype.property.axis.manager"/>
+      </axis>
+      <axis xmi:type="nattableaxis:FeatureIdAxis" xmi:id="_CE-elJjhEemiJJjEotXc9w" element="property_of_stereotype:/SysML::Requirements::AbstractRequirement::text">
+        <manager xmi:type="nattableaxisconfiguration:AxisManagerRepresentation" href="platform:/plugin/org.eclipse.papyrus.sysml16.nattable.requirement/resources/requirementTree.nattableconfiguration#org.eclipse.papyrus.sysml16.nattable.requirementtree.stereotype.property.axis.manager"/>
+      </axis>
+    </columnAxisProvidersHistory>
+    <rowAxisProvidersHistory xmi:type="nattableaxisprovider:MasterObjectAxisProvider" xmi:id="_CE-elZjhEemiJJjEotXc9w" description="This axis provider manages the rows, according to the wanted hierarchy" name="HierarchicalRowAxisManager" disconnectSlave="true"/>
+  </nattable:Table>
+  <nattable:Table xmi:id="_EZxLsJjhEemiJJjEotXc9w" name="Needs table elicatated from the PoliceStation stakeholder." currentRowAxisProvider="_EZxLtZjhEemiJJjEotXc9w" currentColumnAxisProvider="_EZxLspjhEemiJJjEotXc9w" tableKindId="org.eclipse.papyrus.sysml16.table.requirementTree">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_EZxywJjhEemiJJjEotXc9w" source="http://www.eclipse.org/papyrus/infra/nattable/version">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_EZxywZjhEemiJJjEotXc9w" key="version" value="1.3.0"/>
+    </eAnnotations>
+    <styles xmi:type="nattablestyle:IntListValueStyle" xmi:id="_EZxLsZjhEemiJJjEotXc9w" name="hiddenCategoriesByDepth">
+      <intListValue>0</intListValue>
+      <intListValue>1</intListValue>
+      <intListValue>2</intListValue>
+      <intListValue>3</intListValue>
+      <intListValue>4</intListValue>
+    </styles>
+    <context xmi:type="uml:Package" href="SHS_OperationalVision.uml#_OplIQJjZEemiJJjEotXc9w"/>
+    <owner xmi:type="uml:Package" href="SHS_OperationalVision.uml#_OplIQJjZEemiJJjEotXc9w"/>
+    <tableConfiguration xmi:type="nattableconfiguration:TableConfiguration" href="platform:/plugin/org.eclipse.papyrus.sysml16.nattable.requirement/resources/requirementTree.nattableconfiguration#_QpaQsF9WEeibbMBxjCBt2w"/>
+    <columnAxisProvidersHistory xmi:type="nattableaxisprovider:SlaveObjectAxisProvider" xmi:id="_EZxLspjhEemiJJjEotXc9w" description="Provides the columns of the tables with a default configuration" name="Requirements Feature Columns Provider">
+      <axis xmi:type="nattableaxis:FeatureIdAxis" xmi:id="_EZxLs5jhEemiJJjEotXc9w" element="property_of_stereotype:/SysML::Requirements::AbstractRequirement::id">
+        <manager xmi:type="nattableaxisconfiguration:AxisManagerRepresentation" href="platform:/plugin/org.eclipse.papyrus.sysml16.nattable.requirement/resources/requirementTree.nattableconfiguration#org.eclipse.papyrus.sysml16.nattable.requirementtree.stereotype.property.axis.manager"/>
+      </axis>
+      <axis xmi:type="nattableaxis:FeatureIdAxis" xmi:id="_EZxLtJjhEemiJJjEotXc9w" element="property_of_stereotype:/SysML::Requirements::AbstractRequirement::text">
+        <manager xmi:type="nattableaxisconfiguration:AxisManagerRepresentation" href="platform:/plugin/org.eclipse.papyrus.sysml16.nattable.requirement/resources/requirementTree.nattableconfiguration#org.eclipse.papyrus.sysml16.nattable.requirementtree.stereotype.property.axis.manager"/>
+      </axis>
+    </columnAxisProvidersHistory>
+    <rowAxisProvidersHistory xmi:type="nattableaxisprovider:MasterObjectAxisProvider" xmi:id="_EZxLtZjhEemiJJjEotXc9w" description="This axis provider manages the rows, according to the wanted hierarchy" name="HierarchicalRowAxisManager" disconnectSlave="true"/>
+  </nattable:Table>
+  <nattable:Table xmi:id="_GZWd0JjhEemiJJjEotXc9w" name="Needs table elicatated from the MedicalPeople stakeholder." currentRowAxisProvider="_GZWd1ZjhEemiJJjEotXc9w" currentColumnAxisProvider="_GZWd0pjhEemiJJjEotXc9w" tableKindId="org.eclipse.papyrus.sysml16.table.requirementTree">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_GZXE4JjhEemiJJjEotXc9w" source="http://www.eclipse.org/papyrus/infra/nattable/version">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_GZXE4ZjhEemiJJjEotXc9w" key="version" value="1.3.0"/>
+    </eAnnotations>
+    <styles xmi:type="nattablestyle:IntListValueStyle" xmi:id="_GZWd0ZjhEemiJJjEotXc9w" name="hiddenCategoriesByDepth">
+      <intListValue>0</intListValue>
+      <intListValue>1</intListValue>
+      <intListValue>2</intListValue>
+      <intListValue>3</intListValue>
+      <intListValue>4</intListValue>
+    </styles>
+    <context xmi:type="uml:Package" href="SHS_OperationalVision.uml#_OsfSUJjZEemiJJjEotXc9w"/>
+    <owner xmi:type="uml:Package" href="SHS_OperationalVision.uml#_OsfSUJjZEemiJJjEotXc9w"/>
+    <tableConfiguration xmi:type="nattableconfiguration:TableConfiguration" href="platform:/plugin/org.eclipse.papyrus.sysml16.nattable.requirement/resources/requirementTree.nattableconfiguration#_QpaQsF9WEeibbMBxjCBt2w"/>
+    <columnAxisProvidersHistory xmi:type="nattableaxisprovider:SlaveObjectAxisProvider" xmi:id="_GZWd0pjhEemiJJjEotXc9w" description="Provides the columns of the tables with a default configuration" name="Requirements Feature Columns Provider">
+      <axis xmi:type="nattableaxis:FeatureIdAxis" xmi:id="_GZWd05jhEemiJJjEotXc9w" element="property_of_stereotype:/SysML::Requirements::AbstractRequirement::id">
+        <manager xmi:type="nattableaxisconfiguration:AxisManagerRepresentation" href="platform:/plugin/org.eclipse.papyrus.sysml16.nattable.requirement/resources/requirementTree.nattableconfiguration#org.eclipse.papyrus.sysml16.nattable.requirementtree.stereotype.property.axis.manager"/>
+      </axis>
+      <axis xmi:type="nattableaxis:FeatureIdAxis" xmi:id="_GZWd1JjhEemiJJjEotXc9w" element="property_of_stereotype:/SysML::Requirements::AbstractRequirement::text">
+        <manager xmi:type="nattableaxisconfiguration:AxisManagerRepresentation" href="platform:/plugin/org.eclipse.papyrus.sysml16.nattable.requirement/resources/requirementTree.nattableconfiguration#org.eclipse.papyrus.sysml16.nattable.requirementtree.stereotype.property.axis.manager"/>
+      </axis>
+    </columnAxisProvidersHistory>
+    <rowAxisProvidersHistory xmi:type="nattableaxisprovider:MasterObjectAxisProvider" xmi:id="_GZWd1ZjhEemiJJjEotXc9w" description="This axis provider manages the rows, according to the wanted hierarchy" name="HierarchicalRowAxisManager" disconnectSlave="true"/>
+  </nattable:Table>
 </xmi:XMI>

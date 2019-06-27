@@ -75,7 +75,9 @@
 </body>
         </ownedComment>
         <packagedElement xmi:type="uml:Class" xmi:id="_ziSf8JjaEemiJJjEotXc9w" name="DisabilityAssistance">
-          <nestedClassifier xmi:type="uml:Class" xmi:id="_T7NLMJjfEemiJJjEotXc9w" name="SafetyAssistance"/>
+          <nestedClassifier xmi:type="uml:Class" xmi:id="_T7NLMJjfEemiJJjEotXc9w" name="SafetyAssistance">
+            <nestedClassifier xmi:type="uml:Class" xmi:id="_H0pMkJjgEemiJJjEotXc9w" name="Requirement1"/>
+          </nestedClassifier>
           <nestedClassifier xmi:type="uml:Class" xmi:id="_YFSmAJjfEemiJJjEotXc9w" name="SecurityAssistance"/>
           <nestedClassifier xmi:type="uml:Class" xmi:id="_aZ2poJjfEemiJJjEotXc9w" name="Entertainment"/>
         </packagedElement>
@@ -669,4 +671,5 @@ N.B.: the comment may be hidden and shown as for example in a table gathering al
   <Requirements:Requirement xmi:id="_T7SDsJjfEemiJJjEotXc9w" base_NamedElement="_T7NLMJjfEemiJJjEotXc9w" text="Inhabitant shall be assisted by the SHS in his/her every day housing to supply her/his diabilities." base_Class="_T7NLMJjfEemiJJjEotXc9w"/>
   <Requirements:Requirement xmi:id="_YFXegJjfEemiJJjEotXc9w" base_NamedElement="_YFSmAJjfEemiJJjEotXc9w" base_Class="_YFSmAJjfEemiJJjEotXc9w"/>
   <Requirements:Requirement xmi:id="_aZ67EJjfEemiJJjEotXc9w" base_NamedElement="_aZ2poJjfEemiJJjEotXc9w" base_Class="_aZ2poJjfEemiJJjEotXc9w"/>
+  <Requirements:Requirement xmi:id="_H0uFEJjgEemiJJjEotXc9w" base_NamedElement="_H0pMkJjgEemiJJjEotXc9w" base_Class="_H0pMkJjgEemiJJjEotXc9w"/>
 </xmi:XMI>
