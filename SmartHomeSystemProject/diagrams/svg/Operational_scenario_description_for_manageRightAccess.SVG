@@ -102,52 +102,52 @@
 <path d="M-1 -1 L878 -1 L878 1021 L-1 1021 L-1 -1 Z"/>
 </clipPath>
 <clipPath clipPathUnits="userSpaceOnUse" id="clipPath23">
-<path d="M185 164 L257 164 L257 182 L185 182 L185 164 Z"/>
+<path d="M399 103 L610 103 L610 121 L399 121 L399 103 Z"/>
 </clipPath>
 <clipPath clipPathUnits="userSpaceOnUse" id="clipPath24">
-<path d="M613 178 L632 178 L632 193 L613 193 L613 178 Z"/>
+<path d="M613 118 L632 118 L632 133 L613 133 L613 118 Z"/>
 </clipPath>
 <clipPath clipPathUnits="userSpaceOnUse" id="clipPath25">
-<path d="M404 103 L615 103 L615 121 L404 121 L404 103 Z"/>
-</clipPath>
-<clipPath clipPathUnits="userSpaceOnUse" id="clipPath26">
-<path d="M623 118 L642 118 L642 133 L623 133 L623 118 Z"/>
-</clipPath>
-<clipPath clipPathUnits="userSpaceOnUse" id="clipPath27">
-<path d="M467 194 L539 194 L539 212 L467 212 L467 194 Z"/>
-</clipPath>
-<clipPath clipPathUnits="userSpaceOnUse" id="clipPath28">
-<path d="M374 208 L393 208 L393 223 L374 223 L374 208 Z"/>
-</clipPath>
-<clipPath clipPathUnits="userSpaceOnUse" id="clipPath29">
-<path d="M182 258 L287 258 L287 276 L182 276 L182 258 Z"/>
-</clipPath>
-<clipPath clipPathUnits="userSpaceOnUse" id="clipPath30">
-<path d="M338 273 L357 273 L357 288 L338 288 L338 273 Z"/>
-</clipPath>
-<clipPath clipPathUnits="userSpaceOnUse" id="clipPath31">
-<path d="M509 129 L582 129 L582 147 L509 147 L509 129 Z"/>
-</clipPath>
-<clipPath clipPathUnits="userSpaceOnUse" id="clipPath32">
-<path d="M119 143 L138 143 L138 158 L119 158 L119 143 Z"/>
-</clipPath>
-<clipPath clipPathUnits="userSpaceOnUse" id="clipPath33">
 <path d="M189 219 L261 219 L261 237 L189 237 L189 219 Z"/>
 </clipPath>
-<clipPath clipPathUnits="userSpaceOnUse" id="clipPath34">
+<clipPath clipPathUnits="userSpaceOnUse" id="clipPath26">
 <path d="M109 233 L128 233 L128 248 L109 248 L109 233 Z"/>
 </clipPath>
-<clipPath clipPathUnits="userSpaceOnUse" id="clipPath35">
+<clipPath clipPathUnits="userSpaceOnUse" id="clipPath27">
 <path d="M199 339 L264 339 L264 357 L199 357 L199 339 Z"/>
 </clipPath>
-<clipPath clipPathUnits="userSpaceOnUse" id="clipPath36">
+<clipPath clipPathUnits="userSpaceOnUse" id="clipPath28">
 <path d="M109 328 L128 328 L128 343 L109 343 L109 328 Z"/>
 </clipPath>
-<clipPath clipPathUnits="userSpaceOnUse" id="clipPath37">
+<clipPath clipPathUnits="userSpaceOnUse" id="clipPath29">
 <path d="M141 78 L328 78 L328 96 L141 96 L141 78 Z"/>
 </clipPath>
-<clipPath clipPathUnits="userSpaceOnUse" id="clipPath38">
+<clipPath clipPathUnits="userSpaceOnUse" id="clipPath30">
 <path d="M338 93 L357 93 L357 108 L338 108 L338 93 Z"/>
+</clipPath>
+<clipPath clipPathUnits="userSpaceOnUse" id="clipPath31">
+<path d="M185 164 L257 164 L257 182 L185 182 L185 164 Z"/>
+</clipPath>
+<clipPath clipPathUnits="userSpaceOnUse" id="clipPath32">
+<path d="M613 178 L632 178 L632 193 L613 193 L613 178 Z"/>
+</clipPath>
+<clipPath clipPathUnits="userSpaceOnUse" id="clipPath33">
+<path d="M182 258 L287 258 L287 276 L182 276 L182 258 Z"/>
+</clipPath>
+<clipPath clipPathUnits="userSpaceOnUse" id="clipPath34">
+<path d="M338 273 L357 273 L357 288 L338 288 L338 273 Z"/>
+</clipPath>
+<clipPath clipPathUnits="userSpaceOnUse" id="clipPath35">
+<path d="M467 194 L539 194 L539 212 L467 212 L467 194 Z"/>
+</clipPath>
+<clipPath clipPathUnits="userSpaceOnUse" id="clipPath36">
+<path d="M374 208 L393 208 L393 223 L374 223 L374 208 Z"/>
+</clipPath>
+<clipPath clipPathUnits="userSpaceOnUse" id="clipPath37">
+<path d="M509 129 L582 129 L582 147 L509 147 L509 129 Z"/>
+</clipPath>
+<clipPath clipPathUnits="userSpaceOnUse" id="clipPath38">
+<path d="M119 143 L138 143 L138 158 L119 158 L119 143 Z"/>
 </clipPath>
 </defs>
 <g fill="url(#linearGradient1)" font-family="'Segoe UI'" stroke-linejoin="round" stroke="url(#linearGradient1)" stroke-width="0" stroke-miterlimit="0">
@@ -184,71 +184,71 @@
 <rect x="630" y="124" clip-path="url(#clipPath20)" fill="none" width="19" stroke-dasharray="none" rx="0" ry="0" height="90" stroke="black"/>
 <rect x="10" y="10" clip-path="url(#clipPath21)" fill="none" width="856" stroke-dasharray="none" rx="0" ry="0" height="756" stroke="black"/>
 </g>
-<g text-rendering="optimizeLegibility" stroke-width="1.1" stroke-dasharray="6.6,3.3" font-family="'Segoe UI'" stroke-linecap="butt">
-<line clip-path="url(#clipPath22)" fill="none" x1="120" x2="630" y1="185" y2="185"/>
-<text xml:space="preserve" x="186" y="178" clip-path="url(#clipPath23)" stroke="none">acknowledge</text>
-<line clip-path="url(#clipPath24)" fill="none" x1="614" x2="630" y1="191" y2="185" stroke-dasharray="none"/>
-<line clip-path="url(#clipPath24)" fill="none" x1="630" x2="614" y1="185" y2="179" stroke-dasharray="none"/>
-<line clip-path="url(#clipPath22)" fill="none" x1="375" x2="640" y1="125" y2="125" stroke-dasharray="none"/>
-<text x="405" y="117" clip-path="url(#clipPath25)" stroke-dasharray="none" stroke="none" xml:space="preserve">informRightAccessModificationRequest</text>
-<polygon stroke-dasharray="none" clip-path="url(#clipPath26)" points=" 640 125 624 131 624 119" stroke="none"/>
-<polygon fill="none" stroke-dasharray="none" clip-path="url(#clipPath26)" points=" 640 125 624 131 624 119"/>
-<line clip-path="url(#clipPath22)" fill="none" x1="630" x2="375" y1="215" y2="215"/>
-<text xml:space="preserve" x="468" y="208" clip-path="url(#clipPath27)" stroke="none">acknowledge</text>
-<line clip-path="url(#clipPath28)" fill="none" x1="391" x2="375" y1="209" y2="215" stroke-dasharray="none"/>
-<line clip-path="url(#clipPath28)" fill="none" x1="375" x2="391" y1="215" y2="221" stroke-dasharray="none"/>
-<line clip-path="url(#clipPath22)" fill="none" x1="110" x2="355" y1="280" y2="280" stroke-dasharray="none"/>
-<text x="183" y="272" clip-path="url(#clipPath29)" stroke-dasharray="none" stroke="none" xml:space="preserve">changeAccessRight</text>
-<polygon stroke-dasharray="none" clip-path="url(#clipPath30)" points=" 355 280 339 286 339 274" stroke="none"/>
-<polygon fill="none" stroke-dasharray="none" clip-path="url(#clipPath30)" points=" 355 280 339 286 339 274"/>
-<line clip-path="url(#clipPath22)" fill="none" x1="630" x2="120" y1="150" y2="150" stroke-dasharray="none"/>
-<text x="510" y="143" clip-path="url(#clipPath31)" stroke-dasharray="none" stroke="none" xml:space="preserve">checkIdentity</text>
-<polygon stroke-dasharray="none" clip-path="url(#clipPath32)" points=" 120 150 136 144 136 156" stroke="none"/>
-<polygon fill="none" stroke-dasharray="none" clip-path="url(#clipPath32)" points=" 120 150 136 144 136 156"/>
-<line clip-path="url(#clipPath22)" fill="none" x1="355" x2="110" y1="240" y2="240"/>
-<text xml:space="preserve" x="190" y="233" clip-path="url(#clipPath33)" stroke="none">acknowledge</text>
-<line clip-path="url(#clipPath34)" fill="none" x1="126" x2="110" y1="234" y2="240" stroke-dasharray="none"/>
-<line clip-path="url(#clipPath34)" fill="none" x1="110" x2="126" y1="240" y2="246" stroke-dasharray="none"/>
-<line clip-path="url(#clipPath22)" fill="none" x1="355" x2="110" y1="335" y2="335"/>
-<text xml:space="preserve" x="200" y="353" clip-path="url(#clipPath35)" stroke="none">ackowledge</text>
-<line clip-path="url(#clipPath36)" fill="none" x1="126" x2="110" y1="329" y2="335" stroke-dasharray="none"/>
-<line clip-path="url(#clipPath36)" fill="none" x1="110" x2="126" y1="335" y2="341" stroke-dasharray="none"/>
-<line clip-path="url(#clipPath22)" fill="none" x1="110" x2="355" y1="100" y2="100" stroke-dasharray="none"/>
-<text x="142" y="92" clip-path="url(#clipPath37)" stroke-dasharray="none" stroke="none" xml:space="preserve">startSecurityAccessChangeRequest</text>
-<polygon stroke-dasharray="none" clip-path="url(#clipPath38)" points=" 355 100 339 106 339 94" stroke="none"/>
-<polygon fill="none" stroke-dasharray="none" clip-path="url(#clipPath38)" points=" 355 100 339 106 339 94"/>
-<line clip-path="url(#clipPath22)" fill="none" x1="110" x2="355" y1="100" y2="100" stroke-dasharray="none"/>
-<text x="142" y="92" clip-path="url(#clipPath37)" stroke-dasharray="none" stroke="none" xml:space="preserve">startSecurityAccessChangeRequest</text>
-<polygon stroke-dasharray="none" clip-path="url(#clipPath38)" points=" 355 100 339 106 339 94" stroke="none"/>
-<polygon fill="none" stroke-dasharray="none" clip-path="url(#clipPath38)" points=" 355 100 339 106 339 94"/>
-<line clip-path="url(#clipPath22)" fill="none" x1="355" x2="110" y1="240" y2="240"/>
-<text xml:space="preserve" x="190" y="233" clip-path="url(#clipPath33)" stroke="none">acknowledge</text>
-<line clip-path="url(#clipPath34)" fill="none" x1="126" x2="110" y1="234" y2="240" stroke-dasharray="none"/>
-<line clip-path="url(#clipPath34)" fill="none" x1="110" x2="126" y1="240" y2="246" stroke-dasharray="none"/>
-<line clip-path="url(#clipPath22)" fill="none" x1="375" x2="640" y1="125" y2="125" stroke-dasharray="none"/>
-<text x="405" y="117" clip-path="url(#clipPath25)" stroke-dasharray="none" stroke="none" xml:space="preserve">informRightAccessModificationRequest</text>
-<polygon stroke-dasharray="none" clip-path="url(#clipPath26)" points=" 640 125 624 131 624 119" stroke="none"/>
-<polygon fill="none" stroke-dasharray="none" clip-path="url(#clipPath26)" points=" 640 125 624 131 624 119"/>
-<line clip-path="url(#clipPath22)" fill="none" x1="630" x2="375" y1="215" y2="215"/>
-<text xml:space="preserve" x="468" y="208" clip-path="url(#clipPath27)" stroke="none">acknowledge</text>
-<line clip-path="url(#clipPath28)" fill="none" x1="391" x2="375" y1="209" y2="215" stroke-dasharray="none"/>
-<line clip-path="url(#clipPath28)" fill="none" x1="375" x2="391" y1="215" y2="221" stroke-dasharray="none"/>
-<line clip-path="url(#clipPath22)" fill="none" x1="630" x2="120" y1="150" y2="150" stroke-dasharray="none"/>
-<text x="510" y="143" clip-path="url(#clipPath31)" stroke-dasharray="none" stroke="none" xml:space="preserve">checkIdentity</text>
-<polygon stroke-dasharray="none" clip-path="url(#clipPath32)" points=" 120 150 136 144 136 156" stroke="none"/>
-<polygon fill="none" stroke-dasharray="none" clip-path="url(#clipPath32)" points=" 120 150 136 144 136 156"/>
-<line clip-path="url(#clipPath22)" fill="none" x1="120" x2="630" y1="185" y2="185"/>
-<text xml:space="preserve" x="186" y="178" clip-path="url(#clipPath23)" stroke="none">acknowledge</text>
-<line clip-path="url(#clipPath24)" fill="none" x1="614" x2="630" y1="191" y2="185" stroke-dasharray="none"/>
-<line clip-path="url(#clipPath24)" fill="none" x1="630" x2="614" y1="185" y2="179" stroke-dasharray="none"/>
-<line clip-path="url(#clipPath22)" fill="none" x1="110" x2="355" y1="280" y2="280" stroke-dasharray="none"/>
-<text x="183" y="272" clip-path="url(#clipPath29)" stroke-dasharray="none" stroke="none" xml:space="preserve">changeAccessRight</text>
-<polygon stroke-dasharray="none" clip-path="url(#clipPath30)" points=" 355 280 339 286 339 274" stroke="none"/>
-<polygon fill="none" stroke-dasharray="none" clip-path="url(#clipPath30)" points=" 355 280 339 286 339 274"/>
-<line clip-path="url(#clipPath22)" fill="none" x1="355" x2="110" y1="335" y2="335"/>
-<text xml:space="preserve" x="200" y="353" clip-path="url(#clipPath35)" stroke="none">ackowledge</text>
-<line clip-path="url(#clipPath36)" fill="none" x1="126" x2="110" y1="329" y2="335" stroke-dasharray="none"/>
-<line clip-path="url(#clipPath36)" fill="none" x1="110" x2="126" y1="335" y2="341" stroke-dasharray="none"/>
+<g text-rendering="optimizeLegibility" stroke-width="1.1" font-family="'Segoe UI'" stroke-linecap="butt">
+<line clip-path="url(#clipPath22)" fill="none" x1="375" x2="630" y1="125" y2="125"/>
+<text xml:space="preserve" x="400" y="117" clip-path="url(#clipPath23)" stroke="none">informRightAccessModificationRequest</text>
+<polygon clip-path="url(#clipPath24)" points=" 630 125 614 131 614 119" stroke="none"/>
+<polygon fill="none" clip-path="url(#clipPath24)" points=" 630 125 614 131 614 119"/>
+<line clip-path="url(#clipPath22)" fill="none" x1="355" x2="110" y1="240" y2="240" stroke-dasharray="6.6,3.3"/>
+<text x="190" y="233" clip-path="url(#clipPath25)" stroke-dasharray="6.6,3.3" stroke="none" xml:space="preserve">acknowledge</text>
+<line clip-path="url(#clipPath26)" fill="none" x1="126" x2="110" y1="234" y2="240"/>
+<line clip-path="url(#clipPath26)" fill="none" x1="110" x2="126" y1="240" y2="246"/>
+<line clip-path="url(#clipPath22)" fill="none" x1="355" x2="110" y1="335" y2="335" stroke-dasharray="6.6,3.3"/>
+<text x="200" y="353" clip-path="url(#clipPath27)" stroke-dasharray="6.6,3.3" stroke="none" xml:space="preserve">ackowledge</text>
+<line clip-path="url(#clipPath28)" fill="none" x1="126" x2="110" y1="329" y2="335"/>
+<line clip-path="url(#clipPath28)" fill="none" x1="110" x2="126" y1="335" y2="341"/>
+<line clip-path="url(#clipPath22)" fill="none" x1="110" x2="355" y1="100" y2="100"/>
+<text xml:space="preserve" x="142" y="92" clip-path="url(#clipPath29)" stroke="none">startSecurityAccessChangeRequest</text>
+<polygon clip-path="url(#clipPath30)" points=" 355 100 339 106 339 94" stroke="none"/>
+<polygon fill="none" clip-path="url(#clipPath30)" points=" 355 100 339 106 339 94"/>
+<line clip-path="url(#clipPath22)" fill="none" x1="120" x2="630" y1="185" y2="185" stroke-dasharray="6.6,3.3"/>
+<text x="186" y="178" clip-path="url(#clipPath31)" stroke-dasharray="6.6,3.3" stroke="none" xml:space="preserve">acknowledge</text>
+<line clip-path="url(#clipPath32)" fill="none" x1="614" x2="630" y1="191" y2="185"/>
+<line clip-path="url(#clipPath32)" fill="none" x1="630" x2="614" y1="185" y2="179"/>
+<line clip-path="url(#clipPath22)" fill="none" x1="110" x2="355" y1="280" y2="280"/>
+<text xml:space="preserve" x="183" y="272" clip-path="url(#clipPath33)" stroke="none">changeAccessRight</text>
+<polygon clip-path="url(#clipPath34)" points=" 355 280 339 286 339 274" stroke="none"/>
+<polygon fill="none" clip-path="url(#clipPath34)" points=" 355 280 339 286 339 274"/>
+<line clip-path="url(#clipPath22)" fill="none" x1="630" x2="375" y1="215" y2="215" stroke-dasharray="6.6,3.3"/>
+<text x="468" y="208" clip-path="url(#clipPath35)" stroke-dasharray="6.6,3.3" stroke="none" xml:space="preserve">acknowledge</text>
+<line clip-path="url(#clipPath36)" fill="none" x1="391" x2="375" y1="209" y2="215"/>
+<line clip-path="url(#clipPath36)" fill="none" x1="375" x2="391" y1="215" y2="221"/>
+<line clip-path="url(#clipPath22)" fill="none" x1="630" x2="120" y1="150" y2="150"/>
+<text xml:space="preserve" x="510" y="143" clip-path="url(#clipPath37)" stroke="none">checkIdentity</text>
+<polygon clip-path="url(#clipPath38)" points=" 120 150 136 144 136 156" stroke="none"/>
+<polygon fill="none" clip-path="url(#clipPath38)" points=" 120 150 136 144 136 156"/>
+<line clip-path="url(#clipPath22)" fill="none" x1="110" x2="355" y1="100" y2="100"/>
+<text xml:space="preserve" x="142" y="92" clip-path="url(#clipPath29)" stroke="none">startSecurityAccessChangeRequest</text>
+<polygon clip-path="url(#clipPath30)" points=" 355 100 339 106 339 94" stroke="none"/>
+<polygon fill="none" clip-path="url(#clipPath30)" points=" 355 100 339 106 339 94"/>
+<line clip-path="url(#clipPath22)" fill="none" x1="355" x2="110" y1="240" y2="240" stroke-dasharray="6.6,3.3"/>
+<text x="190" y="233" clip-path="url(#clipPath25)" stroke-dasharray="6.6,3.3" stroke="none" xml:space="preserve">acknowledge</text>
+<line clip-path="url(#clipPath26)" fill="none" x1="126" x2="110" y1="234" y2="240"/>
+<line clip-path="url(#clipPath26)" fill="none" x1="110" x2="126" y1="240" y2="246"/>
+<line clip-path="url(#clipPath22)" fill="none" x1="375" x2="630" y1="125" y2="125"/>
+<text xml:space="preserve" x="400" y="117" clip-path="url(#clipPath23)" stroke="none">informRightAccessModificationRequest</text>
+<polygon clip-path="url(#clipPath24)" points=" 630 125 614 131 614 119" stroke="none"/>
+<polygon fill="none" clip-path="url(#clipPath24)" points=" 630 125 614 131 614 119"/>
+<line clip-path="url(#clipPath22)" fill="none" x1="630" x2="375" y1="215" y2="215" stroke-dasharray="6.6,3.3"/>
+<text x="468" y="208" clip-path="url(#clipPath35)" stroke-dasharray="6.6,3.3" stroke="none" xml:space="preserve">acknowledge</text>
+<line clip-path="url(#clipPath36)" fill="none" x1="391" x2="375" y1="209" y2="215"/>
+<line clip-path="url(#clipPath36)" fill="none" x1="375" x2="391" y1="215" y2="221"/>
+<line clip-path="url(#clipPath22)" fill="none" x1="630" x2="120" y1="150" y2="150"/>
+<text xml:space="preserve" x="510" y="143" clip-path="url(#clipPath37)" stroke="none">checkIdentity</text>
+<polygon clip-path="url(#clipPath38)" points=" 120 150 136 144 136 156" stroke="none"/>
+<polygon fill="none" clip-path="url(#clipPath38)" points=" 120 150 136 144 136 156"/>
+<line clip-path="url(#clipPath22)" fill="none" x1="120" x2="630" y1="185" y2="185" stroke-dasharray="6.6,3.3"/>
+<text x="186" y="178" clip-path="url(#clipPath31)" stroke-dasharray="6.6,3.3" stroke="none" xml:space="preserve">acknowledge</text>
+<line clip-path="url(#clipPath32)" fill="none" x1="614" x2="630" y1="191" y2="185"/>
+<line clip-path="url(#clipPath32)" fill="none" x1="630" x2="614" y1="185" y2="179"/>
+<line clip-path="url(#clipPath22)" fill="none" x1="110" x2="355" y1="280" y2="280"/>
+<text xml:space="preserve" x="183" y="272" clip-path="url(#clipPath33)" stroke="none">changeAccessRight</text>
+<polygon clip-path="url(#clipPath34)" points=" 355 280 339 286 339 274" stroke="none"/>
+<polygon fill="none" clip-path="url(#clipPath34)" points=" 355 280 339 286 339 274"/>
+<line clip-path="url(#clipPath22)" fill="none" x1="355" x2="110" y1="335" y2="335" stroke-dasharray="6.6,3.3"/>
+<text x="200" y="353" clip-path="url(#clipPath27)" stroke-dasharray="6.6,3.3" stroke="none" xml:space="preserve">ackowledge</text>
+<line clip-path="url(#clipPath28)" fill="none" x1="126" x2="110" y1="329" y2="335"/>
+<line clip-path="url(#clipPath28)" fill="none" x1="110" x2="126" y1="335" y2="341"/>
 </g>
 </g>
 </svg>

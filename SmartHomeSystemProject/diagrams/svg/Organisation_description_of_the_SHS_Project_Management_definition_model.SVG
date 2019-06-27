@@ -3,97 +3,97 @@
 <defs id="genericDefs"/>
 <g>
 <defs id="defs1">
-<linearGradient x1="185" x2="185" y1="45" gradientUnits="userSpaceOnUse" y2="151" xlink:type="simple" xlink:actuate="onLoad" id="linearGradient1" xlink:show="other" spreadMethod="pad">
+<linearGradient x1="185" x2="185" y1="43" gradientUnits="userSpaceOnUse" y2="149" xlink:type="simple" xlink:actuate="onLoad" id="linearGradient1" xlink:show="other" spreadMethod="pad">
 <stop stop-opacity="1" stop-color="white" offset="0%"/>
 <stop stop-opacity="1" stop-color="white" offset="100%"/>
 </linearGradient>
 <clipPath clipPathUnits="userSpaceOnUse" id="clipPath1">
-<path d="M10 10 L10 420 L565 420 L565 32 L227 32 L227 10 Z"/>
+<path d="M10 10 L10 420 L565 420 L565 30 L217 30 L217 10 Z"/>
 </clipPath>
 <clipPath clipPathUnits="userSpaceOnUse" id="clipPath2">
 <path d="M7 7 L569 7 L569 424 L7 424 L7 7 Z"/>
 </clipPath>
 <clipPath clipPathUnits="userSpaceOnUse" id="clipPath3">
-<path d="M10 12 L567 12 L567 32 L10 32 L10 12 Z"/>
+<path d="M10 12 L567 12 L567 30 L10 30 L10 12 Z"/>
 </clipPath>
 <clipPath clipPathUnits="userSpaceOnUse" id="clipPath4">
-<path d="M34 12 L224 12 L224 30 L34 30 L34 12 Z"/>
+<path d="M29 12 L219 12 L219 30 L29 30 L29 12 Z"/>
 </clipPath>
 <clipPath clipPathUnits="userSpaceOnUse" id="clipPath5">
-<path d="M25 165 L25 280 L545 280 L545 187 L165 187 L165 165 Z"/>
+<path d="M25 163 L25 278 L545 278 L545 183 L155 183 L155 163 Z"/>
 </clipPath>
 <clipPath clipPathUnits="userSpaceOnUse" id="clipPath6">
-<path d="M22 162 L549 162 L549 284 L22 284 L22 162 Z"/>
+<path d="M22 160 L549 160 L549 282 L22 282 L22 160 Z"/>
 </clipPath>
 <clipPath clipPathUnits="userSpaceOnUse" id="clipPath7">
-<path d="M30 167 L162 167 L162 185 L30 185 L30 167 Z"/>
+<path d="M25 165 L157 165 L157 183 L25 183 L25 165 Z"/>
 </clipPath>
 <clipPath clipPathUnits="userSpaceOnUse" id="clipPath8">
-<path d="M25 186 L547 186 L547 282 L25 282 L25 186 Z"/>
+<path d="M25 182 L547 182 L547 280 L25 280 L25 182 Z"/>
 </clipPath>
 <clipPath clipPathUnits="userSpaceOnUse" id="clipPath9">
-<path d="M185 45 L185 150 L385 150 L385 45 Z"/>
+<path d="M185 43 L185 148 L385 148 L385 43 Z"/>
 </clipPath>
 <clipPath clipPathUnits="userSpaceOnUse" id="clipPath10">
-<path d="M265 81 L308 81 L308 99 L265 99 L265 81 Z"/>
+<path d="M265 79 L308 79 L308 97 L265 97 L265 79 Z"/>
 </clipPath>
 <clipPath clipPathUnits="userSpaceOnUse" id="clipPath11">
-<path d="M200 98 L372 98 L372 116 L200 116 L200 98 Z"/>
+<path d="M200 96 L372 96 L372 114 L200 114 L200 96 Z"/>
 </clipPath>
 <clipPath clipPathUnits="userSpaceOnUse" id="clipPath12">
-<path d="M184 44 L387 44 L387 152 L184 152 L184 44 Z"/>
+<path d="M184 42 L387 42 L387 150 L184 150 L184 42 Z"/>
 </clipPath>
 <clipPath clipPathUnits="userSpaceOnUse" id="clipPath13">
-<path d="M25 300 L25 399 L545 399 L545 322 L211 322 L211 300 Z"/>
+<path d="M25 298 L25 397 L545 397 L545 318 L201 318 L201 298 Z"/>
 </clipPath>
 <clipPath clipPathUnits="userSpaceOnUse" id="clipPath14">
-<path d="M22 297 L549 297 L549 403 L22 403 L22 297 Z"/>
+<path d="M22 295 L549 295 L549 401 L22 401 L22 295 Z"/>
 </clipPath>
 <clipPath clipPathUnits="userSpaceOnUse" id="clipPath15">
-<path d="M30 302 L208 302 L208 320 L30 320 L30 302 Z"/>
+<path d="M25 300 L203 300 L203 318 L25 318 L25 300 Z"/>
 </clipPath>
 <clipPath clipPathUnits="userSpaceOnUse" id="clipPath16">
-<path d="M25 321 L547 321 L547 401 L25 401 L25 321 Z"/>
+<path d="M25 317 L547 317 L547 399 L25 399 L25 317 Z"/>
 </clipPath>
 <clipPath clipPathUnits="userSpaceOnUse" id="clipPath17">
-<path d="M10 31 L567 31 L567 422 L10 422 L10 31 Z"/>
+<path d="M10 29 L567 29 L567 422 L10 422 L10 29 Z"/>
 </clipPath>
 </defs>
 <g fill="white" font-family="'Segoe UI'" stroke-linejoin="round" stroke="white" stroke-width="0" stroke-miterlimit="0">
-<path d="M10 10 L227 10 L227 32 L565 32 L565 420 L10 420 L10 10 Z" clip-path="url(#clipPath1)" fill-rule="evenodd" stroke="none"/>
+<path d="M10 10 L217 10 L217 30 L565 30 L565 420 L10 420 L10 10 Z" clip-path="url(#clipPath1)" fill-rule="evenodd" stroke="none"/>
 </g>
 <g stroke-width="1.1" font-family="'Segoe UI'" stroke-linecap="butt">
-<line clip-path="url(#clipPath2)" fill="none" x1="10" x2="227" y1="10" y2="10"/>
-<line clip-path="url(#clipPath2)" fill="none" x1="227" x2="227" y1="10" y2="32"/>
-<line clip-path="url(#clipPath2)" fill="none" x1="227" x2="565" y1="32" y2="32"/>
-<line clip-path="url(#clipPath2)" fill="none" x1="565" x2="565" y1="32" y2="420"/>
+<line clip-path="url(#clipPath2)" fill="none" x1="10" x2="217" y1="10" y2="10"/>
+<line clip-path="url(#clipPath2)" fill="none" x1="217" x2="217" y1="10" y2="30"/>
+<line clip-path="url(#clipPath2)" fill="none" x1="217" x2="565" y1="30" y2="30"/>
+<line clip-path="url(#clipPath2)" fill="none" x1="565" x2="565" y1="30" y2="420"/>
 <line clip-path="url(#clipPath2)" fill="none" x1="565" x2="10" y1="420" y2="420"/>
 <line clip-path="url(#clipPath2)" fill="none" x1="10" x2="10" y1="420" y2="10"/>
-<image x="16" y="13" clip-path="url(#clipPath3)" width="16" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAA4klEQVR42mNk6FX4&#13;&#10;zwADxQ8YGUgETJRoBgEWuGagS1Z4T2a4/f4+w6kXFxk239tLlKFMIEUKGQvAmiO2&#13;&#10;5jLUGEUzbPLqAkuCxIn2AsjmX1nnGBinGDP8/sdIoheAAOTsjz8TGF4nXwLSCAX4&#13;&#10;XPFgRgIj3ACQn0Xv6aEo2FAXgNPmgKYNqC64EHmBQYyXH6tiq9KFDMe64wlEIw4A&#13;&#10;0nx/ejyYJmgAOzMqrly0E6wZBEA0iA+TwwhEEGBGCvz8eTvBdMK0nSg2Fs3fybAg&#13;&#10;yx2HAUjumZLijtNbX35hcQEsVEcgAAAeO1Rae2FoogAAAABJRU5ErkJggg==" xlink:type="simple" xlink:actuate="onLoad" height="16" preserveAspectRatio="none" xlink:show="embed"/>
-<text xml:space="preserve" x="35" y="26" clip-path="url(#clipPath4)" stroke="none">SHS_ProjectManagementDefinition</text>
-<path fill="white" d="M25 165 L165 165 L165 187 L545 187 L545 280 L25 280 L25 165 Z" clip-path="url(#clipPath5)" fill-rule="evenodd" stroke="none"/>
-<line clip-path="url(#clipPath6)" fill="none" x1="25" x2="165" y1="165" y2="165"/>
-<line clip-path="url(#clipPath6)" fill="none" x1="165" x2="165" y1="165" y2="187"/>
-<line clip-path="url(#clipPath6)" fill="none" x1="165" x2="545" y1="187" y2="187"/>
-<line clip-path="url(#clipPath6)" fill="none" x1="545" x2="545" y1="187" y2="280"/>
-<line clip-path="url(#clipPath6)" fill="none" x1="545" x2="25" y1="280" y2="280"/>
-<line clip-path="url(#clipPath6)" fill="none" x1="25" x2="25" y1="280" y2="165"/>
-<text xml:space="preserve" x="31" y="181" clip-path="url(#clipPath7)" stroke="none">SHS_ProjectStateholders</text>
-<line clip-path="url(#clipPath8)" fill="none" x1="25" x2="545" y1="187" y2="187"/>
-<rect x="185" y="45" clip-path="url(#clipPath9)" fill="url(#linearGradient1)" width="201" height="106" stroke="none"/>
-<text xml:space="preserve" x="266" y="95" clip-path="url(#clipPath10)" stroke="none">«Block»</text>
-<text xml:space="preserve" x="201" y="112" clip-path="url(#clipPath11)" stroke="none">SmartHomeSystemEnvironment</text>
-<rect x="185" y="45" clip-path="url(#clipPath12)" fill="none" width="200" rx="0" ry="0" height="105"/>
-<path fill="white" d="M25 300 L211 300 L211 322 L545 322 L545 399 L25 399 L25 300 Z" clip-path="url(#clipPath13)" fill-rule="evenodd" stroke="none"/>
-<line clip-path="url(#clipPath14)" fill="none" x1="25" x2="211" y1="300" y2="300"/>
-<line clip-path="url(#clipPath14)" fill="none" x1="211" x2="211" y1="300" y2="322"/>
-<line clip-path="url(#clipPath14)" fill="none" x1="211" x2="545" y1="322" y2="322"/>
-<line clip-path="url(#clipPath14)" fill="none" x1="545" x2="545" y1="322" y2="399"/>
-<line clip-path="url(#clipPath14)" fill="none" x1="545" x2="25" y1="399" y2="399"/>
-<line clip-path="url(#clipPath14)" fill="none" x1="25" x2="25" y1="399" y2="300"/>
-<text xml:space="preserve" x="31" y="316" clip-path="url(#clipPath15)" stroke="none">SHS&lt;-&gt;SHS_EnvFlowsDefinitions</text>
-<line clip-path="url(#clipPath16)" fill="none" x1="25" x2="545" y1="322" y2="322"/>
-<line clip-path="url(#clipPath17)" fill="none" x1="10" x2="565" y1="32" y2="32"/>
+<image x="11" y="13" clip-path="url(#clipPath3)" width="16" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAA4klEQVR42mNk6FX4&#13;&#10;zwADxQ8YGUgETJRoBgEWuGagS1Z4T2a4/f4+w6kXFxk239tLlKFMIEUKGQvAmiO2&#13;&#10;5jLUGEUzbPLqAkuCxIn2AsjmX1nnGBinGDP8/sdIoheAAOTsjz8TGF4nXwLSCAX4&#13;&#10;XPFgRgIj3ACQn0Xv6aEo2FAXgNPmgKYNqC64EHmBQYyXH6tiq9KFDMe64wlEIw4A&#13;&#10;0nx/ejyYJmgAOzMqrly0E6wZBEA0iA+TwwhEEGBGCvz8eTvBdMK0nSg2Fs3fybAg&#13;&#10;yx2HAUjumZLijtNbX35hcQEsVEcgAAAeO1Rae2FoogAAAABJRU5ErkJggg==" xlink:type="simple" xlink:actuate="onLoad" height="16" preserveAspectRatio="none" xlink:show="embed"/>
+<text xml:space="preserve" x="30" y="26" clip-path="url(#clipPath4)" stroke="none">SHS_ProjectManagementDefinition</text>
+<path fill="white" d="M25 163 L155 163 L155 183 L545 183 L545 278 L25 278 L25 163 Z" clip-path="url(#clipPath5)" fill-rule="evenodd" stroke="none"/>
+<line clip-path="url(#clipPath6)" fill="none" x1="25" x2="155" y1="163" y2="163"/>
+<line clip-path="url(#clipPath6)" fill="none" x1="155" x2="155" y1="163" y2="183"/>
+<line clip-path="url(#clipPath6)" fill="none" x1="155" x2="545" y1="183" y2="183"/>
+<line clip-path="url(#clipPath6)" fill="none" x1="545" x2="545" y1="183" y2="278"/>
+<line clip-path="url(#clipPath6)" fill="none" x1="545" x2="25" y1="278" y2="278"/>
+<line clip-path="url(#clipPath6)" fill="none" x1="25" x2="25" y1="278" y2="163"/>
+<text xml:space="preserve" x="26" y="179" clip-path="url(#clipPath7)" stroke="none">SHS_ProjectStateholders</text>
+<line clip-path="url(#clipPath8)" fill="none" x1="25" x2="545" y1="183" y2="183"/>
+<rect x="185" y="43" clip-path="url(#clipPath9)" fill="url(#linearGradient1)" width="201" height="106" stroke="none"/>
+<text xml:space="preserve" x="266" y="93" clip-path="url(#clipPath10)" stroke="none">«Block»</text>
+<text xml:space="preserve" x="201" y="110" clip-path="url(#clipPath11)" stroke="none">SmartHomeSystemEnvironment</text>
+<rect x="185" y="43" clip-path="url(#clipPath12)" fill="none" width="200" rx="0" ry="0" height="105"/>
+<path fill="white" d="M25 298 L201 298 L201 318 L545 318 L545 397 L25 397 L25 298 Z" clip-path="url(#clipPath13)" fill-rule="evenodd" stroke="none"/>
+<line clip-path="url(#clipPath14)" fill="none" x1="25" x2="201" y1="298" y2="298"/>
+<line clip-path="url(#clipPath14)" fill="none" x1="201" x2="201" y1="298" y2="318"/>
+<line clip-path="url(#clipPath14)" fill="none" x1="201" x2="545" y1="318" y2="318"/>
+<line clip-path="url(#clipPath14)" fill="none" x1="545" x2="545" y1="318" y2="397"/>
+<line clip-path="url(#clipPath14)" fill="none" x1="545" x2="25" y1="397" y2="397"/>
+<line clip-path="url(#clipPath14)" fill="none" x1="25" x2="25" y1="397" y2="298"/>
+<text xml:space="preserve" x="26" y="314" clip-path="url(#clipPath15)" stroke="none">SHS&lt;-&gt;SHS_EnvFlowsDefinitions</text>
+<line clip-path="url(#clipPath16)" fill="none" x1="25" x2="545" y1="318" y2="318"/>
+<line clip-path="url(#clipPath17)" fill="none" x1="10" x2="565" y1="30" y2="30"/>
 </g>
 </g>
 </svg>

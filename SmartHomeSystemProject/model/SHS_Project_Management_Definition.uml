@@ -18,80 +18,78 @@
         <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_Ntp4QHOYEeeGodGwr0LI7g" value="*"/>
       </ownedAttribute>
       <ownedAttribute xmi:type="uml:Property" xmi:id="_OrgnoXOYEeeGodGwr0LI7g" name="medicalPersonals" type="_oBYiQDiAEeGe4_sFLbM3Hw" aggregation="composite" association="_OrfZgHOYEeeGodGwr0LI7g">
-        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_OrgnonOYEeeGodGwr0LI7g"/>
         <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_Orgno3OYEeeGodGwr0LI7g" value="*"/>
       </ownedAttribute>
-      <ownedAttribute xmi:type="uml:Property" xmi:id="_v1FPkJj0EemiJJjEotXc9w" name="pharmacies" type="_2SUlkJhAEemfOpj3-Spopg">
-        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_12sMsJj0EemiJJjEotXc9w"/>
-        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_128EUJj0EemiJJjEotXc9w" value="*"/>
-      </ownedAttribute>
-      <ownedAttribute xmi:type="uml:Property" xmi:id="_-uFrMJj0EemiJJjEotXc9w" name="sensorDevices" type="_Fv6DAJhDEemfOpj3-Spopg">
-        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_cYv9QJj1EemiJJjEotXc9w"/>
-        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_cY_N0Jj1EemiJJjEotXc9w" value="*"/>
-      </ownedAttribute>
-      <ownedAttribute xmi:type="uml:Property" xmi:id="_dHLwkJj1EemiJJjEotXc9w" name="actuactorDevices" type="_67luMJgpEemfOpj3-Spopg">
-        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_g26KoJj1EemiJJjEotXc9w"/>
-        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_g3I0IJj1EemiJJjEotXc9w" value="*"/>
-      </ownedAttribute>
-      <ownedAttribute xmi:type="uml:Property" xmi:id="_qrS10Jj1EemiJJjEotXc9w" name="policeStations" type="_0Qu_wJgpEemfOpj3-Spopg">
-        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_vo0fwJj1EemiJJjEotXc9w" value="*"/>
-      </ownedAttribute>
-      <ownedAttribute xmi:type="uml:Property" xmi:id="_3QajQJj1EemiJJjEotXc9w" name="projectManager" type="_pxh18JgpEemfOpj3-Spopg"/>
-      <ownedAttribute xmi:type="uml:Property" xmi:id="_9aCz8Jj1EemiJJjEotXc9w" name="internet" type="_zSl8gJgpEemfOpj3-Spopg"/>
-      <ownedAttribute xmi:type="uml:Property" xmi:id="_Biq2MJj2EemiJJjEotXc9w" name="energyProvider" type="_2x-0gJgpEemfOpj3-Spopg"/>
-      <ownedAttribute xmi:type="uml:Property" xmi:id="_GT7lwJj2EemiJJjEotXc9w" name="insuranceCompanies" type="_MoXagJhBEemfOpj3-Spopg">
-        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_LMXUUJj2EemiJJjEotXc9w" value="*"/>
-      </ownedAttribute>
-      <ownedAttribute xmi:type="uml:Property" xmi:id="_L5VIAJj2EemiJJjEotXc9w" name="envAuthority" type="_OxDlUJhBEemfOpj3-Spopg"/>
-      <ownedAttribute xmi:type="uml:Property" xmi:id="_Q12FUJj2EemiJJjEotXc9w" name="healthAuthority" type="_Sl4h0JhBEemfOpj3-Spopg"/>
       <ownedAttribute xmi:type="uml:Property" xmi:id="_t8WNUImREeeY8oHcVhoGvw" name="systemUnderDesign" type="_gCDnUFkHEeO46MKyR1zbAg" aggregation="composite" association="_t8QtwImREeeY8oHcVhoGvw"/>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_FYOuUJj9EemiJJjEotXc9w" name="pharmacy" type="_2SUlkJhAEemfOpj3-Spopg" aggregation="composite" association="_FYLD8Jj9EemiJJjEotXc9w">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_FYRKkJj9EemiJJjEotXc9w" value="*"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_IVHWMZj9EemiJJjEotXc9w" name="sensordevice" type="_Fv6DAJhDEemfOpj3-Spopg" aggregation="composite" association="_IVES4Jj9EemiJJjEotXc9w">
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_IVJLYJj9EemiJJjEotXc9w"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_IVJLYZj9EemiJJjEotXc9w" value="*"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_Jiw1Epj9EemiJJjEotXc9w" name="energyprovider" type="_2x-0gJgpEemfOpj3-Spopg" aggregation="composite" association="_JiuY0Jj9EemiJJjEotXc9w"/>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_LddnMpj9EemiJJjEotXc9w" name="actuactordevice" type="_67luMJgpEemfOpj3-Spopg" aggregation="composite" association="_LdbK8Jj9EemiJJjEotXc9w">
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_LdgDcJj9EemiJJjEotXc9w"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_LdgDcZj9EemiJJjEotXc9w" value="*"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_N2kzopj9EemiJJjEotXc9w" name="policestation" type="_0Qu_wJgpEemfOpj3-Spopg" aggregation="composite" association="_N2iXYJj9EemiJJjEotXc9w">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_N2mo0Zj9EemiJJjEotXc9w" value="*"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_Pq20spj9EemiJJjEotXc9w" name="projectmanager" type="_pxh18JgpEemfOpj3-Spopg" aggregation="composite" association="_Pq0YcJj9EemiJJjEotXc9w"/>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_RICkYJj9EemiJJjEotXc9w" name="internet" type="_zSl8gJgpEemfOpj3-Spopg" aggregation="composite" association="_RIAIIJj9EemiJJjEotXc9w"/>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_SWcRMpj9EemiJJjEotXc9w" name="healthauthority" type="_Sl4h0JhBEemfOpj3-Spopg" aggregation="composite" association="_SWZ08Jj9EemiJJjEotXc9w"/>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_ZiSz4Jj9EemiJJjEotXc9w" name="insurancecompany" type="_MoXagJhBEemfOpj3-Spopg" aggregation="composite" association="_ZiQXoJj9EemiJJjEotXc9w">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_ZiUpEZj9EemiJJjEotXc9w" value="*"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_n3aC0pj-EemiJJjEotXc9w" name="environmentalauthority" type="_OxDlUJhBEemfOpj3-Spopg" aggregation="composite" association="_n3YNoJj-EemiJJjEotXc9w"/>
       <ownedConnector xmi:type="uml:Connector" xmi:id="_HqO04Jj3EemiJJjEotXc9w" name="Connector15">
         <end xmi:type="uml:ConnectorEnd" xmi:id="_HqXXwJj3EemiJJjEotXc9w" role="_NtpRMnOYEeeGodGwr0LI7g"/>
         <end xmi:type="uml:ConnectorEnd" xmi:id="_HqXXwZj3EemiJJjEotXc9w" role="_t8WNUImREeeY8oHcVhoGvw"/>
-      </ownedConnector>
-      <ownedConnector xmi:type="uml:Connector" xmi:id="_JVs4MJj3EemiJJjEotXc9w" name="Connector16">
-        <end xmi:type="uml:ConnectorEnd" xmi:id="_JVvUcJj3EemiJJjEotXc9w" role="_qrS10Jj1EemiJJjEotXc9w"/>
-        <end xmi:type="uml:ConnectorEnd" xmi:id="_JVvUcZj3EemiJJjEotXc9w" role="_t8WNUImREeeY8oHcVhoGvw"/>
       </ownedConnector>
       <ownedConnector xmi:type="uml:Connector" xmi:id="_KAp5sJj3EemiJJjEotXc9w" name="Connector17">
         <end xmi:type="uml:ConnectorEnd" xmi:id="_KAsV8Jj3EemiJJjEotXc9w" role="_OrgnoXOYEeeGodGwr0LI7g"/>
         <end xmi:type="uml:ConnectorEnd" xmi:id="_KAsV8Zj3EemiJJjEotXc9w" role="_t8WNUImREeeY8oHcVhoGvw"/>
       </ownedConnector>
-      <ownedConnector xmi:type="uml:Connector" xmi:id="_MGwDgJj3EemiJJjEotXc9w" name="Connector18">
-        <end xmi:type="uml:ConnectorEnd" xmi:id="_MGyfwJj3EemiJJjEotXc9w" role="_dHLwkJj1EemiJJjEotXc9w"/>
-        <end xmi:type="uml:ConnectorEnd" xmi:id="_MGyfwZj3EemiJJjEotXc9w" role="_t8WNUImREeeY8oHcVhoGvw"/>
+      <ownedConnector xmi:type="uml:Connector" xmi:id="_gfPF8Jj_EemiJJjEotXc9w" name="Connector27">
+        <end xmi:type="uml:ConnectorEnd" xmi:id="_gfSJQJj_EemiJJjEotXc9w" role="_N2kzopj9EemiJJjEotXc9w"/>
+        <end xmi:type="uml:ConnectorEnd" xmi:id="_gfSJQZj_EemiJJjEotXc9w" role="_t8WNUImREeeY8oHcVhoGvw"/>
       </ownedConnector>
-      <ownedConnector xmi:type="uml:Connector" xmi:id="_M_d0MJj3EemiJJjEotXc9w" name="Connector19">
-        <end xmi:type="uml:ConnectorEnd" xmi:id="_M_gQcJj3EemiJJjEotXc9w" role="_9aCz8Jj1EemiJJjEotXc9w"/>
-        <end xmi:type="uml:ConnectorEnd" xmi:id="_M_gQcZj3EemiJJjEotXc9w" role="_t8WNUImREeeY8oHcVhoGvw"/>
+      <ownedConnector xmi:type="uml:Connector" xmi:id="_j7oUUJj_EemiJJjEotXc9w" name="Connector28">
+        <end xmi:type="uml:ConnectorEnd" xmi:id="_j7qwkJj_EemiJJjEotXc9w" role="_LddnMpj9EemiJJjEotXc9w"/>
+        <end xmi:type="uml:ConnectorEnd" xmi:id="_j7rXoJj_EemiJJjEotXc9w" role="_t8WNUImREeeY8oHcVhoGvw"/>
       </ownedConnector>
-      <ownedConnector xmi:type="uml:Connector" xmi:id="_Nk74wJj3EemiJJjEotXc9w" name="Connector20">
-        <end xmi:type="uml:ConnectorEnd" xmi:id="_Nk-VAJj3EemiJJjEotXc9w" role="_Biq2MJj2EemiJJjEotXc9w"/>
-        <end xmi:type="uml:ConnectorEnd" xmi:id="_Nk-VAZj3EemiJJjEotXc9w" role="_t8WNUImREeeY8oHcVhoGvw"/>
+      <ownedConnector xmi:type="uml:Connector" xmi:id="_mtzhAJj_EemiJJjEotXc9w" name="Connector29">
+        <end xmi:type="uml:ConnectorEnd" xmi:id="_mt2kUJj_EemiJJjEotXc9w" role="_SWcRMpj9EemiJJjEotXc9w"/>
+        <end xmi:type="uml:ConnectorEnd" xmi:id="_mt2kUZj_EemiJJjEotXc9w" role="_t8WNUImREeeY8oHcVhoGvw"/>
       </ownedConnector>
-      <ownedConnector xmi:type="uml:Connector" xmi:id="_O7ifUJj3EemiJJjEotXc9w" name="Connector21">
-        <end xmi:type="uml:ConnectorEnd" xmi:id="_O7mwwJj3EemiJJjEotXc9w" role="_3QajQJj1EemiJJjEotXc9w"/>
-        <end xmi:type="uml:ConnectorEnd" xmi:id="_O7mwwZj3EemiJJjEotXc9w" role="_t8WNUImREeeY8oHcVhoGvw"/>
+      <ownedConnector xmi:type="uml:Connector" xmi:id="_ncfL8Jj_EemiJJjEotXc9w" name="Connector30">
+        <end xmi:type="uml:ConnectorEnd" xmi:id="_nchoMJj_EemiJJjEotXc9w" role="_n3aC0pj-EemiJJjEotXc9w"/>
+        <end xmi:type="uml:ConnectorEnd" xmi:id="_nchoMZj_EemiJJjEotXc9w" role="_t8WNUImREeeY8oHcVhoGvw"/>
       </ownedConnector>
-      <ownedConnector xmi:type="uml:Connector" xmi:id="_PsaioJj3EemiJJjEotXc9w" name="Connector22">
-        <end xmi:type="uml:ConnectorEnd" xmi:id="_Psc-4Jj3EemiJJjEotXc9w" role="_Q12FUJj2EemiJJjEotXc9w"/>
-        <end xmi:type="uml:ConnectorEnd" xmi:id="_Psc-4Zj3EemiJJjEotXc9w" role="_t8WNUImREeeY8oHcVhoGvw"/>
+      <ownedConnector xmi:type="uml:Connector" xmi:id="_oUo78Jj_EemiJJjEotXc9w" name="Connector31">
+        <end xmi:type="uml:ConnectorEnd" xmi:id="_oUr_QJj_EemiJJjEotXc9w" role="_ZiSz4Jj9EemiJJjEotXc9w"/>
+        <end xmi:type="uml:ConnectorEnd" xmi:id="_oUr_QZj_EemiJJjEotXc9w" role="_t8WNUImREeeY8oHcVhoGvw"/>
       </ownedConnector>
-      <ownedConnector xmi:type="uml:Connector" xmi:id="_QafwoJj3EemiJJjEotXc9w" name="Connector23">
-        <end xmi:type="uml:ConnectorEnd" xmi:id="_QaiM4Jj3EemiJJjEotXc9w" role="_L5VIAJj2EemiJJjEotXc9w"/>
-        <end xmi:type="uml:ConnectorEnd" xmi:id="_QaiM4Zj3EemiJJjEotXc9w" role="_t8WNUImREeeY8oHcVhoGvw"/>
+      <ownedConnector xmi:type="uml:Connector" xmi:id="_eW_xoJkAEemiJJjEotXc9w" name="Connector26">
+        <end xmi:type="uml:ConnectorEnd" xmi:id="_eXCN4JkAEemiJJjEotXc9w" role="_RICkYJj9EemiJJjEotXc9w"/>
+        <end xmi:type="uml:ConnectorEnd" xmi:id="_eXCN4ZkAEemiJJjEotXc9w" role="_t8WNUImREeeY8oHcVhoGvw"/>
       </ownedConnector>
-      <ownedConnector xmi:type="uml:Connector" xmi:id="_Q-rbwJj3EemiJJjEotXc9w" name="Connector24">
-        <end xmi:type="uml:ConnectorEnd" xmi:id="_Q-tQ8Jj3EemiJJjEotXc9w" role="_GT7lwJj2EemiJJjEotXc9w"/>
-        <end xmi:type="uml:ConnectorEnd" xmi:id="_Q-t4AJj3EemiJJjEotXc9w" role="_t8WNUImREeeY8oHcVhoGvw"/>
+      <ownedConnector xmi:type="uml:Connector" xmi:id="_fJnhYJkAEemiJJjEotXc9w" name="Connector27">
+        <end xmi:type="uml:ConnectorEnd" xmi:id="_fJp9oJkAEemiJJjEotXc9w" role="_Jiw1Epj9EemiJJjEotXc9w"/>
+        <end xmi:type="uml:ConnectorEnd" xmi:id="_fJqksJkAEemiJJjEotXc9w" role="_t8WNUImREeeY8oHcVhoGvw"/>
       </ownedConnector>
-      <ownedConnector xmi:type="uml:Connector" xmi:id="_SKVWkJj3EemiJJjEotXc9w" name="Connector25">
-        <end xmi:type="uml:ConnectorEnd" xmi:id="_SKXy0Jj3EemiJJjEotXc9w" role="_v1FPkJj0EemiJJjEotXc9w"/>
-        <end xmi:type="uml:ConnectorEnd" xmi:id="_SKXy0Zj3EemiJJjEotXc9w" role="_t8WNUImREeeY8oHcVhoGvw"/>
+      <ownedConnector xmi:type="uml:Connector" xmi:id="_gEuewJkAEemiJJjEotXc9w" name="Connector28">
+        <end xmi:type="uml:ConnectorEnd" xmi:id="_gExiEJkAEemiJJjEotXc9w" role="_Pq20spj9EemiJJjEotXc9w"/>
+        <end xmi:type="uml:ConnectorEnd" xmi:id="_gExiEZkAEemiJJjEotXc9w" role="_t8WNUImREeeY8oHcVhoGvw"/>
       </ownedConnector>
-      <ownedConnector xmi:type="uml:Connector" xmi:id="_TO5K4Jj3EemiJJjEotXc9w" name="Connector26">
-        <end xmi:type="uml:ConnectorEnd" xmi:id="_TO7nIJj3EemiJJjEotXc9w" role="_-uFrMJj0EemiJJjEotXc9w"/>
-        <end xmi:type="uml:ConnectorEnd" xmi:id="_TO7nIZj3EemiJJjEotXc9w" role="_t8WNUImREeeY8oHcVhoGvw"/>
+      <ownedConnector xmi:type="uml:Connector" xmi:id="_uKaAAJkAEemiJJjEotXc9w" name="Connector25">
+        <end xmi:type="uml:ConnectorEnd" xmi:id="_uKccQJkAEemiJJjEotXc9w" role="_FYOuUJj9EemiJJjEotXc9w"/>
+        <end xmi:type="uml:ConnectorEnd" xmi:id="_uKccQZkAEemiJJjEotXc9w" role="_t8WNUImREeeY8oHcVhoGvw"/>
+      </ownedConnector>
+      <ownedConnector xmi:type="uml:Connector" xmi:id="_u3GG4JkAEemiJJjEotXc9w" name="Connector26">
+        <end xmi:type="uml:ConnectorEnd" xmi:id="_u3IjIJkAEemiJJjEotXc9w" role="_IVHWMZj9EemiJJjEotXc9w"/>
+        <end xmi:type="uml:ConnectorEnd" xmi:id="_u3JKMJkAEemiJJjEotXc9w" role="_t8WNUImREeeY8oHcVhoGvw"/>
       </ownedConnector>
     </packagedElement>
     <packagedElement xmi:type="uml:Class" xmi:id="_gCDnUFkHEeO46MKyR1zbAg" name="SmartHomeSystem">
@@ -112,24 +110,6 @@
       <useCase xmi:type="uml:UseCase" href="SHS_OperationalVision.uml#_CYDqwJb_EeeFsqoIYj-fTQ"/>
       <useCase xmi:type="uml:UseCase" href="SHS_OperationalVision.uml#_3ZnKwJb_EeeFsqoIYj-fTQ"/>
     </packagedElement>
-    <packagedElement xmi:type="uml:Association" xmi:id="_NtoqIHOYEeeGodGwr0LI7g" name="SystemContext-Inhabitant" memberEnd="_NtpRMnOYEeeGodGwr0LI7g _Ntp4QXOYEeeGodGwr0LI7g">
-      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_NtpRMHOYEeeGodGwr0LI7g" source="org.eclipse.papyrus">
-        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_NtpRMXOYEeeGodGwr0LI7g" key="nature" value="UML_Nature"/>
-      </eAnnotations>
-      <ownedEnd xmi:type="uml:Property" xmi:id="_Ntp4QXOYEeeGodGwr0LI7g" type="_aewdMFkPEeO46MKyR1zbAg" association="_NtoqIHOYEeeGodGwr0LI7g"/>
-    </packagedElement>
-    <packagedElement xmi:type="uml:Association" xmi:id="_OrfZgHOYEeeGodGwr0LI7g" name="SystemContext-MedicalPersonal" memberEnd="_OrgnoXOYEeeGodGwr0LI7g _OrgnpHOYEeeGodGwr0LI7g">
-      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_OrgAkHOYEeeGodGwr0LI7g" source="org.eclipse.papyrus">
-        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_OrgnoHOYEeeGodGwr0LI7g" key="nature" value="UML_Nature"/>
-      </eAnnotations>
-      <ownedEnd xmi:type="uml:Property" xmi:id="_OrgnpHOYEeeGodGwr0LI7g" type="_aewdMFkPEeO46MKyR1zbAg" association="_OrfZgHOYEeeGodGwr0LI7g"/>
-    </packagedElement>
-    <packagedElement xmi:type="uml:Association" xmi:id="_t8QtwImREeeY8oHcVhoGvw" name="SystemContext-SmartHomeSystem" memberEnd="_t8WNUImREeeY8oHcVhoGvw _t8YCgImREeeY8oHcVhoGvw">
-      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_t8U_MImREeeY8oHcVhoGvw" source="org.eclipse.papyrus">
-        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_t8U_MYmREeeY8oHcVhoGvw" key="nature" value="UML_Nature"/>
-      </eAnnotations>
-      <ownedEnd xmi:type="uml:Property" xmi:id="_t8YCgImREeeY8oHcVhoGvw" name="systemcontext" type="_aewdMFkPEeO46MKyR1zbAg" association="_t8QtwImREeeY8oHcVhoGvw"/>
-    </packagedElement>
     <packagedElement xmi:type="uml:Package" xmi:id="_0sBHMJghEemfOpj3-Spopg" name="SHS_ProjectStateholders">
       <ownedComment xmi:type="uml:Comment" xmi:id="_QD3XIJjoEemiJJjEotXc9w" annotatedElement="_2SUlkJhAEemfOpj3-Spopg _Fv6DAJhDEemfOpj3-Spopg _0Qu_wJgpEemfOpj3-Spopg _oBYiQDiAEeGe4_sFLbM3Hw _o9C5QDiAEeGe4_sFLbM3Hw">
         <body>&lt;p>KeyInputSystems&lt;/p>
@@ -141,7 +121,7 @@
         <packagedElement xmi:type="uml:Actor" xmi:id="_Fv6DAJhDEemfOpj3-Spopg" name="SensorDevice"/>
       </packagedElement>
       <packagedElement xmi:type="uml:Package" xmi:id="_H0VAkJg9EemfOpj3-Spopg" name="KeyOutputSystems">
-        <packagedElement xmi:type="uml:Actor" xmi:id="_67luMJgpEemfOpj3-Spopg" name="ActuactorDevice" isAbstract="true">
+        <packagedElement xmi:type="uml:Actor" xmi:id="_67luMJgpEemfOpj3-Spopg" name="ActuactorDevice">
           <generalization xmi:type="uml:Generalization" xmi:id="_o3y8IJgqEemfOpj3-Spopg" general="_rBDkIJgpEemfOpj3-Spopg"/>
         </packagedElement>
         <packagedElement xmi:type="uml:Actor" xmi:id="_0Qu_wJgpEemfOpj3-Spopg" name="PoliceStation">
@@ -199,6 +179,84 @@
       <packagedElement xmi:type="uml:InformationFlow" xmi:id="_Cx3r8JhAEemfOpj3-Spopg" name="HealthAlarm" informationSource="_gCDnUFkHEeO46MKyR1zbAg" informationTarget="_oBYiQDiAEeGe4_sFLbM3Hw"/>
       <packagedElement xmi:type="uml:InformationFlow" xmi:id="_T_Ov0JhAEemfOpj3-Spopg" name="Commands" informationSource="_gCDnUFkHEeO46MKyR1zbAg" informationTarget="_67luMJgpEemfOpj3-Spopg"/>
       <packagedElement xmi:type="uml:InformationFlow" xmi:id="_StB38JjLEemiJJjEotXc9w" name="ControlHealthRegulationConformity" informationSource="_Sl4h0JhBEemfOpj3-Spopg" informationTarget="_gCDnUFkHEeO46MKyR1zbAg"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_NtoqIHOYEeeGodGwr0LI7g" name="SystemContext-Inhabitant" memberEnd="_NtpRMnOYEeeGodGwr0LI7g _Ntp4QXOYEeeGodGwr0LI7g">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_NtpRMHOYEeeGodGwr0LI7g" source="org.eclipse.papyrus">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_NtpRMXOYEeeGodGwr0LI7g" key="nature" value="UML_Nature"/>
+      </eAnnotations>
+      <ownedEnd xmi:type="uml:Property" xmi:id="_Ntp4QXOYEeeGodGwr0LI7g" type="_aewdMFkPEeO46MKyR1zbAg" association="_NtoqIHOYEeeGodGwr0LI7g"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_OrfZgHOYEeeGodGwr0LI7g" name="SystemContext-MedicalPersonal" memberEnd="_OrgnoXOYEeeGodGwr0LI7g _OrgnpHOYEeeGodGwr0LI7g">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_OrgAkHOYEeeGodGwr0LI7g" source="org.eclipse.papyrus">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_OrgnoHOYEeeGodGwr0LI7g" key="nature" value="UML_Nature"/>
+      </eAnnotations>
+      <ownedEnd xmi:type="uml:Property" xmi:id="_OrgnpHOYEeeGodGwr0LI7g" type="_aewdMFkPEeO46MKyR1zbAg" association="_OrfZgHOYEeeGodGwr0LI7g"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_t8QtwImREeeY8oHcVhoGvw" name="SystemContext-SmartHomeSystem" memberEnd="_t8WNUImREeeY8oHcVhoGvw _t8YCgImREeeY8oHcVhoGvw">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_t8U_MImREeeY8oHcVhoGvw" source="org.eclipse.papyrus">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_t8U_MYmREeeY8oHcVhoGvw" key="nature" value="UML_Nature"/>
+      </eAnnotations>
+      <ownedEnd xmi:type="uml:Property" xmi:id="_t8YCgImREeeY8oHcVhoGvw" name="systemcontext" type="_aewdMFkPEeO46MKyR1zbAg" association="_t8QtwImREeeY8oHcVhoGvw"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_FYLD8Jj9EemiJJjEotXc9w" memberEnd="_FYOuUJj9EemiJJjEotXc9w _FYRKkZj9EemiJJjEotXc9w">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_FYOHQJj9EemiJJjEotXc9w" source="org.eclipse.papyrus">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_FYOHQZj9EemiJJjEotXc9w" key="nature" value="UML_Nature"/>
+      </eAnnotations>
+      <ownedEnd xmi:type="uml:Property" xmi:id="_FYRKkZj9EemiJJjEotXc9w" name="smarthomesystemenvironment" type="_aewdMFkPEeO46MKyR1zbAg" association="_FYLD8Jj9EemiJJjEotXc9w"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_IVES4Jj9EemiJJjEotXc9w" memberEnd="_IVHWMZj9EemiJJjEotXc9w _IVJLYpj9EemiJJjEotXc9w">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_IVGvIJj9EemiJJjEotXc9w" source="org.eclipse.papyrus">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_IVHWMJj9EemiJJjEotXc9w" key="nature" value="UML_Nature"/>
+      </eAnnotations>
+      <ownedEnd xmi:type="uml:Property" xmi:id="_IVJLYpj9EemiJJjEotXc9w" name="smarthomesystemenvironment" type="_aewdMFkPEeO46MKyR1zbAg" association="_IVES4Jj9EemiJJjEotXc9w"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_JiuY0Jj9EemiJJjEotXc9w" memberEnd="_Jiw1Epj9EemiJJjEotXc9w _JizRUpj9EemiJJjEotXc9w">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_Jiw1EJj9EemiJJjEotXc9w" source="org.eclipse.papyrus">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_Jiw1EZj9EemiJJjEotXc9w" key="nature" value="UML_Nature"/>
+      </eAnnotations>
+      <ownedEnd xmi:type="uml:Property" xmi:id="_JizRUpj9EemiJJjEotXc9w" name="smarthomesystemenvironment" type="_aewdMFkPEeO46MKyR1zbAg" association="_JiuY0Jj9EemiJJjEotXc9w"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_LdbK8Jj9EemiJJjEotXc9w" memberEnd="_LddnMpj9EemiJJjEotXc9w _LdgDcpj9EemiJJjEotXc9w">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_LddnMJj9EemiJJjEotXc9w" source="org.eclipse.papyrus">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_LddnMZj9EemiJJjEotXc9w" key="nature" value="UML_Nature"/>
+      </eAnnotations>
+      <ownedEnd xmi:type="uml:Property" xmi:id="_LdgDcpj9EemiJJjEotXc9w" name="smarthomesystemenvironment" type="_aewdMFkPEeO46MKyR1zbAg" association="_LdbK8Jj9EemiJJjEotXc9w"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_N2iXYJj9EemiJJjEotXc9w" memberEnd="_N2kzopj9EemiJJjEotXc9w _N2mo0pj9EemiJJjEotXc9w">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_N2kzoJj9EemiJJjEotXc9w" source="org.eclipse.papyrus">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_N2kzoZj9EemiJJjEotXc9w" key="nature" value="UML_Nature"/>
+      </eAnnotations>
+      <ownedEnd xmi:type="uml:Property" xmi:id="_N2mo0pj9EemiJJjEotXc9w" name="smarthomesystemenvironment" type="_aewdMFkPEeO46MKyR1zbAg" association="_N2iXYJj9EemiJJjEotXc9w"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_Pq0YcJj9EemiJJjEotXc9w" memberEnd="_Pq20spj9EemiJJjEotXc9w _Pq5Q8Zj9EemiJJjEotXc9w">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_Pq20sJj9EemiJJjEotXc9w" source="org.eclipse.papyrus">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_Pq20sZj9EemiJJjEotXc9w" key="nature" value="UML_Nature"/>
+      </eAnnotations>
+      <ownedEnd xmi:type="uml:Property" xmi:id="_Pq5Q8Zj9EemiJJjEotXc9w" name="smarthomesystemenvironment" type="_aewdMFkPEeO46MKyR1zbAg" association="_Pq0YcJj9EemiJJjEotXc9w"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_RIAIIJj9EemiJJjEotXc9w" memberEnd="_RICkYJj9EemiJJjEotXc9w _RIFAoZj9EemiJJjEotXc9w">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_RIB9UJj9EemiJJjEotXc9w" source="org.eclipse.papyrus">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_RIB9UZj9EemiJJjEotXc9w" key="nature" value="UML_Nature"/>
+      </eAnnotations>
+      <ownedEnd xmi:type="uml:Property" xmi:id="_RIFAoZj9EemiJJjEotXc9w" name="smarthomesystemenvironment" type="_aewdMFkPEeO46MKyR1zbAg" association="_RIAIIJj9EemiJJjEotXc9w"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_SWZ08Jj9EemiJJjEotXc9w" memberEnd="_SWcRMpj9EemiJJjEotXc9w _SWetcpj9EemiJJjEotXc9w">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_SWcRMJj9EemiJJjEotXc9w" source="org.eclipse.papyrus">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_SWcRMZj9EemiJJjEotXc9w" key="nature" value="UML_Nature"/>
+      </eAnnotations>
+      <ownedEnd xmi:type="uml:Property" xmi:id="_SWetcpj9EemiJJjEotXc9w" name="smarthomesystemenvironment" type="_aewdMFkPEeO46MKyR1zbAg" association="_SWZ08Jj9EemiJJjEotXc9w"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_ZiQXoJj9EemiJJjEotXc9w" memberEnd="_ZiSz4Jj9EemiJJjEotXc9w _ZiUpEpj9EemiJJjEotXc9w">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_ZiSM0Jj9EemiJJjEotXc9w" source="org.eclipse.papyrus">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_ZiSM0Zj9EemiJJjEotXc9w" key="nature" value="UML_Nature"/>
+      </eAnnotations>
+      <ownedEnd xmi:type="uml:Property" xmi:id="_ZiUpEpj9EemiJJjEotXc9w" name="smarthomesystemenvironment" type="_aewdMFkPEeO46MKyR1zbAg" association="_ZiQXoJj9EemiJJjEotXc9w"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_n3YNoJj-EemiJJjEotXc9w" memberEnd="_n3aC0pj-EemiJJjEotXc9w _n3cfEpj-EemiJJjEotXc9w">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_n3aC0Jj-EemiJJjEotXc9w" source="org.eclipse.papyrus">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_n3aC0Zj-EemiJJjEotXc9w" key="nature" value="UML_Nature"/>
+      </eAnnotations>
+      <ownedEnd xmi:type="uml:Property" xmi:id="_n3cfEpj-EemiJJjEotXc9w" name="smarthomesystemenvironment" type="_aewdMFkPEeO46MKyR1zbAg" association="_n3YNoJj-EemiJJjEotXc9w"/>
     </packagedElement>
     <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_xm2kQJipEemfOpj3-Spopg">
       <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_xm2kQZipEemfOpj3-Spopg" source="http://www.eclipse.org/uml2/2.0.0/UML">
