@@ -201,6 +201,39 @@ N.B.: the comment may be hidden and shown as for example in a table gathering al
             <subject xmi:type="uml:Class" href="SHS_Project_Management_Definition.uml#_gCDnUFkHEeO46MKyR1zbAg"/>
           </packagedElement>
           <packagedElement xmi:type="uml:UseCase" xmi:id="_SZlfYJbYEeew-NwceYS8pQ" name="manageRightAccess">
+            <ownedBehavior xmi:type="uml:Interaction" xmi:id="_wrJioJj5EemiJJjEotXc9w" name="manageRightAccess_OperationalScenario#01">
+              <lifeline xmi:type="uml:Lifeline" xmi:id="_FdAA8Jj6EemiJJjEotXc9w" name="inhabitant" coveredBy="_TNYAkJj6EemiJJjEotXc9w _svKYwJj6EemiJJjEotXc9w _svz5AJj6EemiJJjEotXc9w _TO6RoJj6EemiJJjEotXc9w _P-KdIJj7EemiJJjEotXc9w _P-9HUJj7EemiJJjEotXc9w _svo54Jj6EemiJJjEotXc9w"/>
+              <lifeline xmi:type="uml:Lifeline" xmi:id="_F1KpUJj6EemiJJjEotXc9w" name="SHS" coveredBy="_TNZ1wJj6EemiJJjEotXc9w _XmqVAJj6EemiJJjEotXc9w _XnSAEJj6EemiJJjEotXc9w _TO31YJj6EemiJJjEotXc9w _P-MSUJj7EemiJJjEotXc9w _P-7SIJj7EemiJJjEotXc9w _TOlhgJj6EemiJJjEotXc9w _P-vr8Jj7EemiJJjEotXc9w"/>
+              <lifeline xmi:type="uml:Lifeline" xmi:id="_GQesUJj6EemiJJjEotXc9w" name="policeStation" coveredBy="_XmsKMJj6EemiJJjEotXc9w _svIjkJj6EemiJJjEotXc9w _sv2VQJj6EemiJJjEotXc9w _XnQK4Jj6EemiJJjEotXc9w _XnD9oJj6EemiJJjEotXc9w"/>
+              <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_TNYAkJj6EemiJJjEotXc9w" name="Message4SendEvent" covered="_FdAA8Jj6EemiJJjEotXc9w" message="_TNShAJj6EemiJJjEotXc9w"/>
+              <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_TNZ1wJj6EemiJJjEotXc9w" name="Message4ReceiveEvent" covered="_F1KpUJj6EemiJJjEotXc9w" message="_TNShAJj6EemiJJjEotXc9w"/>
+              <fragment xmi:type="uml:BehaviorExecutionSpecification" xmi:id="_TOlhgJj6EemiJJjEotXc9w" name="BehaviorExecutionSpecification7" covered="_F1KpUJj6EemiJJjEotXc9w" finish="_TO31YJj6EemiJJjEotXc9w" start="_TNZ1wJj6EemiJJjEotXc9w"/>
+              <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_XmqVAJj6EemiJJjEotXc9w" name="Message11SendEvent" covered="_F1KpUJj6EemiJJjEotXc9w" message="_Xmn4wJj6EemiJJjEotXc9w"/>
+              <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_XmsKMJj6EemiJJjEotXc9w" name="Message11ReceiveEvent" covered="_GQesUJj6EemiJJjEotXc9w" message="_Xmn4wJj6EemiJJjEotXc9w"/>
+              <fragment xmi:type="uml:BehaviorExecutionSpecification" xmi:id="_XnD9oJj6EemiJJjEotXc9w" name="BehaviorExecutionSpecification14" covered="_GQesUJj6EemiJJjEotXc9w" finish="_XnQK4Jj6EemiJJjEotXc9w" start="_XmsKMJj6EemiJJjEotXc9w"/>
+              <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_svIjkJj6EemiJJjEotXc9w" name="Message18SendEvent" covered="_GQesUJj6EemiJJjEotXc9w" message="_svGHUJj6EemiJJjEotXc9w"/>
+              <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_svKYwJj6EemiJJjEotXc9w" name="Message18ReceiveEvent" covered="_FdAA8Jj6EemiJJjEotXc9w" message="_svGHUJj6EemiJJjEotXc9w"/>
+              <fragment xmi:type="uml:BehaviorExecutionSpecification" xmi:id="_svo54Jj6EemiJJjEotXc9w" name="BehaviorExecutionSpecification21" covered="_FdAA8Jj6EemiJJjEotXc9w" finish="_svz5AJj6EemiJJjEotXc9w" start="_svKYwJj6EemiJJjEotXc9w"/>
+              <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_svz5AJj6EemiJJjEotXc9w" name="Message23SendEvent" covered="_FdAA8Jj6EemiJJjEotXc9w" message="_svyD0Jj6EemiJJjEotXc9w"/>
+              <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_sv2VQJj6EemiJJjEotXc9w" name="Message23ReceiveEvent" covered="_GQesUJj6EemiJJjEotXc9w" message="_svyD0Jj6EemiJJjEotXc9w"/>
+              <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_XnQK4Jj6EemiJJjEotXc9w" name="Message16SendEvent" covered="_GQesUJj6EemiJJjEotXc9w" message="_XnOVsJj6EemiJJjEotXc9w"/>
+              <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_XnSAEJj6EemiJJjEotXc9w" name="Message16ReceiveEvent" covered="_F1KpUJj6EemiJJjEotXc9w" message="_XnOVsJj6EemiJJjEotXc9w"/>
+              <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_TO31YJj6EemiJJjEotXc9w" name="Message9SendEvent" covered="_F1KpUJj6EemiJJjEotXc9w" message="_TO2AMJj6EemiJJjEotXc9w"/>
+              <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_TO6RoJj6EemiJJjEotXc9w" name="Message9ReceiveEvent" covered="_FdAA8Jj6EemiJJjEotXc9w" message="_TO2AMJj6EemiJJjEotXc9w"/>
+              <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_P-KdIJj7EemiJJjEotXc9w" name="Message25SendEvent" covered="_FdAA8Jj6EemiJJjEotXc9w" message="_P-IA4Jj7EemiJJjEotXc9w"/>
+              <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_P-MSUJj7EemiJJjEotXc9w" name="Message25ReceiveEvent" covered="_F1KpUJj6EemiJJjEotXc9w" message="_P-IA4Jj7EemiJJjEotXc9w"/>
+              <fragment xmi:type="uml:BehaviorExecutionSpecification" xmi:id="_P-vr8Jj7EemiJJjEotXc9w" name="BehaviorExecutionSpecification28" covered="_F1KpUJj6EemiJJjEotXc9w" finish="_P-7SIJj7EemiJJjEotXc9w" start="_P-MSUJj7EemiJJjEotXc9w"/>
+              <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_P-7SIJj7EemiJJjEotXc9w" name="Message30SendEvent" covered="_F1KpUJj6EemiJJjEotXc9w" message="_P-414Jj7EemiJJjEotXc9w"/>
+              <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_P-9HUJj7EemiJJjEotXc9w" name="Message30ReceiveEvent" covered="_FdAA8Jj6EemiJJjEotXc9w" message="_P-414Jj7EemiJJjEotXc9w"/>
+              <message xmi:type="uml:Message" xmi:id="_TNShAJj6EemiJJjEotXc9w" name="startSecurityAccessChangeRequest" receiveEvent="_TNZ1wJj6EemiJJjEotXc9w" sendEvent="_TNYAkJj6EemiJJjEotXc9w"/>
+              <message xmi:type="uml:Message" xmi:id="_TO2AMJj6EemiJJjEotXc9w" name="acknowledge" messageSort="reply" receiveEvent="_TO6RoJj6EemiJJjEotXc9w" sendEvent="_TO31YJj6EemiJJjEotXc9w"/>
+              <message xmi:type="uml:Message" xmi:id="_Xmn4wJj6EemiJJjEotXc9w" name="informRightAccessModificationRequest" receiveEvent="_XmsKMJj6EemiJJjEotXc9w" sendEvent="_XmqVAJj6EemiJJjEotXc9w"/>
+              <message xmi:type="uml:Message" xmi:id="_XnOVsJj6EemiJJjEotXc9w" name="acknowledge" messageSort="reply" receiveEvent="_XnSAEJj6EemiJJjEotXc9w" sendEvent="_XnQK4Jj6EemiJJjEotXc9w"/>
+              <message xmi:type="uml:Message" xmi:id="_svGHUJj6EemiJJjEotXc9w" name="checkIdentity" receiveEvent="_svKYwJj6EemiJJjEotXc9w" sendEvent="_svIjkJj6EemiJJjEotXc9w"/>
+              <message xmi:type="uml:Message" xmi:id="_svyD0Jj6EemiJJjEotXc9w" name="acknowledge" messageSort="reply" receiveEvent="_sv2VQJj6EemiJJjEotXc9w" sendEvent="_svz5AJj6EemiJJjEotXc9w"/>
+              <message xmi:type="uml:Message" xmi:id="_P-IA4Jj7EemiJJjEotXc9w" name="changeAccessRight" receiveEvent="_P-MSUJj7EemiJJjEotXc9w" sendEvent="_P-KdIJj7EemiJJjEotXc9w"/>
+              <message xmi:type="uml:Message" xmi:id="_P-414Jj7EemiJJjEotXc9w" name="ackowledge" messageSort="reply" receiveEvent="_P-9HUJj7EemiJJjEotXc9w" sendEvent="_P-7SIJj7EemiJJjEotXc9w"/>
+            </ownedBehavior>
             <extend xmi:type="uml:Extend" xmi:id="_WQ2E0JbYEeew-NwceYS8pQ" extendedCase="_PwMs8FkIEeO46MKyR1zbAg" extensionLocation="_zfS8AJbYEeew-NwceYS8pQ"/>
             <subject xmi:type="uml:Class" href="SHS_Project_Management_Definition.uml#_gCDnUFkHEeO46MKyR1zbAg"/>
           </packagedElement>
@@ -213,10 +246,44 @@ N.B.: the comment may be hidden and shown as for example in a table gathering al
           <packagedElement xmi:type="uml:UseCase" xmi:id="_RWQbUJbyEeew-NwceYS8pQ" name="manageSecurity&amp;SafetySystem">
             <subject xmi:type="uml:Class" href="SHS_Project_Management_Definition.uml#_gCDnUFkHEeO46MKyR1zbAg"/>
           </packagedElement>
-          <packagedElement xmi:type="uml:Association" xmi:id="_DgvUoJcAEeeFsqoIYj-fTQ"/>
           <packagedElement xmi:type="uml:UseCase" xmi:id="_3ZnKwJb_EeeFsqoIYj-fTQ" name="manageComputerSystemLogin">
             <extend xmi:type="uml:Extend" xmi:id="_WcgbEJcAEeeFsqoIYj-fTQ" extendedCase="_l6s34W4CEeeZtLaug2P7dA" extensionLocation="_WciQQJcAEeeFsqoIYj-fTQ"/>
             <subject xmi:type="uml:Class" href="SHS_Project_Management_Definition.uml#_gCDnUFkHEeO46MKyR1zbAg"/>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Association" xmi:id="_jolvcJjyEemiJJjEotXc9w" memberEnd="_jorPAJjyEemiJJjEotXc9w _jor2EJjyEemiJJjEotXc9w">
+            <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_joqn8JjyEemiJJjEotXc9w" source="org.eclipse.papyrus">
+              <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_joqn8ZjyEemiJJjEotXc9w" key="nature" value="UML_Nature"/>
+            </eAnnotations>
+            <ownedEnd xmi:type="uml:Property" xmi:id="_jorPAJjyEemiJJjEotXc9w" name="managecomputersystemlogin" type="_3ZnKwJb_EeeFsqoIYj-fTQ" association="_jolvcJjyEemiJJjEotXc9w"/>
+            <ownedEnd xmi:type="uml:Property" xmi:id="_jor2EJjyEemiJJjEotXc9w" name="inhabitant" type="_NUx8i5itEemfOpj3-Spopg" association="_jolvcJjyEemiJJjEotXc9w"/>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Association" xmi:id="_992zAJjyEemiJJjEotXc9w" memberEnd="_994oMpjyEemiJJjEotXc9w _994oM5jyEemiJJjEotXc9w">
+            <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_994oMJjyEemiJJjEotXc9w" source="org.eclipse.papyrus">
+              <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_994oMZjyEemiJJjEotXc9w" key="nature" value="UML_Nature"/>
+            </eAnnotations>
+            <ownedEnd xmi:type="uml:Property" xmi:id="_994oMpjyEemiJJjEotXc9w" name="managesecurity&amp;safetysystem" type="_RWQbUJbyEeew-NwceYS8pQ" association="_992zAJjyEemiJJjEotXc9w"/>
+            <ownedEnd xmi:type="uml:Property" xmi:id="_994oM5jyEemiJJjEotXc9w" name="inhabitant" type="_NUx8i5itEemfOpj3-Spopg" association="_992zAJjyEemiJJjEotXc9w"/>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Association" xmi:id="_-kQrsJjyEemiJJjEotXc9w" memberEnd="_-kR50pjyEemiJJjEotXc9w _-kSg4JjyEemiJJjEotXc9w">
+            <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_-kR50JjyEemiJJjEotXc9w" source="org.eclipse.papyrus">
+              <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_-kR50ZjyEemiJJjEotXc9w" key="nature" value="UML_Nature"/>
+            </eAnnotations>
+            <ownedEnd xmi:type="uml:Property" xmi:id="_-kR50pjyEemiJJjEotXc9w" name="updatecybersecuritysystem" type="_F5MiIJbyEeew-NwceYS8pQ" association="_-kQrsJjyEemiJJjEotXc9w"/>
+            <ownedEnd xmi:type="uml:Property" xmi:id="_-kSg4JjyEemiJJjEotXc9w" name="inhabitant" type="_NUx8i5itEemfOpj3-Spopg" association="_-kQrsJjyEemiJJjEotXc9w"/>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Association" xmi:id="_ATPWAJjzEemiJJjEotXc9w" memberEnd="_ATRLMpjzEemiJJjEotXc9w _ATRyQJjzEemiJJjEotXc9w">
+            <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_ATRLMJjzEemiJJjEotXc9w" source="org.eclipse.papyrus">
+              <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_ATRLMZjzEemiJJjEotXc9w" key="nature" value="UML_Nature"/>
+            </eAnnotations>
+            <ownedEnd xmi:type="uml:Property" xmi:id="_ATRLMpjzEemiJJjEotXc9w" name="updatesecuritysystem" type="_Pbm9AFkIEeO46MKyR1zbAg" association="_ATPWAJjzEemiJJjEotXc9w"/>
+            <ownedEnd xmi:type="uml:Property" xmi:id="_ATRyQJjzEemiJJjEotXc9w" name="inhabitant" type="_NUx8i5itEemfOpj3-Spopg" association="_ATPWAJjzEemiJJjEotXc9w"/>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Association" xmi:id="_B7uWwJjzEemiJJjEotXc9w" memberEnd="_B7wzAZjzEemiJJjEotXc9w _B7wzApjzEemiJJjEotXc9w">
+            <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_B7wL8JjzEemiJJjEotXc9w" source="org.eclipse.papyrus">
+              <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_B7wzAJjzEemiJJjEotXc9w" key="nature" value="UML_Nature"/>
+            </eAnnotations>
+            <ownedEnd xmi:type="uml:Property" xmi:id="_B7wzAZjzEemiJJjEotXc9w" name="configuresecurityaccess" type="_PwMs8FkIEeO46MKyR1zbAg" association="_B7uWwJjzEemiJJjEotXc9w"/>
+            <ownedEnd xmi:type="uml:Property" xmi:id="_B7wzApjzEemiJJjEotXc9w" name="inhabitant" type="_NUx8i5itEemfOpj3-Spopg" association="_B7uWwJjzEemiJJjEotXc9w"/>
           </packagedElement>
         </packagedElement>
         <packagedElement xmi:type="uml:Package" xmi:id="_l6s34G4CEeeZtLaug2P7dA" name="SHS Accomodation Use Cases">
@@ -318,6 +385,7 @@ N.B.: the comment may be hidden and shown as for example in a table gathering al
       </packagedElement>
       <packagedElement xmi:type="uml:Dependency" xmi:id="_H7DXYJiwEemfOpj3-Spopg" name="SHS Operational Description->SHS ProductStakeholders" client="_j5KicE3oEeO5W83O6raoHw" supplier="_JklBUJitEemfOpj3-Spopg"/>
       <packagedElement xmi:type="uml:Dependency" xmi:id="_y0b0EJjdEemiJJjEotXc9w" name="SHS_Needs->SHS&lt;->_EnvFlowsDefinitions" client="_j5KicE3oEeO5W83O6raoHw" supplier="_mU28sJjXEemiJJjEotXc9w"/>
+      <packagedElement xmi:type="uml:Package" xmi:id="_C6czYJj0EemiJJjEotXc9w" name="IntraSHS_OperationalDesciptionTraceabilityDescription"/>
     </packagedElement>
     <packagedElement xmi:type="uml:Package" xmi:id="_JklBUJitEemfOpj3-Spopg" name="SHS_ProductStakeholders">
       <packagedElement xmi:type="uml:Actor" xmi:id="_SOQc0JjBEemiJJjEotXc9w" name="SHS_Environment" isAbstract="true"/>
@@ -362,7 +430,7 @@ N.B.: the comment may be hidden and shown as for example in a table gathering al
         <packagedElement xmi:type="uml:Actor" xmi:id="_NU21BZitEemfOpj3-Spopg" name="HealthAuthority"/>
       </packagedElement>
       <packagedElement xmi:type="uml:Package" xmi:id="_NUx8gJitEemfOpj3-Spopg" name="KeyOutputSystems">
-        <packagedElement xmi:type="uml:Actor" xmi:id="_NUx8gZitEemfOpj3-Spopg" name="ElectronicDevice" isAbstract="true">
+        <packagedElement xmi:type="uml:Actor" xmi:id="_NUx8gZitEemfOpj3-Spopg" name="ActuatorDevice" isAbstract="true">
           <ownedComment xmi:type="uml:Comment" xmi:id="_NUx8gpitEemfOpj3-Spopg">
             <body>ActuactorDevice</body>
           </ownedComment>
