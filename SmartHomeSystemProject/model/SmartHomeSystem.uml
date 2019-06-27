@@ -45,12 +45,12 @@ PS: Glossary of the project is defined within the model {@link #_yt5KoFHQEeORnr7
       <appliedProfile xmi:type="uml:Profile" href="pathmap://UML_PROFILES/Standard.profile.uml#_0"/>
     </profileApplication>
     <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_-_gJQG0qEeePr__vXKAk2g">
-      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="__HSzUW0qEeePr__vXKAk2g" source="PapyrusVersion">
-        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="__HSzUm0qEeePr__vXKAk2g" key="Version" value="0.0.1"/>
-        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="__HSzU20qEeePr__vXKAk2g" key="Comment" value=""/>
-        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="__HSzVG0qEeePr__vXKAk2g" key="Copyright" value="CEA LIST - Initial API and Implementation&#xD;&#xA;"/>
-        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="__HSzVW0qEeePr__vXKAk2g" key="Date" value="2012-12-07"/>
-        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="__HSzVm0qEeePr__vXKAk2g" key="Author" value=""/>
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_7oZ20JirEemfOpj3-Spopg" source="PapyrusVersion">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_7oZ20ZirEemfOpj3-Spopg" key="Version" value="0.0.1"/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_7oZ20pirEemfOpj3-Spopg" key="Comment" value=""/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_7oZ205irEemfOpj3-Spopg" key="Copyright" value="CEA LIST - Initial API and Implementation&#xD;&#xA;"/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_7oZ21JirEemfOpj3-Spopg" key="Date" value="2012-12-07"/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_7oZ21ZirEemfOpj3-Spopg" key="Author" value=""/>
       </eAnnotations>
       <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="__HSzUG0qEeePr__vXKAk2g" source="http://www.eclipse.org/uml2/2.0.0/UML">
         <references xmi:type="ecore:EPackage" href="pathmap://PAPYRUS_INTERNAL_PROFILES/PapyrusInternal.profile.uml#_eikdoEBcEeKj6r7ThQagKA"/>
@@ -58,12 +58,12 @@ PS: Glossary of the project is defined within the model {@link #_yt5KoFHQEeORnr7
       <appliedProfile xmi:type="uml:Profile" href="pathmap://PAPYRUS_INTERNAL_PROFILES/PapyrusInternal.profile.uml#_16oYAD-SEeKj6r7ThQagKA"/>
     </profileApplication>
     <profileApplication xmi:type="uml:ProfileApplication" xmi:id="__HSzV20qEeePr__vXKAk2g">
-      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="__OyicW0qEeePr__vXKAk2g" source="PapyrusVersion">
-        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="__Oyicm0qEeePr__vXKAk2g" key="Version" value="0.0.1"/>
-        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="__Oyic20qEeePr__vXKAk2g" key="Comment" value=""/>
-        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="__OyidG0qEeePr__vXKAk2g" key="Copyright" value="CEA LIST - Initial API and Implementation&#xD;&#xA;"/>
-        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="__OyidW0qEeePr__vXKAk2g" key="Date" value="2012-12-07"/>
-        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="__Oyidm0qEeePr__vXKAk2g" key="Author" value=""/>
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_7ogkgJirEemfOpj3-Spopg" source="PapyrusVersion">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_7ogkgZirEemfOpj3-Spopg" key="Version" value="0.0.1"/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_7ogkgpirEemfOpj3-Spopg" key="Comment" value=""/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_7ogkg5irEemfOpj3-Spopg" key="Copyright" value="CEA LIST - Initial API and Implementation&#xD;&#xA;"/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_7ogkhJirEemfOpj3-Spopg" key="Date" value="2012-12-07"/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_7ogkhZirEemfOpj3-Spopg" key="Author" value=""/>
       </eAnnotations>
       <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="__OyicG0qEeePr__vXKAk2g" source="http://www.eclipse.org/uml2/2.0.0/UML">
         <references xmi:type="ecore:EPackage" href="pathmap://PAPYRUS_INTERNAL_PROFILES/PapyrusInternal.profile.uml#_eijPgUBcEeKj6r7ThQagKA"/>
