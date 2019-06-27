@@ -79,10 +79,10 @@
 <path d="M309 226 L322 226 L322 244 L309 244 L309 226 Z"/>
 </clipPath>
 <clipPath clipPathUnits="userSpaceOnUse" id="clipPath26">
-<path d="M669 228 L682 228 L682 246 L669 246 L669 228 Z"/>
+<path d="M224 226 L237 226 L237 244 L224 244 L224 226 Z"/>
 </clipPath>
 <clipPath clipPathUnits="userSpaceOnUse" id="clipPath27">
-<path d="M224 226 L237 226 L237 244 L224 244 L224 226 Z"/>
+<path d="M669 228 L682 228 L682 246 L669 246 L669 228 Z"/>
 </clipPath>
 </defs>
 <g fill="white" font-family="'Segoe UI'" stroke-linejoin="round" stroke="white" stroke-width="0" stroke-miterlimit="0">
@@ -192,15 +192,15 @@
 <line clip-path="url(#clipPath23)" fill="none" text-rendering="optimizeLegibility" x1="315" x2="315" y1="185" y2="242" stroke-dasharray="5,5,5,5,5,5,5,5,5,5"/>
 <line clip-path="url(#clipPath25)" fill="none" text-rendering="optimizeLegibility" x1="310" x2="315" y1="227" y2="242"/>
 <line clip-path="url(#clipPath25)" fill="none" text-rendering="optimizeLegibility" x1="315" x2="320" y1="242" y2="227"/>
+<line clip-path="url(#clipPath23)" fill="none" text-rendering="optimizeLegibility" x1="230" x2="230" y1="150" y2="242" stroke-dasharray="5,5,5,5,5,5,5,5,5,5"/>
+<line clip-path="url(#clipPath26)" fill="none" text-rendering="optimizeLegibility" x1="225" x2="230" y1="227" y2="242"/>
+<line clip-path="url(#clipPath26)" fill="none" text-rendering="optimizeLegibility" x1="230" x2="235" y1="242" y2="227"/>
 <line clip-path="url(#clipPath23)" fill="none" text-rendering="optimizeLegibility" x1="675" x2="675" y1="150" y2="244" stroke-dasharray="5,5,5,5,5,5,5,5,5,5"/>
-<line clip-path="url(#clipPath26)" fill="none" text-rendering="optimizeLegibility" x1="670" x2="675" y1="229" y2="244"/>
-<line clip-path="url(#clipPath26)" fill="none" text-rendering="optimizeLegibility" x1="675" x2="680" y1="244" y2="229"/>
+<line clip-path="url(#clipPath27)" fill="none" text-rendering="optimizeLegibility" x1="670" x2="675" y1="229" y2="244"/>
+<line clip-path="url(#clipPath27)" fill="none" text-rendering="optimizeLegibility" x1="675" x2="680" y1="244" y2="229"/>
 <line clip-path="url(#clipPath23)" fill="none" text-rendering="optimizeLegibility" x1="230" x2="230" y1="150" y2="242" stroke-dasharray="5,5,5,5,5,5,5,5,5,5"/>
-<line clip-path="url(#clipPath27)" fill="none" text-rendering="optimizeLegibility" x1="225" x2="230" y1="227" y2="242"/>
-<line clip-path="url(#clipPath27)" fill="none" text-rendering="optimizeLegibility" x1="230" x2="235" y1="242" y2="227"/>
-<line clip-path="url(#clipPath23)" fill="none" text-rendering="optimizeLegibility" x1="230" x2="230" y1="150" y2="242" stroke-dasharray="5,5,5,5,5,5,5,5,5,5"/>
-<line clip-path="url(#clipPath27)" fill="none" text-rendering="optimizeLegibility" x1="225" x2="230" y1="227" y2="242"/>
-<line clip-path="url(#clipPath27)" fill="none" text-rendering="optimizeLegibility" x1="230" x2="235" y1="242" y2="227"/>
+<line clip-path="url(#clipPath26)" fill="none" text-rendering="optimizeLegibility" x1="225" x2="230" y1="227" y2="242"/>
+<line clip-path="url(#clipPath26)" fill="none" text-rendering="optimizeLegibility" x1="230" x2="235" y1="242" y2="227"/>
 <line clip-path="url(#clipPath23)" fill="none" text-rendering="optimizeLegibility" x1="520" x2="520" y1="150" y2="185" stroke-dasharray="5,5,5,5,5,5,5,5,5,5"/>
 <line clip-path="url(#clipPath23)" fill="none" text-rendering="optimizeLegibility" x1="520" x2="315" y1="185" y2="185" stroke-dasharray="5,5,5,5,5,5,5,5,5,5"/>
 <line clip-path="url(#clipPath23)" fill="none" text-rendering="optimizeLegibility" x1="315" x2="315" y1="185" y2="242" stroke-dasharray="5,5,5,5,5,5,5,5,5,5"/>
@@ -259,8 +259,8 @@
 <line clip-path="url(#clipPath24)" fill="none" text-rendering="optimizeLegibility" x1="535" x2="540" y1="207" y2="222"/>
 <line clip-path="url(#clipPath24)" fill="none" text-rendering="optimizeLegibility" x1="540" x2="545" y1="222" y2="207"/>
 <line clip-path="url(#clipPath23)" fill="none" text-rendering="optimizeLegibility" x1="675" x2="675" y1="150" y2="244" stroke-dasharray="5,5,5,5,5,5,5,5,5,5"/>
-<line clip-path="url(#clipPath26)" fill="none" text-rendering="optimizeLegibility" x1="670" x2="675" y1="229" y2="244"/>
-<line clip-path="url(#clipPath26)" fill="none" text-rendering="optimizeLegibility" x1="675" x2="680" y1="244" y2="229"/>
+<line clip-path="url(#clipPath27)" fill="none" text-rendering="optimizeLegibility" x1="670" x2="675" y1="229" y2="244"/>
+<line clip-path="url(#clipPath27)" fill="none" text-rendering="optimizeLegibility" x1="675" x2="680" y1="244" y2="229"/>
 </g>
 </g>
 </svg>

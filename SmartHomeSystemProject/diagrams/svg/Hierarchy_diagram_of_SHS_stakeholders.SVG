@@ -183,7 +183,7 @@
 <text xml:space="preserve" x="492" y="363" clip-path="url(#clipPath23)" stroke="none">«Stakeholder»</text>
 <rect x="645" y="270" clip-path="url(#clipPath24)" fill="url(#linearGradient6)" width="30" opacity="0" height="50" stroke="none"/>
 <image x="645" y="270" clip-path="url(#clipPath25)" width="30" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAyCAYAAABLXmvvAAADPElEQVR42u1YP0hb&#13;&#10;QRi/SzMYEUzEwUrABAKmTlaoOFot2IiDblYCpprBaoU0IggW8m6IQSxmM1bQbFYX&#13;&#10;myU2brrYTNYxgoOTdbJqwcTF631n32vUmNx7L2hL88HjHi+5+9333ffn9x2+pJfo&#13;&#10;IcSAHkj+P2Cj2gkrKyt04PUAymQyyrfu7m60FF1CZrMZFx14d3eXNj1tyvlbLBbj&#13;&#10;DwOmxz+OhcCxiFcPvxmm8/Pz/H1oaAhFIpFrv5+cnCC73c5HEAZeUPtHASmQF3Rz&#13;&#10;c5OOjo7y93Q6zc16U8rKytDExASqqalB8XgcTU9PI7Yu0eVcbc/b+Egp5QD5BKwR&#13;&#10;CoX4e6erk2oGJhLhk8PhsLDzgeYgiURCezgRcmUtn8+nyvOj0agSAfcaxx6Ph48L&#13;&#10;Hxe0n7HNZtO8gWQyqR344OBAM7DT6bzflClvtrW1VRuwPPHo6EgVcE9PDx+nQlPa&#13;&#10;gNe/rPMRspKoQA5n6VVOLFgTMExsaWnhi7lcLiFgk8nEx8Pvh/rK4vbXbSwnBIvF&#13;&#10;kteDMb5SMBAIQPrEuosESO3jWpp91rA4yN7eHiQK5fvyp2XU29tbsEJhNZwrX2ls&#13;&#10;bGxEO992hOsx1kr2WPGgUAbVgN1JBNg50WxmkU/k2gtlUxSMhSfOCdz3qk91ppLL&#13;&#10;pohkW/caMDiGqMb+d34+zoZn9ZM9FrPC5wX86qb5Sry6BFwCLgGXgP+OxjybwooW&#13;&#10;lKJpXGWpogAMVMiADUAIqNo1CvbHt3bKgEBTYJ/+MT/a2Njg/fDFxYXU/qKdFJ36&#13;&#10;MO0oI3wK0WMbxr95NC03lculEoleRQhpHIvFaPOzZpnuIrfb/YfCGI0Eun+mubS/&#13;&#10;vw+trdTxskOyWq1EFzDcf4yPjyt3Gw6HI6dGg95BAoCLi4sInq2tLanf0080mbrh&#13;&#10;SQNNpVIyXxJmGsz0Cmk8T5/nbGXu1Bgmg9fChcrZzzNV9Gby/SQ5PT2VoLsIBoOo&#13;&#10;zlYnMd5N8mqc7Sxww7P2eQ1rjdVshwQFWD+Fc2rMzKr8cS4yh2Y+zGA92amiooI7&#13;&#10;3urqqgRxX2mulFgYklvA1dXVBLySdQeoq6sLFys9jrwdIfXOesnr9WLdLcw/WyR+&#13;&#10;ARPlcuWBKRV9AAAAAElFTkSuQmCC" xlink:type="simple" xlink:actuate="onLoad" height="50" preserveAspectRatio="none" xlink:show="embed"/>
-<text x="617" y="338" clip-path="url(#clipPath26)" font-style="italic" stroke="none" xml:space="preserve">ElectronicDevice</text>
+<text x="617" y="338" clip-path="url(#clipPath26)" font-style="italic" stroke="none" xml:space="preserve">ActuactorDevice</text>
 <text x="561" y="358" clip-path="url(#clipPath27)" font-style="italic" stroke="none" xml:space="preserve">«Stakeholder»</text>
 <rect x="190" y="272" clip-path="url(#clipPath28)" fill="url(#linearGradient7)" width="30" opacity="0" height="50" stroke="none"/>
 <image x="190" y="272" clip-path="url(#clipPath29)" width="30" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAyCAYAAABLXmvvAAADPElEQVR42u1YP0hb&#13;&#10;QRi/SzMYEUzEwUrABAKmTlaoOFot2IiDblYCpprBaoU0IggW8m6IQSxmM1bQbFYX&#13;&#10;myU2brrYTNYxgoOTdbJqwcTF631n32vUmNx7L2hL88HjHi+5+9333ffn9x2+pJfo&#13;&#10;IcSAHkj+P2Cj2gkrKyt04PUAymQyyrfu7m60FF1CZrMZFx14d3eXNj1tyvlbLBbj&#13;&#10;DwOmxz+OhcCxiFcPvxmm8/Pz/H1oaAhFIpFrv5+cnCC73c5HEAZeUPtHASmQF3Rz&#13;&#10;c5OOjo7y93Q6zc16U8rKytDExASqqalB8XgcTU9PI7Yu0eVcbc/b+Egp5QD5BKwR&#13;&#10;CoX4e6erk2oGJhLhk8PhsLDzgeYgiURCezgRcmUtn8+nyvOj0agSAfcaxx6Ph48L&#13;&#10;Hxe0n7HNZtO8gWQyqR344OBAM7DT6bzflClvtrW1VRuwPPHo6EgVcE9PDx+nQlPa&#13;&#10;gNe/rPMRspKoQA5n6VVOLFgTMExsaWnhi7lcLiFgk8nEx8Pvh/rK4vbXbSwnBIvF&#13;&#10;kteDMb5SMBAIQPrEuosESO3jWpp91rA4yN7eHiQK5fvyp2XU29tbsEJhNZwrX2ls&#13;&#10;bGxEO992hOsx1kr2WPGgUAbVgN1JBNg50WxmkU/k2gtlUxSMhSfOCdz3qk91ppLL&#13;&#10;pohkW/caMDiGqMb+d34+zoZn9ZM9FrPC5wX86qb5Sry6BFwCLgGXgP+OxjybwooW&#13;&#10;lKJpXGWpogAMVMiADUAIqNo1CvbHt3bKgEBTYJ/+MT/a2Njg/fDFxYXU/qKdFJ36&#13;&#10;MO0oI3wK0WMbxr95NC03lculEoleRQhpHIvFaPOzZpnuIrfb/YfCGI0Eun+mubS/&#13;&#10;vw+trdTxskOyWq1EFzDcf4yPjyt3Gw6HI6dGg95BAoCLi4sInq2tLanf0080mbrh&#13;&#10;SQNNpVIyXxJmGsz0Cmk8T5/nbGXu1Bgmg9fChcrZzzNV9Gby/SQ5PT2VoLsIBoOo&#13;&#10;zlYnMd5N8mqc7Sxww7P2eQ1rjdVshwQFWD+Fc2rMzKr8cS4yh2Y+zGA92amiooI7&#13;&#10;3urqqgRxX2mulFgYklvA1dXVBLySdQeoq6sLFys9jrwdIfXOesnr9WLdLcw/WyR+&#13;&#10;ARPlcuWBKRV9AAAAAElFTkSuQmCC" xlink:type="simple" xlink:actuate="onLoad" height="50" preserveAspectRatio="none" xlink:show="embed"/>
@@ -194,13 +194,13 @@
 <text xml:space="preserve" x="429" y="340" clip-path="url(#clipPath34)" stroke="none"> MedicalPeople</text>
 <text xml:space="preserve" x="387" y="363" clip-path="url(#clipPath35)" stroke="none">«Stakeholder»</text>
 <line clip-path="url(#clipPath36)" fill="none" x1="11" x2="802" y1="32" y2="32"/>
-<line clip-path="url(#clipPath37)" fill="none" text-rendering="optimizeLegibility" x1="380" x2="380" y1="272" y2="179"/>
-<line clip-path="url(#clipPath37)" fill="none" text-rendering="optimizeLegibility" x1="380" x2="415" y1="179" y2="179"/>
+<line clip-path="url(#clipPath37)" fill="none" text-rendering="optimizeLegibility" x1="565" x2="565" y1="270" y2="179"/>
+<line clip-path="url(#clipPath37)" fill="none" text-rendering="optimizeLegibility" x1="565" x2="415" y1="179" y2="179"/>
 <line clip-path="url(#clipPath37)" fill="none" text-rendering="optimizeLegibility" x1="415" x2="415" y1="179" y2="140"/>
 <polygon fill="white" text-rendering="optimizeLegibility" clip-path="url(#clipPath38)" points=" 415 140 423 150 407 150" stroke="none"/>
 <polygon text-rendering="optimizeLegibility" fill="none" clip-path="url(#clipPath38)" points=" 415 140 423 150 407 150"/>
-<line clip-path="url(#clipPath37)" fill="none" text-rendering="optimizeLegibility" x1="660" x2="660" y1="270" y2="179"/>
-<line clip-path="url(#clipPath37)" fill="none" text-rendering="optimizeLegibility" x1="660" x2="415" y1="179" y2="179"/>
+<line clip-path="url(#clipPath37)" fill="none" text-rendering="optimizeLegibility" x1="110" x2="110" y1="272" y2="179"/>
+<line clip-path="url(#clipPath37)" fill="none" text-rendering="optimizeLegibility" x1="110" x2="415" y1="179" y2="179"/>
 <line clip-path="url(#clipPath37)" fill="none" text-rendering="optimizeLegibility" x1="415" x2="415" y1="179" y2="140"/>
 <polygon fill="white" text-rendering="optimizeLegibility" clip-path="url(#clipPath38)" points=" 415 140 423 150 407 150" stroke="none"/>
 <polygon text-rendering="optimizeLegibility" fill="none" clip-path="url(#clipPath38)" points=" 415 140 423 150 407 150"/>
@@ -214,18 +214,18 @@
 <line clip-path="url(#clipPath37)" fill="none" text-rendering="optimizeLegibility" x1="415" x2="415" y1="179" y2="140"/>
 <polygon fill="white" text-rendering="optimizeLegibility" clip-path="url(#clipPath38)" points=" 415 140 423 150 407 150" stroke="none"/>
 <polygon text-rendering="optimizeLegibility" fill="none" clip-path="url(#clipPath38)" points=" 415 140 423 150 407 150"/>
-<line clip-path="url(#clipPath37)" fill="none" text-rendering="optimizeLegibility" x1="110" x2="110" y1="272" y2="179"/>
-<line clip-path="url(#clipPath37)" fill="none" text-rendering="optimizeLegibility" x1="110" x2="415" y1="179" y2="179"/>
-<line clip-path="url(#clipPath37)" fill="none" text-rendering="optimizeLegibility" x1="415" x2="415" y1="179" y2="140"/>
-<polygon fill="white" text-rendering="optimizeLegibility" clip-path="url(#clipPath38)" points=" 415 140 423 150 407 150" stroke="none"/>
-<polygon text-rendering="optimizeLegibility" fill="none" clip-path="url(#clipPath38)" points=" 415 140 423 150 407 150"/>
 <line clip-path="url(#clipPath37)" fill="none" text-rendering="optimizeLegibility" x1="290" x2="290" y1="272" y2="179"/>
 <line clip-path="url(#clipPath37)" fill="none" text-rendering="optimizeLegibility" x1="290" x2="415" y1="179" y2="179"/>
 <line clip-path="url(#clipPath37)" fill="none" text-rendering="optimizeLegibility" x1="415" x2="415" y1="179" y2="140"/>
 <polygon fill="white" text-rendering="optimizeLegibility" clip-path="url(#clipPath38)" points=" 415 140 423 150 407 150" stroke="none"/>
 <polygon text-rendering="optimizeLegibility" fill="none" clip-path="url(#clipPath38)" points=" 415 140 423 150 407 150"/>
-<line clip-path="url(#clipPath37)" fill="none" text-rendering="optimizeLegibility" x1="565" x2="565" y1="270" y2="179"/>
-<line clip-path="url(#clipPath37)" fill="none" text-rendering="optimizeLegibility" x1="565" x2="415" y1="179" y2="179"/>
+<line clip-path="url(#clipPath37)" fill="none" text-rendering="optimizeLegibility" x1="380" x2="380" y1="272" y2="179"/>
+<line clip-path="url(#clipPath37)" fill="none" text-rendering="optimizeLegibility" x1="380" x2="415" y1="179" y2="179"/>
+<line clip-path="url(#clipPath37)" fill="none" text-rendering="optimizeLegibility" x1="415" x2="415" y1="179" y2="140"/>
+<polygon fill="white" text-rendering="optimizeLegibility" clip-path="url(#clipPath38)" points=" 415 140 423 150 407 150" stroke="none"/>
+<polygon text-rendering="optimizeLegibility" fill="none" clip-path="url(#clipPath38)" points=" 415 140 423 150 407 150"/>
+<line clip-path="url(#clipPath37)" fill="none" text-rendering="optimizeLegibility" x1="660" x2="660" y1="270" y2="179"/>
+<line clip-path="url(#clipPath37)" fill="none" text-rendering="optimizeLegibility" x1="660" x2="415" y1="179" y2="179"/>
 <line clip-path="url(#clipPath37)" fill="none" text-rendering="optimizeLegibility" x1="415" x2="415" y1="179" y2="140"/>
 <polygon fill="white" text-rendering="optimizeLegibility" clip-path="url(#clipPath38)" points=" 415 140 423 150 407 150" stroke="none"/>
 <polygon text-rendering="optimizeLegibility" fill="none" clip-path="url(#clipPath38)" points=" 415 140 423 150 407 150"/>

@@ -39,11 +39,11 @@
 <stop stop-opacity="1" stop-color="white" offset="0%"/>
 <stop stop-opacity="1" stop-color="white" offset="100%"/>
 </linearGradient>
-<linearGradient x1="325" x2="325" y1="93" gradientUnits="userSpaceOnUse" y2="156" xlink:type="simple" xlink:actuate="onLoad" id="linearGradient10" xlink:show="other" spreadMethod="pad">
+<linearGradient x1="332" x2="332" y1="98" gradientUnits="userSpaceOnUse" y2="161" xlink:type="simple" xlink:actuate="onLoad" id="linearGradient10" xlink:show="other" spreadMethod="pad">
 <stop stop-opacity="1" stop-color="white" offset="0%"/>
 <stop stop-opacity="1" stop-color="white" offset="100%"/>
 </linearGradient>
-<linearGradient x1="474" x2="474" y1="99" gradientUnits="userSpaceOnUse" y2="162" xlink:type="simple" xlink:actuate="onLoad" id="linearGradient11" xlink:show="other" spreadMethod="pad">
+<linearGradient x1="474" x2="474" y1="98" gradientUnits="userSpaceOnUse" y2="161" xlink:type="simple" xlink:actuate="onLoad" id="linearGradient11" xlink:show="other" spreadMethod="pad">
 <stop stop-opacity="1" stop-color="white" offset="0%"/>
 <stop stop-opacity="1" stop-color="white" offset="100%"/>
 </linearGradient>
@@ -140,22 +140,22 @@
 <path d="M10 281 L112 281 L112 385 L10 385 L10 281 Z"/>
 </clipPath>
 <clipPath clipPathUnits="userSpaceOnUse" id="clipPath29">
-<path d="M325 93 L325 155 L428 155 L428 93 Z"/>
+<path d="M332 98 L332 160 L441 160 L441 98 Z"/>
 </clipPath>
 <clipPath clipPathUnits="userSpaceOnUse" id="clipPath30">
-<path d="M326 95 L430 95 L430 113 L326 113 L326 95 Z"/>
+<path d="M332 100 L436 100 L436 118 L332 118 L332 100 Z"/>
 </clipPath>
 <clipPath clipPathUnits="userSpaceOnUse" id="clipPath31">
-<path d="M325 112 L431 112 L431 216 L325 216 L325 112 Z"/>
+<path d="M332 117 L444 117 L444 221 L332 221 L332 117 Z"/>
 </clipPath>
 <clipPath clipPathUnits="userSpaceOnUse" id="clipPath32">
-<path d="M474 99 L474 161 L602 161 L602 99 Z"/>
+<path d="M474 98 L474 160 L602 160 L602 98 Z"/>
 </clipPath>
 <clipPath clipPathUnits="userSpaceOnUse" id="clipPath33">
-<path d="M475 101 L604 101 L604 119 L475 119 L475 101 Z"/>
+<path d="M475 100 L604 100 L604 118 L475 118 L475 100 Z"/>
 </clipPath>
 <clipPath clipPathUnits="userSpaceOnUse" id="clipPath34">
-<path d="M474 118 L605 118 L605 222 L474 222 L474 118 Z"/>
+<path d="M474 117 L605 117 L605 221 L474 221 L474 117 Z"/>
 </clipPath>
 <clipPath clipPathUnits="userSpaceOnUse" id="clipPath35">
 <path d="M675 98 L675 160 L774 160 L774 98 Z"/>
@@ -278,13 +278,13 @@
 <path d="M324 292 L342 292 L342 305 L324 305 L324 292 Z"/>
 </clipPath>
 <clipPath clipPathUnits="userSpaceOnUse" id="clipPath75">
-<path d="M311 161 L374 161 L374 179 L311 179 L311 161 Z"/>
+<path d="M320 161 L383 161 L383 179 L320 179 L320 161 Z"/>
 </clipPath>
 <clipPath clipPathUnits="userSpaceOnUse" id="clipPath76">
-<path d="M277 177 L376 177 L376 195 L277 195 L277 177 Z"/>
+<path d="M285 176 L384 176 L384 194 L285 194 L285 176 Z"/>
 </clipPath>
 <clipPath clipPathUnits="userSpaceOnUse" id="clipPath77">
-<path d="M378 202 L391 202 L391 220 L378 220 L378 202 Z"/>
+<path d="M384 202 L397 202 L397 220 L384 220 L384 202 Z"/>
 </clipPath>
 <clipPath clipPathUnits="userSpaceOnUse" id="clipPath78">
 <path d="M468 158 L531 158 L531 176 L468 176 L468 158 Z"/>
@@ -349,22 +349,22 @@
 <text xml:space="preserve" x="599" y="710" clip-path="url(#clipPath21)" stroke="none">Internet</text>
 <image x="609" y="714" clip-path="url(#clipPath22)" width="25" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABkAAAArCAYAAACNWyPFAAACtUlEQVR42u2XsU9a&#13;&#10;QRzHf2dJBONAnWASDDVOls2aMIBJTeo/YKsdQEmk2gh1sYlNuLcImGBhwIYErJMN&#13;&#10;i11hESYriw1hoQ7CJMQuTFZs4vXuEghUfN6j6tDwW967vLv73O/3u7vv76ErcgX3&#13;&#10;bT3wAPYgEJVox52dHbL4ZhEuLi54e+vTFrhcLiQyFt2Wk2QySaZeTDXaOp0OKpVK&#13;&#10;o+31esGLvahjT0KhEFl5t8InLpfL176Pj4+DJEmQy+XI3te9G0GP6CrafqCrJZPP&#13;&#10;J8FqtUI+n2/bx+l0Qq1Wg1gsBmPPxrDJZJIUJX7IOMSf6XRaNpw+n4972hxSYQhL&#13;&#10;8G2AuhWLxYb3wpDDw0PemYVKxNRqdX0HintSKBQ6Og/HP47FIWazuSPI6NNRRRAk&#13;&#10;5/7fViqV+JMeTmWJZzvG4XAIQYxGYz03SBHktHzKB+j1elmAzWar9+/sgjz6fsSv&#13;&#10;EIRQIyR1q1aroNFoIJPJwPbnbeY56vjuopORgccDsgup57BjSDNsI7ABfr8fPB4P&#13;&#10;LLuXwWAwCN3Cwnqi1WrRum+dT7r5cROJAlo8obElE7aJOxMqlie73Y4UhavhOuoh&#13;&#10;dAxSNOa/0fgupAvpQu4YQmsxXsXMOebIvUDYncWE6+DbAdf+Pk2fMOjGMrVZR+iE&#13;&#10;mL2f/zrnGrLgWsCBQIDVwViuPBWCsCJv+MkwL94uf18ilUrFJ+vv75foOCmRSOBw&#13;&#10;OAypVArPO+clxRCqgGTm1QxbOZz9PGt7tS+9XZIGDYM4Eolwr9weN6YLkoQgVLxI&#13;&#10;PB5nogP76X1Z7aD6zr1iEBbCXnUvtlgskiyEFg2Elam7X3Zh7cOasDgxUDabxdFo&#13;&#10;FGgI8er7VakthO0gVs2fFE+ArgYpPQ+zr2el6ZfTOBgMtuSp5U+LxZ8C0L8cvJGR&#13;&#10;kWuSjrr/8UrsD2rKIn8NhD2vAAAAAElFTkSuQmCC" xlink:type="simple" xlink:actuate="onLoad" height="43" preserveAspectRatio="none" xlink:show="embed"/>
 <rect x="1165" y="503" clip-path="url(#clipPath23)" fill="url(#linearGradient8)" width="100" opacity="0" height="63" stroke="none"/>
-<text x="1173" y="519" clip-path="url(#clipPath24)" font-style="italic" stroke="none" xml:space="preserve">ElectronicDevice</text>
+<text x="1173" y="519" clip-path="url(#clipPath24)" font-style="italic" stroke="none" xml:space="preserve">ActuactorDevice</text>
 <image x="1204" y="523" clip-path="url(#clipPath25)" width="25" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABkAAAArCAYAAACNWyPFAAACtUlEQVR42u2XsU9a&#13;&#10;QRzHf2dJBONAnWASDDVOls2aMIBJTeo/YKsdQEmk2gh1sYlNuLcImGBhwIYErJMN&#13;&#10;i11hESYriw1hoQ7CJMQuTFZs4vXuEghUfN6j6tDwW967vLv73O/3u7vv76ErcgX3&#13;&#10;bT3wAPYgEJVox52dHbL4ZhEuLi54e+vTFrhcLiQyFt2Wk2QySaZeTDXaOp0OKpVK&#13;&#10;o+31esGLvahjT0KhEFl5t8InLpfL176Pj4+DJEmQy+XI3te9G0GP6CrafqCrJZPP&#13;&#10;J8FqtUI+n2/bx+l0Qq1Wg1gsBmPPxrDJZJIUJX7IOMSf6XRaNpw+n4972hxSYQhL&#13;&#10;8G2AuhWLxYb3wpDDw0PemYVKxNRqdX0HintSKBQ6Og/HP47FIWazuSPI6NNRRRAk&#13;&#10;5/7fViqV+JMeTmWJZzvG4XAIQYxGYz03SBHktHzKB+j1elmAzWar9+/sgjz6fsSv&#13;&#10;EIRQIyR1q1aroNFoIJPJwPbnbeY56vjuopORgccDsgup57BjSDNsI7ABfr8fPB4P&#13;&#10;LLuXwWAwCN3Cwnqi1WrRum+dT7r5cROJAlo8obElE7aJOxMqlie73Y4UhavhOuoh&#13;&#10;dAxSNOa/0fgupAvpQu4YQmsxXsXMOebIvUDYncWE6+DbAdf+Pk2fMOjGMrVZR+iE&#13;&#10;mL2f/zrnGrLgWsCBQIDVwViuPBWCsCJv+MkwL94uf18ilUrFJ+vv75foOCmRSOBw&#13;&#10;OAypVArPO+clxRCqgGTm1QxbOZz9PGt7tS+9XZIGDYM4Eolwr9weN6YLkoQgVLxI&#13;&#10;PB5nogP76X1Z7aD6zr1iEBbCXnUvtlgskiyEFg2Elam7X3Zh7cOasDgxUDabxdFo&#13;&#10;FGgI8er7VakthO0gVs2fFE+ArgYpPQ+zr2el6ZfTOBgMtuSp5U+LxZ8C0L8cvJGR&#13;&#10;kWuSjrr/8UrsD2rKIn8NhD2vAAAAAElFTkSuQmCC" xlink:type="simple" xlink:actuate="onLoad" height="43" preserveAspectRatio="none" xlink:show="embed"/>
 <rect x="10" y="262" clip-path="url(#clipPath26)" fill="url(#linearGradient9)" width="100" opacity="0" height="63" stroke="none"/>
 <text xml:space="preserve" x="35" y="278" clip-path="url(#clipPath27)" stroke="none">Pharmacy</text>
 <image x="49" y="282" clip-path="url(#clipPath28)" width="25" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABkAAAArCAYAAACNWyPFAAACtUlEQVR42u2XsU9a&#13;&#10;QRzHf2dJBONAnWASDDVOls2aMIBJTeo/YKsdQEmk2gh1sYlNuLcImGBhwIYErJMN&#13;&#10;i11hESYriw1hoQ7CJMQuTFZs4vXuEghUfN6j6tDwW967vLv73O/3u7vv76ErcgX3&#13;&#10;bT3wAPYgEJVox52dHbL4ZhEuLi54e+vTFrhcLiQyFt2Wk2QySaZeTDXaOp0OKpVK&#13;&#10;o+31esGLvahjT0KhEFl5t8InLpfL176Pj4+DJEmQy+XI3te9G0GP6CrafqCrJZPP&#13;&#10;J8FqtUI+n2/bx+l0Qq1Wg1gsBmPPxrDJZJIUJX7IOMSf6XRaNpw+n4972hxSYQhL&#13;&#10;8G2AuhWLxYb3wpDDw0PemYVKxNRqdX0HintSKBQ6Og/HP47FIWazuSPI6NNRRRAk&#13;&#10;5/7fViqV+JMeTmWJZzvG4XAIQYxGYz03SBHktHzKB+j1elmAzWar9+/sgjz6fsSv&#13;&#10;EIRQIyR1q1aroNFoIJPJwPbnbeY56vjuopORgccDsgup57BjSDNsI7ABfr8fPB4P&#13;&#10;LLuXwWAwCN3Cwnqi1WrRum+dT7r5cROJAlo8obElE7aJOxMqlie73Y4UhavhOuoh&#13;&#10;dAxSNOa/0fgupAvpQu4YQmsxXsXMOebIvUDYncWE6+DbAdf+Pk2fMOjGMrVZR+iE&#13;&#10;mL2f/zrnGrLgWsCBQIDVwViuPBWCsCJv+MkwL94uf18ilUrFJ+vv75foOCmRSOBw&#13;&#10;OAypVArPO+clxRCqgGTm1QxbOZz9PGt7tS+9XZIGDYM4Eolwr9weN6YLkoQgVLxI&#13;&#10;PB5nogP76X1Z7aD6zr1iEBbCXnUvtlgskiyEFg2Elam7X3Zh7cOasDgxUDabxdFo&#13;&#10;FGgI8er7VakthO0gVs2fFE+ArgYpPQ+zr2el6ZfTOBgMtuSp5U+LxZ8C0L8cvJGR&#13;&#10;kWuSjrr/8UrsD2rKIn8NhD2vAAAAAElFTkSuQmCC" xlink:type="simple" xlink:actuate="onLoad" height="43" preserveAspectRatio="none" xlink:show="embed"/>
-<rect x="325" y="93" clip-path="url(#clipPath29)" fill="url(#linearGradient10)" width="104" opacity="0" height="63" stroke="none"/>
-<text xml:space="preserve" x="327" y="109" clip-path="url(#clipPath30)" stroke="none">InsuranceCompany</text>
-<image x="366" y="113" clip-path="url(#clipPath31)" width="25" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABkAAAArCAYAAACNWyPFAAACtUlEQVR42u2XsU9a&#13;&#10;QRzHf2dJBONAnWASDDVOls2aMIBJTeo/YKsdQEmk2gh1sYlNuLcImGBhwIYErJMN&#13;&#10;i11hESYriw1hoQ7CJMQuTFZs4vXuEghUfN6j6tDwW967vLv73O/3u7vv76ErcgX3&#13;&#10;bT3wAPYgEJVox52dHbL4ZhEuLi54e+vTFrhcLiQyFt2Wk2QySaZeTDXaOp0OKpVK&#13;&#10;o+31esGLvahjT0KhEFl5t8InLpfL176Pj4+DJEmQy+XI3te9G0GP6CrafqCrJZPP&#13;&#10;J8FqtUI+n2/bx+l0Qq1Wg1gsBmPPxrDJZJIUJX7IOMSf6XRaNpw+n4972hxSYQhL&#13;&#10;8G2AuhWLxYb3wpDDw0PemYVKxNRqdX0HintSKBQ6Og/HP47FIWazuSPI6NNRRRAk&#13;&#10;5/7fViqV+JMeTmWJZzvG4XAIQYxGYz03SBHktHzKB+j1elmAzWar9+/sgjz6fsSv&#13;&#10;EIRQIyR1q1aroNFoIJPJwPbnbeY56vjuopORgccDsgup57BjSDNsI7ABfr8fPB4P&#13;&#10;LLuXwWAwCN3Cwnqi1WrRum+dT7r5cROJAlo8obElE7aJOxMqlie73Y4UhavhOuoh&#13;&#10;dAxSNOa/0fgupAvpQu4YQmsxXsXMOebIvUDYncWE6+DbAdf+Pk2fMOjGMrVZR+iE&#13;&#10;mL2f/zrnGrLgWsCBQIDVwViuPBWCsCJv+MkwL94uf18ilUrFJ+vv75foOCmRSOBw&#13;&#10;OAypVArPO+clxRCqgGTm1QxbOZz9PGt7tS+9XZIGDYM4Eolwr9weN6YLkoQgVLxI&#13;&#10;PB5nogP76X1Z7aD6zr1iEBbCXnUvtlgskiyEFg2Elam7X3Zh7cOasDgxUDabxdFo&#13;&#10;FGgI8er7VakthO0gVs2fFE+ArgYpPQ+zr2el6ZfTOBgMtuSp5U+LxZ8C0L8cvJGR&#13;&#10;kWuSjrr/8UrsD2rKIn8NhD2vAAAAAElFTkSuQmCC" xlink:type="simple" xlink:actuate="onLoad" height="43" preserveAspectRatio="none" xlink:show="embed"/>
-<rect x="474" y="99" clip-path="url(#clipPath32)" fill="url(#linearGradient11)" width="129" opacity="0" height="63" stroke="none"/>
-<text xml:space="preserve" x="476" y="115" clip-path="url(#clipPath33)" stroke="none">EnvironmentalAuthority</text>
-<image x="527" y="119" clip-path="url(#clipPath34)" width="25" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABkAAAArCAYAAACNWyPFAAACtUlEQVR42u2XsU9a&#13;&#10;QRzHf2dJBONAnWASDDVOls2aMIBJTeo/YKsdQEmk2gh1sYlNuLcImGBhwIYErJMN&#13;&#10;i11hESYriw1hoQ7CJMQuTFZs4vXuEghUfN6j6tDwW967vLv73O/3u7vv76ErcgX3&#13;&#10;bT3wAPYgEJVox52dHbL4ZhEuLi54e+vTFrhcLiQyFt2Wk2QySaZeTDXaOp0OKpVK&#13;&#10;o+31esGLvahjT0KhEFl5t8InLpfL176Pj4+DJEmQy+XI3te9G0GP6CrafqCrJZPP&#13;&#10;J8FqtUI+n2/bx+l0Qq1Wg1gsBmPPxrDJZJIUJX7IOMSf6XRaNpw+n4972hxSYQhL&#13;&#10;8G2AuhWLxYb3wpDDw0PemYVKxNRqdX0HintSKBQ6Og/HP47FIWazuSPI6NNRRRAk&#13;&#10;5/7fViqV+JMeTmWJZzvG4XAIQYxGYz03SBHktHzKB+j1elmAzWar9+/sgjz6fsSv&#13;&#10;EIRQIyR1q1aroNFoIJPJwPbnbeY56vjuopORgccDsgup57BjSDNsI7ABfr8fPB4P&#13;&#10;LLuXwWAwCN3Cwnqi1WrRum+dT7r5cROJAlo8obElE7aJOxMqlie73Y4UhavhOuoh&#13;&#10;dAxSNOa/0fgupAvpQu4YQmsxXsXMOebIvUDYncWE6+DbAdf+Pk2fMOjGMrVZR+iE&#13;&#10;mL2f/zrnGrLgWsCBQIDVwViuPBWCsCJv+MkwL94uf18ilUrFJ+vv75foOCmRSOBw&#13;&#10;OAypVArPO+clxRCqgGTm1QxbOZz9PGt7tS+9XZIGDYM4Eolwr9weN6YLkoQgVLxI&#13;&#10;PB5nogP76X1Z7aD6zr1iEBbCXnUvtlgskiyEFg2Elam7X3Zh7cOasDgxUDabxdFo&#13;&#10;FGgI8er7VakthO0gVs2fFE+ArgYpPQ+zr2el6ZfTOBgMtuSp5U+LxZ8C0L8cvJGR&#13;&#10;kWuSjrr/8UrsD2rKIn8NhD2vAAAAAElFTkSuQmCC" xlink:type="simple" xlink:actuate="onLoad" height="43" preserveAspectRatio="none" xlink:show="embed"/>
+<rect x="332" y="98" clip-path="url(#clipPath29)" fill="url(#linearGradient10)" width="110" opacity="0" height="63" stroke="none"/>
+<text xml:space="preserve" x="333" y="114" clip-path="url(#clipPath30)" stroke="none">InsuranceCompany</text>
+<image x="376" y="118" clip-path="url(#clipPath31)" width="25" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABkAAAArCAYAAACNWyPFAAACtUlEQVR42u2XsU9a&#13;&#10;QRzHf2dJBONAnWASDDVOls2aMIBJTeo/YKsdQEmk2gh1sYlNuLcImGBhwIYErJMN&#13;&#10;i11hESYriw1hoQ7CJMQuTFZs4vXuEghUfN6j6tDwW967vLv73O/3u7vv76ErcgX3&#13;&#10;bT3wAPYgEJVox52dHbL4ZhEuLi54e+vTFrhcLiQyFt2Wk2QySaZeTDXaOp0OKpVK&#13;&#10;o+31esGLvahjT0KhEFl5t8InLpfL176Pj4+DJEmQy+XI3te9G0GP6CrafqCrJZPP&#13;&#10;J8FqtUI+n2/bx+l0Qq1Wg1gsBmPPxrDJZJIUJX7IOMSf6XRaNpw+n4972hxSYQhL&#13;&#10;8G2AuhWLxYb3wpDDw0PemYVKxNRqdX0HintSKBQ6Og/HP47FIWazuSPI6NNRRRAk&#13;&#10;5/7fViqV+JMeTmWJZzvG4XAIQYxGYz03SBHktHzKB+j1elmAzWar9+/sgjz6fsSv&#13;&#10;EIRQIyR1q1aroNFoIJPJwPbnbeY56vjuopORgccDsgup57BjSDNsI7ABfr8fPB4P&#13;&#10;LLuXwWAwCN3Cwnqi1WrRum+dT7r5cROJAlo8obElE7aJOxMqlie73Y4UhavhOuoh&#13;&#10;dAxSNOa/0fgupAvpQu4YQmsxXsXMOebIvUDYncWE6+DbAdf+Pk2fMOjGMrVZR+iE&#13;&#10;mL2f/zrnGrLgWsCBQIDVwViuPBWCsCJv+MkwL94uf18ilUrFJ+vv75foOCmRSOBw&#13;&#10;OAypVArPO+clxRCqgGTm1QxbOZz9PGt7tS+9XZIGDYM4Eolwr9weN6YLkoQgVLxI&#13;&#10;PB5nogP76X1Z7aD6zr1iEBbCXnUvtlgskiyEFg2Elam7X3Zh7cOasDgxUDabxdFo&#13;&#10;FGgI8er7VakthO0gVs2fFE+ArgYpPQ+zr2el6ZfTOBgMtuSp5U+LxZ8C0L8cvJGR&#13;&#10;kWuSjrr/8UrsD2rKIn8NhD2vAAAAAElFTkSuQmCC" xlink:type="simple" xlink:actuate="onLoad" height="43" preserveAspectRatio="none" xlink:show="embed"/>
+<rect x="474" y="98" clip-path="url(#clipPath32)" fill="url(#linearGradient11)" width="129" opacity="0" height="63" stroke="none"/>
+<text xml:space="preserve" x="476" y="114" clip-path="url(#clipPath33)" stroke="none">EnvironmentalAuthority</text>
+<image x="527" y="118" clip-path="url(#clipPath34)" width="25" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABkAAAArCAYAAACNWyPFAAACtUlEQVR42u2XsU9a&#13;&#10;QRzHf2dJBONAnWASDDVOls2aMIBJTeo/YKsdQEmk2gh1sYlNuLcImGBhwIYErJMN&#13;&#10;i11hESYriw1hoQ7CJMQuTFZs4vXuEghUfN6j6tDwW967vLv73O/3u7vv76ErcgX3&#13;&#10;bT3wAPYgEJVox52dHbL4ZhEuLi54e+vTFrhcLiQyFt2Wk2QySaZeTDXaOp0OKpVK&#13;&#10;o+31esGLvahjT0KhEFl5t8InLpfL176Pj4+DJEmQy+XI3te9G0GP6CrafqCrJZPP&#13;&#10;J8FqtUI+n2/bx+l0Qq1Wg1gsBmPPxrDJZJIUJX7IOMSf6XRaNpw+n4972hxSYQhL&#13;&#10;8G2AuhWLxYb3wpDDw0PemYVKxNRqdX0HintSKBQ6Og/HP47FIWazuSPI6NNRRRAk&#13;&#10;5/7fViqV+JMeTmWJZzvG4XAIQYxGYz03SBHktHzKB+j1elmAzWar9+/sgjz6fsSv&#13;&#10;EIRQIyR1q1aroNFoIJPJwPbnbeY56vjuopORgccDsgup57BjSDNsI7ABfr8fPB4P&#13;&#10;LLuXwWAwCN3Cwnqi1WrRum+dT7r5cROJAlo8obElE7aJOxMqlie73Y4UhavhOuoh&#13;&#10;dAxSNOa/0fgupAvpQu4YQmsxXsXMOebIvUDYncWE6+DbAdf+Pk2fMOjGMrVZR+iE&#13;&#10;mL2f/zrnGrLgWsCBQIDVwViuPBWCsCJv+MkwL94uf18ilUrFJ+vv75foOCmRSOBw&#13;&#10;OAypVArPO+clxRCqgGTm1QxbOZz9PGt7tS+9XZIGDYM4Eolwr9weN6YLkoQgVLxI&#13;&#10;PB5nogP76X1Z7aD6zr1iEBbCXnUvtlgskiyEFg2Elam7X3Zh7cOasDgxUDabxdFo&#13;&#10;FGgI8er7VakthO0gVs2fFE+ArgYpPQ+zr2el6ZfTOBgMtuSp5U+LxZ8C0L8cvJGR&#13;&#10;kWuSjrr/8UrsD2rKIn8NhD2vAAAAAElFTkSuQmCC" xlink:type="simple" xlink:actuate="onLoad" height="43" preserveAspectRatio="none" xlink:show="embed"/>
 <rect x="675" y="98" clip-path="url(#clipPath35)" fill="url(#linearGradient12)" width="100" opacity="0" height="63" stroke="none"/>
 <text xml:space="preserve" x="683" y="114" clip-path="url(#clipPath36)" stroke="none">HealthAuthority</text>
 <image x="714" y="118" clip-path="url(#clipPath37)" width="25" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABkAAAArCAYAAACNWyPFAAACtUlEQVR42u2XsU9a&#13;&#10;QRzHf2dJBONAnWASDDVOls2aMIBJTeo/YKsdQEmk2gh1sYlNuLcImGBhwIYErJMN&#13;&#10;i11hESYriw1hoQ7CJMQuTFZs4vXuEghUfN6j6tDwW967vLv73O/3u7vv76ErcgX3&#13;&#10;bT3wAPYgEJVox52dHbL4ZhEuLi54e+vTFrhcLiQyFt2Wk2QySaZeTDXaOp0OKpVK&#13;&#10;o+31esGLvahjT0KhEFl5t8InLpfL176Pj4+DJEmQy+XI3te9G0GP6CrafqCrJZPP&#13;&#10;J8FqtUI+n2/bx+l0Qq1Wg1gsBmPPxrDJZJIUJX7IOMSf6XRaNpw+n4972hxSYQhL&#13;&#10;8G2AuhWLxYb3wpDDw0PemYVKxNRqdX0HintSKBQ6Og/HP47FIWazuSPI6NNRRRAk&#13;&#10;5/7fViqV+JMeTmWJZzvG4XAIQYxGYz03SBHktHzKB+j1elmAzWar9+/sgjz6fsSv&#13;&#10;EIRQIyR1q1aroNFoIJPJwPbnbeY56vjuopORgccDsgup57BjSDNsI7ABfr8fPB4P&#13;&#10;LLuXwWAwCN3Cwnqi1WrRum+dT7r5cROJAlo8obElE7aJOxMqlie73Y4UhavhOuoh&#13;&#10;dAxSNOa/0fgupAvpQu4YQmsxXsXMOebIvUDYncWE6+DbAdf+Pk2fMOjGMrVZR+iE&#13;&#10;mL2f/zrnGrLgWsCBQIDVwViuPBWCsCJv+MkwL94uf18ilUrFJ+vv75foOCmRSOBw&#13;&#10;OAypVArPO+clxRCqgGTm1QxbOZz9PGt7tS+9XZIGDYM4Eolwr9weN6YLkoQgVLxI&#13;&#10;PB5nogP76X1Z7aD6zr1iEBbCXnUvtlgskiyEFg2Elam7X3Zh7cOasDgxUDabxdFo&#13;&#10;FGgI8er7VakthO0gVs2fFE+ArgYpPQ+zr2el6ZfTOBgMtuSp5U+LxZ8C0L8cvJGR&#13;&#10;kWuSjrr/8UrsD2rKIn8NhD2vAAAAAElFTkSuQmCC" xlink:type="simple" xlink:actuate="onLoad" height="43" preserveAspectRatio="none" xlink:show="embed"/>
 <rect x="10" y="423" clip-path="url(#clipPath38)" fill="url(#linearGradient13)" width="100" opacity="0" height="63" stroke="none"/>
-<text xml:space="preserve" x="25" y="439" clip-path="url(#clipPath39)" stroke="none">SensorDeivce</text>
+<text xml:space="preserve" x="25" y="439" clip-path="url(#clipPath39)" stroke="none">SensorDevice</text>
 <image x="49" y="443" clip-path="url(#clipPath40)" width="25" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABkAAAArCAYAAACNWyPFAAACtUlEQVR42u2XsU9a&#13;&#10;QRzHf2dJBONAnWASDDVOls2aMIBJTeo/YKsdQEmk2gh1sYlNuLcImGBhwIYErJMN&#13;&#10;i11hESYriw1hoQ7CJMQuTFZs4vXuEghUfN6j6tDwW967vLv73O/3u7vv76ErcgX3&#13;&#10;bT3wAPYgEJVox52dHbL4ZhEuLi54e+vTFrhcLiQyFt2Wk2QySaZeTDXaOp0OKpVK&#13;&#10;o+31esGLvahjT0KhEFl5t8InLpfL176Pj4+DJEmQy+XI3te9G0GP6CrafqCrJZPP&#13;&#10;J8FqtUI+n2/bx+l0Qq1Wg1gsBmPPxrDJZJIUJX7IOMSf6XRaNpw+n4972hxSYQhL&#13;&#10;8G2AuhWLxYb3wpDDw0PemYVKxNRqdX0HintSKBQ6Og/HP47FIWazuSPI6NNRRRAk&#13;&#10;5/7fViqV+JMeTmWJZzvG4XAIQYxGYz03SBHktHzKB+j1elmAzWar9+/sgjz6fsSv&#13;&#10;EIRQIyR1q1aroNFoIJPJwPbnbeY56vjuopORgccDsgup57BjSDNsI7ABfr8fPB4P&#13;&#10;LLuXwWAwCN3Cwnqi1WrRum+dT7r5cROJAlo8obElE7aJOxMqlie73Y4UhavhOuoh&#13;&#10;dAxSNOa/0fgupAvpQu4YQmsxXsXMOebIvUDYncWE6+DbAdf+Pk2fMOjGMrVZR+iE&#13;&#10;mL2f/zrnGrLgWsCBQIDVwViuPBWCsCJv+MkwL94uf18ilUrFJ+vv75foOCmRSOBw&#13;&#10;OAypVArPO+clxRCqgGTm1QxbOZz9PGt7tS+9XZIGDYM4Eolwr9weN6YLkoQgVLxI&#13;&#10;PB5nogP76X1Z7aD6zr1iEBbCXnUvtlgskiyEFg2Elam7X3Zh7cOasDgxUDabxdFo&#13;&#10;FGgI8er7VakthO0gVs2fFE+ArgYpPQ+zr2el6ZfTOBgMtuSp5U+LxZ8C0L8cvJGR&#13;&#10;kWuSjrr/8UrsD2rKIn8NhD2vAAAAAElFTkSuQmCC" xlink:type="simple" xlink:actuate="onLoad" height="43" preserveAspectRatio="none" xlink:show="embed"/>
 <line clip-path="url(#clipPath41)" fill="none" text-rendering="optimizeLegibility" x1="490" x2="490" y1="694" y2="609" stroke-dasharray="5,5,5,5,5,5,5,5,5,5"/>
 <text x="495" y="656" clip-path="url(#clipPath42)" text-rendering="optimizeLegibility" stroke-dasharray="5,5,5,5,5,5,5,5,5,5" stroke="none" xml:space="preserve">«ItemFlow»</text>
@@ -421,12 +421,12 @@
 <text x="171" y="291" clip-path="url(#clipPath73)" text-rendering="optimizeLegibility" stroke-dasharray="5,5,5,5,5,5,5,5,5,5" stroke="none" xml:space="preserve">Pharmaceuticals</text>
 <line clip-path="url(#clipPath74)" fill="none" text-rendering="optimizeLegibility" x1="325" x2="340" y1="303" y2="298"/>
 <line clip-path="url(#clipPath74)" fill="none" text-rendering="optimizeLegibility" x1="340" x2="325" y1="298" y2="293"/>
-<line clip-path="url(#clipPath41)" fill="none" text-rendering="optimizeLegibility" x1="381" x2="385" y1="156" y2="218" stroke-dasharray="5,5,5,5,5,5,5,5,5,5"/>
-<text x="312" y="175" clip-path="url(#clipPath75)" text-rendering="optimizeLegibility" stroke-dasharray="5,5,5,5,5,5,5,5,5,5" stroke="none" xml:space="preserve">«ItemFlow»</text>
-<text x="278" y="191" clip-path="url(#clipPath76)" text-rendering="optimizeLegibility" stroke-dasharray="5,5,5,5,5,5,5,5,5,5" stroke="none" xml:space="preserve">InsuranceContract</text>
-<line clip-path="url(#clipPath77)" fill="none" text-rendering="optimizeLegibility" x1="379" x2="385" y1="203" y2="218"/>
-<line clip-path="url(#clipPath77)" fill="none" text-rendering="optimizeLegibility" x1="385" x2="389" y1="218" y2="203"/>
-<line clip-path="url(#clipPath41)" fill="none" text-rendering="optimizeLegibility" x1="540" x2="540" y1="162" y2="218" stroke-dasharray="5,5,5,5,5,5,5,5,5,5"/>
+<line clip-path="url(#clipPath41)" fill="none" text-rendering="optimizeLegibility" x1="390" x2="390" y1="161" y2="218" stroke-dasharray="5,5,5,5,5,5,5,5,5,5"/>
+<text x="321" y="175" clip-path="url(#clipPath75)" text-rendering="optimizeLegibility" stroke-dasharray="5,5,5,5,5,5,5,5,5,5" stroke="none" xml:space="preserve">«ItemFlow»</text>
+<text x="286" y="190" clip-path="url(#clipPath76)" text-rendering="optimizeLegibility" stroke-dasharray="5,5,5,5,5,5,5,5,5,5" stroke="none" xml:space="preserve">InsuranceContract</text>
+<line clip-path="url(#clipPath77)" fill="none" text-rendering="optimizeLegibility" x1="385" x2="390" y1="203" y2="218"/>
+<line clip-path="url(#clipPath77)" fill="none" text-rendering="optimizeLegibility" x1="390" x2="395" y1="218" y2="203"/>
+<line clip-path="url(#clipPath41)" fill="none" text-rendering="optimizeLegibility" x1="540" x2="540" y1="161" y2="218" stroke-dasharray="5,5,5,5,5,5,5,5,5,5"/>
 <text x="469" y="172" clip-path="url(#clipPath78)" text-rendering="optimizeLegibility" stroke-dasharray="5,5,5,5,5,5,5,5,5,5" stroke="none" xml:space="preserve">«ItemFlow»</text>
 <text x="428" y="187" clip-path="url(#clipPath79)" text-rendering="optimizeLegibility" stroke-dasharray="5,5,5,5,5,5,5,5,5,5" stroke="none" xml:space="preserve">EnvRegulationSpec</text>
 <line clip-path="url(#clipPath80)" fill="none" text-rendering="optimizeLegibility" x1="535" x2="540" y1="203" y2="218"/>
