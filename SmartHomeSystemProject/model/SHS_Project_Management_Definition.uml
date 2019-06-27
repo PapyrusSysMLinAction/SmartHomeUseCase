@@ -69,6 +69,10 @@
       <ownedEnd xmi:type="uml:Property" xmi:id="_w7WYQImVEeeY8oHcVhoGvw" type="_aewdMFkPEeO46MKyR1zbAg" association="_w7NOUImVEeeY8oHcVhoGvw"/>
     </packagedElement>
     <packagedElement xmi:type="uml:Package" xmi:id="_0sBHMJghEemfOpj3-Spopg" name="SHS_ProjectStateholders">
+      <ownedComment xmi:type="uml:Comment" xmi:id="_QD3XIJjoEemiJJjEotXc9w" annotatedElement="_2SUlkJhAEemfOpj3-Spopg _Fv6DAJhDEemfOpj3-Spopg _0Qu_wJgpEemfOpj3-Spopg _oBYiQDiAEeGe4_sFLbM3Hw _o9C5QDiAEeGe4_sFLbM3Hw">
+        <body>&lt;p>KeyInputSystems&lt;/p>
+</body>
+      </ownedComment>
       <packagedElement xmi:type="uml:Actor" xmi:id="_rBDkIJgpEemfOpj3-Spopg" name="SHS_Environment" isAbstract="true"/>
       <packagedElement xmi:type="uml:Package" xmi:id="_HpwvUJg9EemfOpj3-Spopg" name="KeyInputSystems">
         <packagedElement xmi:type="uml:Actor" xmi:id="_2SUlkJhAEemfOpj3-Spopg" name="Pharmacy"/>
@@ -270,4 +274,5 @@
   <PortsAndFlows:ItemFlow xmi:id="_Cx6IMJhAEemfOpj3-Spopg" base_InformationFlow="_Cx3r8JhAEemfOpj3-Spopg"/>
   <PortsAndFlows:ItemFlow xmi:id="_T_RzIJhAEemfOpj3-Spopg" base_InformationFlow="_T_Ov0JhAEemfOpj3-Spopg"/>
   <PortsAndFlows:ItemFlow xmi:id="_StGJYJjLEemiJJjEotXc9w" base_InformationFlow="_StB38JjLEemiJJjEotXc9w"/>
+  <ModelElements:ElementGroup xmi:id="_QD8PoJjoEemiJJjEotXc9w" base_Comment="_QD3XIJjoEemiJJjEotXc9w" name="KeyInputSystemsEltGroup"/>
 </xmi:XMI>
