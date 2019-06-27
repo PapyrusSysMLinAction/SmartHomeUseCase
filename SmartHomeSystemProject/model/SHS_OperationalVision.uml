@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<xmi:XMI xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:Blocks="http://www.eclipse.org/papyrus/sysml/1.6/SysML/Blocks" xmlns:PortsAndFlows="http://www.eclipse.org/papyrus/sysml/1.6/SysML/PortsAndFlows" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:standard="http://www.eclipse.org/uml2/5.0.0/UML/Profile/Standard" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xsi:schemaLocation="http://www.eclipse.org/papyrus/sysml/1.6/SysML/Blocks http://www.eclipse.org/papyrus/sysml/1.6/SysML#//blocks http://www.eclipse.org/papyrus/sysml/1.6/SysML/PortsAndFlows http://www.eclipse.org/papyrus/sysml/1.6/SysML#//portsandflows">
+<xmi:XMI xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:Blocks="http://www.eclipse.org/papyrus/sysml/1.6/SysML/Blocks" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:standard="http://www.eclipse.org/uml2/5.0.0/UML/Profile/Standard" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xsi:schemaLocation="http://www.eclipse.org/papyrus/sysml/1.6/SysML/Blocks http://www.eclipse.org/papyrus/sysml/1.6/SysML#//blocks">
   <uml:Model xmi:id="_QcoJcJdIEemtoeMPVDH0LA" name="SHS_OperationalVision">
     <ownedComment xmi:type="uml:Comment" xmi:id="_GOF0sJdPEemtoeMPVDH0LA" annotatedElement="_QcoJcJdIEemtoeMPVDH0LA">
       <body>&lt;p>The {@link #_QcoJcJdIEemtoeMPVDH0LA}&amp;nbsp;model is an absraction of the {@link #_Q7ZNACRxEeCaCLd1YXNfIQ}&amp;nbsp;designed to analyze the system as a&amp;nbsp;&amp;ldquo;black box&amp;rdquo;.&lt;/p>
@@ -22,49 +22,11 @@
         <supplier xmi:type="uml:Model" href="SHS_FunctionalVision.uml#_o5WlgCRyEeCaCLd1YXNfIQ"/>
         <mapping xmi:type="uml:OpaqueExpression" xmi:id="_dBkGkE3qEeO5W83O6raoHw" name="FromReq2ExtSpec_MappingDescription" language="" body=""/>
       </packagedElement>
-      <packagedElement xmi:type="uml:Class" xmi:id="_gCDnUFkHEeO46MKyR1zbAg" name="SmartHomeSystem" useCase="_Pbm9AFkIEeO46MKyR1zbAg _PwMs8FkIEeO46MKyR1zbAg _sPkiwJbUEeew-NwceYS8pQ _f1FQoJbXEeew-NwceYS8pQ _SZlfYJbYEeew-NwceYS8pQ _RWQbUJbyEeew-NwceYS8pQ _FnHdMJb-EeeFsqoIYj-fTQ _LWPjMJb-EeeFsqoIYj-fTQ _gD2asJb-EeeFsqoIYj-fTQ _kRijIJb-EeeFsqoIYj-fTQ _8Dc5IJb-EeeFsqoIYj-fTQ _CYDqwJb_EeeFsqoIYj-fTQ _3ZnKwJb_EeeFsqoIYj-fTQ">
-        <ownedComment xmi:type="uml:Comment" xmi:id="_klgH4FkIEeO46MKyR1zbAg" annotatedElement="_gCDnUFkHEeO46MKyR1zbAg">
-          <body>This model element (a structured class) abstracts the system under specification conforming a &quot;black-box&quot; point of view. It is said to be the subject of the use case diagram.</body>
-        </ownedComment>
-      </packagedElement>
       <packagedElement xmi:type="uml:Package" xmi:id="_YF3z4FkHEeO46MKyR1zbAg" name="SHS Product Stateholders">
         <ownedComment xmi:type="uml:Comment" xmi:id="_Fka3wIdWEeeff6fdwmUAJA" annotatedElement="_YF3z4FkHEeO46MKyR1zbAg">
           <body>&lt;p>This package gathers the defintion of stakeholders interacting with the system.&lt;/p>
 </body>
         </ownedComment>
-        <packagedElement xmi:type="uml:Association" xmi:id="_aZpX4FkIEeO46MKyR1zbAg" name="A_actor_1_usecase001_ofyoursystem" memberEnd="_aZpX4VkIEeO46MKyR1zbAg _aZpX5FkIEeO46MKyR1zbAg">
-          <ownedEnd xmi:type="uml:Property" xmi:id="_aZpX4VkIEeO46MKyR1zbAg" name="actor_1" association="_aZpX4FkIEeO46MKyR1zbAg">
-            <type xmi:type="uml:Actor" href="SHS_Project_Management_Definition.uml#_o9C5QDiAEeGe4_sFLbM3Hw"/>
-            <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_aZpX4lkIEeO46MKyR1zbAg" value="1"/>
-            <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_aZpX41kIEeO46MKyR1zbAg" value="1"/>
-          </ownedEnd>
-          <ownedEnd xmi:type="uml:Property" xmi:id="_aZpX5FkIEeO46MKyR1zbAg" name="usecase001_ofyoursystem" type="_PwMs8FkIEeO46MKyR1zbAg" association="_aZpX4FkIEeO46MKyR1zbAg">
-            <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_aZpX5VkIEeO46MKyR1zbAg" value="1"/>
-            <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_aZpX5lkIEeO46MKyR1zbAg" value="1"/>
-          </ownedEnd>
-        </packagedElement>
-        <packagedElement xmi:type="uml:Association" xmi:id="_bIYtMFkIEeO46MKyR1zbAg" name="A_actor_1_usecase002_ofyoursystem" memberEnd="_bIYtMVkIEeO46MKyR1zbAg _bIYtNFkIEeO46MKyR1zbAg">
-          <ownedEnd xmi:type="uml:Property" xmi:id="_bIYtMVkIEeO46MKyR1zbAg" name="JMB" association="_bIYtMFkIEeO46MKyR1zbAg">
-            <type xmi:type="uml:Actor" href="SHS_Project_Management_Definition.uml#_o9C5QDiAEeGe4_sFLbM3Hw"/>
-            <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_bIYtMlkIEeO46MKyR1zbAg" value="1"/>
-            <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_bIYtM1kIEeO46MKyR1zbAg" value="1"/>
-          </ownedEnd>
-          <ownedEnd xmi:type="uml:Property" xmi:id="_bIYtNFkIEeO46MKyR1zbAg" name="usecase002_ofyoursystem" type="_Pbm9AFkIEeO46MKyR1zbAg" association="_bIYtMFkIEeO46MKyR1zbAg">
-            <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_bIYtNVkIEeO46MKyR1zbAg" value="1"/>
-            <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_bIYtNlkIEeO46MKyR1zbAg" value="1"/>
-          </ownedEnd>
-        </packagedElement>
-        <packagedElement xmi:type="uml:Association" xmi:id="_b4tW4FkIEeO46MKyR1zbAg" name="A_usecase002_ofyoursystem_actor_2" memberEnd="_b4tW4VkIEeO46MKyR1zbAg _b4tW5FkIEeO46MKyR1zbAg">
-          <ownedEnd xmi:type="uml:Property" xmi:id="_b4tW4VkIEeO46MKyR1zbAg" name="usecase002_ofyoursystem" type="_Pbm9AFkIEeO46MKyR1zbAg" association="_b4tW4FkIEeO46MKyR1zbAg">
-            <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_b4tW4lkIEeO46MKyR1zbAg" value="1"/>
-            <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_b4tW41kIEeO46MKyR1zbAg" value="1"/>
-          </ownedEnd>
-          <ownedEnd xmi:type="uml:Property" xmi:id="_b4tW5FkIEeO46MKyR1zbAg" name="actor_2" association="_b4tW4FkIEeO46MKyR1zbAg">
-            <type xmi:type="uml:Actor" href="SHS_Project_Management_Definition.uml#_oBYiQDiAEeGe4_sFLbM3Hw"/>
-            <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_b4tW5VkIEeO46MKyR1zbAg" value="1"/>
-            <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_b4tW5lkIEeO46MKyR1zbAg" value="1"/>
-          </ownedEnd>
-        </packagedElement>
       </packagedElement>
       <packagedElement xmi:type="uml:Package" xmi:id="_RDQ_oF3uEeGTC7jtR9befw" name="SHS Missions">
         <ownedComment xmi:type="uml:Comment" xmi:id="_8HEzkIdVEeeff6fdwmUAJA" annotatedElement="_RDQ_oF3uEeGTC7jtR9befw">
@@ -74,7 +36,7 @@
           <ownedComment xmi:type="uml:Comment" xmi:id="_7hXzkIdXEeeff6fdwmUAJA" annotatedElement="_Zx56EG4CEeeZtLaug2P7dA">
             <body>This package gathers all use cases related the system security cocnern.</body>
           </ownedComment>
-          <packagedElement xmi:type="uml:UseCase" xmi:id="_PwMs8FkIEeO46MKyR1zbAg" name="configureSecurityAccess" subject="_gCDnUFkHEeO46MKyR1zbAg">
+          <packagedElement xmi:type="uml:UseCase" xmi:id="_PwMs8FkIEeO46MKyR1zbAg" name="configureSecurityAccess">
             <ownedComment xmi:type="uml:Comment" xmi:id="_7-5v4FkLEeO46MKyR1zbAg" annotatedElement="_Pbm9AFkIEeO46MKyR1zbAg _z9MpYHb-EeOHCpFb_yGTPQ">
               <body>This is a use case model element. It denotes some behavior of the system under consideration. It is further refined via interaction description using as for example sequence diagrams.&#xD;
 N.B.: each use case shall have a comment denoting it textually.</body>
@@ -90,14 +52,16 @@ N.B.: each use case shall have a comment denoting it textually.</body>
               <lifeline xmi:type="uml:Lifeline" xmi:id="_IOOt0KngEeecX_JFH5FEMg" name="Lifeline3"/>
             </ownedBehavior>
             <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="_zfS8AJbYEeew-NwceYS8pQ" name="RightAccessExtPoint"/>
+            <subject xmi:type="uml:Class" href="SHS_Project_Management_Definition.uml#_gCDnUFkHEeO46MKyR1zbAg"/>
           </packagedElement>
-          <packagedElement xmi:type="uml:UseCase" xmi:id="_Pbm9AFkIEeO46MKyR1zbAg" name="updateSecuritySystem" subject="_gCDnUFkHEeO46MKyR1zbAg">
+          <packagedElement xmi:type="uml:UseCase" xmi:id="_Pbm9AFkIEeO46MKyR1zbAg" name="updateSecuritySystem">
             <ownedComment xmi:type="uml:Comment" xmi:id="_z9MpYHb-EeOHCpFb_yGTPQ" annotatedElement="_Pbm9AFkIEeO46MKyR1zbAg">
               <body>The medical condition of the inhabitant is checked on a regular basis.</body>
             </ownedComment>
             <ownedBehavior xmi:type="uml:Interaction" xmi:id="_KUcnMFkOEeO46MKyR1zbAg" name="MedicalChecking"/>
+            <subject xmi:type="uml:Class" href="SHS_Project_Management_Definition.uml#_gCDnUFkHEeO46MKyR1zbAg"/>
           </packagedElement>
-          <packagedElement xmi:type="uml:UseCase" xmi:id="_sPkiwJbUEeew-NwceYS8pQ" name="manageSecurityPhysicalAccess" subject="_gCDnUFkHEeO46MKyR1zbAg">
+          <packagedElement xmi:type="uml:UseCase" xmi:id="_sPkiwJbUEeew-NwceYS8pQ" name="manageSecurityPhysicalAccess">
             <ownedComment xmi:type="uml:Comment" xmi:id="_s-ZVYJn6EeeM4oOexT6Hpw">
               <body></body>
             </ownedComment>
@@ -118,12 +82,15 @@ N.B.: the comment may be hidden and shown as for example in a table gathering al
               </ownedComment>
             </ownedBehavior>
             <include xmi:type="uml:Include" xmi:id="_zfHyUJbXEeew-NwceYS8pQ" addition="_PwMs8FkIEeO46MKyR1zbAg"/>
+            <subject xmi:type="uml:Class" href="SHS_Project_Management_Definition.uml#_gCDnUFkHEeO46MKyR1zbAg"/>
           </packagedElement>
-          <packagedElement xmi:type="uml:UseCase" xmi:id="_f1FQoJbXEeew-NwceYS8pQ" name="manageSecurityCyberAccess" subject="_gCDnUFkHEeO46MKyR1zbAg">
+          <packagedElement xmi:type="uml:UseCase" xmi:id="_f1FQoJbXEeew-NwceYS8pQ" name="manageSecurityCyberAccess">
             <include xmi:type="uml:Include" xmi:id="_0J0VIJbXEeew-NwceYS8pQ" addition="_PwMs8FkIEeO46MKyR1zbAg"/>
+            <subject xmi:type="uml:Class" href="SHS_Project_Management_Definition.uml#_gCDnUFkHEeO46MKyR1zbAg"/>
           </packagedElement>
-          <packagedElement xmi:type="uml:UseCase" xmi:id="_SZlfYJbYEeew-NwceYS8pQ" name="manageRightAccess" subject="_gCDnUFkHEeO46MKyR1zbAg">
+          <packagedElement xmi:type="uml:UseCase" xmi:id="_SZlfYJbYEeew-NwceYS8pQ" name="manageRightAccess">
             <extend xmi:type="uml:Extend" xmi:id="_WQ2E0JbYEeew-NwceYS8pQ" extendedCase="_PwMs8FkIEeO46MKyR1zbAg" extensionLocation="_zfS8AJbYEeew-NwceYS8pQ"/>
+            <subject xmi:type="uml:Class" href="SHS_Project_Management_Definition.uml#_gCDnUFkHEeO46MKyR1zbAg"/>
           </packagedElement>
           <packagedElement xmi:type="uml:UseCase" xmi:id="_F5MiIJbyEeew-NwceYS8pQ" name="updateCyberSecuritySystem">
             <ownedComment xmi:type="uml:Comment" xmi:id="_F5MiIZbyEeew-NwceYS8pQ" annotatedElement="_F5MiIJbyEeew-NwceYS8pQ">
@@ -131,10 +98,13 @@ N.B.: the comment may be hidden and shown as for example in a table gathering al
             </ownedComment>
             <ownedBehavior xmi:type="uml:Interaction" xmi:id="_F5MiIpbyEeew-NwceYS8pQ" name="MedicalChecking"/>
           </packagedElement>
-          <packagedElement xmi:type="uml:UseCase" xmi:id="_RWQbUJbyEeew-NwceYS8pQ" name="manageSecurity&amp;SafetySystem" subject="_gCDnUFkHEeO46MKyR1zbAg"/>
+          <packagedElement xmi:type="uml:UseCase" xmi:id="_RWQbUJbyEeew-NwceYS8pQ" name="manageSecurity&amp;SafetySystem">
+            <subject xmi:type="uml:Class" href="SHS_Project_Management_Definition.uml#_gCDnUFkHEeO46MKyR1zbAg"/>
+          </packagedElement>
           <packagedElement xmi:type="uml:Association" xmi:id="_DgvUoJcAEeeFsqoIYj-fTQ"/>
-          <packagedElement xmi:type="uml:UseCase" xmi:id="_3ZnKwJb_EeeFsqoIYj-fTQ" name="manageComputerSystemLogin" subject="_gCDnUFkHEeO46MKyR1zbAg">
+          <packagedElement xmi:type="uml:UseCase" xmi:id="_3ZnKwJb_EeeFsqoIYj-fTQ" name="manageComputerSystemLogin">
             <extend xmi:type="uml:Extend" xmi:id="_WcgbEJcAEeeFsqoIYj-fTQ" extendedCase="_l6s34W4CEeeZtLaug2P7dA" extensionLocation="_WciQQJcAEeeFsqoIYj-fTQ"/>
+            <subject xmi:type="uml:Class" href="SHS_Project_Management_Definition.uml#_gCDnUFkHEeO46MKyR1zbAg"/>
           </packagedElement>
         </packagedElement>
         <packagedElement xmi:type="uml:Package" xmi:id="_l6s34G4CEeeZtLaug2P7dA" name="SHS Accomodation Use Cases">
@@ -171,25 +141,31 @@ N.B.: the comment may be hidden and shown as for example in a table gathering al
             <ownedBehavior xmi:type="uml:Interaction" xmi:id="_l6s3624CEeeZtLaug2P7dA" name="Interaction001_UseCase002"/>
             <include xmi:type="uml:Include" xmi:id="___QnYJb-EeeFsqoIYj-fTQ" addition="_l6s34W4CEeeZtLaug2P7dA"/>
           </packagedElement>
-          <packagedElement xmi:type="uml:UseCase" xmi:id="_CYDqwJb_EeeFsqoIYj-fTQ" name="updateAccomodationSystem" subject="_gCDnUFkHEeO46MKyR1zbAg">
+          <packagedElement xmi:type="uml:UseCase" xmi:id="_CYDqwJb_EeeFsqoIYj-fTQ" name="updateAccomodationSystem">
             <include xmi:type="uml:Include" xmi:id="_PK5EEJb_EeeFsqoIYj-fTQ" addition="_l6s34W4CEeeZtLaug2P7dA"/>
+            <subject xmi:type="uml:Class" href="SHS_Project_Management_Definition.uml#_gCDnUFkHEeO46MKyR1zbAg"/>
           </packagedElement>
-          <packagedElement xmi:type="uml:UseCase" xmi:id="_kRijIJb-EeeFsqoIYj-fTQ" name="assistInhabitantWakeup" subject="_gCDnUFkHEeO46MKyR1zbAg">
+          <packagedElement xmi:type="uml:UseCase" xmi:id="_kRijIJb-EeeFsqoIYj-fTQ" name="assistInhabitantWakeup">
             <extend xmi:type="uml:Extend" xmi:id="_i82vwKnkEeeYAcwRjrZ29w" extendedCase="_FnHdMJb-EeeFsqoIYj-fTQ" extensionLocation="_og94kKnkEeeYAcwRjrZ29w"/>
+            <subject xmi:type="uml:Class" href="SHS_Project_Management_Definition.uml#_gCDnUFkHEeO46MKyR1zbAg"/>
           </packagedElement>
-          <packagedElement xmi:type="uml:UseCase" xmi:id="_FnHdMJb-EeeFsqoIYj-fTQ" name="manageInhabitantDisabilities" subject="_gCDnUFkHEeO46MKyR1zbAg">
+          <packagedElement xmi:type="uml:UseCase" xmi:id="_FnHdMJb-EeeFsqoIYj-fTQ" name="manageInhabitantDisabilities">
             <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="_og94kKnkEeeYAcwRjrZ29w" name="InhabitantWakeupTime"/>
             <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="_qPpn8KnkEeeYAcwRjrZ29w" name="ExtensionPoint2"/>
             <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="_i9AgwKnkEeeYAcwRjrZ29w" name="ExtensionPoint1"/>
+            <subject xmi:type="uml:Class" href="SHS_Project_Management_Definition.uml#_gCDnUFkHEeO46MKyR1zbAg"/>
           </packagedElement>
-          <packagedElement xmi:type="uml:UseCase" xmi:id="_LWPjMJb-EeeFsqoIYj-fTQ" name="assistInhabitantInBed" subject="_gCDnUFkHEeO46MKyR1zbAg">
+          <packagedElement xmi:type="uml:UseCase" xmi:id="_LWPjMJb-EeeFsqoIYj-fTQ" name="assistInhabitantInBed">
             <extend xmi:type="uml:Extend" xmi:id="_qPoZ0KnkEeeYAcwRjrZ29w" extendedCase="_FnHdMJb-EeeFsqoIYj-fTQ" extensionLocation="_qPpn8KnkEeeYAcwRjrZ29w"/>
+            <subject xmi:type="uml:Class" href="SHS_Project_Management_Definition.uml#_gCDnUFkHEeO46MKyR1zbAg"/>
           </packagedElement>
-          <packagedElement xmi:type="uml:UseCase" xmi:id="_gD2asJb-EeeFsqoIYj-fTQ" name="assistInhabitantToGoToBed" subject="_gCDnUFkHEeO46MKyR1zbAg">
+          <packagedElement xmi:type="uml:UseCase" xmi:id="_gD2asJb-EeeFsqoIYj-fTQ" name="assistInhabitantToGoToBed">
             <extend xmi:type="uml:Extend" xmi:id="_og8DYKnkEeeYAcwRjrZ29w" extendedCase="_FnHdMJb-EeeFsqoIYj-fTQ" extensionLocation="_og94kKnkEeeYAcwRjrZ29w"/>
+            <subject xmi:type="uml:Class" href="SHS_Project_Management_Definition.uml#_gCDnUFkHEeO46MKyR1zbAg"/>
           </packagedElement>
-          <packagedElement xmi:type="uml:UseCase" xmi:id="_8Dc5IJb-EeeFsqoIYj-fTQ" name="configureAccomodationPreferences" subject="_gCDnUFkHEeO46MKyR1zbAg">
+          <packagedElement xmi:type="uml:UseCase" xmi:id="_8Dc5IJb-EeeFsqoIYj-fTQ" name="configureAccomodationPreferences">
             <include xmi:type="uml:Include" xmi:id="__KTVUJb-EeeFsqoIYj-fTQ" addition="_l6s34W4CEeeZtLaug2P7dA"/>
+            <subject xmi:type="uml:Class" href="SHS_Project_Management_Definition.uml#_gCDnUFkHEeO46MKyR1zbAg"/>
           </packagedElement>
           <packagedElement xmi:type="uml:Association" xmi:id="_khfYwJcAEeeFsqoIYj-fTQ"/>
           <packagedElement xmi:type="uml:Association" xmi:id="_ozRXAJcAEeeFsqoIYj-fTQ"/>
@@ -227,49 +203,6 @@ N.B.: the comment may be hidden and shown as for example in a table gathering al
             <ownedBehavior xmi:type="uml:Interaction" xmi:id="_mIk7224CEeeZtLaug2P7dA" name="Interaction001_UseCase002"/>
           </packagedElement>
         </packagedElement>
-      </packagedElement>
-      <packagedElement xmi:type="uml:Association" xmi:id="_NtoqIHOYEeeGodGwr0LI7g" name="SystemContext-Inhabitant">
-        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_NtpRMHOYEeeGodGwr0LI7g" source="org.eclipse.papyrus">
-          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_NtpRMXOYEeeGodGwr0LI7g" key="nature" value="UML_Nature"/>
-        </eAnnotations>
-        <memberEnd xmi:type="uml:Property" href="SHS_Project_Management_Definition.uml#_NtpRMnOYEeeGodGwr0LI7g"/>
-        <memberEnd xmi:type="uml:Property" href="#_Ntp4QXOYEeeGodGwr0LI7g"/>
-        <ownedEnd xmi:type="uml:Property" xmi:id="_Ntp4QXOYEeeGodGwr0LI7g" association="_NtoqIHOYEeeGodGwr0LI7g">
-          <type xmi:type="uml:Class" href="SHS_Project_Management_Definition.uml#_aewdMFkPEeO46MKyR1zbAg"/>
-        </ownedEnd>
-      </packagedElement>
-      <packagedElement xmi:type="uml:Association" xmi:id="_OrfZgHOYEeeGodGwr0LI7g" name="SystemContext-MedicalPersonal">
-        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_OrgAkHOYEeeGodGwr0LI7g" source="org.eclipse.papyrus">
-          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_OrgnoHOYEeeGodGwr0LI7g" key="nature" value="UML_Nature"/>
-        </eAnnotations>
-        <memberEnd xmi:type="uml:Property" href="SHS_Project_Management_Definition.uml#_OrgnoXOYEeeGodGwr0LI7g"/>
-        <memberEnd xmi:type="uml:Property" href="#_OrgnpHOYEeeGodGwr0LI7g"/>
-        <ownedEnd xmi:type="uml:Property" xmi:id="_OrgnpHOYEeeGodGwr0LI7g" association="_OrfZgHOYEeeGodGwr0LI7g">
-          <type xmi:type="uml:Class" href="SHS_Project_Management_Definition.uml#_aewdMFkPEeO46MKyR1zbAg"/>
-        </ownedEnd>
-      </packagedElement>
-      <packagedElement xmi:type="uml:Association" xmi:id="_t8QtwImREeeY8oHcVhoGvw" name="SystemContext-SmartHomeSystem">
-        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_t8U_MImREeeY8oHcVhoGvw" source="org.eclipse.papyrus">
-          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_t8U_MYmREeeY8oHcVhoGvw" key="nature" value="UML_Nature"/>
-        </eAnnotations>
-        <memberEnd xmi:type="uml:Property" href="SHS_Project_Management_Definition.uml#_t8WNUImREeeY8oHcVhoGvw"/>
-        <memberEnd xmi:type="uml:Property" href="#_t8YCgImREeeY8oHcVhoGvw"/>
-        <ownedEnd xmi:type="uml:Property" xmi:id="_t8YCgImREeeY8oHcVhoGvw" name="systemcontext" association="_t8QtwImREeeY8oHcVhoGvw">
-          <type xmi:type="uml:Class" href="SHS_Project_Management_Definition.uml#_aewdMFkPEeO46MKyR1zbAg"/>
-        </ownedEnd>
-      </packagedElement>
-      <packagedElement xmi:type="uml:Association" xmi:id="_w7NOUImVEeeY8oHcVhoGvw">
-        <memberEnd xmi:type="uml:Property" href="SHS_Project_Management_Definition.uml#_uslaoImVEeeY8oHcVhoGvw"/>
-        <memberEnd xmi:type="uml:Property" href="#_w7WYQImVEeeY8oHcVhoGvw"/>
-        <ownedEnd xmi:type="uml:Property" xmi:id="_w7WYQImVEeeY8oHcVhoGvw" association="_w7NOUImVEeeY8oHcVhoGvw">
-          <type xmi:type="uml:Class" href="SHS_Project_Management_Definition.uml#_aewdMFkPEeO46MKyR1zbAg"/>
-        </ownedEnd>
-      </packagedElement>
-      <packagedElement xmi:type="uml:InformationFlow" xmi:id="_Cx3r8JhAEemfOpj3-Spopg" name="HealthAlarm" informationSource="_gCDnUFkHEeO46MKyR1zbAg">
-        <informationTarget xmi:type="uml:Actor" href="SHS_Project_Management_Definition.uml#_oBYiQDiAEeGe4_sFLbM3Hw"/>
-      </packagedElement>
-      <packagedElement xmi:type="uml:InformationFlow" xmi:id="_T_Ov0JhAEemfOpj3-Spopg" name="Commands" informationSource="_gCDnUFkHEeO46MKyR1zbAg">
-        <informationTarget xmi:type="uml:Actor" href="SHS_Project_Management_Definition.uml#_67luMJgpEemfOpj3-Spopg"/>
       </packagedElement>
     </packagedElement>
     <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_3QjXsJipEemfOpj3-Spopg">
@@ -392,7 +325,7 @@ N.B.: the comment may be hidden and shown as for example in a table gathering al
     </profileApplication>
   </uml:Model>
   <standard:Refine xmi:id="_Z1eOsIgdEeergoJZYt1ADQ" base_Abstraction="_fUtqYE3pEeO5W83O6raoHw"/>
-  <Blocks:Block xmi:id="_jR8MUIghEeergoJZYt1ADQ" base_Class="_gCDnUFkHEeO46MKyR1zbAg"/>
-  <PortsAndFlows:ItemFlow xmi:id="_Cx6IMJhAEemfOpj3-Spopg" base_InformationFlow="_Cx3r8JhAEemfOpj3-Spopg"/>
-  <PortsAndFlows:ItemFlow xmi:id="_T_RzIJhAEemfOpj3-Spopg" base_InformationFlow="_T_Ov0JhAEemfOpj3-Spopg"/>
+  <Blocks:Block xmi:id="_jR8MUIghEeergoJZYt1ADQ">
+    <base_Class xmi:type="uml:Class" href="SHS_Project_Management_Definition.uml#_gCDnUFkHEeO46MKyR1zbAg"/>
+  </Blocks:Block>
 </xmi:XMI>
