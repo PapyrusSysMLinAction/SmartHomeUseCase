@@ -1,0 +1,242 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:Requirements="http://www.eclipse.org/papyrus/sysml/1.6/SysML/Requirements" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:standard="http://www.eclipse.org/uml2/5.0.0/UML/Profile/Standard" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xsi:schemaLocation="http://www.eclipse.org/papyrus/sysml/1.6/SysML/Requirements http://www.eclipse.org/papyrus/sysml/1.6/SysML#//requirements">
+  <uml:Model xmi:id="_w63kIJdNEemtoeMPVDH0LA" name="SHS_FunctionalVision">
+    <packagedElement xmi:type="uml:Abstraction" xmi:id="_3iuo8JdNEemtoeMPVDH0LA" name="FromSHS_OperationalVision2FunctionalVision" client="_w63kIJdNEemtoeMPVDH0LA">
+      <supplier xmi:type="uml:Model" href="SHS_OperationalVision.uml#_QcoJcJdIEemtoeMPVDH0LA"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Model" xmi:id="_o5WlgCRyEeCaCLd1YXNfIQ" name="SHS Functional Requirements">
+      <ownedComment xmi:type="uml:Comment" xmi:id="_KwtU0DeAEeGpFZREwIhCZA" annotatedElement="_o5WlgCRyEeCaCLd1YXNfIQ">
+        <body>This model formalizes the requirement description of the Smart Home System (in short SHS).&#xD;
+This model is derived from a textual description of the SHS requirements as defined in the document referenced available here: .</body>
+      </ownedComment>
+      <packagedElement xmi:type="uml:Package" xmi:id="_4OrEwG0hEeePr__vXKAk2g" name="SHS Security Requirements">
+        <ownedComment xmi:type="uml:Comment" xmi:id="_lXLJgG4BEeeZtLaug2P7dA" annotatedElement="_4OrEwG0hEeePr__vXKAk2g">
+          <body>As any other home, smart homes must provide a certain level of protection against intruders, burglars. This level has to be enforced as smart homes may be not only vulnerable to physical accesses, but are also open to cyber attacks. Security breaches or a low level of identification may allow hackers to intrude or to steal personal digital information about inhabitants. However, compared to classical homes, smart homes can leverage of smart devices in order to prevent or put a stop to undesirable intrusions (alarm, automatic call to the police station) while facilitating access to relevant and trustworthy authorities, such as firemen, policemen, and ambulances. Such authorities can be automatically alerted in the case of unexpected situation involving specific conditions of the inhabitants (e.g, when an elderly falls) with the help of smart sensors (e.g., fall detector). Another important concern of smart homes is the use and access to personal information by the different smart devices embedded into the house. Smart devices can come from different companies that require specific information, possibly collected in real-time and sent to remote third-party servers via Internet. Prevention measures must be therefore taken in order to ensure the authentication and access to personal information by trustworthy applications only, the protection of the information when stored on private hard drives or collected on external networks. Such mechanisms include data encryption, open API, etc</body>
+        </ownedComment>
+        <ownedComment xmi:type="uml:Comment" xmi:id="__R6okG0iEeePr__vXKAk2g" annotatedElement="_4OrEwG0hEeePr__vXKAk2g">
+          <body>This package consists of all the SHS requirements related to the system security concern.</body>
+        </ownedComment>
+        <packagedElement xmi:type="uml:Class" xmi:id="_xMxFAHLDEeeGodGwr0LI7g" name="Safety&amp;Security">
+          <nestedClassifier xmi:type="uml:Class" xmi:id="_IQxfQG36EeeZtLaug2P7dA" name="PhyIntrusionMgt">
+            <nestedClassifier xmi:type="uml:Class" xmi:id="_MIBvsIdLEeeff6fdwmUAJA" name="PhyIntrusionPreventionMgt"/>
+            <nestedClassifier xmi:type="uml:Class" xmi:id="_MIC90IdLEeeff6fdwmUAJA" name="PhyIntrusionDetectionMgt"/>
+          </nestedClassifier>
+          <nestedClassifier xmi:type="uml:Class" xmi:id="_M-d9cG36EeeZtLaug2P7dA" name="CyberIntrusionMgt">
+            <nestedClassifier xmi:type="uml:Class" xmi:id="_h0yMgIdKEeeff6fdwmUAJA" name="CyberIntrusionPreventionMgt"/>
+            <nestedClassifier xmi:type="uml:Class" xmi:id="_CcoBYIdLEeeff6fdwmUAJA" name="CyberIntrusionDetectionMgt"/>
+          </nestedClassifier>
+          <nestedClassifier xmi:type="uml:Class" xmi:id="_PdBqkG36EeeZtLaug2P7dA" name="ID_AccessControl"/>
+          <nestedClassifier xmi:type="uml:Class" xmi:id="_PlVSAG36EeeZtLaug2P7dA" name="PoliceStationCall"/>
+          <nestedClassifier xmi:type="uml:Class" xmi:id="_Ps-LEG36EeeZtLaug2P7dA" name="FireMgt"/>
+          <nestedClassifier xmi:type="uml:Class" xmi:id="_QftPkG36EeeZtLaug2P7dA" name="HelthEmergencyMgt"/>
+          <nestedClassifier xmi:type="uml:Class" xmi:id="_QnWvsG36EeeZtLaug2P7dA" name="EmergencyAccessControlGt"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Abstraction" xmi:id="_ClkucHLFEeeGodGwr0LI7g" client="_PdBqkG36EeeZtLaug2P7dA" supplier="_6jpfYHLEEeeGodGwr0LI7g"/>
+        <packagedElement xmi:type="uml:Abstraction" xmi:id="_F35LcJowEeeM4oOexT6Hpw" name="Copy1" client="_IQxfQG36EeeZtLaug2P7dA" supplier="_M-d9cG36EeeZtLaug2P7dA"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Package" xmi:id="_VM_OMG0iEeePr__vXKAk2g" name="SHS Accomodation Requirements">
+        <ownedComment xmi:type="uml:Comment" xmi:id="_rbp0cG4BEeeZtLaug2P7dA" annotatedElement="_VM_OMG0iEeePr__vXKAk2g">
+          <body>Smart homes can accommodate specific conditions of the inhabitants and adapt itself in response to them. Examples include accommodating the height of a kitchen cabinet in order to facilitate its use, access (e.g., to the upper drawers), and maintenance (e.g., dust the top of the shelves). In addition, inhabitants suffering from mental conditions may need assistance in order to accomplish day-to-day tasks. For example, LEDs inlayed in the floor can help individuals suffering from the Alzheimer’s disease to remember the path of the bathroom the morning when getting out of the bed. In addition to accommodating physical and mental conditions, smart homes can also accommodate inhabitants’ preferences. Control interfaces provided to them or learning algorithms to learn from their habits can help accommodate inhabitants’ preferences. For example, inhabitants can use a control interface to set the range of temperature comfortable for the inhabitants. Furthermore, learning algorithms can automatically adapt this temperature according to the day of the week (providing different ranges for weekdays and week-end), the schedule of the inhabitants, …​</body>
+        </ownedComment>
+        <ownedComment xmi:type="uml:Comment" xmi:id="_81S1IG0iEeePr__vXKAk2g" annotatedElement="_VM_OMG0iEeePr__vXKAk2g">
+          <body>&lt;p>This package consists of all the SHS requirements related to the system accomodation concern.&lt;/p>
+</body>
+        </ownedComment>
+        <packagedElement xmi:type="uml:Class" xmi:id="_rxFC8HLEEeeGodGwr0LI7g" name="Accomodation"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_NvvFgG3-EeeZtLaug2P7dA" name="Phy&amp;MentMgt"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_OuPVIG3-EeeZtLaug2P7dA" name="UserPrefMgt"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_QGbQEG3-EeeZtLaug2P7dA" name="UserBehavLearning"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_QMA6sG3-EeeZtLaug2P7dA" name="DisabililityMgt"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_QSadoG3-EeeZtLaug2P7dA" name="HomeMonitoringInterface"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_QXyF0G3-EeeZtLaug2P7dA" name="DeviceConnectionMgt"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_aIwQoG3-EeeZtLaug2P7dA" name="SmartBedMgt"/>
+        <packagedElement xmi:type="uml:Abstraction" xmi:id="_DNx98HLFEeeGodGwr0LI7g" client="_rxFC8HLEEeeGodGwr0LI7g" supplier="_6jpfYHLEEeeGodGwr0LI7g"/>
+        <packagedElement xmi:type="uml:Abstraction" xmi:id="_24GA0Jb5EeeFsqoIYj-fTQ" name="DisabilityMgt&lt;-refine-SmartBedMgt" client="_aIwQoG3-EeeZtLaug2P7dA" supplier="_QMA6sG3-EeeZtLaug2P7dA"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Package" xmi:id="_sw3vQG0iEeePr__vXKAk2g" name="SHS Economic Requirements">
+        <ownedComment xmi:type="uml:Comment" xmi:id="_wQeOUG4BEeeZtLaug2P7dA" annotatedElement="_sw3vQG0iEeePr__vXKAk2g">
+          <body>An important aspect of smart homes is to provide mechanisms for reducing energy consumption. It can be done for different purposes. Economically first, but also to meet local regulations in terms of energy consumption. Using the above example, smart homes can reduce the temperature range according to time slots, or whenever the inhabitants leave the house. Temperature can be slightly decreased overnight and increased again in the morning. Overnight, most of the smart devices can also be put in sleeping mode and reactivated the morning. Information flux over Internet can also be reduced to specific time slots in order to reduce the consumption. In addition to reducing the energy consumption, smart homes must play a central home in producing green energy. This can be done by smart solar panels (e.g., solar sun flowers that can follow the position of the sun), geothermal energy converter, …​</body>
+        </ownedComment>
+        <ownedComment xmi:type="uml:Comment" xmi:id="_3DU2gG0iEeePr__vXKAk2g" annotatedElement="_sw3vQG0iEeePr__vXKAk2g">
+          <body>This package consists of all the SHS requirements related to the system economic concern.</body>
+        </ownedComment>
+        <packagedElement xmi:type="uml:Class" xmi:id="_khHWIG3_EeeZtLaug2P7dA" name="NRJ_Saving"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_lRY8gG3_EeeZtLaug2P7dA" name="AnnualConsumptionMgt"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_mIEF0G3_EeeZtLaug2P7dA" name="SelfEnergyPriorityMgt"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Abstraction" xmi:id="_zQW3AG0pEeePr__vXKAk2g" name="FromTextSpec2SysMLReq" client="_o5WlgCRyEeCaCLd1YXNfIQ">
+        <supplier xmi:type="uml:Artifact" href="SmartHomeSystem.uml#_hO1LQG0pEeePr__vXKAk2g"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Package" xmi:id="_YvPwwHLEEeeGodGwr0LI7g" name="SHS Detailed Requirements">
+        <packagedElement xmi:type="uml:Class" xmi:id="_6jpfYHLEEeeGodGwr0LI7g" name="ListOfPeople"/>
+      </packagedElement>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Model" xmi:id="_USdwkJdeEemqIo5GlFw_bQ" name="SHS Functional Descriptions"/>
+    <packagedElement xmi:type="uml:Model" xmi:id="_OXE1ICR8EeCaCLd1YXNfIQ" name="SHS Internal Specification">
+      <ownedComment xmi:type="uml:Comment" xmi:id="_9lKggFFfEeOLhP-_UGopcg" annotatedElement="_OXE1ICR8EeCaCLd1YXNfIQ">
+        <body>&lt;p>The {@link #_OXE1ICR8EeCaCLd1YXNfIQ} model refines both models, {@link #_o5WlgCRyEeCaCLd1YXNfIQ} and {@link #_j5KicE3oEeO5W83O6raoHw}. This model is focussed on the internal description of the SHS also called the whitebox point of view of the system.&lt;/p>
+</body>
+      </ownedComment>
+      <packagedElement xmi:type="uml:Package" xmi:id="_fksiACn-EeCso_wGb2NO1w" name="SHS Internal Model Elements"/>
+      <packagedElement xmi:type="uml:Package" xmi:id="_eQjr8GRzEeG8YZh1nU9dHA" name="SHS Specific Data Types"/>
+      <packagedElement xmi:type="uml:Package" xmi:id="_X_98UE3nEeO5W83O6raoHw" name="SHS Specific Signals"/>
+      <packagedElement xmi:type="uml:Abstraction" xmi:id="_wM9Z4E3pEeO5W83O6raoHw" name="FromExtSpec2IntSpec" client="_OXE1ICR8EeCaCLd1YXNfIQ">
+        <supplier xmi:type="uml:Model" href="SmartHomeSystem.uml#_Q7ZNACRxEeCaCLd1YXNfIQ"/>
+        <mapping xmi:type="uml:OpaqueExpression" xmi:id="_pY_9UE3qEeO5W83O6raoHw" name="FromExtSpec2IntSpec_MappingDescription">
+          <language>Natural language</language>
+          <body>The mapping formalizing the refinement relationship from the model denoting the ECS external specification to the model denoting its internal specification.</body>
+        </mapping>
+      </packagedElement>
+    </packagedElement>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_4wjx4JipEemfOpj3-Spopg">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_4wjx4ZipEemfOpj3-Spopg" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/uml2/5.0.0/UML/Profile/Standard#/"/>
+      </eAnnotations>
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_4wjx4pipEemfOpj3-Spopg" source="duplicatedProfile"/>
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_4wp4gJipEemfOpj3-Spopg" source="duplicatedProfile"/>
+      <appliedProfile xmi:type="uml:Profile" href="pathmap://UML_PROFILES/Standard.profile.uml#_0"/>
+    </profileApplication>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_4wrGoJipEemfOpj3-Spopg">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_4wrGoZipEemfOpj3-Spopg" source="PapyrusVersion">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_4wrGopipEemfOpj3-Spopg" key="Version" value="0.0.1"/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_4wrGo5ipEemfOpj3-Spopg" key="Comment" value=""/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_4wrGpJipEemfOpj3-Spopg" key="Copyright" value="CEA LIST - Initial API and Implementation&#xD;&#xA;"/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_4wrGpZipEemfOpj3-Spopg" key="Date" value="2012-12-07"/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_4wrGppipEemfOpj3-Spopg" key="Author" value=""/>
+      </eAnnotations>
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_4wrGp5ipEemfOpj3-Spopg" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="pathmap://PAPYRUS_INTERNAL_PROFILES/PapyrusInternal.profile.uml#_eikdoEBcEeKj6r7ThQagKA"/>
+      </eAnnotations>
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_4wrGqJipEemfOpj3-Spopg" source="duplicatedProfile"/>
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_4wuxAJipEemfOpj3-Spopg" source="duplicatedProfile"/>
+      <appliedProfile xmi:type="uml:Profile" href="pathmap://PAPYRUS_INTERNAL_PROFILES/PapyrusInternal.profile.uml#_16oYAD-SEeKj6r7ThQagKA"/>
+    </profileApplication>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_4wvYEJipEemfOpj3-Spopg">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_4wvYEZipEemfOpj3-Spopg" source="PapyrusVersion">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_4wvYEpipEemfOpj3-Spopg" key="Version" value="0.0.1"/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_4wvYE5ipEemfOpj3-Spopg" key="Comment" value=""/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_4wvYFJipEemfOpj3-Spopg" key="Copyright" value="CEA LIST - Initial API and Implementation&#xD;&#xA;"/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_4wvYFZipEemfOpj3-Spopg" key="Date" value="2012-12-07"/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_4wvYFpipEemfOpj3-Spopg" key="Author" value=""/>
+      </eAnnotations>
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_4wvYF5ipEemfOpj3-Spopg" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="pathmap://PAPYRUS_INTERNAL_PROFILES/PapyrusInternal.profile.uml#_eijPgUBcEeKj6r7ThQagKA"/>
+      </eAnnotations>
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_4wvYGJipEemfOpj3-Spopg" source="duplicatedProfile"/>
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_4w0QkJipEemfOpj3-Spopg" source="duplicatedProfile"/>
+      <appliedProfile xmi:type="uml:Profile" href="pathmap://PAPYRUS_INTERNAL_PROFILES/PapyrusInternal.profile.uml#_dL4lkPXAEeGSQON-DQ-5eg"/>
+    </profileApplication>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_4w03oJipEemfOpj3-Spopg">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_4w03oZipEemfOpj3-Spopg" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="../../dsml/AboutGlossary/GlossaryML.profile.uml#_3Bd1cMrREee8B9kRSNhRUg"/>
+      </eAnnotations>
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_4w03opipEemfOpj3-Spopg" source="duplicatedProfile"/>
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_4w5wIJipEemfOpj3-Spopg" source="duplicatedProfile"/>
+      <appliedProfile xmi:type="uml:Profile" href="../../dsml/AboutGlossary/GlossaryML.profile.uml#_saqecET2EeS25e5tbYLtxg"/>
+    </profileApplication>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_4w6XMJipEemfOpj3-Spopg">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_4w6XMZipEemfOpj3-Spopg" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/sysml/1.6/SysML#/"/>
+      </eAnnotations>
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_4w6XMpipEemfOpj3-Spopg" source="duplicatedProfile"/>
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_4w_PsJipEemfOpj3-Spopg" source="duplicatedProfile"/>
+      <appliedProfile xmi:type="uml:Profile" href="pathmap://SysML16_PROFILES/SysML.profile.uml#SysML"/>
+    </profileApplication>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_4w_2wJipEemfOpj3-Spopg">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_4w_2wZipEemfOpj3-Spopg" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/sysml/1.6/SysML#//activities"/>
+      </eAnnotations>
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_4w_2wpipEemfOpj3-Spopg" source="duplicatedProfile"/>
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_4xEIMJipEemfOpj3-Spopg" source="duplicatedProfile"/>
+      <appliedProfile xmi:type="uml:Profile" href="pathmap://SysML16_PROFILES/SysML.profile.uml#SysML.package_packagedElement_Activities"/>
+    </profileApplication>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_4xFWUJipEemfOpj3-Spopg">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_4xFWUZipEemfOpj3-Spopg" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/sysml/1.6/SysML#//allocations"/>
+      </eAnnotations>
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_4xFWUpipEemfOpj3-Spopg" source="duplicatedProfile"/>
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_4xY4UJipEemfOpj3-Spopg" source="duplicatedProfile"/>
+      <appliedProfile xmi:type="uml:Profile" href="pathmap://SysML16_PROFILES/SysML.profile.uml#SysML.package_packagedElement_Allocations"/>
+    </profileApplication>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_4xZfYJipEemfOpj3-Spopg">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_4xZfYZipEemfOpj3-Spopg" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/sysml/1.6/SysML#//blocks"/>
+      </eAnnotations>
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_4xZfYpipEemfOpj3-Spopg" source="duplicatedProfile"/>
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_4xe-8JipEemfOpj3-Spopg" source="duplicatedProfile"/>
+      <appliedProfile xmi:type="uml:Profile" href="pathmap://SysML16_PROFILES/SysML.profile.uml#SysML.package_packagedElement_Blocks"/>
+    </profileApplication>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_4xfmAJipEemfOpj3-Spopg">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_4xfmAZipEemfOpj3-Spopg" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/sysml/1.6/SysML#//constraintblocks"/>
+      </eAnnotations>
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_4xfmApipEemfOpj3-Spopg" source="duplicatedProfile"/>
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_4xj3cJipEemfOpj3-Spopg" source="duplicatedProfile"/>
+      <appliedProfile xmi:type="uml:Profile" href="pathmap://SysML16_PROFILES/SysML.profile.uml#SysML.package_packagedElement_ConstraintBlocks"/>
+    </profileApplication>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_4xlsoJipEemfOpj3-Spopg">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_4xmTsJipEemfOpj3-Spopg" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/sysml/1.6/SysML#//deprecatedelements"/>
+      </eAnnotations>
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_4xmTsZipEemfOpj3-Spopg" source="duplicatedProfile"/>
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_4xqlIJipEemfOpj3-Spopg" source="duplicatedProfile"/>
+      <appliedProfile xmi:type="uml:Profile" href="pathmap://SysML16_PROFILES/SysML.profile.uml#SysML.package_packagedElement_DeprecatedElements"/>
+    </profileApplication>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_4xqlIZipEemfOpj3-Spopg">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_4xqlIpipEemfOpj3-Spopg" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/sysml/1.6/SysML#//modelelements"/>
+      </eAnnotations>
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_4xqlI5ipEemfOpj3-Spopg" source="duplicatedProfile"/>
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_4xzvEJipEemfOpj3-Spopg" source="duplicatedProfile"/>
+      <appliedProfile xmi:type="uml:Profile" href="pathmap://SysML16_PROFILES/SysML.profile.uml#SysML.package_packagedElement_ModelElements"/>
+    </profileApplication>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_4x0WIJipEemfOpj3-Spopg">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_4x0WIZipEemfOpj3-Spopg" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/sysml/1.6/SysML#//portsandflows"/>
+      </eAnnotations>
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_4x0WIpipEemfOpj3-Spopg" source="duplicatedProfile"/>
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_4x4nkJipEemfOpj3-Spopg" source="duplicatedProfile"/>
+      <appliedProfile xmi:type="uml:Profile" href="pathmap://SysML16_PROFILES/SysML.profile.uml#SysML.package_packagedElement_Ports_u0026Flows"/>
+    </profileApplication>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_4x4nkZipEemfOpj3-Spopg">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_4x5OoJipEemfOpj3-Spopg" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/sysml/1.6/SysML#//requirements"/>
+      </eAnnotations>
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_4x5OoZipEemfOpj3-Spopg" source="duplicatedProfile"/>
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_4x-HIJipEemfOpj3-Spopg" source="duplicatedProfile"/>
+      <appliedProfile xmi:type="uml:Profile" href="pathmap://SysML16_PROFILES/SysML.profile.uml#SysML.package_packagedElement_Requirements"/>
+    </profileApplication>
+  </uml:Model>
+  <Requirements:Refine xmi:id="_3i3L0JdNEemtoeMPVDH0LA" base_DirectedRelationship="_3iuo8JdNEemtoeMPVDH0LA" base_Abstraction="_3iuo8JdNEemtoeMPVDH0LA"/>
+  <Requirements:Requirement xmi:id="_xNI4cHLDEeeGodGwr0LI7g" id="SHS_SEC" text="The system must be safe and secure." base_Class="_xMxFAHLDEeeGodGwr0LI7g"/>
+  <Requirements:Requirement xmi:id="_IUTUYG36EeeZtLaug2P7dA" id="SHS_SEC_010" text="The system must support prevention and detection of unauthorized physical intrusion. dddd" base_Class="_IQxfQG36EeeZtLaug2P7dA"/>
+  <Requirements:Requirement xmi:id="_MIgQ0IdLEeeff6fdwmUAJA" id="SHS_SEC_010_010" text="The system must support prevention of unauthorized physical intrusion." base_Class="_MIBvsIdLEeeff6fdwmUAJA"/>
+  <Requirements:Requirement xmi:id="_MI2PEIdLEeeff6fdwmUAJA" id="SHS_SEC_010_020" text="The system must support detection of unauthorized physical intrusion." base_Class="_MIC90IdLEeeff6fdwmUAJA"/>
+  <Requirements:Requirement xmi:id="_M-nHYG36EeeZtLaug2P7dA" id="SHS_SEC_020" text="The system must support prevention and detection of unauthorized computer intrusion." base_Class="_M-d9cG36EeeZtLaug2P7dA"/>
+  <Requirements:Requirement xmi:id="_h1LOEIdKEeeff6fdwmUAJA" id="SHS_SEC_020_010" text="The system must support prevention of unauthorized computer intrusion." base_Class="_h0yMgIdKEeeff6fdwmUAJA"/>
+  <Requirements:Requirement xmi:id="_Ccv9MIdLEeeff6fdwmUAJA" id="SHS_SEC_020_020" text="The system must support detection of unauthorized computer intrusion." base_Class="_CcoBYIdLEeeff6fdwmUAJA"/>
+  <Requirements:Requirement xmi:id="_PdLbkG36EeeZtLaug2P7dA" id="SHS_SEC_030" text="The system must provide an identification-based access control system." base_Class="_PdBqkG36EeeZtLaug2P7dA"/>
+  <Requirements:Requirement xmi:id="_PlfDAG36EeeZtLaug2P7dA" id="SHS_SEC_040" text="The system must call the police station in case of burglary or any other unauthorized intrusion." base_Class="_PlVSAG36EeeZtLaug2P7dA"/>
+  <Requirements:Requirement xmi:id="_Ps-LEW36EeeZtLaug2P7dA" id="SHS_SEC_050" text="The system must be able to detect signs of fire and call the fire station in case of suspicion of fire." base_Class="_Ps-LEG36EeeZtLaug2P7dA"/>
+  <Requirements:Requirement xmi:id="_Qf3AkG36EeeZtLaug2P7dA" id="SHS_SEC_060" text="The system must be able to detect certain medical emergencies (e.g., accidents, falls) and call an ambulance." base_Class="_QftPkG36EeeZtLaug2P7dA"/>
+  <Requirements:Requirement xmi:id="_QnggsG36EeeZtLaug2P7dA" id="SHS_SEC_070" text="The system must allow physical access to emergency services (firemen, hospital service, etc.)." base_Class="_QnWvsG36EeeZtLaug2P7dA"/>
+  <Requirements:DeriveReqt xmi:id="_Clyw4HLFEeeGodGwr0LI7g" base_DirectedRelationship="_ClkucHLFEeeGodGwr0LI7g" base_Abstraction="_ClkucHLFEeeGodGwr0LI7g"/>
+  <Requirements:Copy xmi:id="_F4MGYJowEeeM4oOexT6Hpw" base_DirectedRelationship="_F35LcJowEeeM4oOexT6Hpw" base_Abstraction="_F35LcJowEeeM4oOexT6Hpw"/>
+  <Requirements:Requirement xmi:id="_rxNl0HLEEeeGodGwr0LI7g" id="SHS_ACO" text="The system must provide accomodation services  to its inhabitants." base_Class="_rxFC8HLEEeeGodGwr0LI7g"/>
+  <Requirements:Requirement xmi:id="_N0-K0G3-EeeZtLaug2P7dA" id="SHS_ACO_010" text="The system must accommodate physical and mental conditions of the inhabitants." base_Class="_NvvFgG3-EeeZtLaug2P7dA"/>
+  <Requirements:Requirement xmi:id="_OuZGIG3-EeeZtLaug2P7dA" id="SHS_ACO_020" text="The system must accommodate specific preferences entered by the inhabitants." base_Class="_OuPVIG3-EeeZtLaug2P7dA"/>
+  <Requirements:Requirement xmi:id="_QGlBEG3-EeeZtLaug2P7dA" id="SHS_ACO_030" text="The system must learn from the behaviour of inhabitants." base_Class="_QGbQEG3-EeeZtLaug2P7dA"/>
+  <Requirements:Requirement xmi:id="_QMA6sW3-EeeZtLaug2P7dA" id="SHS_ACO_040" text="The system must assist the inhabitants with the everyday tasks regardless of their disabilities." base_Class="_QMA6sG3-EeeZtLaug2P7dA"/>
+  <Requirements:Requirement xmi:id="_QSadoW3-EeeZtLaug2P7dA" id="SHS_ACO_050" text="The system must be monitorable via a central interface located in the main room." base_Class="_QSadoG3-EeeZtLaug2P7dA"/>
+  <Requirements:Requirement xmi:id="_QXyF0W3-EeeZtLaug2P7dA" id="SHS_ACO_060" text="The system must support the connection of smart devices of the inhabitants." base_Class="_QXyF0G3-EeeZtLaug2P7dA"/>
+  <Requirements:Requirement xmi:id="_aI6BoG3-EeeZtLaug2P7dA" id="SHS_ACO_070" text="The system must have a bed that accommodates to the disability of the inhabitants." base_Class="_aIwQoG3-EeeZtLaug2P7dA"/>
+  <Requirements:DeriveReqt xmi:id="_DN55wHLFEeeGodGwr0LI7g" base_DirectedRelationship="_DNx98HLFEeeGodGwr0LI7g" base_Abstraction="_DNx98HLFEeeGodGwr0LI7g"/>
+  <standard:Refine xmi:id="_24GA0Zb5EeeFsqoIYj-fTQ" base_Abstraction="_24GA0Jb5EeeFsqoIYj-fTQ"/>
+  <Requirements:Refine xmi:id="_RMoPIJb7EeeFsqoIYj-fTQ" base_DirectedRelationship="_24GA0Jb5EeeFsqoIYj-fTQ" base_Abstraction="_24GA0Jb5EeeFsqoIYj-fTQ"/>
+  <Requirements:Requirement xmi:id="_khRHIG3_EeeZtLaug2P7dA" id="SHS_ECO_010" text="The system must save energy." base_Class="_khHWIG3_EeeZtLaug2P7dA"/>
+  <Requirements:Requirement xmi:id="_lRlJwG3_EeeZtLaug2P7dA" id="SHS_ECO_020" text="The system  musre ensure that annual consumption must be less than local regulations." base_Class="_lRY8gG3_EeeZtLaug2P7dA"/>
+  <Requirements:Requirement xmi:id="_mIEF0W3_EeeZtLaug2P7dA" id="SH_ECO_030" text="The system must prioritize self-produced energy." base_Class="_mIEF0G3_EeeZtLaug2P7dA"/>
+  <standard:Refine xmi:id="_7iUtMG0pEeePr__vXKAk2g" base_Abstraction="_zQW3AG0pEeePr__vXKAk2g"/>
+  <Requirements:Requirement xmi:id="_6jyCQHLEEeeGodGwr0LI7g" id="SH_DET_001" text="The system must have access to a list of authorized people with their level of access." base_Class="_6jpfYHLEEeeGodGwr0LI7g"/>
+  <standard:Refine xmi:id="_WzYVgG0oEeePr__vXKAk2g" base_Abstraction="_wM9Z4E3pEeO5W83O6raoHw"/>
+</xmi:XMI>

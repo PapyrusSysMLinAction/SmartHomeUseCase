@@ -1,0 +1,312 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:Blocks="http://www.eclipse.org/papyrus/sysml/1.6/SysML/Blocks" xmlns:ModelElements="http://www.eclipse.org/papyrus/sysml/1.6/SysML/ModelElements" xmlns:PortsAndFlows="http://www.eclipse.org/papyrus/sysml/1.6/SysML/PortsAndFlows" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xsi:schemaLocation="http://www.eclipse.org/papyrus/sysml/1.6/SysML/Blocks http://www.eclipse.org/papyrus/sysml/1.6/SysML#//blocks http://www.eclipse.org/papyrus/sysml/1.6/SysML/ModelElements http://www.eclipse.org/papyrus/sysml/1.6/SysML#//modelelements http://www.eclipse.org/papyrus/sysml/1.6/SysML/PortsAndFlows http://www.eclipse.org/papyrus/sysml/1.6/SysML#//portsandflows">
+  <uml:Model xmi:id="_DEgyoJdlEemqIo5GlFw_bQ" name="SHS Project Management Definition">
+    <ownedComment xmi:type="uml:Comment" xmi:id="_9FrKwJdmEemqIo5GlFw_bQ" annotatedElement="_DEgyoJdlEemqIo5GlFw_bQ">
+      <body>&lt;p>The {@link #_DEgyoJdlEemqIo5GlFw_bQ}&amp;nbsp;model contains all the information related to the project management definition for the {@link #_FQ5xsJdlEemqIo5GlFw_bQ}.&lt;/p>
+</body>
+    </ownedComment>
+    <packagedElement xmi:type="uml:Dependency" xmi:id="_dJ-DIJdmEemqIo5GlFw_bQ" name="ProjectStakeHolderResponssability" client="_DEgyoJdlEemqIo5GlFw_bQ">
+      <supplier xmi:type="uml:Model" href="SHS_Product_Definition.uml#_FQ5xsJdlEemqIo5GlFw_bQ"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_aewdMFkPEeO46MKyR1zbAg" name="SmartHomeSystemEnvironment">
+      <ownedComment xmi:type="uml:Comment" xmi:id="_eDOjIFt4EeO46MKyR1zbAg" annotatedElement="_aewdMFkPEeO46MKyR1zbAg">
+        <body>This composite structure gathers the Smart Home System system and all external actors inetracting with the system.&#xD;
+&#xD;
+</body>
+      </ownedComment>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_NtpRMnOYEeeGodGwr0LI7g" name="inhabitant" type="_o9C5QDiAEeGe4_sFLbM3Hw" aggregation="composite">
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_NtpRM3OYEeeGodGwr0LI7g"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_Ntp4QHOYEeeGodGwr0LI7g" value="*"/>
+        <association xmi:type="uml:Association" href="SHS_OperationalVision.uml#_NtoqIHOYEeeGodGwr0LI7g"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_OrgnoXOYEeeGodGwr0LI7g" name="medicalPersonal" type="_oBYiQDiAEeGe4_sFLbM3Hw" aggregation="composite">
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_OrgnonOYEeeGodGwr0LI7g"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_Orgno3OYEeeGodGwr0LI7g" value="*"/>
+        <association xmi:type="uml:Association" href="SHS_OperationalVision.uml#_OrfZgHOYEeeGodGwr0LI7g"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_t8WNUImREeeY8oHcVhoGvw" name="systemUnderDesign" aggregation="composite">
+        <type xmi:type="uml:Class" href="SHS_OperationalVision.uml#_gCDnUFkHEeO46MKyR1zbAg"/>
+        <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_t8W0YImREeeY8oHcVhoGvw"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_t8XbcImREeeY8oHcVhoGvw" value="1"/>
+        <association xmi:type="uml:Association" href="SHS_OperationalVision.uml#_t8QtwImREeeY8oHcVhoGvw"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_qX55YImVEeeY8oHcVhoGvw" name="smartHomeSystem">
+        <type xmi:type="uml:Class" href="SHS_OperationalVision.uml#_gCDnUFkHEeO46MKyR1zbAg"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_uslaoImVEeeY8oHcVhoGvw" name="Attribute1" aggregation="composite">
+        <type xmi:type="uml:Class" href="SHS_OperationalVision.uml#_gCDnUFkHEeO46MKyR1zbAg"/>
+        <association xmi:type="uml:Association" href="SHS_OperationalVision.uml#_w7NOUImVEeeY8oHcVhoGvw"/>
+      </ownedAttribute>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Package" xmi:id="_0sBHMJghEemfOpj3-Spopg" name="SHS Project Stateholders">
+      <ownedComment xmi:type="uml:Comment" xmi:id="_t681gJhBEemfOpj3-Spopg">
+        <body>HealthAuthority&#xD;
+</body>
+      </ownedComment>
+      <packagedElement xmi:type="uml:Actor" xmi:id="_rBDkIJgpEemfOpj3-Spopg" name="SHS_Enviornment" isAbstract="true"/>
+      <packagedElement xmi:type="uml:Package" xmi:id="_HpwvUJg9EemfOpj3-Spopg" name="KeyInputSystems">
+        <packagedElement xmi:type="uml:Actor" xmi:id="_2SUlkJhAEemfOpj3-Spopg" name="Pharmacy">
+          <ownedComment xmi:type="uml:Comment" xmi:id="_5xAS8JhAEemfOpj3-Spopg">
+            <body>&lt;p>Pharmacy&lt;/p>
+</body>
+          </ownedComment>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Actor" xmi:id="_Fv6DAJhDEemfOpj3-Spopg" name="SensorDeivce">
+          <ownedComment xmi:type="uml:Comment" xmi:id="_Fv6DAZhDEemfOpj3-Spopg">
+            <body>&lt;p>SensorDevice&lt;/p>
+</body>
+          </ownedComment>
+        </packagedElement>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Package" xmi:id="_H0VAkJg9EemfOpj3-Spopg" name="KeyOutputSystems">
+        <packagedElement xmi:type="uml:Actor" xmi:id="_67luMJgpEemfOpj3-Spopg" name="ElectronicDevice" isAbstract="true">
+          <ownedComment xmi:type="uml:Comment" xmi:id="_xrAV0Jg4EemfOpj3-Spopg">
+            <body>ActuactorDevice</body>
+          </ownedComment>
+          <generalization xmi:type="uml:Generalization" xmi:id="_o3y8IJgqEemfOpj3-Spopg" general="_rBDkIJgpEemfOpj3-Spopg"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Actor" xmi:id="_0Qu_wJgpEemfOpj3-Spopg" name="PoliceStation">
+          <ownedComment xmi:type="uml:Comment" xmi:id="_5LlAwJg3EemfOpj3-Spopg" annotatedElement="_DEgyoJdlEemqIo5GlFw_bQ">
+            <body>&lt;p>PoliceStation&lt;/p>
+</body>
+          </ownedComment>
+          <generalization xmi:type="uml:Generalization" xmi:id="_hy25wJgqEemfOpj3-Spopg" general="_rBDkIJgpEemfOpj3-Spopg"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Actor" xmi:id="_oBYiQDiAEeGe4_sFLbM3Hw" name="MedicalPeople">
+          <ownedComment xmi:type="uml:Comment" xmi:id="__XT88JcGEeeFsqoIYj-fTQ" annotatedElement="_oBYiQDiAEeGe4_sFLbM3Hw">
+            <body>The {@link #_oBYiQDiAEeGe4_sFLbM3Hw} actor designates the role consisting in providing medical assistance to the house Inhabitant (designated by the {@link #_o9C5QDiAEeGe4_sFLbM3Hw} acotr)</body>
+          </ownedComment>
+          <ownedComment xmi:type="uml:Comment" xmi:id="_ux_90Jg3EemfOpj3-Spopg">
+            <body>&lt;p>MedicalPeople&lt;/p>
+</body>
+          </ownedComment>
+          <generalization xmi:type="uml:Generalization" xmi:id="_YiFKkJgtEemfOpj3-Spopg" general="_rBDkIJgpEemfOpj3-Spopg"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Actor" xmi:id="_o9C5QDiAEeGe4_sFLbM3Hw" name="Inhabitant">
+          <ownedComment xmi:type="uml:Comment" xmi:id="_TwNwUFkJEeO46MKyR1zbAg" annotatedElement="_o9C5QDiAEeGe4_sFLbM3Hw">
+            <body>This is an actor model element. It represents a type of role played by an entity that interacts with the system under consideraton, the so-called subject of the use case diagram.</body>
+          </ownedComment>
+          <ownedComment xmi:type="uml:Comment" xmi:id="_nx4KAJg3EemfOpj3-Spopg" annotatedElement="_DEgyoJdlEemqIo5GlFw_bQ">
+            <body>&lt;p>Inhabitant&lt;/p>
+</body>
+          </ownedComment>
+          <generalization xmi:type="uml:Generalization" xmi:id="__RglkJgpEemfOpj3-Spopg" general="_rBDkIJgpEemfOpj3-Spopg"/>
+        </packagedElement>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Package" xmi:id="_H7cVMJg9EemfOpj3-Spopg" name="KeyResourceSystems">
+        <packagedElement xmi:type="uml:Actor" xmi:id="_pxh18JgpEemfOpj3-Spopg" name="ProjectManager">
+          <ownedComment xmi:type="uml:Comment" xmi:id="_QEDCwJg3EemfOpj3-Spopg">
+            <body>&lt;p>ProjectManager&lt;/p>
+</body>
+          </ownedComment>
+          <generalization xmi:type="uml:Generalization" xmi:id="_fxF2UJgqEemfOpj3-Spopg" general="_rBDkIJgpEemfOpj3-Spopg"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Actor" xmi:id="_zSl8gJgpEemfOpj3-Spopg" name="Internet">
+          <ownedComment xmi:type="uml:Comment" xmi:id="_8PF_oJg4EemfOpj3-Spopg">
+            <body>Internet</body>
+          </ownedComment>
+          <generalization xmi:type="uml:Generalization" xmi:id="_m5Ga0JgqEemfOpj3-Spopg" general="_rBDkIJgpEemfOpj3-Spopg"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Actor" xmi:id="_2x-0gJgpEemfOpj3-Spopg" name="EnergyProvider">
+          <ownedComment xmi:type="uml:Comment" xmi:id="__zqIAJg3EemfOpj3-Spopg">
+            <body>&lt;p>EnergyProvider&lt;/p>
+</body>
+          </ownedComment>
+          <generalization xmi:type="uml:Generalization" xmi:id="_oD3k0JgqEemfOpj3-Spopg" general="_rBDkIJgpEemfOpj3-Spopg"/>
+        </packagedElement>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Package" xmi:id="_ICnUMJg9EemfOpj3-Spopg" name="KeyConstrainingSystems">
+        <packagedElement xmi:type="uml:Actor" xmi:id="_MoXagJhBEemfOpj3-Spopg" name="InsuranceCompany">
+          <ownedComment xmi:type="uml:Comment" xmi:id="_c-WKcJhBEemfOpj3-Spopg">
+            <body>&lt;p>InsuranceCompany&lt;/p>
+</body>
+          </ownedComment>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Actor" xmi:id="_OxDlUJhBEemfOpj3-Spopg" name="EnvironmentalAuthority">
+          <ownedComment xmi:type="uml:Comment" xmi:id="_lpEe4JhBEemfOpj3-Spopg">
+            <body>&lt;p>EnvironmentalAuthority&lt;/p>
+</body>
+          </ownedComment>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Actor" xmi:id="_Sl4h0JhBEemfOpj3-Spopg" name="HealthAuthority"/>
+      </packagedElement>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Package" xmi:id="_QD8YQJg7EemfOpj3-Spopg" name="Systeem&lt;->Env Flows Definitions">
+      <packagedElement xmi:type="uml:InformationFlow" xmi:id="_lfb7YJg5EemfOpj3-Spopg" name="ServiceRequests" informationSource="_o9C5QDiAEeGe4_sFLbM3Hw">
+        <ownedComment xmi:type="uml:Comment" xmi:id="_svP6kJhFEemfOpj3-Spopg">
+          <body>&lt;p>Model the assistance request sent by the inhabitant to the .&lt;/p>
+</body>
+        </ownedComment>
+        <informationTarget xmi:type="uml:Class" href="SHS_OperationalVision.uml#_gCDnUFkHEeO46MKyR1zbAg"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:InformationFlow" xmi:id="_EKroEJg3EemfOpj3-Spopg" name="Design Decision" informationSource="_pxh18JgpEemfOpj3-Spopg">
+        <informationTarget xmi:type="uml:Class" href="SHS_OperationalVision.uml#_gCDnUFkHEeO46MKyR1zbAg"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:InformationFlow" xmi:id="_1qyvsJg5EemfOpj3-Spopg" name="InhabitantSecurityAssistance" informationSource="_0Qu_wJgpEemfOpj3-Spopg">
+        <informationTarget xmi:type="uml:Class" href="SHS_OperationalVision.uml#_gCDnUFkHEeO46MKyR1zbAg"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:InformationFlow" xmi:id="_cCuwYJg5EemfOpj3-Spopg" name="ProvidedServices" informationTarget="_o9C5QDiAEeGe4_sFLbM3Hw">
+        <informationSource xmi:type="uml:Class" href="SHS_OperationalVision.uml#_gCDnUFkHEeO46MKyR1zbAg"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:InformationFlow" xmi:id="_r3tsEJg5EemfOpj3-Spopg" name="SecurityAlarm" informationTarget="_0Qu_wJgpEemfOpj3-Spopg">
+        <informationSource xmi:type="uml:Class" href="SHS_OperationalVision.uml#_gCDnUFkHEeO46MKyR1zbAg"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:InformationFlow" xmi:id="_YnqI8Jg_EemfOpj3-Spopg" name="Data" informationSource="_zSl8gJgpEemfOpj3-Spopg">
+        <informationTarget xmi:type="uml:Class" href="SHS_OperationalVision.uml#_gCDnUFkHEeO46MKyR1zbAg"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:InformationFlow" xmi:id="_fElwIJg_EemfOpj3-Spopg" name="Power" informationSource="_2x-0gJgpEemfOpj3-Spopg">
+        <informationTarget xmi:type="uml:Class" href="SHS_OperationalVision.uml#_gCDnUFkHEeO46MKyR1zbAg"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:InformationFlow" xmi:id="_B-QoQJhBEemfOpj3-Spopg" name="Pharmaceuticals" informationSource="_2SUlkJhAEemfOpj3-Spopg">
+        <informationTarget xmi:type="uml:Class" href="SHS_OperationalVision.uml#_gCDnUFkHEeO46MKyR1zbAg"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:InformationFlow" xmi:id="_yz_oEJhBEemfOpj3-Spopg" name="InsuranceContract" informationSource="_MoXagJhBEemfOpj3-Spopg">
+        <informationTarget xmi:type="uml:Class" href="SHS_OperationalVision.uml#_gCDnUFkHEeO46MKyR1zbAg"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:InformationFlow" xmi:id="_CKG2cJhCEemfOpj3-Spopg" name="EnvRegulationSpec" informationSource="_OxDlUJhBEemfOpj3-Spopg">
+        <informationTarget xmi:type="uml:Class" href="SHS_OperationalVision.uml#_gCDnUFkHEeO46MKyR1zbAg"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:InformationFlow" xmi:id="_FnrJgJhCEemfOpj3-Spopg" name="HealthRegulationSpec" informationSource="_Sl4h0JhBEemfOpj3-Spopg">
+        <informationTarget xmi:type="uml:Class" href="SHS_OperationalVision.uml#_gCDnUFkHEeO46MKyR1zbAg"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:InformationFlow" xmi:id="_HZnTIJhAEemfOpj3-Spopg" name="HealthAssistance" informationSource="_oBYiQDiAEeGe4_sFLbM3Hw">
+        <informationTarget xmi:type="uml:Class" href="SHS_OperationalVision.uml#_gCDnUFkHEeO46MKyR1zbAg"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:InformationFlow" xmi:id="_YzNU0JhDEemfOpj3-Spopg" name="House&amp;InhabitantStateInformation" informationSource="_Fv6DAJhDEemfOpj3-Spopg">
+        <informationTarget xmi:type="uml:Class" href="SHS_OperationalVision.uml#_gCDnUFkHEeO46MKyR1zbAg"/>
+      </packagedElement>
+    </packagedElement>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_xm2kQJipEemfOpj3-Spopg">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_xm2kQZipEemfOpj3-Spopg" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/uml2/5.0.0/UML/Profile/Standard#/"/>
+      </eAnnotations>
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_xm7cwJipEemfOpj3-Spopg" source="duplicatedProfile"/>
+      <appliedProfile xmi:type="uml:Profile" href="pathmap://UML_PROFILES/Standard.profile.uml#_0"/>
+    </profileApplication>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_xm8q4JipEemfOpj3-Spopg">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_xm8q4ZipEemfOpj3-Spopg" source="PapyrusVersion">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_xm8q4pipEemfOpj3-Spopg" key="Version" value="0.0.1"/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_xm8q45ipEemfOpj3-Spopg" key="Comment" value=""/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_xm8q5JipEemfOpj3-Spopg" key="Copyright" value="CEA LIST - Initial API and Implementation&#xD;&#xA;"/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_xm8q5ZipEemfOpj3-Spopg" key="Date" value="2012-12-07"/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_xm8q5pipEemfOpj3-Spopg" key="Author" value=""/>
+      </eAnnotations>
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_xm8q55ipEemfOpj3-Spopg" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="pathmap://PAPYRUS_INTERNAL_PROFILES/PapyrusInternal.profile.uml#_eikdoEBcEeKj6r7ThQagKA"/>
+      </eAnnotations>
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_xnBjYJipEemfOpj3-Spopg" source="duplicatedProfile"/>
+      <appliedProfile xmi:type="uml:Profile" href="pathmap://PAPYRUS_INTERNAL_PROFILES/PapyrusInternal.profile.uml#_16oYAD-SEeKj6r7ThQagKA"/>
+    </profileApplication>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_xnCKcJipEemfOpj3-Spopg">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_xnCKcZipEemfOpj3-Spopg" source="PapyrusVersion">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_xnCKcpipEemfOpj3-Spopg" key="Version" value="0.0.1"/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_xnCKc5ipEemfOpj3-Spopg" key="Comment" value=""/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_xnCKdJipEemfOpj3-Spopg" key="Copyright" value="CEA LIST - Initial API and Implementation&#xD;&#xA;"/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_xnCKdZipEemfOpj3-Spopg" key="Date" value="2012-12-07"/>
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_xnCKdpipEemfOpj3-Spopg" key="Author" value=""/>
+      </eAnnotations>
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_xnCKd5ipEemfOpj3-Spopg" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="pathmap://PAPYRUS_INTERNAL_PROFILES/PapyrusInternal.profile.uml#_eijPgUBcEeKj6r7ThQagKA"/>
+      </eAnnotations>
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_xnHC8JipEemfOpj3-Spopg" source="duplicatedProfile"/>
+      <appliedProfile xmi:type="uml:Profile" href="pathmap://PAPYRUS_INTERNAL_PROFILES/PapyrusInternal.profile.uml#_dL4lkPXAEeGSQON-DQ-5eg"/>
+    </profileApplication>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_xnIREJipEemfOpj3-Spopg">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_xnIREZipEemfOpj3-Spopg" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="../../dsml/AboutGlossary/GlossaryML.profile.uml#_3Bd1cMrREee8B9kRSNhRUg"/>
+      </eAnnotations>
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_xnNJkJipEemfOpj3-Spopg" source="duplicatedProfile"/>
+      <appliedProfile xmi:type="uml:Profile" href="../../dsml/AboutGlossary/GlossaryML.profile.uml#_saqecET2EeS25e5tbYLtxg"/>
+    </profileApplication>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_xnNwoJipEemfOpj3-Spopg">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_xnNwoZipEemfOpj3-Spopg" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/sysml/1.6/SysML#/"/>
+      </eAnnotations>
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_xnVFYJipEemfOpj3-Spopg" source="duplicatedProfile"/>
+      <appliedProfile xmi:type="uml:Profile" href="pathmap://SysML16_PROFILES/SysML.profile.uml#SysML"/>
+    </profileApplication>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_xnVscJipEemfOpj3-Spopg">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_xnVscZipEemfOpj3-Spopg" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/sysml/1.6/SysML#//activities"/>
+      </eAnnotations>
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_xndBMJipEemfOpj3-Spopg" source="duplicatedProfile"/>
+      <appliedProfile xmi:type="uml:Profile" href="pathmap://SysML16_PROFILES/SysML.profile.uml#SysML.package_packagedElement_Activities"/>
+    </profileApplication>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_xndoQJipEemfOpj3-Spopg">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_xndoQZipEemfOpj3-Spopg" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/sysml/1.6/SysML#//allocations"/>
+      </eAnnotations>
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_xnh5sJipEemfOpj3-Spopg" source="duplicatedProfile"/>
+      <appliedProfile xmi:type="uml:Profile" href="pathmap://SysML16_PROFILES/SysML.profile.uml#SysML.package_packagedElement_Allocations"/>
+    </profileApplication>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_xnigwJipEemfOpj3-Spopg">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_xnigwZipEemfOpj3-Spopg" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/sysml/1.6/SysML#//blocks"/>
+      </eAnnotations>
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_xnnZQJipEemfOpj3-Spopg" source="duplicatedProfile"/>
+      <appliedProfile xmi:type="uml:Profile" href="pathmap://SysML16_PROFILES/SysML.profile.uml#SysML.package_packagedElement_Blocks"/>
+    </profileApplication>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_xnoAUJipEemfOpj3-Spopg">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_xnoAUZipEemfOpj3-Spopg" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/sysml/1.6/SysML#//constraintblocks"/>
+      </eAnnotations>
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_xntf4JipEemfOpj3-Spopg" source="duplicatedProfile"/>
+      <appliedProfile xmi:type="uml:Profile" href="pathmap://SysML16_PROFILES/SysML.profile.uml#SysML.package_packagedElement_ConstraintBlocks"/>
+    </profileApplication>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_xnuG8JipEemfOpj3-Spopg">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_xnuG8ZipEemfOpj3-Spopg" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/sysml/1.6/SysML#//deprecatedelements"/>
+      </eAnnotations>
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_xnzmgJipEemfOpj3-Spopg" source="duplicatedProfile"/>
+      <appliedProfile xmi:type="uml:Profile" href="pathmap://SysML16_PROFILES/SysML.profile.uml#SysML.package_packagedElement_DeprecatedElements"/>
+    </profileApplication>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_xn0NkJipEemfOpj3-Spopg">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_xn0NkZipEemfOpj3-Spopg" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/sysml/1.6/SysML#//modelelements"/>
+      </eAnnotations>
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_xn7iUJipEemfOpj3-Spopg" source="duplicatedProfile"/>
+      <appliedProfile xmi:type="uml:Profile" href="pathmap://SysML16_PROFILES/SysML.profile.uml#SysML.package_packagedElement_ModelElements"/>
+    </profileApplication>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_xn8JYJipEemfOpj3-Spopg">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_xn8JYZipEemfOpj3-Spopg" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/sysml/1.6/SysML#//portsandflows"/>
+      </eAnnotations>
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_xoC3EJipEemfOpj3-Spopg" source="duplicatedProfile"/>
+      <appliedProfile xmi:type="uml:Profile" href="pathmap://SysML16_PROFILES/SysML.profile.uml#SysML.package_packagedElement_Ports_u0026Flows"/>
+    </profileApplication>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_xoDeIJipEemfOpj3-Spopg">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_xoDeIZipEemfOpj3-Spopg" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/sysml/1.6/SysML#//requirements"/>
+      </eAnnotations>
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_xoIWoJipEemfOpj3-Spopg" source="duplicatedProfile"/>
+      <appliedProfile xmi:type="uml:Profile" href="pathmap://SysML16_PROFILES/SysML.profile.uml#SysML.package_packagedElement_Requirements"/>
+    </profileApplication>
+  </uml:Model>
+  <Blocks:Block xmi:id="_YbbVwIghEeergoJZYt1ADQ" base_Class="_aewdMFkPEeO46MKyR1zbAg"/>
+  <ModelElements:Stakeholder xmi:id="_MXhv4JhGEemfOpj3-Spopg" base_Classifier="_rBDkIJgpEemfOpj3-Spopg"/>
+  <ModelElements:Stakeholder xmi:id="_A-kBoJhIEemfOpj3-Spopg" base_Classifier="_2SUlkJhAEemfOpj3-Spopg"/>
+  <ModelElements:Stakeholder xmi:id="_BsTRYJhIEemfOpj3-Spopg" base_Classifier="_Fv6DAJhDEemfOpj3-Spopg"/>
+  <ModelElements:Stakeholder xmi:id="_poBOcJhGEemfOpj3-Spopg" base_Classifier="_67luMJgpEemfOpj3-Spopg"/>
+  <ModelElements:Stakeholder xmi:id="_l3uzsJhGEemfOpj3-Spopg" base_Classifier="_0Qu_wJgpEemfOpj3-Spopg"/>
+  <ModelElements:Stakeholder xmi:id="_nY_LEJhGEemfOpj3-Spopg" base_Classifier="_oBYiQDiAEeGe4_sFLbM3Hw"/>
+  <ModelElements:Stakeholder xmi:id="_iUmEIJhGEemfOpj3-Spopg" base_Classifier="_o9C5QDiAEeGe4_sFLbM3Hw"/>
+  <ModelElements:Stakeholder xmi:id="_d9N0MJhGEemfOpj3-Spopg" base_Classifier="_pxh18JgpEemfOpj3-Spopg"/>
+  <ModelElements:Stakeholder xmi:id="_lHQZAJhGEemfOpj3-Spopg" base_Classifier="_zSl8gJgpEemfOpj3-Spopg"/>
+  <ModelElements:Stakeholder xmi:id="_onWboJhGEemfOpj3-Spopg" base_Classifier="_2x-0gJgpEemfOpj3-Spopg"/>
+  <ModelElements:Stakeholder xmi:id="_6oP_0JhHEemfOpj3-Spopg" base_Classifier="_MoXagJhBEemfOpj3-Spopg"/>
+  <ModelElements:Stakeholder xmi:id="_8BuUMJhHEemfOpj3-Spopg" base_Classifier="_OxDlUJhBEemfOpj3-Spopg"/>
+  <ModelElements:Stakeholder xmi:id="_9BnD4JhHEemfOpj3-Spopg" base_Classifier="_Sl4h0JhBEemfOpj3-Spopg"/>
+  <PortsAndFlows:ItemFlow xmi:id="_lfflwJg5EemfOpj3-Spopg" base_InformationFlow="_lfb7YJg5EemfOpj3-Spopg"/>
+  <PortsAndFlows:ItemFlow xmi:id="_EKwgkJg3EemfOpj3-Spopg" base_InformationFlow="_EKroEJg3EemfOpj3-Spopg"/>
+  <PortsAndFlows:ItemFlow xmi:id="_1q4PQJg5EemfOpj3-Spopg" base_InformationFlow="_1qyvsJg5EemfOpj3-Spopg"/>
+  <PortsAndFlows:ItemFlow xmi:id="_cC0P8Jg5EemfOpj3-Spopg" base_InformationFlow="_cCuwYJg5EemfOpj3-Spopg"/>
+  <PortsAndFlows:ItemFlow xmi:id="_r3x9gJg5EemfOpj3-Spopg" base_InformationFlow="_r3tsEJg5EemfOpj3-Spopg"/>
+  <PortsAndFlows:ItemFlow xmi:id="_YnvBcJg_EemfOpj3-Spopg" base_InformationFlow="_YnqI8Jg_EemfOpj3-Spopg"/>
+  <PortsAndFlows:ItemFlow xmi:id="_fEozcJg_EemfOpj3-Spopg" base_InformationFlow="_fElwIJg_EemfOpj3-Spopg"/>
+  <PortsAndFlows:ItemFlow xmi:id="_B-TrkJhBEemfOpj3-Spopg" base_InformationFlow="_B-QoQJhBEemfOpj3-Spopg"/>
+  <PortsAndFlows:ItemFlow xmi:id="_y0D5gJhBEemfOpj3-Spopg" base_InformationFlow="_yz_oEJhBEemfOpj3-Spopg"/>
+  <PortsAndFlows:ItemFlow xmi:id="_CKKg0JhCEemfOpj3-Spopg" base_InformationFlow="_CKG2cJhCEemfOpj3-Spopg"/>
+  <PortsAndFlows:ItemFlow xmi:id="_Fnuz4JhCEemfOpj3-Spopg" base_InformationFlow="_FnrJgJhCEemfOpj3-Spopg"/>
+  <PortsAndFlows:ItemFlow xmi:id="_HZqWcJhAEemfOpj3-Spopg" base_InformationFlow="_HZnTIJhAEemfOpj3-Spopg"/>
+  <PortsAndFlows:ItemFlow xmi:id="_YzRmQJhDEemfOpj3-Spopg" base_InformationFlow="_YzNU0JhDEemfOpj3-Spopg"/>
+</xmi:XMI>
