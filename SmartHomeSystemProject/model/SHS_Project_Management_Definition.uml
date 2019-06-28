@@ -109,6 +109,7 @@
       <useCase xmi:type="uml:UseCase" href="SHS_OperationalVision.uml#_8Dc5IJb-EeeFsqoIYj-fTQ"/>
       <useCase xmi:type="uml:UseCase" href="SHS_OperationalVision.uml#_CYDqwJb_EeeFsqoIYj-fTQ"/>
       <useCase xmi:type="uml:UseCase" href="SHS_OperationalVision.uml#_3ZnKwJb_EeeFsqoIYj-fTQ"/>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_cLHBgJkDEemiJJjEotXc9w" name="Property2" visibility="public"/>
     </packagedElement>
     <packagedElement xmi:type="uml:Package" xmi:id="_0sBHMJghEemfOpj3-Spopg" name="SHS_ProjectStateholders">
       <ownedComment xmi:type="uml:Comment" xmi:id="_QD3XIJjoEemiJJjEotXc9w" annotatedElement="_2SUlkJhAEemfOpj3-Spopg _Fv6DAJhDEemfOpj3-Spopg _0Qu_wJgpEemfOpj3-Spopg _oBYiQDiAEeGe4_sFLbM3Hw _o9C5QDiAEeGe4_sFLbM3Hw">
@@ -378,7 +379,7 @@
   <ModelElements:Stakeholder xmi:id="_6oP_0JhHEemfOpj3-Spopg" base_Classifier="_MoXagJhBEemfOpj3-Spopg"/>
   <ModelElements:Stakeholder xmi:id="_8BuUMJhHEemfOpj3-Spopg" base_Classifier="_OxDlUJhBEemfOpj3-Spopg"/>
   <ModelElements:Stakeholder xmi:id="_9BnD4JhHEemfOpj3-Spopg" base_Classifier="_Sl4h0JhBEemfOpj3-Spopg"/>
-  <PortsAndFlows:ItemFlow xmi:id="_lfflwJg5EemfOpj3-Spopg" base_InformationFlow="_lfb7YJg5EemfOpj3-Spopg"/>
+  <PortsAndFlows:ItemFlow xmi:id="_lfflwJg5EemfOpj3-Spopg" base_InformationFlow="_lfb7YJg5EemfOpj3-Spopg" itemProperty="_cLHBgJkDEemiJJjEotXc9w"/>
   <PortsAndFlows:ItemFlow xmi:id="_EKwgkJg3EemfOpj3-Spopg" base_InformationFlow="_EKroEJg3EemfOpj3-Spopg"/>
   <PortsAndFlows:ItemFlow xmi:id="_1q4PQJg5EemfOpj3-Spopg" base_InformationFlow="_1qyvsJg5EemfOpj3-Spopg"/>
   <PortsAndFlows:ItemFlow xmi:id="_cC0P8Jg5EemfOpj3-Spopg" base_InformationFlow="_cCuwYJg5EemfOpj3-Spopg"/>
@@ -395,4 +396,5 @@
   <PortsAndFlows:ItemFlow xmi:id="_T_RzIJhAEemfOpj3-Spopg" base_InformationFlow="_T_Ov0JhAEemfOpj3-Spopg"/>
   <PortsAndFlows:ItemFlow xmi:id="_StGJYJjLEemiJJjEotXc9w" base_InformationFlow="_StB38JjLEemiJJjEotXc9w"/>
   <ModelElements:ElementGroup xmi:id="_QD8PoJjoEemiJJjEotXc9w" base_Comment="_QD3XIJjoEemiJJjEotXc9w" name="KeyInputSystemsEltGroup"/>
+  <PortsAndFlows:DirectedFeature xmi:id="_fMd5sJkDEemiJJjEotXc9w" base_Feature="_cLHBgJkDEemiJJjEotXc9w" featureDirection="required"/>
 </xmi:XMI>

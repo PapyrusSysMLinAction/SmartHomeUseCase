@@ -93,12 +93,72 @@
         <supplier xmi:type="uml:Model" href="SHS_FunctionalVision.uml#_o5WlgCRyEeCaCLd1YXNfIQ"/>
         <mapping xmi:type="uml:OpaqueExpression" xmi:id="_dBkGkE3qEeO5W83O6raoHw" name="FromReq2ExtSpec_MappingDescription" language="" body=""/>
       </packagedElement>
-      <packagedElement xmi:type="uml:Class" xmi:id="_sU7uIJjqEemiJJjEotXc9w" name="SmartHomeSystemEnvironment">
-        <ownedComment xmi:type="uml:Comment" xmi:id="_sU7uIZjqEemiJJjEotXc9w" annotatedElement="_sU7uIJjqEemiJJjEotXc9w">
+      <packagedElement xmi:type="uml:Class" xmi:id="_NQDqkJkbEemrwYuP8ghIzw" name="SmartHomeSystemEnvironment">
+        <ownedComment xmi:type="uml:Comment" xmi:id="_NQDqkZkbEemrwYuP8ghIzw" annotatedElement="_NQDqkJkbEemrwYuP8ghIzw">
           <body>This composite structure gathers the Smart Home System system and all external actors inetracting with the system.&#xD;
 &#xD;
 </body>
         </ownedComment>
+        <ownedAttribute xmi:type="uml:Property" xmi:id="_NQDqkpkbEemrwYuP8ghIzw" name="inhabitants" type="_NUx8i5itEemfOpj3-Spopg" aggregation="composite" association="_NQXzoJkbEemrwYuP8ghIzw">
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_NQDqk5kbEemrwYuP8ghIzw" value="*"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:type="uml:Property" xmi:id="_NQDqlJkbEemrwYuP8ghIzw" name="medicalPersonals" type="_NUx8h5itEemfOpj3-Spopg" aggregation="composite" association="_NQOCoJkbEemrwYuP8ghIzw">
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_NQDqlZkbEemrwYuP8ghIzw" value="*"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:type="uml:Property" xmi:id="_NQDqlpkbEemrwYuP8ghIzw" name="systemUnderDesign" type="_o3J_sJjqEemiJJjEotXc9w" aggregation="composite" association="_NQQe4JkbEemrwYuP8ghIzw"/>
+        <ownedAttribute xmi:type="uml:Property" xmi:id="_NQDql5kbEemrwYuP8ghIzw" name="pharmacy" type="_NUsc8ZitEemfOpj3-Spopg" aggregation="composite" association="_NQUwUJkbEemrwYuP8ghIzw">
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_NQDqmJkbEemrwYuP8ghIzw" value="*"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:type="uml:Property" xmi:id="_NQDqmZkbEemrwYuP8ghIzw" name="sensordevice" type="_NUsc85itEemfOpj3-Spopg" aggregation="composite" association="_NQSUEJkbEemrwYuP8ghIzw">
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_NQDqmpkbEemrwYuP8ghIzw"/>
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_NQDqm5kbEemrwYuP8ghIzw" value="*"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:type="uml:Property" xmi:id="_NQDqnJkbEemrwYuP8ghIzw" name="energyprovider" type="_NU0_15itEemfOpj3-Spopg" aggregation="composite" association="_NQaP4JkbEemrwYuP8ghIzw"/>
+        <ownedAttribute xmi:type="uml:Property" xmi:id="_NQDqnZkbEemrwYuP8ghIzw" name="actuactordevice" type="_NUx8gZitEemfOpj3-Spopg" aggregation="composite" association="_NQZo0JkbEemrwYuP8ghIzw">
+          <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_NQDqnpkbEemrwYuP8ghIzw"/>
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_NQDqn5kbEemrwYuP8ghIzw" value="*"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:type="uml:Property" xmi:id="_NQDqoJkbEemrwYuP8ghIzw" name="policestation" type="_NUx8hJitEemfOpj3-Spopg" aggregation="composite" association="_NQYasJkbEemrwYuP8ghIzw">
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_NQDqoZkbEemrwYuP8ghIzw" value="*"/>
+        </ownedAttribute>
+        <ownedAttribute xmi:type="uml:Property" xmi:id="_NQDqo5kbEemrwYuP8ghIzw" name="internet" type="_NU0_1JitEemfOpj3-Spopg" aggregation="composite" association="_NQP30JkbEemrwYuP8ghIzw"/>
+        <ownedAttribute xmi:type="uml:Property" xmi:id="_NQDqpJkbEemrwYuP8ghIzw" name="healthauthority" type="_NU21BZitEemfOpj3-Spopg" aggregation="composite" association="_NQVXYJkbEemrwYuP8ghIzw"/>
+        <ownedConnector xmi:type="uml:Connector" xmi:id="_NQERoJkbEemrwYuP8ghIzw" name="Connector15">
+          <end xmi:type="uml:ConnectorEnd" xmi:id="_NQERoZkbEemrwYuP8ghIzw" role="_NQDqkpkbEemrwYuP8ghIzw"/>
+          <end xmi:type="uml:ConnectorEnd" xmi:id="_NQERopkbEemrwYuP8ghIzw" role="_NQDqlpkbEemrwYuP8ghIzw"/>
+        </ownedConnector>
+        <ownedConnector xmi:type="uml:Connector" xmi:id="_NQERo5kbEemrwYuP8ghIzw" name="Connector17">
+          <end xmi:type="uml:ConnectorEnd" xmi:id="_NQERpJkbEemrwYuP8ghIzw" role="_NQDqlJkbEemrwYuP8ghIzw"/>
+          <end xmi:type="uml:ConnectorEnd" xmi:id="_NQERpZkbEemrwYuP8ghIzw" role="_NQDqlpkbEemrwYuP8ghIzw"/>
+        </ownedConnector>
+        <ownedConnector xmi:type="uml:Connector" xmi:id="_NQERppkbEemrwYuP8ghIzw" name="Connector27">
+          <end xmi:type="uml:ConnectorEnd" xmi:id="_NQERp5kbEemrwYuP8ghIzw" role="_NQDqoJkbEemrwYuP8ghIzw"/>
+          <end xmi:type="uml:ConnectorEnd" xmi:id="_NQERqJkbEemrwYuP8ghIzw" role="_NQDqlpkbEemrwYuP8ghIzw"/>
+        </ownedConnector>
+        <ownedConnector xmi:type="uml:Connector" xmi:id="_NQERqZkbEemrwYuP8ghIzw" name="Connector28">
+          <end xmi:type="uml:ConnectorEnd" xmi:id="_NQERqpkbEemrwYuP8ghIzw" role="_NQDqnZkbEemrwYuP8ghIzw"/>
+          <end xmi:type="uml:ConnectorEnd" xmi:id="_NQERq5kbEemrwYuP8ghIzw" role="_NQDqlpkbEemrwYuP8ghIzw"/>
+        </ownedConnector>
+        <ownedConnector xmi:type="uml:Connector" xmi:id="_NQERrJkbEemrwYuP8ghIzw" name="Connector29">
+          <end xmi:type="uml:ConnectorEnd" xmi:id="_NQERrZkbEemrwYuP8ghIzw" role="_NQDqpJkbEemrwYuP8ghIzw"/>
+          <end xmi:type="uml:ConnectorEnd" xmi:id="_NQERrpkbEemrwYuP8ghIzw" role="_NQDqlpkbEemrwYuP8ghIzw"/>
+        </ownedConnector>
+        <ownedConnector xmi:type="uml:Connector" xmi:id="_NQERtZkbEemrwYuP8ghIzw" name="Connector26">
+          <end xmi:type="uml:ConnectorEnd" xmi:id="_NQERtpkbEemrwYuP8ghIzw" role="_NQDqo5kbEemrwYuP8ghIzw"/>
+          <end xmi:type="uml:ConnectorEnd" xmi:id="_NQERt5kbEemrwYuP8ghIzw" role="_NQDqlpkbEemrwYuP8ghIzw"/>
+        </ownedConnector>
+        <ownedConnector xmi:type="uml:Connector" xmi:id="_NQERuJkbEemrwYuP8ghIzw" name="Connector27">
+          <end xmi:type="uml:ConnectorEnd" xmi:id="_NQERuZkbEemrwYuP8ghIzw" role="_NQDqnJkbEemrwYuP8ghIzw"/>
+          <end xmi:type="uml:ConnectorEnd" xmi:id="_NQERupkbEemrwYuP8ghIzw" role="_NQDqlpkbEemrwYuP8ghIzw"/>
+        </ownedConnector>
+        <ownedConnector xmi:type="uml:Connector" xmi:id="_NQERvpkbEemrwYuP8ghIzw" name="Connector25">
+          <end xmi:type="uml:ConnectorEnd" xmi:id="_NQERv5kbEemrwYuP8ghIzw" role="_NQDql5kbEemrwYuP8ghIzw"/>
+          <end xmi:type="uml:ConnectorEnd" xmi:id="_NQERwJkbEemrwYuP8ghIzw" role="_NQDqlpkbEemrwYuP8ghIzw"/>
+        </ownedConnector>
+        <ownedConnector xmi:type="uml:Connector" xmi:id="_NQERwZkbEemrwYuP8ghIzw" name="Connector26">
+          <end xmi:type="uml:ConnectorEnd" xmi:id="_NQERwpkbEemrwYuP8ghIzw" role="_NQDqmZkbEemrwYuP8ghIzw"/>
+          <end xmi:type="uml:ConnectorEnd" xmi:id="_NQERw5kbEemrwYuP8ghIzw" role="_NQDqlpkbEemrwYuP8ghIzw"/>
+        </ownedConnector>
       </packagedElement>
       <packagedElement xmi:type="uml:Class" xmi:id="_o3J_sJjqEemiJJjEotXc9w" name="SmartHomeSystem" classifierBehavior="_Ma2-MJjqEemiJJjEotXc9w">
         <ownedComment xmi:type="uml:Comment" xmi:id="_o3J_sZjqEemiJJjEotXc9w" annotatedElement="_o3J_sJjqEemiJJjEotXc9w">
@@ -386,6 +446,66 @@ N.B.: the comment may be hidden and shown as for example in a table gathering al
       <packagedElement xmi:type="uml:Dependency" xmi:id="_H7DXYJiwEemfOpj3-Spopg" name="SHS Operational Description->SHS ProductStakeholders" client="_j5KicE3oEeO5W83O6raoHw" supplier="_JklBUJitEemfOpj3-Spopg"/>
       <packagedElement xmi:type="uml:Dependency" xmi:id="_y0b0EJjdEemiJJjEotXc9w" name="SHS_Needs->SHS&lt;->_EnvFlowsDefinitions" client="_j5KicE3oEeO5W83O6raoHw" supplier="_mU28sJjXEemiJJjEotXc9w"/>
       <packagedElement xmi:type="uml:Package" xmi:id="_C6czYJj0EemiJJjEotXc9w" name="IntraSHS_OperationalDesciptionTraceabilityDescription"/>
+      <packagedElement xmi:type="uml:Association" xmi:id="_NQOCoJkbEemrwYuP8ghIzw" name="SystemContext-MedicalPersonal" memberEnd="_NQOCo5kbEemrwYuP8ghIzw _NQDqlJkbEemrwYuP8ghIzw">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_NQOCoZkbEemrwYuP8ghIzw" source="org.eclipse.papyrus">
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_NQOCopkbEemrwYuP8ghIzw" key="nature" value="UML_Nature"/>
+        </eAnnotations>
+        <ownedEnd xmi:type="uml:Property" xmi:id="_NQOCo5kbEemrwYuP8ghIzw" type="_NQDqkJkbEemrwYuP8ghIzw" association="_NQOCoJkbEemrwYuP8ghIzw"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_NQP30JkbEemrwYuP8ghIzw" memberEnd="_NQP305kbEemrwYuP8ghIzw _NQDqo5kbEemrwYuP8ghIzw">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_NQP30ZkbEemrwYuP8ghIzw" source="org.eclipse.papyrus">
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_NQP30pkbEemrwYuP8ghIzw" key="nature" value="UML_Nature"/>
+        </eAnnotations>
+        <ownedEnd xmi:type="uml:Property" xmi:id="_NQP305kbEemrwYuP8ghIzw" name="smarthomesystemenvironment" type="_NQDqkJkbEemrwYuP8ghIzw" association="_NQP30JkbEemrwYuP8ghIzw"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_NQQe4JkbEemrwYuP8ghIzw" name="SystemContext-SmartHomeSystem" memberEnd="_NQQe45kbEemrwYuP8ghIzw _NQDqlpkbEemrwYuP8ghIzw">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_NQQe4ZkbEemrwYuP8ghIzw" source="org.eclipse.papyrus">
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_NQQe4pkbEemrwYuP8ghIzw" key="nature" value="UML_Nature"/>
+        </eAnnotations>
+        <ownedEnd xmi:type="uml:Property" xmi:id="_NQQe45kbEemrwYuP8ghIzw" name="systemcontext" type="_NQDqkJkbEemrwYuP8ghIzw" association="_NQQe4JkbEemrwYuP8ghIzw"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_NQSUEJkbEemrwYuP8ghIzw" memberEnd="_NQSUE5kbEemrwYuP8ghIzw _NQDqmZkbEemrwYuP8ghIzw">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_NQSUEZkbEemrwYuP8ghIzw" source="org.eclipse.papyrus">
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_NQSUEpkbEemrwYuP8ghIzw" key="nature" value="UML_Nature"/>
+        </eAnnotations>
+        <ownedEnd xmi:type="uml:Property" xmi:id="_NQSUE5kbEemrwYuP8ghIzw" name="smarthomesystemenvironment" type="_NQDqkJkbEemrwYuP8ghIzw" association="_NQSUEJkbEemrwYuP8ghIzw"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_NQUwUJkbEemrwYuP8ghIzw" memberEnd="_NQUwU5kbEemrwYuP8ghIzw _NQDql5kbEemrwYuP8ghIzw">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_NQUwUZkbEemrwYuP8ghIzw" source="org.eclipse.papyrus">
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_NQUwUpkbEemrwYuP8ghIzw" key="nature" value="UML_Nature"/>
+        </eAnnotations>
+        <ownedEnd xmi:type="uml:Property" xmi:id="_NQUwU5kbEemrwYuP8ghIzw" name="smarthomesystemenvironment" type="_NQDqkJkbEemrwYuP8ghIzw" association="_NQUwUJkbEemrwYuP8ghIzw"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_NQVXYJkbEemrwYuP8ghIzw" memberEnd="_NQVXY5kbEemrwYuP8ghIzw _NQDqpJkbEemrwYuP8ghIzw">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_NQVXYZkbEemrwYuP8ghIzw" source="org.eclipse.papyrus">
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_NQVXYpkbEemrwYuP8ghIzw" key="nature" value="UML_Nature"/>
+        </eAnnotations>
+        <ownedEnd xmi:type="uml:Property" xmi:id="_NQVXY5kbEemrwYuP8ghIzw" name="smarthomesystemenvironment" type="_NQDqkJkbEemrwYuP8ghIzw" association="_NQVXYJkbEemrwYuP8ghIzw"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_NQXzoJkbEemrwYuP8ghIzw" name="SystemContext-Inhabitant" memberEnd="_NQXzo5kbEemrwYuP8ghIzw _NQDqkpkbEemrwYuP8ghIzw">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_NQXzoZkbEemrwYuP8ghIzw" source="org.eclipse.papyrus">
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_NQXzopkbEemrwYuP8ghIzw" key="nature" value="UML_Nature"/>
+        </eAnnotations>
+        <ownedEnd xmi:type="uml:Property" xmi:id="_NQXzo5kbEemrwYuP8ghIzw" type="_NQDqkJkbEemrwYuP8ghIzw" association="_NQXzoJkbEemrwYuP8ghIzw"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_NQYasJkbEemrwYuP8ghIzw" memberEnd="_NQYas5kbEemrwYuP8ghIzw _NQDqoJkbEemrwYuP8ghIzw">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_NQYasZkbEemrwYuP8ghIzw" source="org.eclipse.papyrus">
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_NQYaspkbEemrwYuP8ghIzw" key="nature" value="UML_Nature"/>
+        </eAnnotations>
+        <ownedEnd xmi:type="uml:Property" xmi:id="_NQYas5kbEemrwYuP8ghIzw" name="smarthomesystemenvironment" type="_NQDqkJkbEemrwYuP8ghIzw" association="_NQYasJkbEemrwYuP8ghIzw"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_NQZo0JkbEemrwYuP8ghIzw" memberEnd="_NQZo05kbEemrwYuP8ghIzw _NQDqnZkbEemrwYuP8ghIzw">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_NQZo0ZkbEemrwYuP8ghIzw" source="org.eclipse.papyrus">
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_NQZo0pkbEemrwYuP8ghIzw" key="nature" value="UML_Nature"/>
+        </eAnnotations>
+        <ownedEnd xmi:type="uml:Property" xmi:id="_NQZo05kbEemrwYuP8ghIzw" name="smarthomesystemenvironment" type="_NQDqkJkbEemrwYuP8ghIzw" association="_NQZo0JkbEemrwYuP8ghIzw"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_NQaP4JkbEemrwYuP8ghIzw" memberEnd="_NQaP45kbEemrwYuP8ghIzw _NQDqnJkbEemrwYuP8ghIzw">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_NQaP4ZkbEemrwYuP8ghIzw" source="org.eclipse.papyrus">
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_NQaP4pkbEemrwYuP8ghIzw" key="nature" value="UML_Nature"/>
+        </eAnnotations>
+        <ownedEnd xmi:type="uml:Property" xmi:id="_NQaP45kbEemrwYuP8ghIzw" name="smarthomesystemenvironment" type="_NQDqkJkbEemrwYuP8ghIzw" association="_NQaP4JkbEemrwYuP8ghIzw"/>
+      </packagedElement>
     </packagedElement>
     <packagedElement xmi:type="uml:Package" xmi:id="_JklBUJitEemfOpj3-Spopg" name="SHS_ProductStakeholders">
       <packagedElement xmi:type="uml:Actor" xmi:id="_SOQc0JjBEemiJJjEotXc9w" name="SHS_Environment" isAbstract="true"/>
@@ -488,14 +608,12 @@ N.B.: the comment may be hidden and shown as for example in a table gathering al
         <informationTarget xmi:type="uml:Class" href="SHS_Project_Management_Definition.uml#_gCDnUFkHEeO46MKyR1zbAg"/>
         <informationTarget xmi:type="uml:Class" href="SHS_Project_Management_Definition.uml#_gCDnUFkHEeO46MKyR1zbAg"/>
         <informationTarget xmi:type="uml:Class" href="SHS_Project_Management_Definition.uml#_gCDnUFkHEeO46MKyR1zbAg"/>
-        <informationTarget xmi:type="uml:Class" href="SHS_Project_Management_Definition.uml#_gCDnUFkHEeO46MKyR1zbAg"/>
       </packagedElement>
       <packagedElement xmi:type="uml:InformationFlow" xmi:id="_mU28s5jXEemiJJjEotXc9w" name="Design Decision">
         <informationSource xmi:type="uml:Actor" href="SHS_Project_Management_Definition.uml#_pxh18JgpEemfOpj3-Spopg"/>
         <informationSource xmi:type="uml:Actor" href="SHS_Project_Management_Definition.uml#_pxh18JgpEemfOpj3-Spopg"/>
         <informationSource xmi:type="uml:Actor" href="SHS_Project_Management_Definition.uml#_pxh18JgpEemfOpj3-Spopg"/>
         <informationSource xmi:type="uml:Actor" href="SHS_Project_Management_Definition.uml#_pxh18JgpEemfOpj3-Spopg"/>
-        <informationTarget xmi:type="uml:Class" href="SHS_Project_Management_Definition.uml#_gCDnUFkHEeO46MKyR1zbAg"/>
         <informationTarget xmi:type="uml:Class" href="SHS_Project_Management_Definition.uml#_gCDnUFkHEeO46MKyR1zbAg"/>
         <informationTarget xmi:type="uml:Class" href="SHS_Project_Management_Definition.uml#_gCDnUFkHEeO46MKyR1zbAg"/>
         <informationTarget xmi:type="uml:Class" href="SHS_Project_Management_Definition.uml#_gCDnUFkHEeO46MKyR1zbAg"/>
@@ -508,10 +626,8 @@ N.B.: the comment may be hidden and shown as for example in a table gathering al
         <informationTarget xmi:type="uml:Class" href="SHS_Project_Management_Definition.uml#_gCDnUFkHEeO46MKyR1zbAg"/>
         <informationTarget xmi:type="uml:Class" href="SHS_Project_Management_Definition.uml#_gCDnUFkHEeO46MKyR1zbAg"/>
         <informationTarget xmi:type="uml:Class" href="SHS_Project_Management_Definition.uml#_gCDnUFkHEeO46MKyR1zbAg"/>
-        <informationTarget xmi:type="uml:Class" href="SHS_Project_Management_Definition.uml#_gCDnUFkHEeO46MKyR1zbAg"/>
       </packagedElement>
       <packagedElement xmi:type="uml:InformationFlow" xmi:id="_mU28tZjXEemiJJjEotXc9w" name="ProvidedServices">
-        <informationSource xmi:type="uml:Class" href="SHS_Project_Management_Definition.uml#_gCDnUFkHEeO46MKyR1zbAg"/>
         <informationSource xmi:type="uml:Class" href="SHS_Project_Management_Definition.uml#_gCDnUFkHEeO46MKyR1zbAg"/>
         <informationSource xmi:type="uml:Class" href="SHS_Project_Management_Definition.uml#_gCDnUFkHEeO46MKyR1zbAg"/>
         <informationSource xmi:type="uml:Class" href="SHS_Project_Management_Definition.uml#_gCDnUFkHEeO46MKyR1zbAg"/>
@@ -521,7 +637,6 @@ N.B.: the comment may be hidden and shown as for example in a table gathering al
         <informationTarget xmi:type="uml:Actor" href="SHS_Project_Management_Definition.uml#_o9C5QDiAEeGe4_sFLbM3Hw"/>
       </packagedElement>
       <packagedElement xmi:type="uml:InformationFlow" xmi:id="_mU28tpjXEemiJJjEotXc9w" name="SecurityAlarm">
-        <informationSource xmi:type="uml:Class" href="SHS_Project_Management_Definition.uml#_gCDnUFkHEeO46MKyR1zbAg"/>
         <informationSource xmi:type="uml:Class" href="SHS_Project_Management_Definition.uml#_gCDnUFkHEeO46MKyR1zbAg"/>
         <informationSource xmi:type="uml:Class" href="SHS_Project_Management_Definition.uml#_gCDnUFkHEeO46MKyR1zbAg"/>
         <informationSource xmi:type="uml:Class" href="SHS_Project_Management_Definition.uml#_gCDnUFkHEeO46MKyR1zbAg"/>
@@ -538,14 +653,12 @@ N.B.: the comment may be hidden and shown as for example in a table gathering al
         <informationTarget xmi:type="uml:Class" href="SHS_Project_Management_Definition.uml#_gCDnUFkHEeO46MKyR1zbAg"/>
         <informationTarget xmi:type="uml:Class" href="SHS_Project_Management_Definition.uml#_gCDnUFkHEeO46MKyR1zbAg"/>
         <informationTarget xmi:type="uml:Class" href="SHS_Project_Management_Definition.uml#_gCDnUFkHEeO46MKyR1zbAg"/>
-        <informationTarget xmi:type="uml:Class" href="SHS_Project_Management_Definition.uml#_gCDnUFkHEeO46MKyR1zbAg"/>
       </packagedElement>
       <packagedElement xmi:type="uml:InformationFlow" xmi:id="_mU28uJjXEemiJJjEotXc9w" name="Power">
         <informationSource xmi:type="uml:Actor" href="SHS_Project_Management_Definition.uml#_2x-0gJgpEemfOpj3-Spopg"/>
         <informationSource xmi:type="uml:Actor" href="SHS_Project_Management_Definition.uml#_2x-0gJgpEemfOpj3-Spopg"/>
         <informationSource xmi:type="uml:Actor" href="SHS_Project_Management_Definition.uml#_2x-0gJgpEemfOpj3-Spopg"/>
         <informationSource xmi:type="uml:Actor" href="SHS_Project_Management_Definition.uml#_2x-0gJgpEemfOpj3-Spopg"/>
-        <informationTarget xmi:type="uml:Class" href="SHS_Project_Management_Definition.uml#_gCDnUFkHEeO46MKyR1zbAg"/>
         <informationTarget xmi:type="uml:Class" href="SHS_Project_Management_Definition.uml#_gCDnUFkHEeO46MKyR1zbAg"/>
         <informationTarget xmi:type="uml:Class" href="SHS_Project_Management_Definition.uml#_gCDnUFkHEeO46MKyR1zbAg"/>
         <informationTarget xmi:type="uml:Class" href="SHS_Project_Management_Definition.uml#_gCDnUFkHEeO46MKyR1zbAg"/>
@@ -558,14 +671,12 @@ N.B.: the comment may be hidden and shown as for example in a table gathering al
         <informationTarget xmi:type="uml:Class" href="SHS_Project_Management_Definition.uml#_gCDnUFkHEeO46MKyR1zbAg"/>
         <informationTarget xmi:type="uml:Class" href="SHS_Project_Management_Definition.uml#_gCDnUFkHEeO46MKyR1zbAg"/>
         <informationTarget xmi:type="uml:Class" href="SHS_Project_Management_Definition.uml#_gCDnUFkHEeO46MKyR1zbAg"/>
-        <informationTarget xmi:type="uml:Class" href="SHS_Project_Management_Definition.uml#_gCDnUFkHEeO46MKyR1zbAg"/>
       </packagedElement>
       <packagedElement xmi:type="uml:InformationFlow" xmi:id="_mU28upjXEemiJJjEotXc9w" name="InsuranceContract">
         <informationSource xmi:type="uml:Actor" href="SHS_Project_Management_Definition.uml#_MoXagJhBEemfOpj3-Spopg"/>
         <informationSource xmi:type="uml:Actor" href="SHS_Project_Management_Definition.uml#_MoXagJhBEemfOpj3-Spopg"/>
         <informationSource xmi:type="uml:Actor" href="SHS_Project_Management_Definition.uml#_MoXagJhBEemfOpj3-Spopg"/>
         <informationSource xmi:type="uml:Actor" href="SHS_Project_Management_Definition.uml#_MoXagJhBEemfOpj3-Spopg"/>
-        <informationTarget xmi:type="uml:Class" href="SHS_Project_Management_Definition.uml#_gCDnUFkHEeO46MKyR1zbAg"/>
         <informationTarget xmi:type="uml:Class" href="SHS_Project_Management_Definition.uml#_gCDnUFkHEeO46MKyR1zbAg"/>
         <informationTarget xmi:type="uml:Class" href="SHS_Project_Management_Definition.uml#_gCDnUFkHEeO46MKyR1zbAg"/>
         <informationTarget xmi:type="uml:Class" href="SHS_Project_Management_Definition.uml#_gCDnUFkHEeO46MKyR1zbAg"/>
@@ -578,14 +689,12 @@ N.B.: the comment may be hidden and shown as for example in a table gathering al
         <informationTarget xmi:type="uml:Class" href="SHS_Project_Management_Definition.uml#_gCDnUFkHEeO46MKyR1zbAg"/>
         <informationTarget xmi:type="uml:Class" href="SHS_Project_Management_Definition.uml#_gCDnUFkHEeO46MKyR1zbAg"/>
         <informationTarget xmi:type="uml:Class" href="SHS_Project_Management_Definition.uml#_gCDnUFkHEeO46MKyR1zbAg"/>
-        <informationTarget xmi:type="uml:Class" href="SHS_Project_Management_Definition.uml#_gCDnUFkHEeO46MKyR1zbAg"/>
       </packagedElement>
       <packagedElement xmi:type="uml:InformationFlow" xmi:id="_mU28vJjXEemiJJjEotXc9w" name="HealthRegulationSpec">
         <informationSource xmi:type="uml:Actor" href="SHS_Project_Management_Definition.uml#_Sl4h0JhBEemfOpj3-Spopg"/>
         <informationSource xmi:type="uml:Actor" href="SHS_Project_Management_Definition.uml#_Sl4h0JhBEemfOpj3-Spopg"/>
         <informationSource xmi:type="uml:Actor" href="SHS_Project_Management_Definition.uml#_Sl4h0JhBEemfOpj3-Spopg"/>
         <informationSource xmi:type="uml:Actor" href="SHS_Project_Management_Definition.uml#_Sl4h0JhBEemfOpj3-Spopg"/>
-        <informationTarget xmi:type="uml:Class" href="SHS_Project_Management_Definition.uml#_gCDnUFkHEeO46MKyR1zbAg"/>
         <informationTarget xmi:type="uml:Class" href="SHS_Project_Management_Definition.uml#_gCDnUFkHEeO46MKyR1zbAg"/>
         <informationTarget xmi:type="uml:Class" href="SHS_Project_Management_Definition.uml#_gCDnUFkHEeO46MKyR1zbAg"/>
         <informationTarget xmi:type="uml:Class" href="SHS_Project_Management_Definition.uml#_gCDnUFkHEeO46MKyR1zbAg"/>
@@ -598,7 +707,6 @@ N.B.: the comment may be hidden and shown as for example in a table gathering al
         <informationTarget xmi:type="uml:Class" href="SHS_Project_Management_Definition.uml#_gCDnUFkHEeO46MKyR1zbAg"/>
         <informationTarget xmi:type="uml:Class" href="SHS_Project_Management_Definition.uml#_gCDnUFkHEeO46MKyR1zbAg"/>
         <informationTarget xmi:type="uml:Class" href="SHS_Project_Management_Definition.uml#_gCDnUFkHEeO46MKyR1zbAg"/>
-        <informationTarget xmi:type="uml:Class" href="SHS_Project_Management_Definition.uml#_gCDnUFkHEeO46MKyR1zbAg"/>
       </packagedElement>
       <packagedElement xmi:type="uml:InformationFlow" xmi:id="_mU28vpjXEemiJJjEotXc9w" name="House&amp;InhabitantStateInformation">
         <informationSource xmi:type="uml:Actor" href="SHS_Project_Management_Definition.uml#_Fv6DAJhDEemfOpj3-Spopg"/>
@@ -608,10 +716,8 @@ N.B.: the comment may be hidden and shown as for example in a table gathering al
         <informationTarget xmi:type="uml:Class" href="SHS_Project_Management_Definition.uml#_gCDnUFkHEeO46MKyR1zbAg"/>
         <informationTarget xmi:type="uml:Class" href="SHS_Project_Management_Definition.uml#_gCDnUFkHEeO46MKyR1zbAg"/>
         <informationTarget xmi:type="uml:Class" href="SHS_Project_Management_Definition.uml#_gCDnUFkHEeO46MKyR1zbAg"/>
-        <informationTarget xmi:type="uml:Class" href="SHS_Project_Management_Definition.uml#_gCDnUFkHEeO46MKyR1zbAg"/>
       </packagedElement>
       <packagedElement xmi:type="uml:InformationFlow" xmi:id="_mU28v5jXEemiJJjEotXc9w" name="HealthAlarm">
-        <informationSource xmi:type="uml:Class" href="SHS_Project_Management_Definition.uml#_gCDnUFkHEeO46MKyR1zbAg"/>
         <informationSource xmi:type="uml:Class" href="SHS_Project_Management_Definition.uml#_gCDnUFkHEeO46MKyR1zbAg"/>
         <informationSource xmi:type="uml:Class" href="SHS_Project_Management_Definition.uml#_gCDnUFkHEeO46MKyR1zbAg"/>
         <informationSource xmi:type="uml:Class" href="SHS_Project_Management_Definition.uml#_gCDnUFkHEeO46MKyR1zbAg"/>
@@ -621,7 +727,6 @@ N.B.: the comment may be hidden and shown as for example in a table gathering al
         <informationTarget xmi:type="uml:Actor" href="SHS_Project_Management_Definition.uml#_oBYiQDiAEeGe4_sFLbM3Hw"/>
       </packagedElement>
       <packagedElement xmi:type="uml:InformationFlow" xmi:id="_mU28wJjXEemiJJjEotXc9w" name="Commands">
-        <informationSource xmi:type="uml:Class" href="SHS_Project_Management_Definition.uml#_gCDnUFkHEeO46MKyR1zbAg"/>
         <informationSource xmi:type="uml:Class" href="SHS_Project_Management_Definition.uml#_gCDnUFkHEeO46MKyR1zbAg"/>
         <informationSource xmi:type="uml:Class" href="SHS_Project_Management_Definition.uml#_gCDnUFkHEeO46MKyR1zbAg"/>
         <informationSource xmi:type="uml:Class" href="SHS_Project_Management_Definition.uml#_gCDnUFkHEeO46MKyR1zbAg"/>
@@ -635,7 +740,6 @@ N.B.: the comment may be hidden and shown as for example in a table gathering al
         <informationSource xmi:type="uml:Actor" href="SHS_Project_Management_Definition.uml#_Sl4h0JhBEemfOpj3-Spopg"/>
         <informationSource xmi:type="uml:Actor" href="SHS_Project_Management_Definition.uml#_Sl4h0JhBEemfOpj3-Spopg"/>
         <informationSource xmi:type="uml:Actor" href="SHS_Project_Management_Definition.uml#_Sl4h0JhBEemfOpj3-Spopg"/>
-        <informationTarget xmi:type="uml:Class" href="SHS_Project_Management_Definition.uml#_gCDnUFkHEeO46MKyR1zbAg"/>
         <informationTarget xmi:type="uml:Class" href="SHS_Project_Management_Definition.uml#_gCDnUFkHEeO46MKyR1zbAg"/>
         <informationTarget xmi:type="uml:Class" href="SHS_Project_Management_Definition.uml#_gCDnUFkHEeO46MKyR1zbAg"/>
         <informationTarget xmi:type="uml:Class" href="SHS_Project_Management_Definition.uml#_gCDnUFkHEeO46MKyR1zbAg"/>
@@ -787,6 +891,6 @@ N.B.: the comment may be hidden and shown as for example in a table gathering al
   <Requirements:Requirement xmi:id="_YFXegJjfEemiJJjEotXc9w" base_NamedElement="_YFSmAJjfEemiJJjEotXc9w" base_Class="_YFSmAJjfEemiJJjEotXc9w"/>
   <Requirements:Requirement xmi:id="_aZ67EJjfEemiJJjEotXc9w" base_NamedElement="_aZ2poJjfEemiJJjEotXc9w" base_Class="_aZ2poJjfEemiJJjEotXc9w"/>
   <Requirements:Requirement xmi:id="_H0uFEJjgEemiJJjEotXc9w" base_NamedElement="_H0pMkJjgEemiJJjEotXc9w" base_Class="_H0pMkJjgEemiJJjEotXc9w"/>
-  <Blocks:Block xmi:id="_x45tAJjqEemiJJjEotXc9w" base_Class="_sU7uIJjqEemiJJjEotXc9w"/>
   <Blocks:Block xmi:id="_yuDMUJjqEemiJJjEotXc9w" base_Class="_o3J_sJjqEemiJJjEotXc9w"/>
+  <Blocks:Block xmi:id="_RTlxcJkbEemrwYuP8ghIzw" base_Class="_NQDqkJkbEemrwYuP8ghIzw"/>
 </xmi:XMI>
