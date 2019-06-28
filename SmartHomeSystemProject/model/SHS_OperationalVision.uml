@@ -99,13 +99,13 @@
 &#xD;
 </body>
         </ownedComment>
+        <ownedAttribute xmi:type="uml:Property" xmi:id="_NQDqlpkbEemrwYuP8ghIzw" name="systemUnderDesign" type="_o3J_sJjqEemiJJjEotXc9w" aggregation="composite" association="_NQQe4JkbEemrwYuP8ghIzw"/>
         <ownedAttribute xmi:type="uml:Property" xmi:id="_NQDqkpkbEemrwYuP8ghIzw" name="inhabitants" type="_NUx8i5itEemfOpj3-Spopg" aggregation="composite" association="_NQXzoJkbEemrwYuP8ghIzw">
           <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_NQDqk5kbEemrwYuP8ghIzw" value="*"/>
         </ownedAttribute>
         <ownedAttribute xmi:type="uml:Property" xmi:id="_NQDqlJkbEemrwYuP8ghIzw" name="medicalPersonals" type="_NUx8h5itEemfOpj3-Spopg" aggregation="composite" association="_NQOCoJkbEemrwYuP8ghIzw">
           <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_NQDqlZkbEemrwYuP8ghIzw" value="*"/>
         </ownedAttribute>
-        <ownedAttribute xmi:type="uml:Property" xmi:id="_NQDqlpkbEemrwYuP8ghIzw" name="systemUnderDesign" type="_o3J_sJjqEemiJJjEotXc9w" aggregation="composite" association="_NQQe4JkbEemrwYuP8ghIzw"/>
         <ownedAttribute xmi:type="uml:Property" xmi:id="_NQDql5kbEemrwYuP8ghIzw" name="pharmacy" type="_NUsc8ZitEemfOpj3-Spopg" aggregation="composite" association="_NQUwUJkbEemrwYuP8ghIzw">
           <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_NQDqmJkbEemrwYuP8ghIzw" value="*"/>
         </ownedAttribute>
@@ -123,6 +123,42 @@
         </ownedAttribute>
         <ownedAttribute xmi:type="uml:Property" xmi:id="_NQDqo5kbEemrwYuP8ghIzw" name="internet" type="_NU0_1JitEemfOpj3-Spopg" aggregation="composite" association="_NQP30JkbEemrwYuP8ghIzw"/>
         <ownedAttribute xmi:type="uml:Property" xmi:id="_NQDqpJkbEemrwYuP8ghIzw" name="healthauthority" type="_NU21BZitEemfOpj3-Spopg" aggregation="composite" association="_NQVXYJkbEemrwYuP8ghIzw"/>
+        <ownedConnector xmi:type="uml:Connector" xmi:id="_F1LiQJm8EemrwYuP8ghIzw" name="SmartHomeSystem-Inhabitant">
+          <end xmi:type="uml:ConnectorEnd" xmi:id="_F1UFIJm8EemrwYuP8ghIzw" role="_NQDqkpkbEemrwYuP8ghIzw"/>
+          <end xmi:type="uml:ConnectorEnd" xmi:id="_F1UsMJm8EemrwYuP8ghIzw" role="_NQDqlpkbEemrwYuP8ghIzw"/>
+        </ownedConnector>
+        <ownedConnector xmi:type="uml:Connector" xmi:id="_HII-8Jm8EemrwYuP8ghIzw" name="SmartHomeSystem-ActuatorDevice">
+          <end xmi:type="uml:ConnectorEnd" xmi:id="_HIKNEJm8EemrwYuP8ghIzw" role="_NQDqnZkbEemrwYuP8ghIzw"/>
+          <end xmi:type="uml:ConnectorEnd" xmi:id="_HIK0IJm8EemrwYuP8ghIzw" role="_NQDqlpkbEemrwYuP8ghIzw"/>
+        </ownedConnector>
+        <ownedConnector xmi:type="uml:Connector" xmi:id="_H5-EgJm8EemrwYuP8ghIzw" name="SmartHomeSystem-PoliceStation">
+          <end xmi:type="uml:ConnectorEnd" xmi:id="_H5_SoJm8EemrwYuP8ghIzw" role="_NQDqoJkbEemrwYuP8ghIzw"/>
+          <end xmi:type="uml:ConnectorEnd" xmi:id="_H5_SoZm8EemrwYuP8ghIzw" role="_NQDqlpkbEemrwYuP8ghIzw"/>
+        </ownedConnector>
+        <ownedConnector xmi:type="uml:Connector" xmi:id="_IicZwJm8EemrwYuP8ghIzw" name="SmartHomeSystem-MedicalPeople">
+          <end xmi:type="uml:ConnectorEnd" xmi:id="_Iidn4Jm8EemrwYuP8ghIzw" role="_NQDqlJkbEemrwYuP8ghIzw"/>
+          <end xmi:type="uml:ConnectorEnd" xmi:id="_Iidn4Zm8EemrwYuP8ghIzw" role="_NQDqlpkbEemrwYuP8ghIzw"/>
+        </ownedConnector>
+        <ownedConnector xmi:type="uml:Connector" xmi:id="_JK9LQJm8EemrwYuP8ghIzw" name="SmartHomeSystem-EnergyProvider">
+          <end xmi:type="uml:ConnectorEnd" xmi:id="_JK_AcJm8EemrwYuP8ghIzw" role="_NQDqnJkbEemrwYuP8ghIzw"/>
+          <end xmi:type="uml:ConnectorEnd" xmi:id="_JK_AcZm8EemrwYuP8ghIzw" role="_NQDqlpkbEemrwYuP8ghIzw"/>
+        </ownedConnector>
+        <ownedConnector xmi:type="uml:Connector" xmi:id="_Joh4EJm8EemrwYuP8ghIzw" name="SmartHomeSystem-Internet">
+          <end xmi:type="uml:ConnectorEnd" xmi:id="_JojGMJm8EemrwYuP8ghIzw" role="_NQDqo5kbEemrwYuP8ghIzw"/>
+          <end xmi:type="uml:ConnectorEnd" xmi:id="_JojGMZm8EemrwYuP8ghIzw" role="_NQDqlpkbEemrwYuP8ghIzw"/>
+        </ownedConnector>
+        <ownedConnector xmi:type="uml:Connector" xmi:id="_KPqwkJm8EemrwYuP8ghIzw" name="SmartHomeSystem-Pharmacy">
+          <end xmi:type="uml:ConnectorEnd" xmi:id="_KPrXoJm8EemrwYuP8ghIzw" role="_NQDql5kbEemrwYuP8ghIzw"/>
+          <end xmi:type="uml:ConnectorEnd" xmi:id="_KPr-sJm8EemrwYuP8ghIzw" role="_NQDqlpkbEemrwYuP8ghIzw"/>
+        </ownedConnector>
+        <ownedConnector xmi:type="uml:Connector" xmi:id="_LE7koJm8EemrwYuP8ghIzw" name="SmartHomeSystem-SencorDevice">
+          <end xmi:type="uml:ConnectorEnd" xmi:id="_LE8ywJm8EemrwYuP8ghIzw" role="_NQDqmZkbEemrwYuP8ghIzw"/>
+          <end xmi:type="uml:ConnectorEnd" xmi:id="_LE9Z0Jm8EemrwYuP8ghIzw" role="_NQDqlpkbEemrwYuP8ghIzw"/>
+        </ownedConnector>
+        <ownedConnector xmi:type="uml:Connector" xmi:id="_L4z4oJm8EemrwYuP8ghIzw" name="SmartHomeSystem-HealthAuthority">
+          <end xmi:type="uml:ConnectorEnd" xmi:id="_L41GwJm8EemrwYuP8ghIzw" role="_NQDqpJkbEemrwYuP8ghIzw"/>
+          <end xmi:type="uml:ConnectorEnd" xmi:id="_L41GwZm8EemrwYuP8ghIzw" role="_NQDqlpkbEemrwYuP8ghIzw"/>
+        </ownedConnector>
       </packagedElement>
       <packagedElement xmi:type="uml:Class" xmi:id="_o3J_sJjqEemiJJjEotXc9w" name="SmartHomeSystem" classifierBehavior="_Ma2-MJjqEemiJJjEotXc9w">
         <ownedComment xmi:type="uml:Comment" xmi:id="_o3J_sZjqEemiJJjEotXc9w" annotatedElement="_o3J_sJjqEemiJJjEotXc9w">
