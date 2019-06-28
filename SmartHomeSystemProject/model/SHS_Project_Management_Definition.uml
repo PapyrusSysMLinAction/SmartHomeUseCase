@@ -159,27 +159,102 @@
       </packagedElement>
     </packagedElement>
     <packagedElement xmi:type="uml:Package" xmi:id="_QD8YQJg7EemfOpj3-Spopg" name="SHS&lt;->SHS_EnvFlowsDefinitions">
-      <packagedElement xmi:type="uml:InformationFlow" xmi:id="_lfb7YJg5EemfOpj3-Spopg" name="ServiceRequests" informationSource="_o9C5QDiAEeGe4_sFLbM3Hw" informationTarget="_gCDnUFkHEeO46MKyR1zbAg">
-        <ownedComment xmi:type="uml:Comment" xmi:id="_svP6kJhFEemfOpj3-Spopg">
-          <body>&lt;p>Model the assistance request sent by the inhabitant to the .&lt;/p>
+      <packagedElement xmi:type="uml:InformationFlow" xmi:id="_EKroEJg3EemfOpj3-Spopg" name="ProjectDecision" informationSource="_pxh18JgpEemfOpj3-Spopg" informationTarget="_gCDnUFkHEeO46MKyR1zbAg">
+        <ownedComment xmi:type="uml:Comment" xmi:id="_Zt304JnFEemrwYuP8ghIzw" annotatedElement="_EKroEJg3EemfOpj3-Spopg">
+          <body>&lt;p>Models the project decision taken by the&amp;nbsp; {@link #_pxh18JgpEemfOpj3-Spopg} against the system under design, the {@link #_gCDnUFkHEeO46MKyR1zbAg}.&lt;/p>
 </body>
         </ownedComment>
       </packagedElement>
-      <packagedElement xmi:type="uml:InformationFlow" xmi:id="_EKroEJg3EemfOpj3-Spopg" name="ProjectDecision" informationSource="_pxh18JgpEemfOpj3-Spopg" informationTarget="_gCDnUFkHEeO46MKyR1zbAg"/>
-      <packagedElement xmi:type="uml:InformationFlow" xmi:id="_1qyvsJg5EemfOpj3-Spopg" name="InhabitantSecurityAssistance" informationSource="_0Qu_wJgpEemfOpj3-Spopg" informationTarget="_gCDnUFkHEeO46MKyR1zbAg"/>
-      <packagedElement xmi:type="uml:InformationFlow" xmi:id="_cCuwYJg5EemfOpj3-Spopg" name="ProvidedServices" informationSource="_gCDnUFkHEeO46MKyR1zbAg" informationTarget="_o9C5QDiAEeGe4_sFLbM3Hw"/>
-      <packagedElement xmi:type="uml:InformationFlow" xmi:id="_r3tsEJg5EemfOpj3-Spopg" name="SecurityAlarm" informationSource="_gCDnUFkHEeO46MKyR1zbAg" informationTarget="_0Qu_wJgpEemfOpj3-Spopg"/>
-      <packagedElement xmi:type="uml:InformationFlow" xmi:id="_YnqI8Jg_EemfOpj3-Spopg" name="Data" informationSource="_zSl8gJgpEemfOpj3-Spopg" informationTarget="_gCDnUFkHEeO46MKyR1zbAg"/>
-      <packagedElement xmi:type="uml:InformationFlow" xmi:id="_fElwIJg_EemfOpj3-Spopg" name="Power" informationSource="_2x-0gJgpEemfOpj3-Spopg" informationTarget="_gCDnUFkHEeO46MKyR1zbAg"/>
-      <packagedElement xmi:type="uml:InformationFlow" xmi:id="_B-QoQJhBEemfOpj3-Spopg" name="Pharmaceuticals" informationSource="_2SUlkJhAEemfOpj3-Spopg" informationTarget="_gCDnUFkHEeO46MKyR1zbAg"/>
-      <packagedElement xmi:type="uml:InformationFlow" xmi:id="_yz_oEJhBEemfOpj3-Spopg" name="InsuranceContract" informationSource="_MoXagJhBEemfOpj3-Spopg" informationTarget="_gCDnUFkHEeO46MKyR1zbAg"/>
-      <packagedElement xmi:type="uml:InformationFlow" xmi:id="_CKG2cJhCEemfOpj3-Spopg" name="EnvRegulationSpec" informationSource="_OxDlUJhBEemfOpj3-Spopg" informationTarget="_gCDnUFkHEeO46MKyR1zbAg"/>
-      <packagedElement xmi:type="uml:InformationFlow" xmi:id="_FnrJgJhCEemfOpj3-Spopg" name="HealthRegulationSpec" informationSource="_Sl4h0JhBEemfOpj3-Spopg" informationTarget="_gCDnUFkHEeO46MKyR1zbAg"/>
-      <packagedElement xmi:type="uml:InformationFlow" xmi:id="_HZnTIJhAEemfOpj3-Spopg" name="HealthAssistance" informationSource="_oBYiQDiAEeGe4_sFLbM3Hw" informationTarget="_gCDnUFkHEeO46MKyR1zbAg"/>
-      <packagedElement xmi:type="uml:InformationFlow" xmi:id="_YzNU0JhDEemfOpj3-Spopg" name="House&amp;InhabitantStateInformation" informationSource="_Fv6DAJhDEemfOpj3-Spopg" informationTarget="_gCDnUFkHEeO46MKyR1zbAg"/>
-      <packagedElement xmi:type="uml:InformationFlow" xmi:id="_Cx3r8JhAEemfOpj3-Spopg" name="HealthAlarm" informationSource="_gCDnUFkHEeO46MKyR1zbAg" informationTarget="_oBYiQDiAEeGe4_sFLbM3Hw"/>
-      <packagedElement xmi:type="uml:InformationFlow" xmi:id="_T_Ov0JhAEemfOpj3-Spopg" name="Commands" informationSource="_gCDnUFkHEeO46MKyR1zbAg" informationTarget="_67luMJgpEemfOpj3-Spopg"/>
-      <packagedElement xmi:type="uml:InformationFlow" xmi:id="_StB38JjLEemiJJjEotXc9w" name="ControlHealthRegulationConformity" informationSource="_Sl4h0JhBEemfOpj3-Spopg" informationTarget="_gCDnUFkHEeO46MKyR1zbAg"/>
+      <packagedElement xmi:type="uml:InformationFlow" xmi:id="_cCuwYJg5EemfOpj3-Spopg" name="ProvidedServices" informationSource="_gCDnUFkHEeO46MKyR1zbAg" informationTarget="_o9C5QDiAEeGe4_sFLbM3Hw">
+        <ownedComment xmi:type="uml:Comment" xmi:id="_zow-sJnHEemrwYuP8ghIzw" annotatedElement="_cCuwYJg5EemfOpj3-Spopg">
+          <body>&lt;p>{@link #_cCuwYJg5EemfOpj3-Spopg} models the service the {@link #_gCDnUFkHEeO46MKyR1zbAg} renders to its {@link #_o9C5QDiAEeGe4_sFLbM3Hw} either on demand of these latter&amp;nbsp;or spontaneously.&lt;/p>
+</body>
+        </ownedComment>
+      </packagedElement>
+      <packagedElement xmi:type="uml:InformationFlow" xmi:id="_lfb7YJg5EemfOpj3-Spopg" name="ServiceRequests" informationSource="_o9C5QDiAEeGe4_sFLbM3Hw" informationTarget="_gCDnUFkHEeO46MKyR1zbAg">
+        <ownedComment xmi:type="uml:Comment" xmi:id="_svP6kJhFEemfOpj3-Spopg" annotatedElement="_lfb7YJg5EemfOpj3-Spopg">
+          <body>&lt;p>Models the assistance request sent by the inhabitant to the {@link #_gCDnUFkHEeO46MKyR1zbAg}.&lt;/p>
+</body>
+        </ownedComment>
+      </packagedElement>
+      <packagedElement xmi:type="uml:InformationFlow" xmi:id="_r3tsEJg5EemfOpj3-Spopg" name="SecurityAlarm" informationSource="_gCDnUFkHEeO46MKyR1zbAg" informationTarget="_0Qu_wJgpEemfOpj3-Spopg">
+        <ownedComment xmi:type="uml:Comment" xmi:id="_jUIdIJnIEemrwYuP8ghIzw" annotatedElement="_r3tsEJg5EemfOpj3-Spopg">
+          <body>&lt;p>{@link #_r3tsEJg5EemfOpj3-Spopg} models the information sent by the&amp;nbsp;{@link #_gCDnUFkHEeO46MKyR1zbAg} to the {@link #_0Qu_wJgpEemfOpj3-Spopg} in order to request&lt;/p>
+</body>
+        </ownedComment>
+      </packagedElement>
+      <packagedElement xmi:type="uml:InformationFlow" xmi:id="_1qyvsJg5EemfOpj3-Spopg" name="InhabitantSecurityRemoteChecking" informationSource="_0Qu_wJgpEemfOpj3-Spopg" informationTarget="_gCDnUFkHEeO46MKyR1zbAg">
+        <ownedComment xmi:type="uml:Comment" xmi:id="_js9UMJnFEemrwYuP8ghIzw" annotatedElement="_1qyvsJg5EemfOpj3-Spopg">
+          <body>&lt;p>{@link #_1qyvsJg5EemfOpj3-Spopg} abstracts the interactions the {@link #_0Qu_wJgpEemfOpj3-Spopg}&amp;nbsp;will have with the&amp;nbsp;{@link #_gCDnUFkHEeO46MKyR1zbAg} to secure its {@link #_o9C5QDiAEeGe4_sFLbM3Hw}.&lt;/p>
+</body>
+        </ownedComment>
+      </packagedElement>
+      <packagedElement xmi:type="uml:InformationFlow" xmi:id="_YnqI8Jg_EemfOpj3-Spopg" name="Data" informationSource="_zSl8gJgpEemfOpj3-Spopg" informationTarget="_gCDnUFkHEeO46MKyR1zbAg">
+        <ownedComment xmi:type="uml:Comment" xmi:id="_xhiFEJnKEemrwYuP8ghIzw" annotatedElement="_YnqI8Jg_EemfOpj3-Spopg">
+          <body>&lt;p>{@link #_YnqI8Jg_EemfOpj3-Spopg} models the information the {@link #_gCDnUFkHEeO46MKyR1zbAg} requests from the WWW in order to achieve all its missions.&lt;/p>
+</body>
+        </ownedComment>
+      </packagedElement>
+      <packagedElement xmi:type="uml:InformationFlow" xmi:id="_fElwIJg_EemfOpj3-Spopg" name="Power" informationSource="_2x-0gJgpEemfOpj3-Spopg" informationTarget="_gCDnUFkHEeO46MKyR1zbAg">
+        <ownedComment xmi:type="uml:Comment" xmi:id="_F020UJnLEemrwYuP8ghIzw" annotatedElement="_fElwIJg_EemfOpj3-Spopg">
+          <body>&lt;p>{@link #_fElwIJg_EemfOpj3-Spopg}&amp;nbsp;models the energy the {@link #_gCDnUFkHEeO46MKyR1zbAg} requests from the power netwaork in order to achieve all its missions.&lt;/p>
+</body>
+        </ownedComment>
+      </packagedElement>
+      <packagedElement xmi:type="uml:InformationFlow" xmi:id="_B-QoQJhBEemfOpj3-Spopg" name="Pharmaceuticals" informationSource="_2SUlkJhAEemfOpj3-Spopg" informationTarget="_gCDnUFkHEeO46MKyR1zbAg">
+        <ownedComment xmi:type="uml:Comment" xmi:id="_QDJ0UJnLEemrwYuP8ghIzw" annotatedElement="_B-QoQJhBEemfOpj3-Spopg">
+          <body>&lt;p>{@link #_B-QoQJhBEemfOpj3-Spopg} models all the products (e.g., medicaments and heath equipments) of Pharmacy could deliver to the {@link #_gCDnUFkHEeO46MKyR1zbAg}.&lt;/p>
+</body>
+        </ownedComment>
+      </packagedElement>
+      <packagedElement xmi:type="uml:InformationFlow" xmi:id="_yz_oEJhBEemfOpj3-Spopg" name="InsuranceContract" informationSource="_MoXagJhBEemfOpj3-Spopg" informationTarget="_gCDnUFkHEeO46MKyR1zbAg">
+        <ownedComment xmi:type="uml:Comment" xmi:id="_1ON8wJnLEemrwYuP8ghIzw" annotatedElement="_yz_oEJhBEemfOpj3-Spopg">
+          <body>&lt;p>{@link #_yz_oEJhBEemfOpj3-Spopg} models the insurance constraints&amp;nbsp;requested by the&amp;nbsp;{@link #_MoXagJhBEemfOpj3-Spopg} in order the {@link #_gCDnUFkHEeO46MKyR1zbAg}&amp;nbsp; and its inhabitants to be insurable when the house shall be delivered to its purchaser.&lt;/p>
+</body>
+        </ownedComment>
+      </packagedElement>
+      <packagedElement xmi:type="uml:InformationFlow" xmi:id="_CKG2cJhCEemfOpj3-Spopg" name="EnvRegulationSpec" informationSource="_OxDlUJhBEemfOpj3-Spopg" informationTarget="_gCDnUFkHEeO46MKyR1zbAg">
+        <ownedComment xmi:type="uml:Comment" xmi:id="_QrGIoJnMEemrwYuP8ghIzw" annotatedElement="_CKG2cJhCEemfOpj3-Spopg">
+          <body>&lt;p>{@link #_CKG2cJhCEemfOpj3-Spopg}&amp;nbsp;models the environmental constraints enforced by the {@link #_OxDlUJhBEemfOpj3-Spopg} and to whose the {@link #_gCDnUFkHEeO46MKyR1zbAg}&amp;nbsp; will have to be conformed to when delivered to its purchaser.&lt;/p>
+</body>
+        </ownedComment>
+      </packagedElement>
+      <packagedElement xmi:type="uml:InformationFlow" xmi:id="_FnrJgJhCEemfOpj3-Spopg" name="HealthRegulationSpec" informationSource="_Sl4h0JhBEemfOpj3-Spopg" informationTarget="_gCDnUFkHEeO46MKyR1zbAg">
+        <ownedComment xmi:type="uml:Comment" xmi:id="_ggcbQJnNEemrwYuP8ghIzw" annotatedElement="_FnrJgJhCEemfOpj3-Spopg">
+          <body>&lt;p>{@link #_FnrJgJhCEemfOpj3-Spopg}&amp;nbsp;models the health regulation constraints enforced by the&amp;nbsp;{@link #_Sl4h0JhBEemfOpj3-Spopg} and to whose the {@link #_gCDnUFkHEeO46MKyR1zbAg}&amp;nbsp; will have to be conformed to when delivered to its purchaser.&lt;/p>
+</body>
+        </ownedComment>
+      </packagedElement>
+      <packagedElement xmi:type="uml:InformationFlow" xmi:id="_HZnTIJhAEemfOpj3-Spopg" name="InhabitantHealthStateRemoteChecking" informationSource="_oBYiQDiAEeGe4_sFLbM3Hw" informationTarget="_gCDnUFkHEeO46MKyR1zbAg">
+        <ownedComment xmi:type="uml:Comment" xmi:id="_n18-UJnPEemrwYuP8ghIzw" annotatedElement="_HZnTIJhAEemfOpj3-Spopg">
+          <body>&lt;p>{@link #_HZnTIJhAEemfOpj3-Spopg} abstracts the interaction the&amp;nbsp;{@link #_oBYiQDiAEeGe4_sFLbM3Hw} will have with the {@link #_gCDnUFkHEeO46MKyR1zbAg}&amp;nbsp;in order to assist its {@link #_o9C5QDiAEeGe4_sFLbM3Hw} in order to protect them from health risks.&lt;/p>
+</body>
+        </ownedComment>
+      </packagedElement>
+      <packagedElement xmi:type="uml:InformationFlow" xmi:id="_YzNU0JhDEemfOpj3-Spopg" name="House&amp;InhabitantStateInformation" informationSource="_Fv6DAJhDEemfOpj3-Spopg" informationTarget="_gCDnUFkHEeO46MKyR1zbAg">
+        <ownedComment xmi:type="uml:Comment" xmi:id="_sLC50JnQEemrwYuP8ghIzw" annotatedElement="_YzNU0JhDEemfOpj3-Spopg">
+          <body>&lt;p>{@link #_YzNU0JhDEemfOpj3-Spopg} abstracts the information sent by {@link #_Fv6DAJhDEemfOpj3-Spopg} (i.e.,&amp;nbsp;all the sensors owned by the {@link #_gCDnUFkHEeO46MKyR1zbAg}) about either the security of the {@link #_o9C5QDiAEeGe4_sFLbM3Hw}, or about their&amp;nbsp;health&amp;nbsp;state.&lt;/p>
+</body>
+        </ownedComment>
+      </packagedElement>
+      <packagedElement xmi:type="uml:InformationFlow" xmi:id="_Cx3r8JhAEemfOpj3-Spopg" name="HealthAlarm" informationSource="_gCDnUFkHEeO46MKyR1zbAg" informationTarget="_oBYiQDiAEeGe4_sFLbM3Hw">
+        <ownedComment xmi:type="uml:Comment" xmi:id="_U6ERMJnREemrwYuP8ghIzw" annotatedElement="_Cx3r8JhAEemfOpj3-Spopg">
+          <body>&lt;p>{@link #_Cx3r8JhAEemfOpj3-Spopg} models the information sent by the {@link #_gCDnUFkHEeO46MKyR1zbAg} to the {@link #_oBYiQDiAEeGe4_sFLbM3Hw}&amp;nbsp;in order to inform them an health risk incurred by one of its {@link #_o9C5QDiAEeGe4_sFLbM3Hw}.&lt;/p>
+</body>
+        </ownedComment>
+      </packagedElement>
+      <packagedElement xmi:type="uml:InformationFlow" xmi:id="_T_Ov0JhAEemfOpj3-Spopg" name="Commands" informationSource="_gCDnUFkHEeO46MKyR1zbAg" informationTarget="_67luMJgpEemfOpj3-Spopg">
+        <ownedComment xmi:type="uml:Comment" xmi:id="_Fa2UsJnSEemrwYuP8ghIzw" annotatedElement="_T_Ov0JhAEemfOpj3-Spopg">
+          <body>&lt;p>{@link #_T_Ov0JhAEemfOpj3-Spopg} models all the orders the&amp;nbsp;{@link #_gCDnUFkHEeO46MKyR1zbAg} will sent to&amp;nbsp;its {@link #_67luMJgpEemfOpj3-Spopg}&amp;nbsp;in order to provide some direct assitance to the {@link #_o9C5QDiAEeGe4_sFLbM3Hw}.&lt;/p>
+</body>
+        </ownedComment>
+      </packagedElement>
+      <packagedElement xmi:type="uml:InformationFlow" xmi:id="_StB38JjLEemiJJjEotXc9w" name="ControlHealthRegulationConformity" informationSource="_Sl4h0JhBEemfOpj3-Spopg" informationTarget="_gCDnUFkHEeO46MKyR1zbAg">
+        <ownedComment xmi:type="uml:Comment" xmi:id="_Xa-SQJnSEemrwYuP8ghIzw" annotatedElement="_StB38JjLEemiJJjEotXc9w">
+          <body>&lt;p>{@link #_StB38JjLEemiJJjEotXc9w} abstracts the interactions the {@link #_Sl4h0JhBEemfOpj3-Spopg} shall have with the&amp;nbsp;{@link #_gCDnUFkHEeO46MKyR1zbAg}&amp;nbsp;in order to check that this latter continue to be conformed to&amp;nbsp;{@link #_FnrJgJhCEemfOpj3-Spopg} while being occupied by its {@link #_o9C5QDiAEeGe4_sFLbM3Hw}.&lt;/p>
+</body>
+        </ownedComment>
+      </packagedElement>
     </packagedElement>
     <packagedElement xmi:type="uml:Association" xmi:id="_NtoqIHOYEeeGodGwr0LI7g" name="SystemContext-Inhabitant" memberEnd="_NtpRMnOYEeeGodGwr0LI7g _Ntp4QXOYEeeGodGwr0LI7g">
       <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_NtpRMHOYEeeGodGwr0LI7g" source="org.eclipse.papyrus">
