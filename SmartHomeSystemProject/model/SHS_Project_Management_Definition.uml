@@ -165,7 +165,7 @@
 </body>
         </ownedComment>
       </packagedElement>
-      <packagedElement xmi:type="uml:InformationFlow" xmi:id="_EKroEJg3EemfOpj3-Spopg" name="Design Decision" informationSource="_pxh18JgpEemfOpj3-Spopg" informationTarget="_gCDnUFkHEeO46MKyR1zbAg"/>
+      <packagedElement xmi:type="uml:InformationFlow" xmi:id="_EKroEJg3EemfOpj3-Spopg" name="ProjectDecision" informationSource="_pxh18JgpEemfOpj3-Spopg" informationTarget="_gCDnUFkHEeO46MKyR1zbAg"/>
       <packagedElement xmi:type="uml:InformationFlow" xmi:id="_1qyvsJg5EemfOpj3-Spopg" name="InhabitantSecurityAssistance" informationSource="_0Qu_wJgpEemfOpj3-Spopg" informationTarget="_gCDnUFkHEeO46MKyR1zbAg"/>
       <packagedElement xmi:type="uml:InformationFlow" xmi:id="_cCuwYJg5EemfOpj3-Spopg" name="ProvidedServices" informationSource="_gCDnUFkHEeO46MKyR1zbAg" informationTarget="_o9C5QDiAEeGe4_sFLbM3Hw"/>
       <packagedElement xmi:type="uml:InformationFlow" xmi:id="_r3tsEJg5EemfOpj3-Spopg" name="SecurityAlarm" informationSource="_gCDnUFkHEeO46MKyR1zbAg" informationTarget="_0Qu_wJgpEemfOpj3-Spopg"/>

@@ -609,7 +609,7 @@ N.B.: the comment may be hidden and shown as for example in a table gathering al
         <informationTarget xmi:type="uml:Class" href="SHS_Project_Management_Definition.uml#_gCDnUFkHEeO46MKyR1zbAg"/>
         <informationTarget xmi:type="uml:Class" href="SHS_Project_Management_Definition.uml#_gCDnUFkHEeO46MKyR1zbAg"/>
       </packagedElement>
-      <packagedElement xmi:type="uml:InformationFlow" xmi:id="_mU28s5jXEemiJJjEotXc9w" name="Design Decision">
+      <packagedElement xmi:type="uml:InformationFlow" xmi:id="_mU28s5jXEemiJJjEotXc9w" name="ProjectDecision">
         <informationSource xmi:type="uml:Actor" href="SHS_Project_Management_Definition.uml#_pxh18JgpEemfOpj3-Spopg"/>
         <informationSource xmi:type="uml:Actor" href="SHS_Project_Management_Definition.uml#_pxh18JgpEemfOpj3-Spopg"/>
         <informationSource xmi:type="uml:Actor" href="SHS_Project_Management_Definition.uml#_pxh18JgpEemfOpj3-Spopg"/>
