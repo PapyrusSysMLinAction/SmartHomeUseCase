@@ -123,42 +123,6 @@
         </ownedAttribute>
         <ownedAttribute xmi:type="uml:Property" xmi:id="_NQDqo5kbEemrwYuP8ghIzw" name="internet" type="_NU0_1JitEemfOpj3-Spopg" aggregation="composite" association="_NQP30JkbEemrwYuP8ghIzw"/>
         <ownedAttribute xmi:type="uml:Property" xmi:id="_NQDqpJkbEemrwYuP8ghIzw" name="healthauthority" type="_NU21BZitEemfOpj3-Spopg" aggregation="composite" association="_NQVXYJkbEemrwYuP8ghIzw"/>
-        <ownedConnector xmi:type="uml:Connector" xmi:id="_NQERoJkbEemrwYuP8ghIzw" name="Connector15">
-          <end xmi:type="uml:ConnectorEnd" xmi:id="_NQERoZkbEemrwYuP8ghIzw" role="_NQDqkpkbEemrwYuP8ghIzw"/>
-          <end xmi:type="uml:ConnectorEnd" xmi:id="_NQERopkbEemrwYuP8ghIzw" role="_NQDqlpkbEemrwYuP8ghIzw"/>
-        </ownedConnector>
-        <ownedConnector xmi:type="uml:Connector" xmi:id="_NQERo5kbEemrwYuP8ghIzw" name="Connector17">
-          <end xmi:type="uml:ConnectorEnd" xmi:id="_NQERpJkbEemrwYuP8ghIzw" role="_NQDqlJkbEemrwYuP8ghIzw"/>
-          <end xmi:type="uml:ConnectorEnd" xmi:id="_NQERpZkbEemrwYuP8ghIzw" role="_NQDqlpkbEemrwYuP8ghIzw"/>
-        </ownedConnector>
-        <ownedConnector xmi:type="uml:Connector" xmi:id="_NQERppkbEemrwYuP8ghIzw" name="Connector27">
-          <end xmi:type="uml:ConnectorEnd" xmi:id="_NQERp5kbEemrwYuP8ghIzw" role="_NQDqoJkbEemrwYuP8ghIzw"/>
-          <end xmi:type="uml:ConnectorEnd" xmi:id="_NQERqJkbEemrwYuP8ghIzw" role="_NQDqlpkbEemrwYuP8ghIzw"/>
-        </ownedConnector>
-        <ownedConnector xmi:type="uml:Connector" xmi:id="_NQERqZkbEemrwYuP8ghIzw" name="Connector28">
-          <end xmi:type="uml:ConnectorEnd" xmi:id="_NQERqpkbEemrwYuP8ghIzw" role="_NQDqnZkbEemrwYuP8ghIzw"/>
-          <end xmi:type="uml:ConnectorEnd" xmi:id="_NQERq5kbEemrwYuP8ghIzw" role="_NQDqlpkbEemrwYuP8ghIzw"/>
-        </ownedConnector>
-        <ownedConnector xmi:type="uml:Connector" xmi:id="_NQERrJkbEemrwYuP8ghIzw" name="Connector29">
-          <end xmi:type="uml:ConnectorEnd" xmi:id="_NQERrZkbEemrwYuP8ghIzw" role="_NQDqpJkbEemrwYuP8ghIzw"/>
-          <end xmi:type="uml:ConnectorEnd" xmi:id="_NQERrpkbEemrwYuP8ghIzw" role="_NQDqlpkbEemrwYuP8ghIzw"/>
-        </ownedConnector>
-        <ownedConnector xmi:type="uml:Connector" xmi:id="_NQERtZkbEemrwYuP8ghIzw" name="Connector26">
-          <end xmi:type="uml:ConnectorEnd" xmi:id="_NQERtpkbEemrwYuP8ghIzw" role="_NQDqo5kbEemrwYuP8ghIzw"/>
-          <end xmi:type="uml:ConnectorEnd" xmi:id="_NQERt5kbEemrwYuP8ghIzw" role="_NQDqlpkbEemrwYuP8ghIzw"/>
-        </ownedConnector>
-        <ownedConnector xmi:type="uml:Connector" xmi:id="_NQERuJkbEemrwYuP8ghIzw" name="Connector27">
-          <end xmi:type="uml:ConnectorEnd" xmi:id="_NQERuZkbEemrwYuP8ghIzw" role="_NQDqnJkbEemrwYuP8ghIzw"/>
-          <end xmi:type="uml:ConnectorEnd" xmi:id="_NQERupkbEemrwYuP8ghIzw" role="_NQDqlpkbEemrwYuP8ghIzw"/>
-        </ownedConnector>
-        <ownedConnector xmi:type="uml:Connector" xmi:id="_NQERvpkbEemrwYuP8ghIzw" name="Connector25">
-          <end xmi:type="uml:ConnectorEnd" xmi:id="_NQERv5kbEemrwYuP8ghIzw" role="_NQDql5kbEemrwYuP8ghIzw"/>
-          <end xmi:type="uml:ConnectorEnd" xmi:id="_NQERwJkbEemrwYuP8ghIzw" role="_NQDqlpkbEemrwYuP8ghIzw"/>
-        </ownedConnector>
-        <ownedConnector xmi:type="uml:Connector" xmi:id="_NQERwZkbEemrwYuP8ghIzw" name="Connector26">
-          <end xmi:type="uml:ConnectorEnd" xmi:id="_NQERwpkbEemrwYuP8ghIzw" role="_NQDqmZkbEemrwYuP8ghIzw"/>
-          <end xmi:type="uml:ConnectorEnd" xmi:id="_NQERw5kbEemrwYuP8ghIzw" role="_NQDqlpkbEemrwYuP8ghIzw"/>
-        </ownedConnector>
       </packagedElement>
       <packagedElement xmi:type="uml:Class" xmi:id="_o3J_sJjqEemiJJjEotXc9w" name="SmartHomeSystem" classifierBehavior="_Ma2-MJjqEemiJJjEotXc9w">
         <ownedComment xmi:type="uml:Comment" xmi:id="_o3J_sZjqEemiJJjEotXc9w" annotatedElement="_o3J_sJjqEemiJJjEotXc9w">

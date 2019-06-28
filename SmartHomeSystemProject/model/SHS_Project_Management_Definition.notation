@@ -80,7 +80,7 @@
       </axisManagerConfigurations>
     </localColumnHeaderAxisConfiguration>
   </nattable:Table>
-  <notation:Diagram xmi:id="_3mPVMHOXEeeGodGwr0LI7g" type="PapyrusUMLClassDiagram" name="Structural description of the SHS Environment: BDD view." measurementUnit="Pixel">
+  <notation:Diagram xmi:id="_3mPVMHOXEeeGodGwr0LI7g" type="PapyrusUMLClassDiagram" name="Block definition description of the SHS Environment." measurementUnit="Pixel">
     <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="Imported_From_SysML_1.4_Of__3mPVMHOXEeeGodGwr0LI7g" source="Imported_From_SysML_1.4">
       <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="Papyrus_Source_Model_Name_Of_Imported_From_SysML_1.4_Of__3mPVMHOXEeeGodGwr0LI7g" key="Papyrus_Source_Model_Name" value="SmartHomeSystem_converted"/>
       <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="Papyrus_SysML_Migration_Date_Of_Imported_From_SysML_1.4_Of__3mPVMHOXEeeGodGwr0LI7g" key="Papyrus_SysML_Migration_Date" value="20190626094410"/>
@@ -2468,7 +2468,7 @@
     <element xmi:type="uml:Package" href="SHS_Project_Management_Definition.uml#_0sBHMJghEemfOpj3-Spopg"/>
   </notation:Diagram>
   <css:StyleSheetReference xmi:id="_4zpOYJjmEemiJJjEotXc9w" path="/SmartHomeUseCase/SmartHomeSystemProject/stylesheets/SHS_Stylesheet.css"/>
-  <notation:Diagram xmi:id="_bdYzIJjzEemiJJjEotXc9w" type="CompositeStructure" name="Structural description of the SHS Environment: IBD view." measurementUnit="Pixel">
+  <notation:Diagram xmi:id="_bdYzIJjzEemiJJjEotXc9w" type="CompositeStructure" name="Internal block description of the SHS Environment." measurementUnit="Pixel">
     <children xmi:type="notation:Shape" xmi:id="_bdaoUJjzEemiJJjEotXc9w" type="Class_Shape">
       <children xmi:type="notation:DecorationNode" xmi:id="_bdaoUpjzEemiJJjEotXc9w" type="Class_NameLabel"/>
       <children xmi:type="notation:DecorationNode" xmi:id="_bdaoU5jzEemiJJjEotXc9w" type="Class_FloatingNameLabel">

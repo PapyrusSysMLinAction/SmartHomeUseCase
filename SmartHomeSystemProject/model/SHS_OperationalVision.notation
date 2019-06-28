@@ -2551,7 +2551,7 @@
       <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_P-_jkZj7EemiJJjEotXc9w" id="(0.5,0.7416879795396419)"/>
     </edges>
   </notation:Diagram>
-  <notation:Diagram xmi:id="_inp6QJkbEemrwYuP8ghIzw" type="PapyrusUMLClassDiagram" name="Context diagram of the SHS." measurementUnit="Pixel">
+  <notation:Diagram xmi:id="_inp6QJkbEemrwYuP8ghIzw" type="PapyrusUMLClassDiagram" name="Block definition description of the SHS Environment." measurementUnit="Pixel">
     <children xmi:type="notation:Shape" xmi:id="_jMWiwJkbEemrwYuP8ghIzw" type="Class_Shape">
       <children xmi:type="notation:DecorationNode" xmi:id="_jMu9QJkbEemrwYuP8ghIzw" type="Class_NameLabel"/>
       <children xmi:type="notation:DecorationNode" xmi:id="_jMu9QZkbEemrwYuP8ghIzw" type="Class_FloatingNameLabel">
@@ -3298,6 +3298,44 @@
       <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_9LuW-ZmsEemrwYuP8ghIzw" points="[0, 0, 0, 0]$[0, 0, 0, 0]"/>
       <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_9LuW-pmsEemrwYuP8ghIzw"/>
       <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_9LuW-5msEemrwYuP8ghIzw"/>
+    </edges>
+  </notation:Diagram>
+  <notation:Diagram xmi:id="_Vwm6oJmwEemrwYuP8ghIzw" type="CompositeStructure" name="Internal block description of the SHS Environment." measurementUnit="Pixel">
+    <children xmi:type="notation:Shape" xmi:id="_Vwp98JmwEemrwYuP8ghIzw" type="Class_Shape">
+      <children xmi:type="notation:DecorationNode" xmi:id="_VwqlAJmwEemrwYuP8ghIzw" type="Class_NameLabel"/>
+      <children xmi:type="notation:DecorationNode" xmi:id="_VwqlAZmwEemrwYuP8ghIzw" type="Class_FloatingNameLabel">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_VwqlApmwEemrwYuP8ghIzw" y="15"/>
+      </children>
+      <children xmi:type="notation:BasicCompartment" xmi:id="_VwqlA5mwEemrwYuP8ghIzw" type="Class_StructureCompartment">
+        <styles xmi:type="notation:TitleStyle" xmi:id="_VwqlBJmwEemrwYuP8ghIzw"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_VwqlBZmwEemrwYuP8ghIzw"/>
+      </children>
+      <element xmi:type="uml:Class" href="SHS_OperationalVision.uml#_NQDqkJkbEemrwYuP8ghIzw"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Vwp98ZmwEemrwYuP8ghIzw" x="40" y="40" width="500" height="250"/>
+    </children>
+    <children xmi:type="notation:Shape" xmi:id="_VznyYJmwEemrwYuP8ghIzw" type="StereotypeComment">
+      <styles xmi:type="notation:TitleStyle" xmi:id="_VznyYZmwEemrwYuP8ghIzw"/>
+      <styles xmi:type="notation:EObjectValueStyle" xmi:id="_VznyY5mwEemrwYuP8ghIzw" name="BASE_ELEMENT">
+        <eObjectValue xmi:type="uml:Class" href="SHS_OperationalVision.uml#_NQDqkJkbEemrwYuP8ghIzw"/>
+      </styles>
+      <element xsi:nil="true"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_VznyYpmwEemrwYuP8ghIzw" x="240" y="40"/>
+    </children>
+    <styles xmi:type="notation:StringValueStyle" xmi:id="_Vwm6oZmwEemrwYuP8ghIzw" name="diagram_compatibility_version" stringValue="1.4.0"/>
+    <styles xmi:type="notation:DiagramStyle" xmi:id="_Vwm6opmwEemrwYuP8ghIzw"/>
+    <styles xmi:type="style:PapyrusDiagramStyle" xmi:id="_Vwm6o5mwEemrwYuP8ghIzw" diagramKindId="org.eclipse.papyrus.sysml16.diagram.internalblock">
+      <owner xmi:type="uml:Class" href="SHS_OperationalVision.uml#_NQDqkJkbEemrwYuP8ghIzw"/>
+    </styles>
+    <element xmi:type="uml:Class" href="SHS_OperationalVision.uml#_NQDqkJkbEemrwYuP8ghIzw"/>
+    <edges xmi:type="notation:Connector" xmi:id="_VznyZJmwEemrwYuP8ghIzw" type="StereotypeCommentLink" source="_Vwp98JmwEemrwYuP8ghIzw" target="_VznyYJmwEemrwYuP8ghIzw">
+      <styles xmi:type="notation:FontStyle" xmi:id="_VznyZZmwEemrwYuP8ghIzw"/>
+      <styles xmi:type="notation:EObjectValueStyle" xmi:id="_VzoZcpmwEemrwYuP8ghIzw" name="BASE_ELEMENT">
+        <eObjectValue xmi:type="uml:Class" href="SHS_OperationalVision.uml#_NQDqkJkbEemrwYuP8ghIzw"/>
+      </styles>
+      <element xsi:nil="true"/>
+      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_VznyZpmwEemrwYuP8ghIzw" points="[0, 0, 0, 0]$[0, 0, 0, 0]"/>
+      <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_VzoZcJmwEemrwYuP8ghIzw"/>
+      <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_VzoZcZmwEemrwYuP8ghIzw"/>
     </edges>
   </notation:Diagram>
 </xmi:XMI>
