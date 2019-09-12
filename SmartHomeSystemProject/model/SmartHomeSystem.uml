@@ -7,11 +7,8 @@
       <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="Papyrus_SysML_Migration_Bundle_Version_Of__Q7ZNACRxEeCaCLd1YXNfIQ" key="Papyrus_SysML_Migration_Bundle_Version" value="0.7.0.qualifier"/>
     </eAnnotations>
     <ownedComment xmi:type="uml:Comment" xmi:id="_XpkjEHb7EeOHCpFb_yGTPQ">
-      <body>Reading scenario:&#xD;
-Step #1 - Investigate model {@link #_o5WlgCRyEeCaCLd1YXNfIQ} (double click on it to start)&#xD;
-Step #2 - Investigate model {@link #_j5KicE3oEeO5W83O6raoHw} (double click on it to start)&#xD;
-Step #3 - Investigate model {@link #_OXE1ICR8EeCaCLd1YXNfIQ} (double click on it to start)&#xD;
-PS: Glossary of the project is defined within the model {@link #_yt5KoFHQEeORnr76KmtUgw} (double click on it to see the details)</body>
+      <body>&lt;p>Reading scenario: Step #1 - Investigate model {@link #_o5WlgCRyEeCaCLd1YXNfIQ} (double click on it to start) Step #2 - Investigate model {@link #_j5KicE3oEeO5W83O6raoHw} (double click on it to start) Step #3 - Investigate model {@link #_OXE1ICR8EeCaCLd1YXNfIQ} (double click on it to start) PS: Glossary of the project is defined within the model {@link #_yt5KoFHQEeORnr76KmtUgw} (double click on it to see the details).&lt;/p>
+</body>
     </ownedComment>
     <packageImport xmi:type="uml:PackageImport" xmi:id="packageImport_Of__0">
       <importedPackage xmi:type="uml:Model" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#_0"/>
