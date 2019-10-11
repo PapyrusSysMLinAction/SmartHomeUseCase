@@ -32,7 +32,7 @@ This model is derived from a textual description of the SHS requirements as defi
           <nestedClassifier xmi:type="uml:Class" xmi:id="_QnWvsG36EeeZtLaug2P7dA" name="EmergencyAccessControlGt"/>
         </packagedElement>
         <packagedElement xmi:type="uml:Abstraction" xmi:id="_ClkucHLFEeeGodGwr0LI7g" client="_PdBqkG36EeeZtLaug2P7dA" supplier="_6jpfYHLEEeeGodGwr0LI7g"/>
-        <packagedElement xmi:type="uml:Abstraction" xmi:id="_F35LcJowEeeM4oOexT6Hpw" name="Copy1" client="_IQxfQG36EeeZtLaug2P7dA" supplier="_M-d9cG36EeeZtLaug2P7dA"/>
+        <packagedElement xmi:type="uml:Abstraction" xmi:id="_F35LcJowEeeM4oOexT6Hpw" name="PhyIntrusionMgt--copy-->CyberIntrusionMgt" client="_IQxfQG36EeeZtLaug2P7dA" supplier="_M-d9cG36EeeZtLaug2P7dA"/>
       </packagedElement>
       <packagedElement xmi:type="uml:Package" xmi:id="_VM_OMG0iEeePr__vXKAk2g" name="SHS Accomodation Requirements">
         <ownedComment xmi:type="uml:Comment" xmi:id="_rbp0cG4BEeeZtLaug2P7dA" annotatedElement="_VM_OMG0iEeePr__vXKAk2g">
@@ -206,7 +206,7 @@ This model is derived from a textual description of the SHS requirements as defi
   </uml:Model>
   <Requirements:Refine xmi:id="_3i3L0JdNEemtoeMPVDH0LA" base_DirectedRelationship="_3iuo8JdNEemtoeMPVDH0LA" base_Abstraction="_3iuo8JdNEemtoeMPVDH0LA"/>
   <Requirements:Requirement xmi:id="_xNI4cHLDEeeGodGwr0LI7g" id="SHS_SEC" text="The system must be safe and secure." base_Class="_xMxFAHLDEeeGodGwr0LI7g"/>
-  <Requirements:Requirement xmi:id="_IUTUYG36EeeZtLaug2P7dA" id="SHS_SEC_010" text="The system must support prevention and detection of unauthorized physical intrusion. dddd" base_Class="_IQxfQG36EeeZtLaug2P7dA"/>
+  <Requirements:Requirement xmi:id="_IUTUYG36EeeZtLaug2P7dA" id="SHS_SEC_010" text="The system must support prevention and detection of unauthorized physical intrusion." base_Class="_IQxfQG36EeeZtLaug2P7dA"/>
   <Requirements:Requirement xmi:id="_MIgQ0IdLEeeff6fdwmUAJA" id="SHS_SEC_010_010" text="The system must support prevention of unauthorized physical intrusion." base_Class="_MIBvsIdLEeeff6fdwmUAJA"/>
   <Requirements:Requirement xmi:id="_MI2PEIdLEeeff6fdwmUAJA" id="SHS_SEC_010_020" text="The system must support detection of unauthorized physical intrusion." base_Class="_MIC90IdLEeeff6fdwmUAJA"/>
   <Requirements:Requirement xmi:id="_M-nHYG36EeeZtLaug2P7dA" id="SHS_SEC_020" text="The system must support prevention and detection of unauthorized computer intrusion." base_Class="_M-d9cG36EeeZtLaug2P7dA"/>
