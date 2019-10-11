@@ -5,7 +5,7 @@
       <body>&lt;p>The {@link #_DEgyoJdlEemqIo5GlFw_bQ}&amp;nbsp;model contains all the information related to the project management definition for the {@link #_FQ5xsJdlEemqIo5GlFw_bQ}.&lt;/p>
 </body>
     </ownedComment>
-    <packagedElement xmi:type="uml:Dependency" xmi:id="_dJ-DIJdmEemqIo5GlFw_bQ" name="ProjectStakeHolderResponssability" client="_DEgyoJdlEemqIo5GlFw_bQ">
+    <packagedElement xmi:type="uml:Dependency" xmi:id="_dJ-DIJdmEemqIo5GlFw_bQ" name="ProjectStakeholderResponssability" client="_DEgyoJdlEemqIo5GlFw_bQ">
       <supplier xmi:type="uml:Model" href="SHS_Product_Definition.uml#_FQ5xsJdlEemqIo5GlFw_bQ"/>
     </packagedElement>
     <packagedElement xmi:type="uml:Class" xmi:id="_aewdMFkPEeO46MKyR1zbAg" name="SmartHomeSystemEnvironment">
