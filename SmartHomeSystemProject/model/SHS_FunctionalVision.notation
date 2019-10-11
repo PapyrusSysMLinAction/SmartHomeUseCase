@@ -173,7 +173,7 @@
     <styles xmi:type="style:PapyrusViewStyle" xmi:id="_c9IwIL8VEeOlDLoUAbW1UQ">
       <configuration xmi:type="configuration:PapyrusDiagram" href="platform:/plugin/org.eclipse.papyrus.infra.viewpoints.policy/builtin/default.configuration#_7wLmpNxhEeOqHvRyiN87hA"/>
     </styles>
-    <styles xmi:type="notation:StringValueStyle" xmi:id="_-2UOMM93EeWZ3b1W7Z6NAg" name="diagram_compatibility_version" stringValue="1.3.0"/>
+    <styles xmi:type="notation:StringValueStyle" xmi:id="_-2UOMM93EeWZ3b1W7Z6NAg" name="diagram_compatibility_version" stringValue="1.4.0"/>
     <styles xmi:type="style_1:PapyrusDiagramStyle" xmi:id="_9cWKoJfwEemfOpj3-Spopg" diagramKindId="org.eclipse.papyrus.sysml16.diagram.blockdefinition">
       <owner xmi:type="uml:Model" href="SHS_FunctionalVision.uml#_OXE1ICR8EeCaCLd1YXNfIQ"/>
     </styles>
