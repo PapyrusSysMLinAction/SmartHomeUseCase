@@ -1624,237 +1624,527 @@
       <element xmi:type="uml:Actor" href="SHS_Project_Management_Definition.uml#_Fv6DAJhDEemfOpj3-Spopg"/>
       <layoutConstraint xmi:type="notation:Bounds" xmi:id="_GOZV0ZhDEemfOpj3-Spopg" x="-155" y="400"/>
     </children>
+<<<<<<< HEAD
     <children xmi:type="notation:Shape" xmi:id="_dw-LwA0lEequ0fE4ldAyBg" type="StereotypeComment">
       <styles xmi:type="notation:TitleStyle" xmi:id="_dw-LwQ0lEequ0fE4ldAyBg"/>
       <styles xmi:type="notation:EObjectValueStyle" xmi:id="_dw-Lww0lEequ0fE4ldAyBg" name="BASE_ELEMENT">
+=======
+    <children xmi:type="notation:Shape" xmi:id="_nhtCUOwxEemsT9yKxugBEg" type="StereotypeComment">
+      <styles xmi:type="notation:TitleStyle" xmi:id="_nhtCUewxEemsT9yKxugBEg"/>
+      <styles xmi:type="notation:EObjectValueStyle" xmi:id="_nhtCU-wxEemsT9yKxugBEg" name="BASE_ELEMENT">
+>>>>>>> refs/remotes/origin/master
         <eObjectValue xmi:type="uml:Class" href="SHS_Project_Management_Definition.uml#_gCDnUFkHEeO46MKyR1zbAg"/>
       </styles>
       <element xsi:nil="true"/>
+<<<<<<< HEAD
       <layoutConstraint xmi:type="notation:Bounds" xmi:id="_dw-Lwg0lEequ0fE4ldAyBg" x="375" y="195"/>
+=======
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_nhtCUuwxEemsT9yKxugBEg" x="375" y="195"/>
+>>>>>>> refs/remotes/origin/master
     </children>
+<<<<<<< HEAD
     <children xmi:type="notation:Shape" xmi:id="_dxGuoA0lEequ0fE4ldAyBg" type="StereotypeComment">
       <styles xmi:type="notation:TitleStyle" xmi:id="_dxGuoQ0lEequ0fE4ldAyBg"/>
       <styles xmi:type="notation:EObjectValueStyle" xmi:id="_dxGuow0lEequ0fE4ldAyBg" name="BASE_ELEMENT">
+=======
+    <children xmi:type="notation:Shape" xmi:id="_nh5PkOwxEemsT9yKxugBEg" type="StereotypeComment">
+      <styles xmi:type="notation:TitleStyle" xmi:id="_nh5PkewxEemsT9yKxugBEg"/>
+      <styles xmi:type="notation:EObjectValueStyle" xmi:id="_nh5Pk-wxEemsT9yKxugBEg" name="BASE_ELEMENT">
+>>>>>>> refs/remotes/origin/master
         <eObjectValue xmi:type="uml:InformationFlow" href="SHS_Project_Management_Definition.uml#_cCuwYJg5EemfOpj3-Spopg"/>
       </styles>
       <element xsi:nil="true"/>
+<<<<<<< HEAD
       <layoutConstraint xmi:type="notation:Bounds" xmi:id="_dxGuog0lEequ0fE4ldAyBg" x="375" y="95"/>
+=======
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_nh5PkuwxEemsT9yKxugBEg" x="375" y="95"/>
+>>>>>>> refs/remotes/origin/master
     </children>
+<<<<<<< HEAD
     <children xmi:type="notation:Shape" xmi:id="_dxQfoA0lEequ0fE4ldAyBg" type="StereotypeComment">
       <styles xmi:type="notation:TitleStyle" xmi:id="_dxQfoQ0lEequ0fE4ldAyBg"/>
       <styles xmi:type="notation:EObjectValueStyle" xmi:id="_dxQfow0lEequ0fE4ldAyBg" name="BASE_ELEMENT">
+=======
+    <children xmi:type="notation:Shape" xmi:id="_niEOsOwxEemsT9yKxugBEg" type="StereotypeComment">
+      <styles xmi:type="notation:TitleStyle" xmi:id="_niEOsewxEemsT9yKxugBEg"/>
+      <styles xmi:type="notation:EObjectValueStyle" xmi:id="_niEOs-wxEemsT9yKxugBEg" name="BASE_ELEMENT">
+>>>>>>> refs/remotes/origin/master
         <eObjectValue xmi:type="uml:InformationFlow" href="SHS_Project_Management_Definition.uml#_r3tsEJg5EemfOpj3-Spopg"/>
       </styles>
       <element xsi:nil="true"/>
+<<<<<<< HEAD
       <layoutConstraint xmi:type="notation:Bounds" xmi:id="_dxQfog0lEequ0fE4ldAyBg" x="375" y="95"/>
+=======
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_niEOsuwxEemsT9yKxugBEg" x="375" y="95"/>
+>>>>>>> refs/remotes/origin/master
     </children>
+<<<<<<< HEAD
     <children xmi:type="notation:Shape" xmi:id="_dxa3sA0lEequ0fE4ldAyBg" type="StereotypeComment">
       <styles xmi:type="notation:TitleStyle" xmi:id="_dxa3sQ0lEequ0fE4ldAyBg"/>
       <styles xmi:type="notation:EObjectValueStyle" xmi:id="_dxbewA0lEequ0fE4ldAyBg" name="BASE_ELEMENT">
+=======
+    <children xmi:type="notation:Shape" xmi:id="_niMxkOwxEemsT9yKxugBEg" type="StereotypeComment">
+      <styles xmi:type="notation:TitleStyle" xmi:id="_niMxkewxEemsT9yKxugBEg"/>
+      <styles xmi:type="notation:EObjectValueStyle" xmi:id="_niNYoOwxEemsT9yKxugBEg" name="BASE_ELEMENT">
+>>>>>>> refs/remotes/origin/master
         <eObjectValue xmi:type="uml:InformationFlow" href="SHS_Project_Management_Definition.uml#_Cx3r8JhAEemfOpj3-Spopg"/>
       </styles>
       <element xsi:nil="true"/>
+<<<<<<< HEAD
       <layoutConstraint xmi:type="notation:Bounds" xmi:id="_dxa3sg0lEequ0fE4ldAyBg" x="375" y="95"/>
+=======
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_niMxkuwxEemsT9yKxugBEg" x="375" y="95"/>
+>>>>>>> refs/remotes/origin/master
     </children>
+<<<<<<< HEAD
     <children xmi:type="notation:Shape" xmi:id="_dxkBoA0lEequ0fE4ldAyBg" type="StereotypeComment">
       <styles xmi:type="notation:TitleStyle" xmi:id="_dxkBoQ0lEequ0fE4ldAyBg"/>
       <styles xmi:type="notation:EObjectValueStyle" xmi:id="_dxkBow0lEequ0fE4ldAyBg" name="BASE_ELEMENT">
+=======
+    <children xmi:type="notation:Shape" xmi:id="_niYXwOwxEemsT9yKxugBEg" type="StereotypeComment">
+      <styles xmi:type="notation:TitleStyle" xmi:id="_niYXwewxEemsT9yKxugBEg"/>
+      <styles xmi:type="notation:EObjectValueStyle" xmi:id="_niY-0OwxEemsT9yKxugBEg" name="BASE_ELEMENT">
+>>>>>>> refs/remotes/origin/master
         <eObjectValue xmi:type="uml:InformationFlow" href="SHS_Project_Management_Definition.uml#_T_Ov0JhAEemfOpj3-Spopg"/>
       </styles>
       <element xsi:nil="true"/>
+<<<<<<< HEAD
       <layoutConstraint xmi:type="notation:Bounds" xmi:id="_dxkBog0lEequ0fE4ldAyBg" x="375" y="95"/>
+=======
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_niYXwuwxEemsT9yKxugBEg" x="375" y="95"/>
+>>>>>>> refs/remotes/origin/master
     </children>
+<<<<<<< HEAD
     <children xmi:type="notation:Shape" xmi:id="_dxrWYA0lEequ0fE4ldAyBg" type="StereotypeComment">
       <styles xmi:type="notation:TitleStyle" xmi:id="_dxrWYQ0lEequ0fE4ldAyBg"/>
       <styles xmi:type="notation:EObjectValueStyle" xmi:id="_dxrWYw0lEequ0fE4ldAyBg" name="BASE_ELEMENT">
+=======
+    <children xmi:type="notation:Shape" xmi:id="_nihhsOwxEemsT9yKxugBEg" type="StereotypeComment">
+      <styles xmi:type="notation:TitleStyle" xmi:id="_nihhsewxEemsT9yKxugBEg"/>
+      <styles xmi:type="notation:EObjectValueStyle" xmi:id="_niiIwOwxEemsT9yKxugBEg" name="BASE_ELEMENT">
+>>>>>>> refs/remotes/origin/master
         <eObjectValue xmi:type="uml:Actor" href="SHS_Project_Management_Definition.uml#_pxh18JgpEemfOpj3-Spopg"/>
       </styles>
       <element xsi:nil="true"/>
+<<<<<<< HEAD
       <layoutConstraint xmi:type="notation:Bounds" xmi:id="_dxrWYg0lEequ0fE4ldAyBg" x="470" y="671"/>
+=======
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_nihhsuwxEemsT9yKxugBEg" x="470" y="671"/>
+>>>>>>> refs/remotes/origin/master
     </children>
+<<<<<<< HEAD
     <children xmi:type="notation:Shape" xmi:id="_dx0gUA0lEequ0fE4ldAyBg" type="StereotypeComment">
       <styles xmi:type="notation:TitleStyle" xmi:id="_dx0gUQ0lEequ0fE4ldAyBg"/>
       <styles xmi:type="notation:EObjectValueStyle" xmi:id="_dx0gUw0lEequ0fE4ldAyBg" name="BASE_ELEMENT">
+=======
+    <children xmi:type="notation:Shape" xmi:id="_nitu8OwxEemsT9yKxugBEg" type="StereotypeComment">
+      <styles xmi:type="notation:TitleStyle" xmi:id="_nitu8ewxEemsT9yKxugBEg"/>
+      <styles xmi:type="notation:EObjectValueStyle" xmi:id="_nitu8-wxEemsT9yKxugBEg" name="BASE_ELEMENT">
+>>>>>>> refs/remotes/origin/master
         <eObjectValue xmi:type="uml:InformationFlow" href="SHS_Project_Management_Definition.uml#_EKroEJg3EemfOpj3-Spopg"/>
       </styles>
       <element xsi:nil="true"/>
+<<<<<<< HEAD
       <layoutConstraint xmi:type="notation:Bounds" xmi:id="_dx0gUg0lEequ0fE4ldAyBg" x="470" y="571"/>
+=======
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_nitu8uwxEemsT9yKxugBEg" x="470" y="571"/>
+>>>>>>> refs/remotes/origin/master
     </children>
+<<<<<<< HEAD
     <children xmi:type="notation:Shape" xmi:id="_dx8cIA0lEequ0fE4ldAyBg" type="StereotypeComment">
       <styles xmi:type="notation:TitleStyle" xmi:id="_dx8cIQ0lEequ0fE4ldAyBg"/>
       <styles xmi:type="notation:EObjectValueStyle" xmi:id="_dx8cIw0lEequ0fE4ldAyBg" name="BASE_ELEMENT">
+=======
+    <children xmi:type="notation:Shape" xmi:id="_ni4uEOwxEemsT9yKxugBEg" type="StereotypeComment">
+      <styles xmi:type="notation:TitleStyle" xmi:id="_ni4uEewxEemsT9yKxugBEg"/>
+      <styles xmi:type="notation:EObjectValueStyle" xmi:id="_ni5VIOwxEemsT9yKxugBEg" name="BASE_ELEMENT">
+>>>>>>> refs/remotes/origin/master
         <eObjectValue xmi:type="uml:Actor" href="SHS_Project_Management_Definition.uml#_o9C5QDiAEeGe4_sFLbM3Hw"/>
       </styles>
       <element xsi:nil="true"/>
+<<<<<<< HEAD
       <layoutConstraint xmi:type="notation:Bounds" xmi:id="_dx8cIg0lEequ0fE4ldAyBg" x="1200" y="200"/>
+=======
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_ni4uEuwxEemsT9yKxugBEg" x="1200" y="200"/>
+>>>>>>> refs/remotes/origin/master
     </children>
+<<<<<<< HEAD
     <children xmi:type="notation:Shape" xmi:id="_dyE_AA0lEequ0fE4ldAyBg" type="StereotypeComment">
       <styles xmi:type="notation:TitleStyle" xmi:id="_dyE_AQ0lEequ0fE4ldAyBg"/>
       <styles xmi:type="notation:EObjectValueStyle" xmi:id="_dyE_Aw0lEequ0fE4ldAyBg" name="BASE_ELEMENT">
+=======
+    <children xmi:type="notation:Shape" xmi:id="_njCfEOwxEemsT9yKxugBEg" type="StereotypeComment">
+      <styles xmi:type="notation:TitleStyle" xmi:id="_njCfEewxEemsT9yKxugBEg"/>
+      <styles xmi:type="notation:EObjectValueStyle" xmi:id="_njDGIOwxEemsT9yKxugBEg" name="BASE_ELEMENT">
+>>>>>>> refs/remotes/origin/master
         <eObjectValue xmi:type="uml:InformationFlow" href="SHS_Project_Management_Definition.uml#_lfb7YJg5EemfOpj3-Spopg"/>
       </styles>
       <element xsi:nil="true"/>
+<<<<<<< HEAD
       <layoutConstraint xmi:type="notation:Bounds" xmi:id="_dyE_Ag0lEequ0fE4ldAyBg" x="1200" y="100"/>
+=======
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_njCfEuwxEemsT9yKxugBEg" x="1200" y="100"/>
+>>>>>>> refs/remotes/origin/master
     </children>
+<<<<<<< HEAD
     <children xmi:type="notation:Shape" xmi:id="_dyPXEA0lEequ0fE4ldAyBg" type="StereotypeComment">
       <styles xmi:type="notation:TitleStyle" xmi:id="_dyPXEQ0lEequ0fE4ldAyBg"/>
       <styles xmi:type="notation:EObjectValueStyle" xmi:id="_dyP-IA0lEequ0fE4ldAyBg" name="BASE_ELEMENT">
+=======
+    <children xmi:type="notation:Shape" xmi:id="_njOsUOwxEemsT9yKxugBEg" type="StereotypeComment">
+      <styles xmi:type="notation:TitleStyle" xmi:id="_njOsUewxEemsT9yKxugBEg"/>
+      <styles xmi:type="notation:EObjectValueStyle" xmi:id="_njOsU-wxEemsT9yKxugBEg" name="BASE_ELEMENT">
+>>>>>>> refs/remotes/origin/master
         <eObjectValue xmi:type="uml:Actor" href="SHS_Project_Management_Definition.uml#_oBYiQDiAEeGe4_sFLbM3Hw"/>
       </styles>
       <element xsi:nil="true"/>
+<<<<<<< HEAD
       <layoutConstraint xmi:type="notation:Bounds" xmi:id="_dyPXEg0lEequ0fE4ldAyBg" x="1200" y="380"/>
+=======
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_njOsUuwxEemsT9yKxugBEg" x="1200" y="380"/>
+>>>>>>> refs/remotes/origin/master
     </children>
+<<<<<<< HEAD
     <children xmi:type="notation:Shape" xmi:id="_dyYhAA0lEequ0fE4ldAyBg" type="StereotypeComment">
       <styles xmi:type="notation:TitleStyle" xmi:id="_dyYhAQ0lEequ0fE4ldAyBg"/>
       <styles xmi:type="notation:EObjectValueStyle" xmi:id="_dyYhAw0lEequ0fE4ldAyBg" name="BASE_ELEMENT">
+=======
+    <children xmi:type="notation:Shape" xmi:id="_njX2QOwxEemsT9yKxugBEg" type="StereotypeComment">
+      <styles xmi:type="notation:TitleStyle" xmi:id="_njX2QewxEemsT9yKxugBEg"/>
+      <styles xmi:type="notation:EObjectValueStyle" xmi:id="_njX2Q-wxEemsT9yKxugBEg" name="BASE_ELEMENT">
+>>>>>>> refs/remotes/origin/master
         <eObjectValue xmi:type="uml:InformationFlow" href="SHS_Project_Management_Definition.uml#_HZnTIJhAEemfOpj3-Spopg"/>
       </styles>
       <element xsi:nil="true"/>
+<<<<<<< HEAD
       <layoutConstraint xmi:type="notation:Bounds" xmi:id="_dyYhAg0lEequ0fE4ldAyBg" x="1200" y="280"/>
+=======
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_njX2QuwxEemsT9yKxugBEg" x="1200" y="280"/>
+>>>>>>> refs/remotes/origin/master
     </children>
+<<<<<<< HEAD
     <children xmi:type="notation:Shape" xmi:id="_dykHMA0lEequ0fE4ldAyBg" type="StereotypeComment">
       <styles xmi:type="notation:TitleStyle" xmi:id="_dykHMQ0lEequ0fE4ldAyBg"/>
       <styles xmi:type="notation:EObjectValueStyle" xmi:id="_dykHMw0lEequ0fE4ldAyBg" name="BASE_ELEMENT">
+=======
+    <children xmi:type="notation:Shape" xmi:id="_njhnQOwxEemsT9yKxugBEg" type="StereotypeComment">
+      <styles xmi:type="notation:TitleStyle" xmi:id="_njhnQewxEemsT9yKxugBEg"/>
+      <styles xmi:type="notation:EObjectValueStyle" xmi:id="_njiOUOwxEemsT9yKxugBEg" name="BASE_ELEMENT">
+>>>>>>> refs/remotes/origin/master
         <eObjectValue xmi:type="uml:Actor" href="SHS_Project_Management_Definition.uml#_0Qu_wJgpEemfOpj3-Spopg"/>
       </styles>
       <element xsi:nil="true"/>
+<<<<<<< HEAD
       <layoutConstraint xmi:type="notation:Bounds" xmi:id="_dykHMg0lEequ0fE4ldAyBg" x="1200" y="290"/>
+=======
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_njhnQuwxEemsT9yKxugBEg" x="1200" y="290"/>
+>>>>>>> refs/remotes/origin/master
     </children>
+<<<<<<< HEAD
     <children xmi:type="notation:Shape" xmi:id="_dytRIA0lEequ0fE4ldAyBg" type="StereotypeComment">
       <styles xmi:type="notation:TitleStyle" xmi:id="_dytRIQ0lEequ0fE4ldAyBg"/>
       <styles xmi:type="notation:EObjectValueStyle" xmi:id="_dytRIw0lEequ0fE4ldAyBg" name="BASE_ELEMENT">
+=======
+    <children xmi:type="notation:Shape" xmi:id="_njpjEOwxEemsT9yKxugBEg" type="StereotypeComment">
+      <styles xmi:type="notation:TitleStyle" xmi:id="_njpjEewxEemsT9yKxugBEg"/>
+      <styles xmi:type="notation:EObjectValueStyle" xmi:id="_njpjE-wxEemsT9yKxugBEg" name="BASE_ELEMENT">
+>>>>>>> refs/remotes/origin/master
         <eObjectValue xmi:type="uml:InformationFlow" href="SHS_Project_Management_Definition.uml#_1qyvsJg5EemfOpj3-Spopg"/>
       </styles>
       <element xsi:nil="true"/>
+<<<<<<< HEAD
       <layoutConstraint xmi:type="notation:Bounds" xmi:id="_dytRIg0lEequ0fE4ldAyBg" x="1200" y="190"/>
+=======
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_njpjEuwxEemsT9yKxugBEg" x="1200" y="190"/>
+>>>>>>> refs/remotes/origin/master
     </children>
+<<<<<<< HEAD
     <children xmi:type="notation:Shape" xmi:id="_dy3CIA0lEequ0fE4ldAyBg" type="StereotypeComment">
       <styles xmi:type="notation:TitleStyle" xmi:id="_dy3CIQ0lEequ0fE4ldAyBg"/>
       <styles xmi:type="notation:EObjectValueStyle" xmi:id="_dy3CIw0lEequ0fE4ldAyBg" name="BASE_ELEMENT">
+=======
+    <children xmi:type="notation:Shape" xmi:id="_nj1wUOwxEemsT9yKxugBEg" type="StereotypeComment">
+      <styles xmi:type="notation:TitleStyle" xmi:id="_nj1wUewxEemsT9yKxugBEg"/>
+      <styles xmi:type="notation:EObjectValueStyle" xmi:id="_nj1wU-wxEemsT9yKxugBEg" name="BASE_ELEMENT">
+>>>>>>> refs/remotes/origin/master
         <eObjectValue xmi:type="uml:Actor" href="SHS_Project_Management_Definition.uml#_2x-0gJgpEemfOpj3-Spopg"/>
       </styles>
       <element xsi:nil="true"/>
+<<<<<<< HEAD
       <layoutConstraint xmi:type="notation:Bounds" xmi:id="_dy3CIg0lEequ0fE4ldAyBg" x="735" y="671"/>
+=======
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_nj1wUuwxEemsT9yKxugBEg" x="735" y="671"/>
+>>>>>>> refs/remotes/origin/master
     </children>
+<<<<<<< HEAD
     <children xmi:type="notation:Shape" xmi:id="_dy_lAA0lEequ0fE4ldAyBg" type="StereotypeComment">
       <styles xmi:type="notation:TitleStyle" xmi:id="_dy_lAQ0lEequ0fE4ldAyBg"/>
       <styles xmi:type="notation:EObjectValueStyle" xmi:id="_dy_lAw0lEequ0fE4ldAyBg" name="BASE_ELEMENT">
+=======
+    <children xmi:type="notation:Shape" xmi:id="_nj-6QOwxEemsT9yKxugBEg" type="StereotypeComment">
+      <styles xmi:type="notation:TitleStyle" xmi:id="_nj-6QewxEemsT9yKxugBEg"/>
+      <styles xmi:type="notation:EObjectValueStyle" xmi:id="_nj_hUOwxEemsT9yKxugBEg" name="BASE_ELEMENT">
+>>>>>>> refs/remotes/origin/master
         <eObjectValue xmi:type="uml:InformationFlow" href="SHS_Project_Management_Definition.uml#_fElwIJg_EemfOpj3-Spopg"/>
       </styles>
       <element xsi:nil="true"/>
+<<<<<<< HEAD
       <layoutConstraint xmi:type="notation:Bounds" xmi:id="_dy_lAg0lEequ0fE4ldAyBg" x="735" y="571"/>
+=======
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_nj-6QuwxEemsT9yKxugBEg" x="735" y="571"/>
+>>>>>>> refs/remotes/origin/master
     </children>
+<<<<<<< HEAD
     <children xmi:type="notation:Shape" xmi:id="_dzNAYA0lEequ0fE4ldAyBg" type="StereotypeComment">
       <styles xmi:type="notation:TitleStyle" xmi:id="_dzNAYQ0lEequ0fE4ldAyBg"/>
       <styles xmi:type="notation:EObjectValueStyle" xmi:id="_dzNncA0lEequ0fE4ldAyBg" name="BASE_ELEMENT">
+=======
+    <children xmi:type="notation:Shape" xmi:id="_nkKgcOwxEemsT9yKxugBEg" type="StereotypeComment">
+      <styles xmi:type="notation:TitleStyle" xmi:id="_nkKgcewxEemsT9yKxugBEg"/>
+      <styles xmi:type="notation:EObjectValueStyle" xmi:id="_nkKgc-wxEemsT9yKxugBEg" name="BASE_ELEMENT">
+>>>>>>> refs/remotes/origin/master
         <eObjectValue xmi:type="uml:Actor" href="SHS_Project_Management_Definition.uml#_zSl8gJgpEemfOpj3-Spopg"/>
       </styles>
       <element xsi:nil="true"/>
+<<<<<<< HEAD
       <layoutConstraint xmi:type="notation:Bounds" xmi:id="_dzNAYg0lEequ0fE4ldAyBg" x="605" y="671"/>
+=======
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_nkKgcuwxEemsT9yKxugBEg" x="605" y="671"/>
+>>>>>>> refs/remotes/origin/master
     </children>
+<<<<<<< HEAD
     <children xmi:type="notation:Shape" xmi:id="_dzVjQA0lEequ0fE4ldAyBg" type="StereotypeComment">
       <styles xmi:type="notation:TitleStyle" xmi:id="_dzVjQQ0lEequ0fE4ldAyBg"/>
       <styles xmi:type="notation:EObjectValueStyle" xmi:id="_dzVjQw0lEequ0fE4ldAyBg" name="BASE_ELEMENT">
+=======
+    <children xmi:type="notation:Shape" xmi:id="_nkTqYOwxEemsT9yKxugBEg" type="StereotypeComment">
+      <styles xmi:type="notation:TitleStyle" xmi:id="_nkTqYewxEemsT9yKxugBEg"/>
+      <styles xmi:type="notation:EObjectValueStyle" xmi:id="_nkTqY-wxEemsT9yKxugBEg" name="BASE_ELEMENT">
+>>>>>>> refs/remotes/origin/master
         <eObjectValue xmi:type="uml:InformationFlow" href="SHS_Project_Management_Definition.uml#_YnqI8Jg_EemfOpj3-Spopg"/>
       </styles>
       <element xsi:nil="true"/>
+<<<<<<< HEAD
       <layoutConstraint xmi:type="notation:Bounds" xmi:id="_dzVjQg0lEequ0fE4ldAyBg" x="605" y="571"/>
+=======
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_nkTqYuwxEemsT9yKxugBEg" x="605" y="571"/>
+>>>>>>> refs/remotes/origin/master
     </children>
+<<<<<<< HEAD
     <children xmi:type="notation:Shape" xmi:id="_dzf7UA0lEequ0fE4ldAyBg" type="StereotypeComment">
       <styles xmi:type="notation:TitleStyle" xmi:id="_dzf7UQ0lEequ0fE4ldAyBg"/>
       <styles xmi:type="notation:EObjectValueStyle" xmi:id="_dzgiYA0lEequ0fE4ldAyBg" name="BASE_ELEMENT">
+=======
+    <children xmi:type="notation:Shape" xmi:id="_nkhs0OwxEemsT9yKxugBEg" type="StereotypeComment">
+      <styles xmi:type="notation:TitleStyle" xmi:id="_nkhs0ewxEemsT9yKxugBEg"/>
+      <styles xmi:type="notation:EObjectValueStyle" xmi:id="_nkhs0-wxEemsT9yKxugBEg" name="BASE_ELEMENT">
+>>>>>>> refs/remotes/origin/master
         <eObjectValue xmi:type="uml:Actor" href="SHS_Project_Management_Definition.uml#_67luMJgpEemfOpj3-Spopg"/>
       </styles>
       <element xsi:nil="true"/>
+<<<<<<< HEAD
       <layoutConstraint xmi:type="notation:Bounds" xmi:id="_dzf7Ug0lEequ0fE4ldAyBg" x="1200" y="480"/>
+=======
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_nkhs0uwxEemsT9yKxugBEg" x="1200" y="480"/>
+>>>>>>> refs/remotes/origin/master
     </children>
+<<<<<<< HEAD
     <children xmi:type="notation:Shape" xmi:id="_dzoeMA0lEequ0fE4ldAyBg" type="StereotypeComment">
       <styles xmi:type="notation:TitleStyle" xmi:id="_dzoeMQ0lEequ0fE4ldAyBg"/>
       <styles xmi:type="notation:EObjectValueStyle" xmi:id="_dzoeMw0lEequ0fE4ldAyBg" name="BASE_ELEMENT">
+=======
+    <children xmi:type="notation:Shape" xmi:id="_nksE4OwxEemsT9yKxugBEg" type="StereotypeComment">
+      <styles xmi:type="notation:TitleStyle" xmi:id="_nksE4ewxEemsT9yKxugBEg"/>
+      <styles xmi:type="notation:EObjectValueStyle" xmi:id="_nksr8OwxEemsT9yKxugBEg" name="BASE_ELEMENT">
+>>>>>>> refs/remotes/origin/master
         <eObjectValue xmi:type="uml:Actor" href="SHS_Project_Management_Definition.uml#_2SUlkJhAEemfOpj3-Spopg"/>
       </styles>
       <element xsi:nil="true"/>
+<<<<<<< HEAD
       <layoutConstraint xmi:type="notation:Bounds" xmi:id="_dzoeMg0lEequ0fE4ldAyBg" x="45" y="239"/>
+=======
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_nksE4uwxEemsT9yKxugBEg" x="45" y="239"/>
+>>>>>>> refs/remotes/origin/master
     </children>
+<<<<<<< HEAD
     <children xmi:type="notation:Shape" xmi:id="_dzvL4A0lEequ0fE4ldAyBg" type="StereotypeComment">
       <styles xmi:type="notation:TitleStyle" xmi:id="_dzvL4Q0lEequ0fE4ldAyBg"/>
       <styles xmi:type="notation:EObjectValueStyle" xmi:id="_dzvL4w0lEequ0fE4ldAyBg" name="BASE_ELEMENT">
+=======
+    <children xmi:type="notation:Shape" xmi:id="_nk0AsOwxEemsT9yKxugBEg" type="StereotypeComment">
+      <styles xmi:type="notation:TitleStyle" xmi:id="_nk0AsewxEemsT9yKxugBEg"/>
+      <styles xmi:type="notation:EObjectValueStyle" xmi:id="_nk0As-wxEemsT9yKxugBEg" name="BASE_ELEMENT">
+>>>>>>> refs/remotes/origin/master
         <eObjectValue xmi:type="uml:InformationFlow" href="SHS_Project_Management_Definition.uml#_B-QoQJhBEemfOpj3-Spopg"/>
       </styles>
       <element xsi:nil="true"/>
+<<<<<<< HEAD
       <layoutConstraint xmi:type="notation:Bounds" xmi:id="_dzvL4g0lEequ0fE4ldAyBg" x="45" y="139"/>
+=======
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_nk0AsuwxEemsT9yKxugBEg" x="45" y="139"/>
+>>>>>>> refs/remotes/origin/master
     </children>
+<<<<<<< HEAD
     <children xmi:type="notation:Shape" xmi:id="_dz6LAA0lEequ0fE4ldAyBg" type="StereotypeComment">
       <styles xmi:type="notation:TitleStyle" xmi:id="_dz6LAQ0lEequ0fE4ldAyBg"/>
       <styles xmi:type="notation:EObjectValueStyle" xmi:id="_dz6LAw0lEequ0fE4ldAyBg" name="BASE_ELEMENT">
+=======
+    <children xmi:type="notation:Shape" xmi:id="_nk9xsOwxEemsT9yKxugBEg" type="StereotypeComment">
+      <styles xmi:type="notation:TitleStyle" xmi:id="_nk9xsewxEemsT9yKxugBEg"/>
+      <styles xmi:type="notation:EObjectValueStyle" xmi:id="_nk9xs-wxEemsT9yKxugBEg" name="BASE_ELEMENT">
+>>>>>>> refs/remotes/origin/master
         <eObjectValue xmi:type="uml:Actor" href="SHS_Project_Management_Definition.uml#_MoXagJhBEemfOpj3-Spopg"/>
       </styles>
       <element xsi:nil="true"/>
+<<<<<<< HEAD
       <layoutConstraint xmi:type="notation:Bounds" xmi:id="_dz6LAg0lEequ0fE4ldAyBg" x="367" y="75"/>
+=======
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_nk9xsuwxEemsT9yKxugBEg" x="367" y="75"/>
+>>>>>>> refs/remotes/origin/master
     </children>
+<<<<<<< HEAD
     <children xmi:type="notation:Shape" xmi:id="_d0DU8A0lEequ0fE4ldAyBg" type="StereotypeComment">
       <styles xmi:type="notation:TitleStyle" xmi:id="_d0DU8Q0lEequ0fE4ldAyBg"/>
       <styles xmi:type="notation:EObjectValueStyle" xmi:id="_d0DU8w0lEequ0fE4ldAyBg" name="BASE_ELEMENT">
+=======
+    <children xmi:type="notation:Shape" xmi:id="_nlFGcOwxEemsT9yKxugBEg" type="StereotypeComment">
+      <styles xmi:type="notation:TitleStyle" xmi:id="_nlFGcewxEemsT9yKxugBEg"/>
+      <styles xmi:type="notation:EObjectValueStyle" xmi:id="_nlFtgOwxEemsT9yKxugBEg" name="BASE_ELEMENT">
+>>>>>>> refs/remotes/origin/master
         <eObjectValue xmi:type="uml:InformationFlow" href="SHS_Project_Management_Definition.uml#_yz_oEJhBEemfOpj3-Spopg"/>
       </styles>
       <element xsi:nil="true"/>
+<<<<<<< HEAD
       <layoutConstraint xmi:type="notation:Bounds" xmi:id="_d0DU8g0lEequ0fE4ldAyBg" x="367" y="-25"/>
+=======
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_nlFGcuwxEemsT9yKxugBEg" x="367" y="-25"/>
+>>>>>>> refs/remotes/origin/master
     </children>
+<<<<<<< HEAD
     <children xmi:type="notation:Shape" xmi:id="_d0NtAA0lEequ0fE4ldAyBg" type="StereotypeComment">
       <styles xmi:type="notation:TitleStyle" xmi:id="_d0NtAQ0lEequ0fE4ldAyBg"/>
       <styles xmi:type="notation:EObjectValueStyle" xmi:id="_d0NtAw0lEequ0fE4ldAyBg" name="BASE_ELEMENT">
+=======
+    <children xmi:type="notation:Shape" xmi:id="_nlQsoOwxEemsT9yKxugBEg" type="StereotypeComment">
+      <styles xmi:type="notation:TitleStyle" xmi:id="_nlQsoewxEemsT9yKxugBEg"/>
+      <styles xmi:type="notation:EObjectValueStyle" xmi:id="_nlQso-wxEemsT9yKxugBEg" name="BASE_ELEMENT">
+>>>>>>> refs/remotes/origin/master
         <eObjectValue xmi:type="uml:Actor" href="SHS_Project_Management_Definition.uml#_OxDlUJhBEemfOpj3-Spopg"/>
       </styles>
       <element xsi:nil="true"/>
+<<<<<<< HEAD
       <layoutConstraint xmi:type="notation:Bounds" xmi:id="_d0NtAg0lEequ0fE4ldAyBg" x="509" y="75"/>
+=======
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_nlQsouwxEemsT9yKxugBEg" x="509" y="75"/>
+>>>>>>> refs/remotes/origin/master
     </children>
+<<<<<<< HEAD
     <children xmi:type="notation:Shape" xmi:id="_d0Vo0A0lEequ0fE4ldAyBg" type="StereotypeComment">
       <styles xmi:type="notation:TitleStyle" xmi:id="_d0Vo0Q0lEequ0fE4ldAyBg"/>
       <styles xmi:type="notation:EObjectValueStyle" xmi:id="_d0WP4A0lEequ0fE4ldAyBg" name="BASE_ELEMENT">
+=======
+    <children xmi:type="notation:Shape" xmi:id="_nlZ2kOwxEemsT9yKxugBEg" type="StereotypeComment">
+      <styles xmi:type="notation:TitleStyle" xmi:id="_nlZ2kewxEemsT9yKxugBEg"/>
+      <styles xmi:type="notation:EObjectValueStyle" xmi:id="_nlZ2k-wxEemsT9yKxugBEg" name="BASE_ELEMENT">
+>>>>>>> refs/remotes/origin/master
         <eObjectValue xmi:type="uml:InformationFlow" href="SHS_Project_Management_Definition.uml#_CKG2cJhCEemfOpj3-Spopg"/>
       </styles>
       <element xsi:nil="true"/>
+<<<<<<< HEAD
       <layoutConstraint xmi:type="notation:Bounds" xmi:id="_d0Vo0g0lEequ0fE4ldAyBg" x="509" y="-25"/>
+=======
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_nlZ2kuwxEemsT9yKxugBEg" x="509" y="-25"/>
+>>>>>>> refs/remotes/origin/master
     </children>
+<<<<<<< HEAD
     <children xmi:type="notation:Shape" xmi:id="_d0c9kA0lEequ0fE4ldAyBg" type="StereotypeComment">
       <styles xmi:type="notation:TitleStyle" xmi:id="_d0c9kQ0lEequ0fE4ldAyBg"/>
       <styles xmi:type="notation:EObjectValueStyle" xmi:id="_d0dkoA0lEequ0fE4ldAyBg" name="BASE_ELEMENT">
+=======
+    <children xmi:type="notation:Shape" xmi:id="_nlmD0OwxEemsT9yKxugBEg" type="StereotypeComment">
+      <styles xmi:type="notation:TitleStyle" xmi:id="_nlmD0ewxEemsT9yKxugBEg"/>
+      <styles xmi:type="notation:EObjectValueStyle" xmi:id="_nlmD0-wxEemsT9yKxugBEg" name="BASE_ELEMENT">
+>>>>>>> refs/remotes/origin/master
         <eObjectValue xmi:type="uml:Actor" href="SHS_Project_Management_Definition.uml#_Sl4h0JhBEemfOpj3-Spopg"/>
       </styles>
       <element xsi:nil="true"/>
+<<<<<<< HEAD
       <layoutConstraint xmi:type="notation:Bounds" xmi:id="_d0c9kg0lEequ0fE4ldAyBg" x="710" y="75"/>
+=======
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_nlmD0uwxEemsT9yKxugBEg" x="710" y="75"/>
+>>>>>>> refs/remotes/origin/master
     </children>
+<<<<<<< HEAD
     <children xmi:type="notation:Shape" xmi:id="_d0lgcA0lEequ0fE4ldAyBg" type="StereotypeComment">
       <styles xmi:type="notation:TitleStyle" xmi:id="_d0lgcQ0lEequ0fE4ldAyBg"/>
       <styles xmi:type="notation:EObjectValueStyle" xmi:id="_d0lgcw0lEequ0fE4ldAyBg" name="BASE_ELEMENT">
+=======
+    <children xmi:type="notation:Shape" xmi:id="_nlv00OwxEemsT9yKxugBEg" type="StereotypeComment">
+      <styles xmi:type="notation:TitleStyle" xmi:id="_nlv00ewxEemsT9yKxugBEg"/>
+      <styles xmi:type="notation:EObjectValueStyle" xmi:id="_nlv00-wxEemsT9yKxugBEg" name="BASE_ELEMENT">
+>>>>>>> refs/remotes/origin/master
         <eObjectValue xmi:type="uml:InformationFlow" href="SHS_Project_Management_Definition.uml#_FnrJgJhCEemfOpj3-Spopg"/>
       </styles>
       <element xsi:nil="true"/>
+<<<<<<< HEAD
       <layoutConstraint xmi:type="notation:Bounds" xmi:id="_d0lgcg0lEequ0fE4ldAyBg" x="710" y="-25"/>
+=======
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_nlv00uwxEemsT9yKxugBEg" x="710" y="-25"/>
+>>>>>>> refs/remotes/origin/master
     </children>
+<<<<<<< HEAD
     <children xmi:type="notation:Shape" xmi:id="_d0s1MA0lEequ0fE4ldAyBg" type="StereotypeComment">
       <styles xmi:type="notation:TitleStyle" xmi:id="_d0s1MQ0lEequ0fE4ldAyBg"/>
       <styles xmi:type="notation:EObjectValueStyle" xmi:id="_d0s1Mw0lEequ0fE4ldAyBg" name="BASE_ELEMENT">
+=======
+    <children xmi:type="notation:Shape" xmi:id="_nl4-wOwxEemsT9yKxugBEg" type="StereotypeComment">
+      <styles xmi:type="notation:TitleStyle" xmi:id="_nl4-wewxEemsT9yKxugBEg"/>
+      <styles xmi:type="notation:EObjectValueStyle" xmi:id="_nl4-w-wxEemsT9yKxugBEg" name="BASE_ELEMENT">
+>>>>>>> refs/remotes/origin/master
         <eObjectValue xmi:type="uml:InformationFlow" href="SHS_Project_Management_Definition.uml#_StB38JjLEemiJJjEotXc9w"/>
       </styles>
       <element xsi:nil="true"/>
+<<<<<<< HEAD
       <layoutConstraint xmi:type="notation:Bounds" xmi:id="_d0s1Mg0lEequ0fE4ldAyBg" x="710" y="-25"/>
+=======
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_nl4-wuwxEemsT9yKxugBEg" x="710" y="-25"/>
+>>>>>>> refs/remotes/origin/master
     </children>
+<<<<<<< HEAD
     <children xmi:type="notation:Shape" xmi:id="_d00J8A0lEequ0fE4ldAyBg" type="StereotypeComment">
       <styles xmi:type="notation:TitleStyle" xmi:id="_d00J8Q0lEequ0fE4ldAyBg"/>
       <styles xmi:type="notation:EObjectValueStyle" xmi:id="_d00J8w0lEequ0fE4ldAyBg" name="BASE_ELEMENT">
+=======
+    <children xmi:type="notation:Shape" xmi:id="_nmDW0OwxEemsT9yKxugBEg" type="StereotypeComment">
+      <styles xmi:type="notation:TitleStyle" xmi:id="_nmDW0ewxEemsT9yKxugBEg"/>
+      <styles xmi:type="notation:EObjectValueStyle" xmi:id="_nmDW0-wxEemsT9yKxugBEg" name="BASE_ELEMENT">
+>>>>>>> refs/remotes/origin/master
         <eObjectValue xmi:type="uml:Actor" href="SHS_Project_Management_Definition.uml#_Fv6DAJhDEemfOpj3-Spopg"/>
       </styles>
       <element xsi:nil="true"/>
+<<<<<<< HEAD
       <layoutConstraint xmi:type="notation:Bounds" xmi:id="_d00J8g0lEequ0fE4ldAyBg" x="45" y="400"/>
+=======
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_nmDW0uwxEemsT9yKxugBEg" x="45" y="400"/>
+>>>>>>> refs/remotes/origin/master
     </children>
+<<<<<<< HEAD
     <children xmi:type="notation:Shape" xmi:id="_d063oA0lEequ0fE4ldAyBg" type="StereotypeComment">
       <styles xmi:type="notation:TitleStyle" xmi:id="_d063oQ0lEequ0fE4ldAyBg"/>
       <styles xmi:type="notation:EObjectValueStyle" xmi:id="_d063ow0lEequ0fE4ldAyBg" name="BASE_ELEMENT">
+=======
+    <children xmi:type="notation:Shape" xmi:id="_nmLSoOwxEemsT9yKxugBEg" type="StereotypeComment">
+      <styles xmi:type="notation:TitleStyle" xmi:id="_nmLSoewxEemsT9yKxugBEg"/>
+      <styles xmi:type="notation:EObjectValueStyle" xmi:id="_nmLSo-wxEemsT9yKxugBEg" name="BASE_ELEMENT">
+>>>>>>> refs/remotes/origin/master
         <eObjectValue xmi:type="uml:InformationFlow" href="SHS_Project_Management_Definition.uml#_YzNU0JhDEemfOpj3-Spopg"/>
       </styles>
       <element xsi:nil="true"/>
+<<<<<<< HEAD
       <layoutConstraint xmi:type="notation:Bounds" xmi:id="_d063og0lEequ0fE4ldAyBg" x="45" y="300"/>
+=======
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_nmLSouwxEemsT9yKxugBEg" x="45" y="300"/>
+>>>>>>> refs/remotes/origin/master
     </children>
     <styles xmi:type="notation:StringValueStyle" xmi:id="_sODP0Zg2EemfOpj3-Spopg" name="diagram_compatibility_version" stringValue="1.4.0"/>
     <styles xmi:type="notation:DiagramStyle" xmi:id="_sODP0pg2EemfOpj3-Spopg"/>
@@ -2161,295 +2451,643 @@
       <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_SuzZkJjLEemiJJjEotXc9w" id="(0.75,1.0)"/>
       <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_Su0AoJjLEemiJJjEotXc9w" id="(0.6949152542372882,0.0)"/>
     </edges>
+<<<<<<< HEAD
     <edges xmi:type="notation:Connector" xmi:id="_dw-LxA0lEequ0fE4ldAyBg" type="StereotypeCommentLink" source="_2_W2QJg2EemfOpj3-Spopg" target="_dw-LwA0lEequ0fE4ldAyBg">
       <styles xmi:type="notation:FontStyle" xmi:id="_dw-LxQ0lEequ0fE4ldAyBg"/>
       <styles xmi:type="notation:EObjectValueStyle" xmi:id="_dw-y0A0lEequ0fE4ldAyBg" name="BASE_ELEMENT">
+=======
+    <edges xmi:type="notation:Connector" xmi:id="_nhtCVOwxEemsT9yKxugBEg" type="StereotypeCommentLink" source="_2_W2QJg2EemfOpj3-Spopg" target="_nhtCUOwxEemsT9yKxugBEg">
+      <styles xmi:type="notation:FontStyle" xmi:id="_nhtCVewxEemsT9yKxugBEg"/>
+      <styles xmi:type="notation:EObjectValueStyle" xmi:id="_nhtpYuwxEemsT9yKxugBEg" name="BASE_ELEMENT">
+>>>>>>> refs/remotes/origin/master
         <eObjectValue xmi:type="uml:Class" href="SHS_Project_Management_Definition.uml#_gCDnUFkHEeO46MKyR1zbAg"/>
       </styles>
       <element xsi:nil="true"/>
+<<<<<<< HEAD
       <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_dw-Lxg0lEequ0fE4ldAyBg" points="[0, 0, 0, 0]$[0, 0, 0, 0]"/>
       <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_dw-Lxw0lEequ0fE4ldAyBg"/>
       <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_dw-LyA0lEequ0fE4ldAyBg"/>
+=======
+      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_nhtCVuwxEemsT9yKxugBEg" points="[0, 0, 0, 0]$[0, 0, 0, 0]"/>
+      <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_nhtpYOwxEemsT9yKxugBEg"/>
+      <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_nhtpYewxEemsT9yKxugBEg"/>
+>>>>>>> refs/remotes/origin/master
     </edges>
+<<<<<<< HEAD
     <edges xmi:type="notation:Connector" xmi:id="_dxGupA0lEequ0fE4ldAyBg" type="StereotypeCommentLink" source="_cC1eEJg5EemfOpj3-Spopg" target="_dxGuoA0lEequ0fE4ldAyBg">
       <styles xmi:type="notation:FontStyle" xmi:id="_dxGupQ0lEequ0fE4ldAyBg"/>
       <styles xmi:type="notation:EObjectValueStyle" xmi:id="_dxGuqQ0lEequ0fE4ldAyBg" name="BASE_ELEMENT">
+=======
+    <edges xmi:type="notation:Connector" xmi:id="_nh5PlOwxEemsT9yKxugBEg" type="StereotypeCommentLink" source="_cC1eEJg5EemfOpj3-Spopg" target="_nh5PkOwxEemsT9yKxugBEg">
+      <styles xmi:type="notation:FontStyle" xmi:id="_nh5PlewxEemsT9yKxugBEg"/>
+      <styles xmi:type="notation:EObjectValueStyle" xmi:id="_nh52oOwxEemsT9yKxugBEg" name="BASE_ELEMENT">
+>>>>>>> refs/remotes/origin/master
         <eObjectValue xmi:type="uml:InformationFlow" href="SHS_Project_Management_Definition.uml#_cCuwYJg5EemfOpj3-Spopg"/>
       </styles>
       <element xsi:nil="true"/>
+<<<<<<< HEAD
       <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_dxGupg0lEequ0fE4ldAyBg" points="[0, 0, 0, 0]$[0, 0, 0, 0]"/>
       <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_dxGupw0lEequ0fE4ldAyBg"/>
       <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_dxGuqA0lEequ0fE4ldAyBg"/>
+=======
+      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_nh5PluwxEemsT9yKxugBEg" points="[0, 0, 0, 0]$[0, 0, 0, 0]"/>
+      <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_nh5Pl-wxEemsT9yKxugBEg"/>
+      <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_nh5PmOwxEemsT9yKxugBEg"/>
+>>>>>>> refs/remotes/origin/master
     </edges>
+<<<<<<< HEAD
     <edges xmi:type="notation:Connector" xmi:id="_dxRGsA0lEequ0fE4ldAyBg" type="StereotypeCommentLink" source="_r3zLoJg5EemfOpj3-Spopg" target="_dxQfoA0lEequ0fE4ldAyBg">
       <styles xmi:type="notation:FontStyle" xmi:id="_dxRGsQ0lEequ0fE4ldAyBg"/>
       <styles xmi:type="notation:EObjectValueStyle" xmi:id="_dxRGtQ0lEequ0fE4ldAyBg" name="BASE_ELEMENT">
+=======
+    <edges xmi:type="notation:Connector" xmi:id="_niEOtOwxEemsT9yKxugBEg" type="StereotypeCommentLink" source="_r3zLoJg5EemfOpj3-Spopg" target="_niEOsOwxEemsT9yKxugBEg">
+      <styles xmi:type="notation:FontStyle" xmi:id="_niEOtewxEemsT9yKxugBEg"/>
+      <styles xmi:type="notation:EObjectValueStyle" xmi:id="_niEOuewxEemsT9yKxugBEg" name="BASE_ELEMENT">
+>>>>>>> refs/remotes/origin/master
         <eObjectValue xmi:type="uml:InformationFlow" href="SHS_Project_Management_Definition.uml#_r3tsEJg5EemfOpj3-Spopg"/>
       </styles>
       <element xsi:nil="true"/>
+<<<<<<< HEAD
       <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_dxRGsg0lEequ0fE4ldAyBg" points="[0, 0, 0, 0]$[0, 0, 0, 0]"/>
       <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_dxRGsw0lEequ0fE4ldAyBg"/>
       <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_dxRGtA0lEequ0fE4ldAyBg"/>
+=======
+      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_niEOtuwxEemsT9yKxugBEg" points="[0, 0, 0, 0]$[0, 0, 0, 0]"/>
+      <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_niEOt-wxEemsT9yKxugBEg"/>
+      <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_niEOuOwxEemsT9yKxugBEg"/>
+>>>>>>> refs/remotes/origin/master
     </edges>
+<<<<<<< HEAD
     <edges xmi:type="notation:Connector" xmi:id="_dxbewQ0lEequ0fE4ldAyBg" type="StereotypeCommentLink" source="_Cx8kcJhAEemfOpj3-Spopg" target="_dxa3sA0lEequ0fE4ldAyBg">
       <styles xmi:type="notation:FontStyle" xmi:id="_dxbewg0lEequ0fE4ldAyBg"/>
       <styles xmi:type="notation:EObjectValueStyle" xmi:id="_dxbexg0lEequ0fE4ldAyBg" name="BASE_ELEMENT">
+=======
+    <edges xmi:type="notation:Connector" xmi:id="_niNYoewxEemsT9yKxugBEg" type="StereotypeCommentLink" source="_Cx8kcJhAEemfOpj3-Spopg" target="_niMxkOwxEemsT9yKxugBEg">
+      <styles xmi:type="notation:FontStyle" xmi:id="_niNYouwxEemsT9yKxugBEg"/>
+      <styles xmi:type="notation:EObjectValueStyle" xmi:id="_niNYpuwxEemsT9yKxugBEg" name="BASE_ELEMENT">
+>>>>>>> refs/remotes/origin/master
         <eObjectValue xmi:type="uml:InformationFlow" href="SHS_Project_Management_Definition.uml#_Cx3r8JhAEemfOpj3-Spopg"/>
       </styles>
       <element xsi:nil="true"/>
+<<<<<<< HEAD
       <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_dxbeww0lEequ0fE4ldAyBg" points="[0, 0, 0, 0]$[0, 0, 0, 0]"/>
       <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_dxbexA0lEequ0fE4ldAyBg"/>
       <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_dxbexQ0lEequ0fE4ldAyBg"/>
+=======
+      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_niNYo-wxEemsT9yKxugBEg" points="[0, 0, 0, 0]$[0, 0, 0, 0]"/>
+      <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_niNYpOwxEemsT9yKxugBEg"/>
+      <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_niNYpewxEemsT9yKxugBEg"/>
+>>>>>>> refs/remotes/origin/master
     </edges>
+<<<<<<< HEAD
     <edges xmi:type="notation:Connector" xmi:id="_dxkBpA0lEequ0fE4ldAyBg" type="StereotypeCommentLink" source="_T_TBQJhAEemfOpj3-Spopg" target="_dxkBoA0lEequ0fE4ldAyBg">
       <styles xmi:type="notation:FontStyle" xmi:id="_dxkBpQ0lEequ0fE4ldAyBg"/>
       <styles xmi:type="notation:EObjectValueStyle" xmi:id="_dxkBqQ0lEequ0fE4ldAyBg" name="BASE_ELEMENT">
+=======
+    <edges xmi:type="notation:Connector" xmi:id="_niY-0ewxEemsT9yKxugBEg" type="StereotypeCommentLink" source="_T_TBQJhAEemfOpj3-Spopg" target="_niYXwOwxEemsT9yKxugBEg">
+      <styles xmi:type="notation:FontStyle" xmi:id="_niY-0uwxEemsT9yKxugBEg"/>
+      <styles xmi:type="notation:EObjectValueStyle" xmi:id="_niY-1uwxEemsT9yKxugBEg" name="BASE_ELEMENT">
+>>>>>>> refs/remotes/origin/master
         <eObjectValue xmi:type="uml:InformationFlow" href="SHS_Project_Management_Definition.uml#_T_Ov0JhAEemfOpj3-Spopg"/>
       </styles>
       <element xsi:nil="true"/>
+<<<<<<< HEAD
       <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_dxkBpg0lEequ0fE4ldAyBg" points="[0, 0, 0, 0]$[0, 0, 0, 0]"/>
       <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_dxkBpw0lEequ0fE4ldAyBg"/>
       <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_dxkBqA0lEequ0fE4ldAyBg"/>
+=======
+      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_niY-0-wxEemsT9yKxugBEg" points="[0, 0, 0, 0]$[0, 0, 0, 0]"/>
+      <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_niY-1OwxEemsT9yKxugBEg"/>
+      <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_niY-1ewxEemsT9yKxugBEg"/>
+>>>>>>> refs/remotes/origin/master
     </edges>
+<<<<<<< HEAD
     <edges xmi:type="notation:Connector" xmi:id="_dxrWZA0lEequ0fE4ldAyBg" type="StereotypeCommentLink" source="_7gpQIJg2EemfOpj3-Spopg" target="_dxrWYA0lEequ0fE4ldAyBg">
       <styles xmi:type="notation:FontStyle" xmi:id="_dxrWZQ0lEequ0fE4ldAyBg"/>
       <styles xmi:type="notation:EObjectValueStyle" xmi:id="_dxrWaQ0lEequ0fE4ldAyBg" name="BASE_ELEMENT">
+=======
+    <edges xmi:type="notation:Connector" xmi:id="_niiIwewxEemsT9yKxugBEg" type="StereotypeCommentLink" source="_7gpQIJg2EemfOpj3-Spopg" target="_nihhsOwxEemsT9yKxugBEg">
+      <styles xmi:type="notation:FontStyle" xmi:id="_niiIwuwxEemsT9yKxugBEg"/>
+      <styles xmi:type="notation:EObjectValueStyle" xmi:id="_niiIxuwxEemsT9yKxugBEg" name="BASE_ELEMENT">
+>>>>>>> refs/remotes/origin/master
         <eObjectValue xmi:type="uml:Actor" href="SHS_Project_Management_Definition.uml#_pxh18JgpEemfOpj3-Spopg"/>
       </styles>
       <element xsi:nil="true"/>
+<<<<<<< HEAD
       <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_dxrWZg0lEequ0fE4ldAyBg" points="[0, 0, 0, 0]$[0, 0, 0, 0]"/>
       <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_dxrWZw0lEequ0fE4ldAyBg"/>
       <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_dxrWaA0lEequ0fE4ldAyBg"/>
+=======
+      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_niiIw-wxEemsT9yKxugBEg" points="[0, 0, 0, 0]$[0, 0, 0, 0]"/>
+      <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_niiIxOwxEemsT9yKxugBEg"/>
+      <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_niiIxewxEemsT9yKxugBEg"/>
+>>>>>>> refs/remotes/origin/master
     </edges>
+<<<<<<< HEAD
     <edges xmi:type="notation:Connector" xmi:id="_dx0gVA0lEequ0fE4ldAyBg" type="StereotypeCommentLink" source="_ELC0cJg3EemfOpj3-Spopg" target="_dx0gUA0lEequ0fE4ldAyBg">
       <styles xmi:type="notation:FontStyle" xmi:id="_dx0gVQ0lEequ0fE4ldAyBg"/>
       <styles xmi:type="notation:EObjectValueStyle" xmi:id="_dx0gWQ0lEequ0fE4ldAyBg" name="BASE_ELEMENT">
+=======
+    <edges xmi:type="notation:Connector" xmi:id="_nitu9OwxEemsT9yKxugBEg" type="StereotypeCommentLink" source="_ELC0cJg3EemfOpj3-Spopg" target="_nitu8OwxEemsT9yKxugBEg">
+      <styles xmi:type="notation:FontStyle" xmi:id="_nitu9ewxEemsT9yKxugBEg"/>
+      <styles xmi:type="notation:EObjectValueStyle" xmi:id="_nitu-ewxEemsT9yKxugBEg" name="BASE_ELEMENT">
+>>>>>>> refs/remotes/origin/master
         <eObjectValue xmi:type="uml:InformationFlow" href="SHS_Project_Management_Definition.uml#_EKroEJg3EemfOpj3-Spopg"/>
       </styles>
       <element xsi:nil="true"/>
+<<<<<<< HEAD
       <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_dx0gVg0lEequ0fE4ldAyBg" points="[0, 0, 0, 0]$[0, 0, 0, 0]"/>
       <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_dx0gVw0lEequ0fE4ldAyBg"/>
       <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_dx0gWA0lEequ0fE4ldAyBg"/>
+=======
+      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_nitu9uwxEemsT9yKxugBEg" points="[0, 0, 0, 0]$[0, 0, 0, 0]"/>
+      <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_nitu9-wxEemsT9yKxugBEg"/>
+      <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_nitu-OwxEemsT9yKxugBEg"/>
+>>>>>>> refs/remotes/origin/master
     </edges>
+<<<<<<< HEAD
     <edges xmi:type="notation:Connector" xmi:id="_dx8cJA0lEequ0fE4ldAyBg" type="StereotypeCommentLink" source="_nIMT0Jg3EemfOpj3-Spopg" target="_dx8cIA0lEequ0fE4ldAyBg">
       <styles xmi:type="notation:FontStyle" xmi:id="_dx8cJQ0lEequ0fE4ldAyBg"/>
       <styles xmi:type="notation:EObjectValueStyle" xmi:id="_dx8cKQ0lEequ0fE4ldAyBg" name="BASE_ELEMENT">
+=======
+    <edges xmi:type="notation:Connector" xmi:id="_ni5VIewxEemsT9yKxugBEg" type="StereotypeCommentLink" source="_nIMT0Jg3EemfOpj3-Spopg" target="_ni4uEOwxEemsT9yKxugBEg">
+      <styles xmi:type="notation:FontStyle" xmi:id="_ni5VIuwxEemsT9yKxugBEg"/>
+      <styles xmi:type="notation:EObjectValueStyle" xmi:id="_ni5VJuwxEemsT9yKxugBEg" name="BASE_ELEMENT">
+>>>>>>> refs/remotes/origin/master
         <eObjectValue xmi:type="uml:Actor" href="SHS_Project_Management_Definition.uml#_o9C5QDiAEeGe4_sFLbM3Hw"/>
       </styles>
       <element xsi:nil="true"/>
+<<<<<<< HEAD
       <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_dx8cJg0lEequ0fE4ldAyBg" points="[0, 0, 0, 0]$[0, 0, 0, 0]"/>
       <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_dx8cJw0lEequ0fE4ldAyBg"/>
       <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_dx8cKA0lEequ0fE4ldAyBg"/>
+=======
+      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_ni5VI-wxEemsT9yKxugBEg" points="[0, 0, 0, 0]$[0, 0, 0, 0]"/>
+      <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_ni5VJOwxEemsT9yKxugBEg"/>
+      <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_ni5VJewxEemsT9yKxugBEg"/>
+>>>>>>> refs/remotes/origin/master
     </edges>
+<<<<<<< HEAD
     <edges xmi:type="notation:Connector" xmi:id="_dyE_BA0lEequ0fE4ldAyBg" type="StereotypeCommentLink" source="_lfkeQJg5EemfOpj3-Spopg" target="_dyE_AA0lEequ0fE4ldAyBg">
       <styles xmi:type="notation:FontStyle" xmi:id="_dyE_BQ0lEequ0fE4ldAyBg"/>
       <styles xmi:type="notation:EObjectValueStyle" xmi:id="_dyE_CQ0lEequ0fE4ldAyBg" name="BASE_ELEMENT">
+=======
+    <edges xmi:type="notation:Connector" xmi:id="_njDGIewxEemsT9yKxugBEg" type="StereotypeCommentLink" source="_lfkeQJg5EemfOpj3-Spopg" target="_njCfEOwxEemsT9yKxugBEg">
+      <styles xmi:type="notation:FontStyle" xmi:id="_njDGIuwxEemsT9yKxugBEg"/>
+      <styles xmi:type="notation:EObjectValueStyle" xmi:id="_njDGJuwxEemsT9yKxugBEg" name="BASE_ELEMENT">
+>>>>>>> refs/remotes/origin/master
         <eObjectValue xmi:type="uml:InformationFlow" href="SHS_Project_Management_Definition.uml#_lfb7YJg5EemfOpj3-Spopg"/>
       </styles>
       <element xsi:nil="true"/>
+<<<<<<< HEAD
       <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_dyE_Bg0lEequ0fE4ldAyBg" points="[0, 0, 0, 0]$[0, 0, 0, 0]"/>
       <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_dyE_Bw0lEequ0fE4ldAyBg"/>
       <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_dyE_CA0lEequ0fE4ldAyBg"/>
+=======
+      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_njDGI-wxEemsT9yKxugBEg" points="[0, 0, 0, 0]$[0, 0, 0, 0]"/>
+      <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_njDGJOwxEemsT9yKxugBEg"/>
+      <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_njDGJewxEemsT9yKxugBEg"/>
+>>>>>>> refs/remotes/origin/master
     </edges>
+<<<<<<< HEAD
     <edges xmi:type="notation:Connector" xmi:id="_dyP-IQ0lEequ0fE4ldAyBg" type="StereotypeCommentLink" source="_uKWvAJg3EemfOpj3-Spopg" target="_dyPXEA0lEequ0fE4ldAyBg">
       <styles xmi:type="notation:FontStyle" xmi:id="_dyP-Ig0lEequ0fE4ldAyBg"/>
       <styles xmi:type="notation:EObjectValueStyle" xmi:id="_dyP-Jg0lEequ0fE4ldAyBg" name="BASE_ELEMENT">
+=======
+    <edges xmi:type="notation:Connector" xmi:id="_njOsVOwxEemsT9yKxugBEg" type="StereotypeCommentLink" source="_uKWvAJg3EemfOpj3-Spopg" target="_njOsUOwxEemsT9yKxugBEg">
+      <styles xmi:type="notation:FontStyle" xmi:id="_njOsVewxEemsT9yKxugBEg"/>
+      <styles xmi:type="notation:EObjectValueStyle" xmi:id="_njPTYuwxEemsT9yKxugBEg" name="BASE_ELEMENT">
+>>>>>>> refs/remotes/origin/master
         <eObjectValue xmi:type="uml:Actor" href="SHS_Project_Management_Definition.uml#_oBYiQDiAEeGe4_sFLbM3Hw"/>
       </styles>
       <element xsi:nil="true"/>
+<<<<<<< HEAD
       <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_dyP-Iw0lEequ0fE4ldAyBg" points="[0, 0, 0, 0]$[0, 0, 0, 0]"/>
       <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_dyP-JA0lEequ0fE4ldAyBg"/>
       <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_dyP-JQ0lEequ0fE4ldAyBg"/>
+=======
+      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_njOsVuwxEemsT9yKxugBEg" points="[0, 0, 0, 0]$[0, 0, 0, 0]"/>
+      <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_njPTYOwxEemsT9yKxugBEg"/>
+      <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_njPTYewxEemsT9yKxugBEg"/>
+>>>>>>> refs/remotes/origin/master
     </edges>
+<<<<<<< HEAD
     <edges xmi:type="notation:Connector" xmi:id="_dyZIEA0lEequ0fE4ldAyBg" type="StereotypeCommentLink" source="_HZrkkJhAEemfOpj3-Spopg" target="_dyYhAA0lEequ0fE4ldAyBg">
       <styles xmi:type="notation:FontStyle" xmi:id="_dyZIEQ0lEequ0fE4ldAyBg"/>
       <styles xmi:type="notation:EObjectValueStyle" xmi:id="_dyZIFQ0lEequ0fE4ldAyBg" name="BASE_ELEMENT">
+=======
+    <edges xmi:type="notation:Connector" xmi:id="_njX2ROwxEemsT9yKxugBEg" type="StereotypeCommentLink" source="_HZrkkJhAEemfOpj3-Spopg" target="_njX2QOwxEemsT9yKxugBEg">
+      <styles xmi:type="notation:FontStyle" xmi:id="_njX2RewxEemsT9yKxugBEg"/>
+      <styles xmi:type="notation:EObjectValueStyle" xmi:id="_njX2SewxEemsT9yKxugBEg" name="BASE_ELEMENT">
+>>>>>>> refs/remotes/origin/master
         <eObjectValue xmi:type="uml:InformationFlow" href="SHS_Project_Management_Definition.uml#_HZnTIJhAEemfOpj3-Spopg"/>
       </styles>
       <element xsi:nil="true"/>
+<<<<<<< HEAD
       <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_dyZIEg0lEequ0fE4ldAyBg" points="[0, 0, 0, 0]$[0, 0, 0, 0]"/>
       <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_dyZIEw0lEequ0fE4ldAyBg"/>
       <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_dyZIFA0lEequ0fE4ldAyBg"/>
+=======
+      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_njX2RuwxEemsT9yKxugBEg" points="[0, 0, 0, 0]$[0, 0, 0, 0]"/>
+      <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_njX2R-wxEemsT9yKxugBEg"/>
+      <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_njX2SOwxEemsT9yKxugBEg"/>
+>>>>>>> refs/remotes/origin/master
     </edges>
+<<<<<<< HEAD
     <edges xmi:type="notation:Connector" xmi:id="_dykHNA0lEequ0fE4ldAyBg" type="StereotypeCommentLink" source="_4G3bcJg3EemfOpj3-Spopg" target="_dykHMA0lEequ0fE4ldAyBg">
       <styles xmi:type="notation:FontStyle" xmi:id="_dykHNQ0lEequ0fE4ldAyBg"/>
       <styles xmi:type="notation:EObjectValueStyle" xmi:id="_dykHOQ0lEequ0fE4ldAyBg" name="BASE_ELEMENT">
+=======
+    <edges xmi:type="notation:Connector" xmi:id="_njiOUewxEemsT9yKxugBEg" type="StereotypeCommentLink" source="_4G3bcJg3EemfOpj3-Spopg" target="_njhnQOwxEemsT9yKxugBEg">
+      <styles xmi:type="notation:FontStyle" xmi:id="_njiOUuwxEemsT9yKxugBEg"/>
+      <styles xmi:type="notation:EObjectValueStyle" xmi:id="_njiOVuwxEemsT9yKxugBEg" name="BASE_ELEMENT">
+>>>>>>> refs/remotes/origin/master
         <eObjectValue xmi:type="uml:Actor" href="SHS_Project_Management_Definition.uml#_0Qu_wJgpEemfOpj3-Spopg"/>
       </styles>
       <element xsi:nil="true"/>
+<<<<<<< HEAD
       <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_dykHNg0lEequ0fE4ldAyBg" points="[0, 0, 0, 0]$[0, 0, 0, 0]"/>
       <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_dykHNw0lEequ0fE4ldAyBg"/>
       <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_dykHOA0lEequ0fE4ldAyBg"/>
+=======
+      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_njiOU-wxEemsT9yKxugBEg" points="[0, 0, 0, 0]$[0, 0, 0, 0]"/>
+      <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_njiOVOwxEemsT9yKxugBEg"/>
+      <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_njiOVewxEemsT9yKxugBEg"/>
+>>>>>>> refs/remotes/origin/master
     </edges>
+<<<<<<< HEAD
     <edges xmi:type="notation:Connector" xmi:id="_dyt4MA0lEequ0fE4ldAyBg" type="StereotypeCommentLink" source="_1q9HwJg5EemfOpj3-Spopg" target="_dytRIA0lEequ0fE4ldAyBg">
       <styles xmi:type="notation:FontStyle" xmi:id="_dyt4MQ0lEequ0fE4ldAyBg"/>
       <styles xmi:type="notation:EObjectValueStyle" xmi:id="_dyt4NQ0lEequ0fE4ldAyBg" name="BASE_ELEMENT">
+=======
+    <edges xmi:type="notation:Connector" xmi:id="_njpjFOwxEemsT9yKxugBEg" type="StereotypeCommentLink" source="_1q9HwJg5EemfOpj3-Spopg" target="_njpjEOwxEemsT9yKxugBEg">
+      <styles xmi:type="notation:FontStyle" xmi:id="_njpjFewxEemsT9yKxugBEg"/>
+      <styles xmi:type="notation:EObjectValueStyle" xmi:id="_njpjGewxEemsT9yKxugBEg" name="BASE_ELEMENT">
+>>>>>>> refs/remotes/origin/master
         <eObjectValue xmi:type="uml:InformationFlow" href="SHS_Project_Management_Definition.uml#_1qyvsJg5EemfOpj3-Spopg"/>
       </styles>
       <element xsi:nil="true"/>
+<<<<<<< HEAD
       <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_dyt4Mg0lEequ0fE4ldAyBg" points="[0, 0, 0, 0]$[0, 0, 0, 0]"/>
       <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_dyt4Mw0lEequ0fE4ldAyBg"/>
       <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_dyt4NA0lEequ0fE4ldAyBg"/>
+=======
+      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_njpjFuwxEemsT9yKxugBEg" points="[0, 0, 0, 0]$[0, 0, 0, 0]"/>
+      <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_njpjF-wxEemsT9yKxugBEg"/>
+      <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_njpjGOwxEemsT9yKxugBEg"/>
+>>>>>>> refs/remotes/origin/master
     </edges>
+<<<<<<< HEAD
     <edges xmi:type="notation:Connector" xmi:id="_dy3CJA0lEequ0fE4ldAyBg" type="StereotypeCommentLink" source="_4fZQMJg3EemfOpj3-Spopg" target="_dy3CIA0lEequ0fE4ldAyBg">
       <styles xmi:type="notation:FontStyle" xmi:id="_dy3CJQ0lEequ0fE4ldAyBg"/>
       <styles xmi:type="notation:EObjectValueStyle" xmi:id="_dy3CKQ0lEequ0fE4ldAyBg" name="BASE_ELEMENT">
+=======
+    <edges xmi:type="notation:Connector" xmi:id="_nj1wVOwxEemsT9yKxugBEg" type="StereotypeCommentLink" source="_4fZQMJg3EemfOpj3-Spopg" target="_nj1wUOwxEemsT9yKxugBEg">
+      <styles xmi:type="notation:FontStyle" xmi:id="_nj1wVewxEemsT9yKxugBEg"/>
+      <styles xmi:type="notation:EObjectValueStyle" xmi:id="_nj2XYOwxEemsT9yKxugBEg" name="BASE_ELEMENT">
+>>>>>>> refs/remotes/origin/master
         <eObjectValue xmi:type="uml:Actor" href="SHS_Project_Management_Definition.uml#_2x-0gJgpEemfOpj3-Spopg"/>
       </styles>
       <element xsi:nil="true"/>
+<<<<<<< HEAD
       <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_dy3CJg0lEequ0fE4ldAyBg" points="[0, 0, 0, 0]$[0, 0, 0, 0]"/>
       <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_dy3CJw0lEequ0fE4ldAyBg"/>
       <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_dy3CKA0lEequ0fE4ldAyBg"/>
+=======
+      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_nj1wVuwxEemsT9yKxugBEg" points="[0, 0, 0, 0]$[0, 0, 0, 0]"/>
+      <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_nj1wV-wxEemsT9yKxugBEg"/>
+      <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_nj1wWOwxEemsT9yKxugBEg"/>
+>>>>>>> refs/remotes/origin/master
     </edges>
+<<<<<<< HEAD
     <edges xmi:type="notation:Connector" xmi:id="_dy_lBA0lEequ0fE4ldAyBg" type="StereotypeCommentLink" source="_fEqBkJg_EemfOpj3-Spopg" target="_dy_lAA0lEequ0fE4ldAyBg">
       <styles xmi:type="notation:FontStyle" xmi:id="_dy_lBQ0lEequ0fE4ldAyBg"/>
       <styles xmi:type="notation:EObjectValueStyle" xmi:id="_dy_lCQ0lEequ0fE4ldAyBg" name="BASE_ELEMENT">
+=======
+    <edges xmi:type="notation:Connector" xmi:id="_nj_hUewxEemsT9yKxugBEg" type="StereotypeCommentLink" source="_fEqBkJg_EemfOpj3-Spopg" target="_nj-6QOwxEemsT9yKxugBEg">
+      <styles xmi:type="notation:FontStyle" xmi:id="_nj_hUuwxEemsT9yKxugBEg"/>
+      <styles xmi:type="notation:EObjectValueStyle" xmi:id="_nj_hVuwxEemsT9yKxugBEg" name="BASE_ELEMENT">
+>>>>>>> refs/remotes/origin/master
         <eObjectValue xmi:type="uml:InformationFlow" href="SHS_Project_Management_Definition.uml#_fElwIJg_EemfOpj3-Spopg"/>
       </styles>
       <element xsi:nil="true"/>
+<<<<<<< HEAD
       <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_dy_lBg0lEequ0fE4ldAyBg" points="[0, 0, 0, 0]$[0, 0, 0, 0]"/>
       <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_dy_lBw0lEequ0fE4ldAyBg"/>
       <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_dy_lCA0lEequ0fE4ldAyBg"/>
+=======
+      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_nj_hU-wxEemsT9yKxugBEg" points="[0, 0, 0, 0]$[0, 0, 0, 0]"/>
+      <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_nj_hVOwxEemsT9yKxugBEg"/>
+      <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_nj_hVewxEemsT9yKxugBEg"/>
+>>>>>>> refs/remotes/origin/master
     </edges>
+<<<<<<< HEAD
     <edges xmi:type="notation:Connector" xmi:id="_dzNncQ0lEequ0fE4ldAyBg" type="StereotypeCommentLink" source="_wPjEcJg4EemfOpj3-Spopg" target="_dzNAYA0lEequ0fE4ldAyBg">
       <styles xmi:type="notation:FontStyle" xmi:id="_dzNncg0lEequ0fE4ldAyBg"/>
       <styles xmi:type="notation:EObjectValueStyle" xmi:id="_dzNndg0lEequ0fE4ldAyBg" name="BASE_ELEMENT">
+=======
+    <edges xmi:type="notation:Connector" xmi:id="_nkKgdOwxEemsT9yKxugBEg" type="StereotypeCommentLink" source="_wPjEcJg4EemfOpj3-Spopg" target="_nkKgcOwxEemsT9yKxugBEg">
+      <styles xmi:type="notation:FontStyle" xmi:id="_nkKgdewxEemsT9yKxugBEg"/>
+      <styles xmi:type="notation:EObjectValueStyle" xmi:id="_nkKgeewxEemsT9yKxugBEg" name="BASE_ELEMENT">
+>>>>>>> refs/remotes/origin/master
         <eObjectValue xmi:type="uml:Actor" href="SHS_Project_Management_Definition.uml#_zSl8gJgpEemfOpj3-Spopg"/>
       </styles>
       <element xsi:nil="true"/>
+<<<<<<< HEAD
       <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_dzNncw0lEequ0fE4ldAyBg" points="[0, 0, 0, 0]$[0, 0, 0, 0]"/>
       <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_dzNndA0lEequ0fE4ldAyBg"/>
       <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_dzNndQ0lEequ0fE4ldAyBg"/>
+=======
+      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_nkKgduwxEemsT9yKxugBEg" points="[0, 0, 0, 0]$[0, 0, 0, 0]"/>
+      <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_nkKgd-wxEemsT9yKxugBEg"/>
+      <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_nkKgeOwxEemsT9yKxugBEg"/>
+>>>>>>> refs/remotes/origin/master
     </edges>
+<<<<<<< HEAD
     <edges xmi:type="notation:Connector" xmi:id="_dzWKUA0lEequ0fE4ldAyBg" type="StereotypeCommentLink" source="_YnwPkJg_EemfOpj3-Spopg" target="_dzVjQA0lEequ0fE4ldAyBg">
       <styles xmi:type="notation:FontStyle" xmi:id="_dzWKUQ0lEequ0fE4ldAyBg"/>
       <styles xmi:type="notation:EObjectValueStyle" xmi:id="_dzWKVQ0lEequ0fE4ldAyBg" name="BASE_ELEMENT">
+=======
+    <edges xmi:type="notation:Connector" xmi:id="_nkTqZOwxEemsT9yKxugBEg" type="StereotypeCommentLink" source="_YnwPkJg_EemfOpj3-Spopg" target="_nkTqYOwxEemsT9yKxugBEg">
+      <styles xmi:type="notation:FontStyle" xmi:id="_nkTqZewxEemsT9yKxugBEg"/>
+      <styles xmi:type="notation:EObjectValueStyle" xmi:id="_nkTqaewxEemsT9yKxugBEg" name="BASE_ELEMENT">
+>>>>>>> refs/remotes/origin/master
         <eObjectValue xmi:type="uml:InformationFlow" href="SHS_Project_Management_Definition.uml#_YnqI8Jg_EemfOpj3-Spopg"/>
       </styles>
       <element xsi:nil="true"/>
+<<<<<<< HEAD
       <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_dzWKUg0lEequ0fE4ldAyBg" points="[0, 0, 0, 0]$[0, 0, 0, 0]"/>
       <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_dzWKUw0lEequ0fE4ldAyBg"/>
       <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_dzWKVA0lEequ0fE4ldAyBg"/>
+=======
+      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_nkTqZuwxEemsT9yKxugBEg" points="[0, 0, 0, 0]$[0, 0, 0, 0]"/>
+      <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_nkTqZ-wxEemsT9yKxugBEg"/>
+      <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_nkTqaOwxEemsT9yKxugBEg"/>
+>>>>>>> refs/remotes/origin/master
     </edges>
+<<<<<<< HEAD
     <edges xmi:type="notation:Connector" xmi:id="_dzgiYQ0lEequ0fE4ldAyBg" type="StereotypeCommentLink" source="_wv9C0Jg4EemfOpj3-Spopg" target="_dzf7UA0lEequ0fE4ldAyBg">
       <styles xmi:type="notation:FontStyle" xmi:id="_dzgiYg0lEequ0fE4ldAyBg"/>
       <styles xmi:type="notation:EObjectValueStyle" xmi:id="_dzgiZg0lEequ0fE4ldAyBg" name="BASE_ELEMENT">
+=======
+    <edges xmi:type="notation:Connector" xmi:id="_nkhs1OwxEemsT9yKxugBEg" type="StereotypeCommentLink" source="_wv9C0Jg4EemfOpj3-Spopg" target="_nkhs0OwxEemsT9yKxugBEg">
+      <styles xmi:type="notation:FontStyle" xmi:id="_nkhs1ewxEemsT9yKxugBEg"/>
+      <styles xmi:type="notation:EObjectValueStyle" xmi:id="_nkhs2ewxEemsT9yKxugBEg" name="BASE_ELEMENT">
+>>>>>>> refs/remotes/origin/master
         <eObjectValue xmi:type="uml:Actor" href="SHS_Project_Management_Definition.uml#_67luMJgpEemfOpj3-Spopg"/>
       </styles>
       <element xsi:nil="true"/>
+<<<<<<< HEAD
       <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_dzgiYw0lEequ0fE4ldAyBg" points="[0, 0, 0, 0]$[0, 0, 0, 0]"/>
       <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_dzgiZA0lEequ0fE4ldAyBg"/>
       <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_dzgiZQ0lEequ0fE4ldAyBg"/>
+=======
+      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_nkhs1uwxEemsT9yKxugBEg" points="[0, 0, 0, 0]$[0, 0, 0, 0]"/>
+      <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_nkhs1-wxEemsT9yKxugBEg"/>
+      <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_nkhs2OwxEemsT9yKxugBEg"/>
+>>>>>>> refs/remotes/origin/master
     </edges>
+<<<<<<< HEAD
     <edges xmi:type="notation:Connector" xmi:id="_dzoeNA0lEequ0fE4ldAyBg" type="StereotypeCommentLink" source="_5DiI8JhAEemfOpj3-Spopg" target="_dzoeMA0lEequ0fE4ldAyBg">
       <styles xmi:type="notation:FontStyle" xmi:id="_dzoeNQ0lEequ0fE4ldAyBg"/>
       <styles xmi:type="notation:EObjectValueStyle" xmi:id="_dzoeOQ0lEequ0fE4ldAyBg" name="BASE_ELEMENT">
+=======
+    <edges xmi:type="notation:Connector" xmi:id="_nksr8ewxEemsT9yKxugBEg" type="StereotypeCommentLink" source="_5DiI8JhAEemfOpj3-Spopg" target="_nksE4OwxEemsT9yKxugBEg">
+      <styles xmi:type="notation:FontStyle" xmi:id="_nksr8uwxEemsT9yKxugBEg"/>
+      <styles xmi:type="notation:EObjectValueStyle" xmi:id="_nksr9uwxEemsT9yKxugBEg" name="BASE_ELEMENT">
+>>>>>>> refs/remotes/origin/master
         <eObjectValue xmi:type="uml:Actor" href="SHS_Project_Management_Definition.uml#_2SUlkJhAEemfOpj3-Spopg"/>
       </styles>
       <element xsi:nil="true"/>
+<<<<<<< HEAD
       <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_dzoeNg0lEequ0fE4ldAyBg" points="[0, 0, 0, 0]$[0, 0, 0, 0]"/>
       <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_dzoeNw0lEequ0fE4ldAyBg"/>
       <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_dzoeOA0lEequ0fE4ldAyBg"/>
+=======
+      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_nksr8-wxEemsT9yKxugBEg" points="[0, 0, 0, 0]$[0, 0, 0, 0]"/>
+      <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_nksr9OwxEemsT9yKxugBEg"/>
+      <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_nksr9ewxEemsT9yKxugBEg"/>
+>>>>>>> refs/remotes/origin/master
     </edges>
+<<<<<<< HEAD
     <edges xmi:type="notation:Connector" xmi:id="_dzvy8A0lEequ0fE4ldAyBg" type="StereotypeCommentLink" source="_B-U5sJhBEemfOpj3-Spopg" target="_dzvL4A0lEequ0fE4ldAyBg">
       <styles xmi:type="notation:FontStyle" xmi:id="_dzvy8Q0lEequ0fE4ldAyBg"/>
       <styles xmi:type="notation:EObjectValueStyle" xmi:id="_dzvy9Q0lEequ0fE4ldAyBg" name="BASE_ELEMENT">
+=======
+    <edges xmi:type="notation:Connector" xmi:id="_nk0AtOwxEemsT9yKxugBEg" type="StereotypeCommentLink" source="_B-U5sJhBEemfOpj3-Spopg" target="_nk0AsOwxEemsT9yKxugBEg">
+      <styles xmi:type="notation:FontStyle" xmi:id="_nk0AtewxEemsT9yKxugBEg"/>
+      <styles xmi:type="notation:EObjectValueStyle" xmi:id="_nk0AuewxEemsT9yKxugBEg" name="BASE_ELEMENT">
+>>>>>>> refs/remotes/origin/master
         <eObjectValue xmi:type="uml:InformationFlow" href="SHS_Project_Management_Definition.uml#_B-QoQJhBEemfOpj3-Spopg"/>
       </styles>
       <element xsi:nil="true"/>
+<<<<<<< HEAD
       <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_dzvy8g0lEequ0fE4ldAyBg" points="[0, 0, 0, 0]$[0, 0, 0, 0]"/>
       <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_dzvy8w0lEequ0fE4ldAyBg"/>
       <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_dzvy9A0lEequ0fE4ldAyBg"/>
+=======
+      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_nk0AtuwxEemsT9yKxugBEg" points="[0, 0, 0, 0]$[0, 0, 0, 0]"/>
+      <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_nk0At-wxEemsT9yKxugBEg"/>
+      <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_nk0AuOwxEemsT9yKxugBEg"/>
+>>>>>>> refs/remotes/origin/master
     </edges>
+<<<<<<< HEAD
     <edges xmi:type="notation:Connector" xmi:id="_dz6LBA0lEequ0fE4ldAyBg" type="StereotypeCommentLink" source="_Z6O5MJhBEemfOpj3-Spopg" target="_dz6LAA0lEequ0fE4ldAyBg">
       <styles xmi:type="notation:FontStyle" xmi:id="_dz6LBQ0lEequ0fE4ldAyBg"/>
       <styles xmi:type="notation:EObjectValueStyle" xmi:id="_dz6yEA0lEequ0fE4ldAyBg" name="BASE_ELEMENT">
+=======
+    <edges xmi:type="notation:Connector" xmi:id="_nk9xtOwxEemsT9yKxugBEg" type="StereotypeCommentLink" source="_Z6O5MJhBEemfOpj3-Spopg" target="_nk9xsOwxEemsT9yKxugBEg">
+      <styles xmi:type="notation:FontStyle" xmi:id="_nk9xtewxEemsT9yKxugBEg"/>
+      <styles xmi:type="notation:EObjectValueStyle" xmi:id="_nk-YwOwxEemsT9yKxugBEg" name="BASE_ELEMENT">
+>>>>>>> refs/remotes/origin/master
         <eObjectValue xmi:type="uml:Actor" href="SHS_Project_Management_Definition.uml#_MoXagJhBEemfOpj3-Spopg"/>
       </styles>
       <element xsi:nil="true"/>
+<<<<<<< HEAD
       <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_dz6LBg0lEequ0fE4ldAyBg" points="[0, 0, 0, 0]$[0, 0, 0, 0]"/>
       <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_dz6LBw0lEequ0fE4ldAyBg"/>
       <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_dz6LCA0lEequ0fE4ldAyBg"/>
+=======
+      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_nk9xtuwxEemsT9yKxugBEg" points="[0, 0, 0, 0]$[0, 0, 0, 0]"/>
+      <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_nk9xt-wxEemsT9yKxugBEg"/>
+      <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_nk9xuOwxEemsT9yKxugBEg"/>
+>>>>>>> refs/remotes/origin/master
     </edges>
+<<<<<<< HEAD
     <edges xmi:type="notation:Connector" xmi:id="_d0DU9A0lEequ0fE4ldAyBg" type="StereotypeCommentLink" source="_y0FusJhBEemfOpj3-Spopg" target="_d0DU8A0lEequ0fE4ldAyBg">
       <styles xmi:type="notation:FontStyle" xmi:id="_d0DU9Q0lEequ0fE4ldAyBg"/>
       <styles xmi:type="notation:EObjectValueStyle" xmi:id="_d0DU-Q0lEequ0fE4ldAyBg" name="BASE_ELEMENT">
+=======
+    <edges xmi:type="notation:Connector" xmi:id="_nlFtgewxEemsT9yKxugBEg" type="StereotypeCommentLink" source="_y0FusJhBEemfOpj3-Spopg" target="_nlFGcOwxEemsT9yKxugBEg">
+      <styles xmi:type="notation:FontStyle" xmi:id="_nlFtguwxEemsT9yKxugBEg"/>
+      <styles xmi:type="notation:EObjectValueStyle" xmi:id="_nlFthuwxEemsT9yKxugBEg" name="BASE_ELEMENT">
+>>>>>>> refs/remotes/origin/master
         <eObjectValue xmi:type="uml:InformationFlow" href="SHS_Project_Management_Definition.uml#_yz_oEJhBEemfOpj3-Spopg"/>
       </styles>
       <element xsi:nil="true"/>
+<<<<<<< HEAD
       <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_d0DU9g0lEequ0fE4ldAyBg" points="[0, 0, 0, 0]$[0, 0, 0, 0]"/>
       <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_d0DU9w0lEequ0fE4ldAyBg"/>
       <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_d0DU-A0lEequ0fE4ldAyBg"/>
+=======
+      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_nlFtg-wxEemsT9yKxugBEg" points="[0, 0, 0, 0]$[0, 0, 0, 0]"/>
+      <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_nlFthOwxEemsT9yKxugBEg"/>
+      <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_nlFthewxEemsT9yKxugBEg"/>
+>>>>>>> refs/remotes/origin/master
     </edges>
+<<<<<<< HEAD
     <edges xmi:type="notation:Connector" xmi:id="_d0NtBA0lEequ0fE4ldAyBg" type="StereotypeCommentLink" source="_aM7ywJhBEemfOpj3-Spopg" target="_d0NtAA0lEequ0fE4ldAyBg">
       <styles xmi:type="notation:FontStyle" xmi:id="_d0NtBQ0lEequ0fE4ldAyBg"/>
       <styles xmi:type="notation:EObjectValueStyle" xmi:id="_d0NtCQ0lEequ0fE4ldAyBg" name="BASE_ELEMENT">
+=======
+    <edges xmi:type="notation:Connector" xmi:id="_nlQspOwxEemsT9yKxugBEg" type="StereotypeCommentLink" source="_aM7ywJhBEemfOpj3-Spopg" target="_nlQsoOwxEemsT9yKxugBEg">
+      <styles xmi:type="notation:FontStyle" xmi:id="_nlQspewxEemsT9yKxugBEg"/>
+      <styles xmi:type="notation:EObjectValueStyle" xmi:id="_nlRTsOwxEemsT9yKxugBEg" name="BASE_ELEMENT">
+>>>>>>> refs/remotes/origin/master
         <eObjectValue xmi:type="uml:Actor" href="SHS_Project_Management_Definition.uml#_OxDlUJhBEemfOpj3-Spopg"/>
       </styles>
       <element xsi:nil="true"/>
+<<<<<<< HEAD
       <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_d0NtBg0lEequ0fE4ldAyBg" points="[0, 0, 0, 0]$[0, 0, 0, 0]"/>
       <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_d0NtBw0lEequ0fE4ldAyBg"/>
       <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_d0NtCA0lEequ0fE4ldAyBg"/>
+=======
+      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_nlQspuwxEemsT9yKxugBEg" points="[0, 0, 0, 0]$[0, 0, 0, 0]"/>
+      <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_nlQsp-wxEemsT9yKxugBEg"/>
+      <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_nlQsqOwxEemsT9yKxugBEg"/>
+>>>>>>> refs/remotes/origin/master
     </edges>
+<<<<<<< HEAD
     <edges xmi:type="notation:Connector" xmi:id="_d0WP4Q0lEequ0fE4ldAyBg" type="StereotypeCommentLink" source="_CKLu8JhCEemfOpj3-Spopg" target="_d0Vo0A0lEequ0fE4ldAyBg">
       <styles xmi:type="notation:FontStyle" xmi:id="_d0WP4g0lEequ0fE4ldAyBg"/>
       <styles xmi:type="notation:EObjectValueStyle" xmi:id="_d0WP5g0lEequ0fE4ldAyBg" name="BASE_ELEMENT">
+=======
+    <edges xmi:type="notation:Connector" xmi:id="_nladoOwxEemsT9yKxugBEg" type="StereotypeCommentLink" source="_CKLu8JhCEemfOpj3-Spopg" target="_nlZ2kOwxEemsT9yKxugBEg">
+      <styles xmi:type="notation:FontStyle" xmi:id="_nladoewxEemsT9yKxugBEg"/>
+      <styles xmi:type="notation:EObjectValueStyle" xmi:id="_nladpewxEemsT9yKxugBEg" name="BASE_ELEMENT">
+>>>>>>> refs/remotes/origin/master
         <eObjectValue xmi:type="uml:InformationFlow" href="SHS_Project_Management_Definition.uml#_CKG2cJhCEemfOpj3-Spopg"/>
       </styles>
       <element xsi:nil="true"/>
+<<<<<<< HEAD
       <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_d0WP4w0lEequ0fE4ldAyBg" points="[0, 0, 0, 0]$[0, 0, 0, 0]"/>
       <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_d0WP5A0lEequ0fE4ldAyBg"/>
       <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_d0WP5Q0lEequ0fE4ldAyBg"/>
+=======
+      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_nladouwxEemsT9yKxugBEg" points="[0, 0, 0, 0]$[0, 0, 0, 0]"/>
+      <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_nlado-wxEemsT9yKxugBEg"/>
+      <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_nladpOwxEemsT9yKxugBEg"/>
+>>>>>>> refs/remotes/origin/master
     </edges>
+<<<<<<< HEAD
     <edges xmi:type="notation:Connector" xmi:id="_d0dkoQ0lEequ0fE4ldAyBg" type="StereotypeCommentLink" source="_afydUJhBEemfOpj3-Spopg" target="_d0c9kA0lEequ0fE4ldAyBg">
       <styles xmi:type="notation:FontStyle" xmi:id="_d0dkog0lEequ0fE4ldAyBg"/>
       <styles xmi:type="notation:EObjectValueStyle" xmi:id="_d0dkpg0lEequ0fE4ldAyBg" name="BASE_ELEMENT">
+=======
+    <edges xmi:type="notation:Connector" xmi:id="_nlmD1OwxEemsT9yKxugBEg" type="StereotypeCommentLink" source="_afydUJhBEemfOpj3-Spopg" target="_nlmD0OwxEemsT9yKxugBEg">
+      <styles xmi:type="notation:FontStyle" xmi:id="_nlmD1ewxEemsT9yKxugBEg"/>
+      <styles xmi:type="notation:EObjectValueStyle" xmi:id="_nlmD2ewxEemsT9yKxugBEg" name="BASE_ELEMENT">
+>>>>>>> refs/remotes/origin/master
         <eObjectValue xmi:type="uml:Actor" href="SHS_Project_Management_Definition.uml#_Sl4h0JhBEemfOpj3-Spopg"/>
       </styles>
       <element xsi:nil="true"/>
+<<<<<<< HEAD
       <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_d0dkow0lEequ0fE4ldAyBg" points="[0, 0, 0, 0]$[0, 0, 0, 0]"/>
       <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_d0dkpA0lEequ0fE4ldAyBg"/>
       <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_d0dkpQ0lEequ0fE4ldAyBg"/>
+=======
+      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_nlmD1uwxEemsT9yKxugBEg" points="[0, 0, 0, 0]$[0, 0, 0, 0]"/>
+      <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_nlmD1-wxEemsT9yKxugBEg"/>
+      <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_nlmD2OwxEemsT9yKxugBEg"/>
+>>>>>>> refs/remotes/origin/master
     </edges>
+<<<<<<< HEAD
     <edges xmi:type="notation:Connector" xmi:id="_d0lgdA0lEequ0fE4ldAyBg" type="StereotypeCommentLink" source="_FnwCAJhCEemfOpj3-Spopg" target="_d0lgcA0lEequ0fE4ldAyBg">
       <styles xmi:type="notation:FontStyle" xmi:id="_d0lgdQ0lEequ0fE4ldAyBg"/>
       <styles xmi:type="notation:EObjectValueStyle" xmi:id="_d0lgeQ0lEequ0fE4ldAyBg" name="BASE_ELEMENT">
+=======
+    <edges xmi:type="notation:Connector" xmi:id="_nlv01OwxEemsT9yKxugBEg" type="StereotypeCommentLink" source="_FnwCAJhCEemfOpj3-Spopg" target="_nlv00OwxEemsT9yKxugBEg">
+      <styles xmi:type="notation:FontStyle" xmi:id="_nlv01ewxEemsT9yKxugBEg"/>
+      <styles xmi:type="notation:EObjectValueStyle" xmi:id="_nlv02ewxEemsT9yKxugBEg" name="BASE_ELEMENT">
+>>>>>>> refs/remotes/origin/master
         <eObjectValue xmi:type="uml:InformationFlow" href="SHS_Project_Management_Definition.uml#_FnrJgJhCEemfOpj3-Spopg"/>
       </styles>
       <element xsi:nil="true"/>
+<<<<<<< HEAD
       <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_d0lgdg0lEequ0fE4ldAyBg" points="[0, 0, 0, 0]$[0, 0, 0, 0]"/>
       <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_d0lgdw0lEequ0fE4ldAyBg"/>
       <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_d0lgeA0lEequ0fE4ldAyBg"/>
+=======
+      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_nlv01uwxEemsT9yKxugBEg" points="[0, 0, 0, 0]$[0, 0, 0, 0]"/>
+      <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_nlv01-wxEemsT9yKxugBEg"/>
+      <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_nlv02OwxEemsT9yKxugBEg"/>
+>>>>>>> refs/remotes/origin/master
     </edges>
+<<<<<<< HEAD
     <edges xmi:type="notation:Connector" xmi:id="_d0s1NA0lEequ0fE4ldAyBg" type="StereotypeCommentLink" source="_StH-kJjLEemiJJjEotXc9w" target="_d0s1MA0lEequ0fE4ldAyBg">
       <styles xmi:type="notation:FontStyle" xmi:id="_d0s1NQ0lEequ0fE4ldAyBg"/>
       <styles xmi:type="notation:EObjectValueStyle" xmi:id="_d0s1OQ0lEequ0fE4ldAyBg" name="BASE_ELEMENT">
+=======
+    <edges xmi:type="notation:Connector" xmi:id="_nl4-xOwxEemsT9yKxugBEg" type="StereotypeCommentLink" source="_StH-kJjLEemiJJjEotXc9w" target="_nl4-wOwxEemsT9yKxugBEg">
+      <styles xmi:type="notation:FontStyle" xmi:id="_nl4-xewxEemsT9yKxugBEg"/>
+      <styles xmi:type="notation:EObjectValueStyle" xmi:id="_nl4-yewxEemsT9yKxugBEg" name="BASE_ELEMENT">
+>>>>>>> refs/remotes/origin/master
         <eObjectValue xmi:type="uml:InformationFlow" href="SHS_Project_Management_Definition.uml#_StB38JjLEemiJJjEotXc9w"/>
       </styles>
       <element xsi:nil="true"/>
+<<<<<<< HEAD
       <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_d0s1Ng0lEequ0fE4ldAyBg" points="[0, 0, 0, 0]$[0, 0, 0, 0]"/>
       <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_d0s1Nw0lEequ0fE4ldAyBg"/>
       <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_d0s1OA0lEequ0fE4ldAyBg"/>
+=======
+      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_nl4-xuwxEemsT9yKxugBEg" points="[0, 0, 0, 0]$[0, 0, 0, 0]"/>
+      <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_nl4-x-wxEemsT9yKxugBEg"/>
+      <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_nl4-yOwxEemsT9yKxugBEg"/>
+>>>>>>> refs/remotes/origin/master
     </edges>
+<<<<<<< HEAD
     <edges xmi:type="notation:Connector" xmi:id="_d00J9A0lEequ0fE4ldAyBg" type="StereotypeCommentLink" source="_GOZV0JhDEemfOpj3-Spopg" target="_d00J8A0lEequ0fE4ldAyBg">
       <styles xmi:type="notation:FontStyle" xmi:id="_d00J9Q0lEequ0fE4ldAyBg"/>
       <styles xmi:type="notation:EObjectValueStyle" xmi:id="_d00xAA0lEequ0fE4ldAyBg" name="BASE_ELEMENT">
+=======
+    <edges xmi:type="notation:Connector" xmi:id="_nmDW1OwxEemsT9yKxugBEg" type="StereotypeCommentLink" source="_GOZV0JhDEemfOpj3-Spopg" target="_nmDW0OwxEemsT9yKxugBEg">
+      <styles xmi:type="notation:FontStyle" xmi:id="_nmDW1ewxEemsT9yKxugBEg"/>
+      <styles xmi:type="notation:EObjectValueStyle" xmi:id="_nmD94uwxEemsT9yKxugBEg" name="BASE_ELEMENT">
+>>>>>>> refs/remotes/origin/master
         <eObjectValue xmi:type="uml:Actor" href="SHS_Project_Management_Definition.uml#_Fv6DAJhDEemfOpj3-Spopg"/>
       </styles>
       <element xsi:nil="true"/>
+<<<<<<< HEAD
       <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_d00J9g0lEequ0fE4ldAyBg" points="[0, 0, 0, 0]$[0, 0, 0, 0]"/>
       <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_d00J9w0lEequ0fE4ldAyBg"/>
       <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_d00J-A0lEequ0fE4ldAyBg"/>
+=======
+      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_nmDW1uwxEemsT9yKxugBEg" points="[0, 0, 0, 0]$[0, 0, 0, 0]"/>
+      <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_nmD94OwxEemsT9yKxugBEg"/>
+      <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_nmD94ewxEemsT9yKxugBEg"/>
+>>>>>>> refs/remotes/origin/master
     </edges>
+<<<<<<< HEAD
     <edges xmi:type="notation:Connector" xmi:id="_d063pA0lEequ0fE4ldAyBg" type="StereotypeCommentLink" source="_YzSNUJhDEemfOpj3-Spopg" target="_d063oA0lEequ0fE4ldAyBg">
       <styles xmi:type="notation:FontStyle" xmi:id="_d063pQ0lEequ0fE4ldAyBg"/>
       <styles xmi:type="notation:EObjectValueStyle" xmi:id="_d07esg0lEequ0fE4ldAyBg" name="BASE_ELEMENT">
+=======
+    <edges xmi:type="notation:Connector" xmi:id="_nmL5sOwxEemsT9yKxugBEg" type="StereotypeCommentLink" source="_YzSNUJhDEemfOpj3-Spopg" target="_nmLSoOwxEemsT9yKxugBEg">
+      <styles xmi:type="notation:FontStyle" xmi:id="_nmL5sewxEemsT9yKxugBEg"/>
+      <styles xmi:type="notation:EObjectValueStyle" xmi:id="_nmL5tewxEemsT9yKxugBEg" name="BASE_ELEMENT">
+>>>>>>> refs/remotes/origin/master
         <eObjectValue xmi:type="uml:InformationFlow" href="SHS_Project_Management_Definition.uml#_YzNU0JhDEemfOpj3-Spopg"/>
       </styles>
       <element xsi:nil="true"/>
+<<<<<<< HEAD
       <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_d063pg0lEequ0fE4ldAyBg" points="[0, 0, 0, 0]$[0, 0, 0, 0]"/>
       <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_d07esA0lEequ0fE4ldAyBg"/>
       <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_d07esQ0lEequ0fE4ldAyBg"/>
+=======
+      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_nmL5suwxEemsT9yKxugBEg" points="[0, 0, 0, 0]$[0, 0, 0, 0]"/>
+      <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_nmL5s-wxEemsT9yKxugBEg"/>
+      <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_nmL5tOwxEemsT9yKxugBEg"/>
+>>>>>>> refs/remotes/origin/master
     </edges>
   </notation:Diagram>
   <notation:Diagram xmi:id="_GGygsJg9EemfOpj3-Spopg" type="PapyrusUMLClassDiagram" name="Structure description of the SHS Stakeholders." measurementUnit="Pixel">

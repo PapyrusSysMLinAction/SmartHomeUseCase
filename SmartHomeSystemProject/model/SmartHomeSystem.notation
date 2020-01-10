@@ -98,7 +98,6 @@
         <details xmi:id="_5Xt5AZdrEemqIo5GlFw_bQ" key="tooltip_text" value="High-level organisation description of the SHS Project Management Definition model."/>
         <details xmi:id="_5Xt5ApdrEemqIo5GlFw_bQ" key="pageName" value="High-level organisation description of the SHS Project Management Definition model."/>
         <details xmi:id="_5Xt5A5drEemqIo5GlFw_bQ" key="is_default_navigation" value="true"/>
-        <references href="SHS_Project_Management_Definition.notation#_0MysQJdrEemqIo5GlFw_bQ"/>
       </eAnnotations>
       <children xsi:type="notation:DecorationNode" xmi:id="_DEj18pdlEemqIo5GlFw_bQ" type="Model_NameLabel"/>
       <children xsi:type="notation:BasicCompartment" xmi:id="_DEj185dlEemqIo5GlFw_bQ" type="Model_PackagedElementCompartment">
