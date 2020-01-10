@@ -2,7 +2,7 @@
 <xmi:XMI xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:Blocks="http://www.eclipse.org/papyrus/sysml/1.6/SysML/Blocks" xmlns:ModelElements="http://www.eclipse.org/papyrus/sysml/1.6/SysML/ModelElements" xmlns:PortsAndFlows="http://www.eclipse.org/papyrus/sysml/1.6/SysML/PortsAndFlows" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xsi:schemaLocation="http://www.eclipse.org/papyrus/sysml/1.6/SysML/Blocks http://www.eclipse.org/papyrus/sysml/1.6/SysML#//blocks http://www.eclipse.org/papyrus/sysml/1.6/SysML/ModelElements http://www.eclipse.org/papyrus/sysml/1.6/SysML#//modelelements http://www.eclipse.org/papyrus/sysml/1.6/SysML/PortsAndFlows http://www.eclipse.org/papyrus/sysml/1.6/SysML#//portsandflows">
   <uml:Model xmi:id="_DEgyoJdlEemqIo5GlFw_bQ" name="SHS_ProjectManagementDefinition">
     <ownedComment xmi:type="uml:Comment" xmi:id="_9FrKwJdmEemqIo5GlFw_bQ" annotatedElement="_DEgyoJdlEemqIo5GlFw_bQ">
-      <body>&lt;p>The {@link #_DEgyoJdlEemqIo5GlFw_bQ}&amp;nbsp;model contains all the information related to the project management definition for the {@link #_FQ5xsJdlEemqIo5GlFw_bQ}.&lt;/p>
+      <body>&lt;p>The {@link #_DEgyoJdlEemqIo5GlFw_bQ}&amp;nbsp;model contains all the information related to the project management definition for the {@link SHS_Product_Definition.uml#_FQ5xsJdlEemqIo5GlFw_bQ}.&lt;/p>
 </body>
     </ownedComment>
     <packagedElement xmi:type="uml:Dependency" xmi:id="_dJ-DIJdmEemqIo5GlFw_bQ" name="ProjectStakeholderResponssability" client="_DEgyoJdlEemqIo5GlFw_bQ">
@@ -109,7 +109,6 @@
       <useCase xmi:type="uml:UseCase" href="SHS_OperationalVision.uml#_8Dc5IJb-EeeFsqoIYj-fTQ"/>
       <useCase xmi:type="uml:UseCase" href="SHS_OperationalVision.uml#_CYDqwJb_EeeFsqoIYj-fTQ"/>
       <useCase xmi:type="uml:UseCase" href="SHS_OperationalVision.uml#_3ZnKwJb_EeeFsqoIYj-fTQ"/>
-      <ownedOperation xmi:type="uml:Operation" xmi:id="_9UrFABK1EeqkgP8t9295PQ" name="test"/>
     </packagedElement>
     <packagedElement xmi:type="uml:Package" xmi:id="_0sBHMJghEemfOpj3-Spopg" name="SHS_ProjectStateholders">
       <ownedComment xmi:type="uml:Comment" xmi:id="_QD3XIJjoEemiJJjEotXc9w" annotatedElement="_2SUlkJhAEemfOpj3-Spopg _Fv6DAJhDEemfOpj3-Spopg _0Qu_wJgpEemfOpj3-Spopg _oBYiQDiAEeGe4_sFLbM3Hw _o9C5QDiAEeGe4_sFLbM3Hw">
