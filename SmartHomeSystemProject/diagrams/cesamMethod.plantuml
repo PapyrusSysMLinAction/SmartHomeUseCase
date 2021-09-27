@@ -1,0 +1,22 @@
+@startuml
+
+(*) ..> ===B1=== 
+..> "Maintenir\nla traçabilité\ndes exigences"
+-[hidden]> "Organiser les \nmodèles"
+
+"Maintenir\nla traçabilité\ndes exigences" ..> ===B2===
+
+
+===B1=== ..> "Organiser les \nmodèles" 
+-[hidden]> "Analyser\nles modèles"
+
+"Organiser les \nmodèles" ..> "Analyser\nles besoins\ndes stakeholders"
+..> "Spécifier\nles exigences\nsystème"
+..> "Synthétiser\ndes solutions\nalternatives"
+..> ===B2===
+
+===B1=== ..> "Analyser\nles modèles"
+..> ===B2===
+
+..> (*)
+@enduml
